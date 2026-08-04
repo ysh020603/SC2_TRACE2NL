@@ -1,0 +1,63 @@
+# Tech morphs kept in build order / macro events.
+# Format: from_type -> list of to_types
+tech_morphs:
+  CommandCenter:
+    - OrbitalCommand
+    - PlanetaryFortress
+  Hatchery:
+    - Lair
+  Lair:
+    - Hive
+  Spire:
+    - GreaterSpire
+  Gateway:
+    - WarpGate
+
+# Mode switches / temporary forms — ignored for BO
+ignored_morphs:
+  - SiegeTankSieged
+  - SiegeTank
+  - VikingAssault
+  - VikingFighter
+  - WarpPrismPhasing
+  - WarpPrism
+  - LiberatorAG
+  - Liberator
+  - ThorAP
+  - Thor
+  - HellionTank
+  - Hellbat
+  - OverlordTransport
+  - Overseer
+  - OverseerOversightMode
+  - Overlord
+  - SupplyDepotLowered
+  - SupplyDepot
+  - BarracksFlying
+  - FactoryFlying
+  - StarportFlying
+  - CommandCenterFlying
+  - OrbitalCommandFlying
+  - SpineCrawlerUprooted
+  - SporeCrawlerUprooted
+  - LurkerMPBurrowed
+  - RoachBurrowed
+  - ZerglingBurrowed
+  - HydraliskBurrowed
+  - InfestorBurrowed
+  - SwarmHostBurrowedMP
+  - QueenBurrowed
+  - DroneBurrowed
+  - BanelingBurrowed
+  - UltraliskBurrowed
+  - RavagerBurrowed
+  - LocustMPFlying
+  - Egg
+  - Larva
+  - Cocoon
+  - BanelingCocoon
+  - RavagerCocoon
+  - LurkerMPEgg
+  - OverlordCocoon
+  - BroodLordCocoon
+  - TransportOverlordCocoon

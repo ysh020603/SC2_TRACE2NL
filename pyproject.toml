@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sc2-replay-miner"
+version = "0.1.0"
+description = "Extract bilateral macro events and build orders from SC2Replay files"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "sc2reader==1.9.0",
+    "pandas>=2.0",
+    "pyarrow>=15",
+    "duckdb>=1.0",
+    "pydantic>=2",
+    "PyYAML>=6",
+    "typer>=0.12",
+    "rich>=13",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+    "ruff",
+]
+
+[project.scripts]
+sc2mine = "sc2_replay_miner.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+# Typer requires Annotated/default Option/Argument call patterns; defensive replay parsing
+# intentionally catches broad exceptions so one bad file cannot kill a batch.
+ignore = ["B008", "BLE001", "S110", "TRY004"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

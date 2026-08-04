@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Runtime logs
+logs/*
+!logs/.gitkeep
+
+# Replay binaries (keep directory README / .gitkeep)
+**/*.SC2Replay
+**/*.sc2replay
+
+# Generated parse artifacts (keep README / .gitkeep)
+data/artifacts/**/*.parquet
+data/artifacts/**/*.json
+data/artifacts/**/*.jsonl
+data/artifacts/**/*.md
+!data/artifacts/**/README.md
+!data/artifacts/**/.gitkeep
+
+# Generated full match JSON (keep README / .gitkeep)
+data/full_json/**/*.json
+!data/full_json/**/README.md
+!data/full_json/**/.gitkeep
+
+# Pending replay folders keep structure only
+data/replays/**/*
+!data/replays/**/
+!data/replays/**/README.md
+!data/replays/**/.gitkeep
+!data/replays/README.md
+
+# Archive payloads (keep README / .gitkeep)
+archive/local_ai_logs/**/*
+!archive/local_ai_logs/**/
+!archive/local_ai_logs/**/README.md
+!archive/local_ai_logs/**/.gitkeep
+!archive/local_ai_logs/README.md
+
+# Vendor clones
+vendor/sc2reader/
+vendor/s2protocol/
+vendor/DI-star/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Secrets / local
+.env
+*.local.yaml

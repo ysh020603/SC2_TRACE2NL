@@ -1,0 +1,32 @@
+parser:
+  load_level: 3
+  load_map: false
+  hash_algorithm: sha256
+
+build_order:
+  core_max_seconds: 360
+  strategy_max_seconds: 480
+  key_unit_max_occurrences: 2
+  basic_unit_max_occurrences: 1
+  initial_state_max_seconds: 2
+
+filters:
+  require_1v1: false
+  minimum_duration_seconds: 60
+  exclude_observers: true
+  exclude_neutral_units: true
+
+output:
+  format: parquet
+  compression: zstd
+  write_json_preview: true
+  write_full_match_json: true
+  # Mirrored data roots (see README.md)
+  replays_root: data/replays
+  artifacts_root: data/artifacts
+  full_json_root: data/full_json
+
+runtime:
+  workers: 4
+  chunk_size: 100
+
