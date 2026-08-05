@@ -44,6 +44,22 @@ data/replays/**/*
 !data/replays/**/.gitkeep
 !data/replays/README.md
 
+# Raw Blizzard replay extract:
+# - ignore all binaries / staging / logs under raw_data
+# - keep directory skeleton, README, docs, and manifest.json
+raw_data/**
+!raw_data/
+!raw_data/README.md
+!raw_data/manifest.json
+!raw_data/docs/
+!raw_data/docs/**
+!raw_data/by_matchup/
+!raw_data/by_matchup/*/
+!raw_data/by_matchup/*/.gitkeep
+!raw_data/logs/
+!raw_data/logs/.gitkeep
+raw_data/_staging/
+
 # Archive payloads (keep README / .gitkeep)
 archive/local_ai_logs/**/*
 !archive/local_ai_logs/**/
