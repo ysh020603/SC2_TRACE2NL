@@ -1,0 +1,280 @@
+{
+  "skill_id": "zerg_roach_hydra_zvp_v1",
+  "race": "zerg",
+  "opponent_race": "protoss",
+  "base_family": "roach_hydra",
+  "opening_archetype": "roach_hydra",
+  "version": "1.0",
+  "automation_profile": "roach_hydra",
+  "applicability": {
+    "patch_groups": [
+      "4.10.x"
+    ],
+    "mmr_range": [],
+    "maps": [],
+    "primary_matchup": "ZvP"
+  },
+  "objective": "Play roach hydra as Zerg vs Protoss, adapting the next 60–120s macro queue to observable enemy style tags.",
+  "default_policy": [
+    "Open Hatch/Pool/gas into Roach Warren.",
+    "Add Hydralisk Den after Lair or when ground anti-air is required.",
+    "Keep Drone count healthy before mass Hydra."
+  ],
+  "phase_targets": [
+    {
+      "phase": "opening",
+      "window": [
+        0,
+        210
+      ]
+    },
+    {
+      "phase": "response",
+      "window": [
+        210,
+        420
+      ]
+    },
+    {
+      "phase": "transition",
+      "window": [
+        420,
+        720
+      ]
+    }
+  ],
+  "response_rules": [
+    {
+      "rule_id": "R_ZP_roach_hydra_air_or_high_tech",
+      "priority": 20,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "air_or_high_tech"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent shows air tech or high-tech commitment.",
+      "response_package": {
+        "composition_adjustment": [],
+        "technology_adjustment": [
+          "Add anti-air units/tech appropriate to your race (Vikings/Thors, Stalkers/Void, Hydra/Spore).",
+          "Keep a ground baseline while tech completes."
+        ],
+        "production_adjustment": [],
+        "economy_adjustment": []
+      },
+      "do_not": [
+        "Do not ignore anti-air while continuing pure ground all-in."
+      ],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 75,
+        "unique_players": null,
+        "raw_winrate": 0.3733333333333333,
+        "adjusted_lift": null,
+        "interval": [
+          0.2725580313531414,
+          0.4864524402760493
+        ],
+        "confidence": "C"
+      }
+    },
+    {
+      "rule_id": "R_ZP_roach_hydra_static_defense",
+      "priority": 20,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "static_defense"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent invests in early static defense.",
+      "response_package": {
+        "composition_adjustment": [],
+        "technology_adjustment": [
+          "Favor efficient tech/units that beat static lines; keep expanding if safe."
+        ],
+        "production_adjustment": [],
+        "economy_adjustment": []
+      },
+      "do_not": [
+        "Do not mirror unnecessary static defense."
+      ],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 42,
+        "unique_players": null,
+        "raw_winrate": 0.4523809523809524,
+        "adjusted_lift": null,
+        "interval": [
+          0.3122316381863852,
+          0.6005113725287732
+        ],
+        "confidence": "D"
+      }
+    },
+    {
+      "rule_id": "R_ZP_roach_hydra_multi_production",
+      "priority": 20,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "multi_production"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent has multiple production structures.",
+      "response_package": {
+        "composition_adjustment": [],
+        "technology_adjustment": [
+          "Increase your own production or tighten tech that enables higher army quality."
+        ],
+        "production_adjustment": [],
+        "economy_adjustment": []
+      },
+      "do_not": [],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 27,
+        "unique_players": null,
+        "raw_winrate": 0.3703703703703703,
+        "adjusted_lift": null,
+        "interval": [
+          0.2153228706793685,
+          0.5577109537655369
+        ],
+        "confidence": "D"
+      }
+    },
+    {
+      "rule_id": "R_ZP_roach_hydra_standard_macro",
+      "priority": 40,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "standard_macro"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent looks like standard macro.",
+      "response_package": {
+        "composition_adjustment": [
+          "Follow default opening policy for this decision window."
+        ],
+        "technology_adjustment": [],
+        "production_adjustment": [],
+        "economy_adjustment": []
+      },
+      "do_not": [],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 20,
+        "unique_players": null,
+        "raw_winrate": 0.4,
+        "adjusted_lift": null,
+        "interval": [
+          0.2188039674141927,
+          0.613422057684794
+        ],
+        "confidence": "D"
+      }
+    },
+    {
+      "rule_id": "R_ZP_roach_hydra_one_base_pressure",
+      "priority": 20,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "one_base_pressure"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent shows one-base high production pressure.",
+      "response_package": {
+        "composition_adjustment": [],
+        "technology_adjustment": [
+          "Prioritize unit production and static/tech defense prerequisites over third base.",
+          "Delay greedy tech that does not help immediate survival."
+        ],
+        "production_adjustment": [],
+        "economy_adjustment": []
+      },
+      "do_not": [
+        "Do not queue a greedy third base this decision window."
+      ],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 17,
+        "unique_players": null,
+        "raw_winrate": 0.2352941176470588,
+        "adjusted_lift": null,
+        "interval": [
+          0.0955488907167594,
+          0.4726224588917159
+        ],
+        "confidence": "D"
+      }
+    }
+  ],
+  "transition_rules": [
+    "After core composition is online, scale economy or add the next tech tier only with visible prerequisites."
+  ],
+  "invariants": [
+    "No attack/scout/micro/position commands.",
+    "No duplicate of Under Construction / Active Queue items."
+  ],
+  "abandon_conditions": [
+    "Hard enemy counter with available pivot tech: drop unstarted luxury tech from next queue."
+  ],
+  "fallback_policy": [
+    "Open Hatch/Pool/gas into Roach Warren.",
+    "Add Hydralisk Den after Lair or when ground anti-air is required."
+  ],
+  "sample_size": 117,
+  "baseline_winrate": 0.38461538461538464,
+  "evidence_refs": [
+    "analysis/outputs/11_matchup_subtypes/response_value_lite.csv"
+  ]
+}

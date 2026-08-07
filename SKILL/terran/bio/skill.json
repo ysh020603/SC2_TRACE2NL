@@ -1,0 +1,280 @@
+{
+  "skill_id": "terran_bio_tvp_v1",
+  "race": "terran",
+  "opponent_race": "protoss",
+  "base_family": "bio",
+  "opening_archetype": "bio",
+  "version": "1.0",
+  "automation_profile": "bio",
+  "applicability": {
+    "patch_groups": [
+      "4.10.x"
+    ],
+    "mmr_range": [],
+    "maps": [],
+    "primary_matchup": "TvP"
+  },
+  "objective": "Play bio as Terran vs Protoss, adapting the next 60–120s macro queue to observable enemy style tags.",
+  "default_policy": [
+    "0-180s: Barracks into Orbital/Expand; keep SCV production continuous.",
+    "180-300s: Factory then Starport; build Marines/Marauders; add Tech Lab as needed.",
+    "Prefer two-base bio timing before heavy air tech."
+  ],
+  "phase_targets": [
+    {
+      "phase": "opening",
+      "window": [
+        0,
+        210
+      ]
+    },
+    {
+      "phase": "response",
+      "window": [
+        210,
+        420
+      ]
+    },
+    {
+      "phase": "transition",
+      "window": [
+        420,
+        720
+      ]
+    }
+  ],
+  "response_rules": [
+    {
+      "rule_id": "R_TP_bio_air_or_high_tech",
+      "priority": 20,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "air_or_high_tech"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent shows air tech or high-tech commitment.",
+      "response_package": {
+        "composition_adjustment": [],
+        "technology_adjustment": [
+          "Add anti-air units/tech appropriate to your race (Vikings/Thors, Stalkers/Void, Hydra/Spore).",
+          "Keep a ground baseline while tech completes."
+        ],
+        "production_adjustment": [],
+        "economy_adjustment": []
+      },
+      "do_not": [
+        "Do not ignore anti-air while continuing pure ground all-in."
+      ],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 10165,
+        "unique_players": null,
+        "raw_winrate": 0.4479094933595671,
+        "adjusted_lift": null,
+        "interval": [
+          0.4382637349821975,
+          0.4575946093940193
+        ],
+        "confidence": "A"
+      }
+    },
+    {
+      "rule_id": "R_TP_bio_multi_production",
+      "priority": 20,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "multi_production"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent has multiple production structures.",
+      "response_package": {
+        "composition_adjustment": [],
+        "technology_adjustment": [
+          "Increase your own production or tighten tech that enables higher army quality."
+        ],
+        "production_adjustment": [],
+        "economy_adjustment": []
+      },
+      "do_not": [],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 4466,
+        "unique_players": null,
+        "raw_winrate": 0.4162561576354679,
+        "adjusted_lift": null,
+        "interval": [
+          0.401876832310096,
+          0.4307794300505209
+        ],
+        "confidence": "A"
+      }
+    },
+    {
+      "rule_id": "R_TP_bio_static_defense",
+      "priority": 20,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "static_defense"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent invests in early static defense.",
+      "response_package": {
+        "composition_adjustment": [],
+        "technology_adjustment": [
+          "Favor efficient tech/units that beat static lines; keep expanding if safe."
+        ],
+        "production_adjustment": [],
+        "economy_adjustment": []
+      },
+      "do_not": [
+        "Do not mirror unnecessary static defense."
+      ],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 2981,
+        "unique_players": null,
+        "raw_winrate": 0.5447836296544784,
+        "adjusted_lift": null,
+        "interval": [
+          0.5268603486594712,
+          0.562591634320128
+        ],
+        "confidence": "A"
+      }
+    },
+    {
+      "rule_id": "R_TP_bio_one_base_pressure",
+      "priority": 20,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "one_base_pressure"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent shows one-base high production pressure.",
+      "response_package": {
+        "composition_adjustment": [],
+        "technology_adjustment": [
+          "Prioritize unit production and static/tech defense prerequisites over third base.",
+          "Delay greedy tech that does not help immediate survival."
+        ],
+        "production_adjustment": [],
+        "economy_adjustment": []
+      },
+      "do_not": [
+        "Do not queue a greedy third base this decision window."
+      ],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 2534,
+        "unique_players": null,
+        "raw_winrate": 0.4313338595106551,
+        "adjusted_lift": null,
+        "interval": [
+          0.4121685165645156,
+          0.4507070860735687
+        ],
+        "confidence": "A"
+      }
+    },
+    {
+      "rule_id": "R_TP_bio_standard_macro",
+      "priority": 40,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "standard_macro"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent looks like standard macro.",
+      "response_package": {
+        "composition_adjustment": [
+          "Follow default opening policy for this decision window."
+        ],
+        "technology_adjustment": [],
+        "production_adjustment": [],
+        "economy_adjustment": []
+      },
+      "do_not": [],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 2404,
+        "unique_players": null,
+        "raw_winrate": 0.5008319467554077,
+        "adjusted_lift": null,
+        "interval": [
+          0.4808590810663561,
+          0.5208021577792558
+        ],
+        "confidence": "A"
+      }
+    }
+  ],
+  "transition_rules": [
+    "After core composition is online, scale economy or add the next tech tier only with visible prerequisites."
+  ],
+  "invariants": [
+    "No attack/scout/micro/position commands.",
+    "No duplicate of Under Construction / Active Queue items."
+  ],
+  "abandon_conditions": [
+    "Hard enemy counter with available pivot tech: drop unstarted luxury tech from next queue."
+  ],
+  "fallback_policy": [
+    "0-180s: Barracks into Orbital/Expand; keep SCV production continuous.",
+    "180-300s: Factory then Starport; build Marines/Marauders; add Tech Lab as needed."
+  ],
+  "sample_size": 15222,
+  "baseline_winrate": 0.46216003153330704,
+  "evidence_refs": [
+    "analysis/outputs/11_matchup_subtypes/response_value_lite.csv"
+  ]
+}

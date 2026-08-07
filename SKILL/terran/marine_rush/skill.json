@@ -1,0 +1,281 @@
+{
+  "skill_id": "terran_marine_rush_tvt_v1",
+  "race": "terran",
+  "opponent_race": "terran",
+  "base_family": "marine_rush",
+  "opening_archetype": "marine_rush",
+  "version": "1.0",
+  "automation_profile": "marine_rush",
+  "applicability": {
+    "patch_groups": [
+      "4.10.x"
+    ],
+    "mmr_range": [],
+    "maps": [],
+    "primary_matchup": "TvT"
+  },
+  "objective": "Play marine rush as Terran vs Terran, adapting the next 60–120s macro queue to observable enemy style tags.",
+  "default_policy": [
+    "0-180s: prioritize Barracks production and Marines over late expand.",
+    "Keep high Marine count; add Stim if Engineering Bay/Tech Lab available.",
+    "If expand is delayed past ~3:30 without map pressure, pivot to standard bio expand."
+  ],
+  "phase_targets": [
+    {
+      "phase": "opening",
+      "window": [
+        0,
+        210
+      ]
+    },
+    {
+      "phase": "response",
+      "window": [
+        210,
+        420
+      ]
+    },
+    {
+      "phase": "transition",
+      "window": [
+        420,
+        720
+      ]
+    }
+  ],
+  "response_rules": [
+    {
+      "rule_id": "R_TT_marine_rush_multi_production",
+      "priority": 20,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "multi_production"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent has multiple production structures.",
+      "response_package": {
+        "composition_adjustment": [],
+        "technology_adjustment": [
+          "Increase your own production or tighten tech that enables higher army quality."
+        ],
+        "production_adjustment": [],
+        "economy_adjustment": []
+      },
+      "do_not": [],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 283,
+        "unique_players": null,
+        "raw_winrate": 0.5865724381625441,
+        "adjusted_lift": null,
+        "interval": [
+          0.5284116100508168,
+          0.6424143789270719
+        ],
+        "confidence": "B"
+      }
+    },
+    {
+      "rule_id": "R_TT_marine_rush_static_defense",
+      "priority": 20,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "static_defense"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent invests in early static defense.",
+      "response_package": {
+        "composition_adjustment": [],
+        "technology_adjustment": [
+          "Favor efficient tech/units that beat static lines; keep expanding if safe."
+        ],
+        "production_adjustment": [],
+        "economy_adjustment": []
+      },
+      "do_not": [
+        "Do not mirror unnecessary static defense."
+      ],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 199,
+        "unique_players": null,
+        "raw_winrate": 0.4623115577889447,
+        "adjusted_lift": null,
+        "interval": [
+          0.394408011243114,
+          0.5316426608083785
+        ],
+        "confidence": "C"
+      }
+    },
+    {
+      "rule_id": "R_TT_marine_rush_one_base_pressure",
+      "priority": 20,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "one_base_pressure"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent shows one-base high production pressure.",
+      "response_package": {
+        "composition_adjustment": [],
+        "technology_adjustment": [
+          "Prioritize unit production and static/tech defense prerequisites over third base.",
+          "Delay greedy tech that does not help immediate survival."
+        ],
+        "production_adjustment": [],
+        "economy_adjustment": []
+      },
+      "do_not": [
+        "Do not queue a greedy third base this decision window."
+      ],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 173,
+        "unique_players": null,
+        "raw_winrate": 0.4277456647398844,
+        "adjusted_lift": null,
+        "interval": [
+          0.3563776198066198,
+          0.502252928661614
+        ],
+        "confidence": "C"
+      }
+    },
+    {
+      "rule_id": "R_TT_marine_rush_fast_expand",
+      "priority": 20,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "fast_expand"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent is expanding quickly with lower immediate pressure.",
+      "response_package": {
+        "composition_adjustment": [
+          "Avoid over-investing in static defense."
+        ],
+        "technology_adjustment": [],
+        "production_adjustment": [],
+        "economy_adjustment": [
+          "Match economy: take or secure your next expansion if supply and production allow."
+        ]
+      },
+      "do_not": [
+        "Do not all-in with incomplete production."
+      ],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 103,
+        "unique_players": null,
+        "raw_winrate": 0.5339805825242718,
+        "adjusted_lift": null,
+        "interval": [
+          0.4381597104528459,
+          0.6273578407631598
+        ],
+        "confidence": "C"
+      }
+    },
+    {
+      "rule_id": "R_TT_marine_rush_factory_or_roach_commit",
+      "priority": 20,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "factory_or_roach_commit"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent commits Factory ground or Roach-style composition.",
+      "response_package": {
+        "composition_adjustment": [
+          "Adjust composition toward suitable counters (Immortals/Tanks/Roach-Hydra as fits)."
+        ],
+        "technology_adjustment": [],
+        "production_adjustment": [],
+        "economy_adjustment": []
+      },
+      "do_not": [],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 68,
+        "unique_players": null,
+        "raw_winrate": 0.4852941176470588,
+        "adjusted_lift": null,
+        "interval": [
+          0.370506471844866,
+          0.6016545045253707
+        ],
+        "confidence": "C"
+      }
+    }
+  ],
+  "transition_rules": [
+    "After core composition is online, scale economy or add the next tech tier only with visible prerequisites."
+  ],
+  "invariants": [
+    "No attack/scout/micro/position commands.",
+    "No duplicate of Under Construction / Active Queue items."
+  ],
+  "abandon_conditions": [
+    "Hard enemy counter with available pivot tech: drop unstarted luxury tech from next queue."
+  ],
+  "fallback_policy": [
+    "0-180s: prioritize Barracks production and Marines over late expand.",
+    "Keep high Marine count; add Stim if Engineering Bay/Tech Lab available."
+  ],
+  "sample_size": 573,
+  "baseline_winrate": 0.5619546247818499,
+  "evidence_refs": [
+    "analysis/outputs/11_matchup_subtypes/response_value_lite.csv"
+  ]
+}

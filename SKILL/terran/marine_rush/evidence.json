@@ -1,0 +1,63 @@
+{
+  "skill_id": "terran_marine_rush_tvt_v1",
+  "n_players_rows": 573,
+  "baseline_winrate": 0.5619546247818499,
+  "response_rule_evidence": [
+    {
+      "rule_id": "R_TT_marine_rush_multi_production",
+      "n": 283,
+      "raw_winrate": 0.5865724381625441,
+      "wilson": [
+        0.5284116100508168,
+        0.6424143789270719
+      ],
+      "reliability": "B"
+    },
+    {
+      "rule_id": "R_TT_marine_rush_static_defense",
+      "n": 199,
+      "raw_winrate": 0.4623115577889447,
+      "wilson": [
+        0.394408011243114,
+        0.5316426608083785
+      ],
+      "reliability": "C"
+    },
+    {
+      "rule_id": "R_TT_marine_rush_one_base_pressure",
+      "n": 173,
+      "raw_winrate": 0.4277456647398844,
+      "wilson": [
+        0.3563776198066198,
+        0.502252928661614
+      ],
+      "reliability": "C"
+    },
+    {
+      "rule_id": "R_TT_marine_rush_fast_expand",
+      "n": 103,
+      "raw_winrate": 0.5339805825242718,
+      "wilson": [
+        0.4381597104528459,
+        0.6273578407631598
+      ],
+      "reliability": "C"
+    },
+    {
+      "rule_id": "R_TT_marine_rush_factory_or_roach_commit",
+      "n": 68,
+      "raw_winrate": 0.4852941176470588,
+      "wilson": [
+        0.370506471844866,
+        0.6016545045253707
+      ],
+      "reliability": "C"
+    }
+  ],
+  "notes": [
+    "Winrates are associational from ordered-intent openings.",
+    "Opponent styles are oracle labels from full opponent BO features; online agent must map intel → tags.",
+    "Pilot rules prioritize coverage; only grade A/B cells should be treated as strong."
+  ],
+  "generated_at": "2026-08-06T11:23:02.391943+00:00"
+}

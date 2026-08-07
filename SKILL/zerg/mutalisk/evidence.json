@@ -1,0 +1,63 @@
+{
+  "skill_id": "zerg_mutalisk_zvz_v1",
+  "n_players_rows": 384,
+  "baseline_winrate": 0.5130208333333334,
+  "response_rule_evidence": [
+    {
+      "rule_id": "R_ZZ_mutalisk_factory_or_roach_commit",
+      "n": 153,
+      "raw_winrate": 0.5228758169934641,
+      "wilson": [
+        0.4441434424419078,
+        0.6004875738190842
+      ],
+      "reliability": "C"
+    },
+    {
+      "rule_id": "R_ZZ_mutalisk_standard_macro",
+      "n": 126,
+      "raw_winrate": 0.492063492063492,
+      "wilson": [
+        0.4063047244513012,
+        0.5782918917333423
+      ],
+      "reliability": "C"
+    },
+    {
+      "rule_id": "R_ZZ_mutalisk_static_defense",
+      "n": 99,
+      "raw_winrate": 0.5151515151515151,
+      "wilson": [
+        0.4179916540057243,
+        0.6111794207344587
+      ],
+      "reliability": "C"
+    },
+    {
+      "rule_id": "R_ZZ_mutalisk_fast_expand",
+      "n": 13,
+      "raw_winrate": 0.5384615384615384,
+      "wilson": [
+        0.2914343243183205,
+        0.7679424569851186
+      ],
+      "reliability": "D"
+    },
+    {
+      "rule_id": "R_ZZ_mutalisk_one_base_pressure",
+      "n": 9,
+      "raw_winrate": 0.6666666666666666,
+      "wilson": [
+        0.3541973474990897,
+        0.879418401317257
+      ],
+      "reliability": "D"
+    }
+  ],
+  "notes": [
+    "Winrates are associational from ordered-intent openings.",
+    "Opponent styles are oracle labels from full opponent BO features; online agent must map intel → tags.",
+    "Pilot rules prioritize coverage; only grade A/B cells should be treated as strong."
+  ],
+  "generated_at": "2026-08-06T11:23:02.454520+00:00"
+}

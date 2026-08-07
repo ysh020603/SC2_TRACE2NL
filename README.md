@@ -13,6 +13,7 @@ This repository is intended for agents and humans who need a clear, repeatable d
 
 - Do **not** install StarCraft II, PySC2, or play replays in a game client.
 - Main parser: `sc2reader==1.9.0` with `load_level=3` (metadata + players + tracker events).
+- Independent action parser: `load_level=4` for macro commands when tracker events are absent.
 - Active dataset scope: **human vs human** games only.
 - Local AI / agent combat logs are out of scope. See [`archive/local_ai_logs/README.md`](archive/local_ai_logs/README.md).
 
@@ -49,6 +50,7 @@ data/
   replays/<category>/       # pending .SC2Replay inputs
   artifacts/<category>/     # parquet, reports, errors, previews (NOT full JSON)
   full_json/<category>/     # complete match JSON only
+  action_json/              # command-derived macro JSON (generated)
 archive/
   local_ai_logs/            # archived non-human samples
 ```
@@ -112,6 +114,48 @@ bash scripts/download_test_replays.sh
 bash scripts/run_small_batch.sh sc2reader_official
 ```
 
+## Macro action parser (`game.events`)
+
+The original tracker parser remains unchanged. For Blizzard AI/ML replay packs that
+do not contain `replay.tracker.events`, use the independent action parser:
+
+```bash
+# One replay
+sc2mine parse-actions-file path/to/game.SC2Replay \
+  --json-out data/action_json \
+  --action-database data_sc2_260701/data_base_sc2_260701.json
+
+# A directory
+sc2mine parse-actions-dir raw_data/by_matchup/TvZ \
+  --json-out data/action_json/TvZ \
+  --workers 4
+
+# Deterministic sample
+sc2mine parse-actions-dir raw_data/by_matchup/TvZ \
+  --json-out raw_data/logs/action_sample/TvZ \
+  --limit 40 --seed 42 --workers 4
+```
+
+This parser retains only player-issued macro commands:
+
+- production: workers and army units
+- construction: buildings and add-ons
+- tech morphs: Lair/Hive, Orbital Command, Warp Gate, and similar
+- upgrade/research commands
+
+It excludes attack, move, right-click, selection, control-group, camera, and other
+micro actions. Target coordinates and unit locations are not exported.
+
+The result is command intent, not observed game state. Every item uses
+`action: "ordered"`, `source: "game_events"`, and `observed_completed: false`.
+The original replay name remains in `ability`; `standard_action_name` is the
+canonical `Ability.name` from `data_sc2_260701/data_base_sc2_260701.json`
+(for example, `BuildSupplyDepot` maps to `TERRANBUILD_SUPPLYDEPOT`).
+Unresolved database gaps are returned as `null` and listed in
+`unmapped_abilities`; they are never silently replaced with a guessed name.
+Estimated completion time uses sc2reader balance build time and does not prove that
+the command completed. See each JSON's `data_quality` block.
+
 ## Output meanings
 
 ### Artifacts (`data/artifacts/<category>/`)
@@ -159,6 +203,8 @@ ruff check .
 2. Tournament rooms may have `mmr = null`.
 3. `UnitTypeChangeEvent` keeps tech morphs only (whitelist).
 4. Local AI/agent replays are archived and not part of the active pipeline.
+5. Action JSON cannot confirm completion, deaths, resources, supply, or reliably
+   associate cancel commands; very short games may have an empty build order.
 
 ## Project map
 
@@ -170,6 +216,24 @@ tests/                   # pytest suite
 data/replays/            # pending human replays by category
 data/artifacts/          # parse intermediates by category
 data/full_json/          # complete match JSON by category
+data/action_json/        # generated macro-command JSON
 archive/local_ai_logs/   # out-of-scope AI log samples
 vendor/                  # optional external references (not required at runtime)
+```
+
+## Related repositories
+
+Knowledge-backed SC2 agent lives **outside** this repo (sibling checkout), not under `vendor/`.
+
+| Local path | Remote | Branch |
+|------------|--------|--------|
+| `../SC2-Agent-knowlegde` | [ysh020603/SC2-Agent-260510](https://github.com/ysh020603/SC2-Agent-260510/tree/SC2-Agent-knowlegde) | `SC2-Agent-knowlegde` |
+
+Clone / refresh next to this repository:
+
+```bash
+# from parent of SC2trace2nl, e.g. /data2/shy_2608
+git clone --branch SC2-Agent-knowlegde \
+  git@github.com:ysh020603/SC2-Agent-260510.git SC2-Agent-knowlegde
+git -C SC2-Agent-knowlegde pull --ff-only origin SC2-Agent-knowlegde
 ```

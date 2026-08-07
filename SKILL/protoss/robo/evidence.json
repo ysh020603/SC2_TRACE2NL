@@ -1,0 +1,63 @@
+{
+  "skill_id": "protoss_robo_pvt_v1",
+  "n_players_rows": 11938,
+  "baseline_winrate": 0.5435583849891104,
+  "response_rule_evidence": [
+    {
+      "rule_id": "R_PT_robo_multi_production",
+      "n": 5895,
+      "raw_winrate": 0.53774385072095,
+      "wilson": [
+        0.5249958874891574,
+        0.5504426528506952
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_PT_robo_fast_expand",
+      "n": 5358,
+      "raw_winrate": 0.5061590145576708,
+      "wilson": [
+        0.4927721355108113,
+        0.5195370681031112
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_PT_robo_static_defense",
+      "n": 4428,
+      "raw_winrate": 0.5501355013550135,
+      "wilson": [
+        0.5354452830113294,
+        0.5647388029903002
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_PT_robo_one_base_pressure",
+      "n": 2279,
+      "raw_winrate": 0.5072400175515577,
+      "wilson": [
+        0.4867189168724781,
+        0.5277367510109177
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_PT_robo_factory_or_roach_commit",
+      "n": 1554,
+      "raw_winrate": 0.4845559845559845,
+      "wilson": [
+        0.4597765899617006,
+        0.509411548293177
+      ],
+      "reliability": "A"
+    }
+  ],
+  "notes": [
+    "Winrates are associational from ordered-intent openings.",
+    "Opponent styles are oracle labels from full opponent BO features; online agent must map intel → tags.",
+    "Pilot rules prioritize coverage; only grade A/B cells should be treated as strong."
+  ],
+  "generated_at": "2026-08-06T11:23:02.403207+00:00"
+}

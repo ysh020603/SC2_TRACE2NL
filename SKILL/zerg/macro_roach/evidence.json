@@ -1,0 +1,63 @@
+{
+  "skill_id": "zerg_macro_roach_zvt_v1",
+  "n_players_rows": 18185,
+  "baseline_winrate": 0.4988177069012923,
+  "response_rule_evidence": [
+    {
+      "rule_id": "R_ZT_macro_roach_fast_expand",
+      "n": 9626,
+      "raw_winrate": 0.4479534593808435,
+      "wilson": [
+        0.4380418783674222,
+        0.4579065658935923
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_ZT_macro_roach_multi_production",
+      "n": 7429,
+      "raw_winrate": 0.5275272580428052,
+      "wilson": [
+        0.5161631890910743,
+        0.5388628725432809
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_ZT_macro_roach_static_defense",
+      "n": 4678,
+      "raw_winrate": 0.5156049593843522,
+      "wilson": [
+        0.5012766631701528,
+        0.5299076468671624
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_ZT_macro_roach_factory_or_roach_commit",
+      "n": 4328,
+      "raw_winrate": 0.4410813308687615,
+      "wilson": [
+        0.4263473962823689,
+        0.4559197669490843
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_ZT_macro_roach_one_base_pressure",
+      "n": 2905,
+      "raw_winrate": 0.5376936316695353,
+      "wilson": [
+        0.519525024900944,
+        0.555762677255131
+      ],
+      "reliability": "A"
+    }
+  ],
+  "notes": [
+    "Winrates are associational from ordered-intent openings.",
+    "Opponent styles are oracle labels from full opponent BO features; online agent must map intel → tags.",
+    "Pilot rules prioritize coverage; only grade A/B cells should be treated as strong."
+  ],
+  "generated_at": "2026-08-06T11:23:02.435218+00:00"
+}

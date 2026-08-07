@@ -1,0 +1,63 @@
+{
+  "skill_id": "protoss_four_gate_pvp_v1",
+  "n_players_rows": 4335,
+  "baseline_winrate": 0.4756632064590542,
+  "response_rule_evidence": [
+    {
+      "rule_id": "R_PP_four_gate_air_or_high_tech",
+      "n": 2329,
+      "raw_winrate": 0.4482610562473164,
+      "wilson": [
+        0.4281649338547399,
+        0.4685275805448661
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_PP_four_gate_static_defense",
+      "n": 1258,
+      "raw_winrate": 0.514308426073132,
+      "wilson": [
+        0.4866879107912707,
+        0.5418418190892469
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_PP_four_gate_multi_production",
+      "n": 1242,
+      "raw_winrate": 0.428341384863124,
+      "wilson": [
+        0.4010832729760534,
+        0.4560414208855096
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_PP_four_gate_one_base_pressure",
+      "n": 842,
+      "raw_winrate": 0.3895486935866983,
+      "wilson": [
+        0.357182695035714,
+        0.422917976295656
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_PP_four_gate_standard_macro",
+      "n": 814,
+      "raw_winrate": 0.5024570024570024,
+      "wilson": [
+        0.4681776586019275,
+        0.5367132640412834
+      ],
+      "reliability": "A"
+    }
+  ],
+  "notes": [
+    "Winrates are associational from ordered-intent openings.",
+    "Opponent styles are oracle labels from full opponent BO features; online agent must map intel → tags.",
+    "Pilot rules prioritize coverage; only grade A/B cells should be treated as strong."
+  ],
+  "generated_at": "2026-08-06T11:23:02.423675+00:00"
+}

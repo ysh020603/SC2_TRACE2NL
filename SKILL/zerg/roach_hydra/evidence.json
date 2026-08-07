@@ -1,0 +1,63 @@
+{
+  "skill_id": "zerg_roach_hydra_zvp_v1",
+  "n_players_rows": 117,
+  "baseline_winrate": 0.38461538461538464,
+  "response_rule_evidence": [
+    {
+      "rule_id": "R_ZP_roach_hydra_air_or_high_tech",
+      "n": 75,
+      "raw_winrate": 0.3733333333333333,
+      "wilson": [
+        0.2725580313531414,
+        0.4864524402760493
+      ],
+      "reliability": "C"
+    },
+    {
+      "rule_id": "R_ZP_roach_hydra_static_defense",
+      "n": 42,
+      "raw_winrate": 0.4523809523809524,
+      "wilson": [
+        0.3122316381863852,
+        0.6005113725287732
+      ],
+      "reliability": "D"
+    },
+    {
+      "rule_id": "R_ZP_roach_hydra_multi_production",
+      "n": 27,
+      "raw_winrate": 0.3703703703703703,
+      "wilson": [
+        0.2153228706793685,
+        0.5577109537655369
+      ],
+      "reliability": "D"
+    },
+    {
+      "rule_id": "R_ZP_roach_hydra_standard_macro",
+      "n": 20,
+      "raw_winrate": 0.4,
+      "wilson": [
+        0.2188039674141927,
+        0.613422057684794
+      ],
+      "reliability": "D"
+    },
+    {
+      "rule_id": "R_ZP_roach_hydra_one_base_pressure",
+      "n": 17,
+      "raw_winrate": 0.2352941176470588,
+      "wilson": [
+        0.0955488907167594,
+        0.4726224588917159
+      ],
+      "reliability": "D"
+    }
+  ],
+  "notes": [
+    "Winrates are associational from ordered-intent openings.",
+    "Opponent styles are oracle labels from full opponent BO features; online agent must map intel → tags.",
+    "Pilot rules prioritize coverage; only grade A/B cells should be treated as strong."
+  ],
+  "generated_at": "2026-08-06T11:23:02.444979+00:00"
+}

@@ -1,0 +1,63 @@
+{
+  "skill_id": "terran_two_base_matrix_tanks_tvz_v1",
+  "n_players_rows": 7905,
+  "baseline_winrate": 0.5529411764705883,
+  "response_rule_evidence": [
+    {
+      "rule_id": "R_TZ_two_base_matrix_tanks_standard_macro",
+      "n": 4013,
+      "raw_winrate": 0.5644156491402941,
+      "wilson": [
+        0.5490201347582323,
+        0.5796879527102904
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_TZ_two_base_matrix_tanks_factory_or_roach_commit",
+      "n": 1634,
+      "raw_winrate": 0.5208078335373317,
+      "wilson": [
+        0.4965646416749386,
+        0.5449534147720343
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_TZ_two_base_matrix_tanks_static_defense",
+      "n": 1378,
+      "raw_winrate": 0.5725689404934688,
+      "wilson": [
+        0.5462824336623946,
+        0.598451955575851
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_TZ_two_base_matrix_tanks_fast_expand",
+      "n": 1281,
+      "raw_winrate": 0.5300546448087432,
+      "wilson": [
+        0.5026738972917375,
+        0.5572556691232977
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_TZ_two_base_matrix_tanks_one_base_pressure",
+      "n": 136,
+      "raw_winrate": 0.5514705882352942,
+      "wilson": [
+        0.4676127595959981,
+        0.6325005114192078
+      ],
+      "reliability": "C"
+    }
+  ],
+  "notes": [
+    "Winrates are associational from ordered-intent openings.",
+    "Opponent styles are oracle labels from full opponent BO features; online agent must map intel → tags.",
+    "Pilot rules prioritize coverage; only grade A/B cells should be treated as strong."
+  ],
+  "generated_at": "2026-08-06T11:23:02.381918+00:00"
+}

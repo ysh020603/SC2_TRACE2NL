@@ -82,6 +82,84 @@ print('matchups:', m.get('matchup_counts'))
 PY
 ```
 
+## 宏观指令解析（适用于本批数据）
+
+这批暴雪 AI/ML Replay 没有 `replay.tracker.events`，因此原有 tracker
+解析器无法确认单位出生、建筑完成、死亡、资源和人口状态。不过，
+`replay.game.events` 完整保留了玩家下达的操作指令。
+
+仓库新增了独立解析命令，**不改变原有 tracker 解析流程**：
+
+```bash
+# 单局
+sc2mine parse-actions-file \
+  raw_data/by_matchup/TvZ/<replay>.SC2Replay \
+  --json-out data/action_json/TvZ
+
+# 单个对局目录
+sc2mine parse-actions-dir raw_data/by_matchup/TvZ \
+  --json-out data/action_json/TvZ \
+  --workers 4
+```
+
+新解析器只保留以下宏观指令：
+
+- `production`：生产工人和作战单位；
+- `construction`：建造建筑、气矿和附属建筑；
+- `tech_morph`：基地/科技建筑变形；
+- `upgrade_research`：研究科技和攻防升级。
+
+它会丢弃攻击、移动、右键、选中、编队、相机等微操事件，也不会输出
+目标坐标或单位位置。JSON 保持与现有 full-match 输出相近的结构，但
+`build_order` 的含义是玩家**下达命令**，不是确认完成：
+
+```json
+{
+  "time": "00:24",
+  "event": "construction",
+  "action": "ordered",
+  "name": "SupplyDepot",
+  "ability": "BuildSupplyDepot",
+  "standard_action_name": "TERRANBUILD_SUPPLYDEPOT",
+  "standard_result_name": "SupplyDepot",
+  "standard_result_type": "Unit",
+  "standard_mapping_status": "result_and_semantic",
+  "source": "game_events",
+  "observed_completed": false
+}
+```
+
+`ability` 保留 Replay/sc2reader 原始名称；`standard_action_name` 映射到
+`data_sc2_260701/data_base_sc2_260701.json` 的 `Ability.name`。无法在该
+标准库中找到对应项时不会猜测错误名称，而是输出 `null`，并记录在
+`unmapped_abilities` 和 `data_quality.standard_action_unmapped`。
+
+预计完成时间由命令时间加 sc2reader 的 balance build time 得出，仅供参考。
+每个文件的 `data_quality` 会明确记录不可获得的信息。瞬间退出或不足一分钟
+的极短对局可能没有宏观动作，这不属于解析失败。
+
+### 分层抽样结果（2026-08-05）
+
+按 PvP/PvT/PvZ/TvT/TvZ/ZvZ 各抽 40 局，共 240 局：
+
+- 成功：**240/240（100%）**；
+- 宏观指令：**33,092** 条；
+- `production`：20,831；
+- `construction`：9,850；
+- `tech_morph`：532；
+- `upgrade_research`：1,879；
+- 标准 Action 映射：**33,081/33,092（99.967%）**；
+- 未映射：11 条，均为 `EvolvePathogenGlands`；当前标准库中不存在
+  Pathogen Glands 对应的 Ability/Upgrade 条目；
+- 微操能力泄漏：**0**；
+- 坐标/位置字段：**0**；
+- JSON 格式错误：**0**。
+- 51 个玩家侧没有宏观动作，抽查均为 0～数十秒内结束的极短局；
+  这些文件元数据和事件流均成功读取，不计为解析失败。
+
+抽样结果保存在被 gitignore 的 `raw_data/logs/action_samples/`，不会提交
+大量派生 JSON。
+
 ## 与仓库其他数据的关系
 
 | 路径 | 角色 |
@@ -89,6 +167,7 @@ PY
 | `raw_data/by_matchup/*` | 暴雪官方大批量原始 replay（按对局） |
 | `data/replays/<category>/` | 本仓库解析流水线的待处理输入（小样本/精选） |
 | `data/artifacts/`、`data/full_json/` | `sc2mine` 解析产物 |
+| `data/action_json/` | 基于 game events 的宏观指令 JSON |
 
 建议：需要全量或按种族实验时从 `raw_data` 取数；日常解析仍按 README 主流程把子集拷入 `data/replays/<category>/`。
 

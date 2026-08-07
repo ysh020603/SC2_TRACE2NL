@@ -1,0 +1,63 @@
+{
+  "skill_id": "terran_bio_tvp_v1",
+  "n_players_rows": 15222,
+  "baseline_winrate": 0.46216003153330704,
+  "response_rule_evidence": [
+    {
+      "rule_id": "R_TP_bio_air_or_high_tech",
+      "n": 10165,
+      "raw_winrate": 0.4479094933595671,
+      "wilson": [
+        0.4382637349821975,
+        0.4575946093940193
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_TP_bio_multi_production",
+      "n": 4466,
+      "raw_winrate": 0.4162561576354679,
+      "wilson": [
+        0.401876832310096,
+        0.4307794300505209
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_TP_bio_static_defense",
+      "n": 2981,
+      "raw_winrate": 0.5447836296544784,
+      "wilson": [
+        0.5268603486594712,
+        0.562591634320128
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_TP_bio_one_base_pressure",
+      "n": 2534,
+      "raw_winrate": 0.4313338595106551,
+      "wilson": [
+        0.4121685165645156,
+        0.4507070860735687
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_TP_bio_standard_macro",
+      "n": 2404,
+      "raw_winrate": 0.5008319467554077,
+      "wilson": [
+        0.4808590810663561,
+        0.5208021577792558
+      ],
+      "reliability": "A"
+    }
+  ],
+  "notes": [
+    "Winrates are associational from ordered-intent openings.",
+    "Opponent styles are oracle labels from full opponent BO features; online agent must map intel → tags.",
+    "Pilot rules prioritize coverage; only grade A/B cells should be treated as strong."
+  ],
+  "generated_at": "2026-08-06T11:23:02.370315+00:00"
+}

@@ -13,6 +13,9 @@ import typer
 from rich.console import Console
 
 from sc2_replay_miner import __version__
+from sc2_replay_miner.action_exporters import write_action_match_json
+from sc2_replay_miner.action_models import ActionParsedReplay
+from sc2_replay_miner.action_parser import MacroActionParser
 from sc2_replay_miner.event_utils import format_clock
 from sc2_replay_miner.exporters import (
     append_jsonl,
@@ -27,6 +30,7 @@ from sc2_replay_miner.exporters import (
 from sc2_replay_miner.inspect import inspect_replay
 from sc2_replay_miner.models import ParsedReplay
 from sc2_replay_miner.parser import ReplayParser, default_project_paths
+from sc2_replay_miner.standard_actions import DEFAULT_DATABASE
 from sc2_replay_miner.taxonomy import load_default_config
 from sc2_replay_miner.validation import build_summary_report, load_parse_errors, validate_parsed
 
@@ -83,6 +87,22 @@ def _parse_one(args: tuple[str, str]) -> tuple[dict[str, Any] | None, dict[str, 
 
 def _parsed_from_dict(data: dict[str, Any]) -> ParsedReplay:
     return ParsedReplay.model_validate(data)
+
+
+def _parse_action_one(
+    args: tuple[str, str, str],
+) -> tuple[dict[str, Any] | None, dict[str, Any] | None]:
+    """Worker entry for the independent game-events macro parser."""
+    replay_path, config_dir, action_database = args
+    parser = MacroActionParser(
+        config_dir=config_dir,
+        action_database=action_database,
+    )
+    parsed, err = parser.parse_safe(replay_path)
+    if err is not None:
+        return None, err.model_dump()
+    assert parsed is not None
+    return parsed.model_dump(), None
 
 
 @app.callback()
@@ -237,6 +257,153 @@ def parse_dir_cmd(
         f"failed={len(errors)} rate={report['parse_success_rate']:.2%}"
     )
     console.print(f"artifacts={artifacts}")
+    console.print(f"json_out={json_out}")
+
+
+@app.command("parse-actions-file")
+def parse_actions_file_cmd(
+    replay: Path = typer.Argument(..., exists=True, dir_okay=False, readable=True),
+    json_out: Path = typer.Option(
+        Path("data/action_json"),
+        "--json-out",
+        "-j",
+        help="Macro-action JSON output directory",
+    ),
+    config_dir: Path | None = typer.Option(None, "--config-dir"),
+    action_database: Path = typer.Option(
+        DEFAULT_DATABASE,
+        "--action-database",
+        help="SC2 structured database containing canonical Ability names",
+    ),
+) -> None:
+    """Parse one replay's production/build/research commands; exclude micro."""
+    cfg_dir = _project_config_dir(config_dir)
+    parser = MacroActionParser(
+        config_dir=cfg_dir,
+        action_database=action_database,
+    )
+    parsed, err = parser.parse_safe(replay)
+    if err is not None:
+        console.print(f"[red]Parse failed[/red]: {err.exception_type}: {err.message}")
+        raise typer.Exit(code=1)
+
+    assert parsed is not None
+    output_path = write_action_match_json(
+        parsed,
+        json_out / f"{parsed.replay.replay_id}.json",
+    )
+    per_player = {
+        player.player_id: sum(
+            1 for action in parsed.macro_actions if action.player_id == player.player_id
+        )
+        for player in parsed.players
+        if not player.is_observer
+    }
+    console.print(
+        f"[green]OK[/green] replay_id={parsed.replay.replay_id} "
+        f"macro_actions={len(parsed.macro_actions)}"
+    )
+    console.print(f"per_player={per_player}")
+    console.print(f"json_out={output_path}")
+
+
+@app.command("parse-actions-dir")
+def parse_actions_dir_cmd(
+    directory: Path = typer.Argument(..., exists=True, file_okay=False, readable=True),
+    json_out: Path = typer.Option(
+        Path("data/action_json"),
+        "--json-out",
+        "-j",
+        help="Macro-action JSON output directory",
+    ),
+    workers: int | None = typer.Option(None, "--workers", "-w"),
+    limit: int | None = typer.Option(None, "--limit", min=1),
+    seed: int = typer.Option(42, "--seed"),
+    config_dir: Path | None = typer.Option(None, "--config-dir"),
+    action_database: Path = typer.Option(
+        DEFAULT_DATABASE,
+        "--action-database",
+        help="SC2 structured database containing canonical Ability names",
+    ),
+) -> None:
+    """Batch-parse macro commands from game events without micro or positions."""
+    cfg_dir = _project_config_dir(config_dir)
+    config = load_default_config(cfg_dir)
+    runtime = config.get("runtime", {})
+    if workers is None:
+        workers = int(runtime.get("workers") or min(8, max(1, (os.cpu_count() or 2) // 2)))
+
+    files = _iter_replays(directory)
+    if limit is not None and len(files) > limit:
+        random.seed(seed)
+        files = sorted(random.sample(files, limit))
+    if not files:
+        console.print("[red]No .SC2Replay files found[/red]")
+        raise typer.Exit(code=1)
+
+    json_out.mkdir(parents=True, exist_ok=True)
+    error_path = json_out / "parse_errors.jsonl"
+    if error_path.exists():
+        error_path.unlink()
+    console.print(f"Parsing {len(files)} replays with workers={workers}")
+
+    success = 0
+    errors: list[dict[str, Any]] = []
+    category_counts: dict[str, int] = {}
+    action_total = 0
+    standard_mapped = 0
+    standard_unmapped = 0
+    tasks = [
+        (str(path), str(cfg_dir), str(action_database))
+        for path in files
+    ]
+    with ProcessPoolExecutor(max_workers=workers) as pool:
+        futures = [pool.submit(_parse_action_one, task) for task in tasks]
+        for future in as_completed(futures):
+            parsed_dict, err_dict = future.result()
+            if err_dict is not None:
+                errors.append(err_dict)
+                append_jsonl(error_path, err_dict)
+                continue
+            assert parsed_dict is not None
+            parsed = ActionParsedReplay.model_validate(parsed_dict)
+            write_action_match_json(
+                parsed,
+                json_out / f"{parsed.replay.replay_id}.json",
+            )
+            success += 1
+            action_total += len(parsed.macro_actions)
+            for action in parsed.macro_actions:
+                category_counts[action.category] = category_counts.get(action.category, 0) + 1
+                if action.standard_action_name is None:
+                    standard_unmapped += 1
+                else:
+                    standard_mapped += 1
+
+    summary = {
+        "input_directory": str(directory.resolve()),
+        "sample_seed": seed if limit is not None else None,
+        "requested_limit": limit,
+        "total": len(files),
+        "success": success,
+        "failed": len(errors),
+        "success_rate": success / len(files),
+        "macro_action_count": action_total,
+        "category_counts": category_counts,
+        "standard_action_mapped": standard_mapped,
+        "standard_action_unmapped": standard_unmapped,
+        "micro_actions_included": False,
+        "positions_included": False,
+        "standard_action_database": str(action_database.resolve()),
+    }
+    (json_out / "summary.json").write_text(
+        json.dumps(summary, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+    console.print(
+        f"[green]Done[/green] success={success} failed={len(errors)} "
+        f"rate={summary['success_rate']:.2%} macro_actions={action_total}"
+    )
     console.print(f"json_out={json_out}")
 
 

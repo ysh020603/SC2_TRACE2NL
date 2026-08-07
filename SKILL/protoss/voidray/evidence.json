@@ -1,0 +1,63 @@
+{
+  "skill_id": "protoss_voidray_pvz_v1",
+  "n_players_rows": 3851,
+  "baseline_winrate": 0.5024668917164373,
+  "response_rule_evidence": [
+    {
+      "rule_id": "R_PZ_voidray_standard_macro",
+      "n": 1647,
+      "raw_winrate": 0.4802671523982999,
+      "wilson": [
+        0.4562120374392255,
+        0.504414106219863
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_PZ_voidray_factory_or_roach_commit",
+      "n": 935,
+      "raw_winrate": 0.558288770053476,
+      "wilson": [
+        0.5262836550635293,
+        0.5898168671118835
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_PZ_voidray_fast_expand",
+      "n": 812,
+      "raw_winrate": 0.4926108374384236,
+      "wilson": [
+        0.4583391680981533,
+        0.5269520943233754
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_PZ_voidray_static_defense",
+      "n": 776,
+      "raw_winrate": 0.5257731958762887,
+      "wilson": [
+        0.4905994643628426,
+        0.5606930032357056
+      ],
+      "reliability": "A"
+    },
+    {
+      "rule_id": "R_PZ_voidray_one_base_pressure",
+      "n": 71,
+      "raw_winrate": 0.352112676056338,
+      "wilson": [
+        0.2512258456160325,
+        0.4681815427882774
+      ],
+      "reliability": "C"
+    }
+  ],
+  "notes": [
+    "Winrates are associational from ordered-intent openings.",
+    "Opponent styles are oracle labels from full opponent BO features; online agent must map intel → tags.",
+    "Pilot rules prioritize coverage; only grade A/B cells should be treated as strong."
+  ],
+  "generated_at": "2026-08-06T11:23:02.413218+00:00"
+}

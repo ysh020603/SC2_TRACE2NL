@@ -1,0 +1,281 @@
+{
+  "skill_id": "zerg_mutalisk_zvz_v1",
+  "race": "zerg",
+  "opponent_race": "zerg",
+  "base_family": "mutalisk",
+  "opening_archetype": "mutalisk",
+  "version": "1.0",
+  "automation_profile": "mutalisk",
+  "applicability": {
+    "patch_groups": [
+      "4.10.x"
+    ],
+    "mmr_range": [],
+    "maps": [],
+    "primary_matchup": "ZvZ"
+  },
+  "objective": "Play mutalisk as Zerg vs Zerg, adapting the next 60–120s macro queue to observable enemy style tags.",
+  "default_policy": [
+    "Hatch-first into Lair and Spire.",
+    "Secure second gas before Mutalisk mass.",
+    "Keep enough Queens/Spores if enemy air pressure appears first."
+  ],
+  "phase_targets": [
+    {
+      "phase": "opening",
+      "window": [
+        0,
+        210
+      ]
+    },
+    {
+      "phase": "response",
+      "window": [
+        210,
+        420
+      ]
+    },
+    {
+      "phase": "transition",
+      "window": [
+        420,
+        720
+      ]
+    }
+  ],
+  "response_rules": [
+    {
+      "rule_id": "R_ZZ_mutalisk_factory_or_roach_commit",
+      "priority": 20,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "factory_or_roach_commit"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent commits Factory ground or Roach-style composition.",
+      "response_package": {
+        "composition_adjustment": [
+          "Adjust composition toward suitable counters (Immortals/Tanks/Roach-Hydra as fits)."
+        ],
+        "technology_adjustment": [],
+        "production_adjustment": [],
+        "economy_adjustment": []
+      },
+      "do_not": [],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 153,
+        "unique_players": null,
+        "raw_winrate": 0.5228758169934641,
+        "adjusted_lift": null,
+        "interval": [
+          0.4441434424419078,
+          0.6004875738190842
+        ],
+        "confidence": "C"
+      }
+    },
+    {
+      "rule_id": "R_ZZ_mutalisk_standard_macro",
+      "priority": 40,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "standard_macro"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent looks like standard macro.",
+      "response_package": {
+        "composition_adjustment": [
+          "Follow default opening policy for this decision window."
+        ],
+        "technology_adjustment": [],
+        "production_adjustment": [],
+        "economy_adjustment": []
+      },
+      "do_not": [],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 126,
+        "unique_players": null,
+        "raw_winrate": 0.492063492063492,
+        "adjusted_lift": null,
+        "interval": [
+          0.4063047244513012,
+          0.5782918917333423
+        ],
+        "confidence": "C"
+      }
+    },
+    {
+      "rule_id": "R_ZZ_mutalisk_static_defense",
+      "priority": 20,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "static_defense"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent invests in early static defense.",
+      "response_package": {
+        "composition_adjustment": [],
+        "technology_adjustment": [
+          "Favor efficient tech/units that beat static lines; keep expanding if safe."
+        ],
+        "production_adjustment": [],
+        "economy_adjustment": []
+      },
+      "do_not": [
+        "Do not mirror unnecessary static defense."
+      ],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 99,
+        "unique_players": null,
+        "raw_winrate": 0.5151515151515151,
+        "adjusted_lift": null,
+        "interval": [
+          0.4179916540057243,
+          0.6111794207344587
+        ],
+        "confidence": "C"
+      }
+    },
+    {
+      "rule_id": "R_ZZ_mutalisk_fast_expand",
+      "priority": 20,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "fast_expand"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent is expanding quickly with lower immediate pressure.",
+      "response_package": {
+        "composition_adjustment": [
+          "Avoid over-investing in static defense."
+        ],
+        "technology_adjustment": [],
+        "production_adjustment": [],
+        "economy_adjustment": [
+          "Match economy: take or secure your next expansion if supply and production allow."
+        ]
+      },
+      "do_not": [
+        "Do not all-in with incomplete production."
+      ],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 13,
+        "unique_players": null,
+        "raw_winrate": 0.5384615384615384,
+        "adjusted_lift": null,
+        "interval": [
+          0.2914343243183205,
+          0.7679424569851186
+        ],
+        "confidence": "D"
+      }
+    },
+    {
+      "rule_id": "R_ZZ_mutalisk_one_base_pressure",
+      "priority": 20,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "one_base_pressure"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent shows one-base high production pressure.",
+      "response_package": {
+        "composition_adjustment": [],
+        "technology_adjustment": [
+          "Prioritize unit production and static/tech defense prerequisites over third base.",
+          "Delay greedy tech that does not help immediate survival."
+        ],
+        "production_adjustment": [],
+        "economy_adjustment": []
+      },
+      "do_not": [
+        "Do not queue a greedy third base this decision window."
+      ],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 9,
+        "unique_players": null,
+        "raw_winrate": 0.6666666666666666,
+        "adjusted_lift": null,
+        "interval": [
+          0.3541973474990897,
+          0.879418401317257
+        ],
+        "confidence": "D"
+      }
+    }
+  ],
+  "transition_rules": [
+    "After core composition is online, scale economy or add the next tech tier only with visible prerequisites."
+  ],
+  "invariants": [
+    "No attack/scout/micro/position commands.",
+    "No duplicate of Under Construction / Active Queue items."
+  ],
+  "abandon_conditions": [
+    "Hard enemy counter with available pivot tech: drop unstarted luxury tech from next queue."
+  ],
+  "fallback_policy": [
+    "Hatch-first into Lair and Spire.",
+    "Secure second gas before Mutalisk mass."
+  ],
+  "sample_size": 384,
+  "baseline_winrate": 0.5130208333333334,
+  "evidence_refs": [
+    "analysis/outputs/11_matchup_subtypes/response_value_lite.csv"
+  ]
+}

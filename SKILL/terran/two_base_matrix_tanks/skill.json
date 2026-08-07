@@ -1,0 +1,281 @@
+{
+  "skill_id": "terran_two_base_matrix_tanks_tvz_v1",
+  "race": "terran",
+  "opponent_race": "zerg",
+  "base_family": "two_base_matrix_tanks",
+  "opening_archetype": "two_base_matrix_tanks",
+  "version": "1.0",
+  "automation_profile": "two_base_matrix_tanks",
+  "applicability": {
+    "patch_groups": [
+      "4.10.x"
+    ],
+    "mmr_range": [],
+    "maps": [],
+    "primary_matchup": "TvZ"
+  },
+  "objective": "Play two base matrix tanks as Terran vs Zerg, adapting the next 60–120s macro queue to observable enemy style tags.",
+  "default_policy": [
+    "0-180s: Barracks + Expand + gas.",
+    "180-360s: Factory + Tech Lab; order Siege Tanks; support with Marines.",
+    "Hold third base until tank count and upgrades justify push."
+  ],
+  "phase_targets": [
+    {
+      "phase": "opening",
+      "window": [
+        0,
+        210
+      ]
+    },
+    {
+      "phase": "response",
+      "window": [
+        210,
+        420
+      ]
+    },
+    {
+      "phase": "transition",
+      "window": [
+        420,
+        720
+      ]
+    }
+  ],
+  "response_rules": [
+    {
+      "rule_id": "R_TZ_two_base_matrix_tanks_standard_macro",
+      "priority": 40,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "standard_macro"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent looks like standard macro.",
+      "response_package": {
+        "composition_adjustment": [
+          "Follow default opening policy for this decision window."
+        ],
+        "technology_adjustment": [],
+        "production_adjustment": [],
+        "economy_adjustment": []
+      },
+      "do_not": [],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 4013,
+        "unique_players": null,
+        "raw_winrate": 0.5644156491402941,
+        "adjusted_lift": null,
+        "interval": [
+          0.5490201347582323,
+          0.5796879527102904
+        ],
+        "confidence": "A"
+      }
+    },
+    {
+      "rule_id": "R_TZ_two_base_matrix_tanks_factory_or_roach_commit",
+      "priority": 20,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "factory_or_roach_commit"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent commits Factory ground or Roach-style composition.",
+      "response_package": {
+        "composition_adjustment": [
+          "Adjust composition toward suitable counters (Immortals/Tanks/Roach-Hydra as fits)."
+        ],
+        "technology_adjustment": [],
+        "production_adjustment": [],
+        "economy_adjustment": []
+      },
+      "do_not": [],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 1634,
+        "unique_players": null,
+        "raw_winrate": 0.5208078335373317,
+        "adjusted_lift": null,
+        "interval": [
+          0.4965646416749386,
+          0.5449534147720343
+        ],
+        "confidence": "A"
+      }
+    },
+    {
+      "rule_id": "R_TZ_two_base_matrix_tanks_static_defense",
+      "priority": 20,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "static_defense"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent invests in early static defense.",
+      "response_package": {
+        "composition_adjustment": [],
+        "technology_adjustment": [
+          "Favor efficient tech/units that beat static lines; keep expanding if safe."
+        ],
+        "production_adjustment": [],
+        "economy_adjustment": []
+      },
+      "do_not": [
+        "Do not mirror unnecessary static defense."
+      ],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 1378,
+        "unique_players": null,
+        "raw_winrate": 0.5725689404934688,
+        "adjusted_lift": null,
+        "interval": [
+          0.5462824336623946,
+          0.598451955575851
+        ],
+        "confidence": "A"
+      }
+    },
+    {
+      "rule_id": "R_TZ_two_base_matrix_tanks_fast_expand",
+      "priority": 20,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "fast_expand"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent is expanding quickly with lower immediate pressure.",
+      "response_package": {
+        "composition_adjustment": [
+          "Avoid over-investing in static defense."
+        ],
+        "technology_adjustment": [],
+        "production_adjustment": [],
+        "economy_adjustment": [
+          "Match economy: take or secure your next expansion if supply and production allow."
+        ]
+      },
+      "do_not": [
+        "Do not all-in with incomplete production."
+      ],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 1281,
+        "unique_players": null,
+        "raw_winrate": 0.5300546448087432,
+        "adjusted_lift": null,
+        "interval": [
+          0.5026738972917375,
+          0.5572556691232977
+        ],
+        "confidence": "A"
+      }
+    },
+    {
+      "rule_id": "R_TZ_two_base_matrix_tanks_one_base_pressure",
+      "priority": 20,
+      "phase": {
+        "start": 180,
+        "end": 480
+      },
+      "condition": {
+        "all": [
+          {
+            "field": "enemy_intelligence",
+            "predicate": "style_tag",
+            "values": [
+              "one_base_pressure"
+            ]
+          }
+        ]
+      },
+      "interpretation": "Opponent shows one-base high production pressure.",
+      "response_package": {
+        "composition_adjustment": [],
+        "technology_adjustment": [
+          "Prioritize unit production and static/tech defense prerequisites over third base.",
+          "Delay greedy tech that does not help immediate survival."
+        ],
+        "production_adjustment": [],
+        "economy_adjustment": []
+      },
+      "do_not": [
+        "Do not queue a greedy third base this decision window."
+      ],
+      "fallback_rule": "DEFAULT",
+      "evidence": {
+        "support": 136,
+        "unique_players": null,
+        "raw_winrate": 0.5514705882352942,
+        "adjusted_lift": null,
+        "interval": [
+          0.4676127595959981,
+          0.6325005114192078
+        ],
+        "confidence": "C"
+      }
+    }
+  ],
+  "transition_rules": [
+    "After core composition is online, scale economy or add the next tech tier only with visible prerequisites."
+  ],
+  "invariants": [
+    "No attack/scout/micro/position commands.",
+    "No duplicate of Under Construction / Active Queue items."
+  ],
+  "abandon_conditions": [
+    "Hard enemy counter with available pivot tech: drop unstarted luxury tech from next queue."
+  ],
+  "fallback_policy": [
+    "0-180s: Barracks + Expand + gas.",
+    "180-360s: Factory + Tech Lab; order Siege Tanks; support with Marines."
+  ],
+  "sample_size": 7905,
+  "baseline_winrate": 0.5529411764705883,
+  "evidence_refs": [
+    "analysis/outputs/11_matchup_subtypes/response_value_lite.csv"
+  ]
+}
