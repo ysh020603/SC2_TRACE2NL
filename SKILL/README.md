@@ -1,6 +1,6 @@
 # SC2 Adaptive Skills（plan_2 pilot）
 
-按 `plan_2.md` 第一轮范围生成的 **9 个分种族 pilot Skill**。
+按 [`plans/plan_2.md`](../plans/plan_2.md) 第一轮范围生成的 **9 个分种族 pilot Skill**。
 
 ## 布局
 
