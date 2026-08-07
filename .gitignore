@@ -90,3 +90,15 @@ vendor/DI-star/
 
 # LLM API keys (keep example only; copy to config.json locally)
 API_config/config.json
+
+# Analysis generated data (keep scripts + README / .gitkeep)
+analysis/outputs/**
+!analysis/outputs/
+!analysis/outputs/README.md
+!analysis/outputs/.gitkeep
+analysis/full_parse/logs/**
+!analysis/full_parse/logs/
+!analysis/full_parse/logs/.gitkeep
+analysis/full_parse/state/**
+!analysis/full_parse/state/
+!analysis/full_parse/state/.gitkeep
