@@ -223,17 +223,24 @@ vendor/                  # optional external references (not required at runtime
 
 ## Related repositories
 
-Knowledge-backed SC2 agent is checked out at the **workspace root** (not under `vendor/`). The clone itself is gitignored; only the pin file is tracked.
+Knowledge-backed SC2 agent is a **git submodule** at the workspace root (not under `vendor/`).
 
-| Local path | Remote | Branch | Pin |
-|------------|--------|--------|-----|
-| `SC2-Agent-knowlegde/` | [ysh020603/SC2-Agent-260510](https://github.com/ysh020603/SC2-Agent-260510/tree/SC2-Agent-knowlegde) | `SC2-Agent-knowlegde` | `SC2-Agent-knowlegde.commit.txt` |
+| Local path | Remote | Branch |
+|------------|--------|--------|
+| `SC2-Agent-knowlegde/` | [ysh020603/SC2-Agent-260510](https://github.com/ysh020603/SC2-Agent-260510/tree/SC2-Agent-knowlegde) | `SC2-Agent-knowlegde` |
 
-Clone / refresh from this repository root:
+Clone this repository with the submodule:
 
 ```bash
-git clone --branch SC2-Agent-knowlegde --single-branch \
-  git@github.com:ysh020603/SC2-Agent-260510.git SC2-Agent-knowlegde
-git -C SC2-Agent-knowlegde rev-parse HEAD > SC2-Agent-knowlegde.commit.txt
-git -C SC2-Agent-knowlegde pull --ff-only origin SC2-Agent-knowlegde
+git clone --recurse-submodules git@github.com:ysh020603/SC2_TRACE2NL.git
+# or, if already cloned:
+git submodule update --init --recursive
+```
+
+Update the pinned submodule commit after upstream changes:
+
+```bash
+git submodule update --remote SC2-Agent-knowlegde
+git add SC2-Agent-knowlegde
+git commit -m "Bump SC2-Agent-knowlegde submodule"
 ```
