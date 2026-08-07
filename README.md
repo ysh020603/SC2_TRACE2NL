@@ -37,6 +37,7 @@ SC2trace2nl/
 │   ├── full_json/<category>/      # tracker 路径的完整对局 JSON
 │   └── action_json/<matchup>/     # game.events 宏观指令 JSON
 │
+├── example/                       # 少量已解析 JSON 样例 + 格式说明（可直接阅读）
 ├── raw_data/                      # 暴雪官方大批量 replay（按 PvP/PvT/... 整理）
 ├── data_sc2_260701/               # 标准 Ability/Unit/Upgrade 知识库（动作名映射）
 │
@@ -52,6 +53,8 @@ SC2trace2nl/
 ├── vendor/                        # 可选外部参考钉扎（非运行时依赖）
 └── logs/                          # 运行日志（gitignore 内容）
 ```
+
+快速了解输出格式：见 [`example/README.md`](example/README.md)（含 `action_json` 与 tracker `full_json` 样例）。
 
 二进制 replay、大批量生成 JSON、真实 API key 均不入库；目录骨架（`README.md` / `.gitkeep`）保留在 Git 中。
 
