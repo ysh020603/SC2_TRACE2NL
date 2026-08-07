@@ -223,17 +223,17 @@ vendor/                  # optional external references (not required at runtime
 
 ## Related repositories
 
-Knowledge-backed SC2 agent lives **outside** this repo (sibling checkout), not under `vendor/`.
+Knowledge-backed SC2 agent is checked out at the **workspace root** (not under `vendor/`). The clone itself is gitignored; only the pin file is tracked.
 
-| Local path | Remote | Branch |
-|------------|--------|--------|
-| `../SC2-Agent-knowlegde` | [ysh020603/SC2-Agent-260510](https://github.com/ysh020603/SC2-Agent-260510/tree/SC2-Agent-knowlegde) | `SC2-Agent-knowlegde` |
+| Local path | Remote | Branch | Pin |
+|------------|--------|--------|-----|
+| `SC2-Agent-knowlegde/` | [ysh020603/SC2-Agent-260510](https://github.com/ysh020603/SC2-Agent-260510/tree/SC2-Agent-knowlegde) | `SC2-Agent-knowlegde` | `SC2-Agent-knowlegde.commit.txt` |
 
-Clone / refresh next to this repository:
+Clone / refresh from this repository root:
 
 ```bash
-# from parent of SC2trace2nl, e.g. /data2/shy_2608
-git clone --branch SC2-Agent-knowlegde \
+git clone --branch SC2-Agent-knowlegde --single-branch \
   git@github.com:ysh020603/SC2-Agent-260510.git SC2-Agent-knowlegde
+git -C SC2-Agent-knowlegde rev-parse HEAD > SC2-Agent-knowlegde.commit.txt
 git -C SC2-Agent-knowlegde pull --ff-only origin SC2-Agent-knowlegde
 ```
