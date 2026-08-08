@@ -1,0 +1,50 @@
+{
+  "skill_id": "TvT_O05_SEED_01",
+  "opening_id": "TvT_O05",
+  "race": "Terran",
+  "opponent_race": "Terran",
+  "directional_matchup": "TvT",
+  "method": "ablation_single_trace",
+  "opening": {
+    "id": "TvT_O05",
+    "name": "1-1-1 Opening",
+    "objective": "Early production and gas focus to enable tech and bio units.",
+    "prototype": [
+      "Prod_Barracks",
+      "Gas",
+      "Gas2",
+      "Prod_Factory",
+      "Combat_bio"
+    ],
+    "macro_family": "Tech Opening"
+  },
+  "default_evolution": [
+    {
+      "step_id": "TvT_O05_TRACE_01",
+      "phase": [
+        0,
+        600
+      ],
+      "description": "Follow one winning trajectory nearest to the opening medoid.",
+      "prototype": [
+        "Gas",
+        "Prod_Barracks",
+        "Gas2",
+        "Prod_Factory",
+        "Combat_bio"
+      ],
+      "source_trace": {
+        "replay_id": "2416c512659fd6d669164ad2",
+        "player_id": 2,
+        "key_sequence": "Gas > Prod_Barracks > Gas2 > Prod_Factory > Combat_bio",
+        "distance_to_medoid": 0.41948580845687256
+      }
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

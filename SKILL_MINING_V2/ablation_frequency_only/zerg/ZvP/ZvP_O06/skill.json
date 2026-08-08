@@ -1,0 +1,2311 @@
+{
+  "skill_id": "ZvP_O06",
+  "opening_id": "ZvP_O06",
+  "race": "Zerg",
+  "opponent_race": "Protoss",
+  "directional_matchup": "ZvP",
+  "method": "ablation_frequency_only",
+  "opening": {
+    "id": "ZvP_O06",
+    "name": "Zerg Speedling Expand into Baneling Nest",
+    "objective": "Fast combat units with early gas for potential banelings, while expanding.",
+    "prototype": [
+      "Base",
+      "Prod_SpawningPool",
+      "Gas",
+      "Combat_queen",
+      "Combat_ling_bane"
+    ],
+    "macro_family": "Early Pool with Gas and Queen"
+  },
+  "default_evolution": [
+    {
+      "step_id": "ZvP_O06_DEF_01",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "ZvP_ZvP_O06_T180_OWN_S01",
+      "response": "ZvP_R03",
+      "canonical_actions": [
+        "Drone",
+        "Hatchery",
+        "Overlord",
+        "Lair",
+        "Zergling",
+        "Queen",
+        "Extractor",
+        "Roach",
+        "zerglingmovementspeed",
+        "CreepTumor"
+      ],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S03",
+      "evidence_id": "E_39797_ZvP_O06_ZvP_R03_180"
+    },
+    {
+      "step_id": "ZvP_O06_DEF_02",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "ZvP_ZvP_O06_T180_OWN_S02",
+      "response": "ZvP_R03",
+      "canonical_actions": [
+        "Drone",
+        "Hatchery",
+        "Overlord",
+        "Lair",
+        "Zergling",
+        "Queen",
+        "Extractor",
+        "Roach",
+        "zerglingmovementspeed",
+        "CreepTumor"
+      ],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S06",
+      "evidence_id": "E_39822_ZvP_O06_ZvP_R03_180"
+    },
+    {
+      "step_id": "ZvP_O06_DEF_03",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "ZvP_ZvP_O06_T180_OWN_S05",
+      "response": "ZvP_R01",
+      "canonical_actions": [
+        "Drone",
+        "Overlord",
+        "Extractor",
+        "Queen",
+        "Zergling",
+        "CreepTumor",
+        "Roach",
+        "SporeCrawler",
+        "Lair",
+        "zerglingmovementspeed"
+      ],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S04",
+      "evidence_id": "E_39894_ZvP_O06_ZvP_R01_180"
+    },
+    {
+      "step_id": "ZvP_O06_DEF_04",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "ZvP_ZvP_O06_T180_OWN_S06",
+      "response": "ZvP_R03",
+      "canonical_actions": [
+        "Drone",
+        "Hatchery",
+        "Overlord",
+        "Lair",
+        "Zergling",
+        "Queen",
+        "Extractor",
+        "Roach",
+        "zerglingmovementspeed",
+        "CreepTumor"
+      ],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S06",
+      "evidence_id": "E_39922_ZvP_O06_ZvP_R03_180"
+    },
+    {
+      "step_id": "ZvP_O06_DEF_05",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "ZvP_ZvP_O06_T180_OWN_S07",
+      "response": "ZvP_R01",
+      "canonical_actions": [
+        "Drone",
+        "Overlord",
+        "Extractor",
+        "Queen",
+        "Zergling",
+        "CreepTumor",
+        "Roach",
+        "SporeCrawler",
+        "Lair",
+        "zerglingmovementspeed"
+      ],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S04",
+      "evidence_id": "E_39961_ZvP_O06_ZvP_R01_180"
+    },
+    {
+      "step_id": "ZvP_O06_DEF_06",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "ZvP_ZvP_O06_T240_OWN_S02",
+      "response": "ZvP_R03",
+      "canonical_actions": [
+        "Drone",
+        "Hatchery",
+        "Overlord",
+        "Lair",
+        "Zergling",
+        "Queen",
+        "Extractor",
+        "Roach",
+        "zerglingmovementspeed",
+        "CreepTumor"
+      ],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S02",
+      "evidence_id": "E_40044_ZvP_O06_ZvP_R03_240"
+    },
+    {
+      "step_id": "ZvP_O06_DEF_07",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "ZvP_ZvP_O06_T240_OWN_S03",
+      "response": "ZvP_R01",
+      "canonical_actions": [
+        "Drone",
+        "Overlord",
+        "Extractor",
+        "Queen",
+        "Zergling",
+        "CreepTumor",
+        "Roach",
+        "SporeCrawler",
+        "Lair",
+        "zerglingmovementspeed"
+      ],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S01",
+      "evidence_id": "E_40051_ZvP_O06_ZvP_R01_240"
+    },
+    {
+      "step_id": "ZvP_O06_DEF_08",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "ZvP_ZvP_O06_T240_OWN_S04",
+      "response": "ZvP_R03",
+      "canonical_actions": [
+        "Drone",
+        "Hatchery",
+        "Overlord",
+        "Lair",
+        "Zergling",
+        "Queen",
+        "Extractor",
+        "Roach",
+        "zerglingmovementspeed",
+        "CreepTumor"
+      ],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S01",
+      "evidence_id": "E_40077_ZvP_O06_ZvP_R03_240"
+    },
+    {
+      "step_id": "ZvP_O06_DEF_09",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "ZvP_ZvP_O06_T240_OWN_S06",
+      "response": "ZvP_R01",
+      "canonical_actions": [
+        "Drone",
+        "Overlord",
+        "Extractor",
+        "Queen",
+        "Zergling",
+        "CreepTumor",
+        "Roach",
+        "SporeCrawler",
+        "Lair",
+        "zerglingmovementspeed"
+      ],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S01",
+      "evidence_id": "E_40100_ZvP_O06_ZvP_R01_240"
+    },
+    {
+      "step_id": "ZvP_O06_DEF_10",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "ZvP_ZvP_O06_T240_OWN_S07",
+      "response": "ZvP_R02",
+      "canonical_actions": [
+        "Drone",
+        "Overlord",
+        "Zergling",
+        "RoachWarren",
+        "Queen",
+        "Extractor",
+        "CreepTumor",
+        "HydraliskDen",
+        "BanelingNest",
+        "Roach"
+      ],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S02",
+      "evidence_id": "E_40117_ZvP_O06_ZvP_R02_240"
+    },
+    {
+      "step_id": "ZvP_O06_DEF_11",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "ZvP_ZvP_O06_T240_OWN_S09",
+      "response": "ZvP_R02",
+      "canonical_actions": [
+        "Drone",
+        "Overlord",
+        "Zergling",
+        "RoachWarren",
+        "Queen",
+        "Extractor",
+        "CreepTumor",
+        "HydraliskDen",
+        "BanelingNest",
+        "Roach"
+      ],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S02",
+      "evidence_id": "E_40150_ZvP_O06_ZvP_R02_240"
+    },
+    {
+      "step_id": "ZvP_O06_DEF_12",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "ZvP_ZvP_O06_T300_OWN_S01",
+      "response": "ZvP_R02",
+      "canonical_actions": [
+        "Drone",
+        "Overlord",
+        "Zergling",
+        "RoachWarren",
+        "Queen",
+        "Extractor",
+        "CreepTumor",
+        "HydraliskDen",
+        "BanelingNest",
+        "Roach"
+      ],
+      "next_state": "ZvP_ZvP_O06_T360_OWN_S03",
+      "evidence_id": "E_40155_ZvP_O06_ZvP_R02_300"
+    },
+    {
+      "step_id": "ZvP_O06_DEF_13",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "ZvP_ZvP_O06_T300_OWN_S02",
+      "response": "ZvP_R07",
+      "canonical_actions": [
+        "Drone",
+        "SporeCrawler",
+        "SpineCrawler",
+        "Overlord",
+        "Zergling",
+        "Queen",
+        "CreepTumor",
+        "Roach",
+        "Extractor",
+        "Lair"
+      ],
+      "next_state": "ZvP_ZvP_O06_T360_OWN_S01",
+      "evidence_id": "E_40221_ZvP_O06_ZvP_R07_300"
+    },
+    {
+      "step_id": "ZvP_O06_DEF_14",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "ZvP_ZvP_O06_T300_OWN_S03",
+      "response": "ZvP_R07",
+      "canonical_actions": [
+        "Drone",
+        "SporeCrawler",
+        "SpineCrawler",
+        "Overlord",
+        "Zergling",
+        "Queen",
+        "CreepTumor",
+        "Roach",
+        "Extractor",
+        "Lair"
+      ],
+      "next_state": "ZvP_ZvP_O06_T360_OWN_S01",
+      "evidence_id": "E_40254_ZvP_O06_ZvP_R07_300"
+    },
+    {
+      "step_id": "ZvP_O06_DEF_15",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "ZvP_ZvP_O06_T300_OWN_S05",
+      "response": "ZvP_R04",
+      "canonical_actions": [
+        "Zergling",
+        "Overlord",
+        "Roach",
+        "Drone",
+        "Queen",
+        "Hydralisk",
+        "CreepTumor",
+        "Overseer",
+        "Extractor",
+        "SwarmHostMP"
+      ],
+      "next_state": "ZvP_ZvP_O06_T360_OWN_S02",
+      "evidence_id": "E_40311_ZvP_O06_ZvP_R04_300"
+    },
+    {
+      "step_id": "ZvP_O06_DEF_16",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state_id": "ZvP_ZvP_O06_T360_OWN_S01",
+      "response": "ZvP_R02",
+      "canonical_actions": [
+        "Drone",
+        "Overlord",
+        "Zergling",
+        "RoachWarren",
+        "Queen",
+        "Extractor",
+        "CreepTumor",
+        "HydraliskDen",
+        "BanelingNest",
+        "Roach"
+      ],
+      "next_state": "ZvP_ZvP_O06_T420_OWN_S06",
+      "evidence_id": "E_40328_ZvP_O06_ZvP_R02_360"
+    },
+    {
+      "step_id": "ZvP_O06_DEF_17",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state_id": "ZvP_ZvP_O06_T360_OWN_S02",
+      "response": "ZvP_R04",
+      "canonical_actions": [
+        "Zergling",
+        "Overlord",
+        "Roach",
+        "Drone",
+        "Queen",
+        "Hydralisk",
+        "CreepTumor",
+        "Overseer",
+        "Extractor",
+        "SwarmHostMP"
+      ],
+      "next_state": "ZvP_ZvP_O06_T420_OWN_S01",
+      "evidence_id": "E_40357_ZvP_O06_ZvP_R04_360"
+    }
+  ],
+  "preferred_rules": [
+    {
+      "rule_id": "ZvP_O06_FREQ_01",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "ZvP_ZvP_O06_T600_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T600_OPP_S02",
+      "response": "ZvP_R10",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T720_OWN_S03",
+      "evidence_id": "E_40890_ZvP_O06_ZvP_R10_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_02",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "ZvP_ZvP_O06_T540_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T540_OPP_S02",
+      "response": "ZvP_R10",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T600_OWN_S03",
+      "evidence_id": "E_40767_ZvP_O06_ZvP_R10_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_03",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S09",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S03",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S06",
+      "evidence_id": "E_40008_ZvP_O06_ZvP_R03_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_04",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S10",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S02",
+      "response": "ZvP_R01",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S06",
+      "evidence_id": "E_40014_ZvP_O06_ZvP_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_05",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "ZvP_ZvP_O06_T540_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T540_OPP_S03",
+      "response": "ZvP_R10",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T600_OWN_S03",
+      "evidence_id": "E_40771_ZvP_O06_ZvP_R10_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_06",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S08",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S02",
+      "response": "ZvP_R10",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S03",
+      "evidence_id": "E_40597_ZvP_O06_ZvP_R10_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_07",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S03",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S03",
+      "evidence_id": "E_39790_ZvP_O06_ZvP_R03_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_08",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "ZvP_ZvP_O06_T480_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T480_OPP_S02",
+      "response": "ZvP_R10",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T540_OWN_S03",
+      "evidence_id": "E_40671_ZvP_O06_ZvP_R10_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_09",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "ZvP_ZvP_O06_T540_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T540_OPP_S01",
+      "response": "ZvP_R10",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T600_OWN_S03",
+      "evidence_id": "E_40762_ZvP_O06_ZvP_R10_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_10",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "ZvP_ZvP_O06_T600_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T600_OPP_S03",
+      "response": "ZvP_R10",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T720_OWN_S03",
+      "evidence_id": "E_40897_ZvP_O06_ZvP_R10_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_11",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "ZvP_ZvP_O06_T600_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T600_OPP_S04",
+      "response": "ZvP_R10",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T720_OWN_S03",
+      "evidence_id": "E_40905_ZvP_O06_ZvP_R10_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_12",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S01",
+      "response": "ZvP_R01",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S01",
+      "evidence_id": "E_40051_ZvP_O06_ZvP_R01_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_13",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "ZvP_ZvP_O06_T480_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T480_OPP_S03",
+      "response": "ZvP_R10",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T540_OWN_S03",
+      "evidence_id": "E_40677_ZvP_O06_ZvP_R10_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_14",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S07",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S02",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S01",
+      "evidence_id": "E_40590_ZvP_O06_ZvP_R04_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_15",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S08",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S01",
+      "response": "ZvP_R10",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S03",
+      "evidence_id": "E_40595_ZvP_O06_ZvP_R10_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_16",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "ZvP_ZvP_O06_T480_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T480_OPP_S01",
+      "response": "ZvP_R10",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T540_OWN_S03",
+      "evidence_id": "E_40664_ZvP_O06_ZvP_R10_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_17",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S06",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S04",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S06",
+      "evidence_id": "E_39945_ZvP_O06_ZvP_R03_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_18",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S05",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S04",
+      "response": "ZvP_R01",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S04",
+      "evidence_id": "E_39916_ZvP_O06_ZvP_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_19",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S06",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S03",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S03",
+      "evidence_id": "E_39938_ZvP_O06_ZvP_R03_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_20",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S10",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S01",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S05",
+      "evidence_id": "E_40012_ZvP_O06_ZvP_R04_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_21",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S01",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S01",
+      "evidence_id": "E_40019_ZvP_O06_ZvP_R03_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_22",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "ZvP_ZvP_O06_T300_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T300_OPP_S02",
+      "response": "ZvP_R02",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T360_OWN_S03",
+      "evidence_id": "E_40163_ZvP_O06_ZvP_R02_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_23",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "ZvP_ZvP_O06_T300_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T300_OPP_S03",
+      "response": "ZvP_R02",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T360_OWN_S02",
+      "evidence_id": "E_40172_ZvP_O06_ZvP_R02_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_24",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S08",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S04",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S05",
+      "evidence_id": "E_39999_ZvP_O06_ZvP_R03_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_25",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S04",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S04",
+      "response": "ZvP_R06",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S01",
+      "evidence_id": "E_39892_ZvP_O06_ZvP_R06_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_26",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S03",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S03",
+      "evidence_id": "E_39851_ZvP_O06_ZvP_R03_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_27",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S08",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S01",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S04",
+      "evidence_id": "E_39976_ZvP_O06_ZvP_R03_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_28",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S08",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S02",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S03",
+      "evidence_id": "E_40596_ZvP_O06_ZvP_R03_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_29",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S08",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S02",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S04",
+      "evidence_id": "E_39984_ZvP_O06_ZvP_R03_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_30",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S02",
+      "response": "ZvP_R01",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S01",
+      "evidence_id": "E_40060_ZvP_O06_ZvP_R01_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_31",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S03",
+      "response": "ZvP_R09",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S02",
+      "evidence_id": "E_40496_ZvP_O06_ZvP_R09_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_32",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S02",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S01",
+      "evidence_id": "E_40027_ZvP_O06_ZvP_R03_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_33",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "ZvP_ZvP_O06_T600_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T600_OPP_S05",
+      "response": "ZvP_R02",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T720_OWN_S02",
+      "evidence_id": "E_40872_ZvP_O06_ZvP_R02_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_34",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S05",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S02",
+      "response": "ZvP_R01",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S04",
+      "evidence_id": "E_39902_ZvP_O06_ZvP_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_35",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S07",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S01",
+      "response": "ZvP_R01",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S04",
+      "evidence_id": "E_39949_ZvP_O06_ZvP_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_36",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S09",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S01",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S06",
+      "evidence_id": "E_40005_ZvP_O06_ZvP_R03_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_37",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S04",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S03",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S03",
+      "evidence_id": "E_39882_ZvP_O06_ZvP_R03_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_38",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S07",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S02",
+      "response": "ZvP_R01",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S04",
+      "evidence_id": "E_39955_ZvP_O06_ZvP_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_39",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S05",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S01",
+      "response": "ZvP_R01",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S04",
+      "evidence_id": "E_39894_ZvP_O06_ZvP_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_40",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "ZvP_ZvP_O06_T300_OWN_S05",
+      "opponent_condition": "ZvP_ZvP_O06_T300_OPP_S04",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T360_OWN_S03",
+      "evidence_id": "E_40318_ZvP_O06_ZvP_R03_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_41",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "ZvP_ZvP_O06_T300_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T300_OPP_S04",
+      "response": "ZvP_R07",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T360_OWN_S01",
+      "evidence_id": "E_40186_ZvP_O06_ZvP_R07_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_42",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S04",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S03",
+      "evidence_id": "E_39797_ZvP_O06_ZvP_R03_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_43",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S04",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S01",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S01",
+      "evidence_id": "E_40069_ZvP_O06_ZvP_R03_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_44",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "ZvP_ZvP_O06_T300_OWN_S06",
+      "opponent_condition": "ZvP_ZvP_O06_T300_OPP_S02",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T360_OWN_S02",
+      "evidence_id": "E_40324_ZvP_O06_ZvP_R03_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_45",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S06",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S02",
+      "response": "ZvP_R01",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S01",
+      "evidence_id": "E_40108_ZvP_O06_ZvP_R01_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_46",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S06",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S01",
+      "response": "ZvP_R01",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S01",
+      "evidence_id": "E_40100_ZvP_O06_ZvP_R01_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_47",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S01",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S05",
+      "evidence_id": "E_40036_ZvP_O06_ZvP_R04_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_48",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S06",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S01",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S06",
+      "evidence_id": "E_39922_ZvP_O06_ZvP_R03_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_49",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "ZvP_ZvP_O06_T300_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T300_OPP_S04",
+      "response": "ZvP_R07",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T360_OWN_S01",
+      "evidence_id": "E_40221_ZvP_O06_ZvP_R07_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_50",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S05",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S01",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S05",
+      "evidence_id": "E_40087_ZvP_O06_ZvP_R04_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_51",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S01",
+      "response": "ZvP_R01",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S04",
+      "evidence_id": "E_39834_ZvP_O06_ZvP_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_52",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S04",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S02",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S01",
+      "evidence_id": "E_40077_ZvP_O06_ZvP_R03_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_53",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S07",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S03",
+      "response": "ZvP_R01",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S04",
+      "evidence_id": "E_39961_ZvP_O06_ZvP_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_54",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S07",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S01",
+      "response": "ZvP_R07",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S01",
+      "evidence_id": "E_40585_ZvP_O06_ZvP_R07_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_55",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S07",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S01",
+      "response": "ZvP_R08",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S01",
+      "evidence_id": "E_40586_ZvP_O06_ZvP_R08_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_56",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S01",
+      "response": "ZvP_R09",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S02",
+      "evidence_id": "E_40478_ZvP_O06_ZvP_R09_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_57",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S01",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S01",
+      "evidence_id": "E_40416_ZvP_O06_ZvP_R04_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_58",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S01",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S03",
+      "evidence_id": "E_39776_ZvP_O06_ZvP_R03_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_59",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S02",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S01",
+      "evidence_id": "E_40425_ZvP_O06_ZvP_R04_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_60",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S08",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S01",
+      "response": "ZvP_R02",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S03",
+      "evidence_id": "E_40134_ZvP_O06_ZvP_R02_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_61",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "ZvP_ZvP_O06_T600_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T600_OPP_S02",
+      "response": "ZvP_R09",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T720_OWN_S02",
+      "evidence_id": "E_40849_ZvP_O06_ZvP_R09_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_62",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S04",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S01",
+      "response": "ZvP_R02",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S02",
+      "evidence_id": "E_40068_ZvP_O06_ZvP_R02_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_63",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S02",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S02",
+      "evidence_id": "E_40044_ZvP_O06_ZvP_R03_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_64",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "ZvP_ZvP_O06_T300_OWN_S05",
+      "opponent_condition": "ZvP_ZvP_O06_T300_OPP_S03",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T360_OWN_S02",
+      "evidence_id": "E_40311_ZvP_O06_ZvP_R04_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_65",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S02",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S06",
+      "evidence_id": "E_39813_ZvP_O06_ZvP_R03_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_66",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S02",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S05",
+      "evidence_id": "E_40045_ZvP_O06_ZvP_R04_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_67",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "ZvP_ZvP_O06_T480_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T480_OPP_S03",
+      "response": "ZvP_R09",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T540_OWN_S02",
+      "evidence_id": "E_40654_ZvP_O06_ZvP_R09_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_68",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S09",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S01",
+      "response": "ZvP_R06",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S01",
+      "evidence_id": "E_40006_ZvP_O06_ZvP_R06_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_69",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S10",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S01",
+      "response": "ZvP_R01",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S06",
+      "evidence_id": "E_40010_ZvP_O06_ZvP_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_70",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S04",
+      "response": "ZvP_R06",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S01",
+      "evidence_id": "E_39832_ZvP_O06_ZvP_R06_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_71",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S04",
+      "response": "ZvP_R01",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S04",
+      "evidence_id": "E_39856_ZvP_O06_ZvP_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_72",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S04",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S06",
+      "evidence_id": "E_39830_ZvP_O06_ZvP_R03_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_73",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "ZvP_ZvP_O06_T180_OWN_S04",
+      "opponent_condition": "ZvP_ZvP_O06_T180_OPP_S03",
+      "response": "ZvP_R06",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T240_OWN_S01",
+      "evidence_id": "E_39885_ZvP_O06_ZvP_R06_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_74",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "ZvP_ZvP_O06_T300_OWN_S05",
+      "opponent_condition": "ZvP_ZvP_O06_T300_OPP_S01",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T360_OWN_S02",
+      "evidence_id": "E_40293_ZvP_O06_ZvP_R04_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_75",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "ZvP_ZvP_O06_T540_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T540_OPP_S01",
+      "response": "ZvP_R09",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T600_OWN_S02",
+      "evidence_id": "E_40726_ZvP_O06_ZvP_R09_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_76",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S07",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S01",
+      "response": "ZvP_R02",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S02",
+      "evidence_id": "E_40117_ZvP_O06_ZvP_R02_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_77",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S06",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S02",
+      "response": "ZvP_R02",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S02",
+      "evidence_id": "E_40109_ZvP_O06_ZvP_R02_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_78",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "ZvP_ZvP_O06_T300_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T300_OPP_S03",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T360_OWN_S02",
+      "evidence_id": "E_40210_ZvP_O06_ZvP_R04_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_79",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "ZvP_ZvP_O06_T360_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T360_OPP_S03",
+      "response": "ZvP_R09",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T420_OWN_S03",
+      "evidence_id": "E_40352_ZvP_O06_ZvP_R09_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_80",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S02",
+      "response": "ZvP_R02",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S02",
+      "evidence_id": "E_40026_ZvP_O06_ZvP_R02_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_81",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "ZvP_ZvP_O06_T600_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T600_OPP_S04",
+      "response": "ZvP_R09",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T720_OWN_S02",
+      "evidence_id": "E_40869_ZvP_O06_ZvP_R09_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_82",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "ZvP_ZvP_O06_T360_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T360_OPP_S03",
+      "response": "ZvP_R07",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T420_OWN_S05",
+      "evidence_id": "E_40410_ZvP_O06_ZvP_R07_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_83",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "ZvP_ZvP_O06_T300_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T300_OPP_S01",
+      "response": "ZvP_R09",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T360_OWN_S03",
+      "evidence_id": "E_40230_ZvP_O06_ZvP_R09_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_84",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S09",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S02",
+      "response": "ZvP_R01",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S01",
+      "evidence_id": "E_40149_ZvP_O06_ZvP_R01_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_85",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S09",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S02",
+      "response": "ZvP_R02",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S02",
+      "evidence_id": "E_40150_ZvP_O06_ZvP_R02_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_86",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S09",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S02",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S05",
+      "evidence_id": "E_40152_ZvP_O06_ZvP_R04_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_87",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S05",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S02",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S05",
+      "evidence_id": "E_40095_ZvP_O06_ZvP_R04_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_88",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "ZvP_ZvP_O06_T600_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T600_OPP_S01",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T720_OWN_S01",
+      "evidence_id": "E_40785_ZvP_O06_ZvP_R04_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_89",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "ZvP_ZvP_O06_T300_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T300_OPP_S04",
+      "response": "ZvP_R07",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T360_OWN_S01",
+      "evidence_id": "E_40254_ZvP_O06_ZvP_R07_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_90",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "ZvP_ZvP_O06_T300_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T300_OPP_S02",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T360_OWN_S03",
+      "evidence_id": "E_40199_ZvP_O06_ZvP_R03_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_91",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "ZvP_ZvP_O06_T300_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T300_OPP_S02",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T360_OWN_S02",
+      "evidence_id": "E_40234_ZvP_O06_ZvP_R04_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_92",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "ZvP_ZvP_O06_T540_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T540_OPP_S04",
+      "response": "ZvP_R09",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T600_OWN_S02",
+      "evidence_id": "E_40754_ZvP_O06_ZvP_R09_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_93",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "ZvP_ZvP_O06_T600_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T600_OPP_S02",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T720_OWN_S01",
+      "evidence_id": "E_40795_ZvP_O06_ZvP_R04_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_94",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S05",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S02",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S05",
+      "evidence_id": "E_40094_ZvP_O06_ZvP_R03_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_95",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "ZvP_ZvP_O06_T300_OWN_S04",
+      "opponent_condition": "ZvP_ZvP_O06_T300_OPP_S03",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T360_OWN_S01",
+      "evidence_id": "E_40276_ZvP_O06_ZvP_R03_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_96",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "ZvP_ZvP_O06_T300_OWN_S04",
+      "opponent_condition": "ZvP_ZvP_O06_T300_OPP_S02",
+      "response": "ZvP_R07",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T360_OWN_S01",
+      "evidence_id": "E_40271_ZvP_O06_ZvP_R07_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_97",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "ZvP_ZvP_O06_T360_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T360_OPP_S01",
+      "response": "ZvP_R09",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T420_OWN_S03",
+      "evidence_id": "E_40392_ZvP_O06_ZvP_R09_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_98",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S02",
+      "response": "ZvP_R02",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S01",
+      "evidence_id": "E_40451_ZvP_O06_ZvP_R02_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_99",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S04",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S03",
+      "response": "ZvP_R09",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S02",
+      "evidence_id": "E_40522_ZvP_O06_ZvP_R09_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_100",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S05",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S03",
+      "response": "ZvP_R09",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S02",
+      "evidence_id": "E_40552_ZvP_O06_ZvP_R09_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_101",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S02",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S01",
+      "evidence_id": "E_40424_ZvP_O06_ZvP_R03_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_102",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "ZvP_ZvP_O06_T480_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T480_OPP_S01",
+      "response": "ZvP_R09",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T540_OWN_S02",
+      "evidence_id": "E_40636_ZvP_O06_ZvP_R09_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_103",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "ZvP_ZvP_O06_T360_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T360_OPP_S01",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T420_OWN_S01",
+      "evidence_id": "E_40357_ZvP_O06_ZvP_R04_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_104",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "ZvP_ZvP_O06_T300_OWN_S04",
+      "opponent_condition": "ZvP_ZvP_O06_T300_OPP_S03",
+      "response": "ZvP_R02",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T360_OWN_S01",
+      "evidence_id": "E_40275_ZvP_O06_ZvP_R02_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_105",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "ZvP_ZvP_O06_T360_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T360_OPP_S02",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T420_OWN_S01",
+      "evidence_id": "E_40367_ZvP_O06_ZvP_R04_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_106",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "ZvP_ZvP_O06_T480_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T480_OPP_S01",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T540_OWN_S01",
+      "evidence_id": "E_40601_ZvP_O06_ZvP_R04_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_107",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "ZvP_ZvP_O06_T480_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T480_OPP_S02",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T540_OWN_S01",
+      "evidence_id": "E_40611_ZvP_O06_ZvP_R04_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_108",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S08",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S02",
+      "response": "ZvP_R02",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S03",
+      "evidence_id": "E_40142_ZvP_O06_ZvP_R02_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_109",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "ZvP_ZvP_O06_T600_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T600_OPP_S03",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T720_OWN_S01",
+      "evidence_id": "E_40805_ZvP_O06_ZvP_R04_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_110",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "ZvP_ZvP_O06_T360_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T360_OPP_S03",
+      "response": "ZvP_R01",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T420_OWN_S05",
+      "evidence_id": "E_40345_ZvP_O06_ZvP_R01_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_111",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S07",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S02",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S05",
+      "evidence_id": "E_40127_ZvP_O06_ZvP_R04_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_112",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "ZvP_ZvP_O06_T540_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T540_OPP_S02",
+      "response": "ZvP_R09",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T600_OWN_S02",
+      "evidence_id": "E_40735_ZvP_O06_ZvP_R09_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_113",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S04",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S01",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S02",
+      "evidence_id": "E_40500_ZvP_O06_ZvP_R04_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_114",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "ZvP_ZvP_O06_T360_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T360_OPP_S02",
+      "response": "ZvP_R02",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T420_OWN_S06",
+      "evidence_id": "E_40395_ZvP_O06_ZvP_R02_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_115",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "ZvP_ZvP_O06_T360_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T360_OPP_S01",
+      "response": "ZvP_R09",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T420_OWN_S03",
+      "evidence_id": "E_40334_ZvP_O06_ZvP_R09_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_116",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "ZvP_ZvP_O06_T480_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T480_OPP_S03",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T540_OWN_S01",
+      "evidence_id": "E_40621_ZvP_O06_ZvP_R04_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_117",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S05",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S01",
+      "response": "ZvP_R09",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S02",
+      "evidence_id": "E_40532_ZvP_O06_ZvP_R09_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_118",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "ZvP_ZvP_O06_T360_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T360_OPP_S02",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T420_OWN_S02",
+      "evidence_id": "E_40366_ZvP_O06_ZvP_R03_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_119",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "ZvP_ZvP_O06_T480_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T480_OPP_S02",
+      "response": "ZvP_R09",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T540_OWN_S02",
+      "evidence_id": "E_40645_ZvP_O06_ZvP_R09_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_120",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S04",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S01",
+      "response": "ZvP_R09",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S02",
+      "evidence_id": "E_40505_ZvP_O06_ZvP_R09_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_121",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S07",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S01",
+      "response": "ZvP_R03",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S01",
+      "evidence_id": "E_40118_ZvP_O06_ZvP_R03_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_122",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S08",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S02",
+      "response": "ZvP_R01",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S03",
+      "evidence_id": "E_40141_ZvP_O06_ZvP_R01_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_123",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "ZvP_ZvP_O06_T240_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T240_OPP_S02",
+      "response": "ZvP_R02",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T300_OWN_S02",
+      "evidence_id": "E_40061_ZvP_O06_ZvP_R02_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_124",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "ZvP_ZvP_O06_T540_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T540_OPP_S04",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T600_OWN_S01",
+      "evidence_id": "E_40711_ZvP_O06_ZvP_R04_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_125",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S03",
+      "response": "ZvP_R09",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S02",
+      "evidence_id": "E_40468_ZvP_O06_ZvP_R09_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_126",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S03",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S02",
+      "response": "ZvP_R09",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S02",
+      "evidence_id": "E_40487_ZvP_O06_ZvP_R09_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_127",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "ZvP_ZvP_O06_T540_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T540_OPP_S02",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T600_OWN_S01",
+      "evidence_id": "E_40691_ZvP_O06_ZvP_R04_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_128",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S05",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S03",
+      "response": "ZvP_R01",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S02",
+      "evidence_id": "E_40544_ZvP_O06_ZvP_R01_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_129",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "ZvP_ZvP_O06_T540_OWN_S01",
+      "opponent_condition": "ZvP_ZvP_O06_T540_OPP_S03",
+      "response": "ZvP_R02",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T600_OWN_S01",
+      "evidence_id": "E_40699_ZvP_O06_ZvP_R02_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_130",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S06",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S01",
+      "response": "ZvP_R09",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S02",
+      "evidence_id": "E_40562_ZvP_O06_ZvP_R09_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_131",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S06",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S01",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S01",
+      "evidence_id": "E_40557_ZvP_O06_ZvP_R04_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_132",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S02",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S03",
+      "response": "ZvP_R01",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S02",
+      "evidence_id": "E_40460_ZvP_O06_ZvP_R01_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_133",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "ZvP_ZvP_O06_T420_OWN_S06",
+      "opponent_condition": "ZvP_ZvP_O06_T420_OPP_S03",
+      "response": "ZvP_R04",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T480_OWN_S01",
+      "evidence_id": "E_40576_ZvP_O06_ZvP_R04_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_134",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "ZvP_ZvP_O06_T300_OWN_S06",
+      "opponent_condition": "ZvP_ZvP_O06_T300_OPP_S02",
+      "response": "ZvP_R01",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T360_OWN_S02",
+      "evidence_id": "E_40322_ZvP_O06_ZvP_R01_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "ZvP_O06_FREQ_135",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "ZvP_ZvP_O06_T300_OWN_S06",
+      "opponent_condition": "ZvP_ZvP_O06_T300_OPP_S02",
+      "response": "ZvP_R02",
+      "canonical_actions": [],
+      "next_state": "ZvP_ZvP_O06_T360_OWN_S02",
+      "evidence_id": "E_40323_ZvP_O06_ZvP_R02_300",
+      "selection": "frequency_only"
+    }
+  ],
+  "avoid_rules": [],
+  "strategy_graph": "strategy_graph.json",
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

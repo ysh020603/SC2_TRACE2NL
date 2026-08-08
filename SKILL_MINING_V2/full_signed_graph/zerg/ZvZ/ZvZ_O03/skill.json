@@ -1,0 +1,283 @@
+{
+  "skill_id": "ZvZ_O03",
+  "opening_id": "ZvZ_O03",
+  "race": "Zerg",
+  "opponent_race": "Zerg",
+  "directional_matchup": "ZvZ",
+  "method": "full_signed_graph",
+  "opening": {
+    "id": "ZvZ_O03",
+    "name": "Zergling-Baneling All-In",
+    "objective": "Fast tech into Zergling-Baneling with early Queen for defense, aiming for a timing attack.",
+    "prototype": [
+      "Gas",
+      "Prod_SpawningPool",
+      "Base",
+      "Tech_EvolutionChamber",
+      "Combat_queen",
+      "Combat_ling_bane"
+    ],
+    "macro_family": "Early Aggression"
+  },
+  "default_evolution": [
+    {
+      "step_id": "ZvZ_O03_DEF_01",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "ZvZ_ZvZ_O03_T180_OWN_S02",
+      "response": "ZvZ_R02",
+      "canonical_actions": [
+        "Zergling",
+        "Roach",
+        "Overlord",
+        "Drone",
+        "Queen",
+        "CreepTumor",
+        "Extractor",
+        "Hydralisk",
+        "Overseer",
+        "zerglingmovementspeed"
+      ],
+      "next_state": "ZvZ_ZvZ_O03_T240_OWN_S01",
+      "evidence_id": "E_46942_ZvZ_O03_ZvZ_R02_180"
+    },
+    {
+      "step_id": "ZvZ_O03_DEF_02",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "ZvZ_ZvZ_O03_T180_OWN_S03",
+      "response": "ZvZ_R04",
+      "canonical_actions": [
+        "Drone",
+        "Overlord",
+        "Roach",
+        "Zergling",
+        "Queen",
+        "zerglingmovementspeed",
+        "CreepTumor",
+        "ZergMissileWeaponsLevel1",
+        "Extractor",
+        "GlialReconstitution"
+      ],
+      "next_state": "ZvZ_ZvZ_O03_T240_OWN_S01",
+      "evidence_id": "E_46971_ZvZ_O03_ZvZ_R04_180"
+    },
+    {
+      "step_id": "ZvZ_O03_DEF_03",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "ZvZ_ZvZ_O03_T180_OWN_S07",
+      "response": "ZvZ_R07",
+      "canonical_actions": [
+        "Drone",
+        "SpineCrawler",
+        "Zergling",
+        "Overlord",
+        "Queen",
+        "Roach",
+        "SporeCrawler",
+        "Extractor",
+        "CreepTumor",
+        "EvolutionChamber"
+      ],
+      "next_state": "ZvZ_ZvZ_O03_T240_OWN_S03",
+      "evidence_id": "E_47023_ZvZ_O03_ZvZ_R07_180"
+    },
+    {
+      "step_id": "ZvZ_O03_DEF_04",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "ZvZ_ZvZ_O03_T240_OWN_S01",
+      "response": "ZvZ_R02",
+      "canonical_actions": [
+        "Zergling",
+        "Roach",
+        "Overlord",
+        "Drone",
+        "Queen",
+        "CreepTumor",
+        "Extractor",
+        "Hydralisk",
+        "Overseer",
+        "zerglingmovementspeed"
+      ],
+      "next_state": "ZvZ_ZvZ_O03_T300_OWN_S01",
+      "evidence_id": "E_47074_ZvZ_O03_ZvZ_R02_240"
+    },
+    {
+      "step_id": "ZvZ_O03_DEF_05",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "ZvZ_ZvZ_O03_T240_OWN_S02",
+      "response": "ZvZ_R02",
+      "canonical_actions": [
+        "Zergling",
+        "Roach",
+        "Overlord",
+        "Drone",
+        "Queen",
+        "CreepTumor",
+        "Extractor",
+        "Hydralisk",
+        "Overseer",
+        "zerglingmovementspeed"
+      ],
+      "next_state": "ZvZ_ZvZ_O03_T300_OWN_S01",
+      "evidence_id": "E_47121_ZvZ_O03_ZvZ_R02_240"
+    },
+    {
+      "step_id": "ZvZ_O03_DEF_06",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "ZvZ_ZvZ_O03_T240_OWN_S03",
+      "response": "ZvZ_R03",
+      "canonical_actions": [
+        "Drone",
+        "Overlord",
+        "Zergling",
+        "Hatchery",
+        "Lair",
+        "Roach",
+        "Extractor",
+        "Queen",
+        "CreepTumor",
+        "zerglingmovementspeed"
+      ],
+      "next_state": "ZvZ_ZvZ_O03_T300_OWN_S03",
+      "evidence_id": "E_47152_ZvZ_O03_ZvZ_R03_240"
+    },
+    {
+      "step_id": "ZvZ_O03_DEF_07",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "ZvZ_ZvZ_O03_T300_OWN_S01",
+      "response": "ZvZ_R02",
+      "canonical_actions": [
+        "Zergling",
+        "Roach",
+        "Overlord",
+        "Drone",
+        "Queen",
+        "CreepTumor",
+        "Extractor",
+        "Hydralisk",
+        "Overseer",
+        "zerglingmovementspeed"
+      ],
+      "next_state": "ZvZ_ZvZ_O03_T360_OWN_S02",
+      "evidence_id": "E_47174_ZvZ_O03_ZvZ_R02_300"
+    },
+    {
+      "step_id": "ZvZ_O03_DEF_08",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state_id": "ZvZ_ZvZ_O03_T360_OWN_S01",
+      "response": "ZvZ_R02",
+      "canonical_actions": [
+        "Zergling",
+        "Roach",
+        "Overlord",
+        "Drone",
+        "Queen",
+        "CreepTumor",
+        "Extractor",
+        "Hydralisk",
+        "Overseer",
+        "zerglingmovementspeed"
+      ],
+      "next_state": "ZvZ_ZvZ_O03_T420_OWN_S01",
+      "evidence_id": "E_47273_ZvZ_O03_ZvZ_R02_360"
+    },
+    {
+      "step_id": "ZvZ_O03_DEF_09",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state_id": "ZvZ_ZvZ_O03_T420_OWN_S02",
+      "response": "ZvZ_R03",
+      "canonical_actions": [
+        "Drone",
+        "Overlord",
+        "Zergling",
+        "Hatchery",
+        "Lair",
+        "Roach",
+        "Extractor",
+        "Queen",
+        "CreepTumor",
+        "zerglingmovementspeed"
+      ],
+      "next_state": "ZvZ_ZvZ_O03_T480_OWN_S02",
+      "evidence_id": "E_47339_ZvZ_O03_ZvZ_R03_420"
+    },
+    {
+      "step_id": "ZvZ_O03_DEF_10",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state_id": "ZvZ_ZvZ_O03_T480_OWN_S01",
+      "response": "ZvZ_R03",
+      "canonical_actions": [
+        "Drone",
+        "Overlord",
+        "Zergling",
+        "Hatchery",
+        "Lair",
+        "Roach",
+        "Extractor",
+        "Queen",
+        "CreepTumor",
+        "zerglingmovementspeed"
+      ],
+      "next_state": "ZvZ_ZvZ_O03_T540_OWN_S02",
+      "evidence_id": "E_47365_ZvZ_O03_ZvZ_R03_480"
+    },
+    {
+      "step_id": "ZvZ_O03_DEF_11",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state_id": "ZvZ_ZvZ_O03_T600_OWN_S02",
+      "response": "ZvZ_R02",
+      "canonical_actions": [
+        "Zergling",
+        "Roach",
+        "Overlord",
+        "Drone",
+        "Queen",
+        "CreepTumor",
+        "Extractor",
+        "Hydralisk",
+        "Overseer",
+        "zerglingmovementspeed"
+      ],
+      "next_state": "ZvZ_ZvZ_O03_T720_OWN_S02",
+      "evidence_id": "E_47471_ZvZ_O03_ZvZ_R02_600"
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": "strategy_graph.json",
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

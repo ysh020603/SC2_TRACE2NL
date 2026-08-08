@@ -1,0 +1,48 @@
+{
+  "skill_id": "TvP_O03_SEED_03",
+  "opening_id": "TvP_O03",
+  "race": "Terran",
+  "opponent_race": "Protoss",
+  "directional_matchup": "TvP",
+  "method": "ablation_single_trace",
+  "opening": {
+    "id": "TvP_O03",
+    "name": "1-1-1 Terran Opening",
+    "objective": "Focus on early technology and production while delaying expansion",
+    "prototype": [
+      "Prod_Barracks",
+      "Gas",
+      "Combat_bio",
+      "Base"
+    ],
+    "macro_family": "Tech-focused"
+  },
+  "default_evolution": [
+    {
+      "step_id": "TvP_O03_TRACE_01",
+      "phase": [
+        0,
+        600
+      ],
+      "description": "Follow one winning trajectory nearest to the opening medoid.",
+      "prototype": [
+        "Prod_Barracks",
+        "Gas",
+        "BaseUpgrade_OrbitalCommand",
+        "Combat_bio"
+      ],
+      "source_trace": {
+        "replay_id": "e74b835f693823a73f9845c1",
+        "player_id": 1,
+        "key_sequence": "Prod_Barracks > Gas > BaseUpgrade_OrbitalCommand > Combat_bio",
+        "distance_to_medoid": 0.6958481682956302
+      }
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

@@ -1,0 +1,50 @@
+{
+  "skill_id": "PvT_O06",
+  "opening_id": "PvT_O06",
+  "race": "Protoss",
+  "opponent_race": "Terran",
+  "directional_matchup": "PvT",
+  "method": "ablation_single_trace",
+  "opening": {
+    "id": "PvT_O06",
+    "name": "Gateway Expand into Cybernetics Core",
+    "objective": "Establish a fast expansion while teching to Cybernetics Core for early pressure or tech options.",
+    "prototype": [
+      "Prod_Gateway",
+      "Gas",
+      "Prod_Gateway2",
+      "Tech_CyberneticsCore",
+      "Gas2"
+    ],
+    "macro_family": "Standard Gateway Expand"
+  },
+  "default_evolution": [
+    {
+      "step_id": "PvT_O06_TRACE_01",
+      "phase": [
+        0,
+        600
+      ],
+      "description": "Follow one winning trajectory nearest to the opening medoid.",
+      "prototype": [
+        "Prod_Gateway",
+        "Gas",
+        "Prod_Gateway2",
+        "Tech_CyberneticsCore",
+        "Gas2"
+      ],
+      "source_trace": {
+        "replay_id": "5540264258b73859c1220d72",
+        "player_id": 2,
+        "key_sequence": "Prod_Gateway > Gas > Prod_Gateway2 > Tech_CyberneticsCore > Gas2",
+        "distance_to_medoid": 0.0
+      }
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

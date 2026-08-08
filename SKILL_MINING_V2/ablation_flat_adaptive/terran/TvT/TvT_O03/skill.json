@@ -1,0 +1,421 @@
+{
+  "skill_id": "TvT_O03",
+  "opening_id": "TvT_O03",
+  "race": "Terran",
+  "opponent_race": "Terran",
+  "directional_matchup": "TvT",
+  "method": "ablation_flat_adaptive",
+  "opening": {
+    "id": "TvT_O03",
+    "name": "1-1-1 Stim Opening",
+    "objective": "Fast tech into bio upgrades with early combat units",
+    "prototype": [
+      "Gas",
+      "Prod_Barracks",
+      "Gas2",
+      "Prod_Barracks2",
+      "Combat_bio",
+      "Upgrade_Stimpack"
+    ],
+    "macro_family": "Tech-focused bio opening"
+  },
+  "default_evolution": [
+    {
+      "step_id": "TvT_O03_DEF_01",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvT_TvT_O03_T180_OWN_S02",
+      "response": "TvT_R09",
+      "canonical_actions": [
+        "Marine",
+        "SCV",
+        "SiegeTank",
+        "Marauder",
+        "Reaper",
+        "SupplyDepot",
+        "MULE",
+        "Hellion",
+        "Starport",
+        "WidowMine"
+      ],
+      "next_state": "TvT_TvT_O03_T240_OWN_S01",
+      "evidence_id": "E_22350_TvT_O03_TvT_R09_180"
+    },
+    {
+      "step_id": "TvT_O03_DEF_02",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvT_TvT_O03_T180_OWN_S03",
+      "response": "TvT_R02",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "Starport",
+        "Barracks",
+        "Factory",
+        "SupplyDepot",
+        "MULE",
+        "SiegeTank",
+        "Refinery",
+        "Reaper"
+      ],
+      "next_state": "TvT_TvT_O03_T240_OWN_S03",
+      "evidence_id": "E_22352_TvT_O03_TvT_R02_180"
+    },
+    {
+      "step_id": "TvT_O03_DEF_03",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "TvT_TvT_O03_T300_OWN_S01",
+      "response": "TvT_R01",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "MULE",
+        "SupplyDepot",
+        "Refinery",
+        "SiegeTank",
+        "Starport",
+        "Factory",
+        "Hellion",
+        "Reaper"
+      ],
+      "next_state": "TvT_TvT_O03_T360_OWN_S03",
+      "evidence_id": "E_22427_TvT_O03_TvT_R01_300"
+    },
+    {
+      "step_id": "TvT_O03_DEF_04",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "TvT_TvT_O03_T300_OWN_S04",
+      "response": "TvT_R04",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "SupplyDepot",
+        "MULE",
+        "TerranInfantryWeaponsLevel1",
+        "Stimpack",
+        "SiegeTank",
+        "TerranInfantryArmorsLevel1",
+        "ShieldWall",
+        "Marauder"
+      ],
+      "next_state": "TvT_TvT_O03_T360_OWN_S06",
+      "evidence_id": "E_22520_TvT_O03_TvT_R04_300"
+    },
+    {
+      "step_id": "TvT_O03_DEF_05",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "TvT_TvT_O03_T300_OWN_S06",
+      "response": "TvT_R04",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "SupplyDepot",
+        "MULE",
+        "TerranInfantryWeaponsLevel1",
+        "Stimpack",
+        "SiegeTank",
+        "TerranInfantryArmorsLevel1",
+        "ShieldWall",
+        "Marauder"
+      ],
+      "next_state": "TvT_TvT_O03_T360_OWN_S09",
+      "evidence_id": "E_22551_TvT_O03_TvT_R04_300"
+    },
+    {
+      "step_id": "TvT_O03_DEF_06",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state_id": "TvT_TvT_O03_T360_OWN_S04",
+      "response": "TvT_R04",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "SupplyDepot",
+        "MULE",
+        "TerranInfantryWeaponsLevel1",
+        "Stimpack",
+        "SiegeTank",
+        "TerranInfantryArmorsLevel1",
+        "ShieldWall",
+        "Marauder"
+      ],
+      "next_state": "TvT_TvT_O03_T420_OWN_S04",
+      "evidence_id": "E_22635_TvT_O03_TvT_R04_360"
+    },
+    {
+      "step_id": "TvT_O03_DEF_07",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state_id": "TvT_TvT_O03_T420_OWN_S02",
+      "response": "TvT_R11",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "SupplyDepot",
+        "MULE",
+        "SiegeTank",
+        "Medivac",
+        "Raven",
+        "Refinery",
+        "Banshee",
+        "OrbitalCommand"
+      ],
+      "next_state": "TvT_TvT_O03_T480_OWN_S06",
+      "evidence_id": "E_22735_TvT_O03_TvT_R11_420"
+    },
+    {
+      "step_id": "TvT_O03_DEF_08",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state_id": "TvT_TvT_O03_T420_OWN_S03",
+      "response": "TvT_R01",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "MULE",
+        "SupplyDepot",
+        "Refinery",
+        "SiegeTank",
+        "Starport",
+        "Factory",
+        "Hellion",
+        "Reaper"
+      ],
+      "next_state": "TvT_TvT_O03_T480_OWN_S08",
+      "evidence_id": "E_22763_TvT_O03_TvT_R01_420"
+    },
+    {
+      "step_id": "TvT_O03_DEF_09",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state_id": "TvT_TvT_O03_T420_OWN_S04",
+      "response": "TvT_R04",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "SupplyDepot",
+        "MULE",
+        "TerranInfantryWeaponsLevel1",
+        "Stimpack",
+        "SiegeTank",
+        "TerranInfantryArmorsLevel1",
+        "ShieldWall",
+        "Marauder"
+      ],
+      "next_state": "TvT_TvT_O03_T480_OWN_S05",
+      "evidence_id": "E_22780_TvT_O03_TvT_R04_420"
+    },
+    {
+      "step_id": "TvT_O03_DEF_10",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state_id": "TvT_TvT_O03_T420_OWN_S05",
+      "response": "TvT_R07",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "MULE",
+        "OrbitalCommand",
+        "CommandCenter",
+        "SupplyDepot",
+        "SiegeTank",
+        "Refinery",
+        "Starport",
+        "Hellion"
+      ],
+      "next_state": "TvT_TvT_O03_T480_OWN_S04",
+      "evidence_id": "E_22808_TvT_O03_TvT_R07_420"
+    },
+    {
+      "step_id": "TvT_O03_DEF_11",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state_id": "TvT_TvT_O03_T480_OWN_S01",
+      "response": "TvT_R05",
+      "canonical_actions": [
+        "CommandCenter",
+        "OrbitalCommand",
+        "Marine",
+        "SCV",
+        "SupplyDepot",
+        "SiegeTank",
+        "Starport",
+        "Factory",
+        "Reaper",
+        "MULE"
+      ],
+      "next_state": "TvT_TvT_O03_T540_OWN_S02",
+      "evidence_id": "E_22832_TvT_O03_TvT_R05_480"
+    },
+    {
+      "step_id": "TvT_O03_DEF_12",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state_id": "TvT_TvT_O03_T480_OWN_S03",
+      "response": "TvT_R10",
+      "canonical_actions": [
+        "Marine",
+        "Medivac",
+        "SCV",
+        "SupplyDepot",
+        "Battlecruiser",
+        "Banshee",
+        "SiegeTank",
+        "CommandCenter",
+        "MULE",
+        "MissileTurret"
+      ],
+      "next_state": "TvT_TvT_O03_T540_OWN_S03",
+      "evidence_id": "E_22852_TvT_O03_TvT_R10_480"
+    },
+    {
+      "step_id": "TvT_O03_DEF_13",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state_id": "TvT_TvT_O03_T480_OWN_S04",
+      "response": "TvT_R05",
+      "canonical_actions": [
+        "CommandCenter",
+        "OrbitalCommand",
+        "Marine",
+        "SCV",
+        "SupplyDepot",
+        "SiegeTank",
+        "Starport",
+        "Factory",
+        "Reaper",
+        "MULE"
+      ],
+      "next_state": "TvT_TvT_O03_T540_OWN_S04",
+      "evidence_id": "E_22867_TvT_O03_TvT_R05_480"
+    },
+    {
+      "step_id": "TvT_O03_DEF_14",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state_id": "TvT_TvT_O03_T540_OWN_S03",
+      "response": "TvT_R09",
+      "canonical_actions": [
+        "Marine",
+        "SCV",
+        "SiegeTank",
+        "Marauder",
+        "Reaper",
+        "SupplyDepot",
+        "MULE",
+        "Hellion",
+        "Starport",
+        "WidowMine"
+      ],
+      "next_state": "TvT_TvT_O03_T600_OWN_S01",
+      "evidence_id": "E_22949_TvT_O03_TvT_R09_540"
+    },
+    {
+      "step_id": "TvT_O03_DEF_15",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state_id": "TvT_TvT_O03_T540_OWN_S05",
+      "response": "TvT_R08",
+      "canonical_actions": [
+        "SCV",
+        "MissileTurret",
+        "Marine",
+        "MULE",
+        "SupplyDepot",
+        "SiegeTank",
+        "Bunker",
+        "Refinery",
+        "OrbitalCommand",
+        "Starport"
+      ],
+      "next_state": "TvT_TvT_O03_T600_OWN_S02",
+      "evidence_id": "E_22972_TvT_O03_TvT_R08_540"
+    },
+    {
+      "step_id": "TvT_O03_DEF_16",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state_id": "TvT_TvT_O03_T600_OWN_S01",
+      "response": "TvT_R01",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "MULE",
+        "SupplyDepot",
+        "Refinery",
+        "SiegeTank",
+        "Starport",
+        "Factory",
+        "Hellion",
+        "Reaper"
+      ],
+      "next_state": "TvT_TvT_O03_T720_OWN_S02",
+      "evidence_id": "E_23019_TvT_O03_TvT_R01_600"
+    },
+    {
+      "step_id": "TvT_O03_DEF_17",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state_id": "TvT_TvT_O03_T600_OWN_S03",
+      "response": "TvT_R10",
+      "canonical_actions": [
+        "Marine",
+        "Medivac",
+        "SCV",
+        "SupplyDepot",
+        "Battlecruiser",
+        "Banshee",
+        "SiegeTank",
+        "CommandCenter",
+        "MULE",
+        "MissileTurret"
+      ],
+      "next_state": "TvT_TvT_O03_T720_OWN_S02",
+      "evidence_id": "E_23080_TvT_O03_TvT_R10_600"
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

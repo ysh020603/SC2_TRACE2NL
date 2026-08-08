@@ -1,0 +1,282 @@
+{
+  "skill_id": "PvP_O03",
+  "opening_id": "PvP_O03",
+  "race": "Protoss",
+  "opponent_race": "Protoss",
+  "directional_matchup": "PvP",
+  "method": "full_signed_graph",
+  "opening": {
+    "id": "PvP_O03",
+    "name": "Forge Fast Expand into Photon Cannon Rush",
+    "objective": "Early defensive/offensive photon cannons with forge tech, delaying economy and production for map control or defense.",
+    "prototype": [
+      "Tech_Forge",
+      "Prod_Gateway",
+      "Static_PhotonCannon",
+      "Static_PhotonCannon2",
+      "Gas"
+    ],
+    "macro_family": "Forge Expand"
+  },
+  "default_evolution": [
+    {
+      "step_id": "PvP_O03_DEF_01",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "PvP_PvP_O03_T180_OWN_S01",
+      "response": "PvP_R08",
+      "canonical_actions": [
+        "PhotonCannon",
+        "Probe",
+        "Pylon",
+        "Stalker",
+        "Assimilator",
+        "Gateway",
+        "Zealot",
+        "CyberneticsCore",
+        "Stargate",
+        "VoidRay"
+      ],
+      "next_state": "PvP_PvP_O03_T240_OWN_S01",
+      "evidence_id": "E_01468_PvP_O03_PvP_R08_180"
+    },
+    {
+      "step_id": "PvP_O03_DEF_02",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "PvP_PvP_O03_T180_OWN_S02",
+      "response": "PvP_R08",
+      "canonical_actions": [
+        "PhotonCannon",
+        "Probe",
+        "Pylon",
+        "Stalker",
+        "Assimilator",
+        "Gateway",
+        "Zealot",
+        "CyberneticsCore",
+        "Stargate",
+        "VoidRay"
+      ],
+      "next_state": "PvP_PvP_O03_T240_OWN_S01",
+      "evidence_id": "E_01518_PvP_O03_PvP_R08_180"
+    },
+    {
+      "step_id": "PvP_O03_DEF_03",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "PvP_PvP_O03_T180_OWN_S04",
+      "response": "PvP_R03",
+      "canonical_actions": [
+        "Probe",
+        "Assimilator",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Immortal",
+        "RoboticsFacility",
+        "Zealot",
+        "TwilightCouncil",
+        "PhotonCannon"
+      ],
+      "next_state": "PvP_PvP_O03_T240_OWN_S03",
+      "evidence_id": "E_01562_PvP_O03_PvP_R03_180"
+    },
+    {
+      "step_id": "PvP_O03_DEF_04",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "PvP_PvP_O03_T240_OWN_S01",
+      "response": "PvP_R08",
+      "canonical_actions": [
+        "PhotonCannon",
+        "Probe",
+        "Pylon",
+        "Stalker",
+        "Assimilator",
+        "Gateway",
+        "Zealot",
+        "CyberneticsCore",
+        "Stargate",
+        "VoidRay"
+      ],
+      "next_state": "PvP_PvP_O03_T300_OWN_S01",
+      "evidence_id": "E_01592_PvP_O03_PvP_R08_240"
+    },
+    {
+      "step_id": "PvP_O03_DEF_05",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "PvP_PvP_O03_T240_OWN_S04",
+      "response": "PvP_R08",
+      "canonical_actions": [
+        "PhotonCannon",
+        "Probe",
+        "Pylon",
+        "Stalker",
+        "Assimilator",
+        "Gateway",
+        "Zealot",
+        "CyberneticsCore",
+        "Stargate",
+        "VoidRay"
+      ],
+      "next_state": "PvP_PvP_O03_T300_OWN_S01",
+      "evidence_id": "E_01732_PvP_O03_PvP_R08_240"
+    },
+    {
+      "step_id": "PvP_O03_DEF_06",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "PvP_PvP_O03_T300_OWN_S02",
+      "response": "PvP_R06",
+      "canonical_actions": [
+        "Probe",
+        "VoidRay",
+        "Pylon",
+        "Phoenix",
+        "Stalker",
+        "Oracle",
+        "Assimilator",
+        "PhotonCannon",
+        "Gateway",
+        "Zealot"
+      ],
+      "next_state": "PvP_PvP_O03_T360_OWN_S03",
+      "evidence_id": "E_01877_PvP_O03_PvP_R06_300"
+    },
+    {
+      "step_id": "PvP_O03_DEF_07",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "PvP_PvP_O03_T300_OWN_S03",
+      "response": "PvP_R06",
+      "canonical_actions": [
+        "Probe",
+        "VoidRay",
+        "Pylon",
+        "Phoenix",
+        "Stalker",
+        "Oracle",
+        "Assimilator",
+        "PhotonCannon",
+        "Gateway",
+        "Zealot"
+      ],
+      "next_state": "PvP_PvP_O03_T360_OWN_S03",
+      "evidence_id": "E_01897_PvP_O03_PvP_R06_300"
+    },
+    {
+      "step_id": "PvP_O03_DEF_08",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state_id": "PvP_PvP_O03_T360_OWN_S01",
+      "response": "PvP_R08",
+      "canonical_actions": [
+        "PhotonCannon",
+        "Probe",
+        "Pylon",
+        "Stalker",
+        "Assimilator",
+        "Gateway",
+        "Zealot",
+        "CyberneticsCore",
+        "Stargate",
+        "VoidRay"
+      ],
+      "next_state": "PvP_PvP_O03_T420_OWN_S01",
+      "evidence_id": "E_01938_PvP_O03_PvP_R08_360"
+    },
+    {
+      "step_id": "PvP_O03_DEF_09",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state_id": "PvP_PvP_O03_T540_OWN_S01",
+      "response": "PvP_R06",
+      "canonical_actions": [
+        "Probe",
+        "VoidRay",
+        "Pylon",
+        "Phoenix",
+        "Stalker",
+        "Oracle",
+        "Assimilator",
+        "PhotonCannon",
+        "Gateway",
+        "Zealot"
+      ],
+      "next_state": "PvP_PvP_O03_T600_OWN_S01",
+      "evidence_id": "E_02199_PvP_O03_PvP_R06_540"
+    },
+    {
+      "step_id": "PvP_O03_DEF_10",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state_id": "PvP_PvP_O03_T600_OWN_S01",
+      "response": "PvP_R06",
+      "canonical_actions": [
+        "Probe",
+        "VoidRay",
+        "Pylon",
+        "Phoenix",
+        "Stalker",
+        "Oracle",
+        "Assimilator",
+        "PhotonCannon",
+        "Gateway",
+        "Zealot"
+      ],
+      "next_state": "PvP_PvP_O03_T720_OWN_S02",
+      "evidence_id": "E_02313_PvP_O03_PvP_R06_600"
+    },
+    {
+      "step_id": "PvP_O03_DEF_11",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state_id": "PvP_PvP_O03_T600_OWN_S03",
+      "response": "PvP_R10",
+      "canonical_actions": [
+        "Stalker",
+        "Probe",
+        "Zealot",
+        "Pylon",
+        "Immortal",
+        "Sentry",
+        "Observer",
+        "Gateway",
+        "WarpPrism",
+        "Assimilator"
+      ],
+      "next_state": "PvP_PvP_O03_T720_OWN_S03",
+      "evidence_id": "E_02359_PvP_O03_PvP_R10_600"
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": "strategy_graph.json",
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

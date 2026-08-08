@@ -1,0 +1,1595 @@
+{
+  "skill_id": "PvZ_O01",
+  "opening_id": "PvZ_O01",
+  "race": "Protoss",
+  "opponent_race": "Zerg",
+  "directional_matchup": "PvZ",
+  "method": "ablation_frequency_only",
+  "opening": {
+    "id": "PvZ_O01",
+    "name": "Gateway Expand into Warp Gate",
+    "objective": "Establish a safe economy with a fast expansion while teching to Warp Gate for early pressure or defense.",
+    "prototype": [
+      "Prod_Gateway",
+      "Gas",
+      "Tech_CyberneticsCore",
+      "Combat_gateway",
+      "Prod_Gateway2",
+      "Gas2",
+      "Upgrade_WarpGateResearch"
+    ],
+    "macro_family": "Standard Gateway Expand"
+  },
+  "default_evolution": [
+    {
+      "step_id": "PvZ_O01_DEF_01",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "PvZ_PvZ_O01_T180_OWN_S02",
+      "response": "PvZ_R01",
+      "canonical_actions": [
+        "Probe",
+        "Nexus",
+        "Pylon",
+        "Stalker",
+        "Assimilator",
+        "Zealot",
+        "Gateway",
+        "WarpGateResearch",
+        "Immortal",
+        "Sentry"
+      ],
+      "next_state": "PvZ_PvZ_O01_T240_OWN_S02",
+      "evidence_id": "E_07537_PvZ_O01_PvZ_R01_180"
+    },
+    {
+      "step_id": "PvZ_O01_DEF_02",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "PvZ_PvZ_O01_T180_OWN_S04",
+      "response": "PvZ_R02",
+      "canonical_actions": [
+        "Probe",
+        "Pylon",
+        "Assimilator",
+        "Gateway",
+        "Stalker",
+        "Zealot",
+        "RoboticsFacility",
+        "Sentry",
+        "Immortal",
+        "TwilightCouncil"
+      ],
+      "next_state": "PvZ_PvZ_O01_T240_OWN_S02",
+      "evidence_id": "E_07590_PvZ_O01_PvZ_R02_180"
+    },
+    {
+      "step_id": "PvZ_O01_DEF_03",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "PvZ_PvZ_O01_T240_OWN_S02",
+      "response": "PvZ_R02",
+      "canonical_actions": [
+        "Probe",
+        "Pylon",
+        "Assimilator",
+        "Gateway",
+        "Stalker",
+        "Zealot",
+        "RoboticsFacility",
+        "Sentry",
+        "Immortal",
+        "TwilightCouncil"
+      ],
+      "next_state": "PvZ_PvZ_O01_T300_OWN_S02",
+      "evidence_id": "E_07632_PvZ_O01_PvZ_R02_240"
+    },
+    {
+      "step_id": "PvZ_O01_DEF_04",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "PvZ_PvZ_O01_T240_OWN_S05",
+      "response": "PvZ_R08",
+      "canonical_actions": [
+        "Pylon",
+        "Probe",
+        "VoidRay",
+        "Phoenix",
+        "Oracle",
+        "Gateway",
+        "PhotonCannon",
+        "Stalker",
+        "Zealot",
+        "TwilightCouncil"
+      ],
+      "next_state": "PvZ_PvZ_O01_T300_OWN_S03",
+      "evidence_id": "E_07698_PvZ_O01_PvZ_R08_240"
+    },
+    {
+      "step_id": "PvZ_O01_DEF_05",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "PvZ_PvZ_O01_T300_OWN_S01",
+      "response": "PvZ_R04",
+      "canonical_actions": [
+        "Zealot",
+        "Probe",
+        "Stalker",
+        "Pylon",
+        "Immortal",
+        "Sentry",
+        "Gateway",
+        "Observer",
+        "WarpPrism",
+        "DarkTemplar"
+      ],
+      "next_state": "PvZ_PvZ_O01_T360_OWN_S04",
+      "evidence_id": "E_07702_PvZ_O01_PvZ_R04_300"
+    },
+    {
+      "step_id": "PvZ_O01_DEF_06",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "PvZ_PvZ_O01_T300_OWN_S02",
+      "response": "PvZ_R02",
+      "canonical_actions": [
+        "Probe",
+        "Pylon",
+        "Assimilator",
+        "Gateway",
+        "Stalker",
+        "Zealot",
+        "RoboticsFacility",
+        "Sentry",
+        "Immortal",
+        "TwilightCouncil"
+      ],
+      "next_state": "PvZ_PvZ_O01_T360_OWN_S02",
+      "evidence_id": "E_07799_PvZ_O01_PvZ_R02_300"
+    },
+    {
+      "step_id": "PvZ_O01_DEF_07",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "PvZ_PvZ_O01_T300_OWN_S03",
+      "response": "PvZ_R11",
+      "canonical_actions": [
+        "Probe",
+        "Pylon",
+        "Assimilator",
+        "Oracle",
+        "Phoenix",
+        "Gateway",
+        "VoidRay",
+        "Stalker",
+        "RoboticsFacility",
+        "Sentry"
+      ],
+      "next_state": "PvZ_PvZ_O01_T360_OWN_S03",
+      "evidence_id": "E_07848_PvZ_O01_PvZ_R11_300"
+    },
+    {
+      "step_id": "PvZ_O01_DEF_08",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state_id": "PvZ_PvZ_O01_T360_OWN_S02",
+      "response": "PvZ_R02",
+      "canonical_actions": [
+        "Probe",
+        "Pylon",
+        "Assimilator",
+        "Gateway",
+        "Stalker",
+        "Zealot",
+        "RoboticsFacility",
+        "Sentry",
+        "Immortal",
+        "TwilightCouncil"
+      ],
+      "next_state": "PvZ_PvZ_O01_T420_OWN_S01",
+      "evidence_id": "E_07899_PvZ_O01_PvZ_R02_360"
+    },
+    {
+      "step_id": "PvZ_O01_DEF_09",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state_id": "PvZ_PvZ_O01_T360_OWN_S04",
+      "response": "PvZ_R04",
+      "canonical_actions": [
+        "Zealot",
+        "Probe",
+        "Stalker",
+        "Pylon",
+        "Immortal",
+        "Sentry",
+        "Gateway",
+        "Observer",
+        "WarpPrism",
+        "DarkTemplar"
+      ],
+      "next_state": "PvZ_PvZ_O01_T420_OWN_S02",
+      "evidence_id": "E_08020_PvZ_O01_PvZ_R04_360"
+    },
+    {
+      "step_id": "PvZ_O01_DEF_10",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state_id": "PvZ_PvZ_O01_T420_OWN_S01",
+      "response": "PvZ_R05",
+      "canonical_actions": [
+        "Pylon",
+        "Probe",
+        "Zealot",
+        "Gateway",
+        "Stalker",
+        "Forge",
+        "Immortal",
+        "TwilightCouncil",
+        "Assimilator",
+        "Sentry"
+      ],
+      "next_state": "PvZ_PvZ_O01_T480_OWN_S01",
+      "evidence_id": "E_08046_PvZ_O01_PvZ_R05_420"
+    },
+    {
+      "step_id": "PvZ_O01_DEF_11",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state_id": "PvZ_PvZ_O01_T420_OWN_S04",
+      "response": "PvZ_R02",
+      "canonical_actions": [
+        "Probe",
+        "Pylon",
+        "Assimilator",
+        "Gateway",
+        "Stalker",
+        "Zealot",
+        "RoboticsFacility",
+        "Sentry",
+        "Immortal",
+        "TwilightCouncil"
+      ],
+      "next_state": "PvZ_PvZ_O01_T480_OWN_S01",
+      "evidence_id": "E_08184_PvZ_O01_PvZ_R02_420"
+    },
+    {
+      "step_id": "PvZ_O01_DEF_12",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state_id": "PvZ_PvZ_O01_T480_OWN_S02",
+      "response": "PvZ_R04",
+      "canonical_actions": [
+        "Zealot",
+        "Probe",
+        "Stalker",
+        "Pylon",
+        "Immortal",
+        "Sentry",
+        "Gateway",
+        "Observer",
+        "WarpPrism",
+        "DarkTemplar"
+      ],
+      "next_state": "PvZ_PvZ_O01_T540_OWN_S01",
+      "evidence_id": "E_08226_PvZ_O01_PvZ_R04_480"
+    },
+    {
+      "step_id": "PvZ_O01_DEF_13",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state_id": "PvZ_PvZ_O01_T540_OWN_S02",
+      "response": "PvZ_R04",
+      "canonical_actions": [
+        "Zealot",
+        "Probe",
+        "Stalker",
+        "Pylon",
+        "Immortal",
+        "Sentry",
+        "Gateway",
+        "Observer",
+        "WarpPrism",
+        "DarkTemplar"
+      ],
+      "next_state": "PvZ_PvZ_O01_T600_OWN_S02",
+      "evidence_id": "E_08303_PvZ_O01_PvZ_R04_540"
+    },
+    {
+      "step_id": "PvZ_O01_DEF_14",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state_id": "PvZ_PvZ_O01_T540_OWN_S03",
+      "response": "PvZ_R08",
+      "canonical_actions": [
+        "Pylon",
+        "Probe",
+        "VoidRay",
+        "Phoenix",
+        "Oracle",
+        "Gateway",
+        "PhotonCannon",
+        "Stalker",
+        "Zealot",
+        "TwilightCouncil"
+      ],
+      "next_state": "PvZ_PvZ_O01_T600_OWN_S03",
+      "evidence_id": "E_08330_PvZ_O01_PvZ_R08_540"
+    },
+    {
+      "step_id": "PvZ_O01_DEF_15",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state_id": "PvZ_PvZ_O01_T600_OWN_S04",
+      "response": "PvZ_R01",
+      "canonical_actions": [
+        "Probe",
+        "Nexus",
+        "Pylon",
+        "Stalker",
+        "Assimilator",
+        "Zealot",
+        "Gateway",
+        "WarpGateResearch",
+        "Immortal",
+        "Sentry"
+      ],
+      "next_state": "PvZ_PvZ_O01_T720_OWN_S02",
+      "evidence_id": "E_08412_PvZ_O01_PvZ_R01_600"
+    }
+  ],
+  "preferred_rules": [
+    {
+      "rule_id": "PvZ_O01_FREQ_01",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvZ_PvZ_O01_T240_OWN_S05",
+      "opponent_condition": "PvZ_PvZ_O01_T240_OPP_S04",
+      "response": "PvZ_R08",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T300_OWN_S03",
+      "evidence_id": "E_07698_PvZ_O01_PvZ_R08_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_02",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "PvZ_PvZ_O01_T420_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T420_OPP_S05",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T480_OWN_S02",
+      "evidence_id": "E_08119_PvZ_O01_PvZ_R04_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_03",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "PvZ_PvZ_O01_T180_OWN_S04",
+      "opponent_condition": "PvZ_PvZ_O01_T180_OPP_S03",
+      "response": "PvZ_R02",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T240_OWN_S02",
+      "evidence_id": "E_07585_PvZ_O01_PvZ_R02_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_04",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "PvZ_PvZ_O01_T420_OWN_S04",
+      "opponent_condition": "PvZ_PvZ_O01_T420_OPP_S06",
+      "response": "PvZ_R02",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T480_OWN_S01",
+      "evidence_id": "E_08200_PvZ_O01_PvZ_R02_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_05",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "PvZ_PvZ_O01_T180_OWN_S04",
+      "opponent_condition": "PvZ_PvZ_O01_T180_OPP_S05",
+      "response": "PvZ_R02",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T240_OWN_S02",
+      "evidence_id": "E_07597_PvZ_O01_PvZ_R02_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_06",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "PvZ_PvZ_O01_T180_OWN_S04",
+      "opponent_condition": "PvZ_PvZ_O01_T180_OPP_S04",
+      "response": "PvZ_R02",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T240_OWN_S02",
+      "evidence_id": "E_07590_PvZ_O01_PvZ_R02_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_07",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "PvZ_PvZ_O01_T300_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T300_OPP_S02",
+      "response": "PvZ_R11",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T360_OWN_S03",
+      "evidence_id": "E_07834_PvZ_O01_PvZ_R11_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_08",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvZ_PvZ_O01_T240_OWN_S01",
+      "opponent_condition": "PvZ_PvZ_O01_T240_OPP_S01",
+      "response": "PvZ_R05",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T300_OWN_S01",
+      "evidence_id": "E_07602_PvZ_O01_PvZ_R05_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_09",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "PvZ_PvZ_O01_T360_OWN_S04",
+      "opponent_condition": "PvZ_PvZ_O01_T360_OPP_S03",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T420_OWN_S02",
+      "evidence_id": "E_08007_PvZ_O01_PvZ_R04_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_10",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "PvZ_PvZ_O01_T420_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T420_OPP_S01",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T480_OWN_S02",
+      "evidence_id": "E_08090_PvZ_O01_PvZ_R04_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_11",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "PvZ_PvZ_O01_T420_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T420_OPP_S02",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T480_OWN_S02",
+      "evidence_id": "E_08098_PvZ_O01_PvZ_R04_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_12",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvZ_PvZ_O01_T240_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T240_OPP_S03",
+      "response": "PvZ_R02",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T300_OWN_S02",
+      "evidence_id": "E_07632_PvZ_O01_PvZ_R02_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_13",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvZ_PvZ_O01_T240_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T240_OPP_S04",
+      "response": "PvZ_R02",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T300_OWN_S02",
+      "evidence_id": "E_07641_PvZ_O01_PvZ_R02_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_14",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvZ_PvZ_O01_T240_OWN_S01",
+      "opponent_condition": "PvZ_PvZ_O01_T240_OPP_S03",
+      "response": "PvZ_R07",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T300_OWN_S01",
+      "evidence_id": "E_07608_PvZ_O01_PvZ_R07_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_15",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "PvZ_PvZ_O01_T180_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T180_OPP_S03",
+      "response": "PvZ_R05",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T240_OWN_S04",
+      "evidence_id": "E_07573_PvZ_O01_PvZ_R05_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_16",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "PvZ_PvZ_O01_T180_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T180_OPP_S02",
+      "response": "PvZ_R01",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T240_OWN_S02",
+      "evidence_id": "E_07531_PvZ_O01_PvZ_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_17",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "PvZ_PvZ_O01_T360_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T360_OPP_S04",
+      "response": "PvZ_R11",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T420_OWN_S03",
+      "evidence_id": "E_07976_PvZ_O01_PvZ_R11_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_18",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvZ_PvZ_O01_T240_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T240_OPP_S02",
+      "response": "PvZ_R02",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T300_OWN_S02",
+      "evidence_id": "E_07624_PvZ_O01_PvZ_R02_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_19",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvZ_PvZ_O01_T240_OWN_S04",
+      "opponent_condition": "PvZ_PvZ_O01_T240_OPP_S04",
+      "response": "PvZ_R01",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T300_OWN_S01",
+      "evidence_id": "E_07692_PvZ_O01_PvZ_R01_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_20",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "PvZ_PvZ_O01_T360_OWN_S04",
+      "opponent_condition": "PvZ_PvZ_O01_T360_OPP_S05",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T420_OWN_S02",
+      "evidence_id": "E_08020_PvZ_O01_PvZ_R04_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_21",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "PvZ_PvZ_O01_T300_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T300_OPP_S02",
+      "response": "PvZ_R02",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T360_OWN_S02",
+      "evidence_id": "E_07768_PvZ_O01_PvZ_R02_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_22",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "PvZ_PvZ_O01_T300_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T300_OPP_S05",
+      "response": "PvZ_R02",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T360_OWN_S02",
+      "evidence_id": "E_07799_PvZ_O01_PvZ_R02_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_23",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "PvZ_PvZ_O01_T420_OWN_S04",
+      "opponent_condition": "PvZ_PvZ_O01_T420_OPP_S02",
+      "response": "PvZ_R02",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T480_OWN_S01",
+      "evidence_id": "E_08184_PvZ_O01_PvZ_R02_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_24",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "PvZ_PvZ_O01_T180_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T180_OPP_S04",
+      "response": "PvZ_R01",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T240_OWN_S02",
+      "evidence_id": "E_07547_PvZ_O01_PvZ_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_25",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "PvZ_PvZ_O01_T360_OWN_S04",
+      "opponent_condition": "PvZ_PvZ_O01_T360_OPP_S06",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T420_OWN_S02",
+      "evidence_id": "E_08027_PvZ_O01_PvZ_R04_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_26",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvZ_PvZ_O01_T240_OWN_S04",
+      "opponent_condition": "PvZ_PvZ_O01_T240_OPP_S03",
+      "response": "PvZ_R06",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T300_OWN_S01",
+      "evidence_id": "E_07689_PvZ_O01_PvZ_R06_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_27",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "PvZ_PvZ_O01_T300_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T300_OPP_S04",
+      "response": "PvZ_R02",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T360_OWN_S02",
+      "evidence_id": "E_07788_PvZ_O01_PvZ_R02_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_28",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "PvZ_PvZ_O01_T360_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T360_OPP_S01",
+      "response": "PvZ_R11",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T420_OWN_S03",
+      "evidence_id": "E_07953_PvZ_O01_PvZ_R11_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_29",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "PvZ_PvZ_O01_T180_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T180_OPP_S05",
+      "response": "PvZ_R01",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T240_OWN_S02",
+      "evidence_id": "E_07555_PvZ_O01_PvZ_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_30",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvZ_PvZ_O01_T240_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T240_OPP_S02",
+      "response": "PvZ_R05",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T300_OWN_S01",
+      "evidence_id": "E_07661_PvZ_O01_PvZ_R05_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_31",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "PvZ_PvZ_O01_T360_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T360_OPP_S03",
+      "response": "PvZ_R11",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T420_OWN_S03",
+      "evidence_id": "E_07970_PvZ_O01_PvZ_R11_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_32",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "PvZ_PvZ_O01_T600_OWN_S01",
+      "opponent_condition": "PvZ_PvZ_O01_T600_OPP_S01",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T720_OWN_S01",
+      "evidence_id": "E_08337_PvZ_O01_PvZ_R04_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_33",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "PvZ_PvZ_O01_T300_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T300_OPP_S03",
+      "response": "PvZ_R11",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T360_OWN_S03",
+      "evidence_id": "E_07839_PvZ_O01_PvZ_R11_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_34",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "PvZ_PvZ_O01_T600_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T600_OPP_S01",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T720_OWN_S02",
+      "evidence_id": "E_08382_PvZ_O01_PvZ_R04_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_35",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "PvZ_PvZ_O01_T420_OWN_S04",
+      "opponent_condition": "PvZ_PvZ_O01_T420_OPP_S05",
+      "response": "PvZ_R03",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T480_OWN_S02",
+      "evidence_id": "E_08197_PvZ_O01_PvZ_R03_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_36",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvZ_PvZ_O01_T240_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T240_OPP_S04",
+      "response": "PvZ_R01",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T300_OWN_S02",
+      "evidence_id": "E_07675_PvZ_O01_PvZ_R01_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_37",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "PvZ_PvZ_O01_T480_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T480_OPP_S02",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T540_OWN_S01",
+      "evidence_id": "E_08238_PvZ_O01_PvZ_R04_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_38",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "PvZ_PvZ_O01_T600_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T600_OPP_S01",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T720_OWN_S02",
+      "evidence_id": "E_08365_PvZ_O01_PvZ_R04_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_39",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "PvZ_PvZ_O01_T480_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T480_OPP_S01",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T540_OWN_S01",
+      "evidence_id": "E_08226_PvZ_O01_PvZ_R04_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_40",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "PvZ_PvZ_O01_T300_OWN_S01",
+      "opponent_condition": "PvZ_PvZ_O01_T300_OPP_S05",
+      "response": "PvZ_R01",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T360_OWN_S02",
+      "evidence_id": "E_07735_PvZ_O01_PvZ_R01_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_41",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "PvZ_PvZ_O01_T600_OWN_S01",
+      "opponent_condition": "PvZ_PvZ_O01_T600_OPP_S02",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T720_OWN_S01",
+      "evidence_id": "E_08349_PvZ_O01_PvZ_R04_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_42",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "PvZ_PvZ_O01_T300_OWN_S01",
+      "opponent_condition": "PvZ_PvZ_O01_T300_OPP_S07",
+      "response": "PvZ_R05",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T360_OWN_S04",
+      "evidence_id": "E_07753_PvZ_O01_PvZ_R05_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_43",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "PvZ_PvZ_O01_T480_OWN_S01",
+      "opponent_condition": "PvZ_PvZ_O01_T480_OPP_S01",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T540_OWN_S01",
+      "evidence_id": "E_08206_PvZ_O01_PvZ_R04_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_44",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "PvZ_PvZ_O01_T420_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T420_OPP_S03",
+      "response": "PvZ_R11",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T480_OWN_S03",
+      "evidence_id": "E_08152_PvZ_O01_PvZ_R11_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_45",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "PvZ_PvZ_O01_T360_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T360_OPP_S01",
+      "response": "PvZ_R02",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T420_OWN_S01",
+      "evidence_id": "E_07889_PvZ_O01_PvZ_R02_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_46",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "PvZ_PvZ_O01_T540_OWN_S01",
+      "opponent_condition": "PvZ_PvZ_O01_T540_OPP_S01",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T600_OWN_S01",
+      "evidence_id": "E_08270_PvZ_O01_PvZ_R04_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_47",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "PvZ_PvZ_O01_T360_OWN_S01",
+      "opponent_condition": "PvZ_PvZ_O01_T360_OPP_S05",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T420_OWN_S04",
+      "evidence_id": "E_07878_PvZ_O01_PvZ_R04_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_48",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "PvZ_PvZ_O01_T600_OWN_S01",
+      "opponent_condition": "PvZ_PvZ_O01_T600_OPP_S03",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T720_OWN_S02",
+      "evidence_id": "E_08357_PvZ_O01_PvZ_R04_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_49",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "PvZ_PvZ_O01_T360_OWN_S01",
+      "opponent_condition": "PvZ_PvZ_O01_T360_OPP_S04",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T420_OWN_S04",
+      "evidence_id": "E_07874_PvZ_O01_PvZ_R04_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_50",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "PvZ_PvZ_O01_T420_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T420_OPP_S06",
+      "response": "PvZ_R02",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T480_OWN_S03",
+      "evidence_id": "E_08172_PvZ_O01_PvZ_R02_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_51",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "PvZ_PvZ_O01_T300_OWN_S01",
+      "opponent_condition": "PvZ_PvZ_O01_T300_OPP_S02",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T360_OWN_S04",
+      "evidence_id": "E_07712_PvZ_O01_PvZ_R04_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_52",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "PvZ_PvZ_O01_T360_OWN_S01",
+      "opponent_condition": "PvZ_PvZ_O01_T360_OPP_S04",
+      "response": "PvZ_R05",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T420_OWN_S01",
+      "evidence_id": "E_07875_PvZ_O01_PvZ_R05_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_53",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "PvZ_PvZ_O01_T360_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T360_OPP_S02",
+      "response": "PvZ_R02",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T420_OWN_S01",
+      "evidence_id": "E_07899_PvZ_O01_PvZ_R02_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_54",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "PvZ_PvZ_O01_T420_OWN_S01",
+      "opponent_condition": "PvZ_PvZ_O01_T420_OPP_S01",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T480_OWN_S01",
+      "evidence_id": "E_08036_PvZ_O01_PvZ_R04_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_55",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvZ_PvZ_O01_T240_OWN_S01",
+      "opponent_condition": "PvZ_PvZ_O01_T240_OPP_S03",
+      "response": "PvZ_R05",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T300_OWN_S01",
+      "evidence_id": "E_07606_PvZ_O01_PvZ_R05_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_56",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "PvZ_PvZ_O01_T180_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T180_OPP_S03",
+      "response": "PvZ_R01",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T240_OWN_S04",
+      "evidence_id": "E_07571_PvZ_O01_PvZ_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_57",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "PvZ_PvZ_O01_T360_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T360_OPP_S05",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T420_OWN_S01",
+      "evidence_id": "E_07931_PvZ_O01_PvZ_R04_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_58",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvZ_PvZ_O01_T240_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T240_OPP_S01",
+      "response": "PvZ_R07",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T300_OWN_S01",
+      "evidence_id": "E_07654_PvZ_O01_PvZ_R07_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_59",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "PvZ_PvZ_O01_T420_OWN_S01",
+      "opponent_condition": "PvZ_PvZ_O01_T420_OPP_S05",
+      "response": "PvZ_R07",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T480_OWN_S01",
+      "evidence_id": "E_08075_PvZ_O01_PvZ_R07_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_60",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "PvZ_PvZ_O01_T300_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T300_OPP_S04",
+      "response": "PvZ_R11",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T360_OWN_S03",
+      "evidence_id": "E_07848_PvZ_O01_PvZ_R11_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_61",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "PvZ_PvZ_O01_T180_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T180_OPP_S05",
+      "response": "PvZ_R02",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T240_OWN_S03",
+      "evidence_id": "E_07576_PvZ_O01_PvZ_R02_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_62",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "PvZ_PvZ_O01_T600_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T600_OPP_S02",
+      "response": "PvZ_R05",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T720_OWN_S02",
+      "evidence_id": "E_08375_PvZ_O01_PvZ_R05_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_63",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "PvZ_PvZ_O01_T420_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T420_OPP_S04",
+      "response": "PvZ_R11",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T480_OWN_S03",
+      "evidence_id": "E_08161_PvZ_O01_PvZ_R11_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_64",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "PvZ_PvZ_O01_T600_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T600_OPP_S02",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T720_OWN_S01",
+      "evidence_id": "E_08392_PvZ_O01_PvZ_R04_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_65",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "PvZ_PvZ_O01_T600_OWN_S04",
+      "opponent_condition": "PvZ_PvZ_O01_T600_OPP_S02",
+      "response": "PvZ_R06",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T720_OWN_S03",
+      "evidence_id": "E_08415_PvZ_O01_PvZ_R06_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_66",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "PvZ_PvZ_O01_T600_OWN_S04",
+      "opponent_condition": "PvZ_PvZ_O01_T600_OPP_S02",
+      "response": "PvZ_R01",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T720_OWN_S02",
+      "evidence_id": "E_08412_PvZ_O01_PvZ_R01_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_67",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvZ_PvZ_O01_T240_OWN_S04",
+      "opponent_condition": "PvZ_PvZ_O01_T240_OPP_S04",
+      "response": "PvZ_R09",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T300_OWN_S01",
+      "evidence_id": "E_07696_PvZ_O01_PvZ_R09_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_68",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "PvZ_PvZ_O01_T480_OWN_S01",
+      "opponent_condition": "PvZ_PvZ_O01_T480_OPP_S02",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T540_OWN_S01",
+      "evidence_id": "E_08214_PvZ_O01_PvZ_R04_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_69",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "PvZ_PvZ_O01_T480_OWN_S01",
+      "opponent_condition": "PvZ_PvZ_O01_T480_OPP_S02",
+      "response": "PvZ_R05",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T540_OWN_S02",
+      "evidence_id": "E_08215_PvZ_O01_PvZ_R05_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_70",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "PvZ_PvZ_O01_T420_OWN_S01",
+      "opponent_condition": "PvZ_PvZ_O01_T420_OPP_S04",
+      "response": "PvZ_R05",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T480_OWN_S01",
+      "evidence_id": "E_08063_PvZ_O01_PvZ_R05_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_71",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "PvZ_PvZ_O01_T540_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T540_OPP_S02",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T600_OWN_S02",
+      "evidence_id": "E_08303_PvZ_O01_PvZ_R04_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_72",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "PvZ_PvZ_O01_T540_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T540_OPP_S01",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T600_OWN_S02",
+      "evidence_id": "E_08293_PvZ_O01_PvZ_R04_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_73",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "PvZ_PvZ_O01_T540_OWN_S01",
+      "opponent_condition": "PvZ_PvZ_O01_T540_OPP_S02",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T600_OWN_S01",
+      "evidence_id": "E_08281_PvZ_O01_PvZ_R04_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_74",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "PvZ_PvZ_O01_T540_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T540_OPP_S01",
+      "response": "PvZ_R04",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T600_OWN_S03",
+      "evidence_id": "E_08315_PvZ_O01_PvZ_R04_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_75",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "PvZ_PvZ_O01_T600_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T600_OPP_S01",
+      "response": "PvZ_R06",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T720_OWN_S02",
+      "evidence_id": "E_08367_PvZ_O01_PvZ_R06_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_76",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "PvZ_PvZ_O01_T540_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T540_OPP_S02",
+      "response": "PvZ_R05",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T600_OWN_S02",
+      "evidence_id": "E_08304_PvZ_O01_PvZ_R05_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_77",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "PvZ_PvZ_O01_T540_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T540_OPP_S02",
+      "response": "PvZ_R08",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T600_OWN_S03",
+      "evidence_id": "E_08330_PvZ_O01_PvZ_R08_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_78",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "PvZ_PvZ_O01_T600_OWN_S04",
+      "opponent_condition": "PvZ_PvZ_O01_T600_OPP_S02",
+      "response": "PvZ_R07",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T720_OWN_S02",
+      "evidence_id": "E_08416_PvZ_O01_PvZ_R07_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_79",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "PvZ_PvZ_O01_T480_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T480_OPP_S02",
+      "response": "PvZ_R05",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T540_OWN_S02",
+      "evidence_id": "E_08259_PvZ_O01_PvZ_R05_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_80",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "PvZ_PvZ_O01_T480_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T480_OPP_S01",
+      "response": "PvZ_R08",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T540_OWN_S02",
+      "evidence_id": "E_08251_PvZ_O01_PvZ_R08_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_81",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "PvZ_PvZ_O01_T480_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T480_OPP_S01",
+      "response": "PvZ_R05",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T540_OWN_S02",
+      "evidence_id": "E_08249_PvZ_O01_PvZ_R05_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_82",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvZ_PvZ_O01_T240_OWN_S05",
+      "opponent_condition": "PvZ_PvZ_O01_T240_OPP_S04",
+      "response": "PvZ_R11",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T300_OWN_S03",
+      "evidence_id": "E_07699_PvZ_O01_PvZ_R11_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_83",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvZ_PvZ_O01_T240_OWN_S05",
+      "opponent_condition": "PvZ_PvZ_O01_T240_OPP_S04",
+      "response": "PvZ_R01",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T300_OWN_S03",
+      "evidence_id": "E_07697_PvZ_O01_PvZ_R01_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_84",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "PvZ_PvZ_O01_T480_OWN_S02",
+      "opponent_condition": "PvZ_PvZ_O01_T480_OPP_S02",
+      "response": "PvZ_R02",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T540_OWN_S01",
+      "evidence_id": "E_08236_PvZ_O01_PvZ_R02_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_85",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "PvZ_PvZ_O01_T540_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T540_OPP_S02",
+      "response": "PvZ_R03",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T600_OWN_S03",
+      "evidence_id": "E_08325_PvZ_O01_PvZ_R03_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_86",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "PvZ_PvZ_O01_T540_OWN_S01",
+      "opponent_condition": "PvZ_PvZ_O01_T540_OPP_S02",
+      "response": "PvZ_R02",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T600_OWN_S01",
+      "evidence_id": "E_08279_PvZ_O01_PvZ_R02_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvZ_O01_FREQ_87",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "PvZ_PvZ_O01_T600_OWN_S03",
+      "opponent_condition": "PvZ_PvZ_O01_T600_OPP_S01",
+      "response": "PvZ_R09",
+      "canonical_actions": [],
+      "next_state": "PvZ_PvZ_O01_T720_OWN_S03",
+      "evidence_id": "E_08387_PvZ_O01_PvZ_R09_600",
+      "selection": "frequency_only"
+    }
+  ],
+  "avoid_rules": [],
+  "strategy_graph": "strategy_graph.json",
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

@@ -1,0 +1,167 @@
+{
+  "skill_id": "PvT_O01",
+  "opening_id": "PvT_O01",
+  "race": "Protoss",
+  "opponent_race": "Terran",
+  "directional_matchup": "PvT",
+  "method": "ablation_positive_only",
+  "opening": {
+    "id": "PvT_O01",
+    "name": "Gateway Expand into Cybernetics Core",
+    "objective": "Establish a standard economic lead while teching towards cybernetics core for early upgrades or tech options.",
+    "prototype": [
+      "Prod_Gateway",
+      "Gas",
+      "Base",
+      "Tech_CyberneticsCore",
+      "Gas2"
+    ],
+    "macro_family": "Standard Expand"
+  },
+  "default_evolution": [
+    {
+      "step_id": "PvT_O01_DEF_01",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "PvT_PvT_O01_T180_OWN_S01",
+      "response": "PvT_R01",
+      "canonical_actions": [
+        "Probe",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Assimilator",
+        "Zealot",
+        "RoboticsFacility",
+        "TwilightCouncil",
+        "WarpGateResearch",
+        "Immortal"
+      ],
+      "next_state": "PvT_PvT_O01_T240_OWN_S03",
+      "evidence_id": "E_04557_PvT_O01_PvT_R01_180"
+    },
+    {
+      "step_id": "PvT_O01_DEF_02",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "PvT_PvT_O01_T180_OWN_S02",
+      "response": "PvT_R01",
+      "canonical_actions": [
+        "Probe",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Assimilator",
+        "Zealot",
+        "RoboticsFacility",
+        "TwilightCouncil",
+        "WarpGateResearch",
+        "Immortal"
+      ],
+      "next_state": "PvT_PvT_O01_T240_OWN_S05",
+      "evidence_id": "E_04559_PvT_O01_PvT_R01_180"
+    },
+    {
+      "step_id": "PvT_O01_DEF_03",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "PvT_PvT_O01_T240_OWN_S01",
+      "response": "PvT_R01",
+      "canonical_actions": [
+        "Probe",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Assimilator",
+        "Zealot",
+        "RoboticsFacility",
+        "TwilightCouncil",
+        "WarpGateResearch",
+        "Immortal"
+      ],
+      "next_state": "PvT_PvT_O01_T300_OWN_S03",
+      "evidence_id": "E_04568_PvT_O01_PvT_R01_240"
+    },
+    {
+      "step_id": "PvT_O01_DEF_04",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "PvT_PvT_O01_T240_OWN_S02",
+      "response": "PvT_R01",
+      "canonical_actions": [
+        "Probe",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Assimilator",
+        "Zealot",
+        "RoboticsFacility",
+        "TwilightCouncil",
+        "WarpGateResearch",
+        "Immortal"
+      ],
+      "next_state": "PvT_PvT_O01_T300_OWN_S01",
+      "evidence_id": "E_04572_PvT_O01_PvT_R01_240"
+    },
+    {
+      "step_id": "PvT_O01_DEF_05",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "PvT_PvT_O01_T240_OWN_S03",
+      "response": "PvT_R01",
+      "canonical_actions": [
+        "Probe",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Assimilator",
+        "Zealot",
+        "RoboticsFacility",
+        "TwilightCouncil",
+        "WarpGateResearch",
+        "Immortal"
+      ],
+      "next_state": "PvT_PvT_O01_T300_OWN_S04",
+      "evidence_id": "E_04576_PvT_O01_PvT_R01_240"
+    },
+    {
+      "step_id": "PvT_O01_DEF_06",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "PvT_PvT_O01_T240_OWN_S04",
+      "response": "PvT_R01",
+      "canonical_actions": [
+        "Probe",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Assimilator",
+        "Zealot",
+        "RoboticsFacility",
+        "TwilightCouncil",
+        "WarpGateResearch",
+        "Immortal"
+      ],
+      "next_state": "PvT_PvT_O01_T300_OWN_S02",
+      "evidence_id": "E_04589_PvT_O01_PvT_R01_240"
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": "strategy_graph.json",
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

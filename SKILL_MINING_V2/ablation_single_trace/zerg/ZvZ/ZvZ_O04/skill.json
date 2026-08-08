@@ -1,0 +1,52 @@
+{
+  "skill_id": "ZvZ_O04",
+  "opening_id": "ZvZ_O04",
+  "race": "Zerg",
+  "opponent_race": "Zerg",
+  "directional_matchup": "ZvZ",
+  "method": "ablation_single_trace",
+  "opening": {
+    "id": "ZvZ_O04",
+    "name": "Pool-First Spine Crawler Defense",
+    "objective": "This opening prioritizes early zergling production and a Spine Crawler for defense, aiming to survive early pressure while transitioning into a ling-bane composition.",
+    "prototype": [
+      "Prod_SpawningPool",
+      "Base",
+      "Gas",
+      "Combat_queen",
+      "Static_SpineCrawler",
+      "Combat_ling_bane"
+    ],
+    "macro_family": "Early Aggression"
+  },
+  "default_evolution": [
+    {
+      "step_id": "ZvZ_O04_TRACE_01",
+      "phase": [
+        0,
+        600
+      ],
+      "description": "Follow one winning trajectory nearest to the opening medoid.",
+      "prototype": [
+        "Prod_SpawningPool",
+        "Base",
+        "Gas",
+        "Combat_queen",
+        "Static_SpineCrawler",
+        "Combat_ling_bane"
+      ],
+      "source_trace": {
+        "replay_id": "1e69be2cdf141d209f6d1147",
+        "player_id": 1,
+        "key_sequence": "Prod_SpawningPool > Base > Gas > Combat_queen > Static_SpineCrawler > Combat_ling_bane",
+        "distance_to_medoid": 0.0
+      }
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

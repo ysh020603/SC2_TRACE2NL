@@ -1,0 +1,397 @@
+{
+  "skill_id": "PvP_O05",
+  "opening_id": "PvP_O05",
+  "race": "Protoss",
+  "opponent_race": "Protoss",
+  "directional_matchup": "PvP",
+  "method": "full_signed_graph",
+  "opening": {
+    "id": "PvP_O05",
+    "name": "Gateway Expand into Cybernetics Core",
+    "objective": "Establish a gateway-based economy with early gas and cybernetics core for tech progression, followed by an expansion.",
+    "prototype": [
+      "Prod_Gateway",
+      "Gas",
+      "Gas2",
+      "Tech_CyberneticsCore",
+      "Base"
+    ],
+    "macro_family": "Standard Opening"
+  },
+  "default_evolution": [
+    {
+      "step_id": "PvP_O05_DEF_01",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "PvP_PvP_O05_T180_OWN_S01",
+      "response": "PvP_R02",
+      "canonical_actions": [
+        "Probe",
+        "Pylon",
+        "Stalker",
+        "WarpGateResearch",
+        "Assimilator",
+        "Gateway",
+        "ProtossGroundWeaponsLevel1",
+        "Zealot",
+        "Charge",
+        "Immortal"
+      ],
+      "next_state": "PvP_PvP_O05_T240_OWN_S02",
+      "evidence_id": "E_03555_PvP_O05_PvP_R02_180"
+    },
+    {
+      "step_id": "PvP_O05_DEF_02",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "PvP_PvP_O05_T180_OWN_S03",
+      "response": "PvP_R03",
+      "canonical_actions": [
+        "Probe",
+        "Assimilator",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Immortal",
+        "RoboticsFacility",
+        "Zealot",
+        "TwilightCouncil",
+        "PhotonCannon"
+      ],
+      "next_state": "PvP_PvP_O05_T240_OWN_S03",
+      "evidence_id": "E_03630_PvP_O05_PvP_R03_180"
+    },
+    {
+      "step_id": "PvP_O05_DEF_03",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "PvP_PvP_O05_T180_OWN_S05",
+      "response": "PvP_R03",
+      "canonical_actions": [
+        "Probe",
+        "Assimilator",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Immortal",
+        "RoboticsFacility",
+        "Zealot",
+        "TwilightCouncil",
+        "PhotonCannon"
+      ],
+      "next_state": "PvP_PvP_O05_T240_OWN_S01",
+      "evidence_id": "E_03656_PvP_O05_PvP_R03_180"
+    },
+    {
+      "step_id": "PvP_O05_DEF_04",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "PvP_PvP_O05_T240_OWN_S02",
+      "response": "PvP_R03",
+      "canonical_actions": [
+        "Probe",
+        "Assimilator",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Immortal",
+        "RoboticsFacility",
+        "Zealot",
+        "TwilightCouncil",
+        "PhotonCannon"
+      ],
+      "next_state": "PvP_PvP_O05_T300_OWN_S02",
+      "evidence_id": "E_03689_PvP_O05_PvP_R03_240"
+    },
+    {
+      "step_id": "PvP_O05_DEF_05",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "PvP_PvP_O05_T240_OWN_S03",
+      "response": "PvP_R02",
+      "canonical_actions": [
+        "Probe",
+        "Pylon",
+        "Stalker",
+        "WarpGateResearch",
+        "Assimilator",
+        "Gateway",
+        "ProtossGroundWeaponsLevel1",
+        "Zealot",
+        "Charge",
+        "Immortal"
+      ],
+      "next_state": "PvP_PvP_O05_T300_OWN_S02",
+      "evidence_id": "E_03723_PvP_O05_PvP_R02_240"
+    },
+    {
+      "step_id": "PvP_O05_DEF_06",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "PvP_PvP_O05_T240_OWN_S04",
+      "response": "PvP_R03",
+      "canonical_actions": [
+        "Probe",
+        "Assimilator",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Immortal",
+        "RoboticsFacility",
+        "Zealot",
+        "TwilightCouncil",
+        "PhotonCannon"
+      ],
+      "next_state": "PvP_PvP_O05_T300_OWN_S01",
+      "evidence_id": "E_03728_PvP_O05_PvP_R03_240"
+    },
+    {
+      "step_id": "PvP_O05_DEF_07",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "PvP_PvP_O05_T300_OWN_S01",
+      "response": "PvP_R03",
+      "canonical_actions": [
+        "Probe",
+        "Assimilator",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Immortal",
+        "RoboticsFacility",
+        "Zealot",
+        "TwilightCouncil",
+        "PhotonCannon"
+      ],
+      "next_state": "PvP_PvP_O05_T360_OWN_S02",
+      "evidence_id": "E_03743_PvP_O05_PvP_R03_300"
+    },
+    {
+      "step_id": "PvP_O05_DEF_08",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "PvP_PvP_O05_T300_OWN_S02",
+      "response": "PvP_R03",
+      "canonical_actions": [
+        "Probe",
+        "Assimilator",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Immortal",
+        "RoboticsFacility",
+        "Zealot",
+        "TwilightCouncil",
+        "PhotonCannon"
+      ],
+      "next_state": "PvP_PvP_O05_T360_OWN_S01",
+      "evidence_id": "E_03783_PvP_O05_PvP_R03_300"
+    },
+    {
+      "step_id": "PvP_O05_DEF_09",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state_id": "PvP_PvP_O05_T360_OWN_S01",
+      "response": "PvP_R03",
+      "canonical_actions": [
+        "Probe",
+        "Assimilator",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Immortal",
+        "RoboticsFacility",
+        "Zealot",
+        "TwilightCouncil",
+        "PhotonCannon"
+      ],
+      "next_state": "PvP_PvP_O05_T420_OWN_S02",
+      "evidence_id": "E_03851_PvP_O05_PvP_R03_360"
+    },
+    {
+      "step_id": "PvP_O05_DEF_10",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state_id": "PvP_PvP_O05_T420_OWN_S02",
+      "response": "PvP_R10",
+      "canonical_actions": [
+        "Stalker",
+        "Probe",
+        "Zealot",
+        "Pylon",
+        "Immortal",
+        "Sentry",
+        "Observer",
+        "Gateway",
+        "WarpPrism",
+        "Assimilator"
+      ],
+      "next_state": "PvP_PvP_O05_T480_OWN_S01",
+      "evidence_id": "E_04005_PvP_O05_PvP_R10_420"
+    },
+    {
+      "step_id": "PvP_O05_DEF_11",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state_id": "PvP_PvP_O05_T420_OWN_S04",
+      "response": "PvP_R03",
+      "canonical_actions": [
+        "Probe",
+        "Assimilator",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Immortal",
+        "RoboticsFacility",
+        "Zealot",
+        "TwilightCouncil",
+        "PhotonCannon"
+      ],
+      "next_state": "PvP_PvP_O05_T480_OWN_S04",
+      "evidence_id": "E_04080_PvP_O05_PvP_R03_420"
+    },
+    {
+      "step_id": "PvP_O05_DEF_12",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state_id": "PvP_PvP_O05_T480_OWN_S03",
+      "response": "PvP_R10",
+      "canonical_actions": [
+        "Stalker",
+        "Probe",
+        "Zealot",
+        "Pylon",
+        "Immortal",
+        "Sentry",
+        "Observer",
+        "Gateway",
+        "WarpPrism",
+        "Assimilator"
+      ],
+      "next_state": "PvP_PvP_O05_T540_OWN_S03",
+      "evidence_id": "E_04156_PvP_O05_PvP_R10_480"
+    },
+    {
+      "step_id": "PvP_O05_DEF_13",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state_id": "PvP_PvP_O05_T540_OWN_S01",
+      "response": "PvP_R09",
+      "canonical_actions": [
+        "Stalker",
+        "Pylon",
+        "Probe",
+        "WarpGateResearch",
+        "Zealot",
+        "Gateway",
+        "ProtossGroundWeaponsLevel1",
+        "Charge",
+        "RoboticsFacility",
+        "Immortal"
+      ],
+      "next_state": "PvP_PvP_O05_T600_OWN_S01",
+      "evidence_id": "E_04238_PvP_O05_PvP_R09_540"
+    },
+    {
+      "step_id": "PvP_O05_DEF_14",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state_id": "PvP_PvP_O05_T540_OWN_S03",
+      "response": "PvP_R10",
+      "canonical_actions": [
+        "Stalker",
+        "Probe",
+        "Zealot",
+        "Pylon",
+        "Immortal",
+        "Sentry",
+        "Observer",
+        "Gateway",
+        "WarpPrism",
+        "Assimilator"
+      ],
+      "next_state": "PvP_PvP_O05_T600_OWN_S03",
+      "evidence_id": "E_04323_PvP_O05_PvP_R10_540"
+    },
+    {
+      "step_id": "PvP_O05_DEF_15",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state_id": "PvP_PvP_O05_T540_OWN_S04",
+      "response": "PvP_R06",
+      "canonical_actions": [
+        "Probe",
+        "VoidRay",
+        "Pylon",
+        "Phoenix",
+        "Stalker",
+        "Oracle",
+        "Assimilator",
+        "PhotonCannon",
+        "Gateway",
+        "Zealot"
+      ],
+      "next_state": "PvP_PvP_O05_T600_OWN_S04",
+      "evidence_id": "E_04368_PvP_O05_PvP_R06_540"
+    },
+    {
+      "step_id": "PvP_O05_DEF_16",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state_id": "PvP_PvP_O05_T600_OWN_S02",
+      "response": "PvP_R10",
+      "canonical_actions": [
+        "Stalker",
+        "Probe",
+        "Zealot",
+        "Pylon",
+        "Immortal",
+        "Sentry",
+        "Observer",
+        "Gateway",
+        "WarpPrism",
+        "Assimilator"
+      ],
+      "next_state": "PvP_PvP_O05_T720_OWN_S03",
+      "evidence_id": "E_04448_PvP_O05_PvP_R10_600"
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": "strategy_graph.json",
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

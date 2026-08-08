@@ -1,0 +1,50 @@
+{
+  "skill_id": "PvT_O08_SEED_01",
+  "opening_id": "PvT_O08",
+  "race": "Protoss",
+  "opponent_race": "Terran",
+  "directional_matchup": "PvT",
+  "method": "ablation_single_trace",
+  "opening": {
+    "id": "PvT_O08",
+    "name": "Gateway Expand into Cyber Core",
+    "objective": "Early gateway and gas, followed by Cybernetics Core for tech, with a focus on economy over early aggression.",
+    "prototype": [
+      "Prod_Gateway",
+      "Gas",
+      "Gas2",
+      "Tech_CyberneticsCore",
+      "Combat_gateway"
+    ],
+    "macro_family": "Standard Gateway Expand"
+  },
+  "default_evolution": [
+    {
+      "step_id": "PvT_O08_TRACE_01",
+      "phase": [
+        0,
+        600
+      ],
+      "description": "Follow one winning trajectory nearest to the opening medoid.",
+      "prototype": [
+        "Prod_Gateway",
+        "Gas",
+        "Gas2",
+        "Tech_CyberneticsCore",
+        "Combat_gateway"
+      ],
+      "source_trace": {
+        "replay_id": "3e41303a7c0f365ce60d19b5",
+        "player_id": 1,
+        "key_sequence": "Prod_Gateway > Gas > Gas2 > Tech_CyberneticsCore > Combat_gateway",
+        "distance_to_medoid": 0.0
+      }
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

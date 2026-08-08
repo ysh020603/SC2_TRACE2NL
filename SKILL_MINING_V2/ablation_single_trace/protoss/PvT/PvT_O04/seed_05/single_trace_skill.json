@@ -1,0 +1,50 @@
+{
+  "skill_id": "PvT_O04_SEED_05",
+  "opening_id": "PvT_O04",
+  "race": "Protoss",
+  "opponent_race": "Terran",
+  "directional_matchup": "PvT",
+  "method": "ablation_single_trace",
+  "opening": {
+    "id": "PvT_O04",
+    "name": "Forge Fast Expand into Photon Cannon Defense",
+    "objective": "Early Forge into fast expansion with defensive cannons",
+    "prototype": [
+      "Tech_Forge",
+      "Prod_Gateway",
+      "Gas",
+      "Static_PhotonCannon",
+      "Static_PhotonCannon2"
+    ],
+    "macro_family": "Economic"
+  },
+  "default_evolution": [
+    {
+      "step_id": "PvT_O04_TRACE_01",
+      "phase": [
+        0,
+        600
+      ],
+      "description": "Follow one winning trajectory nearest to the opening medoid.",
+      "prototype": [
+        "Tech_Forge",
+        "Static_PhotonCannon",
+        "Static_PhotonCannon2",
+        "Gas",
+        "Prod_Gateway"
+      ],
+      "source_trace": {
+        "replay_id": "b19cbbb905731410cc1929a6",
+        "player_id": 2,
+        "key_sequence": "Tech_Forge > Static_PhotonCannon > Static_PhotonCannon2 > Gas > Prod_Gateway",
+        "distance_to_medoid": 1.747090654341692
+      }
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

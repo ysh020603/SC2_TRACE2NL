@@ -1,0 +1,50 @@
+{
+  "skill_id": "TvT_O07_SEED_04",
+  "opening_id": "TvT_O07",
+  "race": "Terran",
+  "opponent_race": "Terran",
+  "directional_matchup": "TvT",
+  "method": "ablation_single_trace",
+  "opening": {
+    "id": "TvT_O07",
+    "name": "Terran Tech Lab Reaper Expand",
+    "objective": "Fast tech into Engineering Bay for early defense or upgrades, followed by bio production.",
+    "prototype": [
+      "Prod_Barracks",
+      "Gas",
+      "Tech_EngineeringBay",
+      "Gas2",
+      "Combat_bio"
+    ],
+    "macro_family": "Tech Opening"
+  },
+  "default_evolution": [
+    {
+      "step_id": "TvT_O07_TRACE_01",
+      "phase": [
+        0,
+        600
+      ],
+      "description": "Follow one winning trajectory nearest to the opening medoid.",
+      "prototype": [
+        "Gas",
+        "Gas2",
+        "Prod_Barracks",
+        "Tech_EngineeringBay",
+        "Combat_bio"
+      ],
+      "source_trace": {
+        "replay_id": "2962395875b55c6f635c6574",
+        "player_id": 2,
+        "key_sequence": "Gas > Gas2 > Prod_Barracks > Tech_EngineeringBay > Combat_bio",
+        "distance_to_medoid": 1.192998411024903
+      }
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

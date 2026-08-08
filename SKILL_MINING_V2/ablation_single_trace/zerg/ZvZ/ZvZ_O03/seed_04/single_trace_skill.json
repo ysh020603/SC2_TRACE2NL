@@ -1,0 +1,52 @@
+{
+  "skill_id": "ZvZ_O03_SEED_04",
+  "opening_id": "ZvZ_O03",
+  "race": "Zerg",
+  "opponent_race": "Zerg",
+  "directional_matchup": "ZvZ",
+  "method": "ablation_single_trace",
+  "opening": {
+    "id": "ZvZ_O03",
+    "name": "Zergling-Baneling All-In",
+    "objective": "Fast tech into Zergling-Baneling with early Queen for defense, aiming for a timing attack.",
+    "prototype": [
+      "Gas",
+      "Prod_SpawningPool",
+      "Base",
+      "Tech_EvolutionChamber",
+      "Combat_queen",
+      "Combat_ling_bane"
+    ],
+    "macro_family": "Early Aggression"
+  },
+  "default_evolution": [
+    {
+      "step_id": "ZvZ_O03_TRACE_01",
+      "phase": [
+        0,
+        600
+      ],
+      "description": "Follow one winning trajectory nearest to the opening medoid.",
+      "prototype": [
+        "Base",
+        "Gas",
+        "Prod_SpawningPool",
+        "Tech_EvolutionChamber",
+        "Combat_queen",
+        "Combat_ling_bane"
+      ],
+      "source_trace": {
+        "replay_id": "9743fa22bfb41c10b537a515",
+        "player_id": 1,
+        "key_sequence": "Base > Gas > Prod_SpawningPool > Tech_EvolutionChamber > Combat_queen > Combat_ling_bane",
+        "distance_to_medoid": 1.5057064642762192
+      }
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

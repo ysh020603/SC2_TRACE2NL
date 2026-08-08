@@ -18,9 +18,13 @@ python analysis/full_parse/check_status.py
 cat analysis/full_parse/state/status.json
 ```
 
-## 看门狗
+## 后续分析
 
-Cursor loop 每 5 分钟检查一次；完成后自动跑 `analysis/run_pipeline.py --with-phase1` 并生成详细报告。
+解析完成后运行当前 V2 流水线：
+
+```bash
+python analysis/skill_mining_v2/run_pipeline.py --fresh --full-windows
+```
 
 PID 文件：
 

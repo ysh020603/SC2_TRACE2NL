@@ -1,0 +1,261 @@
+{
+  "skill_id": "TvT_O01",
+  "opening_id": "TvT_O01",
+  "race": "Terran",
+  "opponent_race": "Terran",
+  "directional_matchup": "TvT",
+  "method": "ablation_static_population",
+  "opening": {
+    "id": "TvT_O01",
+    "name": "Gas First Bio into Factory Expand",
+    "objective": "Early gas and barracks production to field bio units quickly, followed by factory and orbital command for tech and economy.",
+    "prototype": [
+      "Gas",
+      "Prod_Barracks",
+      "Gas2",
+      "Combat_bio",
+      "Prod_Factory",
+      "BaseUpgrade_OrbitalCommand",
+      "Combat_bio"
+    ],
+    "macro_family": "Tech Opening"
+  },
+  "default_evolution": [
+    {
+      "step_id": "TvT_O01_DEF_01",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvT_TvT_O01_T180_OWN_S01",
+      "response": "TvT_R07",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "MULE",
+        "OrbitalCommand",
+        "CommandCenter",
+        "SupplyDepot",
+        "SiegeTank",
+        "Refinery",
+        "Starport",
+        "Hellion"
+      ],
+      "next_state": "TvT_TvT_O01_T240_OWN_S03",
+      "evidence_id": "E_19929_TvT_O01_TvT_R07_180"
+    },
+    {
+      "step_id": "TvT_O01_DEF_02",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvT_TvT_O01_T180_OWN_S02",
+      "response": "TvT_R07",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "MULE",
+        "OrbitalCommand",
+        "CommandCenter",
+        "SupplyDepot",
+        "SiegeTank",
+        "Refinery",
+        "Starport",
+        "Hellion"
+      ],
+      "next_state": "TvT_TvT_O01_T240_OWN_S03",
+      "evidence_id": "E_19935_TvT_O01_TvT_R07_180"
+    },
+    {
+      "step_id": "TvT_O01_DEF_03",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvT_TvT_O01_T180_OWN_S03",
+      "response": "TvT_R01",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "MULE",
+        "SupplyDepot",
+        "Refinery",
+        "SiegeTank",
+        "Starport",
+        "Factory",
+        "Hellion",
+        "Reaper"
+      ],
+      "next_state": "TvT_TvT_O01_T240_OWN_S01",
+      "evidence_id": "E_20013_TvT_O01_TvT_R01_180"
+    },
+    {
+      "step_id": "TvT_O01_DEF_04",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvT_TvT_O01_T180_OWN_S04",
+      "response": "TvT_R09",
+      "canonical_actions": [
+        "Marine",
+        "SCV",
+        "SiegeTank",
+        "Marauder",
+        "Reaper",
+        "SupplyDepot",
+        "MULE",
+        "Hellion",
+        "Starport",
+        "WidowMine"
+      ],
+      "next_state": "TvT_TvT_O01_T240_OWN_S02",
+      "evidence_id": "E_20053_TvT_O01_TvT_R09_180"
+    },
+    {
+      "step_id": "TvT_O01_DEF_05",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvT_TvT_O01_T180_OWN_S05",
+      "response": "TvT_R09",
+      "canonical_actions": [
+        "Marine",
+        "SCV",
+        "SiegeTank",
+        "Marauder",
+        "Reaper",
+        "SupplyDepot",
+        "MULE",
+        "Hellion",
+        "Starport",
+        "WidowMine"
+      ],
+      "next_state": "TvT_TvT_O01_T240_OWN_S02",
+      "evidence_id": "E_20093_TvT_O01_TvT_R09_180"
+    },
+    {
+      "step_id": "TvT_O01_DEF_06",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvT_TvT_O01_T180_OWN_S06",
+      "response": "TvT_R01",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "MULE",
+        "SupplyDepot",
+        "Refinery",
+        "SiegeTank",
+        "Starport",
+        "Factory",
+        "Hellion",
+        "Reaper"
+      ],
+      "next_state": "TvT_TvT_O01_T240_OWN_S05",
+      "evidence_id": "E_20103_TvT_O01_TvT_R01_180"
+    },
+    {
+      "step_id": "TvT_O01_DEF_07",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvT_TvT_O01_T180_OWN_S07",
+      "response": "TvT_R07",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "MULE",
+        "OrbitalCommand",
+        "CommandCenter",
+        "SupplyDepot",
+        "SiegeTank",
+        "Refinery",
+        "Starport",
+        "Hellion"
+      ],
+      "next_state": "TvT_TvT_O01_T240_OWN_S01",
+      "evidence_id": "E_20152_TvT_O01_TvT_R07_180"
+    },
+    {
+      "step_id": "TvT_O01_DEF_08",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvT_TvT_O01_T180_OWN_S08",
+      "response": "TvT_R07",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "MULE",
+        "OrbitalCommand",
+        "CommandCenter",
+        "SupplyDepot",
+        "SiegeTank",
+        "Refinery",
+        "Starport",
+        "Hellion"
+      ],
+      "next_state": "TvT_TvT_O01_T240_OWN_S03",
+      "evidence_id": "E_20191_TvT_O01_TvT_R07_180"
+    },
+    {
+      "step_id": "TvT_O01_DEF_09",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvT_TvT_O01_T180_OWN_S09",
+      "response": "TvT_R09",
+      "canonical_actions": [
+        "Marine",
+        "SCV",
+        "SiegeTank",
+        "Marauder",
+        "Reaper",
+        "SupplyDepot",
+        "MULE",
+        "Hellion",
+        "Starport",
+        "WidowMine"
+      ],
+      "next_state": "TvT_TvT_O01_T240_OWN_S02",
+      "evidence_id": "E_20214_TvT_O01_TvT_R09_180"
+    },
+    {
+      "step_id": "TvT_O01_DEF_10",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvT_TvT_O01_T180_OWN_S10",
+      "response": "TvT_R01",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "MULE",
+        "SupplyDepot",
+        "Refinery",
+        "SiegeTank",
+        "Starport",
+        "Factory",
+        "Hellion",
+        "Reaper"
+      ],
+      "next_state": "TvT_TvT_O01_T240_OWN_S01",
+      "evidence_id": "E_20240_TvT_O01_TvT_R01_180"
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

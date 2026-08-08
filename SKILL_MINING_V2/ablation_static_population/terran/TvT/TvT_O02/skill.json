@@ -1,0 +1,255 @@
+{
+  "skill_id": "TvT_O02",
+  "opening_id": "TvT_O02",
+  "race": "Terran",
+  "opponent_race": "Terran",
+  "directional_matchup": "TvT",
+  "method": "ablation_static_population",
+  "opening": {
+    "id": "TvT_O02",
+    "name": "Standard Economic Opening",
+    "objective": "Prioritize economy and technology over military production, aiming for a late-game advantage.",
+    "prototype": [],
+    "macro_family": "Economic"
+  },
+  "default_evolution": [
+    {
+      "step_id": "TvT_O02_DEF_01",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvT_TvT_O02_T180_OWN_S01",
+      "response": "TvT_R02",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "Starport",
+        "Barracks",
+        "Factory",
+        "SupplyDepot",
+        "MULE",
+        "SiegeTank",
+        "Refinery",
+        "Reaper"
+      ],
+      "next_state": "TvT_TvT_O02_T240_OWN_S01",
+      "evidence_id": "E_21552_TvT_O02_TvT_R02_180"
+    },
+    {
+      "step_id": "TvT_O02_DEF_02",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvT_TvT_O02_T180_OWN_S02",
+      "response": "TvT_R12",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O02_T240_OWN_S02",
+      "evidence_id": "E_21576_TvT_O02_TvT_R12_180"
+    },
+    {
+      "step_id": "TvT_O02_DEF_03",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "TvT_TvT_O02_T240_OWN_S02",
+      "response": "TvT_R12",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O02_T300_OWN_S02",
+      "evidence_id": "E_21640_TvT_O02_TvT_R12_240"
+    },
+    {
+      "step_id": "TvT_O02_DEF_04",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "TvT_TvT_O02_T240_OWN_S03",
+      "response": "TvT_R01",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "MULE",
+        "SupplyDepot",
+        "Refinery",
+        "SiegeTank",
+        "Starport",
+        "Factory",
+        "Hellion",
+        "Reaper"
+      ],
+      "next_state": "TvT_TvT_O02_T300_OWN_S08",
+      "evidence_id": "E_21656_TvT_O02_TvT_R01_240"
+    },
+    {
+      "step_id": "TvT_O02_DEF_05",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "TvT_TvT_O02_T240_OWN_S07",
+      "response": "TvT_R01",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "MULE",
+        "SupplyDepot",
+        "Refinery",
+        "SiegeTank",
+        "Starport",
+        "Factory",
+        "Hellion",
+        "Reaper"
+      ],
+      "next_state": "TvT_TvT_O02_T300_OWN_S08",
+      "evidence_id": "E_21719_TvT_O02_TvT_R01_240"
+    },
+    {
+      "step_id": "TvT_O02_DEF_06",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "TvT_TvT_O02_T300_OWN_S02",
+      "response": "TvT_R12",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O02_T360_OWN_S02",
+      "evidence_id": "E_21748_TvT_O02_TvT_R12_300"
+    },
+    {
+      "step_id": "TvT_O02_DEF_07",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "TvT_TvT_O02_T300_OWN_S06",
+      "response": "TvT_R02",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "Starport",
+        "Barracks",
+        "Factory",
+        "SupplyDepot",
+        "MULE",
+        "SiegeTank",
+        "Refinery",
+        "Reaper"
+      ],
+      "next_state": "TvT_TvT_O02_T360_OWN_S04",
+      "evidence_id": "E_21793_TvT_O02_TvT_R02_300"
+    },
+    {
+      "step_id": "TvT_O02_DEF_08",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "TvT_TvT_O02_T300_OWN_S07",
+      "response": "TvT_R04",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "SupplyDepot",
+        "MULE",
+        "TerranInfantryWeaponsLevel1",
+        "Stimpack",
+        "SiegeTank",
+        "TerranInfantryArmorsLevel1",
+        "ShieldWall",
+        "Marauder"
+      ],
+      "next_state": "TvT_TvT_O02_T360_OWN_S04",
+      "evidence_id": "E_21808_TvT_O02_TvT_R04_300"
+    },
+    {
+      "step_id": "TvT_O02_DEF_09",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state_id": "TvT_TvT_O02_T360_OWN_S02",
+      "response": "TvT_R12",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O02_T420_OWN_S02",
+      "evidence_id": "E_21880_TvT_O02_TvT_R12_360"
+    },
+    {
+      "step_id": "TvT_O02_DEF_10",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state_id": "TvT_TvT_O02_T360_OWN_S03",
+      "response": "TvT_R04",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "SupplyDepot",
+        "MULE",
+        "TerranInfantryWeaponsLevel1",
+        "Stimpack",
+        "SiegeTank",
+        "TerranInfantryArmorsLevel1",
+        "ShieldWall",
+        "Marauder"
+      ],
+      "next_state": "TvT_TvT_O02_T420_OWN_S03",
+      "evidence_id": "E_21913_TvT_O02_TvT_R04_360"
+    },
+    {
+      "step_id": "TvT_O02_DEF_11",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state_id": "TvT_TvT_O02_T360_OWN_S04",
+      "response": "TvT_R04",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "SupplyDepot",
+        "MULE",
+        "TerranInfantryWeaponsLevel1",
+        "Stimpack",
+        "SiegeTank",
+        "TerranInfantryArmorsLevel1",
+        "ShieldWall",
+        "Marauder"
+      ],
+      "next_state": "TvT_TvT_O02_T420_OWN_S03",
+      "evidence_id": "E_21925_TvT_O02_TvT_R04_360"
+    },
+    {
+      "step_id": "TvT_O02_DEF_12",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state_id": "TvT_TvT_O02_T360_OWN_S07",
+      "response": "TvT_R04",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "SupplyDepot",
+        "MULE",
+        "TerranInfantryWeaponsLevel1",
+        "Stimpack",
+        "SiegeTank",
+        "TerranInfantryArmorsLevel1",
+        "ShieldWall",
+        "Marauder"
+      ],
+      "next_state": "TvT_TvT_O02_T420_OWN_S03",
+      "evidence_id": "E_21965_TvT_O02_TvT_R04_360"
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

@@ -1,0 +1,52 @@
+{
+  "skill_id": "ZvT_O04_SEED_05",
+  "opening_id": "ZvT_O04",
+  "race": "Zerg",
+  "opponent_race": "Terran",
+  "directional_matchup": "ZvT",
+  "method": "ablation_single_trace",
+  "opening": {
+    "id": "ZvT_O04",
+    "name": "Zergling Speed Expand",
+    "objective": "Early zergling pressure with speed upgrade and quick expansion",
+    "prototype": [
+      "Gas",
+      "Prod_SpawningPool",
+      "Base",
+      "Combat_queen",
+      "Upgrade_zerglingmovementspeed",
+      "Combat_ling_bane"
+    ],
+    "macro_family": "Zergling-based opening"
+  },
+  "default_evolution": [
+    {
+      "step_id": "ZvT_O04_TRACE_01",
+      "phase": [
+        0,
+        600
+      ],
+      "description": "Follow one winning trajectory nearest to the opening medoid.",
+      "prototype": [
+        "Prod_SpawningPool",
+        "Gas",
+        "Base",
+        "Combat_queen",
+        "Combat_ling_bane",
+        "Upgrade_zerglingmovementspeed"
+      ],
+      "source_trace": {
+        "replay_id": "1824a3e46828c8dbd4e6ea55",
+        "player_id": 2,
+        "key_sequence": "Prod_SpawningPool > Gas > Base > Combat_queen > Combat_ling_bane > Upgrade_zerglingmovementspeed",
+        "distance_to_medoid": 0.7898503615264313
+      }
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

@@ -1,0 +1,52 @@
+{
+  "skill_id": "ZvT_O03_SEED_03",
+  "opening_id": "ZvT_O03",
+  "race": "Zerg",
+  "opponent_race": "Terran",
+  "directional_matchup": "ZvT",
+  "method": "ablation_single_trace",
+  "opening": {
+    "id": "ZvT_O03",
+    "name": "Zerg Early Evolution Chamber with Ling-Bane Queen",
+    "objective": "The opening prioritizes early technology (Evolution Chamber) and combat units (queen, ling-bane) over economy and expansion, aiming for early pressure or defense.",
+    "prototype": [
+      "Base",
+      "Prod_SpawningPool",
+      "Gas",
+      "Tech_EvolutionChamber",
+      "Combat_queen",
+      "Combat_ling_bane"
+    ],
+    "macro_family": "Tech-focused early aggression"
+  },
+  "default_evolution": [
+    {
+      "step_id": "ZvT_O03_TRACE_01",
+      "phase": [
+        0,
+        600
+      ],
+      "description": "Follow one winning trajectory nearest to the opening medoid.",
+      "prototype": [
+        "Base",
+        "Gas",
+        "Prod_SpawningPool",
+        "Tech_EvolutionChamber",
+        "Combat_queen",
+        "Combat_ling_bane"
+      ],
+      "source_trace": {
+        "replay_id": "ad52ca8255451f6a5364aeb3",
+        "player_id": 2,
+        "key_sequence": "Base > Gas > Prod_SpawningPool > Tech_EvolutionChamber > Combat_queen > Combat_ling_bane",
+        "distance_to_medoid": 2.9396333305162137
+      }
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

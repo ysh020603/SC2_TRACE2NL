@@ -1,0 +1,54 @@
+{
+  "skill_id": "TvT_O06_SEED_02",
+  "opening_id": "TvT_O06",
+  "race": "Terran",
+  "opponent_race": "Terran",
+  "directional_matchup": "TvT",
+  "method": "ablation_single_trace",
+  "opening": {
+    "id": "TvT_O06",
+    "name": "Bunker Rush",
+    "objective": "Apply early pressure with a bunker and bio units to contain or damage the opponent, while transitioning into standard play.",
+    "prototype": [
+      "Prod_Barracks",
+      "Gas",
+      "Prod_Barracks2",
+      "Combat_bio",
+      "Static_Bunker",
+      "Combat_bio",
+      "BaseUpgrade_OrbitalCommand"
+    ],
+    "macro_family": "Early Pressure"
+  },
+  "default_evolution": [
+    {
+      "step_id": "TvT_O06_TRACE_01",
+      "phase": [
+        0,
+        600
+      ],
+      "description": "Follow one winning trajectory nearest to the opening medoid.",
+      "prototype": [
+        "Prod_Barracks",
+        "Gas",
+        "Combat_bio",
+        "BaseUpgrade_OrbitalCommand",
+        "Static_Bunker",
+        "Prod_Barracks2",
+        "Combat_bio"
+      ],
+      "source_trace": {
+        "replay_id": "fdd6832afe7be160eaa9aa6b",
+        "player_id": 1,
+        "key_sequence": "Prod_Barracks > Gas > Combat_bio > BaseUpgrade_OrbitalCommand > Static_Bunker > Prod_Barracks2 > Combat_bio",
+        "distance_to_medoid": 1.7734562668521685
+      }
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

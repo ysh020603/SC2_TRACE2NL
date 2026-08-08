@@ -1,0 +1,50 @@
+{
+  "skill_id": "PvP_O01_SEED_01",
+  "opening_id": "PvP_O01",
+  "race": "Protoss",
+  "opponent_race": "Protoss",
+  "directional_matchup": "PvP",
+  "method": "ablation_single_trace",
+  "opening": {
+    "id": "PvP_O01",
+    "name": "Cyber Core Expand",
+    "objective": "Establish early tech with Cybernetics Core while maintaining a gateway-based production start.",
+    "prototype": [
+      "Prod_Gateway",
+      "Gas",
+      "Prod_Gateway2",
+      "Tech_CyberneticsCore",
+      "Gas2"
+    ],
+    "macro_family": "Tech Opening"
+  },
+  "default_evolution": [
+    {
+      "step_id": "PvP_O01_TRACE_01",
+      "phase": [
+        0,
+        600
+      ],
+      "description": "Follow one winning trajectory nearest to the opening medoid.",
+      "prototype": [
+        "Prod_Gateway",
+        "Gas",
+        "Gas2",
+        "Prod_Gateway2",
+        "Tech_CyberneticsCore"
+      ],
+      "source_trace": {
+        "replay_id": "123a1684e691155a6dcda466",
+        "player_id": 1,
+        "key_sequence": "Prod_Gateway > Gas > Gas2 > Prod_Gateway2 > Tech_CyberneticsCore",
+        "distance_to_medoid": 0.09445212107612788
+      }
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

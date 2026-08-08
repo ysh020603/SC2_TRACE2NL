@@ -1,0 +1,261 @@
+{
+  "skill_id": "PvP_O04",
+  "opening_id": "PvP_O04",
+  "race": "Protoss",
+  "opponent_race": "Protoss",
+  "directional_matchup": "PvP",
+  "method": "ablation_static_population",
+  "opening": {
+    "id": "PvP_O04",
+    "name": "Gateway Expand into Warp Gate Pressure",
+    "objective": "Establish a fast expansion while teching to Warp Gate for early pressure.",
+    "prototype": [
+      "Prod_Gateway",
+      "Gas",
+      "Gas2",
+      "Prod_Gateway2",
+      "Tech_CyberneticsCore",
+      "Upgrade_WarpGateResearch",
+      "Combat_gateway"
+    ],
+    "macro_family": "Gateway Expand"
+  },
+  "default_evolution": [
+    {
+      "step_id": "PvP_O04_DEF_01",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "PvP_PvP_O04_T180_OWN_S02",
+      "response": "PvP_R03",
+      "canonical_actions": [
+        "Probe",
+        "Assimilator",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Immortal",
+        "RoboticsFacility",
+        "Zealot",
+        "TwilightCouncil",
+        "PhotonCannon"
+      ],
+      "next_state": "PvP_PvP_O04_T240_OWN_S01",
+      "evidence_id": "E_02420_PvP_O04_PvP_R03_180"
+    },
+    {
+      "step_id": "PvP_O04_DEF_02",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "PvP_PvP_O04_T240_OWN_S01",
+      "response": "PvP_R03",
+      "canonical_actions": [
+        "Probe",
+        "Assimilator",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Immortal",
+        "RoboticsFacility",
+        "Zealot",
+        "TwilightCouncil",
+        "PhotonCannon"
+      ],
+      "next_state": "PvP_PvP_O04_T300_OWN_S01",
+      "evidence_id": "E_02440_PvP_O04_PvP_R03_240"
+    },
+    {
+      "step_id": "PvP_O04_DEF_03",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "PvP_PvP_O04_T240_OWN_S04",
+      "response": "PvP_R06",
+      "canonical_actions": [
+        "Probe",
+        "VoidRay",
+        "Pylon",
+        "Phoenix",
+        "Stalker",
+        "Oracle",
+        "Assimilator",
+        "PhotonCannon",
+        "Gateway",
+        "Zealot"
+      ],
+      "next_state": "PvP_PvP_O04_T300_OWN_S04",
+      "evidence_id": "E_02532_PvP_O04_PvP_R06_240"
+    },
+    {
+      "step_id": "PvP_O04_DEF_04",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "PvP_PvP_O04_T300_OWN_S01",
+      "response": "PvP_R03",
+      "canonical_actions": [
+        "Probe",
+        "Assimilator",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Immortal",
+        "RoboticsFacility",
+        "Zealot",
+        "TwilightCouncil",
+        "PhotonCannon"
+      ],
+      "next_state": "PvP_PvP_O04_T360_OWN_S01",
+      "evidence_id": "E_02592_PvP_O04_PvP_R03_300"
+    },
+    {
+      "step_id": "PvP_O04_DEF_05",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "PvP_PvP_O04_T300_OWN_S04",
+      "response": "PvP_R06",
+      "canonical_actions": [
+        "Probe",
+        "VoidRay",
+        "Pylon",
+        "Phoenix",
+        "Stalker",
+        "Oracle",
+        "Assimilator",
+        "PhotonCannon",
+        "Gateway",
+        "Zealot"
+      ],
+      "next_state": "PvP_PvP_O04_T360_OWN_S04",
+      "evidence_id": "E_02696_PvP_O04_PvP_R06_300"
+    },
+    {
+      "step_id": "PvP_O04_DEF_06",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state_id": "PvP_PvP_O04_T360_OWN_S01",
+      "response": "PvP_R03",
+      "canonical_actions": [
+        "Probe",
+        "Assimilator",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Immortal",
+        "RoboticsFacility",
+        "Zealot",
+        "TwilightCouncil",
+        "PhotonCannon"
+      ],
+      "next_state": "PvP_PvP_O04_T420_OWN_S01",
+      "evidence_id": "E_02779_PvP_O04_PvP_R03_360"
+    },
+    {
+      "step_id": "PvP_O04_DEF_07",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state_id": "PvP_PvP_O04_T360_OWN_S02",
+      "response": "PvP_R03",
+      "canonical_actions": [
+        "Probe",
+        "Assimilator",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Immortal",
+        "RoboticsFacility",
+        "Zealot",
+        "TwilightCouncil",
+        "PhotonCannon"
+      ],
+      "next_state": "PvP_PvP_O04_T420_OWN_S01",
+      "evidence_id": "E_02799_PvP_O04_PvP_R03_360"
+    },
+    {
+      "step_id": "PvP_O04_DEF_08",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state_id": "PvP_PvP_O04_T360_OWN_S03",
+      "response": "PvP_R10",
+      "canonical_actions": [
+        "Stalker",
+        "Probe",
+        "Zealot",
+        "Pylon",
+        "Immortal",
+        "Sentry",
+        "Observer",
+        "Gateway",
+        "WarpPrism",
+        "Assimilator"
+      ],
+      "next_state": "PvP_PvP_O04_T420_OWN_S02",
+      "evidence_id": "E_02839_PvP_O04_PvP_R10_360"
+    },
+    {
+      "step_id": "PvP_O04_DEF_09",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state_id": "PvP_PvP_O04_T360_OWN_S04",
+      "response": "PvP_R03",
+      "canonical_actions": [
+        "Probe",
+        "Assimilator",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Immortal",
+        "RoboticsFacility",
+        "Zealot",
+        "TwilightCouncil",
+        "PhotonCannon"
+      ],
+      "next_state": "PvP_PvP_O04_T420_OWN_S03",
+      "evidence_id": "E_02885_PvP_O04_PvP_R03_360"
+    },
+    {
+      "step_id": "PvP_O04_DEF_10",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state_id": "PvP_PvP_O04_T420_OWN_S01",
+      "response": "PvP_R10",
+      "canonical_actions": [
+        "Stalker",
+        "Probe",
+        "Zealot",
+        "Pylon",
+        "Immortal",
+        "Sentry",
+        "Observer",
+        "Gateway",
+        "WarpPrism",
+        "Assimilator"
+      ],
+      "next_state": "PvP_PvP_O04_T480_OWN_S02",
+      "evidence_id": "E_02962_PvP_O04_PvP_R10_420"
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

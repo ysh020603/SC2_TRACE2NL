@@ -1,0 +1,52 @@
+{
+  "skill_id": "TvP_O05_SEED_03",
+  "opening_id": "TvP_O05",
+  "race": "Terran",
+  "opponent_race": "Protoss",
+  "directional_matchup": "TvP",
+  "method": "ablation_single_trace",
+  "opening": {
+    "id": "TvP_O05",
+    "name": "Reaper Expand into Double Barracks",
+    "objective": "Early bio pressure with Punisher Grenades, fast expansion via Orbital Command, and double Barracks production.",
+    "prototype": [
+      "Prod_Barracks",
+      "Gas",
+      "Prod_Barracks2",
+      "Combat_bio",
+      "Upgrade_PunisherGrenades",
+      "BaseUpgrade_OrbitalCommand"
+    ],
+    "macro_family": "Bio Opening"
+  },
+  "default_evolution": [
+    {
+      "step_id": "TvP_O05_TRACE_01",
+      "phase": [
+        0,
+        600
+      ],
+      "description": "Follow one winning trajectory nearest to the opening medoid.",
+      "prototype": [
+        "Gas",
+        "Prod_Barracks",
+        "Prod_Barracks2",
+        "BaseUpgrade_OrbitalCommand",
+        "Combat_bio",
+        "Upgrade_PunisherGrenades"
+      ],
+      "source_trace": {
+        "replay_id": "d2d1a631c1c6a9f6f7b875cd",
+        "player_id": 2,
+        "key_sequence": "Gas > Prod_Barracks > Prod_Barracks2 > BaseUpgrade_OrbitalCommand > Combat_bio > Upgrade_PunisherGrenades",
+        "distance_to_medoid": 2.2468681941777198
+      }
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

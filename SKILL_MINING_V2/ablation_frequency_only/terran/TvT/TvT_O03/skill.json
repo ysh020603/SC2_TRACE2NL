@@ -1,0 +1,2256 @@
+{
+  "skill_id": "TvT_O03",
+  "opening_id": "TvT_O03",
+  "race": "Terran",
+  "opponent_race": "Terran",
+  "directional_matchup": "TvT",
+  "method": "ablation_frequency_only",
+  "opening": {
+    "id": "TvT_O03",
+    "name": "1-1-1 Stim Opening",
+    "objective": "Fast tech into bio upgrades with early combat units",
+    "prototype": [
+      "Gas",
+      "Prod_Barracks",
+      "Gas2",
+      "Prod_Barracks2",
+      "Combat_bio",
+      "Upgrade_Stimpack"
+    ],
+    "macro_family": "Tech-focused bio opening"
+  },
+  "default_evolution": [
+    {
+      "step_id": "TvT_O03_DEF_01",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvT_TvT_O03_T180_OWN_S02",
+      "response": "TvT_R09",
+      "canonical_actions": [
+        "Marine",
+        "SCV",
+        "SiegeTank",
+        "Marauder",
+        "Reaper",
+        "SupplyDepot",
+        "MULE",
+        "Hellion",
+        "Starport",
+        "WidowMine"
+      ],
+      "next_state": "TvT_TvT_O03_T240_OWN_S01",
+      "evidence_id": "E_22350_TvT_O03_TvT_R09_180"
+    },
+    {
+      "step_id": "TvT_O03_DEF_02",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvT_TvT_O03_T180_OWN_S03",
+      "response": "TvT_R02",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "Starport",
+        "Barracks",
+        "Factory",
+        "SupplyDepot",
+        "MULE",
+        "SiegeTank",
+        "Refinery",
+        "Reaper"
+      ],
+      "next_state": "TvT_TvT_O03_T240_OWN_S03",
+      "evidence_id": "E_22352_TvT_O03_TvT_R02_180"
+    },
+    {
+      "step_id": "TvT_O03_DEF_03",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "TvT_TvT_O03_T300_OWN_S01",
+      "response": "TvT_R01",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "MULE",
+        "SupplyDepot",
+        "Refinery",
+        "SiegeTank",
+        "Starport",
+        "Factory",
+        "Hellion",
+        "Reaper"
+      ],
+      "next_state": "TvT_TvT_O03_T360_OWN_S03",
+      "evidence_id": "E_22427_TvT_O03_TvT_R01_300"
+    },
+    {
+      "step_id": "TvT_O03_DEF_04",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "TvT_TvT_O03_T300_OWN_S04",
+      "response": "TvT_R04",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "SupplyDepot",
+        "MULE",
+        "TerranInfantryWeaponsLevel1",
+        "Stimpack",
+        "SiegeTank",
+        "TerranInfantryArmorsLevel1",
+        "ShieldWall",
+        "Marauder"
+      ],
+      "next_state": "TvT_TvT_O03_T360_OWN_S06",
+      "evidence_id": "E_22520_TvT_O03_TvT_R04_300"
+    },
+    {
+      "step_id": "TvT_O03_DEF_05",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "TvT_TvT_O03_T300_OWN_S06",
+      "response": "TvT_R04",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "SupplyDepot",
+        "MULE",
+        "TerranInfantryWeaponsLevel1",
+        "Stimpack",
+        "SiegeTank",
+        "TerranInfantryArmorsLevel1",
+        "ShieldWall",
+        "Marauder"
+      ],
+      "next_state": "TvT_TvT_O03_T360_OWN_S09",
+      "evidence_id": "E_22551_TvT_O03_TvT_R04_300"
+    },
+    {
+      "step_id": "TvT_O03_DEF_06",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state_id": "TvT_TvT_O03_T360_OWN_S04",
+      "response": "TvT_R04",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "SupplyDepot",
+        "MULE",
+        "TerranInfantryWeaponsLevel1",
+        "Stimpack",
+        "SiegeTank",
+        "TerranInfantryArmorsLevel1",
+        "ShieldWall",
+        "Marauder"
+      ],
+      "next_state": "TvT_TvT_O03_T420_OWN_S04",
+      "evidence_id": "E_22635_TvT_O03_TvT_R04_360"
+    },
+    {
+      "step_id": "TvT_O03_DEF_07",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state_id": "TvT_TvT_O03_T420_OWN_S02",
+      "response": "TvT_R11",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "SupplyDepot",
+        "MULE",
+        "SiegeTank",
+        "Medivac",
+        "Raven",
+        "Refinery",
+        "Banshee",
+        "OrbitalCommand"
+      ],
+      "next_state": "TvT_TvT_O03_T480_OWN_S06",
+      "evidence_id": "E_22735_TvT_O03_TvT_R11_420"
+    },
+    {
+      "step_id": "TvT_O03_DEF_08",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state_id": "TvT_TvT_O03_T420_OWN_S03",
+      "response": "TvT_R01",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "MULE",
+        "SupplyDepot",
+        "Refinery",
+        "SiegeTank",
+        "Starport",
+        "Factory",
+        "Hellion",
+        "Reaper"
+      ],
+      "next_state": "TvT_TvT_O03_T480_OWN_S08",
+      "evidence_id": "E_22763_TvT_O03_TvT_R01_420"
+    },
+    {
+      "step_id": "TvT_O03_DEF_09",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state_id": "TvT_TvT_O03_T420_OWN_S04",
+      "response": "TvT_R04",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "SupplyDepot",
+        "MULE",
+        "TerranInfantryWeaponsLevel1",
+        "Stimpack",
+        "SiegeTank",
+        "TerranInfantryArmorsLevel1",
+        "ShieldWall",
+        "Marauder"
+      ],
+      "next_state": "TvT_TvT_O03_T480_OWN_S05",
+      "evidence_id": "E_22780_TvT_O03_TvT_R04_420"
+    },
+    {
+      "step_id": "TvT_O03_DEF_10",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state_id": "TvT_TvT_O03_T420_OWN_S05",
+      "response": "TvT_R07",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "MULE",
+        "OrbitalCommand",
+        "CommandCenter",
+        "SupplyDepot",
+        "SiegeTank",
+        "Refinery",
+        "Starport",
+        "Hellion"
+      ],
+      "next_state": "TvT_TvT_O03_T480_OWN_S04",
+      "evidence_id": "E_22808_TvT_O03_TvT_R07_420"
+    },
+    {
+      "step_id": "TvT_O03_DEF_11",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state_id": "TvT_TvT_O03_T480_OWN_S01",
+      "response": "TvT_R05",
+      "canonical_actions": [
+        "CommandCenter",
+        "OrbitalCommand",
+        "Marine",
+        "SCV",
+        "SupplyDepot",
+        "SiegeTank",
+        "Starport",
+        "Factory",
+        "Reaper",
+        "MULE"
+      ],
+      "next_state": "TvT_TvT_O03_T540_OWN_S02",
+      "evidence_id": "E_22832_TvT_O03_TvT_R05_480"
+    },
+    {
+      "step_id": "TvT_O03_DEF_12",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state_id": "TvT_TvT_O03_T480_OWN_S03",
+      "response": "TvT_R10",
+      "canonical_actions": [
+        "Marine",
+        "Medivac",
+        "SCV",
+        "SupplyDepot",
+        "Battlecruiser",
+        "Banshee",
+        "SiegeTank",
+        "CommandCenter",
+        "MULE",
+        "MissileTurret"
+      ],
+      "next_state": "TvT_TvT_O03_T540_OWN_S03",
+      "evidence_id": "E_22852_TvT_O03_TvT_R10_480"
+    },
+    {
+      "step_id": "TvT_O03_DEF_13",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state_id": "TvT_TvT_O03_T480_OWN_S04",
+      "response": "TvT_R05",
+      "canonical_actions": [
+        "CommandCenter",
+        "OrbitalCommand",
+        "Marine",
+        "SCV",
+        "SupplyDepot",
+        "SiegeTank",
+        "Starport",
+        "Factory",
+        "Reaper",
+        "MULE"
+      ],
+      "next_state": "TvT_TvT_O03_T540_OWN_S04",
+      "evidence_id": "E_22867_TvT_O03_TvT_R05_480"
+    },
+    {
+      "step_id": "TvT_O03_DEF_14",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state_id": "TvT_TvT_O03_T540_OWN_S03",
+      "response": "TvT_R09",
+      "canonical_actions": [
+        "Marine",
+        "SCV",
+        "SiegeTank",
+        "Marauder",
+        "Reaper",
+        "SupplyDepot",
+        "MULE",
+        "Hellion",
+        "Starport",
+        "WidowMine"
+      ],
+      "next_state": "TvT_TvT_O03_T600_OWN_S01",
+      "evidence_id": "E_22949_TvT_O03_TvT_R09_540"
+    },
+    {
+      "step_id": "TvT_O03_DEF_15",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state_id": "TvT_TvT_O03_T540_OWN_S05",
+      "response": "TvT_R08",
+      "canonical_actions": [
+        "SCV",
+        "MissileTurret",
+        "Marine",
+        "MULE",
+        "SupplyDepot",
+        "SiegeTank",
+        "Bunker",
+        "Refinery",
+        "OrbitalCommand",
+        "Starport"
+      ],
+      "next_state": "TvT_TvT_O03_T600_OWN_S02",
+      "evidence_id": "E_22972_TvT_O03_TvT_R08_540"
+    },
+    {
+      "step_id": "TvT_O03_DEF_16",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state_id": "TvT_TvT_O03_T600_OWN_S01",
+      "response": "TvT_R01",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "MULE",
+        "SupplyDepot",
+        "Refinery",
+        "SiegeTank",
+        "Starport",
+        "Factory",
+        "Hellion",
+        "Reaper"
+      ],
+      "next_state": "TvT_TvT_O03_T720_OWN_S02",
+      "evidence_id": "E_23019_TvT_O03_TvT_R01_600"
+    },
+    {
+      "step_id": "TvT_O03_DEF_17",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state_id": "TvT_TvT_O03_T600_OWN_S03",
+      "response": "TvT_R10",
+      "canonical_actions": [
+        "Marine",
+        "Medivac",
+        "SCV",
+        "SupplyDepot",
+        "Battlecruiser",
+        "Banshee",
+        "SiegeTank",
+        "CommandCenter",
+        "MULE",
+        "MissileTurret"
+      ],
+      "next_state": "TvT_TvT_O03_T720_OWN_S02",
+      "evidence_id": "E_23080_TvT_O03_TvT_R10_600"
+    }
+  ],
+  "preferred_rules": [
+    {
+      "rule_id": "TvT_O03_FREQ_01",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "TvT_TvT_O03_T360_OWN_S08",
+      "opponent_condition": "TvT_TvT_O03_T360_OPP_S03",
+      "response": "TvT_R12",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T420_OWN_S03",
+      "evidence_id": "E_22694_TvT_O03_TvT_R12_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_02",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "TvT_TvT_O03_T420_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T420_OPP_S08",
+      "response": "TvT_R01",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T480_OWN_S08",
+      "evidence_id": "E_22763_TvT_O03_TvT_R01_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_03",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "TvT_TvT_O03_T420_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T420_OPP_S04",
+      "response": "TvT_R11",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T480_OWN_S06",
+      "evidence_id": "E_22735_TvT_O03_TvT_R11_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_04",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S08",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S07",
+      "response": "TvT_R01",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S04",
+      "evidence_id": "E_22904_TvT_O03_TvT_R01_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_05",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "TvT_TvT_O03_T360_OWN_S04",
+      "opponent_condition": "TvT_TvT_O03_T360_OPP_S02",
+      "response": "TvT_R11",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T420_OWN_S01",
+      "evidence_id": "E_22634_TvT_O03_TvT_R11_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_06",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "TvT_TvT_O03_T300_OWN_S06",
+      "opponent_condition": "TvT_TvT_O03_T300_OPP_S03",
+      "response": "TvT_R08",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T360_OWN_S09",
+      "evidence_id": "E_22557_TvT_O03_TvT_R08_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_07",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S07",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S04",
+      "response": "TvT_R08",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S02",
+      "evidence_id": "E_22902_TvT_O03_TvT_R08_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_08",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "TvT_TvT_O03_T300_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T300_OPP_S03",
+      "response": "TvT_R04",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T360_OWN_S06",
+      "evidence_id": "E_22452_TvT_O03_TvT_R04_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_09",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "TvT_TvT_O03_T420_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T420_OPP_S01",
+      "response": "TvT_R07",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T480_OWN_S06",
+      "evidence_id": "E_22695_TvT_O03_TvT_R07_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_10",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "TvT_TvT_O03_T300_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T300_OPP_S02",
+      "response": "TvT_R01",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T360_OWN_S03",
+      "evidence_id": "E_22427_TvT_O03_TvT_R01_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_11",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "TvT_TvT_O03_T540_OWN_S05",
+      "opponent_condition": "TvT_TvT_O03_T540_OPP_S01",
+      "response": "TvT_R08",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T600_OWN_S02",
+      "evidence_id": "E_22972_TvT_O03_TvT_R08_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_12",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "TvT_TvT_O03_T300_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T300_OPP_S02",
+      "response": "TvT_R09",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T360_OWN_S02",
+      "evidence_id": "E_22450_TvT_O03_TvT_R09_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_13",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "TvT_TvT_O03_T540_OWN_S06",
+      "opponent_condition": "TvT_TvT_O03_T540_OPP_S04",
+      "response": "TvT_R08",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T600_OWN_S02",
+      "evidence_id": "E_23006_TvT_O03_TvT_R08_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_14",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S06",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S01",
+      "response": "TvT_R07",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S06",
+      "evidence_id": "E_22888_TvT_O03_TvT_R07_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_15",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "TvT_TvT_O03_T360_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T360_OPP_S01",
+      "response": "TvT_R11",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T420_OWN_S02",
+      "evidence_id": "E_22619_TvT_O03_TvT_R11_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_16",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "TvT_TvT_O03_T600_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T600_OPP_S03",
+      "response": "TvT_R11",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T720_OWN_S01",
+      "evidence_id": "E_23030_TvT_O03_TvT_R11_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_17",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "TvT_TvT_O03_T300_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T300_OPP_S06",
+      "response": "TvT_R11",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T360_OWN_S01",
+      "evidence_id": "E_22443_TvT_O03_TvT_R11_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_18",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "TvT_TvT_O03_T360_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T360_OPP_S02",
+      "response": "TvT_R06",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T420_OWN_S02",
+      "evidence_id": "E_22621_TvT_O03_TvT_R06_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_19",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "TvT_TvT_O03_T300_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T300_OPP_S03",
+      "response": "TvT_R11",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T360_OWN_S04",
+      "evidence_id": "E_22480_TvT_O03_TvT_R11_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_20",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "TvT_TvT_O03_T300_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T300_OPP_S01",
+      "response": "TvT_R07",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T360_OWN_S01",
+      "evidence_id": "E_22424_TvT_O03_TvT_R07_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_21",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "TvT_TvT_O03_T420_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T420_OPP_S10",
+      "response": "TvT_R04",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T480_OWN_S03",
+      "evidence_id": "E_22705_TvT_O03_TvT_R04_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_22",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "TvT_TvT_O03_T180_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T180_OPP_S02",
+      "response": "TvT_R09",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T240_OWN_S01",
+      "evidence_id": "E_22350_TvT_O03_TvT_R09_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_23",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S06",
+      "response": "TvT_R10",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S03",
+      "evidence_id": "E_22852_TvT_O03_TvT_R10_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_24",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S02",
+      "response": "TvT_R09",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S01",
+      "evidence_id": "E_22825_TvT_O03_TvT_R09_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_25",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "TvT_TvT_O03_T420_OWN_S05",
+      "opponent_condition": "TvT_TvT_O03_T420_OPP_S10",
+      "response": "TvT_R08",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T480_OWN_S10",
+      "evidence_id": "E_22821_TvT_O03_TvT_R08_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_26",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "TvT_TvT_O03_T420_OWN_S05",
+      "opponent_condition": "TvT_TvT_O03_T420_OPP_S10",
+      "response": "TvT_R04",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T480_OWN_S05",
+      "evidence_id": "E_22819_TvT_O03_TvT_R04_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_27",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "TvT_TvT_O03_T360_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T360_OPP_S03",
+      "response": "TvT_R01",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T420_OWN_S04",
+      "evidence_id": "E_22604_TvT_O03_TvT_R01_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_28",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "TvT_TvT_O03_T360_OWN_S07",
+      "opponent_condition": "TvT_TvT_O03_T360_OPP_S01",
+      "response": "TvT_R09",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T420_OWN_S04",
+      "evidence_id": "E_22687_TvT_O03_TvT_R09_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_29",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "TvT_TvT_O03_T300_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T300_OPP_S07",
+      "response": "TvT_R11",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T360_OWN_S04",
+      "evidence_id": "E_22483_TvT_O03_TvT_R11_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_30",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "TvT_TvT_O03_T540_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T540_OPP_S01",
+      "response": "TvT_R11",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T600_OWN_S01",
+      "evidence_id": "E_22913_TvT_O03_TvT_R11_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_31",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "TvT_TvT_O03_T420_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T420_OPP_S05",
+      "response": "TvT_R08",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T480_OWN_S04",
+      "evidence_id": "E_22755_TvT_O03_TvT_R08_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_32",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "TvT_TvT_O03_T300_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T300_OPP_S07",
+      "response": "TvT_R10",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T360_OWN_S04",
+      "evidence_id": "E_22482_TvT_O03_TvT_R10_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_33",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "TvT_TvT_O03_T540_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T540_OPP_S03",
+      "response": "TvT_R03",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T600_OWN_S02",
+      "evidence_id": "E_22914_TvT_O03_TvT_R03_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_34",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "TvT_TvT_O03_T420_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T420_OPP_S06",
+      "response": "TvT_R07",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T480_OWN_S06",
+      "evidence_id": "E_22738_TvT_O03_TvT_R07_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_35",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "TvT_TvT_O03_T540_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T540_OPP_S04",
+      "response": "TvT_R09",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T600_OWN_S01",
+      "evidence_id": "E_22949_TvT_O03_TvT_R09_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_36",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "TvT_TvT_O03_T420_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T420_OPP_S04",
+      "response": "TvT_R11",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T480_OWN_S03",
+      "evidence_id": "E_22704_TvT_O03_TvT_R11_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_37",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S05",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S06",
+      "response": "TvT_R02",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S02",
+      "evidence_id": "E_22881_TvT_O03_TvT_R02_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_38",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S04",
+      "response": "TvT_R11",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S01",
+      "evidence_id": "E_22844_TvT_O03_TvT_R11_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_39",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "TvT_TvT_O03_T420_OWN_S04",
+      "opponent_condition": "TvT_TvT_O03_T420_OPP_S02",
+      "response": "TvT_R09",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T480_OWN_S01",
+      "evidence_id": "E_22776_TvT_O03_TvT_R09_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_40",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S04",
+      "response": "TvT_R06",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S01",
+      "evidence_id": "E_22843_TvT_O03_TvT_R06_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_41",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "TvT_TvT_O03_T180_OWN_S05",
+      "opponent_condition": "TvT_TvT_O03_T180_OPP_S01",
+      "response": "TvT_R04",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T240_OWN_S02",
+      "evidence_id": "E_22375_TvT_O03_TvT_R04_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_42",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "TvT_TvT_O03_T300_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T300_OPP_S04",
+      "response": "TvT_R02",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T360_OWN_S07",
+      "evidence_id": "E_22457_TvT_O03_TvT_R02_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_43",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "TvT_TvT_O03_T360_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T360_OPP_S01",
+      "response": "TvT_R09",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T420_OWN_S02",
+      "evidence_id": "E_22596_TvT_O03_TvT_R09_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_44",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "TvT_TvT_O03_T180_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T180_OPP_S02",
+      "response": "TvT_R09",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T240_OWN_S03",
+      "evidence_id": "E_22364_TvT_O03_TvT_R09_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_45",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "TvT_TvT_O03_T420_OWN_S04",
+      "opponent_condition": "TvT_TvT_O03_T420_OPP_S07",
+      "response": "TvT_R04",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T480_OWN_S05",
+      "evidence_id": "E_22798_TvT_O03_TvT_R04_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_46",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "TvT_TvT_O03_T300_OWN_S05",
+      "opponent_condition": "TvT_TvT_O03_T300_OPP_S04",
+      "response": "TvT_R04",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T360_OWN_S07",
+      "evidence_id": "E_22538_TvT_O03_TvT_R04_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_47",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "TvT_TvT_O03_T360_OWN_S04",
+      "opponent_condition": "TvT_TvT_O03_T360_OPP_S01",
+      "response": "TvT_R11",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T420_OWN_S01",
+      "evidence_id": "E_22631_TvT_O03_TvT_R11_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_48",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "TvT_TvT_O03_T240_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T240_OPP_S02",
+      "response": "TvT_R09",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T300_OWN_S04",
+      "evidence_id": "E_22420_TvT_O03_TvT_R09_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_49",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "TvT_TvT_O03_T360_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T360_OPP_S02",
+      "response": "TvT_R11",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T420_OWN_S02",
+      "evidence_id": "E_22579_TvT_O03_TvT_R11_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_50",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S06",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S04",
+      "response": "TvT_R11",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S06",
+      "evidence_id": "E_22897_TvT_O03_TvT_R11_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_51",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "TvT_TvT_O03_T180_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T180_OPP_S02",
+      "response": "TvT_R09",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T240_OWN_S01",
+      "evidence_id": "E_22335_TvT_O03_TvT_R09_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_52",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "TvT_TvT_O03_T540_OWN_S05",
+      "opponent_condition": "TvT_TvT_O03_T540_OPP_S03",
+      "response": "TvT_R04",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T600_OWN_S02",
+      "evidence_id": "E_22980_TvT_O03_TvT_R04_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_53",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S05",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S03",
+      "response": "TvT_R10",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S03",
+      "evidence_id": "E_22872_TvT_O03_TvT_R10_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_54",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "TvT_TvT_O03_T300_OWN_S04",
+      "opponent_condition": "TvT_TvT_O03_T300_OPP_S06",
+      "response": "TvT_R06",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T360_OWN_S02",
+      "evidence_id": "E_22516_TvT_O03_TvT_R06_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_55",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S04",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S04",
+      "response": "TvT_R05",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S04",
+      "evidence_id": "E_22867_TvT_O03_TvT_R05_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_56",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S05",
+      "response": "TvT_R11",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S01",
+      "evidence_id": "E_22849_TvT_O03_TvT_R11_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_57",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "TvT_TvT_O03_T300_OWN_S06",
+      "opponent_condition": "TvT_TvT_O03_T300_OPP_S02",
+      "response": "TvT_R04",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T360_OWN_S09",
+      "evidence_id": "E_22551_TvT_O03_TvT_R04_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_58",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "TvT_TvT_O03_T300_OWN_S04",
+      "opponent_condition": "TvT_TvT_O03_T300_OPP_S07",
+      "response": "TvT_R04",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T360_OWN_S06",
+      "evidence_id": "E_22520_TvT_O03_TvT_R04_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_59",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "TvT_TvT_O03_T300_OWN_S04",
+      "opponent_condition": "TvT_TvT_O03_T300_OPP_S07",
+      "response": "TvT_R06",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T360_OWN_S02",
+      "evidence_id": "E_22521_TvT_O03_TvT_R06_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_60",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "TvT_TvT_O03_T360_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T360_OPP_S04",
+      "response": "TvT_R06",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T420_OWN_S02",
+      "evidence_id": "E_22589_TvT_O03_TvT_R06_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_61",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S06",
+      "response": "TvT_R05",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S02",
+      "evidence_id": "E_22832_TvT_O03_TvT_R05_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_62",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S06",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S05",
+      "response": "TvT_R01",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S06",
+      "evidence_id": "E_22898_TvT_O03_TvT_R01_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_63",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "TvT_TvT_O03_T540_OWN_S06",
+      "opponent_condition": "TvT_TvT_O03_T540_OPP_S04",
+      "response": "TvT_R11",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T600_OWN_S01",
+      "evidence_id": "E_23007_TvT_O03_TvT_R11_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_64",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "TvT_TvT_O03_T360_OWN_S04",
+      "opponent_condition": "TvT_TvT_O03_T360_OPP_S03",
+      "response": "TvT_R04",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T420_OWN_S04",
+      "evidence_id": "E_22635_TvT_O03_TvT_R04_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_65",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S04",
+      "response": "TvT_R09",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S01",
+      "evidence_id": "E_22830_TvT_O03_TvT_R09_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_66",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "TvT_TvT_O03_T360_OWN_S06",
+      "opponent_condition": "TvT_TvT_O03_T360_OPP_S04",
+      "response": "TvT_R04",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T420_OWN_S04",
+      "evidence_id": "E_22676_TvT_O03_TvT_R04_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_67",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "TvT_TvT_O03_T360_OWN_S06",
+      "opponent_condition": "TvT_TvT_O03_T360_OPP_S04",
+      "response": "TvT_R08",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T420_OWN_S04",
+      "evidence_id": "E_22678_TvT_O03_TvT_R08_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_68",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "TvT_TvT_O03_T360_OWN_S07",
+      "opponent_condition": "TvT_TvT_O03_T360_OPP_S04",
+      "response": "TvT_R07",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T420_OWN_S04",
+      "evidence_id": "E_22689_TvT_O03_TvT_R07_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_69",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "TvT_TvT_O03_T420_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T420_OPP_S07",
+      "response": "TvT_R12",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T480_OWN_S09",
+      "evidence_id": "E_22762_TvT_O03_TvT_R12_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_70",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "TvT_TvT_O03_T420_OWN_S04",
+      "opponent_condition": "TvT_TvT_O03_T420_OPP_S04",
+      "response": "TvT_R05",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T480_OWN_S05",
+      "evidence_id": "E_22786_TvT_O03_TvT_R05_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_71",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "TvT_TvT_O03_T540_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T540_OPP_S04",
+      "response": "TvT_R04",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T600_OWN_S01",
+      "evidence_id": "E_22944_TvT_O03_TvT_R04_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_72",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "TvT_TvT_O03_T540_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T540_OPP_S04",
+      "response": "TvT_R09",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T600_OWN_S03",
+      "evidence_id": "E_22946_TvT_O03_TvT_R09_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_73",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S05",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S03",
+      "response": "TvT_R04",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S02",
+      "evidence_id": "E_22870_TvT_O03_TvT_R04_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_74",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "TvT_TvT_O03_T180_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T180_OPP_S01",
+      "response": "TvT_R01",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T240_OWN_S01",
+      "evidence_id": "E_22322_TvT_O03_TvT_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_75",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "TvT_TvT_O03_T180_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T180_OPP_S01",
+      "response": "TvT_R02",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T240_OWN_S01",
+      "evidence_id": "E_22337_TvT_O03_TvT_R02_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_76",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "TvT_TvT_O03_T540_OWN_S06",
+      "opponent_condition": "TvT_TvT_O03_T540_OPP_S01",
+      "response": "TvT_R11",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T600_OWN_S01",
+      "evidence_id": "E_22996_TvT_O03_TvT_R11_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_77",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "TvT_TvT_O03_T360_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T360_OPP_S03",
+      "response": "TvT_R02",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T420_OWN_S02",
+      "evidence_id": "E_22581_TvT_O03_TvT_R02_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_78",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "TvT_TvT_O03_T420_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T420_OPP_S10",
+      "response": "TvT_R01",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T480_OWN_S06",
+      "evidence_id": "E_22748_TvT_O03_TvT_R01_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_79",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "TvT_TvT_O03_T540_OWN_S05",
+      "opponent_condition": "TvT_TvT_O03_T540_OPP_S04",
+      "response": "TvT_R01",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T600_OWN_S02",
+      "evidence_id": "E_22985_TvT_O03_TvT_R01_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_80",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "TvT_TvT_O03_T360_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T360_OPP_S02",
+      "response": "TvT_R11",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T420_OWN_S01",
+      "evidence_id": "E_22623_TvT_O03_TvT_R11_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_81",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S04",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S03",
+      "response": "TvT_R04",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S02",
+      "evidence_id": "E_22861_TvT_O03_TvT_R04_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_82",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "TvT_TvT_O03_T360_OWN_S08",
+      "opponent_condition": "TvT_TvT_O03_T360_OPP_S03",
+      "response": "TvT_R04",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T420_OWN_S04",
+      "evidence_id": "E_22693_TvT_O03_TvT_R04_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_83",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "TvT_TvT_O03_T600_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T600_OPP_S01",
+      "response": "TvT_R01",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T720_OWN_S03",
+      "evidence_id": "E_23053_TvT_O03_TvT_R01_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_84",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "TvT_TvT_O03_T600_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T600_OPP_S01",
+      "response": "TvT_R08",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T720_OWN_S03",
+      "evidence_id": "E_23034_TvT_O03_TvT_R08_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_85",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "TvT_TvT_O03_T360_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T360_OPP_S02",
+      "response": "TvT_R01",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T420_OWN_S02",
+      "evidence_id": "E_22598_TvT_O03_TvT_R01_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_86",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "TvT_TvT_O03_T300_OWN_S05",
+      "opponent_condition": "TvT_TvT_O03_T300_OPP_S02",
+      "response": "TvT_R10",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T360_OWN_S04",
+      "evidence_id": "E_22529_TvT_O03_TvT_R10_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_87",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "TvT_TvT_O03_T240_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T240_OPP_S02",
+      "response": "TvT_R01",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T300_OWN_S04",
+      "evidence_id": "E_22389_TvT_O03_TvT_R01_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_88",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "TvT_TvT_O03_T240_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T240_OPP_S01",
+      "response": "TvT_R07",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T300_OWN_S01",
+      "evidence_id": "E_22404_TvT_O03_TvT_R07_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_89",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "TvT_TvT_O03_T540_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T540_OPP_S01",
+      "response": "TvT_R11",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T600_OWN_S01",
+      "evidence_id": "E_22923_TvT_O03_TvT_R11_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_90",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "TvT_TvT_O03_T300_OWN_S05",
+      "opponent_condition": "TvT_TvT_O03_T300_OPP_S04",
+      "response": "TvT_R10",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T360_OWN_S04",
+      "evidence_id": "E_22541_TvT_O03_TvT_R10_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_91",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "TvT_TvT_O03_T540_OWN_S04",
+      "opponent_condition": "TvT_TvT_O03_T540_OPP_S03",
+      "response": "TvT_R01",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T600_OWN_S03",
+      "evidence_id": "E_22957_TvT_O03_TvT_R01_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_92",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "TvT_TvT_O03_T180_OWN_S05",
+      "opponent_condition": "TvT_TvT_O03_T180_OPP_S01",
+      "response": "TvT_R01",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T240_OWN_S02",
+      "evidence_id": "E_22373_TvT_O03_TvT_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_93",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "TvT_TvT_O03_T540_OWN_S04",
+      "opponent_condition": "TvT_TvT_O03_T540_OPP_S03",
+      "response": "TvT_R09",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T600_OWN_S03",
+      "evidence_id": "E_22961_TvT_O03_TvT_R09_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_94",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "TvT_TvT_O03_T540_OWN_S04",
+      "opponent_condition": "TvT_TvT_O03_T540_OPP_S04",
+      "response": "TvT_R05",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T600_OWN_S03",
+      "evidence_id": "E_22965_TvT_O03_TvT_R05_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_95",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "TvT_TvT_O03_T600_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T600_OPP_S02",
+      "response": "TvT_R08",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T720_OWN_S02",
+      "evidence_id": "E_23042_TvT_O03_TvT_R08_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_96",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "TvT_TvT_O03_T180_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T180_OPP_S01",
+      "response": "TvT_R02",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T240_OWN_S03",
+      "evidence_id": "E_22352_TvT_O03_TvT_R02_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_97",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "TvT_TvT_O03_T180_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T180_OPP_S02",
+      "response": "TvT_R04",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T240_OWN_S02",
+      "evidence_id": "E_22361_TvT_O03_TvT_R04_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_98",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "TvT_TvT_O03_T360_OWN_S06",
+      "opponent_condition": "TvT_TvT_O03_T360_OPP_S01",
+      "response": "TvT_R08",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T420_OWN_S05",
+      "evidence_id": "E_22666_TvT_O03_TvT_R08_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_99",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "TvT_TvT_O03_T180_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T180_OPP_S02",
+      "response": "TvT_R02",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T240_OWN_S01",
+      "evidence_id": "E_22332_TvT_O03_TvT_R02_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_100",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "TvT_TvT_O03_T600_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T600_OPP_S03",
+      "response": "TvT_R08",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T720_OWN_S01",
+      "evidence_id": "E_23050_TvT_O03_TvT_R08_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_101",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "TvT_TvT_O03_T600_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T600_OPP_S03",
+      "response": "TvT_R10",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T720_OWN_S02",
+      "evidence_id": "E_23080_TvT_O03_TvT_R10_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_102",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "TvT_TvT_O03_T240_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T240_OPP_S01",
+      "response": "TvT_R09",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T300_OWN_S04",
+      "evidence_id": "E_22386_TvT_O03_TvT_R09_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_103",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "TvT_TvT_O03_T420_OWN_S05",
+      "opponent_condition": "TvT_TvT_O03_T420_OPP_S04",
+      "response": "TvT_R07",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T480_OWN_S04",
+      "evidence_id": "E_22808_TvT_O03_TvT_R07_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_104",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "TvT_TvT_O03_T300_OWN_S06",
+      "opponent_condition": "TvT_TvT_O03_T300_OPP_S03",
+      "response": "TvT_R07",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T360_OWN_S01",
+      "evidence_id": "E_22556_TvT_O03_TvT_R07_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_105",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "TvT_TvT_O03_T360_OWN_S07",
+      "opponent_condition": "TvT_TvT_O03_T360_OPP_S01",
+      "response": "TvT_R05",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T420_OWN_S04",
+      "evidence_id": "E_22686_TvT_O03_TvT_R05_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_106",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "TvT_TvT_O03_T540_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T540_OPP_S04",
+      "response": "TvT_R12",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T600_OWN_S03",
+      "evidence_id": "E_22950_TvT_O03_TvT_R12_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_107",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S06",
+      "response": "TvT_R06",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S05",
+      "evidence_id": "E_22850_TvT_O03_TvT_R06_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_108",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S06",
+      "response": "TvT_R09",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S04",
+      "evidence_id": "E_22851_TvT_O03_TvT_R09_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_109",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S04",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S02",
+      "response": "TvT_R01",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S04",
+      "evidence_id": "E_22854_TvT_O03_TvT_R01_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_110",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S07",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S04",
+      "response": "TvT_R09",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S02",
+      "evidence_id": "E_22903_TvT_O03_TvT_R09_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_111",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S08",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S07",
+      "response": "TvT_R09",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S04",
+      "evidence_id": "E_22905_TvT_O03_TvT_R09_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_112",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "TvT_TvT_O03_T540_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T540_OPP_S03",
+      "response": "TvT_R07",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T600_OWN_S01",
+      "evidence_id": "E_22915_TvT_O03_TvT_R07_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_113",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "TvT_TvT_O03_T540_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T540_OPP_S04",
+      "response": "TvT_R03",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T600_OWN_S02",
+      "evidence_id": "E_22947_TvT_O03_TvT_R03_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_114",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S08",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S07",
+      "response": "TvT_R12",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S07",
+      "evidence_id": "E_22906_TvT_O03_TvT_R12_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_115",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "TvT_TvT_O03_T480_OWN_S07",
+      "opponent_condition": "TvT_TvT_O03_T480_OPP_S04",
+      "response": "TvT_R04",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T540_OWN_S02",
+      "evidence_id": "E_22901_TvT_O03_TvT_R04_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_116",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "TvT_TvT_O03_T240_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T240_OPP_S01",
+      "response": "TvT_R02",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T300_OWN_S05",
+      "evidence_id": "E_22408_TvT_O03_TvT_R02_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_117",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "TvT_TvT_O03_T180_OWN_S04",
+      "opponent_condition": "TvT_TvT_O03_T180_OPP_S01",
+      "response": "TvT_R08",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T240_OWN_S03",
+      "evidence_id": "E_22371_TvT_O03_TvT_R08_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_118",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "TvT_TvT_O03_T360_OWN_S05",
+      "opponent_condition": "TvT_TvT_O03_T360_OPP_S03",
+      "response": "TvT_R09",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T420_OWN_S03",
+      "evidence_id": "E_22656_TvT_O03_TvT_R09_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_119",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "TvT_TvT_O03_T360_OWN_S05",
+      "opponent_condition": "TvT_TvT_O03_T360_OPP_S03",
+      "response": "TvT_R12",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T420_OWN_S03",
+      "evidence_id": "E_22658_TvT_O03_TvT_R12_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_120",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "TvT_TvT_O03_T180_OWN_S04",
+      "opponent_condition": "TvT_TvT_O03_T180_OPP_S01",
+      "response": "TvT_R02",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T240_OWN_S03",
+      "evidence_id": "E_22366_TvT_O03_TvT_R02_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_121",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "TvT_TvT_O03_T180_OWN_S04",
+      "opponent_condition": "TvT_TvT_O03_T180_OPP_S01",
+      "response": "TvT_R07",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T240_OWN_S02",
+      "evidence_id": "E_22370_TvT_O03_TvT_R07_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_122",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "TvT_TvT_O03_T180_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T180_OPP_S01",
+      "response": "TvT_R09",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T240_OWN_S01",
+      "evidence_id": "E_22344_TvT_O03_TvT_R09_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_123",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "TvT_TvT_O03_T600_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T600_OPP_S03",
+      "response": "TvT_R04",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T720_OWN_S01",
+      "evidence_id": "E_23027_TvT_O03_TvT_R04_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_124",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "TvT_TvT_O03_T600_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T600_OPP_S01",
+      "response": "TvT_R02",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T720_OWN_S02",
+      "evidence_id": "E_23054_TvT_O03_TvT_R02_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_125",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "TvT_TvT_O03_T240_OWN_S03",
+      "opponent_condition": "TvT_TvT_O03_T240_OPP_S02",
+      "response": "TvT_R05",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T300_OWN_S05",
+      "evidence_id": "E_22418_TvT_O03_TvT_R05_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_126",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "TvT_TvT_O03_T240_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T240_OPP_S02",
+      "response": "TvT_R09",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T300_OWN_S04",
+      "evidence_id": "E_22395_TvT_O03_TvT_R09_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_127",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "TvT_TvT_O03_T240_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T240_OPP_S01",
+      "response": "TvT_R04",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T300_OWN_S02",
+      "evidence_id": "E_22401_TvT_O03_TvT_R04_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_128",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "TvT_TvT_O03_T600_OWN_S01",
+      "opponent_condition": "TvT_TvT_O03_T600_OPP_S02",
+      "response": "TvT_R08",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T720_OWN_S01",
+      "evidence_id": "E_23022_TvT_O03_TvT_R08_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_129",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "TvT_TvT_O03_T360_OWN_S05",
+      "opponent_condition": "TvT_TvT_O03_T360_OPP_S01",
+      "response": "TvT_R01",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T420_OWN_S03",
+      "evidence_id": "E_22645_TvT_O03_TvT_R01_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_130",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "TvT_TvT_O03_T240_OWN_S02",
+      "opponent_condition": "TvT_TvT_O03_T240_OPP_S01",
+      "response": "TvT_R01",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T300_OWN_S01",
+      "evidence_id": "E_22398_TvT_O03_TvT_R01_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "TvT_O03_FREQ_131",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "TvT_TvT_O03_T180_OWN_S05",
+      "opponent_condition": "TvT_TvT_O03_T180_OPP_S01",
+      "response": "TvT_R02",
+      "canonical_actions": [],
+      "next_state": "TvT_TvT_O03_T240_OWN_S02",
+      "evidence_id": "E_22374_TvT_O03_TvT_R02_180",
+      "selection": "frequency_only"
+    }
+  ],
+  "avoid_rules": [],
+  "strategy_graph": "strategy_graph.json",
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

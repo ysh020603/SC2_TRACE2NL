@@ -1,0 +1,247 @@
+{
+  "skill_id": "TvZ_O01",
+  "opening_id": "TvZ_O01",
+  "race": "Terran",
+  "opponent_race": "Zerg",
+  "directional_matchup": "TvZ",
+  "method": "full_signed_graph",
+  "opening": {
+    "id": "TvZ_O01",
+    "name": "Terran Bio Expand",
+    "objective": "Fast expansion with early barracks and gas, transitioning into bio production.",
+    "prototype": [
+      "Prod_Barracks",
+      "Gas",
+      "BaseUpgrade_OrbitalCommand",
+      "Combat_bio",
+      "Base",
+      "Prod_Barracks2"
+    ],
+    "macro_family": "Standard Expand"
+  },
+  "default_evolution": [
+    {
+      "step_id": "TvZ_O01_DEF_01",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvZ_TvZ_O01_T180_OWN_S01",
+      "response": "TvZ_R09",
+      "canonical_actions": [
+        "SCV",
+        "MULE",
+        "Marine",
+        "Refinery",
+        "SupplyDepot",
+        "Factory",
+        "Hellion",
+        "Starport",
+        "SiegeTank",
+        "Barracks"
+      ],
+      "next_state": "TvZ_TvZ_O01_T240_OWN_S01",
+      "evidence_id": "E_30127_TvZ_O01_TvZ_R09_180"
+    },
+    {
+      "step_id": "TvZ_O01_DEF_02",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvZ_TvZ_O01_T180_OWN_S02",
+      "response": "TvZ_R09",
+      "canonical_actions": [
+        "SCV",
+        "MULE",
+        "Marine",
+        "Refinery",
+        "SupplyDepot",
+        "Factory",
+        "Hellion",
+        "Starport",
+        "SiegeTank",
+        "Barracks"
+      ],
+      "next_state": "TvZ_TvZ_O01_T240_OWN_S01",
+      "evidence_id": "E_30149_TvZ_O01_TvZ_R09_180"
+    },
+    {
+      "step_id": "TvZ_O01_DEF_03",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvZ_TvZ_O01_T180_OWN_S03",
+      "response": "TvZ_R09",
+      "canonical_actions": [
+        "SCV",
+        "MULE",
+        "Marine",
+        "Refinery",
+        "SupplyDepot",
+        "Factory",
+        "Hellion",
+        "Starport",
+        "SiegeTank",
+        "Barracks"
+      ],
+      "next_state": "TvZ_TvZ_O01_T240_OWN_S01",
+      "evidence_id": "E_30203_TvZ_O01_TvZ_R09_180"
+    },
+    {
+      "step_id": "TvZ_O01_DEF_04",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvZ_TvZ_O01_T180_OWN_S04",
+      "response": "TvZ_R09",
+      "canonical_actions": [
+        "SCV",
+        "MULE",
+        "Marine",
+        "Refinery",
+        "SupplyDepot",
+        "Factory",
+        "Hellion",
+        "Starport",
+        "SiegeTank",
+        "Barracks"
+      ],
+      "next_state": "TvZ_TvZ_O01_T240_OWN_S01",
+      "evidence_id": "E_30229_TvZ_O01_TvZ_R09_180"
+    },
+    {
+      "step_id": "TvZ_O01_DEF_05",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvZ_TvZ_O01_T180_OWN_S05",
+      "response": "TvZ_R09",
+      "canonical_actions": [
+        "SCV",
+        "MULE",
+        "Marine",
+        "Refinery",
+        "SupplyDepot",
+        "Factory",
+        "Hellion",
+        "Starport",
+        "SiegeTank",
+        "Barracks"
+      ],
+      "next_state": "TvZ_TvZ_O01_T240_OWN_S01",
+      "evidence_id": "E_30273_TvZ_O01_TvZ_R09_180"
+    },
+    {
+      "step_id": "TvZ_O01_DEF_06",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvZ_TvZ_O01_T180_OWN_S06",
+      "response": "TvZ_R09",
+      "canonical_actions": [
+        "SCV",
+        "MULE",
+        "Marine",
+        "Refinery",
+        "SupplyDepot",
+        "Factory",
+        "Hellion",
+        "Starport",
+        "SiegeTank",
+        "Barracks"
+      ],
+      "next_state": "TvZ_TvZ_O01_T240_OWN_S01",
+      "evidence_id": "E_30309_TvZ_O01_TvZ_R09_180"
+    }
+  ],
+  "preferred_rules": [
+    {
+      "rule_id": "TvZ_O01_PREF_01",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "TvZ_TvZ_O01_T600_OWN_S01",
+      "own_state_id": "TvZ_TvZ_O01_T600_OWN_S01",
+      "opponent_condition": "TvZ_TvZ_O01_T600_OPP_S01",
+      "response": "TvZ_R08",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "SupplyDepot",
+        "MULE",
+        "Hellion",
+        "Refinery",
+        "SiegeTank",
+        "Medivac",
+        "EngineeringBay",
+        "Marauder"
+      ],
+      "next_state": "TvZ_TvZ_O01_T720_OWN_S01",
+      "evidence_id": "E_31318_TvZ_O01_TvZ_R08_600"
+    }
+  ],
+  "avoid_rules": [
+    {
+      "rule_id": "TvZ_O01_AVOID_01",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "TvZ_TvZ_O01_T240_OWN_S01",
+      "own_state_id": "TvZ_TvZ_O01_T240_OWN_S01",
+      "opponent_condition": "TvZ_TvZ_O01_T240_OPP_S01",
+      "avoid_response": "TvZ_R01",
+      "risk_description": "Associated with comparatively worse outcomes in comparable historical contexts.",
+      "evidence_id": "E_30426_TvZ_O01_TvZ_R01_240"
+    },
+    {
+      "rule_id": "TvZ_O01_AVOID_02",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "TvZ_TvZ_O01_T240_OWN_S01",
+      "own_state_id": "TvZ_TvZ_O01_T240_OWN_S01",
+      "opponent_condition": "TvZ_TvZ_O01_T240_OPP_S01",
+      "avoid_response": "TvZ_R09",
+      "risk_description": "Associated with comparatively worse outcomes in comparable historical contexts.",
+      "evidence_id": "E_30434_TvZ_O01_TvZ_R09_240"
+    },
+    {
+      "rule_id": "TvZ_O01_AVOID_03",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "TvZ_TvZ_O01_T540_OWN_S01",
+      "own_state_id": "TvZ_TvZ_O01_T540_OWN_S01",
+      "opponent_condition": "TvZ_TvZ_O01_T540_OPP_S02",
+      "avoid_response": "TvZ_R04",
+      "risk_description": "Associated with comparatively worse outcomes in comparable historical contexts.",
+      "evidence_id": "E_31228_TvZ_O01_TvZ_R04_540"
+    },
+    {
+      "rule_id": "TvZ_O01_AVOID_04",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "TvZ_TvZ_O01_T540_OWN_S01",
+      "own_state_id": "TvZ_TvZ_O01_T540_OWN_S01",
+      "opponent_condition": "TvZ_TvZ_O01_T540_OPP_S02",
+      "avoid_response": "TvZ_R05",
+      "risk_description": "Associated with comparatively worse outcomes in comparable historical contexts.",
+      "evidence_id": "E_31229_TvZ_O01_TvZ_R05_540"
+    }
+  ],
+  "strategy_graph": "strategy_graph.json",
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

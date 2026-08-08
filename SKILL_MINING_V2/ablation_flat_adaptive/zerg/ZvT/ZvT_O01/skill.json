@@ -1,0 +1,483 @@
+{
+  "skill_id": "ZvT_O01",
+  "opening_id": "ZvT_O01",
+  "race": "Zerg",
+  "opponent_race": "Terran",
+  "directional_matchup": "ZvT",
+  "method": "ablation_flat_adaptive",
+  "opening": {
+    "id": "ZvT_O01",
+    "name": "Pool First Gas",
+    "objective": "Fast Zergling pressure with early Queen for defense and creep spread",
+    "prototype": [
+      "Base",
+      "Gas",
+      "Prod_SpawningPool",
+      "Combat_queen",
+      "Combat_ling_bane"
+    ],
+    "macro_family": "Early Pool"
+  },
+  "default_evolution": [
+    {
+      "step_id": "ZvT_O01_DEF_01",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "ZvT_ZvT_O01_T180_OWN_S01",
+      "response": "ZvT_R01",
+      "canonical_actions": [
+        "Drone",
+        "Overlord",
+        "Extractor",
+        "Queen",
+        "Zergling",
+        "CreepTumor",
+        "zerglingmovementspeed",
+        "Roach",
+        "EvolutionChamber",
+        "SporeCrawler"
+      ],
+      "next_state": "ZvT_ZvT_O01_T240_OWN_S03",
+      "evidence_id": "E_41621_ZvT_O01_ZvT_R01_180"
+    },
+    {
+      "step_id": "ZvT_O01_DEF_02",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "ZvT_ZvT_O01_T180_OWN_S02",
+      "response": "ZvT_R05",
+      "canonical_actions": [
+        "Zergling",
+        "Overlord",
+        "Drone",
+        "Queen",
+        "Roach",
+        "CreepTumor",
+        "Extractor",
+        "Hydralisk",
+        "zerglingmovementspeed",
+        "Overseer"
+      ],
+      "next_state": "ZvT_ZvT_O01_T240_OWN_S07",
+      "evidence_id": "E_41685_ZvT_O01_ZvT_R05_180"
+    },
+    {
+      "step_id": "ZvT_O01_DEF_03",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "ZvT_ZvT_O01_T180_OWN_S03",
+      "response": "ZvT_R05",
+      "canonical_actions": [
+        "Zergling",
+        "Overlord",
+        "Drone",
+        "Queen",
+        "Roach",
+        "CreepTumor",
+        "Extractor",
+        "Hydralisk",
+        "zerglingmovementspeed",
+        "Overseer"
+      ],
+      "next_state": "ZvT_ZvT_O01_T240_OWN_S02",
+      "evidence_id": "E_41717_ZvT_O01_ZvT_R05_180"
+    },
+    {
+      "step_id": "ZvT_O01_DEF_04",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "ZvT_ZvT_O01_T240_OWN_S01",
+      "response": "ZvT_R01",
+      "canonical_actions": [
+        "Drone",
+        "Overlord",
+        "Extractor",
+        "Queen",
+        "Zergling",
+        "CreepTumor",
+        "zerglingmovementspeed",
+        "Roach",
+        "EvolutionChamber",
+        "SporeCrawler"
+      ],
+      "next_state": "ZvT_ZvT_O01_T300_OWN_S01",
+      "evidence_id": "E_41720_ZvT_O01_ZvT_R01_240"
+    },
+    {
+      "step_id": "ZvT_O01_DEF_05",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "ZvT_ZvT_O01_T240_OWN_S02",
+      "response": "ZvT_R07",
+      "canonical_actions": [
+        "Drone",
+        "Hatchery",
+        "Overlord",
+        "Zergling",
+        "Lair",
+        "Queen",
+        "Extractor",
+        "CreepTumor",
+        "Roach",
+        "zerglingmovementspeed"
+      ],
+      "next_state": "ZvT_ZvT_O01_T300_OWN_S01",
+      "evidence_id": "E_41741_ZvT_O01_ZvT_R07_240"
+    },
+    {
+      "step_id": "ZvT_O01_DEF_06",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "ZvT_ZvT_O01_T240_OWN_S03",
+      "response": "ZvT_R07",
+      "canonical_actions": [
+        "Drone",
+        "Hatchery",
+        "Overlord",
+        "Zergling",
+        "Lair",
+        "Queen",
+        "Extractor",
+        "CreepTumor",
+        "Roach",
+        "zerglingmovementspeed"
+      ],
+      "next_state": "ZvT_ZvT_O01_T300_OWN_S01",
+      "evidence_id": "E_41757_ZvT_O01_ZvT_R07_240"
+    },
+    {
+      "step_id": "ZvT_O01_DEF_07",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "ZvT_ZvT_O01_T240_OWN_S04",
+      "response": "ZvT_R05",
+      "canonical_actions": [
+        "Zergling",
+        "Overlord",
+        "Drone",
+        "Queen",
+        "Roach",
+        "CreepTumor",
+        "Extractor",
+        "Hydralisk",
+        "zerglingmovementspeed",
+        "Overseer"
+      ],
+      "next_state": "ZvT_ZvT_O01_T300_OWN_S04",
+      "evidence_id": "E_41779_ZvT_O01_ZvT_R05_240"
+    },
+    {
+      "step_id": "ZvT_O01_DEF_08",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "ZvT_ZvT_O01_T240_OWN_S07",
+      "response": "ZvT_R05",
+      "canonical_actions": [
+        "Zergling",
+        "Overlord",
+        "Drone",
+        "Queen",
+        "Roach",
+        "CreepTumor",
+        "Extractor",
+        "Hydralisk",
+        "zerglingmovementspeed",
+        "Overseer"
+      ],
+      "next_state": "ZvT_ZvT_O01_T300_OWN_S03",
+      "evidence_id": "E_41826_ZvT_O01_ZvT_R05_240"
+    },
+    {
+      "step_id": "ZvT_O01_DEF_09",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "ZvT_ZvT_O01_T300_OWN_S01",
+      "response": "ZvT_R02",
+      "canonical_actions": [
+        "Drone",
+        "Overlord",
+        "Zergling",
+        "Queen",
+        "BanelingNest",
+        "Extractor",
+        "RoachWarren",
+        "CreepTumor",
+        "Spire",
+        "HydraliskDen"
+      ],
+      "next_state": "ZvT_ZvT_O01_T360_OWN_S02",
+      "evidence_id": "E_41849_ZvT_O01_ZvT_R02_300"
+    },
+    {
+      "step_id": "ZvT_O01_DEF_10",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "ZvT_ZvT_O01_T300_OWN_S02",
+      "response": "ZvT_R08",
+      "canonical_actions": [
+        "CreepTumor",
+        "Drone",
+        "Overlord",
+        "Zergling",
+        "EvolutionChamber",
+        "Extractor",
+        "Queen",
+        "Roach",
+        "Hatchery",
+        "Lair"
+      ],
+      "next_state": "ZvT_ZvT_O01_T360_OWN_S01",
+      "evidence_id": "E_41869_ZvT_O01_ZvT_R08_300"
+    },
+    {
+      "step_id": "ZvT_O01_DEF_11",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "ZvT_ZvT_O01_T300_OWN_S04",
+      "response": "ZvT_R02",
+      "canonical_actions": [
+        "Drone",
+        "Overlord",
+        "Zergling",
+        "Queen",
+        "BanelingNest",
+        "Extractor",
+        "RoachWarren",
+        "CreepTumor",
+        "Spire",
+        "HydraliskDen"
+      ],
+      "next_state": "ZvT_ZvT_O01_T360_OWN_S02",
+      "evidence_id": "E_41920_ZvT_O01_ZvT_R02_300"
+    },
+    {
+      "step_id": "ZvT_O01_DEF_12",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state_id": "ZvT_ZvT_O01_T360_OWN_S01",
+      "response": "ZvT_R08",
+      "canonical_actions": [
+        "CreepTumor",
+        "Drone",
+        "Overlord",
+        "Zergling",
+        "EvolutionChamber",
+        "Extractor",
+        "Queen",
+        "Roach",
+        "Hatchery",
+        "Lair"
+      ],
+      "next_state": "ZvT_ZvT_O01_T420_OWN_S01",
+      "evidence_id": "E_41975_ZvT_O01_ZvT_R08_360"
+    }
+  ],
+  "preferred_rules": [
+    {
+      "rule_id": "ZvT_O01_PREF_01",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "Own_Cnt_Cum_Economy / Own_Cnt_Cum_Ground / Own_Cnt_Cum_Production",
+      "own_state_id": "ZvT_ZvT_O01_T180_OWN_S01",
+      "opponent_condition": "Opp:Opp_Cnt_Cum_Economy / Opp_Cnt_Cum_Expansion / Opp_Cnt_Cum_Technology",
+      "response": "ZvT_R07",
+      "canonical_actions": [
+        "Drone",
+        "Hatchery",
+        "Overlord",
+        "Zergling",
+        "Lair",
+        "Queen",
+        "Extractor",
+        "CreepTumor",
+        "Roach",
+        "zerglingmovementspeed"
+      ],
+      "next_state": null,
+      "evidence_id": "E_41627_ZvT_O01_ZvT_R07_180"
+    },
+    {
+      "rule_id": "ZvT_O01_PREF_02",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "Own_Cnt_Cum_Economy / Own_Cnt_Cum_Ground / Own_Cnt_Cum_Production",
+      "own_state_id": "ZvT_ZvT_O01_T180_OWN_S01",
+      "opponent_condition": "Opp:Opp_Cnt_Cum_Economy / Opp_Cnt_Cum_Technology / Opp_Cnt_Cum_Production",
+      "response": "ZvT_R07",
+      "canonical_actions": [
+        "Drone",
+        "Hatchery",
+        "Overlord",
+        "Zergling",
+        "Lair",
+        "Queen",
+        "Extractor",
+        "CreepTumor",
+        "Roach",
+        "zerglingmovementspeed"
+      ],
+      "next_state": null,
+      "evidence_id": "E_41643_ZvT_O01_ZvT_R07_180"
+    }
+  ],
+  "avoid_rules": [
+    {
+      "rule_id": "ZvT_O01_AVOID_01",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "Own_Cnt_Cum_Economy / Own_Cnt_Cum_Ground / Own_Cnt_Cum_Production",
+      "own_state_id": "ZvT_ZvT_O01_T180_OWN_S01",
+      "opponent_condition": "Opp:Opp_Cnt_Cum_Economy / Opp_Cnt_Cum_Expansion / Opp_Cnt_Cum_Technology",
+      "avoid_response": "ZvT_R03",
+      "risk_description": "Associated with comparatively worse outcomes in comparable historical contexts.",
+      "evidence_id": "E_41623_ZvT_O01_ZvT_R03_180",
+      "next_state": null
+    },
+    {
+      "rule_id": "ZvT_O01_AVOID_02",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "Own_Cnt_Cum_Economy / Own_Cnt_Cum_Ground / Own_Cnt_Cum_Production",
+      "own_state_id": "ZvT_ZvT_O01_T180_OWN_S01",
+      "opponent_condition": "Opp:Opp_Cnt_Cum_Economy / Opp_Cnt_Cum_Expansion / Opp_Cnt_Cum_Technology",
+      "avoid_response": "ZvT_R05",
+      "risk_description": "Associated with comparatively worse outcomes in comparable historical contexts.",
+      "evidence_id": "E_41625_ZvT_O01_ZvT_R05_180",
+      "next_state": null
+    },
+    {
+      "rule_id": "ZvT_O01_AVOID_03",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "Own_Cnt_Cum_Economy / Own_Cnt_Cum_Ground / Own_Cnt_Cum_Production",
+      "own_state_id": "ZvT_ZvT_O01_T300_OWN_S03",
+      "opponent_condition": "Opp:Opp_Cnt_Cum_Economy / Opp_Cnt_Cum_Ground / Opp_Cnt_Cum_Technology",
+      "avoid_response": "ZvT_R07",
+      "risk_description": "Associated with comparatively worse outcomes in comparable historical contexts.",
+      "evidence_id": "E_41899_ZvT_O01_ZvT_R07_300",
+      "next_state": null
+    },
+    {
+      "rule_id": "ZvT_O01_AVOID_04",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "Own_Cnt_Cum_Economy / Own_Cnt_Cum_Ground / Own_Cnt_Cum_Expansion",
+      "own_state_id": "ZvT_ZvT_O01_T360_OWN_S01",
+      "opponent_condition": "Opp:Opp_Cnt_Cum_Economy / Opp_Cnt_Cum_Ground / Opp_Cnt_Cum_Technology",
+      "avoid_response": "ZvT_R03",
+      "risk_description": "Associated with comparatively worse outcomes in comparable historical contexts.",
+      "evidence_id": "E_41945_ZvT_O01_ZvT_R03_360",
+      "next_state": null
+    },
+    {
+      "rule_id": "ZvT_O01_AVOID_05",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "Own_Cnt_Cum_Economy / Own_Cnt_Cum_Ground / Own_Cnt_Cum_Expansion",
+      "own_state_id": "ZvT_ZvT_O01_T360_OWN_S01",
+      "opponent_condition": "Opp:Opp_Cnt_Cum_Economy / Opp_Cnt_Cum_Ground / Opp_Cnt_Cum_Technology",
+      "avoid_response": "ZvT_R05",
+      "risk_description": "Associated with comparatively worse outcomes in comparable historical contexts.",
+      "evidence_id": "E_41947_ZvT_O01_ZvT_R05_360",
+      "next_state": null
+    },
+    {
+      "rule_id": "ZvT_O01_AVOID_06",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "Own_Cnt_Cum_Economy / Own_Cnt_Cum_Ground / Own_Cnt_Cum_Production",
+      "own_state_id": "ZvT_ZvT_O01_T360_OWN_S02",
+      "opponent_condition": "Opp:Opp_Cnt_Cum_Economy / Opp_Cnt_Cum_Ground / Opp_Cnt_Cum_Technology",
+      "avoid_response": "ZvT_R01",
+      "risk_description": "Associated with comparatively worse outcomes in comparable historical contexts.",
+      "evidence_id": "E_41986_ZvT_O01_ZvT_R01_360",
+      "next_state": null
+    },
+    {
+      "rule_id": "ZvT_O01_AVOID_07",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "Own_Cnt_Cum_Economy / Own_Cnt_Cum_Ground / Own_Cnt_Cum_Production",
+      "own_state_id": "ZvT_ZvT_O01_T360_OWN_S02",
+      "opponent_condition": "Opp:Opp_Cnt_Cum_Economy / Opp_Cnt_Cum_Ground / Opp_Cnt_Cum_Technology",
+      "avoid_response": "ZvT_R02",
+      "risk_description": "Associated with comparatively worse outcomes in comparable historical contexts.",
+      "evidence_id": "E_41987_ZvT_O01_ZvT_R02_360",
+      "next_state": null
+    },
+    {
+      "rule_id": "ZvT_O01_AVOID_08",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "Own_Cnt_Cum_Economy / Own_Cnt_Cum_Ground / Own_Cnt_Cum_Technology",
+      "own_state_id": "ZvT_ZvT_O01_T420_OWN_S01",
+      "opponent_condition": "Opp:Opp_Cnt_Cum_Economy / Opp_Cnt_Cum_Ground / Opp_Cnt_Cum_Technology",
+      "avoid_response": "ZvT_R05",
+      "risk_description": "Associated with comparatively worse outcomes in comparable historical contexts.",
+      "evidence_id": "E_42026_ZvT_O01_ZvT_R05_420",
+      "next_state": null
+    },
+    {
+      "rule_id": "ZvT_O01_AVOID_09",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "Own_Cnt_Cum_Economy / Own_Cnt_Cum_Ground / Own_Cnt_Cum_Technology",
+      "own_state_id": "ZvT_ZvT_O01_T600_OWN_S03",
+      "opponent_condition": "Opp:Opp_Cnt_Cum_Economy / Opp_Cnt_Cum_Ground / Opp_Cnt_Cum_Technology",
+      "avoid_response": "ZvT_R05",
+      "risk_description": "Associated with comparatively worse outcomes in comparable historical contexts.",
+      "evidence_id": "E_42611_ZvT_O01_ZvT_R05_600",
+      "next_state": null
+    }
+  ],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

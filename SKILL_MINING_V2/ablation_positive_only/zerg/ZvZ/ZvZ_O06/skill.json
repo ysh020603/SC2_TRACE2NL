@@ -1,0 +1,167 @@
+{
+  "skill_id": "ZvZ_O06",
+  "opening_id": "ZvZ_O06",
+  "race": "Zerg",
+  "opponent_race": "Zerg",
+  "directional_matchup": "ZvZ",
+  "method": "ablation_positive_only",
+  "opening": {
+    "id": "ZvZ_O06",
+    "name": "Pool First Fast Expand",
+    "objective": "Early aggression with a quick expansion and queen for defense",
+    "prototype": [
+      "Base",
+      "Prod_SpawningPool",
+      "Gas",
+      "Base2",
+      "Combat_queen"
+    ],
+    "macro_family": "Fast Expand"
+  },
+  "default_evolution": [
+    {
+      "step_id": "ZvZ_O06_DEF_01",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "ZvZ_ZvZ_O06_T180_OWN_S01",
+      "response": "ZvZ_R06",
+      "canonical_actions": [
+        "Drone",
+        "Overlord",
+        "Zergling",
+        "Extractor",
+        "Queen",
+        "Roach",
+        "CreepTumor",
+        "zerglingmovementspeed",
+        "EvolutionChamber",
+        "Lair"
+      ],
+      "next_state": "ZvZ_ZvZ_O06_T240_OWN_S03",
+      "evidence_id": "E_49400_ZvZ_O06_ZvZ_R06_180"
+    },
+    {
+      "step_id": "ZvZ_O06_DEF_02",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "ZvZ_ZvZ_O06_T240_OWN_S04",
+      "response": "ZvZ_R06",
+      "canonical_actions": [
+        "Drone",
+        "Overlord",
+        "Zergling",
+        "Extractor",
+        "Queen",
+        "Roach",
+        "CreepTumor",
+        "zerglingmovementspeed",
+        "EvolutionChamber",
+        "Lair"
+      ],
+      "next_state": "ZvZ_ZvZ_O06_T300_OWN_S03",
+      "evidence_id": "E_49539_ZvZ_O06_ZvZ_R06_240"
+    },
+    {
+      "step_id": "ZvZ_O06_DEF_03",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "ZvZ_ZvZ_O06_T240_OWN_S07",
+      "response": "ZvZ_R03",
+      "canonical_actions": [
+        "Drone",
+        "Overlord",
+        "Zergling",
+        "Hatchery",
+        "Lair",
+        "Roach",
+        "Extractor",
+        "Queen",
+        "CreepTumor",
+        "zerglingmovementspeed"
+      ],
+      "next_state": "ZvZ_ZvZ_O06_T300_OWN_S01",
+      "evidence_id": "E_49623_ZvZ_O06_ZvZ_R03_240"
+    },
+    {
+      "step_id": "ZvZ_O06_DEF_04",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "ZvZ_ZvZ_O06_T300_OWN_S02",
+      "response": "ZvZ_R08",
+      "canonical_actions": [
+        "Drone",
+        "CreepTumor",
+        "EvolutionChamber",
+        "Overlord",
+        "Roach",
+        "Zergling",
+        "Extractor",
+        "Queen",
+        "RoachWarren",
+        "Lair"
+      ],
+      "next_state": "ZvZ_ZvZ_O06_T360_OWN_S03",
+      "evidence_id": "E_49730_ZvZ_O06_ZvZ_R08_300"
+    },
+    {
+      "step_id": "ZvZ_O06_DEF_05",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "ZvZ_ZvZ_O06_T300_OWN_S03",
+      "response": "ZvZ_R05",
+      "canonical_actions": [
+        "Drone",
+        "Overlord",
+        "RoachWarren",
+        "Extractor",
+        "Zergling",
+        "BanelingNest",
+        "Queen",
+        "EvolutionChamber",
+        "Lair",
+        "zerglingmovementspeed"
+      ],
+      "next_state": "ZvZ_ZvZ_O06_T360_OWN_S01",
+      "evidence_id": "E_49760_ZvZ_O06_ZvZ_R05_300"
+    },
+    {
+      "step_id": "ZvZ_O06_DEF_06",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state_id": "ZvZ_ZvZ_O06_T600_OWN_S02",
+      "response": "ZvZ_R04",
+      "canonical_actions": [
+        "Drone",
+        "Overlord",
+        "Roach",
+        "Zergling",
+        "Queen",
+        "zerglingmovementspeed",
+        "CreepTumor",
+        "ZergMissileWeaponsLevel1",
+        "Extractor",
+        "GlialReconstitution"
+      ],
+      "next_state": "ZvZ_ZvZ_O06_T720_OWN_S01",
+      "evidence_id": "E_50066_ZvZ_O06_ZvZ_R04_600"
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": "strategy_graph.json",
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

@@ -1,0 +1,50 @@
+{
+  "skill_id": "ZvZ_O01_SEED_05",
+  "opening_id": "ZvZ_O01",
+  "race": "Zerg",
+  "opponent_race": "Zerg",
+  "directional_matchup": "ZvZ",
+  "method": "ablation_single_trace",
+  "opening": {
+    "id": "ZvZ_O01",
+    "name": "Pool-First Gas Queen",
+    "objective": "Fast gas and early production to apply pressure with queen and zerglings/banelings",
+    "prototype": [
+      "Base",
+      "Prod_SpawningPool",
+      "Gas",
+      "Combat_queen",
+      "Combat_ling_bane"
+    ],
+    "macro_family": "Early Pressure"
+  },
+  "default_evolution": [
+    {
+      "step_id": "ZvZ_O01_TRACE_01",
+      "phase": [
+        0,
+        600
+      ],
+      "description": "Follow one winning trajectory nearest to the opening medoid.",
+      "prototype": [
+        "Base",
+        "Prod_SpawningPool",
+        "Gas",
+        "Combat_queen",
+        "Combat_ling_bane"
+      ],
+      "source_trace": {
+        "replay_id": "368ccd08cbed3a2054d7497d",
+        "player_id": 2,
+        "key_sequence": "Base > Prod_SpawningPool > Gas > Combat_queen > Combat_ling_bane",
+        "distance_to_medoid": 0.14739678999990344
+      }
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

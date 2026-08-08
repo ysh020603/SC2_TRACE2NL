@@ -8,7 +8,7 @@
 2. 有 tracker 时：`sc2mine parse-dir --category <category>`
 3. 无 tracker（暴雪 AI/ML 包）时：`sc2mine parse-actions-dir ...`
 4. 读取 `data/artifacts/`、`data/full_json/` 或 `data/action_json/`
-5. 可选：跑 `analysis/` 策略挖掘，消费 `SKILL/` 与 submodule `SC2-Agent-knowlegde/`
+5. 可选：跑 `analysis/skill_mining_v2/`，生成 `SKILL_MINING_V2/`
 
 ## Hard constraints
 
@@ -41,9 +41,9 @@ SC2trace2nl/
 ├── raw_data/                      # 暴雪官方大批量 replay（按 PvP/PvT/... 整理）
 ├── data_sc2_260701/               # 标准 Ability/Unit/Upgrade 知识库（动作名映射）
 │
-├── analysis/                      # 开局策略发现流水线（plan Phase 1–8 / plan2 pilot）
-├── SKILL/                         # 分种族 adaptive Skill（skill.json + Top_agent.md）
-├── plans/                         # 设计方案归档（plan.md / plan_2.md）
+├── analysis/skill_mining_v2/      # 当前 Stage 00–14 完整流水线
+├── SKILL_MINING_V2/               # Adaptive Skill Mining v2 产物（full + ablations）
+├── archive/pre_v2/                # 旧 Phase 1–8、plan2、plans 与 pilot Skill
 │
 ├── API_Tools/                     # LLM 调用与 reasoning 抽取工具
 ├── API_config/                    # config.example.json（真实 config.json 本地自建）
@@ -231,23 +231,21 @@ sc2mine parse-actions-dir raw_data/by_matchup/TvZ \
 
 | Path | Role |
 |------|------|
-| [`plans/`](plans/README.md) | 方案归档：`plan.md`（开局策略发现）、`plan_2.md`（自适应 Skill） |
-| [`analysis/`](analysis/README.md) | Phase 1–8 统计流水线与产出；plan2 pilot 脚本 |
-| [`SKILL/`](SKILL/README.md) | 9 个分种族 pilot Skill（`skill.json` / `evidence.json` / `Top_agent.md`） |
+| [`analysis/`](analysis/README.md) | Adaptive Skill Mining v2 当前实现 |
+| [`SKILL_MINING_V2/`](SKILL_MINING_V2/README.md) | Full signed graph + 5 类消融产物 |
+| [`archive/pre_v2/`](archive/pre_v2/README.md) | V2 之前的分析、计划与 pilot Skill |
 
 复现分析（需已有 `data/action_json`）：
 
 ```bash
 conda activate sc2replay
-python analysis/phase1_audit/run_audit.py
-python analysis/run_pipeline.py
-python analysis/plan2/run_plan2_pilot.py
+python analysis/skill_mining_v2/run_pipeline.py --fresh --full-windows
 ```
 
 Skill 目录约定：
 
 ```text
-SKILL/<race>/<strategy>/
+SKILL_MINING_V2/<method>/<race>/<matchup>/<opening>/
   skill.json
   evidence.json
   Top_agent.md

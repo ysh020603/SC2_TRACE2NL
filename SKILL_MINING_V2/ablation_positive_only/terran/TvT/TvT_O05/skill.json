@@ -1,0 +1,282 @@
+{
+  "skill_id": "TvT_O05",
+  "opening_id": "TvT_O05",
+  "race": "Terran",
+  "opponent_race": "Terran",
+  "directional_matchup": "TvT",
+  "method": "ablation_positive_only",
+  "opening": {
+    "id": "TvT_O05",
+    "name": "1-1-1 Opening",
+    "objective": "Early production and gas focus to enable tech and bio units.",
+    "prototype": [
+      "Prod_Barracks",
+      "Gas",
+      "Gas2",
+      "Prod_Factory",
+      "Combat_bio"
+    ],
+    "macro_family": "Tech Opening"
+  },
+  "default_evolution": [
+    {
+      "step_id": "TvT_O05_DEF_01",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvT_TvT_O05_T180_OWN_S02",
+      "response": "TvT_R01",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "MULE",
+        "SupplyDepot",
+        "Refinery",
+        "SiegeTank",
+        "Starport",
+        "Factory",
+        "Hellion",
+        "Reaper"
+      ],
+      "next_state": "TvT_TvT_O05_T240_OWN_S01",
+      "evidence_id": "E_24297_TvT_O05_TvT_R01_180"
+    },
+    {
+      "step_id": "TvT_O05_DEF_02",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvT_TvT_O05_T180_OWN_S03",
+      "response": "TvT_R02",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "Starport",
+        "Barracks",
+        "Factory",
+        "SupplyDepot",
+        "MULE",
+        "SiegeTank",
+        "Refinery",
+        "Reaper"
+      ],
+      "next_state": "TvT_TvT_O05_T240_OWN_S01",
+      "evidence_id": "E_24302_TvT_O05_TvT_R02_180"
+    },
+    {
+      "step_id": "TvT_O05_DEF_03",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvT_TvT_O05_T180_OWN_S05",
+      "response": "TvT_R02",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "Starport",
+        "Barracks",
+        "Factory",
+        "SupplyDepot",
+        "MULE",
+        "SiegeTank",
+        "Refinery",
+        "Reaper"
+      ],
+      "next_state": "TvT_TvT_O05_T240_OWN_S01",
+      "evidence_id": "E_24486_TvT_O05_TvT_R02_180"
+    },
+    {
+      "step_id": "TvT_O05_DEF_04",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "TvT_TvT_O05_T240_OWN_S01",
+      "response": "TvT_R02",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "Starport",
+        "Barracks",
+        "Factory",
+        "SupplyDepot",
+        "MULE",
+        "SiegeTank",
+        "Refinery",
+        "Reaper"
+      ],
+      "next_state": "TvT_TvT_O05_T300_OWN_S01",
+      "evidence_id": "E_24493_TvT_O05_TvT_R02_240"
+    },
+    {
+      "step_id": "TvT_O05_DEF_05",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "TvT_TvT_O05_T240_OWN_S03",
+      "response": "TvT_R09",
+      "canonical_actions": [
+        "Marine",
+        "SCV",
+        "SiegeTank",
+        "Marauder",
+        "Reaper",
+        "SupplyDepot",
+        "MULE",
+        "Hellion",
+        "Starport",
+        "WidowMine"
+      ],
+      "next_state": "TvT_TvT_O05_T300_OWN_S04",
+      "evidence_id": "E_24641_TvT_O05_TvT_R09_240"
+    },
+    {
+      "step_id": "TvT_O05_DEF_06",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "TvT_TvT_O05_T300_OWN_S01",
+      "response": "TvT_R09",
+      "canonical_actions": [
+        "Marine",
+        "SCV",
+        "SiegeTank",
+        "Marauder",
+        "Reaper",
+        "SupplyDepot",
+        "MULE",
+        "Hellion",
+        "Starport",
+        "WidowMine"
+      ],
+      "next_state": "TvT_TvT_O05_T360_OWN_S05",
+      "evidence_id": "E_24704_TvT_O05_TvT_R09_300"
+    },
+    {
+      "step_id": "TvT_O05_DEF_07",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "TvT_TvT_O05_T300_OWN_S02",
+      "response": "TvT_R01",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "MULE",
+        "SupplyDepot",
+        "Refinery",
+        "SiegeTank",
+        "Starport",
+        "Factory",
+        "Hellion",
+        "Reaper"
+      ],
+      "next_state": "TvT_TvT_O05_T360_OWN_S02",
+      "evidence_id": "E_24732_TvT_O05_TvT_R01_300"
+    },
+    {
+      "step_id": "TvT_O05_DEF_08",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "TvT_TvT_O05_T300_OWN_S03",
+      "response": "TvT_R11",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "SupplyDepot",
+        "MULE",
+        "SiegeTank",
+        "Medivac",
+        "Raven",
+        "Refinery",
+        "Banshee",
+        "OrbitalCommand"
+      ],
+      "next_state": "TvT_TvT_O05_T360_OWN_S04",
+      "evidence_id": "E_24797_TvT_O05_TvT_R11_300"
+    },
+    {
+      "step_id": "TvT_O05_DEF_09",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state_id": "TvT_TvT_O05_T300_OWN_S04",
+      "response": "TvT_R09",
+      "canonical_actions": [
+        "Marine",
+        "SCV",
+        "SiegeTank",
+        "Marauder",
+        "Reaper",
+        "SupplyDepot",
+        "MULE",
+        "Hellion",
+        "Starport",
+        "WidowMine"
+      ],
+      "next_state": "TvT_TvT_O05_T360_OWN_S05",
+      "evidence_id": "E_24868_TvT_O05_TvT_R09_300"
+    },
+    {
+      "step_id": "TvT_O05_DEF_10",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state_id": "TvT_TvT_O05_T360_OWN_S01",
+      "response": "TvT_R08",
+      "canonical_actions": [
+        "SCV",
+        "MissileTurret",
+        "Marine",
+        "MULE",
+        "SupplyDepot",
+        "SiegeTank",
+        "Bunker",
+        "Refinery",
+        "OrbitalCommand",
+        "Starport"
+      ],
+      "next_state": "TvT_TvT_O05_T420_OWN_S05",
+      "evidence_id": "E_24958_TvT_O05_TvT_R08_360"
+    },
+    {
+      "step_id": "TvT_O05_DEF_11",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state_id": "TvT_TvT_O05_T360_OWN_S02",
+      "response": "TvT_R01",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "MULE",
+        "SupplyDepot",
+        "Refinery",
+        "SiegeTank",
+        "Starport",
+        "Factory",
+        "Hellion",
+        "Reaper"
+      ],
+      "next_state": "TvT_TvT_O05_T420_OWN_S02",
+      "evidence_id": "E_25022_TvT_O05_TvT_R01_360"
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": "strategy_graph.json",
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

@@ -1,0 +1,191 @@
+{
+  "skill_id": "TvP_O05",
+  "opening_id": "TvP_O05",
+  "race": "Terran",
+  "opponent_race": "Protoss",
+  "directional_matchup": "TvP",
+  "method": "ablation_flat_adaptive",
+  "opening": {
+    "id": "TvP_O05",
+    "name": "Reaper Expand into Double Barracks",
+    "objective": "Early bio pressure with Punisher Grenades, fast expansion via Orbital Command, and double Barracks production.",
+    "prototype": [
+      "Prod_Barracks",
+      "Gas",
+      "Prod_Barracks2",
+      "Combat_bio",
+      "Upgrade_PunisherGrenades",
+      "BaseUpgrade_OrbitalCommand"
+    ],
+    "macro_family": "Bio Opening"
+  },
+  "default_evolution": [
+    {
+      "step_id": "TvP_O05_DEF_01",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "TvP_TvP_O05_T180_OWN_S04",
+      "response": "TvP_R04",
+      "canonical_actions": [
+        "Marine",
+        "SCV",
+        "Marauder",
+        "SiegeTank",
+        "SupplyDepot",
+        "MULE",
+        "WidowMine",
+        "Reaper",
+        "Hellion",
+        "Refinery"
+      ],
+      "next_state": "TvP_TvP_O05_T240_OWN_S02",
+      "evidence_id": "E_16667_TvP_O05_TvP_R04_180"
+    },
+    {
+      "step_id": "TvP_O05_DEF_02",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "TvP_TvP_O05_T240_OWN_S03",
+      "response": "TvP_R04",
+      "canonical_actions": [
+        "Marine",
+        "SCV",
+        "Marauder",
+        "SiegeTank",
+        "SupplyDepot",
+        "MULE",
+        "WidowMine",
+        "Reaper",
+        "Hellion",
+        "Refinery"
+      ],
+      "next_state": "TvP_TvP_O05_T300_OWN_S03",
+      "evidence_id": "E_16818_TvP_O05_TvP_R04_240"
+    },
+    {
+      "step_id": "TvP_O05_DEF_03",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state_id": "TvP_TvP_O05_T420_OWN_S01",
+      "response": "TvP_R09",
+      "canonical_actions": [
+        "SupplyDepot",
+        "SCV",
+        "Marine",
+        "EngineeringBay",
+        "MULE",
+        "SiegeTank",
+        "Marauder",
+        "Armory",
+        "Refinery",
+        "Starport"
+      ],
+      "next_state": "TvP_TvP_O05_T480_OWN_S01",
+      "evidence_id": "E_17003_TvP_O05_TvP_R09_420"
+    },
+    {
+      "step_id": "TvP_O05_DEF_04",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state_id": "TvP_TvP_O05_T420_OWN_S02",
+      "response": "TvP_R06",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "SupplyDepot",
+        "MULE",
+        "Medivac",
+        "Marauder",
+        "SiegeTank",
+        "Refinery",
+        "WidowMine",
+        "Barracks"
+      ],
+      "next_state": "TvP_TvP_O05_T480_OWN_S01",
+      "evidence_id": "E_17056_TvP_O05_TvP_R06_420"
+    },
+    {
+      "step_id": "TvP_O05_DEF_05",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state_id": "TvP_TvP_O05_T480_OWN_S03",
+      "response": "TvP_R06",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "SupplyDepot",
+        "MULE",
+        "Medivac",
+        "Marauder",
+        "SiegeTank",
+        "Refinery",
+        "WidowMine",
+        "Barracks"
+      ],
+      "next_state": "TvP_TvP_O05_T540_OWN_S02",
+      "evidence_id": "E_17136_TvP_O05_TvP_R06_480"
+    },
+    {
+      "step_id": "TvP_O05_DEF_06",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state_id": "TvP_TvP_O05_T540_OWN_S02",
+      "response": "TvP_R06",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "SupplyDepot",
+        "MULE",
+        "Medivac",
+        "Marauder",
+        "SiegeTank",
+        "Refinery",
+        "WidowMine",
+        "Barracks"
+      ],
+      "next_state": "TvP_TvP_O05_T600_OWN_S06",
+      "evidence_id": "E_17194_TvP_O05_TvP_R06_540"
+    },
+    {
+      "step_id": "TvP_O05_DEF_07",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state_id": "TvP_TvP_O05_T540_OWN_S03",
+      "response": "TvP_R06",
+      "canonical_actions": [
+        "SCV",
+        "Marine",
+        "SupplyDepot",
+        "MULE",
+        "Medivac",
+        "Marauder",
+        "SiegeTank",
+        "Refinery",
+        "WidowMine",
+        "Barracks"
+      ],
+      "next_state": "TvP_TvP_O05_T600_OWN_S02",
+      "evidence_id": "E_17229_TvP_O05_TvP_R06_540"
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

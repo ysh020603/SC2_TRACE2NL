@@ -1,0 +1,1175 @@
+{
+  "skill_id": "PvT_O07",
+  "opening_id": "PvT_O07",
+  "race": "Protoss",
+  "opponent_race": "Terran",
+  "directional_matchup": "PvT",
+  "method": "ablation_frequency_only",
+  "opening": {
+    "id": "PvT_O07",
+    "name": "Gateway Core Expand",
+    "objective": "Fast tech into Cybernetics Core for early upgrades or tech units, with a standard economy focus.",
+    "prototype": [
+      "Prod_Gateway",
+      "Gas",
+      "Gas2",
+      "Tech_CyberneticsCore"
+    ],
+    "macro_family": "Standard Gateway Expand"
+  },
+  "default_evolution": [
+    {
+      "step_id": "PvT_O07_DEF_01",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "PvT_PvT_O07_T180_OWN_S01",
+      "response": "PvT_R01",
+      "canonical_actions": [
+        "Probe",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Assimilator",
+        "Zealot",
+        "RoboticsFacility",
+        "TwilightCouncil",
+        "WarpGateResearch",
+        "Immortal"
+      ],
+      "next_state": "PvT_PvT_O07_T240_OWN_S02",
+      "evidence_id": "E_06399_PvT_O07_PvT_R01_180"
+    },
+    {
+      "step_id": "PvT_O07_DEF_02",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "PvT_PvT_O07_T180_OWN_S02",
+      "response": "PvT_R01",
+      "canonical_actions": [
+        "Probe",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Assimilator",
+        "Zealot",
+        "RoboticsFacility",
+        "TwilightCouncil",
+        "WarpGateResearch",
+        "Immortal"
+      ],
+      "next_state": "PvT_PvT_O07_T240_OWN_S03",
+      "evidence_id": "E_06417_PvT_O07_PvT_R01_180"
+    },
+    {
+      "step_id": "PvT_O07_DEF_03",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state_id": "PvT_PvT_O07_T180_OWN_S03",
+      "response": "PvT_R01",
+      "canonical_actions": [
+        "Probe",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Assimilator",
+        "Zealot",
+        "RoboticsFacility",
+        "TwilightCouncil",
+        "WarpGateResearch",
+        "Immortal"
+      ],
+      "next_state": "PvT_PvT_O07_T240_OWN_S02",
+      "evidence_id": "E_06439_PvT_O07_PvT_R01_180"
+    },
+    {
+      "step_id": "PvT_O07_DEF_04",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "PvT_PvT_O07_T240_OWN_S01",
+      "response": "PvT_R01",
+      "canonical_actions": [
+        "Probe",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Assimilator",
+        "Zealot",
+        "RoboticsFacility",
+        "TwilightCouncil",
+        "WarpGateResearch",
+        "Immortal"
+      ],
+      "next_state": "PvT_PvT_O07_T300_OWN_S01",
+      "evidence_id": "E_06443_PvT_O07_PvT_R01_240"
+    },
+    {
+      "step_id": "PvT_O07_DEF_05",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "PvT_PvT_O07_T240_OWN_S02",
+      "response": "PvT_R01",
+      "canonical_actions": [
+        "Probe",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Assimilator",
+        "Zealot",
+        "RoboticsFacility",
+        "TwilightCouncil",
+        "WarpGateResearch",
+        "Immortal"
+      ],
+      "next_state": "PvT_PvT_O07_T300_OWN_S03",
+      "evidence_id": "E_06460_PvT_O07_PvT_R01_240"
+    },
+    {
+      "step_id": "PvT_O07_DEF_06",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state_id": "PvT_PvT_O07_T240_OWN_S03",
+      "response": "PvT_R01",
+      "canonical_actions": [
+        "Probe",
+        "Pylon",
+        "Stalker",
+        "Gateway",
+        "Assimilator",
+        "Zealot",
+        "RoboticsFacility",
+        "TwilightCouncil",
+        "WarpGateResearch",
+        "Immortal"
+      ],
+      "next_state": "PvT_PvT_O07_T300_OWN_S03",
+      "evidence_id": "E_06478_PvT_O07_PvT_R01_240"
+    }
+  ],
+  "preferred_rules": [
+    {
+      "rule_id": "PvT_O07_FREQ_01",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "PvT_PvT_O07_T480_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T480_OPP_S06",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T540_OWN_S01",
+      "evidence_id": "E_06680_PvT_O07_PvT_R01_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_02",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "PvT_PvT_O07_T180_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T180_OPP_S05",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T240_OWN_S02",
+      "evidence_id": "E_06439_PvT_O07_PvT_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_03",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "PvT_PvT_O07_T300_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T300_OPP_S07",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T360_OWN_S02",
+      "evidence_id": "E_06526_PvT_O07_PvT_R01_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_04",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "PvT_PvT_O07_T420_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T420_OPP_S06",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T480_OWN_S03",
+      "evidence_id": "E_06646_PvT_O07_PvT_R01_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_05",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "PvT_PvT_O07_T300_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T300_OPP_S06",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T360_OWN_S02",
+      "evidence_id": "E_06525_PvT_O07_PvT_R01_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_06",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "PvT_PvT_O07_T180_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T180_OPP_S02",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T240_OWN_S02",
+      "evidence_id": "E_06430_PvT_O07_PvT_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_07",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "PvT_PvT_O07_T180_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T180_OPP_S04",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T240_OWN_S02",
+      "evidence_id": "E_06436_PvT_O07_PvT_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_08",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "PvT_PvT_O07_T360_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T360_OPP_S02",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T420_OWN_S03",
+      "evidence_id": "E_06583_PvT_O07_PvT_R01_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_09",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "PvT_PvT_O07_T300_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T300_OPP_S01",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T360_OWN_S03",
+      "evidence_id": "E_06527_PvT_O07_PvT_R01_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_10",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "PvT_PvT_O07_T360_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T360_OPP_S01",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T420_OWN_S03",
+      "evidence_id": "E_06580_PvT_O07_PvT_R01_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_11",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "PvT_PvT_O07_T300_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T300_OPP_S03",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T360_OWN_S03",
+      "evidence_id": "E_06533_PvT_O07_PvT_R01_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_12",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "PvT_PvT_O07_T300_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T300_OPP_S07",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T360_OWN_S03",
+      "evidence_id": "E_06545_PvT_O07_PvT_R01_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_13",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "PvT_PvT_O07_T360_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T360_OPP_S04",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T420_OWN_S03",
+      "evidence_id": "E_06589_PvT_O07_PvT_R01_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_14",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "PvT_PvT_O07_T300_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T300_OPP_S01",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T360_OWN_S02",
+      "evidence_id": "E_06510_PvT_O07_PvT_R01_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_15",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "PvT_PvT_O07_T420_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T420_OPP_S01",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T480_OWN_S02",
+      "evidence_id": "E_06616_PvT_O07_PvT_R01_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_16",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "PvT_PvT_O07_T540_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T540_OPP_S05",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T600_OWN_S01",
+      "evidence_id": "E_06729_PvT_O07_PvT_R01_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_17",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "PvT_PvT_O07_T360_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T360_OPP_S01",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T420_OWN_S02",
+      "evidence_id": "E_06565_PvT_O07_PvT_R01_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_18",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "PvT_PvT_O07_T360_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T360_OPP_S04",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T420_OWN_S02",
+      "evidence_id": "E_06574_PvT_O07_PvT_R01_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_19",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvT_PvT_O07_T240_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T240_OPP_S02",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T300_OWN_S03",
+      "evidence_id": "E_06460_PvT_O07_PvT_R01_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_20",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "PvT_PvT_O07_T420_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T420_OPP_S05",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T480_OWN_S03",
+      "evidence_id": "E_06643_PvT_O07_PvT_R01_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_21",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "PvT_PvT_O07_T420_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T420_OPP_S06",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T480_OWN_S01",
+      "evidence_id": "E_06613_PvT_O07_PvT_R01_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_22",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "PvT_PvT_O07_T480_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T480_OPP_S02",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T540_OWN_S03",
+      "evidence_id": "E_06684_PvT_O07_PvT_R01_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_23",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvT_PvT_O07_T240_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T240_OPP_S04",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T300_OWN_S03",
+      "evidence_id": "E_06466_PvT_O07_PvT_R01_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_24",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "PvT_PvT_O07_T600_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T600_OPP_S05",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T720_OWN_S03",
+      "evidence_id": "E_06809_PvT_O07_PvT_R01_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_25",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "PvT_PvT_O07_T420_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T420_OPP_S01",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T480_OWN_S03",
+      "evidence_id": "E_06631_PvT_O07_PvT_R01_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_26",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "PvT_PvT_O07_T480_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T480_OPP_S05",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T540_OWN_S01",
+      "evidence_id": "E_06677_PvT_O07_PvT_R01_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_27",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "PvT_PvT_O07_T360_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T360_OPP_S03",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T420_OWN_S02",
+      "evidence_id": "E_06571_PvT_O07_PvT_R01_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_28",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "PvT_PvT_O07_T420_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T420_OPP_S02",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T480_OWN_S02",
+      "evidence_id": "E_06619_PvT_O07_PvT_R01_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_29",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "PvT_PvT_O07_T360_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T360_OPP_S06",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T420_OWN_S01",
+      "evidence_id": "E_06562_PvT_O07_PvT_R01_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_30",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvT_PvT_O07_T240_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T240_OPP_S05",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T300_OWN_S03",
+      "evidence_id": "E_06469_PvT_O07_PvT_R01_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_31",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "PvT_PvT_O07_T600_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T600_OPP_S07",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T720_OWN_S02",
+      "evidence_id": "E_06776_PvT_O07_PvT_R01_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_32",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvT_PvT_O07_T240_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T240_OPP_S06",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T300_OWN_S01",
+      "evidence_id": "E_06487_PvT_O07_PvT_R01_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_33",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "PvT_PvT_O07_T420_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T420_OPP_S04",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T480_OWN_S02",
+      "evidence_id": "E_06625_PvT_O07_PvT_R01_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_34",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "PvT_PvT_O07_T480_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T480_OPP_S05",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T540_OWN_S03",
+      "evidence_id": "E_06693_PvT_O07_PvT_R01_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_35",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "PvT_PvT_O07_T540_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T540_OPP_S04",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T600_OWN_S03",
+      "evidence_id": "E_06747_PvT_O07_PvT_R01_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_36",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "PvT_PvT_O07_T540_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T540_OPP_S07",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T600_OWN_S01",
+      "evidence_id": "E_06735_PvT_O07_PvT_R01_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_37",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "PvT_PvT_O07_T540_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T540_OPP_S06",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T600_OWN_S03",
+      "evidence_id": "E_06753_PvT_O07_PvT_R01_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_38",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvT_PvT_O07_T240_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T240_OPP_S03",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T300_OWN_S03",
+      "evidence_id": "E_06478_PvT_O07_PvT_R01_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_39",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "PvT_PvT_O07_T360_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T360_OPP_S02",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T420_OWN_S01",
+      "evidence_id": "E_06550_PvT_O07_PvT_R01_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_40",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvT_PvT_O07_T240_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T240_OPP_S02",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T300_OWN_S03",
+      "evidence_id": "E_06475_PvT_O07_PvT_R01_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_41",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "PvT_PvT_O07_T540_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T540_OPP_S05",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T600_OWN_S02",
+      "evidence_id": "E_06711_PvT_O07_PvT_R01_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_42",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "PvT_PvT_O07_T180_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T180_OPP_S05",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T240_OWN_S02",
+      "evidence_id": "E_06408_PvT_O07_PvT_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_43",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "PvT_PvT_O07_T480_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T480_OPP_S04",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T540_OWN_S01",
+      "evidence_id": "E_06674_PvT_O07_PvT_R01_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_44",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "PvT_PvT_O07_T540_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T540_OPP_S01",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T600_OWN_S01",
+      "evidence_id": "E_06717_PvT_O07_PvT_R01_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_45",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "PvT_PvT_O07_T600_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T600_OPP_S02",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T720_OWN_S02",
+      "evidence_id": "E_06761_PvT_O07_PvT_R01_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_46",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "PvT_PvT_O07_T600_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T600_OPP_S07",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T720_OWN_S03",
+      "evidence_id": "E_06815_PvT_O07_PvT_R01_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_47",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "PvT_PvT_O07_T480_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T480_OPP_S06",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T540_OWN_S03",
+      "evidence_id": "E_06696_PvT_O07_PvT_R01_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_48",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "PvT_PvT_O07_T600_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T600_OPP_S03",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T720_OWN_S02",
+      "evidence_id": "E_06764_PvT_O07_PvT_R01_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_49",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "PvT_PvT_O07_T420_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T420_OPP_S04",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T480_OWN_S01",
+      "evidence_id": "E_06607_PvT_O07_PvT_R01_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_50",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "PvT_PvT_O07_T480_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T480_OPP_S04",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T540_OWN_S02",
+      "evidence_id": "E_06656_PvT_O07_PvT_R01_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_51",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "PvT_PvT_O07_T300_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T300_OPP_S04",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T360_OWN_S01",
+      "evidence_id": "E_06498_PvT_O07_PvT_R01_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_52",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "PvT_PvT_O07_T540_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T540_OPP_S05",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T600_OWN_S03",
+      "evidence_id": "E_06750_PvT_O07_PvT_R01_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_53",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "PvT_PvT_O07_T600_OWN_S03",
+      "opponent_condition": "PvT_PvT_O07_T600_OPP_S06",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T720_OWN_S03",
+      "evidence_id": "E_06812_PvT_O07_PvT_R01_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_54",
+      "phase": [
+        420,
+        480
+      ],
+      "own_state": "PvT_PvT_O07_T420_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T420_OPP_S05",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T480_OWN_S01",
+      "evidence_id": "E_06610_PvT_O07_PvT_R01_420",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_55",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "PvT_PvT_O07_T480_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T480_OPP_S02",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T540_OWN_S02",
+      "evidence_id": "E_06650_PvT_O07_PvT_R01_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_56",
+      "phase": [
+        360,
+        420
+      ],
+      "own_state": "PvT_PvT_O07_T360_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T360_OPP_S04",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T420_OWN_S01",
+      "evidence_id": "E_06556_PvT_O07_PvT_R01_360",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_57",
+      "phase": [
+        480,
+        540
+      ],
+      "own_state": "PvT_PvT_O07_T480_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T480_OPP_S01",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T540_OWN_S02",
+      "evidence_id": "E_06647_PvT_O07_PvT_R01_480",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_58",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "PvT_PvT_O07_T300_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T300_OPP_S07",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T360_OWN_S01",
+      "evidence_id": "E_06507_PvT_O07_PvT_R01_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_59",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "PvT_PvT_O07_T540_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T540_OPP_S02",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T600_OWN_S02",
+      "evidence_id": "E_06702_PvT_O07_PvT_R01_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_60",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "PvT_PvT_O07_T600_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T600_OPP_S03",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T720_OWN_S01",
+      "evidence_id": "E_06785_PvT_O07_PvT_R01_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_61",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "PvT_PvT_O07_T600_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T600_OPP_S05",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T720_OWN_S01",
+      "evidence_id": "E_06791_PvT_O07_PvT_R01_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_62",
+      "phase": [
+        540,
+        600
+      ],
+      "own_state": "PvT_PvT_O07_T540_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T540_OPP_S01",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T600_OWN_S02",
+      "evidence_id": "E_06699_PvT_O07_PvT_R01_540",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_63",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "PvT_PvT_O07_T180_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T180_OPP_S02",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T240_OWN_S03",
+      "evidence_id": "E_06417_PvT_O07_PvT_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_64",
+      "phase": [
+        300,
+        360
+      ],
+      "own_state": "PvT_PvT_O07_T300_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T300_OPP_S06",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T360_OWN_S01",
+      "evidence_id": "E_06504_PvT_O07_PvT_R01_300",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_65",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "PvT_PvT_O07_T180_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T180_OPP_S03",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T240_OWN_S03",
+      "evidence_id": "E_06420_PvT_O07_PvT_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_66",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "PvT_PvT_O07_T180_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T180_OPP_S04",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T240_OWN_S03",
+      "evidence_id": "E_06423_PvT_O07_PvT_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_67",
+      "phase": [
+        600,
+        660
+      ],
+      "own_state": "PvT_PvT_O07_T600_OWN_S02",
+      "opponent_condition": "PvT_PvT_O07_T600_OPP_S04",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T720_OWN_S01",
+      "evidence_id": "E_06788_PvT_O07_PvT_R01_600",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_68",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvT_PvT_O07_T240_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T240_OPP_S03",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T300_OWN_S01",
+      "evidence_id": "E_06446_PvT_O07_PvT_R01_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_69",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvT_PvT_O07_T240_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T240_OPP_S06",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T300_OWN_S01",
+      "evidence_id": "E_06455_PvT_O07_PvT_R01_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_70",
+      "phase": [
+        240,
+        300
+      ],
+      "own_state": "PvT_PvT_O07_T240_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T240_OPP_S02",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T300_OWN_S01",
+      "evidence_id": "E_06443_PvT_O07_PvT_R01_240",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_71",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "PvT_PvT_O07_T180_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T180_OPP_S04",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T240_OWN_S02",
+      "evidence_id": "E_06405_PvT_O07_PvT_R01_180",
+      "selection": "frequency_only"
+    },
+    {
+      "rule_id": "PvT_O07_FREQ_72",
+      "phase": [
+        180,
+        240
+      ],
+      "own_state": "PvT_PvT_O07_T180_OWN_S01",
+      "opponent_condition": "PvT_PvT_O07_T180_OPP_S02",
+      "response": "PvT_R01",
+      "canonical_actions": [],
+      "next_state": "PvT_PvT_O07_T240_OWN_S02",
+      "evidence_id": "E_06399_PvT_O07_PvT_R01_180",
+      "selection": "frequency_only"
+    }
+  ],
+  "avoid_rules": [],
+  "strategy_graph": "strategy_graph.json",
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

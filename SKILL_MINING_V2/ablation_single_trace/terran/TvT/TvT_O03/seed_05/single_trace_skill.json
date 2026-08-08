@@ -1,0 +1,52 @@
+{
+  "skill_id": "TvT_O03_SEED_05",
+  "opening_id": "TvT_O03",
+  "race": "Terran",
+  "opponent_race": "Terran",
+  "directional_matchup": "TvT",
+  "method": "ablation_single_trace",
+  "opening": {
+    "id": "TvT_O03",
+    "name": "1-1-1 Stim Opening",
+    "objective": "Fast tech into bio upgrades with early combat units",
+    "prototype": [
+      "Gas",
+      "Prod_Barracks",
+      "Gas2",
+      "Prod_Barracks2",
+      "Combat_bio",
+      "Upgrade_Stimpack"
+    ],
+    "macro_family": "Tech-focused bio opening"
+  },
+  "default_evolution": [
+    {
+      "step_id": "TvT_O03_TRACE_01",
+      "phase": [
+        0,
+        600
+      ],
+      "description": "Follow one winning trajectory nearest to the opening medoid.",
+      "prototype": [
+        "Gas",
+        "Prod_Barracks",
+        "Gas2",
+        "Prod_Factory",
+        "Upgrade_ShieldWall",
+        "Combat_bio"
+      ],
+      "source_trace": {
+        "replay_id": "09e3d1223afceed95d218888",
+        "player_id": 1,
+        "key_sequence": "Gas > Prod_Barracks > Gas2 > Prod_Factory > Upgrade_ShieldWall > Combat_bio",
+        "distance_to_medoid": 3.4618932343135134
+      }
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

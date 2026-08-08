@@ -1,0 +1,52 @@
+{
+  "skill_id": "ZvZ_O05_SEED_02",
+  "opening_id": "ZvZ_O05",
+  "race": "Zerg",
+  "opponent_race": "Zerg",
+  "directional_matchup": "ZvZ",
+  "method": "ablation_single_trace",
+  "opening": {
+    "id": "ZvZ_O05",
+    "name": "Zergling Speed Expand",
+    "objective": "The opening aims for a quick expansion while teching to zergling movement speed, enabling aggressive map control and harassment with speedlings, while maintaining a defensive queen.",
+    "prototype": [
+      "Prod_SpawningPool",
+      "Gas",
+      "Base",
+      "Combat_queen",
+      "Upgrade_zerglingmovementspeed",
+      "Combat_ling_bane"
+    ],
+    "macro_family": "Fast Expand"
+  },
+  "default_evolution": [
+    {
+      "step_id": "ZvZ_O05_TRACE_01",
+      "phase": [
+        0,
+        600
+      ],
+      "description": "Follow one winning trajectory nearest to the opening medoid.",
+      "prototype": [
+        "Prod_SpawningPool",
+        "Gas",
+        "Base",
+        "Combat_ling_bane",
+        "Combat_queen",
+        "Upgrade_zerglingmovementspeed"
+      ],
+      "source_trace": {
+        "replay_id": "6cf737b40f0b4bbb0714c5be",
+        "player_id": 2,
+        "key_sequence": "Prod_SpawningPool > Gas > Base > Combat_ling_bane > Combat_queen > Upgrade_zerglingmovementspeed",
+        "distance_to_medoid": 0.2636743907864197
+      }
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

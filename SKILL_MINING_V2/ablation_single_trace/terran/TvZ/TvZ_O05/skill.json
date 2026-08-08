@@ -1,0 +1,50 @@
+{
+  "skill_id": "TvZ_O05",
+  "opening_id": "TvZ_O05",
+  "race": "Terran",
+  "opponent_race": "Zerg",
+  "directional_matchup": "TvZ",
+  "method": "ablation_single_trace",
+  "opening": {
+    "id": "TvZ_O05",
+    "name": "1-1-1 Opening",
+    "objective": "Fast tech and production structures",
+    "prototype": [
+      "Gas",
+      "Prod_Barracks",
+      "Base",
+      "Prod_Factory",
+      "Gas2"
+    ],
+    "macro_family": "Tech Opening"
+  },
+  "default_evolution": [
+    {
+      "step_id": "TvZ_O05_TRACE_01",
+      "phase": [
+        0,
+        600
+      ],
+      "description": "Follow one winning trajectory nearest to the opening medoid.",
+      "prototype": [
+        "Gas",
+        "Prod_Barracks",
+        "Base",
+        "Prod_Factory",
+        "Gas2"
+      ],
+      "source_trace": {
+        "replay_id": "7f89b8f59b044fe1f4175853",
+        "player_id": 1,
+        "key_sequence": "Gas > Prod_Barracks > Base > Prod_Factory > Gas2",
+        "distance_to_medoid": 0.0
+      }
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}

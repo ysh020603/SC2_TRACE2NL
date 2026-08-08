@@ -1,0 +1,50 @@
+{
+  "skill_id": "PvP_O03_SEED_04",
+  "opening_id": "PvP_O03",
+  "race": "Protoss",
+  "opponent_race": "Protoss",
+  "directional_matchup": "PvP",
+  "method": "ablation_single_trace",
+  "opening": {
+    "id": "PvP_O03",
+    "name": "Forge Fast Expand into Photon Cannon Rush",
+    "objective": "Early defensive/offensive photon cannons with forge tech, delaying economy and production for map control or defense.",
+    "prototype": [
+      "Tech_Forge",
+      "Prod_Gateway",
+      "Static_PhotonCannon",
+      "Static_PhotonCannon2",
+      "Gas"
+    ],
+    "macro_family": "Forge Expand"
+  },
+  "default_evolution": [
+    {
+      "step_id": "PvP_O03_TRACE_01",
+      "phase": [
+        0,
+        600
+      ],
+      "description": "Follow one winning trajectory nearest to the opening medoid.",
+      "prototype": [
+        "Tech_Forge",
+        "Static_PhotonCannon",
+        "Static_PhotonCannon2",
+        "Prod_Gateway",
+        "Gas"
+      ],
+      "source_trace": {
+        "replay_id": "e2aa94fd7e8049bf1a638183",
+        "player_id": 1,
+        "key_sequence": "Tech_Forge > Static_PhotonCannon > Static_PhotonCannon2 > Prod_Gateway > Gas",
+        "distance_to_medoid": 1.2464836628435279
+      }
+    }
+  ],
+  "preferred_rules": [],
+  "avoid_rules": [],
+  "strategy_graph": null,
+  "evidence": "evidence.json",
+  "annotation": "annotation.json",
+  "run_id": "20260807T075828Z_4e06b751"
+}
