@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent has not shown air units or a tech switch (e.g., Starport, Fusion Core, or air units). If such a switch is detected, prioritize adding anti-air (e.g., Spore Crawlers, Hydralisks) and adjust composition accordingly.",
+        "node_id": "N001",
+        "recheck_condition": "Recheck when opponent shows air presence or tech switch, or when you reach a new tech tier."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that you are maintaining army production while expanding. If you are falling behind in army size or the opponent shows signs of aggression, prioritize producing units over further expansion.",
+        "node_id": "N002",
+        "recheck_condition": "Recheck when you have secured a new expansion or if the Terran shows signs of aggression."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent has not shown air units or a tech switch. If such a switch is detected, prioritize adding anti-air and adjust composition accordingly.",
+        "node_id": "N003",
+        "recheck_condition": "Recheck when opponent shows air or tech switch, or when you reach a new tech tier."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that you have gained more scouting information to confirm the opponent's posture. If scouting remains unclear, prioritize scouting (e.g., Overseer, speedlings) before committing further to ground strength.",
+        "node_id": "N004",
+        "recheck_condition": "Recheck when you gain more scouting information."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent has not shown a tech switch or air presence. If such a switch is detected, prioritize adding anti-air and adjust composition accordingly.",
+        "node_id": "N005",
+        "recheck_condition": "Recheck when opponent tech or army composition changes."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent has not shown a tech switch or air presence. If such a switch is detected, prioritize adding anti-air and adjust composition accordingly.",
+        "node_id": "N006",
+        "recheck_condition": "Recheck when opponent tech or army composition changes."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent has not shown a tech switch or air presence. If such a switch is detected, prioritize adding anti-air and adjust composition accordingly.",
+        "node_id": "N007",
+        "recheck_condition": "Recheck when opponent tech or army composition changes."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent has not shown a tech switch or air presence. If such a switch is detected, prioritize adding anti-air and adjust composition accordingly.",
+        "node_id": "N008",
+        "recheck_condition": "Recheck when opponent tech or army composition changes."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that you have sufficient army size to defend against a potential timing attack. If your army is too small, prioritize producing units over further tech investment.",
+        "node_id": "N009",
+        "recheck_condition": "Recheck when you have a sufficient army to defend or when the Terran attacks."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent has not shown a tech switch or air presence. If such a switch is detected, prioritize adding anti-air and adjust composition accordingly.",
+        "node_id": "N010",
+        "recheck_condition": "Recheck when opponent tech or army composition changes."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that you are not being passive and that you are actively upgrading. If you are stagnant or the opponent is dictating the pace, prioritize taking map control or initiating pressure.",
+        "node_id": "N011",
+        "recheck_condition": "Recheck when you have a critical mass of units or when the Terran moves out."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that you have sufficient army size to defend against a potential push. If your army is too small, prioritize producing units over further tech investment.",
+        "node_id": "N012",
+        "recheck_condition": "Recheck when you have a sufficient army to defend or when the Terran attacks."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "ZvT_O01",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "cce79597baa7fb8717f2d6b769cfa5be3093cf1bcb5dd77a54f4c78f8f55f101",
+    "source_ids": [
+      "ZvT_O01:N002",
+      "ZvT_O01:N009",
+      "ZvT_O01:N011",
+      "ZvT_O01:N012"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

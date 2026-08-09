@@ -1,0 +1,79 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening economy, verify you have at least a few Queens and Zerglings for defense and that scouting shows no early Zergling rush. If the opponent shows heavy aggression or you lack defensive units, prioritize building defensive units over further economy.",
+        "node_id": "N001",
+        "recheck_condition": "Recheck when you have secured your natural expansion and have a few Queens and Zerglings. If the opponent shows signs of heavy aggression, adjust by building more defensive units."
+      },
+      {
+        "guardrail": "Before teching further, ensure your economy is strong and you have a few tech structures started. If the opponent is teching to air, prioritize preparing anti-air.",
+        "node_id": "N002",
+        "recheck_condition": "Recheck when you have a few tech structures started and your economy is still strong. If the opponent is teching to air, consider preparing anti-air."
+      },
+      {
+        "guardrail": "Before deepening your ground army, verify your army size is comparable to the opponent's and your economy is strong. If the opponent transitions to air, prioritize adding anti-air or switching to air.",
+        "node_id": "N003",
+        "recheck_condition": "Recheck when your army is comparable to the opponent's and you have a good economy. If the opponent transitions to air, consider adding anti-air or switching to air yourself."
+      },
+      {
+        "guardrail": "Before increasing technology, ensure your army is strong and your economy is solid. If the opponent transitions to air, prioritize adding anti-air or switching to air.",
+        "node_id": "N004",
+        "recheck_condition": "Recheck when you have a strong army and economy. If the opponent transitions to air, consider adding anti-air or switching to air yourself."
+      },
+      {
+        "guardrail": "Before teching up, verify you have a few tech structures started and your economy is strong. If the opponent is teching to air, prioritize preparing anti-air.",
+        "node_id": "N005",
+        "recheck_condition": "Recheck when you have a few tech structures started and your economy is still strong. If the opponent is teching to air, consider preparing anti-air."
+      },
+      {
+        "guardrail": "Before expanding further, ensure you have secured your expansions and have a few Queens for defense. If the opponent shows signs of heavy aggression, prioritize building defensive units.",
+        "node_id": "N006",
+        "recheck_condition": "Recheck when you have secured your expansions and have a few Queens. If the opponent shows signs of heavy aggression, adjust by building more defensive units."
+      },
+      {
+        "guardrail": "Before deepening your ground army, verify your army is comparable to the opponent's and your economy is strong. If the opponent transitions to air, prioritize adding anti-air or switching to air.",
+        "node_id": "N007",
+        "recheck_condition": "Recheck when your army is comparable to the opponent's and you have a good economy. If the opponent transitions to air, consider adding anti-air or switching to air yourself."
+      },
+      {
+        "guardrail": "Before increasing your air army, verify you have a few Mutalisks and your economy is strong. If the opponent builds anti-air, prioritize adding support units or transitioning back to ground.",
+        "node_id": "N008",
+        "recheck_condition": "Recheck when you have a few Mutalisks and your economy is strong. If the opponent builds anti-air, consider adding support units or transitioning back to ground."
+      },
+      {
+        "guardrail": "Before deepening your defense, verify you have sufficient anti-air and your economy is strong. If the opponent transitions back to ground, prioritize adjusting your composition.",
+        "node_id": "N009",
+        "recheck_condition": "Recheck when you have sufficient anti-air and your economy is strong. If the opponent transitions back to ground, consider adjusting your composition."
+      },
+      {
+        "guardrail": "Before increasing your air army, verify you have a few Mutalisks and your economy is strong. If the opponent builds anti-air, prioritize adding support units or transitioning back to ground.",
+        "node_id": "N010",
+        "recheck_condition": "Recheck when you have a few Mutalisks and your economy is strong. If the opponent builds anti-air, consider adding support units or transitioning back to ground."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "ZvZ_O06",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "a82b4b7401788be4742f46bf672de83d07f104ecba2eb9d03b38f1e9df525822",
+    "source_ids": [
+      "ZvZ_O01:N003",
+      "ZvZ_O05:N001"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

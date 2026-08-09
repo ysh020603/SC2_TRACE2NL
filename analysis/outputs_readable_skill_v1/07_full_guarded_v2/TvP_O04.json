@@ -1,0 +1,68 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening economy/tech, verify opponent's army composition and detect any early pressure. If opponent is aggressive or army is unknown, prioritize defensive units and scouting.",
+        "node_id": "N001",
+        "recheck_condition": "Re-evaluate when scouting reveals opponent's army composition or if an aggressive push is detected."
+      },
+      {
+        "guardrail": "Before continuing expansion/tech, confirm opponent's army strength and intentions. If opponent has a large army moving out or a timing attack is likely, prioritize reinforcing your army and defending.",
+        "node_id": "N002",
+        "recheck_condition": "Re-evaluate when you have scouted the enemy's army composition and intentions. If you see a large army moving out, prepare to defend."
+      },
+      {
+        "guardrail": "Before focusing on economy/tech, ensure you have scouting information about opponent's strategy. If opponent shows signs of early attack, prioritize defensive units and scouting.",
+        "node_id": "N003",
+        "recheck_condition": "Re-evaluate when you have more scouting information or if the opponent shows signs of an early attack."
+      },
+      {
+        "guardrail": "Before continuing expansion/tech, verify opponent's army composition and potential for warp prism harass. If opponent is aggressive or has a large push, prioritize defensive units and detection.",
+        "node_id": "N004",
+        "recheck_condition": "Re-evaluate if the opponent transitions to a heavy air composition or if you face a large push."
+      },
+      {
+        "guardrail": "Before continuing expansion/tech, confirm opponent's army composition and potential for a large engagement. If opponent is aggressive or has a large army, prioritize defensive positioning and unit production.",
+        "node_id": "N005",
+        "recheck_condition": "Re-evaluate if the opponent transitions to a heavy air composition or if you face a large engagement."
+      },
+      {
+        "guardrail": "Before adding anti-air units, verify opponent's air composition and potential for harass. If opponent transitions back to ground or has a large push, prioritize ground defense and scouting.",
+        "node_id": "N006",
+        "recheck_condition": "Re-evaluate if the opponent transitions back to a ground composition or if you face a large push."
+      },
+      {
+        "guardrail": "Before increasing air presence, confirm opponent's air composition and potential for a large engagement. If opponent transitions to ground or has a large push, prioritize ground defense and unit production.",
+        "node_id": "N007",
+        "recheck_condition": "Re-evaluate if the opponent transitions to a ground composition or if you face a large engagement."
+      },
+      {
+        "guardrail": "Before increasing air presence, verify opponent's air composition and potential for a large engagement. If opponent transitions to ground or has a large push, prioritize ground defense and unit production.",
+        "node_id": "N008",
+        "recheck_condition": "Re-evaluate if the opponent transitions to a ground composition or if you face a large engagement."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "TvP_O04",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "3f619f1b25647456659d8733e21ba775ef4818928f8e6359c0c0e0899d670267",
+    "source_ids": [
+      "TvP_O04:N002"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

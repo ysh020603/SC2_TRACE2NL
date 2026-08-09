@@ -1,0 +1,78 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before continuing to expand and tech, verify that your defensive structures and units are sufficient to hold a potential ground push. If your defense is light or uncertain, prioritize reinforcing your defensive line before further expanding.",
+        "node_id": "N001",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of an air transition or a significant army push."
+      },
+      {
+        "guardrail": "Before deepening your economy and tech, ensure you have adequate scouting to confirm the opponent's army composition. If you lack reliable information, prioritize scouting and defensive readiness over further expansion.",
+        "node_id": "N002",
+        "recheck_condition": "Re-evaluate once you have more scouting information about the opponent's army composition."
+      },
+      {
+        "guardrail": "Before adding more siege tanks or expanding further, verify that your defensive line is solid and can withstand a potential breakthrough. If your defense is not yet heavy, prioritize reinforcing your defensive position before committing to additional tech or expansions.",
+        "node_id": "N003",
+        "recheck_condition": "Re-evaluate if the opponent attempts to break your defensive line or transitions to air."
+      },
+      {
+        "guardrail": "Before investing in air support, confirm that the opponent's medivac presence is not a feint and that your ground defense is secure. If your ground defense is not heavy, prioritize strengthening it before adding air units.",
+        "node_id": "N004",
+        "recheck_condition": "Re-evaluate if the opponent commits heavily to air or if you need to adjust your defensive positioning."
+      },
+      {
+        "guardrail": "Before adding medivacs for mobility, ensure that your ground forces are strong enough to hold a defensive line. If your defense is moderate, prioritize reinforcing your ground position before investing in medivacs.",
+        "node_id": "N005",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of a different tech path or a large army push."
+      },
+      {
+        "guardrail": "Before transitioning to air, verify that the opponent lacks significant anti-air capabilities. If the opponent shows signs of building anti-air, prioritize strengthening your ground forces and maintaining a balanced composition.",
+        "node_id": "N006",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of building anti-air or if your air transition is not effective."
+      },
+      {
+        "guardrail": "Before expanding further, ensure that your defenses are solid enough to repel an aggressive push. If your defense is moderate, prioritize reinforcing your defensive structures before continuing to develop your economy.",
+        "node_id": "N007",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of an aggressive push or a different tech path."
+      },
+      {
+        "guardrail": "Before increasing air presence, confirm that the opponent lacks strong anti-air. If the opponent shows signs of building anti-air, prioritize maintaining a strong ground core and avoid overcommitting to air.",
+        "node_id": "N008",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of building anti-air or if your air units are not effective."
+      },
+      {
+        "guardrail": "Before continuing the air transition, verify that your ground defense is strong enough to protect your economy. If your defense is not heavy, prioritize reinforcing your defensive line before further investing in air.",
+        "node_id": "N009",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of a significant air transition or if your air units are not effective."
+      },
+      {
+        "guardrail": "Before expanding further, ensure you have sufficient scouting to confirm the opponent's army composition. If you lack reliable information, prioritize scouting and defensive readiness over further expansion.",
+        "node_id": "N010",
+        "recheck_condition": "Re-evaluate once you have more scouting information about the opponent's army composition."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "TvT_O07",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "c708bce07f953418c7c0d3b269a02cf12f8abc61ac6b3a19df4c98994a6a59ee",
+    "source_ids": [
+      "TvT_O01:N002"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

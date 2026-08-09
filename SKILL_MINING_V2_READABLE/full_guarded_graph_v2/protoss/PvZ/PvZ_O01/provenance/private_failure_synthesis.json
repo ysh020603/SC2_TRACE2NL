@@ -1,0 +1,74 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening this direction, verify that you have scouted the opponent's tech path and that your army composition is not vulnerable to early pressure. If you lack scouting information or your defense is insufficient, prioritize building a defensive ground core and increasing production over further tech investment.",
+        "node_id": "N001",
+        "recheck_condition": "Recheck when you have scouted the opponent's tech path or when you have a clear army composition in mind."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your ground army is sufficient to defend against potential aggression and that your economy can sustain continued production. If your army is too small or your expansion is threatened, prioritize reinforcing your army and securing your expansion over further tech investment.",
+        "node_id": "N002",
+        "recheck_condition": "Recheck when you have more information about the opponent's tech path or when you are ready to commit to a specific army composition."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your ground army composition is capable of countering the opponent's heavy ground presence, and that you have sufficient detection and mobility. If your army lacks anti-armor or splash damage, prioritize adding units like Immortals or Colossi, and ensure you have Observers for detection.",
+        "node_id": "N003",
+        "recheck_condition": "Recheck when you have information about the opponent's tech transitions or when you are ready to launch a major attack."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your army composition is balanced against the opponent's ground forces and that you have sufficient spellcasting or splash damage. If your army lacks area damage or support, prioritize adding Colossi or High Templar, and ensure your Void Rays are not overextended without ground support.",
+        "node_id": "N004",
+        "recheck_condition": "Recheck when you have information about the opponent's tech transitions or when you are ready to engage in a decisive battle."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that you have scouted the opponent's strategy and that your production is sufficient to transition into a viable army. If you lack scouting or your production is too low, prioritize increasing production and building a defensive core before further tech investment.",
+        "node_id": "N005",
+        "recheck_condition": "Recheck when you have more information about the opponent's strategy or when you are ready to commit to a specific army direction."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your ground army is sufficient to defend against early pressure and that your expansion is secure. If your defense is weak or your expansion is threatened, prioritize reinforcing your army and securing your expansion over further tech investment.",
+        "node_id": "N006",
+        "recheck_condition": "Recheck when you have more information about the opponent's tech path or when you are ready to commit to a specific army composition."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your air army is not vulnerable to anti-air threats and that you have a ground core for defense. If the opponent shows signs of anti-air or your ground defense is weak, prioritize reinforcing your ground core and adding detection before committing further to air.",
+        "node_id": "N007",
+        "recheck_condition": "Recheck when you have information about the opponent's tech transitions or when you are ready to launch a major attack."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your air army is not overextended without ground support and that you have scouted the opponent's anti-air capabilities. If the opponent has anti-air or your ground defense is weak, prioritize reinforcing your ground core and adding detection before further air investment.",
+        "node_id": "N008",
+        "recheck_condition": "Recheck when you have information about the opponent's tech transitions or when you are ready to launch a major attack."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your ground army is capable of countering the opponent's heavy ground presence and that your defense is not overcommitted at the expense of map control. If your army lacks anti-armor or your expansion is threatened, prioritize adding Immortals or Colossi and securing your expansion.",
+        "node_id": "N009",
+        "recheck_condition": "Recheck when you have information about the opponent's tech transitions or when you are ready to launch a major attack."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "PvZ_O01",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "8c19d01a7b309d4952902ff28b6c4c430985b5de04648bdf564044cac2f3f8d6",
+    "source_ids": [
+      "PvZ_O03:N001",
+      "PvZ_O04:N001"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

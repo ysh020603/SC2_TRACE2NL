@@ -1,0 +1,88 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent has not transitioned to air and that no timing push is imminent. If either is detected, prioritize building anti-air units and defensive structures.",
+        "node_id": "N001",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of transitioning to air or if you detect a timing push."
+      },
+      {
+        "guardrail": "Before deepening this direction, confirm that the opponent is not preparing a timing attack and that your expansion count is sufficient. If a timing attack is likely or your economy is behind, prioritize defensive units and secure additional bases.",
+        "node_id": "N002",
+        "recheck_condition": "Re-check if the opponent shows signs of air tech or if you need to defend a push."
+      },
+      {
+        "guardrail": "Before deepening this direction, ensure that your economy is stable and that you have scouted the opponent's next move. If your economy is unstable or the opponent is preparing an attack, prioritize army production and defense over further expansion.",
+        "node_id": "N003",
+        "recheck_condition": "Re-evaluate once your economy is secure and you have scouting information on the opponent's next move."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent has not transitioned to air and that you are prepared for warp prism harass. If air transition is detected or harass is imminent, prioritize anti-air units and defensive positioning.",
+        "node_id": "N004",
+        "recheck_condition": "Re-evaluate if the opponent transitions to air or if you need to respond to harass."
+      },
+      {
+        "guardrail": "Before deepening this direction, scout the opponent's army composition to confirm that your technology investment is appropriate. If the opponent's composition counters your tech, adjust your tech path and production accordingly.",
+        "node_id": "N005",
+        "recheck_condition": "Re-evaluate once you have scouted the opponent's army composition."
+      },
+      {
+        "guardrail": "Before deepening this direction, scout the opponent's army composition and tech path to ensure that your ground army is not vulnerable. If the opponent is transitioning to air or has a counter composition, prioritize adding anti-air units or adjusting your tech.",
+        "node_id": "N006",
+        "recheck_condition": "Re-evaluate when you have scouted the opponent's army composition or if they move out."
+      },
+      {
+        "guardrail": "Before deepening this direction, confirm that you have sufficient anti-air capabilities to defend against Void Rays. If your anti-air is insufficient, prioritize building Stalkers or Phoenixes and consider a transition to air.",
+        "node_id": "N007",
+        "recheck_condition": "Re-evaluate if the opponent transitions back to ground or if you need to commit to air."
+      },
+      {
+        "guardrail": "Before deepening this direction, ensure that your anti-air defenses are strong enough to withstand an air timing attack. If not, prioritize building anti-air units and possibly transitioning to an air army.",
+        "node_id": "N008",
+        "recheck_condition": "Re-evaluate if the opponent switches to ground or if you need to commit to a full air transition."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent has not transitioned to air and that your mixed army composition is balanced. If the opponent transitions to air, prioritize adding more Void Rays or other anti-air units.",
+        "node_id": "N009",
+        "recheck_condition": "Re-evaluate if the opponent transitions to air or if you need to respond to a specific threat."
+      },
+      {
+        "guardrail": "Before deepening this direction, confirm that the opponent is not preparing a ground push that could overwhelm your air army. If a ground push is imminent, prioritize defensive units and positioning.",
+        "node_id": "N010",
+        "recheck_condition": "Re-evaluate if the opponent transitions to air or if you need to defend against a ground push."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent has not transitioned to ground and that your air army is not vulnerable to ground-based anti-air. If the opponent transitions to ground, adjust your composition to include more ground support.",
+        "node_id": "N011",
+        "recheck_condition": "Re-evaluate if the opponent transitions to ground or if you need to adjust your composition."
+      },
+      {
+        "guardrail": "Before deepening this direction, confirm that the opponent has not transitioned to ground and that your air army is well-supported. If the opponent transitions to ground, prioritize building ground units or defensive structures.",
+        "node_id": "N012",
+        "recheck_condition": "Re-evaluate if the opponent transitions to ground or if you need to defend against a specific threat."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "PvP_O01",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "90a9f81a3074bfa9e50624d8fc0dd4c09436dd4d0ec765a742938edc46eff7b2",
+    "source_ids": [
+      "PvP_O01:N003"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

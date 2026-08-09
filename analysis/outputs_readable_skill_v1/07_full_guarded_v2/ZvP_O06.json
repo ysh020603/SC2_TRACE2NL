@@ -1,0 +1,93 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening the economy, verify that you have at least a minimal defensive force (e.g., Zerglings or Queens) and that scouting confirms the opponent is not applying early pressure. If the opponent is aggressive or you lack defense, prioritize building defensive units over expanding.",
+        "node_id": "N001",
+        "recheck_condition": "Recheck when you have a clear read on the opponent's tech path or when you are ready to start your tech transition."
+      },
+      {
+        "guardrail": "Before increasing army production, ensure you have sufficient economy to support it and that you are not neglecting scouting. If the opponent shows signs of a tech switch or a timing attack, prioritize scouting and defensive positioning over pure production.",
+        "node_id": "N002",
+        "recheck_condition": "Recheck when you have a comfortable army size or when the opponent shows a tech switch."
+      },
+      {
+        "guardrail": "Before continuing teching, verify that your army size is sufficient to defend against a potential timing attack. If the opponent moves out or your army is too small, prioritize army production and defensive structures over further tech.",
+        "node_id": "N003",
+        "recheck_condition": "Recheck when your tech is complete or when the opponent moves out."
+      },
+      {
+        "guardrail": "Before adding tech structures, ensure you have a solid defensive army and that you are not sacrificing production. If the opponent shows signs of aggression or you are vulnerable, prioritize army production and defense over tech.",
+        "node_id": "N004",
+        "recheck_condition": "Recheck when the opponent shows a tech switch or when you are ready to tech."
+      },
+      {
+        "guardrail": "Before investing heavily in tech, verify that your army can hold against a potential push. If the opponent attacks or your army is insufficient, prioritize army production and defensive units over tech.",
+        "node_id": "N005",
+        "recheck_condition": "Recheck when your tech is complete or when the opponent attacks."
+      },
+      {
+        "guardrail": "Before consolidating your army, ensure you have enough anti-ground units to counter the opponent's composition. If the opponent attacks or you lack sufficient army size, prioritize producing more units and defensive structures.",
+        "node_id": "N006",
+        "recheck_condition": "Recheck when you have a large army or when the opponent attacks."
+      },
+      {
+        "guardrail": "Before adding anti-air units, verify that the opponent's air army is confirmed and that you have enough ground defense. If the opponent is not committing to air or you are vulnerable on the ground, prioritize ground defense and scouting.",
+        "node_id": "N007",
+        "recheck_condition": "Recheck when you have sufficient anti-air or when the opponent's air army is confirmed."
+      },
+      {
+        "guardrail": "Before continuing to expand and tech, ensure you have a defensive army and that scouting confirms the opponent is not aggressive. If the opponent is pressuring or you lack defense, prioritize army production and defense over expansion.",
+        "node_id": "N008",
+        "recheck_condition": "Recheck when you have a clear read on the opponent's tech or when you are ready to transition."
+      },
+      {
+        "guardrail": "Before maintaining your army and adding upgrades, verify that your army size is sufficient to defend against a potential attack. If the opponent attacks or you lack army size, prioritize producing more units and defensive structures over upgrades.",
+        "node_id": "N009",
+        "recheck_condition": "Recheck when you have a large army or when the opponent attacks."
+      },
+      {
+        "guardrail": "Before adding anti-air units, verify that the opponent's air transition is confirmed and that you have enough ground defense. If the opponent is not committing to air or you are vulnerable on the ground, prioritize ground defense and scouting.",
+        "node_id": "N010",
+        "recheck_condition": "Recheck when you have sufficient anti-air or when the opponent attacks."
+      },
+      {
+        "guardrail": "Before adding anti-air units, verify that the opponent's air army is confirmed and that you have enough ground defense. If the opponent is not committing to air or you are vulnerable on the ground, prioritize ground defense and scouting.",
+        "node_id": "N011",
+        "recheck_condition": "Recheck when you have sufficient anti-air or when the opponent's air army is confirmed."
+      },
+      {
+        "guardrail": "Before continuing to expand and tech, ensure you have a defensive army and that scouting confirms the opponent is not aggressive. If the opponent is pressuring or you lack defense, prioritize army production and defense over expansion.",
+        "node_id": "N012",
+        "recheck_condition": "Recheck when you have a clear read on the opponent's tech or when you are ready to transition."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "ZvP_O06",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "e741990d63890a7327e73d9cec0f60657654d579d29d6b71d6ffee7ac6213f87",
+    "source_ids": [
+      "ZvT_O01:N002",
+      "ZvT_O01:N009",
+      "ZvT_O01:N011",
+      "ZvT_O01:N012",
+      "ZvZ_O01:N003",
+      "ZvZ_O05:N001"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

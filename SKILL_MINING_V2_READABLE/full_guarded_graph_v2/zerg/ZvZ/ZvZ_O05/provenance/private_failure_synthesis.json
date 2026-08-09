@@ -1,0 +1,73 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening economy, verify you have at least a few defensive units and scouting confirms no early Zergling rush. If enemy pressure is detected or scouting is insufficient, prioritize building defensive units and maintaining map awareness.",
+        "node_id": "N001",
+        "recheck_condition": "Re-evaluate if enemy pressure becomes apparent, or if you scout a tech switch or expansion timing."
+      },
+      {
+        "guardrail": "Before adding more Roaches, ensure you have sufficient anti-air or scouting to detect an air transition. If enemy shows signs of air tech or a timing attack, prioritize building anti-air defenses and scouting.",
+        "node_id": "N002",
+        "recheck_condition": "Re-evaluate if the enemy shows signs of an air transition or a timing attack."
+      },
+      {
+        "guardrail": "Before expanding further, verify you have enough defensive units to hold an early attack. If enemy shows signs of an early attack or fast expansion, prioritize building defensive units and scouting.",
+        "node_id": "N003",
+        "recheck_condition": "Re-evaluate if the enemy shows signs of an early attack or a fast expansion."
+      },
+      {
+        "guardrail": "Before consolidating, ensure you have scouting to detect a tech switch to air. If enemy tech switches to air or a large engagement is imminent, prioritize building anti-air and defensive positioning.",
+        "node_id": "N004",
+        "recheck_condition": "Re-evaluate if the enemy tech switches to air or if a large engagement is imminent."
+      },
+      {
+        "guardrail": "Before increasing air presence, verify enemy lacks sufficient anti-air. If enemy starts building anti-air units or you need to switch back to ground, prioritize adapting your composition accordingly.",
+        "node_id": "N005",
+        "recheck_condition": "Re-evaluate if the enemy starts building anti-air units or if you need to switch back to ground."
+      },
+      {
+        "guardrail": "Before increasing air presence, verify enemy lacks sufficient anti-air. If enemy starts building anti-air units or you need to switch back to ground, prioritize adapting your composition accordingly.",
+        "node_id": "N006",
+        "recheck_condition": "Re-evaluate if the enemy starts building anti-air units or if you need to switch back to ground."
+      },
+      {
+        "guardrail": "Before prioritizing defense, ensure you have scouting to confirm the enemy's air threat. If the enemy's air threat diminishes or you can transition to a more aggressive stance, prioritize adjusting your defensive posture.",
+        "node_id": "N007",
+        "recheck_condition": "Re-evaluate if the enemy's air threat diminishes or if you can transition to a more aggressive stance."
+      },
+      {
+        "guardrail": "Before increasing defense, verify you have scouting to detect early aggression. If enemy shows signs of aggression or you can afford to be more aggressive, prioritize adjusting your defensive posture.",
+        "node_id": "N008",
+        "recheck_condition": "Re-evaluate if the enemy shows signs of aggression or if you can afford to be more aggressive."
+      },
+      {
+        "guardrail": "Before prioritizing defense, ensure you have scouting to confirm the enemy's air threat. If the enemy's air threat diminishes or you can transition to a more aggressive stance, prioritize adjusting your defensive posture.",
+        "node_id": "N009",
+        "recheck_condition": "Re-evaluate if the enemy's air threat diminishes or if you can transition to a more aggressive stance."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "ZvZ_O05",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "877519fa696fc9949153c058f005daf4ed5eb71857b99062729952efb0e7e5c4",
+    "source_ids": [
+      "ZvZ_O05:N001"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

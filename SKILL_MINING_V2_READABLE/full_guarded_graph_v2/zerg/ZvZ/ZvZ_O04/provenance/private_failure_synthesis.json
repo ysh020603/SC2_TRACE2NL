@@ -1,0 +1,89 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening this direction, verify that your defensive units are sufficient to hold early pressure and that scouting confirms the opponent is not rushing. If you see a large Zergling force or early aggression, prioritize building defensive units over economy.",
+        "node_id": "N001",
+        "recheck_condition": "Recheck when you have a few defensive units and scouting confirms the opponent is not rushing, or if you see a large Zergling force."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your army size is not lagging behind your tech and production. If the opponent's army appears larger or they show signs of a push, prioritize army production over tech upgrades.",
+        "node_id": "N002",
+        "recheck_condition": "Recheck when you see the opponent's tech or army composition change, or if you plan to transition."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your economy is not overextended relative to your defense. If you scout an attack or your opponent's army is larger, prioritize defense and army production over further expansion.",
+        "node_id": "N003",
+        "recheck_condition": "Recheck when your economy is on par with the opponent or if you scout an attack."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your army size is sufficient to defend against a potential push. If the opponent's army appears larger or they show signs of aggression, prioritize army production over tech upgrades.",
+        "node_id": "N004",
+        "recheck_condition": "Recheck when you see the opponent's tech or army composition change, or if you plan to transition."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your defense is strong enough to hold against a heavy-tech ground army. If the opponent's army is larger or they show signs of attacking, prioritize army production and defensive structures over further tech.",
+        "node_id": "N005",
+        "recheck_condition": "Recheck when you see the opponent's army composition or if you plan to engage."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your economy is not too far behind the opponent's. If you scout an attack or your opponent's army is larger, prioritize defense and army production over expansion.",
+        "node_id": "N006",
+        "recheck_condition": "Recheck when your economy is on par or if you scout an attack."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your army is strong enough to apply pressure without leaving your base vulnerable. If the opponent catches up in economy or shows signs of a counterattack, prioritize defense and economy over aggression.",
+        "node_id": "N007",
+        "recheck_condition": "Recheck when the opponent catches up in economy or if you plan to attack."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your army size is not too small relative to the opponent's heavy production. If the opponent's army appears larger or they show signs of attacking, prioritize army production over tech.",
+        "node_id": "N008",
+        "recheck_condition": "Recheck when you see the opponent's army composition or if you plan to engage."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that you have a viable anti-air composition or are transitioning to air. If the opponent's Mutalisks are harassing effectively and you lack anti-air, prioritize building anti-air units or transitioning to air defense.",
+        "node_id": "N009",
+        "recheck_condition": "Recheck when you have a viable anti-air composition or if the opponent switches back to ground."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your ground defense is sufficient to hold against the opponent's heavy-tech ground army. If the opponent gets anti-air or shows signs of a ground push, prioritize ground defense and army production over further air harassment.",
+        "node_id": "N010",
+        "recheck_condition": "Recheck when the opponent gets anti-air or if you plan to transition to a different composition."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your army composition is balanced between air and ground to handle the opponent's heavy-tech ground army. If the opponent's army appears larger or they show signs of attacking, prioritize army production over further tech.",
+        "node_id": "N011",
+        "recheck_condition": "Recheck when you see the opponent's army composition or if you plan to transition."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your expansion is safe and your defense is adequate. If you scout an attack or your opponent's army is larger, prioritize defense and army production over expansion.",
+        "node_id": "N012",
+        "recheck_condition": "Recheck when your expansion is complete or if you scout an attack."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "ZvZ_O04",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "a82b4b7401788be4742f46bf672de83d07f104ecba2eb9d03b38f1e9df525822",
+    "source_ids": [
+      "ZvZ_O01:N003",
+      "ZvZ_O05:N001"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

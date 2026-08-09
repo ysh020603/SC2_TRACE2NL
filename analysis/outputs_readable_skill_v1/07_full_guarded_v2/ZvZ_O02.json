@@ -1,0 +1,64 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening this balanced development path, verify that your defensive capability is sufficient to survive early aggression. If you have not produced any defensive units or scouted the opponent's first move, prioritize building a few defensive units and sending an early scout over further economic investment.",
+        "node_id": "N001",
+        "recheck_condition": "Recheck when you have at least a few defensive units and scouting has revealed the opponent's initial strategy."
+      },
+      {
+        "guardrail": "Before continuing this balanced development, ensure that your economy is not overextended relative to your defensive capacity. If you have not confirmed the opponent's intentions through scouting, prioritize maintaining a minimal defensive force and increasing scouting frequency over expanding further.",
+        "node_id": "N002",
+        "recheck_condition": "Recheck when you have more scouting information or the opponent's actions become clearer."
+      },
+      {
+        "guardrail": "Before deepening this midgame consolidation, verify that your army size is not lagging behind your technology and economy. If your army is significantly smaller than what your production can support, prioritize producing units to reach a safe defensive threshold before continuing to tech or expand.",
+        "node_id": "N003",
+        "recheck_condition": "Recheck when your army size is adequate for defense or when you have more information about the opponent's army composition."
+      },
+      {
+        "guardrail": "Before deepening this late-midgame preparation, ensure that your army size is sufficient to defend against a potential large push. If your army is too small relative to your economy, prioritize building a defensive army to protect your expansions before further expanding or teching.",
+        "node_id": "N004",
+        "recheck_condition": "Recheck when you have a solid defensive army or when scouting reveals the opponent's army composition."
+      },
+      {
+        "guardrail": "Before strengthening your ground army and expanding further, verify that you have sufficient defensive units to hold your expansions. If your army is too small to defend against a potential attack, prioritize producing defensive units before expanding further.",
+        "node_id": "N005",
+        "recheck_condition": "Recheck when your army size is adequate for defense or when you have more information about the opponent's army composition."
+      },
+      {
+        "guardrail": "Before balancing economy and army development, ensure that your army is not too small to defend against early aggression. If your army is minimal, prioritize producing a few defensive units before continuing to expand or tech.",
+        "node_id": "N006",
+        "recheck_condition": "Recheck when you have a minimal defensive force or when scouting reveals the opponent's intentions."
+      },
+      {
+        "guardrail": "Before continuing to strengthen your ground army and expand, verify that your army size is not neglected while you focus on economy. If your army is too small relative to your economy, prioritize producing units to maintain a safe defensive capacity before expanding further.",
+        "node_id": "N007",
+        "recheck_condition": "Recheck when your army size is adequate for defense or when you have more information about the opponent's army composition."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "ZvZ_O02",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "a82b4b7401788be4742f46bf672de83d07f104ecba2eb9d03b38f1e9df525822",
+    "source_ids": [
+      "ZvZ_O01:N003",
+      "ZvZ_O05:N001"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

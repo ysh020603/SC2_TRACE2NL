@@ -1,0 +1,53 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening this direction, verify that the enemy has not transitioned to air units or initiated heavy pressure. If the enemy shows signs of air transitions or heavy pressure, prioritize defensive measures and adjust your army composition accordingly.",
+        "node_id": "N001",
+        "recheck_condition": "Re-evaluate if the enemy shows signs of air transitions or heavy pressure."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your defense is sufficient against potential early harassment, especially from Reapers. If your defense is insufficient, prioritize building defensive structures or units to ensure safety before continuing economic and tech development.",
+        "node_id": "N002",
+        "recheck_condition": "Re-evaluate when you have more information about the enemy's army composition and intentions."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the enemy has not added air units or shown signs of a tech switch. If the enemy adds air units or shows signs of a tech switch, prioritize adapting your army composition to counter the new threat.",
+        "node_id": "N003",
+        "recheck_condition": "Re-evaluate if the enemy adds air units or shows signs of a tech switch."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the enemy has not shown air units or a tech switch. If the enemy shows air units or a tech switch, prioritize adjusting your army composition to counter the new threat.",
+        "node_id": "N004",
+        "recheck_condition": "Re-evaluate if the enemy shows air units or a tech switch."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your defense is sufficient against a possible early ground push. If your defense is insufficient, prioritize building defensive structures or units to ensure safety before continuing economic and tech development.",
+        "node_id": "N005",
+        "recheck_condition": "Re-evaluate when you have more information about the enemy's army composition and intentions."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "PvT_O06",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "7ce0f3dc082cc74dd63af60e736e32fe0a6304f2b0602ce690c31fc22dab3405",
+    "source_ids": [
+      "PvT_O03:N002"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

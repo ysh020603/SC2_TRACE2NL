@@ -1,0 +1,75 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening this direction, verify that your economy is stable and your defenses are sufficient to hold early aggression. If scouting reveals an opponent tech switch or early pressure, prioritize defensive production and delay further expansion.",
+        "node_id": "N001",
+        "recheck_condition": "Re-evaluate when you have a significant army advantage or when scouting reveals a change in opponent's posture (e.g., tech switch or aggression)."
+      },
+      {
+        "guardrail": "Before deepening this direction, ensure your economy is stable and your defenses are solid. If the opponent shows signs of a timing attack or tech switch, prioritize defensive positioning and unit composition adjustments over further expansion.",
+        "node_id": "N002",
+        "recheck_condition": "Re-evaluate when you have a clear army lead or when opponent's tech or production changes significantly."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your army composition is balanced and your defenses are strong. If the opponent transitions to air or heavy spellcasters, prioritize adding appropriate counters and adjust your production accordingly.",
+        "node_id": "N003",
+        "recheck_condition": "Re-evaluate when you have a decisive army advantage or when opponent's composition changes significantly."
+      },
+      {
+        "guardrail": "Before applying pressure, confirm that your economy is stable and your defenses are sufficient. If the opponent's defense strengthens or they show signs of a counterattack, prioritize defensive reinforcement and delay aggressive moves.",
+        "node_id": "N004",
+        "recheck_condition": "Re-evaluate when the opponent's defense strengthens or when you have a clear army lead."
+      },
+      {
+        "guardrail": "Before investing in air units, scout the opponent's tech choices to confirm they are not transitioning to heavy anti-air. If the opponent shows signs of Mutalisks or Hydralisks, prioritize ground-based anti-air and maintain a balanced composition.",
+        "node_id": "N005",
+        "recheck_condition": "Re-evaluate when you have a significant army advantage or when opponent's composition changes."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your defensive structures and unit composition can handle Roach pushes. If the opponent masses Roaches, prioritize adding Marauders or Siege Tanks and ensure your production is sufficient to reinforce.",
+        "node_id": "N006",
+        "recheck_condition": "Re-evaluate when you have a clear army advantage or when opponent's composition changes."
+      },
+      {
+        "guardrail": "Before using the Reaper for harassment, confirm that your economy and tech are stable. If the opponent's defense strengthens or they show signs of aggression, prioritize defensive play and recall the Reaper to avoid losses.",
+        "node_id": "N007",
+        "recheck_condition": "Re-evaluate when the opponent's defense strengthens or when you have a clear army lead."
+      },
+      {
+        "guardrail": "Before continuing pressure with Reapers, ensure your economy is stable and your defenses are solid. If the opponent's posture changes or they show signs of a timing attack, prioritize defensive production and adjust your harassment strategy.",
+        "node_id": "N008",
+        "recheck_condition": "Re-evaluate when you have a clear army advantage or when opponent's posture changes."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your anti-air capabilities are sufficient to handle Mutalisk harassment. If the opponent commits heavily to Mutalisks, prioritize adding Thors or upgraded Marines and ensure your defenses cover all bases.",
+        "node_id": "N009",
+        "recheck_condition": "Re-evaluate when you have a clear army advantage or when opponent's composition changes."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "TvZ_O06",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "b5640d4d31a70dd1bf16a3b7a34820aad8f9b7a02852c0df929dbabd7194465a",
+    "source_ids": [
+      "TvZ_O01:N002",
+      "TvZ_O01:N005",
+      "TvZ_O01:N006"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,88 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening ground army and economy, verify opponent has not transitioned to air or committed to heavy pressure. If air units or a large attack are detected, prioritize building anti-air and defensive structures.",
+        "node_id": "N001",
+        "recheck_condition": "Recheck if opponent shows signs of air transition or heavy pressure."
+      },
+      {
+        "guardrail": "Before continuing ground strength, verify opponent has not teched up or shown air presence. If they have, prioritize teching to counter and adding anti-air.",
+        "node_id": "N002",
+        "recheck_condition": "Recheck if opponent techs up or shows air presence."
+      },
+      {
+        "guardrail": "Before increasing economy and production, verify you have sufficient army size to defend against potential pressure. If army is too small, prioritize building units before expanding further.",
+        "node_id": "N003",
+        "recheck_condition": "Recheck if opponent pressures or techs up."
+      },
+      {
+        "guardrail": "Before maintaining ground strength, verify opponent has not teched to air or shown heavy pressure. If they have, prioritize adding anti-air and defensive structures.",
+        "node_id": "N004",
+        "recheck_condition": "Recheck if opponent techs to air or shows heavy pressure."
+      },
+      {
+        "guardrail": "Before increasing defense, verify opponent is actually pressuring rather than expanding. If they are expanding, prioritize matching their economy and expanding yourself.",
+        "node_id": "N005",
+        "recheck_condition": "Recheck if opponent expands instead of pressuring."
+      },
+      {
+        "guardrail": "Before increasing economy and production, verify opponent has not started a pressure or teched up. If they have, prioritize building units and defensive structures.",
+        "node_id": "N006",
+        "recheck_condition": "Recheck if opponent pressures or techs up."
+      },
+      {
+        "guardrail": "Before increasing defense, verify opponent's commitment to air or ground. If they commit to air, prioritize anti-air; if ground, prioritize ground defense.",
+        "node_id": "N007",
+        "recheck_condition": "Recheck if opponent commits to air or ground."
+      },
+      {
+        "guardrail": "Before increasing defense, verify opponent's commitment to air or ground. If they commit to air, prioritize anti-air; if ground, prioritize ground defense.",
+        "node_id": "N008",
+        "recheck_condition": "Recheck if opponent commits to air or ground."
+      },
+      {
+        "guardrail": "Before increasing air, verify opponent has not teched anti-air or shown heavy ground pressure. If they have, prioritize ground defense and consider transitioning back to ground.",
+        "node_id": "N009",
+        "recheck_condition": "Recheck if opponent techs anti-air or shows heavy ground pressure."
+      },
+      {
+        "guardrail": "Before increasing air, verify opponent has not teched anti-air or shown heavy ground pressure. If they have, prioritize ground defense and consider transitioning back to ground.",
+        "node_id": "N010",
+        "recheck_condition": "Recheck if opponent techs anti-air or shows heavy ground pressure."
+      },
+      {
+        "guardrail": "Before increasing economy and production, verify opponent has not started a pressure or teched up. If they have, prioritize building units and defensive structures.",
+        "node_id": "N011",
+        "recheck_condition": "Recheck if opponent pressures or techs up."
+      },
+      {
+        "guardrail": "Before increasing defense, verify opponent is actually pressuring rather than expanding. If they are expanding, prioritize matching their economy and expanding yourself.",
+        "node_id": "N012",
+        "recheck_condition": "Recheck if opponent expands instead of pressuring."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "ZvZ_O01",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "93c6337e25b92b06b0d6c5e97fc5cd8188850d6f28bbda33911e424720eadfd7",
+    "source_ids": [
+      "ZvZ_O01:N003"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

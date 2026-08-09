@@ -1,0 +1,89 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening this macro direction, verify that your army size is sufficient to deter or survive early pressure. If you have not confirmed the opponent's build or if your defenses are light, prioritize producing a few units for defense before continuing heavy tech and expansion.",
+        "node_id": "N001",
+        "recheck_condition": "Re-evaluate when you see the opponent's first tech units or when you reach the early-midgame transition point."
+      },
+      {
+        "guardrail": "Before continuing to strengthen your ground army, verify that your army composition is not vulnerable to a timing attack. If you have not scouted the opponent's army composition or if they appear to be preparing a push, prioritize reinforcing your army and maintaining defensive structures.",
+        "node_id": "N002",
+        "recheck_condition": "Re-evaluate when you see the opponent's midgame tech units or if you face early pressure."
+      },
+      {
+        "guardrail": "Before adding more Siege Tanks or transitioning to air, verify that you have sufficient ground forces to hold your position. If the opponent is showing Colossus or air units, prioritize adding anti-air units like Vikings before committing to further tech.",
+        "node_id": "N003",
+        "recheck_condition": "Re-evaluate when you see the opponent's tech units, such as Colossus or air units."
+      },
+      {
+        "guardrail": "Before adding more Siege Tanks or transitioning to air, verify that your economy can support the transition without sacrificing production. If you are under pressure or your army is insufficient, prioritize reinforcing your current ground army before expanding tech.",
+        "node_id": "N004",
+        "recheck_condition": "Re-evaluate when you see the opponent's tech units, such as Colossus or air units."
+      },
+      {
+        "guardrail": "Before adding more Siege Tanks or transitioning to air, verify that your army composition is not too vulnerable to the opponent's mix. If the opponent has a strong ground composition with Immortals, prioritize adding units that counter them, such as Marauders, before further tech.",
+        "node_id": "N005",
+        "recheck_condition": "Re-evaluate when you see the opponent's tech units, such as Colossus or air units."
+      },
+      {
+        "guardrail": "Before increasing your air presence, verify that you have enough ground forces to defend against a potential ground push. If the opponent has strong anti-air capabilities or is likely to transition to air, prioritize building a balanced army that can handle both.",
+        "node_id": "N006",
+        "recheck_condition": "Re-evaluate when you see the opponent's anti-air capabilities or if they transition to air themselves."
+      },
+      {
+        "guardrail": "Before adding Vikings to counter Colossus, verify that you have sufficient ground forces to hold your position. If the opponent has High Templar or Carriers, prioritize adding units that counter them, such as Ghosts or Vikings, while maintaining your ground army.",
+        "node_id": "N007",
+        "recheck_condition": "Re-evaluate when you see the opponent's late-game tech units, such as High Templar or Carriers."
+      },
+      {
+        "guardrail": "Before adding more Siege Tanks or transitioning to air, verify that your army composition is not too vulnerable to the opponent's mix. If the opponent has Warp Prisms or Observers, prioritize adding detection and units that can handle drops, such as turrets or Vikings.",
+        "node_id": "N008",
+        "recheck_condition": "Re-evaluate when you see the opponent's late-game tech units, such as High Templar or Carriers."
+      },
+      {
+        "guardrail": "Before increasing your air presence, verify that you have enough ground forces to defend against a potential ground push. If the opponent has strong anti-air capabilities or is likely to transition to air, prioritize building a balanced army that can handle both.",
+        "node_id": "N009",
+        "recheck_condition": "Re-evaluate when you see the opponent's anti-air capabilities or if they transition to air themselves."
+      },
+      {
+        "guardrail": "Before using your Reaper for harassment, verify that you have a safe retreat path and that your base is not vulnerable to a counterattack. If you have not scouted the opponent's build or if your defenses are light, prioritize scouting and defensive production before committing to harassment.",
+        "node_id": "N010",
+        "recheck_condition": "Re-evaluate when you see the opponent's first tech units or when you reach the early-midgame transition point."
+      },
+      {
+        "guardrail": "Before continuing to strengthen your ground army, verify that you have sufficient scouting information about the opponent's build. If the opponent's posture is still unknown, prioritize scouting to confirm their intentions before committing to further tech or expansion.",
+        "node_id": "N011",
+        "recheck_condition": "Re-evaluate when you see the opponent's midgame tech units or if you face early pressure."
+      },
+      {
+        "guardrail": "Before transitioning to an air-oriented army to counter Carriers, verify that you have enough ground forces to defend against a potential ground attack. If the opponent transitions back to ground, prioritize maintaining a balanced army that can handle both air and ground threats.",
+        "node_id": "N012",
+        "recheck_condition": "Re-evaluate when you see the opponent's air composition or if they transition back to ground."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "TvP_O03",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "1dced6faefbe3912e047cfd95f256696bc490319451dd261140035a6084916d4",
+    "source_ids": [
+      "TvP_O04:N002",
+      "TvP_O06:N001"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

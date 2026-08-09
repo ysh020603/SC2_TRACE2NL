@@ -1,0 +1,71 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening this direction, verify that your economy and production are not falling behind the opponent's. If you have not scouted the opponent's expansion or army composition, prioritize sending an overlord or zergling to scout. If the opponent shows early aggression, prioritize building defensive units over expanding.",
+        "node_id": "N001",
+        "recheck_condition": "Re-evaluate when you have scouted the opponent's expansion or army composition, or when the opponent shows signs of aggression."
+      },
+      {
+        "guardrail": "Before continuing to focus on economy, ensure you have sufficient defensive units to handle potential early pressure. If you have not scouted the opponent's army composition, prioritize scouting. If the opponent is producing combat units, match their production with defensive units before expanding further.",
+        "node_id": "N002",
+        "recheck_condition": "Re-evaluate when you have scouted the opponent's army composition or when the opponent's aggression is confirmed."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your army size is not too small relative to the opponent's potential army. If you have not scouted recently, prioritize scouting. If the opponent has a larger army or is teching, adjust your production to avoid being caught off guard.",
+        "node_id": "N003",
+        "recheck_condition": "Re-evaluate when you have scouted the opponent's army composition or when the opponent's tech or production changes."
+      },
+      {
+        "guardrail": "Before continuing to focus on economy, ensure you have a solid defensive position and enough units to deter an attack. If you have not scouted the opponent's army, prioritize scouting. If the opponent is massing an army, prioritize building a defensive force over expanding.",
+        "node_id": "N004",
+        "recheck_condition": "Re-evaluate when you have scouted the opponent's army composition or when the opponent's aggression is imminent."
+      },
+      {
+        "guardrail": "Before strengthening your ground army, verify that your economy can support additional production. If you have not scouted the opponent's exact composition, prioritize scouting. If the opponent is producing heavy ground units, ensure you have enough anti-ground units and defensive structures.",
+        "node_id": "N005",
+        "recheck_condition": "Re-evaluate when you have scouted the opponent's exact army composition or when the opponent's production changes."
+      },
+      {
+        "guardrail": "Before strengthening your ground army, verify that your economy and production can sustain it. If you have not scouted the opponent's tech, prioritize scouting. If the opponent has heavy air or tech units, consider adding anti-air or tech counters.",
+        "node_id": "N006",
+        "recheck_condition": "Re-evaluate when you have scouted the opponent's tech or when the opponent's army composition is confirmed."
+      },
+      {
+        "guardrail": "Before increasing economy and expansion, ensure you have enough army to defend your bases. If you have not scouted the opponent's army composition, prioritize scouting. If the opponent is aggressive, prioritize building defensive units over expanding.",
+        "node_id": "N007",
+        "recheck_condition": "Re-evaluate when you have scouted the opponent's army composition or when the opponent's aggression is confirmed."
+      },
+      {
+        "guardrail": "Before continuing to strengthen your ground army, verify that your production is not lagging behind your economy. If you have not scouted the opponent's army composition, prioritize scouting. If the opponent is teching to a different composition, adjust your unit mix accordingly.",
+        "node_id": "N008",
+        "recheck_condition": "Re-evaluate when you have scouted the opponent's army composition or when the opponent's tech changes."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "ZvT_O02",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "cce79597baa7fb8717f2d6b769cfa5be3093cf1bcb5dd77a54f4c78f8f55f101",
+    "source_ids": [
+      "ZvT_O01:N002",
+      "ZvT_O01:N009",
+      "ZvT_O01:N011",
+      "ZvT_O01:N012"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

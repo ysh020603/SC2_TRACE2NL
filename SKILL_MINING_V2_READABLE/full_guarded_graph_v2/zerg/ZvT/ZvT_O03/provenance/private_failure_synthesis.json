@@ -1,0 +1,76 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening this direction, verify that your economy is still strong and that the opponent has not shown signs of air transitions or heavy pressure. If the opponent shows air units or a large push, prioritize building anti-air and defensive units over further expansion.",
+        "node_id": "N001",
+        "recheck_condition": "Recheck if the opponent shows signs of air transitions or heavy pressure."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your production is sufficient to support your expansion and that the opponent has not transitioned to air or shown signs of all-in pressure. If the opponent shows air units or an all-in, prioritize building anti-air and defensive units over further expansion.",
+        "node_id": "N002",
+        "recheck_condition": "Recheck if the opponent transitions to air or shows signs of all-in pressure."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your anti-air is adequate against the opponent's moderate air presence and that the opponent has not committed to heavy air or a timing attack. If the opponent shows heavy air or a timing attack, prioritize building anti-air and defensive units over further economy development.",
+        "node_id": "N003",
+        "recheck_condition": "Recheck if the opponent transitions to heavy air or shows signs of a timing attack."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your defenses are prepared against Hellion run-bys or Marine pushes and that the opponent has not transitioned to air or shown signs of a large push. If the opponent shows air units or a large push, prioritize building anti-air and defensive units over further technology development.",
+        "node_id": "N004",
+        "recheck_condition": "Recheck if the opponent transitions to air or shows signs of a large push."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that you have enough defensive units to protect your expansion and that more enemy information is available. If enemy information is still uncertain, prioritize scouting and building defensive units over further expansion.",
+        "node_id": "N005",
+        "recheck_condition": "Recheck as soon as more enemy information is available."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your army is sufficient to defend against drops or harassment and that the opponent has not shown signs of a timing attack or air transition. If the opponent shows a timing attack or air units, prioritize building defensive units and anti-air over further technology investment.",
+        "node_id": "N006",
+        "recheck_condition": "Recheck if the opponent shows signs of a timing attack or air transition."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your production is keeping up with your expansion and that the opponent has not transitioned to air or shown signs of a large push. If the opponent shows air units or a large push, prioritize building anti-air and defensive units over further expansion.",
+        "node_id": "N007",
+        "recheck_condition": "Recheck if the opponent transitions to air or shows signs of a large push."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your air presence is sufficient to counter the opponent's moderate air and that the opponent has not committed heavily to air or shown signs of a ground push. If the opponent commits heavily to air, prioritize building more anti-air; if they show a ground push, prioritize building ground defenses.",
+        "node_id": "N008",
+        "recheck_condition": "Recheck if the opponent commits heavily to air or shows signs of a ground push."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that you have enough units to defend against Reaper harassment and that more enemy information is available. If enemy information is still uncertain, prioritize scouting and building defensive units over further expansion.",
+        "node_id": "N009",
+        "recheck_condition": "Recheck as more enemy information becomes available."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "ZvT_O03",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "cce79597baa7fb8717f2d6b769cfa5be3093cf1bcb5dd77a54f4c78f8f55f101",
+    "source_ids": [
+      "ZvT_O01:N002",
+      "ZvT_O01:N009",
+      "ZvT_O01:N011",
+      "ZvT_O01:N012"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

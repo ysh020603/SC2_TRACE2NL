@@ -1,0 +1,53 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening economy and tech, verify that your defensive structure can handle a potential early ground push. If defense is insufficient, prioritize building defensive units and static defense.",
+        "node_id": "N001",
+        "recheck_condition": "Recheck if the opponent shows signs of a heavy push or if you scout a tech switch."
+      },
+      {
+        "guardrail": "Before increasing production and tech, ensure your army is strong enough to defend against a timing attack. If your army is light, prioritize producing units and upgrading to match the opponent's composition.",
+        "node_id": "N002",
+        "recheck_condition": "Recheck if the opponent shows signs of a large push or if you scout a tech switch."
+      },
+      {
+        "guardrail": "Before committing to a tech path, scout to determine the opponent's intentions. If the opponent's posture is unknown, prioritize scouting and building a flexible army composition.",
+        "node_id": "N003",
+        "recheck_condition": "Recheck when you have more information about the opponent's composition or if you scout an aggressive move."
+      },
+      {
+        "guardrail": "Before strengthening your ground army, verify that your composition can counter the opponent's Siege Tanks and Medivacs. If your army lacks anti-armor or anti-air, prioritize building Immortals, Colossi, or other appropriate units.",
+        "node_id": "N004",
+        "recheck_condition": "Recheck if the opponent shows signs of a large push or if you scout a tech switch."
+      },
+      {
+        "guardrail": "Before developing economy and tech, ensure you have a defensive force to handle potential early pressure. If your army is unknown, prioritize scouting and building a defensive core.",
+        "node_id": "N005",
+        "recheck_condition": "Recheck when you have more information about the opponent's composition or if you scout an aggressive move."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "PvT_O03",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "7ce0f3dc082cc74dd63af60e736e32fe0a6304f2b0602ce690c31fc22dab3405",
+    "source_ids": [
+      "PvT_O03:N002"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

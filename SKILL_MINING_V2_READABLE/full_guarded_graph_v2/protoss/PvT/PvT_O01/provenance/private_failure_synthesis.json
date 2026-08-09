@@ -1,0 +1,53 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening this direction, verify that your expansion is adequately defended and that you have sufficient anti-harassment units (e.g., Sentries, Stalkers) to handle early Reaper pressure. If your defense is light or your expansion is exposed, prioritize defensive positioning and unit production over further economy/tech investment.",
+        "node_id": "N001",
+        "recheck_condition": "Recheck when you have a clear read on the opponent's tech or army composition, or when you are ready to transition to a more specialized composition."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your expansion is secure and that you have sufficient detection and anti-ground units to handle potential Widow Mine or Reaper harassment. If your expansion is light or your defense is uncertain, prioritize reinforcing your defenses and maintaining map awareness before increasing production.",
+        "node_id": "N002",
+        "recheck_condition": "Recheck when you have information on the opponent's tech path or when you are ready to push or expand further."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your army composition is robust against Widow Mines and that you have adequate detection (e.g., Observers) and mobility to respond to Medivac drops. If your detection is insufficient or your army is vulnerable to splash damage, prioritize adding Observers and positioning your army to defend key locations.",
+        "node_id": "N003",
+        "recheck_condition": "Recheck when you have a clear read on the opponent's tech or when you are ready to take a decisive engagement."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your early defense is sufficient to hold off Marine/Marauder pressure, especially if your army composition is undefined. If your defense is light, prioritize building a defensive core (e.g., Zealots, Sentries) and securing your natural expansion before committing to heavy tech.",
+        "node_id": "N004",
+        "recheck_condition": "Recheck when you have more information about the opponent's build or when you are ready to expand."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that you have adequate early defense against Reaper harassment, such as a Zealot or Stalker at your mineral line and a well-placed Pylon for vision. If your defense is insufficient, prioritize building defensive units and using your Chrono Boost to accelerate key tech or units to repel early pressure.",
+        "node_id": "N005",
+        "recheck_condition": "Recheck when you have a clearer picture of the opponent's follow-up."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "PvT_O01",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "7ce0f3dc082cc74dd63af60e736e32fe0a6304f2b0602ce690c31fc22dab3405",
+    "source_ids": [
+      "PvT_O03:N002"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

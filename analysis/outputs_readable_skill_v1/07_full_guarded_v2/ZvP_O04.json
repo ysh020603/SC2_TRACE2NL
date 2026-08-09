@@ -1,0 +1,93 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening economy, verify that you have at least a minimal defensive force (e.g., Queens or Zerglings) and that scouting confirms the opponent is not preparing an early rush. If you lack defense or scouting is unclear, prioritize building defensive units and scouting over further expansion.",
+        "node_id": "N001",
+        "recheck_condition": "Recheck when the opponent's first combat units are observed or when you reach a new tech milestone."
+      },
+      {
+        "guardrail": "Before continuing to expand, ensure you have sufficient army production to defend against potential aggression. If your army size is low or the opponent shows signs of a timing attack, prioritize army production over expansion.",
+        "node_id": "N002",
+        "recheck_condition": "Recheck when the opponent's first combat units are seen or when you reach a new tech milestone."
+      },
+      {
+        "guardrail": "Before committing to further tech, verify that your army size is sufficient to defend against a potential push. If your army is small, prioritize producing units (e.g., Zerglings, Roaches) over additional tech.",
+        "node_id": "N003",
+        "recheck_condition": "Recheck if the opponent adds air units or if you need to adjust your composition."
+      },
+      {
+        "guardrail": "Before investing heavily in air units, confirm that your ground defense is strong enough to hold while you transition. If your ground army is weak, prioritize reinforcing it before adding air.",
+        "node_id": "N004",
+        "recheck_condition": "Recheck if the opponent adds more ground units or if your air force is insufficient."
+      },
+      {
+        "guardrail": "Before expanding further, ensure you have scouting information to confirm the opponent's intentions. If scouting is lacking, prioritize scouting and building defensive units over expansion.",
+        "node_id": "N005",
+        "recheck_condition": "Recheck when the opponent's first combat units are observed or when you reach a new tech milestone."
+      },
+      {
+        "guardrail": "Before adding anti-air units, verify that your ground army is sufficient to defend against potential ground attacks. If your ground defense is weak, prioritize ground units before investing in anti-air.",
+        "node_id": "N006",
+        "recheck_condition": "Recheck if the opponent adds more air units or if you need to adjust your composition."
+      },
+      {
+        "guardrail": "Before continuing tech investment, ensure you have a solid army size to defend. If your army is small, prioritize unit production over tech.",
+        "node_id": "N007",
+        "recheck_condition": "Recheck if the opponent switches to a different composition or if you need to adjust your tech."
+      },
+      {
+        "guardrail": "Before expanding further, verify that your production capacity can support a larger army. If production is insufficient, prioritize building more production structures before expanding.",
+        "node_id": "N008",
+        "recheck_condition": "Recheck if the opponent adds air units or if you need to adjust your composition."
+      },
+      {
+        "guardrail": "Before adding more tech, ensure your army size is adequate to defend against a potential push. If your army is small, prioritize producing units (e.g., Zerglings, Roaches) over tech.",
+        "node_id": "N009",
+        "recheck_condition": "Recheck if the opponent adds air units or if you need to adjust your composition."
+      },
+      {
+        "guardrail": "Before committing to air harassment, verify that your ground defense is strong enough to hold. If your ground army is weak, prioritize reinforcing it before using Mutalisks offensively.",
+        "node_id": "N010",
+        "recheck_condition": "Recheck if the opponent adds more anti-air or if you need to adjust your composition."
+      },
+      {
+        "guardrail": "Before adding Corruptors, ensure your ground army is sufficient to defend against ground pushes. If your ground defense is weak, prioritize ground units before investing in anti-air.",
+        "node_id": "N011",
+        "recheck_condition": "Recheck if the opponent adds more anti-air or if you need to adjust your composition."
+      },
+      {
+        "guardrail": "Before expanding further, ensure you have scouting information to confirm the opponent's tech choice. If scouting is lacking, prioritize scouting and building defensive units (e.g., Queens) over expansion.",
+        "node_id": "N012",
+        "recheck_condition": "Recheck when the opponent's first combat units are observed or when you reach a new tech milestone."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "ZvP_O04",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "e741990d63890a7327e73d9cec0f60657654d579d29d6b71d6ffee7ac6213f87",
+    "source_ids": [
+      "ZvT_O01:N002",
+      "ZvT_O01:N009",
+      "ZvT_O01:N011",
+      "ZvT_O01:N012",
+      "ZvZ_O01:N003",
+      "ZvZ_O05:N001"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

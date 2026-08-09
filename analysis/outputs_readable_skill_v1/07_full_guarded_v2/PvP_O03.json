@@ -1,0 +1,88 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening economy/tech, verify no immediate threat by checking for enemy units near your base or production facilities. If threat detected, prioritize army production and defense over economy.",
+        "node_id": "N001",
+        "recheck_condition": "Re-evaluate when you observe the opponent's first combat units or at the 5-minute timing window."
+      },
+      {
+        "guardrail": "Before committing to ground army, confirm opponent remains ground-based (no air units or tech). If opponent shows air units or tech, prioritize adding anti-air or transitioning to air.",
+        "node_id": "N002",
+        "recheck_condition": "Re-evaluate if the opponent transitions to air or if you gain information about their tech path."
+      },
+      {
+        "guardrail": "Before continuing air investment, verify opponent lacks significant anti-air (e.g., Stalkers, Archons). If opponent builds anti-air, consider transitioning to ground or adding support.",
+        "node_id": "N003",
+        "recheck_condition": "Re-evaluate if the opponent builds significant anti-air or if you need to transition back to ground."
+      },
+      {
+        "guardrail": "Before adding more tech (e.g., High Templar), ensure you have sufficient army to defend against potential pressure. If opponent shows air units, prioritize anti-air or transition.",
+        "node_id": "N004",
+        "recheck_condition": "Re-evaluate if the opponent transitions to air or if you need to adapt your composition."
+      },
+      {
+        "guardrail": "Before increasing economy/tech, verify no early aggression by scouting for enemy units. If threat detected, prioritize army production and defense.",
+        "node_id": "N005",
+        "recheck_condition": "Re-evaluate when you observe the opponent's first combat units or at the next timing window."
+      },
+      {
+        "guardrail": "Before increasing air presence, verify opponent lacks strong anti-air (e.g., Stalkers, Archons). If opponent has anti-air, consider balancing ground and air or focusing on one composition.",
+        "node_id": "N006",
+        "recheck_condition": "Re-evaluate if the opponent transitions to air or if you need to focus on a single composition."
+      },
+      {
+        "guardrail": "Before adding more tech (e.g., High Templar), ensure you have sufficient army to defend against potential pressure. If opponent shows air units, prioritize anti-air or transition.",
+        "node_id": "N007",
+        "recheck_condition": "Re-evaluate if the opponent transitions to air or if you need to adapt your composition."
+      },
+      {
+        "guardrail": "Before continuing air investment, verify opponent lacks significant anti-air (e.g., Stalkers, Archons). If opponent builds anti-air, consider transitioning to ground or adding support.",
+        "node_id": "N008",
+        "recheck_condition": "Re-evaluate if the opponent builds significant anti-air or if you need to transition back to ground."
+      },
+      {
+        "guardrail": "Before continuing air investment, verify opponent lacks significant anti-air (e.g., Stalkers, Archons). If opponent builds anti-air, consider transitioning to ground or adding support.",
+        "node_id": "N009",
+        "recheck_condition": "Re-evaluate if the opponent builds significant anti-air or if you need to transition back to ground."
+      },
+      {
+        "guardrail": "Before continuing air investment, verify opponent lacks significant anti-air (e.g., Stalkers, Archons). If opponent builds anti-air, consider transitioning to ground or adding support.",
+        "node_id": "N010",
+        "recheck_condition": "Re-evaluate if the opponent builds significant anti-air or if you need to transition back to ground."
+      },
+      {
+        "guardrail": "Before adding more tech (e.g., High Templar), ensure you have sufficient army to defend against potential pressure. If opponent transitions to ground, prioritize ground army strength.",
+        "node_id": "N011",
+        "recheck_condition": "Re-evaluate if the opponent transitions to ground or if you need to adapt your composition."
+      },
+      {
+        "guardrail": "Before increasing economy/tech, verify no early aggression by scouting for enemy units. If threat detected, prioritize army production and defense.",
+        "node_id": "N012",
+        "recheck_condition": "Re-evaluate when you observe the opponent's first combat units or at the next timing window."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "PvP_O03",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "90a9f81a3074bfa9e50624d8fc0dd4c09436dd4d0ec765a742938edc46eff7b2",
+    "source_ids": [
+      "PvP_O01:N003"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

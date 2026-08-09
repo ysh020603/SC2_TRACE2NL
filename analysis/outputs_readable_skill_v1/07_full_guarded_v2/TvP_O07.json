@@ -1,0 +1,84 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening economy/tech, verify your army size is sufficient to deter an early push and that your defensive structures are adequate. If the opponent's army is larger or moving out, prioritize army production and defense over further expansion.",
+        "node_id": "N001",
+        "recheck_condition": "Recheck when you scout a tech switch (e.g., Phoenix, Oracle, Colossus) or if the opponent's army size becomes threatening."
+      },
+      {
+        "guardrail": "Before adding air presence, confirm your ground army is strong enough to hold a potential attack. If the opponent's army is comparable or larger, prioritize reinforcing your ground forces and defensive positioning before investing in air.",
+        "node_id": "N002",
+        "recheck_condition": "Recheck if the opponent transitions to heavy air (e.g., Phoenix, Void Rays) or if you need to respond to a specific threat."
+      },
+      {
+        "guardrail": "Before expanding further, verify that your defensive structures and army can withstand early pressure. If the opponent applies early aggression or your defenses are weak, prioritize army production and defensive upgrades over expansion.",
+        "node_id": "N003",
+        "recheck_condition": "Recheck when you see the opponent's tech choice or if they apply early pressure."
+      },
+      {
+        "guardrail": "Before further expansion, ensure your army is strong enough to defend your current bases. If the opponent's army is comparable or larger, prioritize reinforcing defenses and army strength over economic growth.",
+        "node_id": "N004",
+        "recheck_condition": "Recheck when you have a decisive army advantage or if the opponent makes a tech switch."
+      },
+      {
+        "guardrail": "Before continuing expansion, verify your anti-air capabilities are sufficient to counter potential Void Rays. If the opponent commits heavily to air, prioritize adding anti-air units (e.g., Marines, Thors) over further expansion.",
+        "node_id": "N005",
+        "recheck_condition": "Recheck if the opponent commits heavily to air or if you need to adjust your composition."
+      },
+      {
+        "guardrail": "Before expanding further, ensure your anti-air is ready to handle Oracles and potential air transitions. If the opponent's air presence grows, prioritize adding anti-air units (e.g., Marines, Thors, Vikings) over expansion.",
+        "node_id": "N006",
+        "recheck_condition": "Recheck when you see more air units (e.g., Phoenix, Void Rays) or if the opponent switches back to ground."
+      },
+      {
+        "guardrail": "Before expanding, verify you have sufficient scouting information to determine the opponent's plan. If the opponent's tech is unknown or they could be aggressive, prioritize scouting and defensive structures over expansion.",
+        "node_id": "N007",
+        "recheck_condition": "Recheck when you have more scouting information or if the opponent reveals their tech."
+      },
+      {
+        "guardrail": "Before further expansion, confirm your anti-air is strong enough to counter the Phoenix-heavy air army. If the opponent's air threat is significant, prioritize adding anti-air units (e.g., Thors, Vikings) over expansion.",
+        "node_id": "N008",
+        "recheck_condition": "Recheck if the opponent transitions to more ground or if you need to adjust your composition."
+      },
+      {
+        "guardrail": "Before expanding, verify your anti-air is sufficient to handle the opponent's air units. If the opponent's air presence is strong, prioritize adding anti-air units (e.g., Vikings, Thors) over expansion.",
+        "node_id": "N009",
+        "recheck_condition": "Recheck if the opponent commits heavily to air or if you need to adjust your composition."
+      },
+      {
+        "guardrail": "Before further expansion, ensure your anti-air is adequate to counter the heavy air threat. If the opponent's air army is overwhelming, prioritize adding anti-air units (e.g., Thors, Vikings) over expansion.",
+        "node_id": "N010",
+        "recheck_condition": "Recheck if the opponent transitions to more ground or if you need to adjust your composition."
+      },
+      {
+        "guardrail": "Before expanding, verify your anti-air is ready to counter Void Rays. If the opponent commits heavily to air, prioritize adding anti-air units (e.g., Marines, Thors) over expansion.",
+        "node_id": "N011",
+        "recheck_condition": "Recheck if the opponent commits heavily to air or if you need to adjust your composition."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "TvP_O07",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "1dced6faefbe3912e047cfd95f256696bc490319451dd261140035a6084916d4",
+    "source_ids": [
+      "TvP_O04:N002",
+      "TvP_O06:N001"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,53 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening this direction, verify that your scouting has confirmed the opponent's composition and that you have sufficient defensive structures or units to survive an early push. If you lack scouting information or defensive readiness, prioritize building defensive units and static defense over further economic or tech investment.",
+        "node_id": "N001",
+        "recheck_condition": "Re-evaluate when you have more information about the opponent's composition or when you reach a new tech milestone."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that you have adequate anti-air defenses or units to counter potential drops or air threats. If your air presence is insufficient or you are vulnerable to drops, prioritize building additional anti-air units or turrets before expanding further.",
+        "node_id": "N002",
+        "recheck_condition": "Re-evaluate when you have more information about the opponent's tech choices or when you are ready to push."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your scouting has identified the opponent's build and that you have a defensive plan against early pressure. If you lack scouting information or are uncertain about the opponent's intentions, prioritize scouting and defensive preparation over expanding.",
+        "node_id": "N003",
+        "recheck_condition": "Re-evaluate when you have more information about the opponent's build or when you reach a new tech milestone."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your scouting has revealed the opponent's army composition and that your expansion is adequately defended. If you lack scouting information or your defense is too light, prioritize scouting and defensive unit production before expanding further.",
+        "node_id": "N004",
+        "recheck_condition": "Re-evaluate when you have more information about the opponent's build or when you are ready to push."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that you have sufficient anti-air capabilities and that your economy can sustain a prolonged engagement. If your air presence is lacking or your economy is not robust, prioritize building additional anti-air units and reinforcing your economy before committing to a decisive fight.",
+        "node_id": "N005",
+        "recheck_condition": "Re-evaluate when you have more information about the opponent's tech or when you are ready to take a decisive fight."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "TvT_O04",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "c708bce07f953418c7c0d3b269a02cf12f8abc61ac6b3a19df4c98994a6a59ee",
+    "source_ids": [
+      "TvT_O01:N002"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

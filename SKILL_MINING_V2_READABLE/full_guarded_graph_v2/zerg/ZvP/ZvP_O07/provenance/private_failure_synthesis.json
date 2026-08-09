@@ -1,0 +1,93 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before continuing to develop economy and production, verify that your defensive forces are sufficient to hold against potential early pressure. If your army is too small or your defense is weak, prioritize building defensive units and scouting for early aggression.",
+        "node_id": "N001",
+        "recheck_condition": "Recheck when you see new opponent units or if you detect a tech switch."
+      },
+      {
+        "guardrail": "Before focusing solely on economy and expansion, ensure you have enough defensive units to survive early aggression. If your army is too small or your defense is weak, prioritize building Zerglings and Queens for defense and scout for early pressure.",
+        "node_id": "N002",
+        "recheck_condition": "Recheck when you have more information about the opponent's composition."
+      },
+      {
+        "guardrail": "Before strengthening your ground army, verify that your economy and production are stable enough to support a large army. If your army size is insufficient to defend against a potential push, prioritize building more units and scouting for tech switches.",
+        "node_id": "N003",
+        "recheck_condition": "Recheck if you see air units or a tech switch."
+      },
+      {
+        "guardrail": "Before increasing economy and tech, ensure you have enough defensive units to hold against early pressure. If your army is too small or your defense is weak, prioritize building defensive units and scouting for early aggression.",
+        "node_id": "N004",
+        "recheck_condition": "Recheck when you have more scouting information."
+      },
+      {
+        "guardrail": "Before increasing economy, production, and tech, verify that your army size is sufficient to defend against a potential push. If your army is too small, prioritize building more units and scouting for tech switches.",
+        "node_id": "N005",
+        "recheck_condition": "Recheck if you see air units or a tech switch."
+      },
+      {
+        "guardrail": "Before maintaining your economy and tech, ensure your army is large enough to defend against a potential push. If your army is too small, prioritize building more units and scouting for tech switches.",
+        "node_id": "N006",
+        "recheck_condition": "Recheck if you see air units or a tech switch."
+      },
+      {
+        "guardrail": "Before increasing defense and economy, verify that you have enough anti-air units to counter the opponent's air threat. If your anti-air is insufficient, prioritize building Hydralisks or Spore Crawlers and scout for the air composition.",
+        "node_id": "N007",
+        "recheck_condition": "Recheck when you have more information about the opponent's air composition."
+      },
+      {
+        "guardrail": "Before increasing economy and production, ensure you have enough anti-air units to defend against the opponent's air threat. If your anti-air is insufficient, prioritize building Hydralisks or Spore Crawlers and scout for the air composition.",
+        "node_id": "N008",
+        "recheck_condition": "Recheck when you have more information about the opponent's air composition."
+      },
+      {
+        "guardrail": "Before increasing economy, production, and expansion, verify that your army size is sufficient to defend against a potential push. If your army is too small, prioritize building more units and scouting for tech switches.",
+        "node_id": "N009",
+        "recheck_condition": "Recheck if you see air units or a tech switch."
+      },
+      {
+        "guardrail": "Before increasing air presence and tech, ensure you have enough ground defense to hold against a ground push. If your ground defense is weak, prioritize building ground units and scouting for the opponent's composition.",
+        "node_id": "N010",
+        "recheck_condition": "Recheck when you have more information about the opponent's composition."
+      },
+      {
+        "guardrail": "Before increasing economy and tech, verify that your army size is sufficient to defend against a potential timing attack. If your army is too small, prioritize building more units and scouting for aggression.",
+        "node_id": "N011",
+        "recheck_condition": "Recheck when you have more scouting information."
+      },
+      {
+        "guardrail": "Before increasing economy, production, and expansion, ensure you have enough anti-air units to counter the opponent's air threat. If your anti-air is insufficient, prioritize building Hydralisks or Spore Crawlers and scout for the air composition.",
+        "node_id": "N012",
+        "recheck_condition": "Recheck when you have more information about the opponent's air composition."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "ZvP_O07",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "e741990d63890a7327e73d9cec0f60657654d579d29d6b71d6ffee7ac6213f87",
+    "source_ids": [
+      "ZvT_O01:N002",
+      "ZvT_O01:N009",
+      "ZvT_O01:N011",
+      "ZvT_O01:N012",
+      "ZvZ_O01:N003",
+      "ZvZ_O05:N001"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

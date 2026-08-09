@@ -1,0 +1,75 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening economy/tech, verify opponent's early pressure potential and own defensive readiness. If opponent shows early aggression or own defense is weak, prioritize defensive structures and units over further expansion.",
+        "node_id": "N001",
+        "recheck_condition": "Recheck when opponent composition or pressure becomes clearer."
+      },
+      {
+        "guardrail": "Before adding air units, confirm opponent's anti-air capabilities and own economy stability. If opponent has strong anti-air or own economy is unstable, prioritize ground army reinforcement and defensive positioning.",
+        "node_id": "N002",
+        "recheck_condition": "Recheck when opponent tech or air presence changes."
+      },
+      {
+        "guardrail": "Before increasing production, ensure scouting has revealed opponent's composition and pressure timing. If scouting is insufficient or opponent shows early pressure, prioritize defensive units and map vision.",
+        "node_id": "N003",
+        "recheck_condition": "Recheck when opponent pressure or composition is known."
+      },
+      {
+        "guardrail": "Before developing further, verify map control and opponent's intentions. If map control is contested or opponent's intentions are unclear, prioritize defensive positioning and scouting over expansion.",
+        "node_id": "N004",
+        "recheck_condition": "Recheck when map control or opponent intentions are clearer."
+      },
+      {
+        "guardrail": "Before continuing tech, confirm opponent's tech path and army composition. If opponent shows tech that counters your planned composition, adjust tech choices accordingly and maintain a balanced army.",
+        "node_id": "N005",
+        "recheck_condition": "Recheck when opponent tech or army composition changes."
+      },
+      {
+        "guardrail": "Before expanding, verify opponent's defensive capabilities and potential counterattacks. If opponent has strong defense or can punish expansion, prioritize harassment and defensive units over expanding.",
+        "node_id": "N006",
+        "recheck_condition": "Recheck when opponent defense or tech changes."
+      },
+      {
+        "guardrail": "Before strengthening ground army, confirm opponent's tech and army composition. If opponent has tech that counters ground forces, consider adding air support or adjusting composition.",
+        "node_id": "N007",
+        "recheck_condition": "Recheck when opponent tech or army composition is known."
+      },
+      {
+        "guardrail": "Before considering air defense, verify opponent's air presence and own anti-air capabilities. If opponent's air presence is unclear or own anti-air is insufficient, prioritize scouting and defensive structures.",
+        "node_id": "N008",
+        "recheck_condition": "Recheck when opponent air presence becomes clearer."
+      },
+      {
+        "guardrail": "Before committing to a path, ensure scouting has revealed opponent's composition and intentions. If scouting is incomplete, prioritize defensive play and maintain flexibility in tech choices.",
+        "node_id": "N009",
+        "recheck_condition": "Recheck when more scouting information is available."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "TvZ_O05",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "b5640d4d31a70dd1bf16a3b7a34820aad8f9b7a02852c0df929dbabd7194465a",
+    "source_ids": [
+      "TvZ_O01:N002",
+      "TvZ_O01:N005",
+      "TvZ_O01:N006"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

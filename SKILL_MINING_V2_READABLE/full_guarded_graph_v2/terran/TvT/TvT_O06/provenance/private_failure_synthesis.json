@@ -1,0 +1,88 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before continuing to develop ground forces and economy, verify that your scouting has confirmed the opponent's ground posture and that no significant air threat or early pressure is imminent. If the opponent's composition is unclear or they show signs of an aggressive push, prioritize defensive positioning and unit production over further expansion.",
+        "node_id": "N001",
+        "recheck_condition": "Re-evaluate when you observe more of the opponent's army composition or if they apply pressure."
+      },
+      {
+        "guardrail": "Before increasing your economy to catch up, ensure that your defensive structures are sufficient to hold against potential early pressure. If the opponent's army composition is unknown or they show signs of an imminent attack, prioritize building defensive units and structures over expanding your economy.",
+        "node_id": "N002",
+        "recheck_condition": "Re-evaluate when your economy is on par with production or if you need to respond to opponent pressure."
+      },
+      {
+        "guardrail": "Before continuing to strengthen your ground army with Siege Tanks, verify that the opponent has not transitioned to an air-heavy composition or is preparing a timing attack. If you detect air units or a large push, adjust your unit composition to include anti-air and reinforce your defenses.",
+        "node_id": "N003",
+        "recheck_condition": "Re-evaluate when you have a clear read on the opponent's composition or if they attempt an aggressive move."
+      },
+      {
+        "guardrail": "Before increasing air presence and strengthening ground forces, confirm that the opponent's tech direction is indeed ground-based and that they are not committing to a heavy air composition. If you see a significant number of air units or tech structures indicating air, prioritize building anti-air units and adjust your production accordingly.",
+        "node_id": "N004",
+        "recheck_condition": "Re-evaluate when you see the opponent's tech direction or if they commit to a specific composition."
+      },
+      {
+        "guardrail": "Before stabilizing and developing, ensure that your economy and production are not overextended relative to your defensive capabilities. If the opponent shows signs of an early push or your scouting is incomplete, focus on defensive unit production and securing your base before expanding further.",
+        "node_id": "N005",
+        "recheck_condition": "Re-evaluate when you have a solid economy and production, or if the opponent forces a reaction."
+      },
+      {
+        "guardrail": "Before increasing defense and expansion, verify that the opponent is not planning a timing attack or a tech switch to air. If you detect a large ground force moving out or see air units, prioritize building defensive structures and units to hold your expansions.",
+        "node_id": "N006",
+        "recheck_condition": "Re-evaluate when you have secured expansions or if the opponent applies pressure."
+      },
+      {
+        "guardrail": "Before maintaining your ground army and increasing economy, confirm that the opponent has not transitioned to a composition that counters your current army. If you see a significant number of air units or tech that counters your ground forces, adjust your unit composition and production accordingly.",
+        "node_id": "N007",
+        "recheck_condition": "Re-evaluate when you have a clear picture of the opponent's army or if they make a tech switch."
+      },
+      {
+        "guardrail": "Before maintaining your ground army and increasing economy, verify that the opponent's late-game composition is not heavily air-based or that they are not preparing a major push. If you detect a large air force or a significant ground army moving out, prioritize building anti-air units and reinforcing your defenses.",
+        "node_id": "N008",
+        "recheck_condition": "Re-evaluate when you see the opponent's late-game composition or if they attempt a major push."
+      },
+      {
+        "guardrail": "Before increasing defense and expansion, ensure that your scouting has confirmed the opponent's ground posture and that they are not transitioning to air or preparing a timing attack. If you see air units or a large push, focus on defensive unit production and securing your base.",
+        "node_id": "N009",
+        "recheck_condition": "Re-evaluate when you have secured expansions or if the opponent forces a reaction."
+      },
+      {
+        "guardrail": "Before increasing air presence and strengthening air forces, confirm that the opponent is indeed committing to air and not just using a few units. If the opponent's air commitment is uncertain or they switch back to a ground-heavy composition, maintain a balanced army and continue scouting.",
+        "node_id": "N010",
+        "recheck_condition": "Re-evaluate when you see the opponent's air commitment or if they switch back to ground."
+      },
+      {
+        "guardrail": "Before maintaining your current army path and continuing development, verify that the opponent's composition does not include a significant number of units that counter your current army. If you see a large number of units that are strong against your composition, adjust your unit mix and production accordingly.",
+        "node_id": "N011",
+        "recheck_condition": "Re-evaluate when you have more information about the opponent's intentions or if they make a move."
+      },
+      {
+        "guardrail": "Before increasing air presence and strengthening air forces, confirm that the opponent's tech direction is indeed ground-based and that they are not transitioning to a heavy air composition. If you see a significant number of air units or tech structures indicating air, prioritize building anti-air units and adjust your production accordingly.",
+        "node_id": "N012",
+        "recheck_condition": "Re-evaluate when you see the opponent's tech direction or if they commit to a specific composition."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "TvT_O06",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "c708bce07f953418c7c0d3b269a02cf12f8abc61ac6b3a19df4c98994a6a59ee",
+    "source_ids": [
+      "TvT_O01:N002"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

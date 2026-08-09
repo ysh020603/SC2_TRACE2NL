@@ -1,0 +1,78 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before continuing harassment and expansion, verify that the opponent has not committed to an early push by checking for a large ground force moving across the map. If an attack is imminent, prioritize defensive positioning and unit production over further harassment.",
+        "node_id": "N001",
+        "recheck_condition": "Re-evaluate when the opponent's first combat units are seen or when you reach a new tech milestone."
+      },
+      {
+        "guardrail": "Before expanding further, confirm that the opponent is not preparing a timing attack by scouting for massed units or tech structures. If an attack is detected, focus on reinforcing your army and defending your bases instead of expanding.",
+        "node_id": "N002",
+        "recheck_condition": "Re-evaluate when you see the opponent's tech choices or when you reach a new supply threshold."
+      },
+      {
+        "guardrail": "Before committing to further expansion, ensure that the opponent's posture is not aggressive by sending a scout to check for early pressure. If an attack is incoming, prioritize building defensive units and structures over expanding.",
+        "node_id": "N003",
+        "recheck_condition": "Re-evaluate when you see the opponent's first units or when you reach a new expansion."
+      },
+      {
+        "guardrail": "Before transitioning to Siege Tanks, verify that the opponent is not planning a fast air or drop play by checking for starports or medivacs. If an air threat is detected, prioritize anti-air units and detection before committing to Siege Tanks.",
+        "node_id": "N004",
+        "recheck_condition": "Re-evaluate when you see the opponent's tech choices or when you have a critical mass of Siege Tanks."
+      },
+      {
+        "guardrail": "Before adding air units, confirm that the opponent does not have a strong anti-air composition, such as Thors or Vikings. If they do, prioritize ground-based scouting and defense instead of investing in air units.",
+        "node_id": "N005",
+        "recheck_condition": "Re-evaluate when you see the opponent's tech choices or when you reach a new supply threshold."
+      },
+      {
+        "guardrail": "Before expanding further, verify that the opponent is not preparing a large push by scouting for a massed army. If an attack is imminent, focus on reinforcing your defenses and producing units rather than expanding.",
+        "node_id": "N006",
+        "recheck_condition": "Re-evaluate when you see the opponent's tech choices or when you reach a new expansion."
+      },
+      {
+        "guardrail": "Before continuing Reaper harassment, ensure that the opponent has not invested in early defense, such as mines or marauders. If they have, prioritize macro and transitioning to a stronger army instead of risking your Reapers.",
+        "node_id": "N007",
+        "recheck_condition": "Re-evaluate when the opponent shows a stronger defense or when you have enough army to transition."
+      },
+      {
+        "guardrail": "Before expanding further, scout to confirm the opponent's posture is not aggressive. If an attack is detected, prioritize building defensive units and structures over expanding.",
+        "node_id": "N008",
+        "recheck_condition": "Re-evaluate when you see the opponent's first units or when you reach a new expansion."
+      },
+      {
+        "guardrail": "Before applying pressure with your Marine-Marauder army, verify that the opponent does not have a strong defensive position, such as bunkers or siege tanks. If they do, focus on macro and teching instead of a risky attack.",
+        "node_id": "N009",
+        "recheck_condition": "Re-evaluate when the opponent shows a stronger defense or when you have enough army to transition."
+      },
+      {
+        "guardrail": "Before diversifying tech, ensure that the opponent is not planning a quick push with their current composition. If an attack is imminent, prioritize building a strong defensive army and detection before teching further.",
+        "node_id": "N010",
+        "recheck_condition": "Re-evaluate when you see the opponent's tech choices or when you reach a new supply threshold."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 3,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "TvT_O01",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "c708bce07f953418c7c0d3b269a02cf12f8abc61ac6b3a19df4c98994a6a59ee",
+    "source_ids": [
+      "TvT_O01:N002"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

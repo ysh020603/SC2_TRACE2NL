@@ -1,0 +1,58 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening this direction, verify that your defensive structures are sufficient to deter Reaper harassment and that your economy is not overextended. If you detect early Reaper pressure or your defense is insufficient, prioritize reinforcing your defense and maintaining a safe economy over further tech investment.",
+        "node_id": "N001",
+        "recheck_condition": "Re-evaluate when you have more information about the opponent's army composition or if you detect a significant tech switch."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your army composition is strong enough to engage the Terran ground army, and that you have sufficient detection for Dark Templars. If the opponent shows a heavy push or you lack detection, prioritize building a counter to Siege Tanks and ensuring detection before committing to a large engagement.",
+        "node_id": "N002",
+        "recheck_condition": "Re-evaluate when you have a clear army advantage or if the opponent switches to a more air-heavy composition."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your expansion is adequately defended against Reaper harassment and that your production is sufficient to support your tech investment. If you scout a timing attack or your defense is weak, prioritize reinforcing your defense and maintaining a safe economy over further expansion.",
+        "node_id": "N003",
+        "recheck_condition": "Re-evaluate when you have scouted the opponent's tech path or if they attempt a timing attack."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your defense is solid against Reaper harassment and that your economy is not overextended. If you detect early pressure or your defense is insufficient, prioritize reinforcing your defense and maintaining a safe economy over further tech investment.",
+        "node_id": "N004",
+        "recheck_condition": "Re-evaluate when you have more information about the opponent's army or if they apply pressure."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your ground army is strong enough to hold against a Marine-heavy push and that your air support is sufficient to counter potential threats. If the opponent shows a heavy push or your air support is lacking, prioritize strengthening your ground defense and adding adequate air support before committing to further expansion.",
+        "node_id": "N005",
+        "recheck_condition": "Re-evaluate when you have a clear army advantage or if the opponent switches to a more air-heavy composition."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your defense is solid against possible early harassment, especially from Reapers, and that your economy is not overextended. If you spot a Marine or Reaper and your defense is insufficient, prioritize reinforcing your defense and maintaining a safe economy over further tech investment.",
+        "node_id": "N006",
+        "recheck_condition": "Re-evaluate when you have more information about the opponent's army or if they apply pressure."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "PvT_O04",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "7ce0f3dc082cc74dd63af60e736e32fe0a6304f2b0602ce690c31fc22dab3405",
+    "source_ids": [
+      "PvT_O03:N002"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

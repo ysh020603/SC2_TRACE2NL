@@ -1,0 +1,88 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening economy/tech, verify no early enemy combat units are visible and your production is sufficient to defend. If enemy units are seen or production is low, prioritize building defensive units.",
+        "node_id": "N001",
+        "recheck_condition": "Recheck when enemy first combat units appear or key tech completes."
+      },
+      {
+        "guardrail": "Before continuing macro, confirm enemy army composition is still unknown and your defenses are adequate. If enemy army is revealed or your defense is weak, prioritize army production and defensive positioning.",
+        "node_id": "N002",
+        "recheck_condition": "Recheck when enemy main army is spotted or you are ready to push."
+      },
+      {
+        "guardrail": "Before expanding further, scout for enemy aggression and ensure you have enough army to defend. If enemy units are seen or your army is insufficient, prioritize defensive unit production over expansion.",
+        "node_id": "N003",
+        "recheck_condition": "Recheck when enemy first combat units appear or key tech completes."
+      },
+      {
+        "guardrail": "Before continuing tech/economy, verify enemy army composition is still unclear and your defenses are solid. If enemy army is revealed or your defense is weak, prioritize army production and defensive upgrades.",
+        "node_id": "N004",
+        "recheck_condition": "Recheck when enemy main army is spotted or you are ready to push."
+      },
+      {
+        "guardrail": "Before strengthening ground army, confirm enemy has not committed to air or heavy tech. If enemy shows air units or tech, prioritize anti-air defenses and adjust composition.",
+        "node_id": "N005",
+        "recheck_condition": "Recheck when enemy first combat units appear or key tech completes."
+      },
+      {
+        "guardrail": "Before committing to ground defense, verify enemy is not transitioning to air or heavy tech. If enemy shows air units or tech, prioritize anti-air and adjust army composition.",
+        "node_id": "N006",
+        "recheck_condition": "Recheck when more of enemy army is revealed or you are ready to push."
+      },
+      {
+        "guardrail": "Before expanding further, scout for enemy aggression and ensure you have enough army to defend. If enemy units are seen or your army is insufficient, prioritize defensive unit production over expansion.",
+        "node_id": "N007",
+        "recheck_condition": "Recheck when more of enemy army is revealed or you are ready to push."
+      },
+      {
+        "guardrail": "Before engaging, confirm enemy composition and upgrades. If enemy has superior upgrades or composition, prioritize defensive positioning and tech upgrades.",
+        "node_id": "N008",
+        "recheck_condition": "Recheck when enemy main army is spotted or you are ready to push."
+      },
+      {
+        "guardrail": "Before expanding further, scout for enemy aggression and ensure you have enough army to defend. If enemy units are seen or your army is insufficient, prioritize defensive unit production over expansion.",
+        "node_id": "N009",
+        "recheck_condition": "Recheck when more of enemy army is revealed or you are ready to push."
+      },
+      {
+        "guardrail": "Before engaging, confirm enemy composition and upgrades. If enemy has superior upgrades or composition, prioritize defensive positioning and tech upgrades.",
+        "node_id": "N010",
+        "recheck_condition": "Recheck when enemy main army is spotted or you are ready to push."
+      },
+      {
+        "guardrail": "Before investing in air, verify enemy anti-air capabilities. If enemy has strong anti-air, prioritize ground army and defensive positioning.",
+        "node_id": "N011",
+        "recheck_condition": "Recheck when enemy anti-air is revealed or you are ready to push."
+      },
+      {
+        "guardrail": "Before expanding further, scout for enemy aggression and ensure you have enough army to defend. If enemy units are seen or your army is insufficient, prioritize defensive unit production over expansion.",
+        "node_id": "N012",
+        "recheck_condition": "Recheck when more of enemy army is revealed or you are ready to push."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "PvP_O02",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "90a9f81a3074bfa9e50624d8fc0dd4c09436dd4d0ec765a742938edc46eff7b2",
+    "source_ids": [
+      "PvP_O01:N003"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

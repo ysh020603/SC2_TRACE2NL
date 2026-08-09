@@ -1,0 +1,78 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening tech, verify that your army can defend against early ling floods or timing attacks. If not, prioritize building a defensive ground force.",
+        "node_id": "N001",
+        "recheck_condition": "Recheck when more enemy units are scouted or when transitioning to mid-game."
+      },
+      {
+        "guardrail": "Ensure your ground army is sufficient to hold against potential Zergling aggression before continuing tech. If under pressure, prioritize production and defense.",
+        "node_id": "N002",
+        "recheck_condition": "Recheck when opponent tech or army composition changes."
+      },
+      {
+        "guardrail": "Before investing further in upgrades, confirm that your army composition can handle Zergling and Roach compositions. If not, adjust to include more anti-ground units.",
+        "node_id": "N003",
+        "recheck_condition": "Recheck when opponent tech or army composition changes."
+      },
+      {
+        "guardrail": "Maintain a defensive posture and ensure your ground forces are sufficient to repel Roach attacks before focusing on economy. If vulnerable, prioritize defense.",
+        "node_id": "N004",
+        "recheck_condition": "Recheck when opponent tech or army composition changes."
+      },
+      {
+        "guardrail": "Before expanding, verify that your army can defend against Zergling pressure. If not, prioritize army production and defense over expansion.",
+        "node_id": "N005",
+        "recheck_condition": "Recheck when expansions are secure or when opponent pressure is detected."
+      },
+      {
+        "guardrail": "Ensure your Phoenix count is sufficient to deal with Mutalisks and Overseers before committing further to air. If not, consider adding ground support or more Phoenixes.",
+        "node_id": "N006",
+        "recheck_condition": "Recheck when opponent tech switches to anti-air or when air army is sufficient."
+      },
+      {
+        "guardrail": "Before expanding, verify that your Zealot force can hold against Queen-based aggression. If not, prioritize defense and army production.",
+        "node_id": "N007",
+        "recheck_condition": "Recheck when more enemy information is available or when transitioning to mid-game."
+      },
+      {
+        "guardrail": "Ensure your Void Rays are protected from anti-air threats before committing further. If opponent shows signs of anti-air, diversify your army composition.",
+        "node_id": "N008",
+        "recheck_condition": "Recheck when opponent tech switches to anti-air or when air army is sufficient."
+      },
+      {
+        "guardrail": "Before developing further, confirm that your Zealot army can withstand Zergling aggression. If not, prioritize stabilizing your defense and production.",
+        "node_id": "N009",
+        "recheck_condition": "Recheck when the situation stabilizes or when opponent tech changes."
+      },
+      {
+        "guardrail": "Ensure your Phoenixes can handle Mutalisks and Roaches before continuing air investment. If not, consider adding ground units or more Phoenixes.",
+        "node_id": "N010",
+        "recheck_condition": "Recheck when opponent tech switches to anti-air or when air army is sufficient."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "PvZ_O04",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "07a979cb0dfc3f1e25508cb016f3c68dc98044e5868afecbf7ce1698174defd8",
+    "source_ids": [
+      "PvZ_O04:N001"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

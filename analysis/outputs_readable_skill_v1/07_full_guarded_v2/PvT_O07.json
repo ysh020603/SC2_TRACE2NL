@@ -1,0 +1,53 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent has not transitioned to air units and that your defense is sufficient to handle potential pressure. If the opponent shows air transitions or your defense is insufficient, prioritize defensive structures and units over further economic expansion.",
+        "node_id": "N001",
+        "recheck_condition": "Recheck if the opponent shows signs of air transitions or if you face heavy pressure that requires defensive adjustments."
+      },
+      {
+        "guardrail": "Before deepening this direction, ensure you have scouted the opponent's army composition and have adequate defense against early aggression. If the opponent's composition is unclear or you face early pressure, prioritize scouting and defensive measures over further economic or technological investment.",
+        "node_id": "N002",
+        "recheck_condition": "Recheck when you have more information about the opponent's army composition or if you face early pressure."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent has not transitioned to a more air-heavy composition and that your ground army can effectively handle Siege Tanks. If the opponent shows air units or your composition lacks anti-tank capability, prioritize adding air units or Immortals to counter the threat.",
+        "node_id": "N003",
+        "recheck_condition": "Recheck if the opponent transitions to more air units or if you need to adjust your composition."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent has not added significant anti-air units. If the opponent adapts with anti-air, prioritize diversifying your army composition to include more ground units or adjust your air support accordingly.",
+        "node_id": "N004",
+        "recheck_condition": "Recheck if the opponent adapts with anti-air or if you need to adjust your composition."
+      },
+      {
+        "guardrail": "Before deepening this direction, ensure you have scouted the opponent's build and have adequate defense against potential pressure. If the opponent's composition is unclear or you face early pressure, prioritize scouting and defensive measures over further economic expansion.",
+        "node_id": "N005",
+        "recheck_condition": "Recheck when you have more information about the opponent's army composition or if you face early pressure."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "PvT_O07",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "7ce0f3dc082cc74dd63af60e736e32fe0a6304f2b0602ce690c31fc22dab3405",
+    "source_ids": [
+      "PvT_O03:N002"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

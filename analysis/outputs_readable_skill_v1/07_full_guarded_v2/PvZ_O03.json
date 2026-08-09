@@ -1,0 +1,83 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening this direction, verify that you have scouted the opponent's tech path and that your army composition is defined. If not, prioritize maintaining a defensive posture and flexible army composition over further economic or tech investment.",
+        "node_id": "N001",
+        "recheck_condition": "Re-evaluate when you have scouted the opponent's tech path or when your army composition becomes defined."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent has not committed to air or heavy tech. If they have, prioritize adding anti-air or tech units to your ground army. Also ensure your expansion is defended.",
+        "node_id": "N002",
+        "recheck_condition": "Re-evaluate when you see the opponent's tech choice or if they commit to air."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent's army composition and tech are still ground-based. If they show signs of air or tech switch, prioritize adapting your army composition accordingly. Also ensure your production and economy are balanced.",
+        "node_id": "N003",
+        "recheck_condition": "Re-evaluate when you have more information about the opponent's army composition or tech."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent has not committed to air or heavy tech. If they have, prioritize adding anti-air units or tech. Also ensure your expansion is defended and your army is not overextended.",
+        "node_id": "N004",
+        "recheck_condition": "Re-evaluate when you see the opponent's tech choice or if they commit to air."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that you have scouted the opponent's tech path and that your army composition is defined. If not, prioritize maintaining a defensive posture and flexible army composition over further expansion or tech investment.",
+        "node_id": "N005",
+        "recheck_condition": "Re-evaluate when you have scouted the opponent's tech path or when your army composition becomes defined."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent has not committed to air or heavy tech. If they have, prioritize adding anti-air or tech units to your army. Also ensure your tech advantage is not overextended without proper defense.",
+        "node_id": "N006",
+        "recheck_condition": "Re-evaluate when you see the opponent's tech choice or if they commit to air."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent has not committed to anti-air or heavy tech. If they have, prioritize adding ground support or transitioning to a more balanced army. Also ensure your economy and production can sustain the air investment.",
+        "node_id": "N007",
+        "recheck_condition": "Re-evaluate when you see the opponent's tech choice or if they commit to anti-air."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent has not committed to air or heavy tech. If they have, prioritize adding anti-air units or tech. Also ensure your Dark Templar are not left unsupported and your expansion is defended.",
+        "node_id": "N008",
+        "recheck_condition": "Re-evaluate when you see the opponent's tech choice or if they commit to air."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent has not committed to heavy anti-air or a tech switch. If they have, prioritize adding ground support or transitioning to a more balanced army. Also ensure your air forces are not overextended without proper support.",
+        "node_id": "N009",
+        "recheck_condition": "Re-evaluate when you see the opponent's tech choice or if they commit to anti-air."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent has not committed to heavy anti-air or a tech switch. If they have, prioritize adding more anti-air or transitioning to a more balanced army. Also ensure your ground forces are not overextended without proper support.",
+        "node_id": "N010",
+        "recheck_condition": "Re-evaluate when you see the opponent's tech choice or if they commit to air."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent has not committed to heavy anti-air or a tech switch. If they have, prioritize adding ground support or transitioning to a more balanced army. Also ensure your economy and production can sustain the air investment.",
+        "node_id": "N011",
+        "recheck_condition": "Re-evaluate when you see the opponent's tech choice or if they commit to anti-air."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "PvZ_O03",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "5060dbb7f9d9248fe4fdeb00ce88c665b0db9f3afeb39e4a9f144ec3f4b6de51",
+    "source_ids": [
+      "PvZ_O03:N001"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

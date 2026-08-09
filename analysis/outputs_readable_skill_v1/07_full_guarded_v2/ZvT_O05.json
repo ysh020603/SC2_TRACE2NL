@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening this direction, verify that your economy is solid and your expansion is safe. If the opponent shows early aggression or your defense is insufficient, prioritize producing additional Queens and defensive units over further expansion.",
+        "node_id": "N001",
+        "recheck_condition": "Reassess when you have a solid economy and the opponent's tech direction becomes clearer."
+      },
+      {
+        "guardrail": "Before continuing to expand and increase production, ensure that your army size is sufficient to defend against potential timing attacks. If the opponent's production is heavy and your army is small, prioritize army production over expansion.",
+        "node_id": "N002",
+        "recheck_condition": "Reassess when you have a strong army and the opponent's tech choices are more apparent."
+      },
+      {
+        "guardrail": "Before increasing technology and production, verify that your army size is adequate to defend against a potential midgame push. If the opponent's army is strong and your army is weak, prioritize building defensive units over teching.",
+        "node_id": "N003",
+        "recheck_condition": "Reassess when you have a solid army composition and the opponent's tech direction is clear."
+      },
+      {
+        "guardrail": "Before strengthening your army and maintaining economy, ensure that you are not neglecting upgrades. If the opponent has a powerful army and your upgrades are lacking, prioritize upgrades and unit production.",
+        "node_id": "N004",
+        "recheck_condition": "Reassess when you have a strong army and the opponent's composition is known."
+      },
+      {
+        "guardrail": "Before adding units like Hydralisks or Roaches, verify that your economy can support the transition and that you have enough army to defend. If the opponent's army is strong and your army is small, prioritize building a defensive force before teching.",
+        "node_id": "N005",
+        "recheck_condition": "Reassess when you have a strong army and the opponent's composition is clear."
+      },
+      {
+        "guardrail": "Before considering air units, ensure that your ground army is sufficient to defend against the opponent's current forces. If the opponent has a strong ground army and your army is weak, prioritize ground defense over air transition.",
+        "node_id": "N006",
+        "recheck_condition": "Reassess when you have a strong army and the opponent's tech direction is confirmed."
+      },
+      {
+        "guardrail": "Before investing in upgrades for Hydralisks, verify that your army size is adequate to hold against the opponent's forces. If the opponent's army is strong and your army is small, prioritize building more Hydralisks over upgrades.",
+        "node_id": "N007",
+        "recheck_condition": "Reassess when you have a strong army and the opponent's composition is known."
+      },
+      {
+        "guardrail": "Before using Zerglings for harassment, ensure that your economy and tech are not neglected. If the opponent's defenses are strong and your harassment is ineffective, prioritize teching and expanding over harassment.",
+        "node_id": "N008",
+        "recheck_condition": "Reassess when you have a strong army and the opponent's defenses are weakened."
+      },
+      {
+        "guardrail": "Before increasing air presence with Mutalisks, verify that your ground defense is sufficient to handle the opponent's ground army. If the opponent has strong anti-air or your ground army is weak, prioritize ground defense over air harassment.",
+        "node_id": "N009",
+        "recheck_condition": "Reassess when you have a strong air army and the opponent's anti-air is insufficient."
+      },
+      {
+        "guardrail": "Before continuing to harass with Mutalisks, ensure that your economy and production are not neglected. If the opponent's anti-air becomes too strong, prioritize transitioning to a ground-based army or expanding.",
+        "node_id": "N010",
+        "recheck_condition": "Reassess when the opponent's anti-air becomes too strong or you have a decisive advantage."
+      },
+      {
+        "guardrail": "Before expanding and teching, verify that your army size is sufficient to defend against potential aggression. If the opponent's production is heavy and your army is small, prioritize building defensive units over expansion.",
+        "node_id": "N011",
+        "recheck_condition": "Reassess when you have a strong economy and the opponent's tech direction is clear."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "ZvT_O05",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "cce79597baa7fb8717f2d6b769cfa5be3093cf1bcb5dd77a54f4c78f8f55f101",
+    "source_ids": [
+      "ZvT_O01:N002",
+      "ZvT_O01:N009",
+      "ZvT_O01:N011",
+      "ZvT_O01:N012"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

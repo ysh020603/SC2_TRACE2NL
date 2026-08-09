@@ -1,0 +1,48 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening economy and tech, verify that your defensive structure can handle early Reaper harassment; if not, prioritize building a Zealot or a Shield Battery at your natural.",
+        "node_id": "N001",
+        "recheck_condition": "Re-evaluate when you see more of the opponent's army composition or if you detect early pressure."
+      },
+      {
+        "guardrail": "Before expanding further, ensure you have sufficient defense against possible Reaper harassment; if your expansion is light or uncertain, prioritize building a Shield Battery or a Zealot at your natural.",
+        "node_id": "N002",
+        "recheck_condition": "Re-evaluate when you see the opponent's tech choices (e.g., Medivacs, Marauders) or if you face early pressure."
+      },
+      {
+        "guardrail": "Before adding more Colossus or transitioning to High Templar, verify that your army composition can handle potential Siege Tank or Banshee threats; if not, prioritize building Observers for vision and keep your Colossus safe.",
+        "node_id": "N003",
+        "recheck_condition": "Re-evaluate when you see the opponent's tech choices (e.g., Siege Tanks, Banshees) or if you face a large push."
+      },
+      {
+        "guardrail": "Before adding High Templar or transitioning to a mixed composition, verify that your army can handle potential Battlecruiser or Raven threats; if not, prioritize building a few Stalkers or Phoenixes for anti-air and keep your Colossus protected.",
+        "node_id": "N004",
+        "recheck_condition": "Re-evaluate when you see the opponent's tech choices (e.g., Battlecruisers, Ravens) or if you face a large push."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "PvT_O05",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "7ce0f3dc082cc74dd63af60e736e32fe0a6304f2b0602ce690c31fc22dab3405",
+    "source_ids": [
+      "PvT_O03:N002"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,79 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening this direction, verify that your scouting has confirmed the opponent's tech path and that your army composition is not prematurely committed. If the opponent's tech path is unclear or you lack a defined army, prioritize scouting and maintaining a flexible composition over further tech investment.",
+        "node_id": "N001",
+        "recheck_condition": "Re-evaluate when your army composition becomes clearer or if the opponent shows signs of tech switches."
+      },
+      {
+        "guardrail": "Before increasing production and technology, ensure that your defense is sufficient to hold against potential early pressure. If the opponent shows signs of an early attack or your defense is weak, prioritize defensive structures and units over further tech investment.",
+        "node_id": "N002",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of a tech switch or if your own army composition becomes defined."
+      },
+      {
+        "guardrail": "Before continuing to expand and strengthen ground forces, verify that your current defense can handle potential pressure and that your economy is stable. If the opponent is applying pressure or your defense is insufficient, prioritize defensive reinforcement over further expansion.",
+        "node_id": "N003",
+        "recheck_condition": "Re-evaluate when your army composition becomes clear or if the opponent shows signs of tech switches."
+      },
+      {
+        "guardrail": "Before committing further to ground forces, confirm that the opponent has not transitioned to air tech. If the opponent shows signs of air units or your ground army is ineffective, prioritize adding anti-air capabilities or transitioning to a more balanced composition.",
+        "node_id": "N004",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of air tech or if your army composition needs adjustment."
+      },
+      {
+        "guardrail": "Before increasing air forces, verify that the opponent lacks anti-air capabilities. If the opponent shows signs of anti-air tech (e.g., Hydralisks, Spore Crawlers) or your air army is being countered, prioritize diversifying your army or adding ground support.",
+        "node_id": "N005",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of anti-air tech or if your air army is not effective."
+      },
+      {
+        "guardrail": "Before strengthening ground forces, ensure that your scouting has confirmed the opponent's tech path and that you are not over-committing to a single composition. If the opponent shows signs of tech switches or your army is vulnerable, prioritize flexibility and defensive readiness.",
+        "node_id": "N006",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of tech switches or if your army composition needs adjustment."
+      },
+      {
+        "guardrail": "Before increasing economy and production, verify that your defense is adequate against potential early pressure. If the opponent is aggressive or your defense is weak, prioritize defensive structures and units over economic expansion.",
+        "node_id": "N007",
+        "recheck_condition": "Re-evaluate when your army composition becomes clearer or if the opponent shows signs of tech switches."
+      },
+      {
+        "guardrail": "Before increasing air forces, confirm that the opponent lacks anti-air capabilities. If the opponent shows signs of anti-air tech or your air army is being countered, prioritize adding ground support or transitioning to a more balanced composition.",
+        "node_id": "N008",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of anti-air tech or if your air army is not effective."
+      },
+      {
+        "guardrail": "Before increasing air forces, verify that the opponent lacks anti-air capabilities. If the opponent shows signs of anti-air tech or your air army is being countered, prioritize diversifying your army or adding ground support.",
+        "node_id": "N009",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of anti-air tech or if your air army is not effective."
+      },
+      {
+        "guardrail": "Before increasing defense and economy, ensure that your army composition is not over-committed to ground and that you have scouted for potential tech switches. If the opponent shows signs of air tech or your army is vulnerable, prioritize adding anti-air capabilities or adjusting your composition.",
+        "node_id": "N010",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of tech switches or if your army composition needs adjustment."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "PvZ_O05",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "8c19d01a7b309d4952902ff28b6c4c430985b5de04648bdf564044cac2f3f8d6",
+    "source_ids": [
+      "PvZ_O03:N001",
+      "PvZ_O04:N001"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

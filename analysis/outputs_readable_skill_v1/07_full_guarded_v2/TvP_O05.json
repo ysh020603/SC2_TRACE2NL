@@ -1,0 +1,89 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before continuing to strengthen your ground army and expand, verify that your current army size is sufficient to defend against a potential timing attack. If your army is smaller than expected or the opponent shows signs of aggression, prioritize building defensive units and reinforcing your army over further expanding.",
+        "node_id": "N001",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of an air transition or heavy pressure."
+      },
+      {
+        "guardrail": "Before maintaining production and economy while slightly increasing defense, verify that your army size is not too small relative to the opponent's potential army. If your army is insufficient to hold a push, prioritize army production over further economic development.",
+        "node_id": "N002",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of an air transition or heavy pressure."
+      },
+      {
+        "guardrail": "Before continuing to develop economy and technology with a flexible army, verify that you have scouted the opponent's army composition. If scouting is lacking, prioritize gaining information (e.g., with a scout or scan) before committing to a specific tech path.",
+        "node_id": "N003",
+        "recheck_condition": "Re-evaluate when you gain more scouting information about the opponent's army composition."
+      },
+      {
+        "guardrail": "Before increasing production and continuing ground army development, verify that your defense is not too light to withstand an early push. If your defense is weak, prioritize building defensive structures or units before expanding further.",
+        "node_id": "N004",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of an air transition or heavy pressure."
+      },
+      {
+        "guardrail": "Before maintaining your ground army and considering anti-air, verify that the opponent's air commitment is real and not a feint. If you have not confirmed the air transition, prioritize scouting to confirm before investing heavily in anti-air.",
+        "node_id": "N005",
+        "recheck_condition": "Re-evaluate if the opponent commits more heavily to air or if they switch back to ground."
+      },
+      {
+        "guardrail": "Before maintaining your ground army and considering anti-air, verify that the opponent's air commitment is real and not a feint. If you have not confirmed the air transition, prioritize scouting to confirm before investing heavily in anti-air.",
+        "node_id": "N006",
+        "recheck_condition": "Re-evaluate if the opponent commits more heavily to air or if they switch back to ground."
+      },
+      {
+        "guardrail": "Before continuing to strengthen your ground army and economy, verify that your army size is sufficient to defend against a potential timing attack. If your army is smaller than expected or the opponent shows signs of aggression, prioritize building defensive units and reinforcing your army over further expanding.",
+        "node_id": "N007",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of an air transition or heavy pressure."
+      },
+      {
+        "guardrail": "Before maintaining your ground army and considering anti-air, verify that the opponent's air commitment is real and not a feint. If you have not confirmed the air transition, prioritize scouting to confirm before investing heavily in anti-air.",
+        "node_id": "N008",
+        "recheck_condition": "Re-evaluate if the opponent commits more heavily to air or if they switch back to ground."
+      },
+      {
+        "guardrail": "Before increasing defense and continuing ground army development, verify that your army composition is adequate against the opponent's Colossi and Sentries. If your army lacks sufficient anti-armor or detection, prioritize building appropriate units (e.g., Vikings or Ghosts) before expanding further.",
+        "node_id": "N009",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of an air transition or heavy pressure."
+      },
+      {
+        "guardrail": "Before increasing air presence and continuing ground army development, verify that your army size is sufficient to defend against a potential timing attack. If your army is smaller than expected or the opponent shows signs of aggression, prioritize building defensive units and reinforcing your army over further expanding.",
+        "node_id": "N010",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of an air transition or heavy pressure."
+      },
+      {
+        "guardrail": "Before continuing to develop economy and technology with a flexible army, verify that you have scouted the opponent's army composition. If scouting is lacking, prioritize gaining information (e.g., with a scout or scan) before committing to a specific tech path.",
+        "node_id": "N011",
+        "recheck_condition": "Re-evaluate when you gain more scouting information about the opponent's army composition."
+      },
+      {
+        "guardrail": "Before increasing production and continuing ground army development, verify that your army size is sufficient to defend against a potential timing attack. If your army is smaller than expected or the opponent shows signs of aggression, prioritize building defensive units and reinforcing your army over further expanding.",
+        "node_id": "N012",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of an air transition or heavy pressure."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "TvP_O05",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "1dced6faefbe3912e047cfd95f256696bc490319451dd261140035a6084916d4",
+    "source_ids": [
+      "TvP_O04:N002",
+      "TvP_O06:N001"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

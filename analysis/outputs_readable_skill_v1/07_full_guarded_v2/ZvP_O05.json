@@ -1,0 +1,93 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening economy and ground forces, verify that you have sufficient defensive units to survive early aggression. If scouting reveals a large Zergling force or early pressure, prioritize defense over economy.",
+        "node_id": "N001",
+        "recheck_condition": "Recheck when opponent's first combat units appear or when tech advantage is established."
+      },
+      {
+        "guardrail": "Before increasing economy and expansions, ensure you have enough army to defend against potential early attacks. If opponent shows signs of aggression, prioritize army production over expansion.",
+        "node_id": "N002",
+        "recheck_condition": "Recheck when more information about opponent's army composition is available."
+      },
+      {
+        "guardrail": "Before continuing ground development and tech upgrades, verify that your army size is sufficient to defend against a potential push. If opponent shows signs of a large army or air transition, prioritize army production and anti-air.",
+        "node_id": "N003",
+        "recheck_condition": "Recheck if opponent shows air units or heavy tech."
+      },
+      {
+        "guardrail": "Before maintaining economy and defense, ensure you are not neglecting army production. If opponent shows signs of aggression, prioritize building units over expanding.",
+        "node_id": "N004",
+        "recheck_condition": "Recheck when opponent's army composition is clearer."
+      },
+      {
+        "guardrail": "Before continuing economy and upgrades, verify that your army size is sufficient to defend against a potential attack. If opponent shows signs of a large push or air units, prioritize army production and anti-air.",
+        "node_id": "N005",
+        "recheck_condition": "Recheck if opponent shows air units or heavy tech."
+      },
+      {
+        "guardrail": "Before increasing economy and expansions, ensure you have enough defensive units to survive early aggression. If scouting reveals a large Zergling force or early pressure, prioritize defense over economy.",
+        "node_id": "N006",
+        "recheck_condition": "Recheck when more information about opponent's plan is available."
+      },
+      {
+        "guardrail": "Before maintaining ground army and considering anti-air, verify that you have enough army size to defend against a potential push. If opponent's air presence increases, prioritize anti-air production.",
+        "node_id": "N007",
+        "recheck_condition": "Recheck if opponent's air presence increases."
+      },
+      {
+        "guardrail": "Before increasing economy and tech, ensure you have enough anti-air units to defend against the opponent's air force. If opponent's air presence becomes overwhelming, prioritize anti-air production.",
+        "node_id": "N008",
+        "recheck_condition": "Recheck if opponent's air presence becomes overwhelming."
+      },
+      {
+        "guardrail": "Before increasing economy and production, verify that you have sufficient army size to defend against a potential timing attack. If opponent shows signs of aggression, prioritize army production over tech.",
+        "node_id": "N009",
+        "recheck_condition": "Recheck if opponent shows tech switches."
+      },
+      {
+        "guardrail": "Before increasing air presence and economy, ensure you have enough ground defense to hold against a potential push. If opponent builds many anti-air units, prioritize ground army and upgrades.",
+        "node_id": "N010",
+        "recheck_condition": "Recheck if opponent builds many anti-air units."
+      },
+      {
+        "guardrail": "Before increasing economy and tech, verify that you have enough army size to defend against a potential attack. If opponent shows signs of a large push, prioritize army production over tech.",
+        "node_id": "N011",
+        "recheck_condition": "Recheck when opponent's tech is clearer."
+      },
+      {
+        "guardrail": "Before increasing economy and expansions, ensure you have enough defensive units to survive early aggression. If opponent commits to aggressive play, prioritize defense over economy.",
+        "node_id": "N012",
+        "recheck_condition": "Recheck if opponent commits to more aggressive play."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "ZvP_O05",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "e741990d63890a7327e73d9cec0f60657654d579d29d6b71d6ffee7ac6213f87",
+    "source_ids": [
+      "ZvT_O01:N002",
+      "ZvT_O01:N009",
+      "ZvT_O01:N011",
+      "ZvT_O01:N012",
+      "ZvZ_O01:N003",
+      "ZvZ_O05:N001"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

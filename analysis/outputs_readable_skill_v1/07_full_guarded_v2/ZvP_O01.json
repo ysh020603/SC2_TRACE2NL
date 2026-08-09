@@ -1,0 +1,93 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening this direction, verify that your defensive units are sufficient to hold against early pressure. If you have not scouted the enemy's army composition or if your army is too small, prioritize building defensive units (e.g., Zerglings, Queens) and spreading creep over expanding further.",
+        "node_id": "N001",
+        "recheck_condition": "Recheck when you have scouted the enemy's tech or army composition, or when you have secured a third base."
+      },
+      {
+        "guardrail": "Before deepening this direction, confirm that your army size is adequate to defend against a potential timing attack. If you have not scouted enemy tech buildings or if your army is too small, prioritize producing more Zerglings and Roaches over expanding further.",
+        "node_id": "N002",
+        "recheck_condition": "Recheck when you see enemy tech buildings or a large army movement."
+      },
+      {
+        "guardrail": "Before deepening this direction, ensure that your army composition can handle the enemy's Sentries and Observers. If you lack anti-armor units or if your army is not large enough, prioritize adding Roaches or Hydralisks and increasing production before engaging.",
+        "node_id": "N003",
+        "recheck_condition": "Recheck when you have a significant army advantage or when the enemy makes a tech switch."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your expansion is safe and that you have enough units to defend it. If the enemy is producing heavily and may attack, prioritize building defensive units and scouting over expanding further.",
+        "node_id": "N004",
+        "recheck_condition": "Recheck when you have secured the expansion or when enemy army movements are detected."
+      },
+      {
+        "guardrail": "Before deepening this direction, confirm that your army is large enough to withstand a potential push. If you have not scouted enemy tech or if your army is too small, prioritize producing more Zerglings and Roaches over teching up.",
+        "node_id": "N005",
+        "recheck_condition": "Recheck when you have a clear army advantage or when enemy tech is revealed."
+      },
+      {
+        "guardrail": "Before deepening this direction, ensure that you have adequate defense against a surprise attack. If you have not scouted the enemy's army composition or if your army is too light, prioritize building defensive units and scouting over expanding further.",
+        "node_id": "N006",
+        "recheck_condition": "Recheck when you scout enemy tech or army composition."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that you have sufficient anti-air defenses. If the enemy's air presence is growing or if you lack Hydralisks or Spore Crawlers, prioritize building anti-air units and defenses over expanding further.",
+        "node_id": "N007",
+        "recheck_condition": "Recheck when you see more air units or a ground transition."
+      },
+      {
+        "guardrail": "Before deepening this direction, confirm that your army is large enough to engage the enemy's heavy ground army. If you lack anti-armor units or if your army is not sufficient, prioritize adding Roaches or Hydralisks and increasing production before pushing.",
+        "node_id": "N008",
+        "recheck_condition": "Recheck when you have a significant army advantage or when the enemy makes a tech switch."
+      },
+      {
+        "guardrail": "Before deepening this direction, ensure that you have enough anti-air units to counter the enemy's air force. If your air transition is not yet sufficient, prioritize building Hydralisks or Spore Crawlers for defense while continuing to tech.",
+        "node_id": "N009",
+        "recheck_condition": "Recheck when you have a sufficient air force or when the enemy switches back to ground."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that you have adequate anti-air defenses. If the enemy's air presence is growing or if you lack Hydralisks or Spore Crawlers, prioritize building anti-air units and defenses over expanding further.",
+        "node_id": "N010",
+        "recheck_condition": "Recheck when you see more air units or a ground transition."
+      },
+      {
+        "guardrail": "Before deepening this direction, confirm that your air force is large enough to be effective. If you lack sufficient Mutalisks or if the enemy has strong anti-air, prioritize building more Mutalisks and maintaining a defensive ground army before harassing.",
+        "node_id": "N011",
+        "recheck_condition": "Recheck when you have a sufficient air force or when the enemy adapts."
+      },
+      {
+        "guardrail": "Before deepening this direction, ensure that your air force is not overextended and that you have a strong ground defense. If the enemy has strong anti-air or if your ground army is weak, prioritize reinforcing your ground army and building Corruptors if needed.",
+        "node_id": "N012",
+        "recheck_condition": "Recheck when the enemy has a strong anti-air or when you are ready to engage."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "ZvP_O01",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "e741990d63890a7327e73d9cec0f60657654d579d29d6b71d6ffee7ac6213f87",
+    "source_ids": [
+      "ZvT_O01:N002",
+      "ZvT_O01:N009",
+      "ZvT_O01:N011",
+      "ZvT_O01:N012",
+      "ZvZ_O01:N003",
+      "ZvZ_O05:N001"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

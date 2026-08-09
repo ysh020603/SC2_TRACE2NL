@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent's posture remains unknown and that your economy is not overextended relative to your army. If the opponent reveals a ground posture with early pressure, prioritize building defensive units (Zerglings/Queens) over further expansion.",
+        "node_id": "N001",
+        "recheck_condition": "Recheck when opponent posture becomes clearer or at next timing."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent's ground posture is confirmed and that you have sufficient army size to defend against potential timing attacks. If the opponent shows signs of air tech or heavy pressure, prioritize army production and scouting over further tech investment.",
+        "node_id": "N002",
+        "recheck_condition": "Recheck if opponent shows air or heavy pressure."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your expansion is secure and that your production capacity can support additional bases. If the opponent applies early pressure or your expansion is threatened, prioritize defending and reinforcing your army over expanding further.",
+        "node_id": "N003",
+        "recheck_condition": "Recheck when expansion is secure or opponent pressure changes."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent remains on a ground posture with Marines and that your economy is not overextended. If the opponent tech switches to air or shows signs of a timing attack, prioritize army production and scouting over continued tech investment.",
+        "node_id": "N004",
+        "recheck_condition": "Recheck at midgame timings or if opponent tech changes."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your ground army is sufficient to hold against the opponent's composition and that your economy can support additional tech. If the opponent adds heavy air or your ground army is insufficient, prioritize army production and consider transitioning to more air units.",
+        "node_id": "N005",
+        "recheck_condition": "Recheck when opponent composition changes."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your ground army is strong enough to defend against a potential push and that your tech investment is not compromising army size. If the opponent moves out or tech changes, prioritize army production and scouting over further tech.",
+        "node_id": "N006",
+        "recheck_condition": "Recheck when opponent moves out or tech changes."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that the opponent's pressure is manageable and that your economy is not overextended. If the opponent increases pressure or shows signs of a timing attack, prioritize army production and defensive structures over continued expansion.",
+        "node_id": "N007",
+        "recheck_condition": "Recheck at next timing or if opponent pressure increases."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your tech investment is not delaying necessary army production. If the opponent changes composition or shows aggression, prioritize army production and scouting over further tech.",
+        "node_id": "N008",
+        "recheck_condition": "Recheck when tech completes or opponent changes."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your ground army is sufficient to defend against the opponent's composition and that your economy can support additional tech. If the opponent tech switches to air or shows signs of a push, prioritize army production and consider adding air units.",
+        "node_id": "N009",
+        "recheck_condition": "Recheck when opponent tech or aggression changes."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your ground army can handle the opponent's heavy ground composition and that your tech counters are appropriate. If the opponent adds air or your army is insufficient, prioritize army production and scouting over further tech.",
+        "node_id": "N010",
+        "recheck_condition": "Recheck when opponent composition changes."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your air army is sufficient to counter the opponent's ground forces and that your economy can support continued upgrades. If the opponent tech switches to heavy anti-air or your army is insufficient, prioritize army production and scouting over further upgrades.",
+        "node_id": "N011",
+        "recheck_condition": "Recheck when opponent tech or army composition changes."
+      },
+      {
+        "guardrail": "Before deepening this direction, verify that your air army is sufficient to counter the opponent's ground forces and that your economy can support continued upgrades. If the opponent tech switches to heavy anti-air or your army is insufficient, prioritize army production and scouting over further upgrades.",
+        "node_id": "N012",
+        "recheck_condition": "Recheck when opponent tech or army composition changes."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "ZvT_O04",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "cce79597baa7fb8717f2d6b769cfa5be3093cf1bcb5dd77a54f4c78f8f55f101",
+    "source_ids": [
+      "ZvT_O01:N002",
+      "ZvT_O01:N009",
+      "ZvT_O01:N011",
+      "ZvT_O01:N012"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

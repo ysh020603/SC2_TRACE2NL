@@ -1,0 +1,70 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening this direction, verify that your economy is stable and your defenses are sufficient to hold an incoming attack. If the opponent's tech path is unclear or an attack is imminent, prioritize defensive positioning and scouting over further expansion.",
+        "node_id": "N001",
+        "recheck_condition": "Recheck when you have a clear read on the opponent's tech path or if you detect an incoming attack."
+      },
+      {
+        "guardrail": "Before expanding further, ensure your economy is stable and your defenses are adequate. If the opponent's early aggression is uncertain, prioritize scouting and defensive readiness over greedy expansion.",
+        "node_id": "N002",
+        "recheck_condition": "Recheck when you have scouted the opponent's expansion or if you see signs of an early attack."
+      },
+      {
+        "guardrail": "Before committing to further tech or expansion, confirm the opponent's tech path and ensure your defenses can handle a potential aggression. If the Zerg's composition is unclear, prioritize scouting and defensive positioning.",
+        "node_id": "N003",
+        "recheck_condition": "Recheck when you have a clear picture of the Zerg's tech path or if you plan to take a third base."
+      },
+      {
+        "guardrail": "Before increasing air presence or expanding, verify that your ground defenses are solid and you have scouted the opponent's tech. If the opponent is aggressive, prioritize defensive units and positioning over tech investment.",
+        "node_id": "N004",
+        "recheck_condition": "Recheck when you have scouted the opponent's tech or if you are ready to take a third base."
+      },
+      {
+        "guardrail": "Before investing in air units or expanding further, confirm the opponent's composition and ensure your upgrades are on par. If the Zerg's tech is unclear, prioritize scouting and defensive readiness.",
+        "node_id": "N005",
+        "recheck_condition": "Recheck when you have a clear read on the Zerg's composition or if you plan to take a fourth base."
+      },
+      {
+        "guardrail": "Before expanding further, ensure your economy is stable and your defenses are adequate. If the opponent's tech is uncertain, prioritize scouting and defensive positioning over aggressive expansion.",
+        "node_id": "N006",
+        "recheck_condition": "Recheck when you have scouted the opponent's tech or if you are ready to take a third base."
+      },
+      {
+        "guardrail": "Before expanding further, verify that your defenses can hold against early aggression. If the opponent's tech is unclear, prioritize scouting and defensive readiness over greedy expansion.",
+        "node_id": "N007",
+        "recheck_condition": "Recheck when you have scouted the opponent's expansion or if you see signs of an early attack."
+      },
+      {
+        "guardrail": "Before expanding further, ensure your economy is stable and your defenses are adequate. If the opponent's early aggression is uncertain, prioritize scouting and defensive readiness over greedy expansion.",
+        "node_id": "N008",
+        "recheck_condition": "Recheck when you have scouted the opponent's expansion or if you see signs of an early attack."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "TvZ_O04",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "b5640d4d31a70dd1bf16a3b7a34820aad8f9b7a02852c0df929dbabd7194465a",
+    "source_ids": [
+      "TvZ_O01:N002",
+      "TvZ_O01:N005",
+      "TvZ_O01:N006"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

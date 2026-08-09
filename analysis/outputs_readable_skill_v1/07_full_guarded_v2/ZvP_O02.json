@@ -1,0 +1,93 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before continuing to develop, verify that you have at least one scouting unit or structure providing vision of the enemy's main and natural. If scouting is insufficient, prioritize sending an overlord or zergling to gain information before committing further.",
+        "node_id": "N001",
+        "recheck_condition": "Re-evaluate when you gain more scouting information about the enemy's army composition or tech path."
+      },
+      {
+        "guardrail": "Before continuing to develop, verify that you have at least one scouting unit or structure providing vision of the enemy's main and natural. If scouting is insufficient, prioritize sending an overlord or zergling to gain information before committing further.",
+        "node_id": "N002",
+        "recheck_condition": "Re-evaluate when you gain more scouting information about the enemy's army composition or tech path."
+      },
+      {
+        "guardrail": "Before continuing to develop, verify that you have at least one scouting unit or structure providing vision of the enemy's main and natural. If scouting is insufficient, prioritize sending an overlord or zergling to gain information before committing further.",
+        "node_id": "N003",
+        "recheck_condition": "Re-evaluate when you gain more scouting information about the enemy's army composition or tech path."
+      },
+      {
+        "guardrail": "Before strengthening your ground army, verify that the enemy has not added air units or a stargate. If you detect air tech, prioritize building spore crawlers and hydralisks or corruptors for defense.",
+        "node_id": "N004",
+        "recheck_condition": "Re-evaluate if the enemy adds air units or changes their composition significantly."
+      },
+      {
+        "guardrail": "Before focusing on economy, verify that you have a defensive unit or structure to handle early aggression. If you have no combat units, prioritize building a few zerglings or spine crawlers to defend.",
+        "node_id": "N005",
+        "recheck_condition": "Re-evaluate when you see the enemy's first combat units or tech structures."
+      },
+      {
+        "guardrail": "Before expanding further, verify that you have a sufficient army to defend against a potential timing attack. If your army is small, prioritize building defensive units before expanding.",
+        "node_id": "N006",
+        "recheck_condition": "Re-evaluate when you see the enemy's first combat units or tech structures."
+      },
+      {
+        "guardrail": "Before strengthening your ground army, verify that the enemy has not added air units or a stargate. If you detect air tech, prioritize building spore crawlers and hydralisks or corruptors for defense.",
+        "node_id": "N007",
+        "recheck_condition": "Re-evaluate if the enemy adds air units or changes their composition significantly."
+      },
+      {
+        "guardrail": "Before continuing to strengthen your ground army, verify that the enemy has not added air units or a stargate. If you detect air tech, prioritize building spore crawlers and hydralisks or corruptors for defense.",
+        "node_id": "N008",
+        "recheck_condition": "Re-evaluate if the enemy adds air units or changes their composition significantly."
+      },
+      {
+        "guardrail": "Before investing further in tech, verify that you have a sufficient army size to defend against a potential timing attack. If your army is small, prioritize building units before teching.",
+        "node_id": "N009",
+        "recheck_condition": "Re-evaluate when you see the enemy's first combat units or tech structures."
+      },
+      {
+        "guardrail": "Before investing further in tech, verify that you have a sufficient army size to defend against a potential timing attack. If your army is small, prioritize building units before teching.",
+        "node_id": "N010",
+        "recheck_condition": "Re-evaluate when you see the enemy's first combat units or tech structures."
+      },
+      {
+        "guardrail": "Before investing further in tech, verify that you have a sufficient army size to defend against a potential timing attack. If your army is small, prioritize building units before teching.",
+        "node_id": "N011",
+        "recheck_condition": "Re-evaluate when you see the enemy's first combat units or tech structures."
+      },
+      {
+        "guardrail": "Before continuing to strengthen your ground army, verify that the enemy has not added air units or a stargate. If you detect air tech, prioritize building spore crawlers and hydralisks or corruptors for defense.",
+        "node_id": "N012",
+        "recheck_condition": "Re-evaluate if the enemy adds air units or changes their composition significantly."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "ZvP_O02",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "e741990d63890a7327e73d9cec0f60657654d579d29d6b71d6ffee7ac6213f87",
+    "source_ids": [
+      "ZvT_O01:N002",
+      "ZvT_O01:N009",
+      "ZvT_O01:N011",
+      "ZvT_O01:N012",
+      "ZvZ_O01:N003",
+      "ZvZ_O05:N001"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

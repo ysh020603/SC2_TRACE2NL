@@ -1,0 +1,48 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening this direction, verify that your defense is sufficient to hold a potential Terran ground push, especially if they have Siege Tanks and Medivacs. If your defense is light or uncertain, prioritize reinforcing your defensive structures and units before continuing to expand your economy and production.",
+        "node_id": "N001",
+        "recheck_condition": "Re-evaluate when you see a shift in Terran composition (e.g., more air units) or when you are ready to take a more aggressive stance."
+      },
+      {
+        "guardrail": "Before expanding further, ensure that your defense is adequate to handle early harassment, such as Reapers or other fast units. If your defense is light or uncertain, prioritize building defensive units or structures before committing to additional expansions.",
+        "node_id": "N002",
+        "recheck_condition": "Re-evaluate when you have secured a third base or when you detect a change in Terran strategy."
+      },
+      {
+        "guardrail": "Before continuing to strengthen your ground army, verify that your composition includes sufficient anti-air capabilities to handle a potential Terran air transition. If your anti-air is lacking, prioritize adding units like Stalkers or Void Rays to defend against air threats.",
+        "node_id": "N003",
+        "recheck_condition": "Re-evaluate when you see a clear Terran tech switch or when you are ready to push for a decisive engagement."
+      },
+      {
+        "guardrail": "Before focusing on economy and production, verify that you have a clear read on the Terran's composition and that your defense is sufficient to handle early pressure. If the opponent's posture is unknown or your defense is light, prioritize scouting and defensive preparations before expanding.",
+        "node_id": "N004",
+        "recheck_condition": "Re-evaluate when you have a clear read on the Terran's composition or when you are ready to expand."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "PvT_O09",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "7ce0f3dc082cc74dd63af60e736e32fe0a6304f2b0602ce690c31fc22dab3405",
+    "source_ids": [
+      "PvT_O03:N002"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

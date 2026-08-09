@@ -1,0 +1,83 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening ground strength and expansion, verify that your expansion is safe and that you have sufficient army to defend against a potential ground push. If expansion is unsafe or army is insufficient, prioritize army production and defense over expanding.",
+        "node_id": "N001",
+        "recheck_condition": "Re-evaluate when the opponent's army composition or posture changes, or when you reach a new tech tier."
+      },
+      {
+        "guardrail": "Before continuing ground strength and economy, verify that your expansion is well-defended and that you have enough army to deter an attack. If the opponent shows signs of transitioning to air or your ground army is vulnerable, prioritize adding anti-air or adjusting composition.",
+        "node_id": "N002",
+        "recheck_condition": "Re-evaluate if the opponent transitions to air or if you need to adjust your composition."
+      },
+      {
+        "guardrail": "Before maintaining ground strength and economy, verify that your expansion is safe and that you have enough army to defend against a potential ground push. If you detect an incoming attack or your army is insufficient, prioritize defense and army production over further economy.",
+        "node_id": "N003",
+        "recheck_condition": "Re-evaluate when the opponent's posture changes or when you reach a critical tech milestone."
+      },
+      {
+        "guardrail": "Before increasing air presence, verify that your ground defense is sufficient to hold against a potential ground attack while you invest in air. If your ground defense is weak or the opponent shows signs of transitioning to air, prioritize ground defense or adjust your air investment.",
+        "node_id": "N004",
+        "recheck_condition": "Re-evaluate if the opponent transitions to air or if your air investment is not paying off."
+      },
+      {
+        "guardrail": "Before strengthening ground forces and expanding, verify that you have scouted the opponent's army composition and that your expansion is safe. If the opponent's posture is still unknown or your expansion is vulnerable, prioritize scouting and defense over expanding.",
+        "node_id": "N005",
+        "recheck_condition": "Re-evaluate when you gain more information about the opponent's army composition."
+      },
+      {
+        "guardrail": "Before maintaining air presence and strengthening ground, verify that your air army is not overcommitted and that you have enough ground forces to defend against a potential ground transition. If the opponent transitions to ground or your air advantage is not decisive, prioritize ground defense or adjust your composition.",
+        "node_id": "N006",
+        "recheck_condition": "Re-evaluate if the opponent transitions to ground or if your air advantage is not decisive."
+      },
+      {
+        "guardrail": "Before stabilizing economy and defense, verify that you have scouted the opponent's posture and that your expansion is safe. If the opponent's posture is unclear or your expansion is vulnerable, prioritize scouting and defense over further economy.",
+        "node_id": "N007",
+        "recheck_condition": "Re-evaluate when the opponent's posture becomes clearer or when you have a tech advantage."
+      },
+      {
+        "guardrail": "Before strengthening ground forces and adding anti-air, verify that your economy can support the transition and that your ground army is not overcommitted. If the opponent's air composition is strong or your anti-air is insufficient, prioritize building more anti-air or adjusting your composition.",
+        "node_id": "N008",
+        "recheck_condition": "Re-evaluate when the opponent's air composition changes or when you have sufficient anti-air."
+      },
+      {
+        "guardrail": "Before increasing air presence, verify that your ground defense is sufficient to hold against a potential ground attack while you invest in air. If your ground defense is weak or the opponent shows signs of transitioning to air, prioritize ground defense or adjust your air investment.",
+        "node_id": "N009",
+        "recheck_condition": "Re-evaluate if the opponent transitions to air or if your air investment is not effective."
+      },
+      {
+        "guardrail": "Before increasing defense and strengthening ground with anti-air, verify that your economy can support the transition and that your ground army is not overcommitted. If the opponent's air composition is strong or your anti-air is insufficient, prioritize building more anti-air or adjusting your composition.",
+        "node_id": "N010",
+        "recheck_condition": "Re-evaluate when the opponent's air composition changes or when you have sufficient anti-air."
+      },
+      {
+        "guardrail": "Before strengthening ground forces and expanding, verify that you have scouted the opponent's army composition and that your expansion is safe. If the opponent's posture is still unknown or your expansion is vulnerable, prioritize scouting and defense over expanding.",
+        "node_id": "N011",
+        "recheck_condition": "Re-evaluate when you gain more information about the opponent's army composition."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "PvP_O04",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "90a9f81a3074bfa9e50624d8fc0dd4c09436dd4d0ec765a742938edc46eff7b2",
+    "source_ids": [
+      "PvP_O01:N003"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,89 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before continuing to expand and tech, verify that your army is sufficient to defend against a potential timing attack. If your army is not sufficient, prioritize reinforcing your army over further expansion.",
+        "node_id": "N001",
+        "recheck_condition": "Recheck when enemy tech direction becomes clearer (e.g., Colossus, Void Ray) or when you reach a new tech milestone."
+      },
+      {
+        "guardrail": "Before continuing to develop economy and tech, verify that your defense is adequate to withstand early pressure. If your defense is light, prioritize building defensive units or structures before further expanding.",
+        "node_id": "N002",
+        "recheck_condition": "Recheck when you have more information about enemy composition or when you reach a tech milestone."
+      },
+      {
+        "guardrail": "Before continuing to strengthen your ground army and expand, verify that your defense is not too light. If your defense is light, prioritize reinforcing your defensive capabilities before further expansion.",
+        "node_id": "N003",
+        "recheck_condition": "Recheck when enemy tech becomes apparent or when you have a significant army advantage."
+      },
+      {
+        "guardrail": "Before increasing air presence, verify that your ground army is strong enough to hold against a potential ground push. If your ground defense is insufficient, prioritize strengthening your ground forces before adding air units.",
+        "node_id": "N004",
+        "recheck_condition": "Recheck when enemy tech direction changes or when you have a decisive army composition advantage."
+      },
+      {
+        "guardrail": "Before continuing to develop your ground army and expand, verify that your defense is adequate against potential aggression. If your defense is light, prioritize reinforcing your defensive position before further expansion.",
+        "node_id": "N005",
+        "recheck_condition": "Recheck when enemy tech direction becomes clearer or when you have a sufficient army to push."
+      },
+      {
+        "guardrail": "Before continuing to develop your ground army, verify that you have sufficient anti-Colossus units. If you lack anti-Colossus, prioritize building Vikings or Liberators before further expanding.",
+        "node_id": "N006",
+        "recheck_condition": "Recheck when you have sufficient anti-Colossus units or when enemy tech changes."
+      },
+      {
+        "guardrail": "Before continuing to develop your ground army, verify that you have a balanced composition including anti-Colossus units. If you lack anti-Colossus, prioritize adding Vikings or Liberators while maintaining your Widow Mines for defense.",
+        "node_id": "N007",
+        "recheck_condition": "Recheck when you have a balanced composition or when enemy tech changes."
+      },
+      {
+        "guardrail": "Before continuing to develop your ground army, verify that you have adequate anti-air capabilities. If your anti-air is insufficient, prioritize building Marines or Thors to defend against Void Rays.",
+        "node_id": "N008",
+        "recheck_condition": "Recheck when you have adequate anti-air or when enemy tech changes."
+      },
+      {
+        "guardrail": "Before continuing to develop your ground army, verify that you have adequate anti-air capabilities. If your anti-air is insufficient, prioritize building Marines or Thors to defend against Void Rays.",
+        "node_id": "N009",
+        "recheck_condition": "Recheck when you have adequate anti-air or when enemy tech changes."
+      },
+      {
+        "guardrail": "Before continuing to develop your ground army, verify that you have sufficient anti-air to defend against Void Rays. If your anti-air is insufficient, prioritize building Marines or Thors.",
+        "node_id": "N010",
+        "recheck_condition": "Recheck when enemy tech changes or when you have a decisive advantage."
+      },
+      {
+        "guardrail": "Before continuing to develop your ground army, verify that you have adequate anti-air capabilities. If your anti-air is insufficient, prioritize building Thors or Marines to defend against Void Rays.",
+        "node_id": "N011",
+        "recheck_condition": "Recheck when you have adequate anti-air or when enemy tech changes."
+      },
+      {
+        "guardrail": "Before continuing to develop your ground army, verify that you have sufficient anti-air to defend against Void Rays. If your anti-air is insufficient, prioritize building Marines or Thors.",
+        "node_id": "N012",
+        "recheck_condition": "Recheck when enemy tech changes or when you have a decisive advantage."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "TvP_O01",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "1dced6faefbe3912e047cfd95f256696bc490319451dd261140035a6084916d4",
+    "source_ids": [
+      "TvP_O04:N002",
+      "TvP_O06:N001"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

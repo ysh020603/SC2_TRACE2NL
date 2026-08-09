@@ -1,0 +1,88 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening ground army, verify opponent's army composition and tech path. If opponent shows signs of air transition or heavy air presence, prioritize adding anti-air units and consider a more flexible composition.",
+        "node_id": "N001",
+        "recheck_condition": "Re-evaluate when you have more information about the opponent's army composition or when you reach a new tech milestone."
+      },
+      {
+        "guardrail": "Before adding more Immortals, confirm opponent remains ground-focused. If opponent shows signs of air transition or heavy air presence, prioritize building anti-air units and adjust composition accordingly.",
+        "node_id": "N002",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of transitioning to air or if you face a timing attack."
+      },
+      {
+        "guardrail": "Before focusing on economy and tech, ensure you have sufficient scouting to detect early pressure. If opponent's army composition becomes clear and indicates aggression, prioritize building a defensive army before continuing expansion.",
+        "node_id": "N003",
+        "recheck_condition": "Re-evaluate when you have more scouting information or when you hit a tech milestone."
+      },
+      {
+        "guardrail": "Before increasing air presence, verify opponent has not started building anti-air units. If opponent shows signs of anti-air or transitions to air themselves, consider adding ground support or adjusting composition to maintain balance.",
+        "node_id": "N004",
+        "recheck_condition": "Re-evaluate if the opponent starts building anti-air units or transitions to air themselves."
+      },
+      {
+        "guardrail": "Before adding more Immortals, ensure you have detection and are prepared for potential warp prism harass. If opponent shows signs of air transition or heavy air presence, prioritize building anti-air units and consider adding splash damage.",
+        "node_id": "N005",
+        "recheck_condition": "Re-evaluate if the opponent transitions to air or if you need to add splash damage."
+      },
+      {
+        "guardrail": "Before strengthening ground army, verify opponent's air commitment. If opponent commits heavily to air, prioritize building anti-air units and consider a more balanced composition.",
+        "node_id": "N006",
+        "recheck_condition": "Re-evaluate if the opponent commits more heavily to air or ground."
+      },
+      {
+        "guardrail": "Before adding units to counter Carriers, confirm opponent's air composition. If opponent transitions to ground or shows signs of heavy ground, consider adding ground units to maintain balance.",
+        "node_id": "N007",
+        "recheck_condition": "Re-evaluate if the opponent transitions to ground or if you need to adjust your composition."
+      },
+      {
+        "guardrail": "Before continuing to strengthen air army, verify opponent's commitment to air. If opponent commits heavily to ground, consider adding ground units for defense and adjust composition accordingly.",
+        "node_id": "N008",
+        "recheck_condition": "Re-evaluate if the opponent commits more heavily to air or ground."
+      },
+      {
+        "guardrail": "Before adding more Phoenixes or Oracles, confirm opponent remains air-focused. If opponent transitions to ground or shows signs of heavy ground, consider adding ground units to maintain balance.",
+        "node_id": "N009",
+        "recheck_condition": "Re-evaluate if the opponent transitions to ground or if you need to adjust your composition."
+      },
+      {
+        "guardrail": "Before strengthening ground army, verify opponent's army composition and tech path. If opponent shows signs of air transition or heavy air presence, prioritize adding anti-air units and consider a more flexible composition.",
+        "node_id": "N010",
+        "recheck_condition": "Re-evaluate when you have more information about the opponent's army composition or when you reach a new tech milestone."
+      },
+      {
+        "guardrail": "Before increasing air presence, verify opponent has not started building anti-air units. If opponent shows signs of anti-air or transitions to air themselves, consider adding ground support or adjusting composition to maintain balance.",
+        "node_id": "N011",
+        "recheck_condition": "Re-evaluate if the opponent starts building anti-air units or transitions to air themselves."
+      },
+      {
+        "guardrail": "Before adding more Sentries, ensure you have sufficient scouting to detect early pressure. If opponent shows signs of aggression or transitions to air, prioritize building a defensive army and consider adding anti-air units.",
+        "node_id": "N012",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of transitioning to air or if you face a timing attack."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "PvP_O05",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "90a9f81a3074bfa9e50624d8fc0dd4c09436dd4d0ec765a742938edc46eff7b2",
+    "source_ids": [
+      "PvP_O01:N003"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

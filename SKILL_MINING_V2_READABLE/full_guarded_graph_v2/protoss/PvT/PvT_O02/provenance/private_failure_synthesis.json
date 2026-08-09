@@ -1,0 +1,83 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening economy and tech, verify no early enemy pressure or hidden tech. If enemy units or production structures are spotted, prioritize defense and scouting over expansion.",
+        "node_id": "N001",
+        "recheck_condition": "Re-evaluate when enemy army composition or production structures are observed, or upon reaching a new tech milestone."
+      },
+      {
+        "guardrail": "Before committing to economy and tech, confirm no early Reaper or other harassment. If enemy Reaper or early aggression is detected, prioritize defense and scouting over expansion.",
+        "node_id": "N002",
+        "recheck_condition": "Re-evaluate when more enemy army composition or production structures are observed, or when a new tech milestone is reached."
+      },
+      {
+        "guardrail": "Before expanding further, verify enemy has not committed to a timing attack. If enemy production or army cues indicate an imminent push, prioritize defensive units and sim-city over further economy.",
+        "node_id": "N003",
+        "recheck_condition": "Re-evaluate when enemy army composition or production structures are observed, or upon reaching a new tech milestone."
+      },
+      {
+        "guardrail": "Before continuing balanced growth, confirm no late-game tech switch or mass air. If enemy tech or production suggests a composition shift, adapt your army composition accordingly.",
+        "node_id": "N004",
+        "recheck_condition": "Re-evaluate when enemy army composition or production structures are observed, or upon reaching a new tech milestone."
+      },
+      {
+        "guardrail": "Before strengthening ground forces, verify enemy is not transitioning to air or dropping. If enemy air units or Medivacs are spotted, prioritize anti-air and detection.",
+        "node_id": "N005",
+        "recheck_condition": "Re-evaluate when more of the opponent's army composition is seen or if they expand further."
+      },
+      {
+        "guardrail": "Before increasing economy and tech, confirm enemy Reaper is not part of a larger push. If enemy production or army cues indicate a timing attack, prioritize defense and scouting over expansion.",
+        "node_id": "N006",
+        "recheck_condition": "Re-evaluate when more of the opponent's army composition is seen or if they apply pressure."
+      },
+      {
+        "guardrail": "Before strengthening ground forces, verify enemy is not adding air or siege units. If enemy tech or production suggests a composition shift, adapt your army composition accordingly.",
+        "node_id": "N007",
+        "recheck_condition": "Re-evaluate when more of the opponent's army composition is seen or if they expand further."
+      },
+      {
+        "guardrail": "Before increasing economy and tech, confirm enemy Marine cue is not a prelude to a timing attack. If enemy production or army cues indicate an imminent push, prioritize defense and scouting over expansion.",
+        "node_id": "N008",
+        "recheck_condition": "Re-evaluate when more of the opponent's army composition is seen or if they apply pressure."
+      },
+      {
+        "guardrail": "Before increasing economy and tech, verify enemy ground push is not imminent. If enemy army or production cues indicate an attack, prioritize defensive units and sim-city over further economy.",
+        "node_id": "N009",
+        "recheck_condition": "Re-evaluate when more of the opponent's army composition is seen or if they apply pressure."
+      },
+      {
+        "guardrail": "Before strengthening ground forces, verify enemy is not adding air or massing a different composition. If enemy tech or production suggests a shift, adapt your army composition accordingly.",
+        "node_id": "N010",
+        "recheck_condition": "Re-evaluate when more of the opponent's army composition is seen or if they expand further."
+      },
+      {
+        "guardrail": "Before increasing economy and tech, confirm no hidden enemy tech or expansion. If enemy production or expansion is spotted, prioritize scouting and defense over further economy.",
+        "node_id": "N011",
+        "recheck_condition": "Re-evaluate when more of the opponent's army composition or production structures are observed, or upon reaching a new tech milestone."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "PvT_O02",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "7ce0f3dc082cc74dd63af60e736e32fe0a6304f2b0602ce690c31fc22dab3405",
+    "source_ids": [
+      "PvT_O03:N002"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

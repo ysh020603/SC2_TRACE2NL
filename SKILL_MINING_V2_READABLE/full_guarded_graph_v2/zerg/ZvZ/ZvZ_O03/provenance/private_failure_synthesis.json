@@ -1,0 +1,59 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "guardrail": "Before deepening economy/tech, verify that your defense can handle a potential Zergling/Queen pressure. If defense is light or uncertain, prioritize building defensive units (e.g., Zerglings, Spine Crawlers) and maintain scouting to detect early aggression.",
+        "node_id": "N001",
+        "recheck_condition": "Re-evaluate if enemy pressure increases, if you spot a tech switch (e.g., air), or if your economy/tech advantage becomes clear."
+      },
+      {
+        "guardrail": "Before adding more Roaches, ensure your economy and tech can support the increased army cost without stalling. If you are behind in economy or tech, prioritize maintaining a balanced production and continue scouting for potential tech switches.",
+        "node_id": "N002",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of air tech, heavy pressure, or if you need to transition to a more defensive or aggressive stance."
+      },
+      {
+        "guardrail": "Before focusing solely on economy/tech, verify that you have sufficient defensive units to survive early aggression. If defense is light, prioritize building a few defensive units (e.g., Zerglings, Spine Crawlers) and scout to confirm opponent's intentions.",
+        "node_id": "N003",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of early aggression, or if you need to adjust your tech path based on scouting."
+      },
+      {
+        "guardrail": "Before investing heavily in upgrades and tech, ensure your army size is sufficient to defend against a potential large ground push. If your army is small, prioritize producing more units (e.g., Zerglings, Roaches) and maintain scouting for tech switches.",
+        "node_id": "N004",
+        "recheck_condition": "Re-evaluate if the opponent shows air tech, or if you need to transition to a more defensive or aggressive stance."
+      },
+      {
+        "guardrail": "Before increasing defense and economy further, verify that your production capacity can keep up with potential threats. If you are vulnerable to a timing attack, prioritize building a balanced army composition and maintain scouting for aggression.",
+        "node_id": "N005",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of aggression or tech switches, or if you need to adjust your army composition."
+      },
+      {
+        "guardrail": "Before expanding further, ensure your defense is sufficient to deter early aggression. If you are confident in your defense, continue economy/tech development, but keep scouting to detect any sudden changes in opponent's posture.",
+        "node_id": "N006",
+        "recheck_condition": "Re-evaluate if the opponent shows signs of aggression or if you need to adjust your tech path."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_guarded_graph_v2",
+  "opening_id": "ZvZ_O03",
+  "private_evidence_provenance": {
+    "agent_visible": false,
+    "source_digest": "a82b4b7401788be4742f46bf672de83d07f104ecba2eb9d03b38f1e9df525822",
+    "source_ids": [
+      "ZvZ_O01:N003",
+      "ZvZ_O05:N001"
+    ],
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}
