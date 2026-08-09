@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overcommitting to a specific tech or army composition before scouting information is available.",
+        "decision_direction": "Maintain current macro path, focusing on economy and expansion while keeping defensive options open.",
+        "exit_or_recheck_condition": "Recheck when the opponent's opening is scouted or when the next tech choice becomes available.",
+        "next_state_summary": "Move to a state with Zerglings and Queens, maintaining heavy economy and expansion.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "Protoss opponent, early game. No specific information available yet.",
+        "own_situation": "Early game, with a heavy economy posture and light or uncertain technology. Ground-oriented with moderate production. Representative units include Queens.",
+        "strategic_reason": "To build a strong economic foundation that allows for flexible responses to the opponent's actions.",
+        "title": "Early Game Foundation",
+        "transition_goal": "Transition smoothly into the early-midgame with a stable economy and the ability to produce Zerglings and Queens.",
+        "trigger_summary": "At the start of the game, focus on establishing a solid economy and early defensive structures."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting or over-investing in units without a clear purpose.",
+        "decision_direction": "Maintain current army path, continue expanding and producing units while keeping an eye on potential pressure.",
+        "exit_or_recheck_condition": "Recheck when the opponent's tech choice is revealed or when a significant timing is approaching.",
+        "next_state_summary": "Move to a midgame state with moderate technology and continued heavy economy.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "Protoss opponent, likely expanding or preparing for a timing. No specific information available.",
+        "own_situation": "Early-midgame, heavy economy and expansion, moderate production. Ground-oriented with Zerglings and Queens. Technology is light or uncertain.",
+        "strategic_reason": "To secure a strong economy and map control, enabling a smooth transition to midgame tech.",
+        "title": "Early-Midgame Expansion",
+        "transition_goal": "Transition to midgame with a solid economy and the ability to tech up.",
+        "trigger_summary": "As the game progresses, continue expanding and producing Zerglings and Queens to maintain map presence."
+      },
+      {
+        "avoid_direction": "Avoid falling behind in economy or production while teching.",
+        "decision_direction": "Maintain current army path, continue teching up while keeping production and economy strong.",
+        "exit_or_recheck_condition": "Recheck when the opponent's army composition is known or when a major tech upgrade completes.",
+        "next_state_summary": "Move to a late-midgame state with heavy production and technology, including Roaches and Overseers.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "Protoss opponent, likely has a tech choice. Possible pressure or timing attack.",
+        "own_situation": "Midgame, heavy economy and expansion, moderate to heavy production. Ground-oriented with Zerglings and Queens. Technology is moderate.",
+        "strategic_reason": "To prepare for the midgame power spike and be ready to counter the opponent's tech.",
+        "title": "Midgame Tech Transition",
+        "transition_goal": "Transition to a late-midgame state with heavy production and technology.",
+        "trigger_summary": "In the midgame, begin investing in technology while maintaining a strong economy and production."
+      },
+      {
+        "avoid_direction": "Avoid overextending or neglecting scouting for potential flanks or tech switches.",
+        "decision_direction": "Maintain current army path, continue producing and teching while ensuring defense is solid.",
+        "exit_or_recheck_condition": "Recheck when the opponent's late-game tech is revealed or when a major engagement is imminent.",
+        "next_state_summary": "Move to a late-game state with a diverse army, including Mutalisks, and heavy production.",
+        "node_id": "N004",
+        "node_type": "trace",
+        "opponent_situation": "Protoss opponent, likely has a strong army composition. Possible late-game tech or all-in.",
+        "own_situation": "Late-midgame, heavy economy, expansion, production, and technology. Ground-oriented with Zerglings, Roaches, Queens, and Overseers. Defense is heavy.",
+        "strategic_reason": "To build a powerful army that can withstand the opponent's attacks and transition to late-game if needed.",
+        "title": "Late-Midgame Consolidation",
+        "transition_goal": "Transition to late-game with a versatile army and the ability to adapt to the opponent's composition.",
+        "trigger_summary": "In the late-midgame, consolidate your position with a strong ground army and heavy economy."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "ZvP_O04 Balanced Macro",
+      "opening_summary": "A Zerg opening that prioritizes a balanced macro posture, focusing on economy and expansion while maintaining a ground-oriented army. The build is flexible and adapts based on live observations.",
+      "production_character": "moderate to heavy",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "light to heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "ZvP_O04",
+  "projection_path": "02_observation_projection/ablation_single_trace/ZvP_O04.json"
+}

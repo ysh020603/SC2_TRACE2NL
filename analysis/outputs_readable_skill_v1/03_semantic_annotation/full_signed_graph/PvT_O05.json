@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid over-committing to army units early, as this may delay your tech and economy. Also avoid neglecting scouting to detect any early aggression.",
+        "decision_direction": "Continue developing your economy and technology while maintaining a light defense. Increase production slightly to prepare for potential threats.",
+        "exit_or_recheck_condition": "Re-evaluate when you see more of the opponent's army composition or if they apply pressure. If they show signs of aggression, adjust your defense accordingly.",
+        "next_state_summary": "Proceed to early midgame with a stronger ground army and heavier production.",
+        "node_id": "N001",
+        "node_type": "default",
+        "opponent_situation": "Opponent is also heavy on economy and technology, with moderate production. Their army composition is unknown, but a Reaper may have been spotted. Defense is light, and they are expanding.",
+        "own_situation": "You have a heavy economy and technology investment, with moderate production. Your army is light or uncertain, possibly with a Zealot. Defense is light, and you are expanding.",
+        "strategic_reason": "Both players are in a macro-oriented phase. Investing in tech and economy now will pay off later. Maintaining a light defense is sufficient as no major pressure is expected.",
+        "title": "Early Game Tech/Eco Development",
+        "transition_goal": "Transition to a more defined ground army composition as the game progresses, while continuing to expand and tech up.",
+        "trigger_summary": "Early game (around 180s) with both players investing heavily in economy and technology. Opponent's posture is unclear, possibly with a Reaper scout."
+      },
+      {
+        "avoid_direction": "Avoid neglecting air defense, as the opponent may transition to air later. Also avoid over-extending your army without proper scouting.",
+        "decision_direction": "Strengthen your ground army while continuing to increase production and technology. Maintain your expansion and keep an eye on defense.",
+        "exit_or_recheck_condition": "Re-evaluate when you see the opponent's tech choices or if they start producing air units. Adjust your army composition accordingly.",
+        "next_state_summary": "Proceed to midgame with a stronger ground army and heavier production.",
+        "node_id": "N002",
+        "node_type": "default",
+        "opponent_situation": "Opponent has a heavy economy and technology, with heavy production. Their army is ground-based, with Marines and possibly Reapers. Defense is moderate, and they are expanding.",
+        "own_situation": "You have a heavy economy and technology, with moderate to heavy production. Your army is ground-based, possibly with Stalkers and Zealots. Defense is light, and you are expanding.",
+        "strategic_reason": "The opponent is likely to push with a ground army. Building a strong ground force will help you hold or counter. Your tech advantage can be leveraged with units like Stalkers and Sentries.",
+        "title": "Early Midgame Ground Army Strengthening",
+        "transition_goal": "Transition to a more robust ground composition, possibly including Colossus or Immortals, while maintaining tech and economy.",
+        "trigger_summary": "Early midgame (around 240-360s) where both players have established a ground-based army. Opponent shows a ground macro posture with Marines."
+      },
+      {
+        "avoid_direction": "Avoid being too passive; the opponent may try to out-macro you. Also avoid neglecting detection for potential cloaked units like Banshees.",
+        "decision_direction": "Continue strengthening your ground army, focusing on Colossus and support units. Increase production and technology further. Maintain your expansion and consider adding more defensive structures.",
+        "exit_or_recheck_condition": "Re-evaluate when you see the opponent's tech choices, such as Siege Tanks or Vikings. Adjust your army composition to counter them.",
+        "next_state_summary": "Proceed to late midgame with a stronger ground army and heavier production.",
+        "node_id": "N003",
+        "node_type": "default",
+        "opponent_situation": "Opponent has a heavy economy and technology, with heavy production. Their army is ground-based, with Marines, Reapers, Marauders, and Medivacs. Defense is heavy, and they are expanding.",
+        "own_situation": "You have a heavy economy and technology, with heavy production. Your army is ground-based, including Colossus, Stalkers, Sentries, and Warp Prisms. Defense is light, and you are expanding.",
+        "strategic_reason": "Colossus are effective against the opponent's bio-heavy army. Your tech advantage allows for powerful compositions. Maintaining a strong economy will support a larger army.",
+        "title": "Midgame Ground Army with Colossus",
+        "transition_goal": "Transition to a late midgame army with more Colossus and possibly High Templar for additional spell damage.",
+        "trigger_summary": "Midgame (around 540s) where both players have heavy economies and production. Opponent has a ground army with Marines, Reapers, Marauders, and Medivacs."
+      },
+      {
+        "avoid_direction": "Avoid being too passive; the opponent may try to out-macro you. Also avoid neglecting detection for potential cloaked units like Banshees.",
+        "decision_direction": "Continue strengthening your ground army, adding High Templar for Psionic Storm. Increase production and technology further. Maintain your expansion and consider adding more defensive structures.",
+        "exit_or_recheck_condition": "Re-evaluate when you see the opponent's tech choices, such as Siege Tanks or Vikings. Adjust your army composition to counter them.",
+        "next_state_summary": "Proceed to late game with a stronger ground army and heavier production.",
+        "node_id": "N004",
+        "node_type": "default",
+        "opponent_situation": "Opponent has a heavy economy and technology, with heavy production. Their army is ground-based, with Marines, Reapers, Marauders, and Medivacs. Defense is heavy, and they are expanding.",
+        "own_situation": "You have a heavy economy and technology, with heavy production. Your army is ground-based, including Colossus, Zealots, Stalkers, Sentries, and possibly High Templar. Defense is moderate, and you are expanding.",
+        "strategic_reason": "High Templar provide powerful area damage against the opponent's bio army. Your tech advantage allows for a versatile composition. Maintaining a strong economy will support a larger army.",
+        "title": "Late Midgame Ground Army with High Templar",
+        "transition_goal": "Transition to a late game army with more Colossus and High Templar, possibly adding Archons for tanking.",
+        "trigger_summary": "Late midgame (around 600-720s) where both players have heavy economies and production. Opponent maintains a ground army with Marines, Reapers, Marauders, and Medivacs."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "technology / economy / expansion opening",
+      "opening_name": "PvT_O05 Technology / Economy / Expansion",
+      "opening_summary": "A Protoss opening that emphasizes heavy technology and economy while expanding, with moderate production early on. The strategy is flexible, allowing for adaptation based on scouting information.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a technology / economy / expansion posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "full_signed_graph",
+  "method_specific_annotation": true,
+  "opening_id": "PvT_O05",
+  "projection_path": "02_observation_projection/full_signed_graph/PvT_O05.json"
+}

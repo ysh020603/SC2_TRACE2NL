@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid aggressive expansion or risky tech switches without more information.",
+        "decision_direction": "Maintain current economy and technology development, keep production steady, and avoid overcommitting to army composition.",
+        "exit_or_recheck_condition": "Recheck when you have more information about the opponent's strategy or when your economy and tech are sufficiently developed.",
+        "next_state_summary": "Move to a state with heavier production and expansion, still heavy tech.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "No confirmed information about the opponent's composition or strategy.",
+        "own_situation": "Your economy is heavy, technology investment is heavy, but production is only moderate. Army composition is unclear, with a Zealot as a representative unit. Defense is light, and expansion is light.",
+        "strategic_reason": "Early game is about building a solid foundation. Heavy tech investment sets up for later options, while moderate production keeps you safe without overextending.",
+        "title": "Early Economy and Tech Focus",
+        "transition_goal": "Transition to a heavier production and expansion posture while continuing tech development.",
+        "trigger_summary": "Early game with moderate production and heavy tech investment, economy heavy, expansion light."
+      },
+      {
+        "avoid_direction": "Avoid committing to a specific army composition without scouting information.",
+        "decision_direction": "Continue scaling production and expansion while maintaining tech development. Keep army composition flexible.",
+        "exit_or_recheck_condition": "Recheck when you have scouted the opponent's composition or when your army is ready to move out.",
+        "next_state_summary": "Move to a state with a defined ground army and heavy defense.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "No confirmed information about the opponent's composition or strategy.",
+        "own_situation": "Your economy, production, and expansion are all heavy. Technology remains heavy. Army composition is still unclear, with a Stalker as a representative unit. Defense is light.",
+        "strategic_reason": "With a strong economy and production, you can support a larger army and tech. Keeping options open allows you to react to the opponent.",
+        "title": "Scaling Production and Expansion",
+        "transition_goal": "Transition to a defined ground-based army composition while maintaining heavy economy and tech.",
+        "trigger_summary": "Early-midgame with heavy production, heavy economy, and heavy expansion, still heavy tech."
+      },
+      {
+        "avoid_direction": "Avoid overextending your army without knowing the opponent's composition.",
+        "decision_direction": "Maintain your ground army and continue to develop economy and tech. Be ready to defend against possible pressure.",
+        "exit_or_recheck_condition": "Recheck when you have scouted the opponent's composition or when you are ready to push.",
+        "next_state_summary": "Move to a state with a more advanced ground army including Immortals.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "No confirmed information about the opponent's composition or strategy.",
+        "own_situation": "Your army is now ground-based with Zealots, Stalkers, and Sentries. Production, economy, expansion, and defense are all heavy. Technology remains heavy. Pressure is possible.",
+        "strategic_reason": "A solid ground army with heavy support can hold against most early-midgame threats. Continuing to develop ensures you stay ahead.",
+        "title": "Ground Army Consolidation",
+        "transition_goal": "Transition to a more advanced ground composition with additional units like Immortals.",
+        "trigger_summary": "Midgame with a ground-based army, heavy production, heavy economy, heavy expansion, and heavy defense."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting or overcommitting to a single tech path without information.",
+        "decision_direction": "Continue to develop your ground army and tech. Consider adding Dark Templar for harassment or to counter specific compositions.",
+        "exit_or_recheck_condition": "Recheck when you have scouted the opponent's composition or when you are ready to engage.",
+        "next_state_summary": "Move to a state with a more diverse army including Dark Templar.",
+        "node_id": "N004",
+        "node_type": "trace",
+        "opponent_situation": "No confirmed information about the opponent's composition or strategy.",
+        "own_situation": "Your army includes Zealots, Stalkers, Sentries, and Immortals. All macro aspects are heavy. Technology is heavy. Pressure is possible.",
+        "strategic_reason": "With a strong ground army and heavy tech, you have many options. Dark Templar can provide a tactical edge if the opponent is unprepared.",
+        "title": "Advanced Ground Tech",
+        "transition_goal": "Transition to a late-game composition with a mix of ground and possibly air units depending on the opponent.",
+        "trigger_summary": "Late-midgame with a ground army including Immortals, heavy production, economy, expansion, and defense."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "PvT_O08 Balanced Macro",
+      "opening_summary": "A balanced macro-oriented opening that prioritizes economy and technology while keeping production moderate early, then scaling up. It transitions from an unknown army composition to a ground-based force with heavy tech investment.",
+      "production_character": "moderate to heavy",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "PvT_O08",
+  "projection_path": "02_observation_projection/ablation_single_trace/PvT_O08.json"
+}

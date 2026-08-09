@@ -1,0 +1,72 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overcommitting to early aggression or neglecting defense, as opponent's intentions are unknown.",
+        "decision_direction": "Maintain current development path, prioritizing economy and tech while keeping production moderate.",
+        "exit_or_recheck_condition": "Re-evaluate when opponent's first units or buildings are scouted, or when transitioning to the next phase.",
+        "next_state_summary": "Move to early-midgame with heavier defense and continued tech investment.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "No reliable information about the opponent's strategy or composition yet.",
+        "own_situation": "Early game with heavy economy and tech investment, moderate production, and light defense. Army composition is unknown.",
+        "strategic_reason": "A balanced macro start allows flexibility to react to opponent's moves without committing to a specific strategy.",
+        "title": "Early Game Development",
+        "transition_goal": "Reach a stable early-midgame position with a solid economy and tech base.",
+        "trigger_summary": "At the start of the game, focus on establishing a solid economy and tech foundation while keeping options open."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting or over-investing in tech at the expense of army production.",
+        "decision_direction": "Maintain current path, but increase defensive readiness and continue tech investment.",
+        "exit_or_recheck_condition": "Re-evaluate when opponent's composition is clearer or when your own army composition becomes defined.",
+        "next_state_summary": "Move to midgame with a ground-based army and heavy production.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "Still limited information, but potential for early pressure exists.",
+        "own_situation": "Early-midgame with heavy economy, expansion, and tech. Defense is now heavy, production is moderate, and army is still unknown but starting to form.",
+        "strategic_reason": "Heavy defense and tech provide a safety net against early aggression while setting up for a strong midgame.",
+        "title": "Early-Midgame Transition",
+        "transition_goal": "Transition into a ground-oriented army with heavy production.",
+        "trigger_summary": "As the game progresses, begin to solidify defense and prepare for potential pressure."
+      },
+      {
+        "avoid_direction": "Avoid overextending without scouting, and avoid neglecting upgrades or tech that could be crucial later.",
+        "decision_direction": "Maintain current army path and continue heavy production and tech, while keeping defense strong.",
+        "exit_or_recheck_condition": "Re-evaluate when opponent's composition is scouted or when a major tech milestone is reached.",
+        "next_state_summary": "Continue developing the ground army and tech, with potential for further expansion.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "Opponent's composition is still unknown, but potential for pressure exists.",
+        "own_situation": "Midgame with heavy economy, expansion, production, and tech. Defense is heavy, and army is ground-based with Zealots and Sentries.",
+        "strategic_reason": "A solid ground army with heavy tech support provides a strong foundation for midgame engagements and transitions.",
+        "title": "Midgame Ground Army",
+        "transition_goal": "Prepare for potential transitions to more advanced units or tech based on opponent's actions.",
+        "trigger_summary": "Midgame phase where the army composition is now ground-oriented with Zealots and Sentries, and production is heavy."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "PvP_O05 Balanced Macro",
+      "opening_summary": "A balanced Protoss macro opening that focuses on economy and technology while keeping defensive options open. It transitions from an unknown early game into a ground-oriented midgame with heavy production and tech.",
+      "production_character": "moderate to heavy",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "PvP_O05",
+  "projection_path": "02_observation_projection/ablation_single_trace/PvP_O05.json"
+}

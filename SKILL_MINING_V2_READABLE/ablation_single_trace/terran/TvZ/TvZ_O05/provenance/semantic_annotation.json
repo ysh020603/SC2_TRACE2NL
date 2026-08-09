@@ -1,0 +1,58 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid making drastic changes to your strategy without clear information about the opponent's intentions.",
+        "decision_direction": "Maintain your current army path, economy, expansion, production, technology, and defense. Continue developing with safety checks.",
+        "exit_or_recheck_condition": "Recheck when you have more information about the opponent's composition or when you reach a new phase.",
+        "next_state_summary": "Continue with the same macro posture, adding Siege Tanks to your army as you move into the early midgame.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "The opponent is Zerg, but their specific composition and strategy are not yet clear. You should maintain awareness of potential early aggression or economic expansion.",
+        "own_situation": "You have a ground army with Marines and Reapers, a heavy economy, and heavy expansion. Your production is moderate, and you are investing heavily in technology. Your defense is light or uncertain, and you may face possible pressure.",
+        "strategic_reason": "This early phase is about establishing a solid foundation. Maintaining a balanced macro posture allows you to adapt to the opponent's actions without overcommitting.",
+        "title": "Early Game Ground Macro",
+        "transition_goal": "Transition smoothly into the early midgame by continuing to expand and tech up while keeping your army composition flexible.",
+        "trigger_summary": "At the start of the game, you are in the early game phase with a ground-oriented macro posture, moderate production, and heavy technology investment."
+      },
+      {
+        "avoid_direction": "Avoid overcommitting to a single tech path or army composition without confirming the opponent's strategy.",
+        "decision_direction": "Maintain your current army path, economy, expansion, production, technology, and defense. Continue developing with safety checks.",
+        "exit_or_recheck_condition": "Recheck when you have more information about the opponent's composition or when you reach the midgame phase.",
+        "next_state_summary": "Continue with the same macro posture, with production becoming heavy and the army still ground-oriented.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "The Zerg opponent may be expanding or preparing a tech switch. Their exact composition is still unclear, so you need to keep scouting and be ready to adapt.",
+        "own_situation": "You still have a ground army with Marines and Reapers, and now Siege Tanks are appearing. Your economy and expansion remain heavy, and production is increasing. Defense is still light or uncertain, and pressure is possible.",
+        "strategic_reason": "The early midgame is a critical transition period. Maintaining a balanced macro posture while adding Siege Tanks gives you a solid ground army that can defend and apply pressure.",
+        "title": "Early Midgame Ground Macro",
+        "transition_goal": "Transition into the midgame with a stronger ground army and a robust economy, ready to respond to the opponent's tech choices.",
+        "trigger_summary": "As you enter the early midgame, your posture remains ground-oriented with moderate production and heavy technology investment."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "TvZ_O05 Balanced Macro",
+      "opening_summary": "A Terran opening that focuses on a balanced macro posture with early Reaper and Marine production, transitioning into a heavier ground army with Siege Tanks by the early midgame. The economy and expansion are prioritized, with heavy technology investment.",
+      "production_character": "moderate to heavy",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "TvZ_O05",
+  "projection_path": "02_observation_projection/ablation_single_trace/TvZ_O05.json"
+}

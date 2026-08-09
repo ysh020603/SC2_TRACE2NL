@@ -1,0 +1,100 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid over-committing to expansions without adequate defense, as the opponent may apply early pressure.",
+        "decision_direction": "Continue developing your economy and technology while strengthening your ground army. Maintain a defensive posture to handle possible early pressure.",
+        "exit_or_recheck_condition": "Recheck when you have a solid defensive position and your economy is stable, or if you detect a significant opponent threat.",
+        "next_state_summary": "Move toward a more developed ground posture with heavier production and technology, as seen in N002.",
+        "node_id": "N001",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence suggests a ground posture with possible early pressure. Production appears heavy and technology investment heavy, but exact hidden counts are unknown. Be prepared for a potential early push.",
+        "own_situation": "You are in the early game with a ground-oriented army (Zealots), moderate production, heavy technology investment, and a heavy economy. Your expansion is light or uncertain, so you need to balance tech with base development.",
+        "strategic_reason": "A heavy tech/economy opening requires safety checks to avoid being caught off guard. Strengthening ground forces provides a solid foundation for transitioning into a midgame composition.",
+        "title": "Early Game Tech/Economy Development",
+        "transition_goal": "Transition smoothly into the early-midgame with a stronger ground army and additional production.",
+        "trigger_summary": "Early game (around 180 seconds) with both sides developing; opponent shows a ground posture with possible pressure, while you have a heavy economy and technology focus."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting; the opponent's tech path could lead to unexpected units like Banshees or Medivacs.",
+        "decision_direction": "Increase production and technology while continuing to strengthen your ground army. Maintain your expansion and keep an eye on defense.",
+        "exit_or_recheck_condition": "Recheck when you have a solid army composition and are ready to take map control, or if you see a tech switch from the opponent.",
+        "next_state_summary": "Progress to a late-midgame state with a more diverse army, including Sentries and Immortals, as in N003.",
+        "node_id": "N002",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence indicates a ground posture with Siege Tanks and Marines, heavy production and technology. Possible pressure is still a concern, so maintain defensive awareness.",
+        "own_situation": "You have a heavy economy and production, with a ground army including Zealots and Stalkers. Your technology is heavy, and you are looking to increase production further.",
+        "strategic_reason": "With a heavy economy, you can afford to ramp up production and tech to gain an advantage in the midgame. Siege Tanks require careful positioning, so your army composition should include units that can break or bypass them.",
+        "title": "Early-Midgame Ground Strengthening",
+        "transition_goal": "Transition into the midgame with a robust ground army and the ability to adapt to the opponent's composition.",
+        "trigger_summary": "Early-midgame (around 300-360 seconds) where both sides have expanded their economies and production; opponent shows a ground posture with Siege Tanks and Marines."
+      },
+      {
+        "avoid_direction": "Avoid being too passive; the opponent may be preparing a large push. Keep scouting to detect any tech switches.",
+        "decision_direction": "Continue to strengthen your ground army and increase production. Maintain your economy and consider adding tech upgrades to counter the opponent's composition.",
+        "exit_or_recheck_condition": "Recheck when you have a decisive army advantage or if the opponent shows signs of a tech switch to air.",
+        "next_state_summary": "Move toward a midgame state with a similar composition but possibly more upgrades, as seen in N004.",
+        "node_id": "N003",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows a ground posture with a mix of units, including Siege Tanks and Hellions. They have heavy production and technology, and their defense is heavy, indicating a well-established position.",
+        "own_situation": "You have a heavy economy and production, with a ground army including Zealots, Stalkers, Sentries, and Immortals. Your technology is heavy, and you have a solid defensive posture.",
+        "strategic_reason": "With a diverse ground army, you can handle various threats. Immortals are strong against Siege Tanks, and Sentries provide utility. Increasing production ensures you can sustain a long fight.",
+        "title": "Late-Midgame Ground Army Diversification",
+        "transition_goal": "Transition into the late game with a powerful ground army and the ability to transition to air if needed.",
+        "trigger_summary": "Late-midgame (around 600 seconds) with both sides having heavy economies and production; opponent shows a ground posture with Siege Tanks, Marines, Reapers, and Hellions."
+      },
+      {
+        "avoid_direction": "Avoid overextending without proper scouting; the opponent may have hidden tech like Medivacs or Ravens.",
+        "decision_direction": "Maintain your ground army strength and increase production. Consider adding upgrades to improve your army's effectiveness.",
+        "exit_or_recheck_condition": "Recheck when you have a clear strategic advantage or if the opponent shows a significant tech switch.",
+        "next_state_summary": "This state is similar to N003 but with a slightly different timing; it may lead to a late-midgame state with more upgrades.",
+        "node_id": "N004",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence indicates a ground posture with Marines and Marauders, heavy production and technology. Their defense is moderate, and they may be preparing for a push.",
+        "own_situation": "You have a heavy economy and production, with a ground army including Zealots, Stalkers, Sentries, and Immortals. Your technology is heavy, and your defense is moderate.",
+        "strategic_reason": "Marauders are strong against armored units, so you need a mix of units to counter them. Sentries can provide shields, and Immortals can deal with Marauders effectively.",
+        "title": "Midgame Ground Army Consolidation",
+        "transition_goal": "Transition into the late game with a well-rounded army and the ability to adapt to the opponent's composition.",
+        "trigger_summary": "Midgame (around 540 seconds) with both sides having heavy economies and production; opponent shows a ground posture with Marines and Marauders."
+      },
+      {
+        "avoid_direction": "Avoid committing to a specific army composition without more information; the opponent could be going for a fast expand or a tech rush.",
+        "decision_direction": "Continue developing your economy and technology while maintaining a defensive posture. Scout to determine the opponent's intentions.",
+        "exit_or_recheck_condition": "Recheck when you have scouted the opponent's main and natural, or if you see additional units that clarify their posture.",
+        "next_state_summary": "This state may lead to N001 or N002 depending on the opponent's revealed strategy.",
+        "node_id": "N005",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence is uncertain; only a Marine has been observed. Production appears moderate, technology heavy, but the opponent's army domain and style are unknown. Pressure posture is unknown.",
+        "own_situation": "You have a moderate economy and production, with a ground army (Zealots) and heavy technology. Your expansion is heavy, indicating a focus on economy.",
+        "strategic_reason": "With an unknown opponent, it's crucial to gather information while building a solid foundation. A heavy economy allows you to adapt quickly once you know the opponent's plan.",
+        "title": "Early Game Unknown Opponent Posture",
+        "transition_goal": "Transition into a more defined strategy once you have scouted the opponent's base and army composition.",
+        "trigger_summary": "Early game (around 180 seconds) where the opponent's posture is unknown, with only a Marine seen; your own posture is ground-oriented with moderate production."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "technology / economy / production opening",
+      "opening_name": "PvT_O08 Technology / Economy / Production",
+      "opening_summary": "A Protoss opening that emphasizes heavy technology and economy while maintaining a moderate production base, aiming for a flexible transition into a ground or mixed composition.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a technology / economy / production posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_flat_adaptive",
+  "method_specific_annotation": true,
+  "opening_id": "PvT_O08",
+  "projection_path": "02_observation_projection/ablation_flat_adaptive/PvT_O08.json"
+}

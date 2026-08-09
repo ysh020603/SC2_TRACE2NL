@@ -1,0 +1,72 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overcommitting to a specific tech or army composition before gathering more information.",
+        "decision_direction": "Maintain your current path of developing economy and production while keeping an eye on potential threats.",
+        "exit_or_recheck_condition": "Re-evaluate when you have more information about the opponent's strategy or when you reach a new phase.",
+        "next_state_summary": "Progress to the early-midgame with a similar posture, still focusing on macro.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "The opponent's composition and intentions are not fully known. They may be preparing for an early attack or expanding themselves.",
+        "own_situation": "You are in the early game with a ground-oriented posture. Your economy is heavy, and you have moderate production and technology. Your army consists of Zerglings and Queens, and your defense is light. There is a possibility of pressure from the opponent.",
+        "strategic_reason": "A balanced macro approach allows you to respond to various opponent strategies without committing too early.",
+        "title": "Early Game Ground Macro",
+        "transition_goal": "Continue building your economy and production, and be ready to adapt based on scouting.",
+        "trigger_summary": "At the start of the game, focus on establishing a solid economy and production foundation."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting or over-investing in tech without knowing the opponent's plan.",
+        "decision_direction": "Continue to maintain your current army path and economy, but start considering tech or production upgrades.",
+        "exit_or_recheck_condition": "Re-evaluate when you have more information or when you reach the midgame.",
+        "next_state_summary": "Move into the midgame with a heavier production and a more diverse army.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "The opponent's actions are still unclear. They might be building up for an attack or expanding.",
+        "own_situation": "You are in the early-midgame, still with a ground-oriented posture. Your economy remains heavy, and production is moderate. Your army still consists of Zerglings and Queens, and your defense is light. Pressure from the opponent is still possible.",
+        "strategic_reason": "Consolidating your macro advantage gives you more options later, while staying safe against early aggression.",
+        "title": "Early-Midgame Macro Consolidation",
+        "transition_goal": "Prepare to transition to a heavier production and possibly add Roaches to your army.",
+        "trigger_summary": "As the game progresses, maintain your macro focus while preparing for potential transitions."
+      },
+      {
+        "avoid_direction": "Avoid overextending without proper scouting, as the opponent might have a tech advantage.",
+        "decision_direction": "Maintain your current army path and continue to build up your forces, while keeping an eye on potential threats.",
+        "exit_or_recheck_condition": "Re-evaluate when you have more information about the opponent's army or when you reach a new phase.",
+        "next_state_summary": "Continue with a heavy ground army, ready for further adaptation.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "The opponent's composition is still not fully known, but they may be preparing for a larger engagement.",
+        "own_situation": "You are in the midgame with a ground-oriented posture. Your economy is heavy, and production is now heavy as well. Your army includes Zerglings, Roaches, and Queens, and your defense is still light. Pressure is possible.",
+        "strategic_reason": "With a strong economy and production, you can field a larger army and be ready for midgame fights.",
+        "title": "Midgame Ground Army Expansion",
+        "transition_goal": "Continue to grow your army and consider tech upgrades or additional expansions.",
+        "trigger_summary": "In the midgame, you have a solid economy and production, allowing you to expand your army."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "ZvZ_O03 Balanced Macro",
+      "opening_summary": "A Zerg versus Zerg opening that focuses on a balanced macro posture, building a solid economy and production while keeping options open for adaptation. The early game is centered on Zerglings and Queens, transitioning to include Roaches in the midgame.",
+      "production_character": "moderate to heavy",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "moderate"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "ZvZ_O03",
+  "projection_path": "02_observation_projection/ablation_single_trace/ZvZ_O03.json"
+}

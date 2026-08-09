@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid neglecting defense or over-committing to air without confirming opponent's air capabilities.",
+        "decision_direction": "Strengthen ground forces, increase production and technology, maintain economy and expansion, and keep defense at a safe level.",
+        "exit_or_recheck_condition": "Re-evaluate if opponent shows air presence or a tech switch, or if you face early pressure.",
+        "next_state_summary": "Continue developing ground forces and tech, with safety checks for potential aggression.",
+        "node_id": "N001",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence suggests a ground posture with heavy production and technology. Representative cues may include Siege Tank, Marine, Reaper, and Medivac. Their defense is heavy, and they are expanding heavily.",
+        "own_situation": "You have a heavy economy and production, with a ground-oriented army including Zealots, Stalkers, Observers, and possibly Immortals. Your defense is light or uncertain, but you are expanding heavily.",
+        "strategic_reason": "With both sides investing heavily in tech and economy, maintaining a strong ground army and tech advantage can set up a decisive midgame push or transition.",
+        "title": "Midgame Ground Macro with Heavy Tech",
+        "transition_goal": "Build a robust ground composition with support from Observers and Immortals to handle Siege Tanks and bio.",
+        "trigger_summary": "Midgame phase with both sides having heavy production and technology, opponent showing ground posture with possible Siege Tank, Marine, Reaper, Medivac cues."
+      },
+      {
+        "avoid_direction": "Avoid overextending without scouting; be cautious of possible early pressure.",
+        "decision_direction": "Increase production and technology, strengthen ground forces, maintain economy, and consider expanding further.",
+        "exit_or_recheck_condition": "Re-evaluate when opponent's composition becomes clearer or if you face aggression.",
+        "next_state_summary": "Progress towards a heavier ground composition with tech support.",
+        "node_id": "N002",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence suggests a ground posture with heavy production and technology. Representative cues may include Marine. Their defense is moderate, and they are expanding heavily.",
+        "own_situation": "You have a heavy economy and production, with a ground-oriented army including Zealots and Stalkers. Your defense is light or uncertain, and expansion is light or uncertain.",
+        "strategic_reason": "Early-midgame is a critical window to secure a tech lead and expand safely, setting up for a strong midgame.",
+        "title": "Early-Midgame Ground Tech Development",
+        "transition_goal": "Establish a solid ground army core and tech infrastructure to transition into midgame.",
+        "trigger_summary": "Early-midgame phase with both sides having heavy production and technology, opponent showing ground posture with possible Marine cues."
+      },
+      {
+        "avoid_direction": "Avoid over-investing in air without confirming opponent's anti-air capabilities.",
+        "decision_direction": "Continue strengthening ground forces, increase production and technology, maintain economy and expansion, and keep defense solid.",
+        "exit_or_recheck_condition": "Re-evaluate if opponent shows a tech switch or if you plan to transition to a different composition.",
+        "next_state_summary": "Continue developing a balanced ground and air composition with heavy tech.",
+        "node_id": "N003",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence suggests a ground posture with heavy production and technology. Representative cues may include Siege Tank, Marine, Reaper, and Medivac. Their defense is heavy, and they are expanding heavily.",
+        "own_situation": "You have a heavy economy and production, with a ground-oriented army including Zealots, Stalkers, Void Rays, and Observers. Your defense is heavy, and you are expanding heavily.",
+        "strategic_reason": "With both sides at high tech and economy, maintaining a strong ground army with some air support can provide flexibility against potential tech switches.",
+        "title": "Late-Midgame Ground Tech with Air Support",
+        "transition_goal": "Prepare for a potential late-game transition by diversifying tech and maintaining a strong economy.",
+        "trigger_summary": "Late-midgame phase with both sides having heavy production and technology, opponent showing ground posture with possible Siege Tank, Marine, Reaper, Medivac cues."
+      },
+      {
+        "avoid_direction": "Avoid over-committing to a specific composition without scouting.",
+        "decision_direction": "Increase production and technology, strengthen ground forces, maintain economy, and consider expanding.",
+        "exit_or_recheck_condition": "Re-evaluate as more information about opponent's strategy becomes available.",
+        "next_state_summary": "Progress towards a ground-oriented tech build with heavy economy.",
+        "node_id": "N004",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence is uncertain, but technology investment appears heavy. Representative cues may include Marauder. Their production is moderate, and they are expanding heavily.",
+        "own_situation": "You have a heavy economy and moderate production, with a developing army including Zealots. Your defense is light or uncertain, and expansion is light or uncertain.",
+        "strategic_reason": "Early game is crucial for establishing a tech lead and economy, while staying flexible to adapt to opponent's strategy.",
+        "title": "Early Game Tech Development",
+        "transition_goal": "Build a solid foundation for a tech-heavy midgame.",
+        "trigger_summary": "Early game phase with opponent posture unknown, but heavy technology investment, possible Marauder cues."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "technology / economy / production opening",
+      "opening_name": "PvT_O09 Technology / Economy / Production",
+      "opening_summary": "A Protoss opening that emphasizes heavy technology and economy while maintaining a moderate production base, aiming for a flexible midgame transition.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a technology / economy / production posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_flat_adaptive",
+  "method_specific_annotation": true,
+  "opening_id": "PvT_O09",
+  "projection_path": "02_observation_projection/ablation_flat_adaptive/PvT_O09.json"
+}

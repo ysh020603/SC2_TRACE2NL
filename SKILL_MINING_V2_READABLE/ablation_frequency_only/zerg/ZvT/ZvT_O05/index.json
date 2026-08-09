@@ -1,0 +1,119 @@
+{
+  "method": "ablation_frequency_only",
+  "nodes": {
+    "N001": {
+      "children": [],
+      "path": "nodes/N001.md",
+      "summary": "At early game (around 180 seconds), both sides are developing ground-oriented macro postures. Opponent shows possible early Reaper or Marine presence, while own forces are limited to Queens. Maintain current development, strengthen ground forces, and increase economy while keeping an eye on defense.",
+      "title": "Early Game Ground Macro Development",
+      "trigger_summary": "At early game (around 180 seconds), both sides are developing ground-oriented macro postures. Opponent shows possible early Reaper or Marine presence, while own forces are limited to Queens.",
+      "type": "frequent"
+    },
+    "N002": {
+      "children": [],
+      "path": "nodes/N002.md",
+      "summary": "At early-midgame (around 240-300 seconds), opponent's production has increased, and own ground forces are still developing. Possible pressure from Terran ground units. Continue strengthening ground forces, increase economy, and consider adding defensive structures if pressure is felt.",
+      "title": "Early-Midgame Ground Reinforcement",
+      "trigger_summary": "At early-midgame (around 240-300 seconds), opponent's production has increased, and own ground forces are still developing. Possible pressure from Terran ground units.",
+      "type": "frequent"
+    },
+    "N003": {
+      "children": [],
+      "path": "nodes/N003.md",
+      "summary": "At early-midgame (around 360 seconds), own tech has increased to heavy, and production is moderate. Opponent shows Hellion presence, indicating possible harassment. Increase technology and production, continue expanding, and strengthen ground forces to handle potential Hellion harass.",
+      "title": "Midgame Tech and Production Expansion",
+      "trigger_summary": "At early-midgame (around 360 seconds), own tech has increased to heavy, and production is moderate. Opponent shows Hellion presence, indicating possible harassment.",
+      "type": "frequent"
+    },
+    "N004": {
+      "children": [
+        "N005",
+        "N007"
+      ],
+      "path": "nodes/N004.md",
+      "summary": "At midgame (around 540 seconds), opponent has Siege Tanks and heavy production. Own army is ground-based with Zerglings and Queens, and defense is heavy. Continue strengthening ground forces, increase economy, and consider tech upgrades to break siege lines.",
+      "title": "Midgame Ground Army Strengthening",
+      "trigger_summary": "At midgame (around 540 seconds), opponent has Siege Tanks and heavy production. Own army is ground-based with Zerglings and Queens, and defense is heavy.",
+      "type": "frequent"
+    },
+    "N005": {
+      "children": [],
+      "path": "nodes/N005.md",
+      "summary": "At late-midgame (around 600 seconds), opponent still relies on ground forces with Siege Tanks. Own army is strong ground with heavy production and tech. Continue strengthening ground forces, increase economy, and consider tech upgrades to break siege lines.",
+      "title": "Late-Midgame Ground Dominance",
+      "trigger_summary": "At late-midgame (around 600 seconds), opponent still relies on ground forces with Siege Tanks. Own army is strong ground with heavy production and tech.",
+      "type": "frequent"
+    },
+    "N006": {
+      "children": [
+        "N005",
+        "N007"
+      ],
+      "path": "nodes/N006.md",
+      "summary": "At midgame (around 540 seconds), opponent shows Battlecruiser cues, indicating possible air transition. Own army is ground-based with heavy production and tech. Maintain ground strength but consider adding anti-air units or tech to handle potential Battlecruisers.",
+      "title": "Midgame Tech Adaptation to Battlecruiser",
+      "trigger_summary": "At midgame (around 540 seconds), opponent shows Battlecruiser cues, indicating possible air transition. Own army is ground-based with heavy production and tech.",
+      "type": "frequent"
+    },
+    "N007": {
+      "children": [],
+      "path": "nodes/N007.md",
+      "summary": "At late-midgame (around 600 seconds), opponent still shows Battlecruiser cues. Own army is ground-based with heavy production and tech. Continue strengthening ground forces but also invest in anti-air units or upgrades to counter potential Battlecruisers.",
+      "title": "Late-Midgame Anti-Air Preparation",
+      "trigger_summary": "At late-midgame (around 600 seconds), opponent still shows Battlecruiser cues. Own army is ground-based with heavy production and tech.",
+      "type": "frequent"
+    },
+    "N008": {
+      "children": [],
+      "path": "nodes/N008.md",
+      "summary": "At midgame (around 540 seconds), own army includes Hydralisks, indicating a tech investment. Opponent shows Battlecruiser cues, so anti-air is valuable. Continue strengthening ground forces, increase economy, and consider expanding further to support a larger army.",
+      "title": "Midgame Hydralisk Transition",
+      "trigger_summary": "At midgame (around 540 seconds), own army includes Hydralisks, indicating a tech investment. Opponent shows Battlecruiser cues, so anti-air is valuable.",
+      "type": "frequent"
+    },
+    "N009": {
+      "children": [],
+      "path": "nodes/N009.md",
+      "summary": "At late-midgame (around 600 seconds), own army includes Mutalisks, indicating an air transition. Opponent still shows ground forces with Battlecruiser cues. Increase air forces, continue expanding, and maintain ground defense.",
+      "title": "Late-Midgame Air Transition",
+      "trigger_summary": "At late-midgame (around 600 seconds), own army includes Mutalisks, indicating an air transition. Opponent still shows ground forces with Battlecruiser cues.",
+      "type": "frequent"
+    },
+    "N010": {
+      "children": [
+        "N009"
+      ],
+      "path": "nodes/N010.md",
+      "summary": "At midgame (around 540 seconds), own army includes Mutalisks, indicating an air transition. Opponent shows ground forces with Battlecruiser cues. Increase air forces, continue expanding, and maintain ground defense.",
+      "title": "Midgame Air Transition",
+      "trigger_summary": "At midgame (around 540 seconds), own army includes Mutalisks, indicating an air transition. Opponent shows ground forces with Battlecruiser cues.",
+      "type": "frequent"
+    },
+    "N011": {
+      "children": [
+        "N002",
+        "N002",
+        "N002"
+      ],
+      "path": "nodes/N011.md",
+      "summary": "At early-midgame (around 300 seconds), opponent shows Siege Tanks and Medivacs, indicating a possible timing push. Own army is ground-based with Zerglings and Queens. Increase production and expansion, strengthen ground forces, and consider defensive structures.",
+      "title": "Early-Midgame Expansion and Production",
+      "trigger_summary": "At early-midgame (around 300 seconds), opponent shows Siege Tanks and Medivacs, indicating a possible timing push. Own army is ground-based with Zerglings and Queens.",
+      "type": "frequent"
+    },
+    "N012": {
+      "children": [
+        "N002",
+        "N002"
+      ],
+      "path": "nodes/N012.md",
+      "summary": "At early game (around 180 seconds), opponent shows Reaper presence, indicating possible early harassment. Own army is minimal, but defense is heavy. Maintain defense, increase economy, and consider adding units to repel Reaper harass.",
+      "title": "Early Game Defensive Preparation",
+      "trigger_summary": "At early game (around 180 seconds), opponent shows Reaper presence, indicating possible early harassment. Own army is minimal, but defense is heavy.",
+      "type": "frequent"
+    }
+  },
+  "opening_name": "ZvT_O05 Expansion / Economy / Production",
+  "root": "SKILL.md",
+  "skill_id": "ZvT_O05"
+}

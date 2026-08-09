@@ -1,0 +1,58 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overcommitting to army units or tech before confirming opponent's intentions, as this could delay economy.",
+        "decision_direction": "Maintain current macro path: continue expanding and droning while keeping a light defense. Produce Queens for creep spread and defense.",
+        "exit_or_recheck_condition": "Recheck when you have a clear read on opponent's build (e.g., early pool, gas, or expansion) or when you reach a supply or timing threshold.",
+        "next_state_summary": "Progress to the early-midgame with a stronger ground army, including Zerglings, while maintaining your economy and expansion lead.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "Opponent information is not available at this stage; rely on scouting to detect any early pressure or all-in.",
+        "own_situation": "You are in the early game with a heavy economy and expansion posture, moderate production, and light or uncertain technology. Your army is ground-oriented with Queens as representative units. Your defense is light or uncertain, and pressure is possible.",
+        "strategic_reason": "A heavy economy and expansion posture aims to outgrow the opponent. Queens provide map control and defense against early aggression. Light technology keeps options open for tech switches later.",
+        "title": "Early Game Macro Foundation",
+        "transition_goal": "Transition to a more army-focused posture as you approach the mid-game, adding Zerglings for map presence and potential pressure.",
+        "trigger_summary": "At the start of the early game, the focus is on establishing a strong economy and expansion while maintaining a light defensive posture."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting or over-investing in tech without knowing opponent's composition, as ZvZ can be volatile.",
+        "decision_direction": "Continue maintaining your current army path: produce Zerglings for map control and potential pressure, while keeping up economy and expansions. Consider adding tech structures if the situation allows.",
+        "exit_or_recheck_condition": "Recheck when you have a clear read on opponent's tech or army composition, or when you reach a critical timing (e.g., lair completion, third base).",
+        "next_state_summary": "Continue developing your macro posture, adapting to opponent's moves, and preparing for the mid-game transition.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "Opponent information is still limited; maintain scouting to detect any tech switches or mass army movements.",
+        "own_situation": "You are in the early-midgame with a heavy economy and expansion posture, moderate production, and light or uncertain technology. Your army is ground-oriented with Zerglings and Queens. Defense is light or uncertain, and pressure is possible.",
+        "strategic_reason": "Zerglings provide mobility and map presence, complementing Queens for defense. A heavy economy supports a larger army and faster tech later. Maintaining flexibility is key in ZvZ.",
+        "title": "Early-Midgame Ground Army Transition",
+        "transition_goal": "Transition to a more defined army composition (e.g., Roaches or Mutalisks) based on opponent's build and your tech investments.",
+        "trigger_summary": "As the game transitions to the early-midgame, you begin adding Zerglings to your army composition while continuing to expand and tech up."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "ZvZ_O05 Balanced Macro",
+      "opening_summary": "A Zerg versus Zerg opening that focuses on a balanced macro posture, with a heavy economy and expansion focus, moderate production, and light or uncertain technology investment. The army is ground-oriented, with Queens and Zerglings as representative units. The strategy emphasizes developing a solid foundation while remaining flexible to adapt based on live observations.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "light_or_uncertain"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "ZvZ_O05",
+  "projection_path": "02_observation_projection/ablation_single_trace/ZvZ_O05.json"
+}

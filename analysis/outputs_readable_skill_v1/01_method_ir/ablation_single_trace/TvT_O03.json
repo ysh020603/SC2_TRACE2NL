@@ -1,0 +1,53 @@
+{
+  "allowed_information": {
+    "graph": false,
+    "labels": {
+      "trace": "trace"
+    },
+    "opponent": false,
+    "population": false,
+    "value": false
+  },
+  "method": "ablation_single_trace",
+  "opening_evidence": {
+    "opening_id": "TvT_O03",
+    "source_trace": {
+      "is_win": 1,
+      "player_id": 1,
+      "replay_id": "0005a8c75ab49dd44b62e961"
+    }
+  },
+  "opening_id": "TvT_O03",
+  "opponent_race": "Terran",
+  "opponent_states": [],
+  "own_states": [
+    {
+      "profile": {
+        "own_cum_air": 0.0,
+        "own_cum_defense": 0.0,
+        "own_cum_economy": 0.47,
+        "own_cum_expansion": 0.8667,
+        "own_cum_ground": 0.0667,
+        "own_cum_production": 0.1667,
+        "own_cum_technology": 0.25,
+        "own_cum_upgrade": 0.3333
+      },
+      "representative_cues": [
+        1,
+        0,
+        1
+      ],
+      "state_id": "TvT_TvT_O03_T180_OWN_S01",
+      "time": 180
+    }
+  ],
+  "provenance": {
+    "method_boundary_applied_before_annotation": true,
+    "source_files": [
+      "04_openings/opening_assignments.parquet",
+      "06_states/state_assignments.parquet"
+    ]
+  },
+  "race": "Terran",
+  "transitions": []
+}

@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overcommitting to tech or air before confirming opponent's intentions.",
+        "decision_direction": "Maintain current army path, economy, production, and defense. Continue developing with safety checks.",
+        "exit_or_recheck_condition": "Recheck when you have more information about opponent's composition or when transitioning to the next phase.",
+        "next_state_summary": "Move to early-midgame with additional Queens and a heavier economy.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "Opponent is Protoss, but their specific composition and tech are not fully known. Expect possible early pressure.",
+        "own_situation": "You have a ground-oriented army with Zerglings, moderate production, and light or uncertain technology. Economy is moderate, and expansion is light or uncertain. Defense is heavy, indicating a focus on safety.",
+        "strategic_reason": "Establish a solid ground foundation while keeping options open. Heavy defense mitigates early aggression risks.",
+        "title": "Early Game Ground Foundation",
+        "transition_goal": "Progress to early-midgame with a stable economy and a core of Zerglings and Queens.",
+        "trigger_summary": "Early game phase with light or uncertain air presence, moderate economy and production, and a heavy defense posture."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting or over-investing in a single tech path.",
+        "decision_direction": "Continue maintaining the current path, focusing on economy and production growth while keeping defense strong.",
+        "exit_or_recheck_condition": "Recheck when you have more scouting information or when your economy reaches a comfortable level.",
+        "next_state_summary": "Transition to midgame with Roaches added to your composition.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "Protoss may be expanding or teching; their exact build is still unclear. Possible pressure remains.",
+        "own_situation": "Your army includes Zerglings and Queens, with production increasing. Economy is becoming heavier, and expansion is heavy. Defense remains heavy.",
+        "strategic_reason": "Building a strong economy and production allows for flexibility in responding to Protoss tech choices.",
+        "title": "Early-Midgame Transition",
+        "transition_goal": "Reach midgame with a solid ground army and the ability to tech into Roaches or other units as needed.",
+        "trigger_summary": "Early-midgame phase with moderate to heavy economy and production, still light or uncertain technology."
+      },
+      {
+        "avoid_direction": "Avoid overextending without scouting, as Protoss may transition to air or heavy tech.",
+        "decision_direction": "Maintain the current ground-oriented army path, continuing to expand economy and production while keeping defense strong.",
+        "exit_or_recheck_condition": "Recheck when you have better scouting of Protoss tech or when you are ready to tech further.",
+        "next_state_summary": "Progress to late-midgame with Infestors and Overseers.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "Protoss may have a mix of gateway units and tech, but their exact composition is still uncertain. Possible pressure or timing attacks.",
+        "own_situation": "Your army now includes Zerglings, Roaches, and Queens, with heavy production and a strong economy. Technology is moderate to heavy, and defense remains heavy.",
+        "strategic_reason": "A strong ground army with Roaches provides a solid backbone against many Protoss compositions, while heavy economy supports future tech switches.",
+        "title": "Midgame Ground Army Expansion",
+        "transition_goal": "Prepare for late-midgame by adding Infestors and Overseers for spellcasting and detection.",
+        "trigger_summary": "Midgame phase with heavy economy, production, and expansion, and moderate to heavy technology."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting or failing to adapt if Protoss goes for a heavy air composition.",
+        "decision_direction": "Maintain the current path, focusing on tech and army composition while keeping defense strong.",
+        "exit_or_recheck_condition": "Recheck when you have more information about Protoss's final composition or when you are ready to push.",
+        "next_state_summary": "Continue developing your late-midgame army, with potential for further tech or expansion.",
+        "node_id": "N004",
+        "node_type": "trace",
+        "opponent_situation": "Protoss may have a developed army with tech units; their composition is still not fully known. Expect possible large engagements.",
+        "own_situation": "Your army includes Zerglings, Infestors, Queens, and Overseers, with heavy production and technology. Economy and expansion are heavy, and defense remains heavy.",
+        "strategic_reason": "Infestors provide spellcasting utility, and Overseers offer detection, making your ground army more versatile against Protoss tech.",
+        "title": "Late-Midgame Tech Integration",
+        "transition_goal": "Continue to develop your army and tech, preparing for late-game transitions if needed.",
+        "trigger_summary": "Late-midgame phase with heavy economy, production, and technology, and a ground-oriented army."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "light_or_uncertain",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "ZvP_O05 Balanced Macro",
+      "opening_summary": "A Zerg versus Protoss opening that focuses on a balanced macro posture, building a ground-oriented army with Zerglings and Queens, while keeping technology and air investment light or uncertain. The approach emphasizes steady economy and production growth with a heavy defensive posture, adapting based on live observations.",
+      "production_character": "light_or_uncertain",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "light_or_uncertain"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "ZvP_O05",
+  "projection_path": "02_observation_projection/ablation_single_trace/ZvP_O05.json"
+}

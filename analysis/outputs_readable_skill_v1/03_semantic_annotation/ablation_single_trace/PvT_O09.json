@@ -1,0 +1,72 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid committing to a specific army composition or aggressive posture before gathering more information.",
+        "decision_direction": "Maintain current development path, focusing on economy and technology while keeping defensive options open.",
+        "exit_or_recheck_condition": "Re-evaluate when more information about the opponent's strategy becomes available or when key technologies complete.",
+        "next_state_summary": "Move towards a ground-focused army with heavier production.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "No reliable information about the opponent's strategy or composition at this stage.",
+        "own_situation": "Early game with moderate production and heavy technology investment. Army composition is not yet defined, but a zealot is present as a representative unit.",
+        "strategic_reason": "A balanced macro approach allows for flexibility in responding to the opponent's actions later.",
+        "title": "Early Game Foundation",
+        "transition_goal": "Transition into a more defined ground-oriented army with additional production.",
+        "trigger_summary": "At the start of the game, focus on establishing a solid economic and technological base."
+      },
+      {
+        "avoid_direction": "Avoid overextending or neglecting scouting, as the opponent may attempt aggressive moves.",
+        "decision_direction": "Continue developing the ground army and economy while maintaining defensive readiness.",
+        "exit_or_recheck_condition": "Re-evaluate when the opponent's composition becomes clearer or when new technologies are available.",
+        "next_state_summary": "Expand and incorporate more advanced ground units.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "The opponent's strategy is still unclear, but there is a possibility of pressure.",
+        "own_situation": "Early-midgame with a ground-oriented army, heavy production, and heavy technology investment. Representative units include zealots and stalkers.",
+        "strategic_reason": "A strong ground army with technological support provides a solid foundation for mid-game engagements.",
+        "title": "Ground Army Development",
+        "transition_goal": "Expand further and add more advanced units like observers and immortals.",
+        "trigger_summary": "As the game progresses, the army composition becomes more defined with ground units."
+      },
+      {
+        "avoid_direction": "Avoid being caught off-guard by air or harass tactics; keep observers for detection and maintain map awareness.",
+        "decision_direction": "Maintain the current army path and continue to expand and tech up, while keeping an eye on defensive needs.",
+        "exit_or_recheck_condition": "Re-evaluate when the opponent's composition is confirmed or when significant upgrades complete.",
+        "next_state_summary": "Incorporate colossi into the army for increased combat effectiveness.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "The opponent's strategy is still not fully known, but pressure is possible.",
+        "own_situation": "Midgame with a heavy ground army, including zealots, stalkers, observers, and immortals. Economy and production are strong.",
+        "strategic_reason": "A well-rounded ground army with support units can handle a variety of threats and set up for a strong mid-game push.",
+        "title": "Midgame Power Spike",
+        "transition_goal": "Transition towards colossi for additional splash damage and a stronger army composition.",
+        "trigger_summary": "In the midgame, the army composition is well-established with a mix of core and advanced units."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "PvT_O09 Balanced Macro",
+      "opening_summary": "A Protoss opening that emphasizes heavy economy and technology investment while maintaining a flexible ground-oriented army. Early game is uncertain, but transitions into a robust ground composition with observers and immortals, later adding colossi.",
+      "production_character": "moderate to heavy",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "PvT_O09",
+  "projection_path": "02_observation_projection/ablation_single_trace/PvT_O09.json"
+}

@@ -1,0 +1,1 @@
+The statistical node type is immutable. Explain the observable trigger, strategic direction, trade-off, risk, transition goal, and recheck condition without reproducing actions or prescribing a sequence.

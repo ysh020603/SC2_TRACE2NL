@@ -1,0 +1,58 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overcommitting to a specific tech path or army composition before gathering more information about the opponent's strategy.",
+        "decision_direction": "Maintain current macro path: continue developing economy and expansions, keep production moderate, and maintain a ground-oriented army. Keep technology investment light or uncertain for now.",
+        "exit_or_recheck_condition": "Recheck when you have more information about the opponent's composition or when you reach a new phase (early-midgame).",
+        "next_state_summary": "Proceed to the early-midgame with a similar posture, adding Zerglings and Queens, and maintaining heavy economy and expansion.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "Opponent is Terran, but no specific information is available at this stage. Expect possible early pressure or economic development.",
+        "own_situation": "You are in the early game with a heavy economy and expansion posture, moderate production, and light or uncertain technology. Your army is ground-oriented with Queens as representative units. Defense is light or uncertain, and pressure is possible.",
+        "strategic_reason": "A balanced macro opening allows you to establish a strong economy and expansion lead while keeping options open. Maintaining a ground-oriented army with Queens provides defensive capability and creep spread, which supports future tech choices.",
+        "title": "Early Game Macro Foundation",
+        "transition_goal": "Transition smoothly into the early-midgame by adding Zerglings and possibly Roaches, while continuing to expand and maintain macro.",
+        "trigger_summary": "Early game phase with a ground-oriented macro posture, heavy economy and expansion, moderate production, and light or uncertain technology. Representative unit: Queen."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting or over-investing in a single tech path without confirming the opponent's strategy.",
+        "decision_direction": "Maintain current macro path: continue expanding and developing economy, keep production moderate, and maintain a ground-oriented army. Consider adding Roaches if needed for defense or pressure.",
+        "exit_or_recheck_condition": "Recheck when you have more information about the opponent's composition or when you reach a new phase (midgame).",
+        "next_state_summary": "Proceed to the next state with a similar posture, possibly adding Roaches to the army composition.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "Opponent is Terran, but no specific information is available. Expect possible pressure or tech transitions.",
+        "own_situation": "You are in the early-midgame with a heavy economy and expansion posture, moderate production, and light or uncertain technology. Your army includes Zerglings and Queens, still ground-oriented. Defense remains light or uncertain, and pressure is possible.",
+        "strategic_reason": "Maintaining a balanced macro posture allows you to respond to the opponent's actions. Zerglings provide map presence and scouting, while Queens support defense and creep. Adding Roaches can give a solid core for ground engagements.",
+        "title": "Early-Midgame Transition",
+        "transition_goal": "Transition towards a more defined army composition based on observed opponent moves, while continuing to expand and tech up as needed.",
+        "trigger_summary": "Early-midgame phase with a ground-oriented macro posture, heavy economy and expansion, moderate production, and light or uncertain technology. Representative units: Zergling and Queen."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "ZvT_O04 Balanced Macro",
+      "opening_summary": "A Zerg versus Terran opening that focuses on a balanced macro posture, with a heavy economy and expansion focus, moderate production, and light or uncertain technology investment. The army is ground-oriented with Queens and Zerglings, and later Roaches, while maintaining flexibility for adaptation based on live observations.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "light_or_uncertain"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "ZvT_O04",
+  "projection_path": "02_observation_projection/ablation_single_trace/ZvT_O04.json"
+}

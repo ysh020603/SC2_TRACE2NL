@@ -1,0 +1,3221 @@
+{
+  "method": "ablation_frequency_only",
+  "nodes": [
+    {
+      "frequency": 0.9003496503496503,
+      "next_state_id": "PvT_PvT_O07_T360_OWN_S03",
+      "node_id": "N001",
+      "node_type": "frequent",
+      "opponent_state": {
+        "air_presence": "light_or_uncertain",
+        "army_domain": "ground",
+        "army_style": "ground_macro_posture",
+        "confidence": "medium",
+        "defense_posture": "moderate",
+        "economy_posture": "heavy",
+        "expansion_posture": "heavy",
+        "obs_style_summary_seed": {
+          "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, WidowMine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+        },
+        "phase": "early_midgame",
+        "pressure_posture": "possible",
+        "production_posture": "heavy",
+        "representative_unit_cues": [
+          {
+            "strength": "representative",
+            "unit": "Marine"
+          },
+          {
+            "strength": "representative",
+            "unit": "WidowMine"
+          }
+        ],
+        "side": "opponent",
+        "source_state_ids": [
+          "PvT_PvT_O07_T300_OPP_S01"
+        ],
+        "special_threats": [],
+        "state_id": "PvT_PvT_O07_T300_OPP_S01",
+        "technology_posture": "heavy"
+      },
+      "own_state": {
+        "air_presence": "light_or_uncertain",
+        "army_domain": "ground",
+        "army_style": "ground_macro_posture",
+        "confidence": "medium",
+        "defense_posture": "light_or_uncertain",
+        "economy_posture": "heavy",
+        "expansion_posture": "heavy",
+        "obs_style_summary_seed": {
+          "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+        },
+        "phase": "early_midgame",
+        "pressure_posture": "possible",
+        "production_posture": "heavy",
+        "representative_unit_cues": [
+          {
+            "strength": "representative",
+            "unit": "Stalker"
+          }
+        ],
+        "side": "own",
+        "source_state_ids": [
+          "PvT_PvT_O07_T300_OWN_S03"
+        ],
+        "special_threats": [],
+        "state_id": "PvT_PvT_O07_T300_OWN_S03",
+        "technology_posture": "heavy"
+      },
+      "phase": "early_midgame",
+      "policy_signature": {
+        "air_direction": "continue",
+        "army_direction": "strengthen_ground",
+        "confidence": "medium",
+        "defense_direction": "maintain",
+        "economy_direction": "increase",
+        "expansion_direction": "maintain",
+        "production_direction": "increase",
+        "technology_direction": "increase",
+        "tempo": "develop_with_safety_checks",
+        "upgrade_direction": "increase"
+      },
+      "source_edge_ids": [
+        "E_06527_PvT_O07_PvT_R01_300",
+        "E_06530_PvT_O07_PvT_R01_300",
+        "E_06533_PvT_O07_PvT_R01_300",
+        "E_06536_PvT_O07_PvT_R01_300",
+        "E_06539_PvT_O07_PvT_R01_300",
+        "E_06542_PvT_O07_PvT_R01_300",
+        "E_06545_PvT_O07_PvT_R01_300",
+        "E_06547_PvT_O07_PvT_R01_360",
+        "E_06550_PvT_O07_PvT_R01_360",
+        "E_06553_PvT_O07_PvT_R01_360",
+        "E_06556_PvT_O07_PvT_R01_360",
+        "E_06559_PvT_O07_PvT_R01_360",
+        "E_06562_PvT_O07_PvT_R01_360",
+        "E_06565_PvT_O07_PvT_R01_360",
+        "E_06568_PvT_O07_PvT_R01_360",
+        "E_06571_PvT_O07_PvT_R01_360",
+        "E_06574_PvT_O07_PvT_R01_360",
+        "E_06577_PvT_O07_PvT_R01_360",
+        "E_06580_PvT_O07_PvT_R01_360",
+        "E_06583_PvT_O07_PvT_R01_360",
+        "E_06586_PvT_O07_PvT_R01_360",
+        "E_06589_PvT_O07_PvT_R01_360",
+        "E_06592_PvT_O07_PvT_R01_360",
+        "E_06595_PvT_O07_PvT_R01_360"
+      ],
+      "source_state_id": "PvT_PvT_O07_T300_OWN_S03",
+      "source_state_ids": [
+        "PvT_PvT_O07_T300_OWN_S03",
+        "PvT_PvT_O07_T300_OWN_S03",
+        "PvT_PvT_O07_T300_OWN_S03",
+        "PvT_PvT_O07_T300_OWN_S03",
+        "PvT_PvT_O07_T300_OWN_S03",
+        "PvT_PvT_O07_T300_OWN_S03",
+        "PvT_PvT_O07_T300_OWN_S03",
+        "PvT_PvT_O07_T360_OWN_S01",
+        "PvT_PvT_O07_T360_OWN_S01",
+        "PvT_PvT_O07_T360_OWN_S01",
+        "PvT_PvT_O07_T360_OWN_S01",
+        "PvT_PvT_O07_T360_OWN_S01",
+        "PvT_PvT_O07_T360_OWN_S01",
+        "PvT_PvT_O07_T360_OWN_S02",
+        "PvT_PvT_O07_T360_OWN_S02",
+        "PvT_PvT_O07_T360_OWN_S02",
+        "PvT_PvT_O07_T360_OWN_S02",
+        "PvT_PvT_O07_T360_OWN_S02",
+        "PvT_PvT_O07_T360_OWN_S03",
+        "PvT_PvT_O07_T360_OWN_S03",
+        "PvT_PvT_O07_T360_OWN_S03",
+        "PvT_PvT_O07_T360_OWN_S03",
+        "PvT_PvT_O07_T360_OWN_S03",
+        "PvT_PvT_O07_T360_OWN_S03"
+      ],
+      "support": 515
+    },
+    {
+      "frequency": 0.8338192419825073,
+      "next_state_id": "PvT_PvT_O07_T480_OWN_S03",
+      "node_id": "N002",
+      "node_type": "frequent",
+      "opponent_state": {
+        "air_presence": "light_or_uncertain",
+        "army_domain": "ground",
+        "army_style": "ground_macro_posture",
+        "confidence": "medium",
+        "defense_posture": "moderate",
+        "economy_posture": "heavy",
+        "expansion_posture": "heavy",
+        "obs_style_summary_seed": {
+          "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine, Banshee, WidowMine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+        },
+        "phase": "midgame",
+        "pressure_posture": "possible",
+        "production_posture": "heavy",
+        "representative_unit_cues": [
+          {
+            "strength": "representative",
+            "unit": "SiegeTank"
+          },
+          {
+            "strength": "representative",
+            "unit": "Marine"
+          },
+          {
+            "strength": "representative",
+            "unit": "Banshee"
+          },
+          {
+            "strength": "representative",
+            "unit": "WidowMine"
+          }
+        ],
+        "side": "opponent",
+        "source_state_ids": [
+          "PvT_PvT_O07_T420_OPP_S01"
+        ],
+        "special_threats": [],
+        "state_id": "PvT_PvT_O07_T420_OPP_S01",
+        "technology_posture": "heavy"
+      },
+      "own_state": {
+        "air_presence": "light_or_uncertain",
+        "army_domain": "ground",
+        "army_style": "ground_macro_posture",
+        "confidence": "medium",
+        "defense_posture": "light_or_uncertain",
+        "economy_posture": "heavy",
+        "expansion_posture": "heavy",
+        "obs_style_summary_seed": {
+          "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+        },
+        "phase": "midgame",
+        "pressure_posture": "possible",
+        "production_posture": "heavy",
+        "representative_unit_cues": [
+          {
+            "strength": "representative",
+            "unit": "Stalker"
+          },
+          {
+            "strength": "representative",
+            "unit": "WarpPrism"
+          }
+        ],
+        "side": "own",
+        "source_state_ids": [
+          "PvT_PvT_O07_T420_OWN_S03"
+        ],
+        "special_threats": [],
+        "state_id": "PvT_PvT_O07_T420_OWN_S03",
+        "technology_posture": "heavy"
+      },
+      "phase": "midgame",
+      "policy_signature": {
+        "air_direction": "continue",
+        "army_direction": "strengthen_ground",
+        "confidence": "medium",
+        "defense_direction": "maintain",
+        "economy_direction": "increase",
+        "expansion_direction": "maintain",
+        "production_direction": "increase",
+        "technology_direction": "increase",
+        "tempo": "develop_with_safety_checks",
+        "upgrade_direction": "increase"
+      },
+      "source_edge_ids": [
+        "E_06631_PvT_O07_PvT_R01_420",
+        "E_06634_PvT_O07_PvT_R01_420",
+        "E_06637_PvT_O07_PvT_R01_420",
+        "E_06640_PvT_O07_PvT_R01_420",
+        "E_06643_PvT_O07_PvT_R01_420",
+        "E_06646_PvT_O07_PvT_R01_420",
+        "E_06647_PvT_O07_PvT_R01_480",
+        "E_06650_PvT_O07_PvT_R01_480",
+        "E_06653_PvT_O07_PvT_R01_480",
+        "E_06656_PvT_O07_PvT_R01_480",
+        "E_06659_PvT_O07_PvT_R01_480",
+        "E_06662_PvT_O07_PvT_R01_480",
+        "E_06665_PvT_O07_PvT_R01_480",
+        "E_06668_PvT_O07_PvT_R01_480",
+        "E_06671_PvT_O07_PvT_R01_480",
+        "E_06674_PvT_O07_PvT_R01_480",
+        "E_06677_PvT_O07_PvT_R01_480",
+        "E_06680_PvT_O07_PvT_R01_480",
+        "E_06681_PvT_O07_PvT_R01_480",
+        "E_06684_PvT_O07_PvT_R01_480",
+        "E_06687_PvT_O07_PvT_R01_480",
+        "E_06690_PvT_O07_PvT_R01_480",
+        "E_06693_PvT_O07_PvT_R01_480",
+        "E_06696_PvT_O07_PvT_R01_480",
+        "E_06699_PvT_O07_PvT_R01_540",
+        "E_06702_PvT_O07_PvT_R01_540",
+        "E_06705_PvT_O07_PvT_R01_540",
+        "E_06708_PvT_O07_PvT_R01_540",
+        "E_06711_PvT_O07_PvT_R01_540",
+        "E_06714_PvT_O07_PvT_R01_540",
+        "E_06717_PvT_O07_PvT_R01_540",
+        "E_06720_PvT_O07_PvT_R01_540",
+        "E_06723_PvT_O07_PvT_R01_540",
+        "E_06726_PvT_O07_PvT_R01_540",
+        "E_06729_PvT_O07_PvT_R01_540",
+        "E_06732_PvT_O07_PvT_R01_540",
+        "E_06735_PvT_O07_PvT_R01_540",
+        "E_06738_PvT_O07_PvT_R01_540",
+        "E_06741_PvT_O07_PvT_R01_540",
+        "E_06744_PvT_O07_PvT_R01_540",
+        "E_06747_PvT_O07_PvT_R01_540",
+        "E_06750_PvT_O07_PvT_R01_540",
+        "E_06753_PvT_O07_PvT_R01_540",
+        "E_06755_PvT_O07_PvT_R01_540"
+      ],
+      "source_state_id": "PvT_PvT_O07_T420_OWN_S03",
+      "source_state_ids": [
+        "PvT_PvT_O07_T420_OWN_S03",
+        "PvT_PvT_O07_T420_OWN_S03",
+        "PvT_PvT_O07_T420_OWN_S03",
+        "PvT_PvT_O07_T420_OWN_S03",
+        "PvT_PvT_O07_T420_OWN_S03",
+        "PvT_PvT_O07_T420_OWN_S03",
+        "PvT_PvT_O07_T480_OWN_S01",
+        "PvT_PvT_O07_T480_OWN_S01",
+        "PvT_PvT_O07_T480_OWN_S01",
+        "PvT_PvT_O07_T480_OWN_S01",
+        "PvT_PvT_O07_T480_OWN_S01",
+        "PvT_PvT_O07_T480_OWN_S01",
+        "PvT_PvT_O07_T480_OWN_S02",
+        "PvT_PvT_O07_T480_OWN_S02",
+        "PvT_PvT_O07_T480_OWN_S02",
+        "PvT_PvT_O07_T480_OWN_S02",
+        "PvT_PvT_O07_T480_OWN_S02",
+        "PvT_PvT_O07_T480_OWN_S02",
+        "PvT_PvT_O07_T480_OWN_S03",
+        "PvT_PvT_O07_T480_OWN_S03",
+        "PvT_PvT_O07_T480_OWN_S03",
+        "PvT_PvT_O07_T480_OWN_S03",
+        "PvT_PvT_O07_T480_OWN_S03",
+        "PvT_PvT_O07_T480_OWN_S03",
+        "PvT_PvT_O07_T540_OWN_S01",
+        "PvT_PvT_O07_T540_OWN_S01",
+        "PvT_PvT_O07_T540_OWN_S01",
+        "PvT_PvT_O07_T540_OWN_S01",
+        "PvT_PvT_O07_T540_OWN_S01",
+        "PvT_PvT_O07_T540_OWN_S01",
+        "PvT_PvT_O07_T540_OWN_S02",
+        "PvT_PvT_O07_T540_OWN_S02",
+        "PvT_PvT_O07_T540_OWN_S02",
+        "PvT_PvT_O07_T540_OWN_S02",
+        "PvT_PvT_O07_T540_OWN_S02",
+        "PvT_PvT_O07_T540_OWN_S02",
+        "PvT_PvT_O07_T540_OWN_S02",
+        "PvT_PvT_O07_T540_OWN_S03",
+        "PvT_PvT_O07_T540_OWN_S03",
+        "PvT_PvT_O07_T540_OWN_S03",
+        "PvT_PvT_O07_T540_OWN_S03",
+        "PvT_PvT_O07_T540_OWN_S03",
+        "PvT_PvT_O07_T540_OWN_S03",
+        "PvT_PvT_O07_T540_OWN_S03"
+      ],
+      "support": 286
+    },
+    {
+      "frequency": 0.9273927392739274,
+      "next_state_id": "PvT_PvT_O07_T240_OWN_S02",
+      "node_id": "N003",
+      "node_type": "frequent",
+      "opponent_state": {
+        "air_presence": "light_or_uncertain",
+        "army_domain": "unknown",
+        "army_style": "unknown",
+        "confidence": "medium",
+        "defense_posture": "light_or_uncertain",
+        "economy_posture": "heavy",
+        "expansion_posture": "heavy",
+        "obs_style_summary_seed": {
+          "enemy_intelligence": "Enemy Intelligence is consistent with a unknown posture; representative observed or remembered cues may include Marine, Reaper. Production appears moderate, technology investment appears heavy, and exact hidden counts remain unknown."
+        },
+        "phase": "early_game",
+        "pressure_posture": "unknown",
+        "production_posture": "moderate",
+        "representative_unit_cues": [
+          {
+            "strength": "representative",
+            "unit": "Marine"
+          },
+          {
+            "strength": "representative",
+            "unit": "Reaper"
+          }
+        ],
+        "side": "opponent",
+        "source_state_ids": [
+          "PvT_PvT_O07_T180_OPP_S02"
+        ],
+        "special_threats": [],
+        "state_id": "PvT_PvT_O07_T180_OPP_S02",
+        "technology_posture": "heavy"
+      },
+      "own_state": {
+        "air_presence": "light_or_uncertain",
+        "army_domain": "unknown",
+        "army_style": "unknown",
+        "confidence": "medium",
+        "defense_posture": "light_or_uncertain",
+        "economy_posture": "heavy",
+        "expansion_posture": "heavy",
+        "obs_style_summary_seed": {
+          "own_posture": "Your completed or developing posture is broadly unknown-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+        },
+        "phase": "early_game",
+        "pressure_posture": "unknown",
+        "production_posture": "moderate",
+        "representative_unit_cues": [],
+        "side": "own",
+        "source_state_ids": [
+          "PvT_PvT_O07_T180_OWN_S03"
+        ],
+        "special_threats": [],
+        "state_id": "PvT_PvT_O07_T180_OWN_S03",
+        "technology_posture": "heavy"
+      },
+      "phase": "early_game",
+      "policy_signature": {
+        "air_direction": "continue",
+        "army_direction": "strengthen_ground",
+        "confidence": "medium",
+        "defense_direction": "maintain",
+        "economy_direction": "increase",
+        "expansion_direction": "maintain",
+        "production_direction": "increase",
+        "technology_direction": "increase",
+        "tempo": "develop_with_safety_checks",
+        "upgrade_direction": "increase"
+      },
+      "source_edge_ids": [
+        "E_06430_PvT_O07_PvT_R01_180",
+        "E_06433_PvT_O07_PvT_R01_180"
+      ],
+      "source_state_id": "PvT_PvT_O07_T180_OWN_S03",
+      "source_state_ids": [
+        "PvT_PvT_O07_T180_OWN_S03",
+        "PvT_PvT_O07_T180_OWN_S03"
+      ],
+      "support": 281
+    },
+    {
+      "frequency": 0.4684095860566449,
+      "next_state_id": "PvT_PvT_O07_T240_OWN_S02",
+      "node_id": "N004",
+      "node_type": "frequent",
+      "opponent_state": {
+        "air_presence": "light_or_uncertain",
+        "army_domain": "ground",
+        "army_style": "ground_macro_posture",
+        "confidence": "medium",
+        "defense_posture": "light_or_uncertain",
+        "economy_posture": "heavy",
+        "expansion_posture": "heavy",
+        "obs_style_summary_seed": {
+          "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+        },
+        "phase": "early_game",
+        "pressure_posture": "possible",
+        "production_posture": "heavy",
+        "representative_unit_cues": [
+          {
+            "strength": "representative",
+            "unit": "Marine"
+          }
+        ],
+        "side": "opponent",
+        "source_state_ids": [
+          "PvT_PvT_O07_T180_OPP_S01"
+        ],
+        "special_threats": [],
+        "state_id": "PvT_PvT_O07_T180_OPP_S01",
+        "technology_posture": "heavy"
+      },
+      "own_state": {
+        "air_presence": "light_or_uncertain",
+        "army_domain": "unknown",
+        "army_style": "unknown",
+        "confidence": "medium",
+        "defense_posture": "light_or_uncertain",
+        "economy_posture": "heavy",
+        "expansion_posture": "light_or_uncertain",
+        "obs_style_summary_seed": {
+          "own_posture": "Your completed or developing posture is broadly unknown-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+        },
+        "phase": "early_game",
+        "pressure_posture": "unknown",
+        "production_posture": "moderate",
+        "representative_unit_cues": [],
+        "side": "own",
+        "source_state_ids": [
+          "PvT_PvT_O07_T180_OWN_S01"
+        ],
+        "special_threats": [],
+        "state_id": "PvT_PvT_O07_T180_OWN_S01",
+        "technology_posture": "heavy"
+      },
+      "phase": "early_game",
+      "policy_signature": {
+        "air_direction": "continue",
+        "army_direction": "strengthen_ground",
+        "confidence": "medium",
+        "defense_direction": "maintain",
+        "economy_direction": "increase",
+        "expansion_direction": "maintain",
+        "production_direction": "increase",
+        "technology_direction": "increase",
+        "tempo": "develop_with_safety_checks",
+        "upgrade_direction": "increase"
+      },
+      "source_edge_ids": [
+        "E_06396_PvT_O07_PvT_R01_180",
+        "E_06405_PvT_O07_PvT_R01_180",
+        "E_06408_PvT_O07_PvT_R01_180",
+        "E_06414_PvT_O07_PvT_R01_180",
+        "E_06423_PvT_O07_PvT_R01_180",
+        "E_06425_PvT_O07_PvT_R01_180",
+        "E_06427_PvT_O07_PvT_R01_180",
+        "E_06436_PvT_O07_PvT_R01_180",
+        "E_06439_PvT_O07_PvT_R01_180"
+      ],
+      "source_state_id": "PvT_PvT_O07_T180_OWN_S01",
+      "source_state_ids": [
+        "PvT_PvT_O07_T180_OWN_S01",
+        "PvT_PvT_O07_T180_OWN_S01",
+        "PvT_PvT_O07_T180_OWN_S01",
+        "PvT_PvT_O07_T180_OWN_S02",
+        "PvT_PvT_O07_T180_OWN_S02",
+        "PvT_PvT_O07_T180_OWN_S02",
+        "PvT_PvT_O07_T180_OWN_S03",
+        "PvT_PvT_O07_T180_OWN_S03",
+        "PvT_PvT_O07_T180_OWN_S03"
+      ],
+      "support": 215
+    },
+    {
+      "frequency": 0.7457627118644068,
+      "next_state_id": "PvT_PvT_O07_T720_OWN_S03",
+      "node_id": "N005",
+      "node_type": "frequent",
+      "opponent_state": {
+        "air_presence": "moderate",
+        "army_domain": "ground",
+        "army_style": "ground_macro_posture",
+        "confidence": "medium",
+        "defense_posture": "heavy",
+        "economy_posture": "heavy",
+        "expansion_posture": "heavy",
+        "obs_style_summary_seed": {
+          "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine, Banshee, WidowMine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+        },
+        "phase": "late_midgame",
+        "pressure_posture": "possible",
+        "production_posture": "heavy",
+        "representative_unit_cues": [
+          {
+            "strength": "representative",
+            "unit": "SiegeTank"
+          },
+          {
+            "strength": "representative",
+            "unit": "Marine"
+          },
+          {
+            "strength": "representative",
+            "unit": "Banshee"
+          },
+          {
+            "strength": "representative",
+            "unit": "WidowMine"
+          }
+        ],
+        "side": "opponent",
+        "source_state_ids": [
+          "PvT_PvT_O07_T600_OPP_S01"
+        ],
+        "special_threats": [],
+        "state_id": "PvT_PvT_O07_T600_OPP_S01",
+        "technology_posture": "heavy"
+      },
+      "own_state": {
+        "air_presence": "light_or_uncertain",
+        "army_domain": "ground",
+        "army_style": "ground_macro_posture",
+        "confidence": "medium",
+        "defense_posture": "moderate",
+        "economy_posture": "heavy",
+        "expansion_posture": "heavy",
+        "obs_style_summary_seed": {
+          "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+        },
+        "phase": "late_midgame",
+        "pressure_posture": "possible",
+        "production_posture": "heavy",
+        "representative_unit_cues": [],
+        "side": "own",
+        "source_state_ids": [
+          "PvT_PvT_O07_T600_OWN_S03"
+        ],
+        "special_threats": [],
+        "state_id": "PvT_PvT_O07_T600_OWN_S03",
+        "technology_posture": "heavy"
+      },
+      "phase": "late_midgame",
+      "policy_signature": {
+        "air_direction": "continue",
+        "army_direction": "strengthen_ground",
+        "confidence": "medium",
+        "defense_direction": "maintain",
+        "economy_direction": "increase",
+        "expansion_direction": "maintain",
+        "production_direction": "increase",
+        "technology_direction": "increase",
+        "tempo": "develop_with_safety_checks",
+        "upgrade_direction": "increase"
+      },
+      "source_edge_ids": [
+        "E_06797_PvT_O07_PvT_R01_600",
+        "E_06800_PvT_O07_PvT_R01_600",
+        "E_06803_PvT_O07_PvT_R01_600",
+        "E_06806_PvT_O07_PvT_R01_600",
+        "E_06809_PvT_O07_PvT_R01_600",
+        "E_06812_PvT_O07_PvT_R01_600",
+        "E_06815_PvT_O07_PvT_R01_600"
+      ],
+      "source_state_id": "PvT_PvT_O07_T600_OWN_S03",
+      "source_state_ids": [
+        "PvT_PvT_O07_T600_OWN_S03",
+        "PvT_PvT_O07_T600_OWN_S03",
+        "PvT_PvT_O07_T600_OWN_S03",
+        "PvT_PvT_O07_T600_OWN_S03",
+        "PvT_PvT_O07_T600_OWN_S03",
+        "PvT_PvT_O07_T600_OWN_S03",
+        "PvT_PvT_O07_T600_OWN_S03"
+      ],
+      "support": 132
+    },
+    {
+      "frequency": 0.43636363636363634,
+      "next_state_id": "PvT_PvT_O07_T300_OWN_S01",
+      "node_id": "N006",
+      "node_type": "frequent",
+      "opponent_state": {
+        "air_presence": "light_or_uncertain",
+        "army_domain": "ground",
+        "army_style": "ground_macro_posture",
+        "confidence": "medium",
+        "defense_posture": "light_or_uncertain",
+        "economy_posture": "heavy",
+        "expansion_posture": "heavy",
+        "obs_style_summary_seed": {
+          "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+        },
+        "phase": "early_midgame",
+        "pressure_posture": "possible",
+        "production_posture": "heavy",
+        "representative_unit_cues": [
+          {
+            "strength": "representative",
+            "unit": "Marine"
+          }
+        ],
+        "side": "opponent",
+        "source_state_ids": [
+          "PvT_PvT_O07_T240_OPP_S04"
+        ],
+        "special_threats": [],
+        "state_id": "PvT_PvT_O07_T240_OPP_S04",
+        "technology_posture": "heavy"
+      },
+      "own_state": {
+        "air_presence": "light_or_uncertain",
+        "army_domain": "unknown",
+        "army_style": "unknown",
+        "confidence": "medium",
+        "defense_posture": "heavy",
+        "economy_posture": "heavy",
+        "expansion_posture": "moderate",
+        "obs_style_summary_seed": {
+          "own_posture": "Your completed or developing posture is broadly unknown-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+        },
+        "phase": "early_midgame",
+        "pressure_posture": "unknown",
+        "production_posture": "moderate",
+        "representative_unit_cues": [],
+        "side": "own",
+        "source_state_ids": [
+          "PvT_PvT_O07_T240_OWN_S01"
+        ],
+        "special_threats": [],
+        "state_id": "PvT_PvT_O07_T240_OWN_S01",
+        "technology_posture": "heavy"
+      },
+      "phase": "early_midgame",
+      "policy_signature": {
+        "air_direction": "continue",
+        "army_direction": "strengthen_ground",
+        "confidence": "medium",
+        "defense_direction": "increase",
+        "economy_direction": "increase",
+        "expansion_direction": "maintain",
+        "production_direction": "continue",
+        "technology_direction": "increase",
+        "tempo": "stabilize_then_develop",
+        "upgrade_direction": "continue"
+      },
+      "source_edge_ids": [
+        "E_06450_PvT_O07_PvT_R02_240"
+      ],
+      "source_state_id": "PvT_PvT_O07_T240_OWN_S01",
+      "source_state_ids": [
+        "PvT_PvT_O07_T240_OWN_S01"
+      ],
+      "support": 24
+    },
+    {
+      "frequency": 0.8181818181818182,
+      "next_state_id": "PvT_PvT_O07_T300_OWN_S01",
+      "node_id": "N007",
+      "node_type": "frequent",
+      "opponent_state": {
+        "air_presence": "light_or_uncertain",
+        "army_domain": "unknown",
+        "army_style": "unknown",
+        "confidence": "medium",
+        "defense_posture": "light_or_uncertain",
+        "economy_posture": "moderate",
+        "expansion_posture": "moderate",
+        "obs_style_summary_seed": {
+          "enemy_intelligence": "Enemy Intelligence is consistent with a unknown posture; representative observed or remembered cues may include no reliably grounded combat-unit cue. Production appears moderate, technology investment appears moderate, and exact hidden counts remain unknown."
+        },
+        "phase": "early_midgame",
+        "pressure_posture": "unknown",
+        "production_posture": "moderate",
+        "representative_unit_cues": [],
+        "side": "opponent",
+        "source_state_ids": [
+          "PvT_PvT_O07_T240_OPP_S06"
+        ],
+        "special_threats": [],
+        "state_id": "PvT_PvT_O07_T240_OPP_S06",
+        "technology_posture": "moderate"
+      },
+      "own_state": {
+        "air_presence": "light_or_uncertain",
+        "army_domain": "unknown",
+        "army_style": "unknown",
+        "confidence": "medium",
+        "defense_posture": "light_or_uncertain",
+        "economy_posture": "heavy",
+        "expansion_posture": "heavy",
+        "obs_style_summary_seed": {
+          "own_posture": "Your completed or developing posture is broadly unknown-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+        },
+        "phase": "early_midgame",
+        "pressure_posture": "unknown",
+        "production_posture": "moderate",
+        "representative_unit_cues": [
+          {
+            "strength": "representative",
+            "unit": "Stalker"
+          }
+        ],
+        "side": "own",
+        "source_state_ids": [
+          "PvT_PvT_O07_T240_OWN_S03"
+        ],
+        "special_threats": [],
+        "state_id": "PvT_PvT_O07_T240_OWN_S03",
+        "technology_posture": "heavy"
+      },
+      "phase": "early_midgame",
+      "policy_signature": {
+        "air_direction": "continue",
+        "army_direction": "strengthen_ground",
+        "confidence": "medium",
+        "defense_direction": "maintain",
+        "economy_direction": "increase",
+        "expansion_direction": "maintain",
+        "production_direction": "increase",
+        "technology_direction": "increase",
+        "tempo": "develop_with_safety_checks",
+        "upgrade_direction": "increase"
+      },
+      "source_edge_ids": [
+        "E_06487_PvT_O07_PvT_R01_240"
+      ],
+      "source_state_id": "PvT_PvT_O07_T240_OWN_S03",
+      "source_state_ids": [
+        "PvT_PvT_O07_T240_OWN_S03"
+      ],
+      "support": 9
+    }
+  ],
+  "opening_id": "PvT_O07",
+  "opening_projection": {
+    "army_character": "ground-leaning",
+    "economy_character": "heavy",
+    "flexibility_note": "This is a strategic template, not a fixed build order.",
+    "opening_family_seed": "technology / economy / production opening",
+    "opening_name_seed": "PvT_O07 Technology / Economy / Production",
+    "production_character": "moderate",
+    "strategic_goal_seed": "Develop a technology / economy / production posture while preserving flexibility for live observation-driven adaptation.",
+    "technology_character": "heavy"
+  },
+  "opponent_race": "Terran",
+  "provenance": {
+    "allow_exact_obs_counts": false,
+    "method_ir": "01_method_ir/ablation_frequency_only/PvT_O07.json",
+    "projection_is_observation_compatible": true
+  },
+  "race": "Protoss",
+  "states": {
+    "PvT_PvT_O07_T180_OPP_S01": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "early_game",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T180_OPP_S01"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T180_OPP_S01",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T180_OPP_S02": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "unknown",
+      "army_style": "unknown",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a unknown posture; representative observed or remembered cues may include Marine, Reaper. Production appears moderate, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "early_game",
+      "pressure_posture": "unknown",
+      "production_posture": "moderate",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Reaper"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T180_OPP_S02"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T180_OPP_S02",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T180_OPP_S03": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "unknown",
+      "army_style": "unknown",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "heavy",
+      "expansion_posture": "moderate",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a unknown posture; representative observed or remembered cues may include no reliably grounded combat-unit cue. Production appears moderate, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "early_game",
+      "pressure_posture": "unknown",
+      "production_posture": "moderate",
+      "representative_unit_cues": [],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T180_OPP_S03"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T180_OPP_S03",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T180_OPP_S04": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, Reaper. Production appears moderate, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "early_game",
+      "pressure_posture": "possible",
+      "production_posture": "moderate",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Reaper"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T180_OPP_S04"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T180_OPP_S04",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T180_OPP_S05": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, Marauder. Production appears moderate, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "early_game",
+      "pressure_posture": "possible",
+      "production_posture": "moderate",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marauder"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T180_OPP_S05"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T180_OPP_S05",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T180_OPP_S06": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "unknown",
+      "army_style": "unknown",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "moderate",
+      "expansion_posture": "light_or_uncertain",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a unknown posture; representative observed or remembered cues may include no reliably grounded combat-unit cue. Production appears light_or_uncertain, technology investment appears moderate, and exact hidden counts remain unknown."
+      },
+      "phase": "early_game",
+      "pressure_posture": "unknown",
+      "production_posture": "light_or_uncertain",
+      "representative_unit_cues": [],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T180_OPP_S06"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T180_OPP_S06",
+      "technology_posture": "moderate"
+    },
+    "PvT_PvT_O07_T180_OWN_S01": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "unknown",
+      "army_style": "unknown",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "heavy",
+      "expansion_posture": "light_or_uncertain",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly unknown-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "early_game",
+      "pressure_posture": "unknown",
+      "production_posture": "moderate",
+      "representative_unit_cues": [],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T180_OWN_S01"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T180_OWN_S01",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T180_OWN_S02": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "unknown",
+      "army_style": "unknown",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "heavy",
+      "expansion_posture": "moderate",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly unknown-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "early_game",
+      "pressure_posture": "unknown",
+      "production_posture": "moderate",
+      "representative_unit_cues": [],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T180_OWN_S02"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T180_OWN_S02",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T180_OWN_S03": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "unknown",
+      "army_style": "unknown",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly unknown-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "early_game",
+      "pressure_posture": "unknown",
+      "production_posture": "moderate",
+      "representative_unit_cues": [],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T180_OWN_S03"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T180_OWN_S03",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T240_OPP_S01": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, WidowMine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "WidowMine"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T240_OPP_S01"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T240_OPP_S01",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T240_OPP_S02": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Reaper. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Reaper"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T240_OPP_S02"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T240_OPP_S02",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T240_OPP_S03": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T240_OPP_S03"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T240_OPP_S03",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T240_OPP_S04": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T240_OPP_S04"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T240_OPP_S04",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T240_OPP_S05": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include no reliably grounded combat-unit cue. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T240_OPP_S05"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T240_OPP_S05",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T240_OPP_S06": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "unknown",
+      "army_style": "unknown",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "moderate",
+      "expansion_posture": "moderate",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a unknown posture; representative observed or remembered cues may include no reliably grounded combat-unit cue. Production appears moderate, technology investment appears moderate, and exact hidden counts remain unknown."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "unknown",
+      "production_posture": "moderate",
+      "representative_unit_cues": [],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T240_OPP_S06"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T240_OPP_S06",
+      "technology_posture": "moderate"
+    },
+    "PvT_PvT_O07_T240_OWN_S01": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "unknown",
+      "army_style": "unknown",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "moderate",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly unknown-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "unknown",
+      "production_posture": "moderate",
+      "representative_unit_cues": [],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T240_OWN_S01"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T240_OWN_S01",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T240_OWN_S02": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "unknown",
+      "army_style": "unknown",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly unknown-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "unknown",
+      "production_posture": "moderate",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Stalker"
+        }
+      ],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T240_OWN_S02"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T240_OWN_S02",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T240_OWN_S03": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "unknown",
+      "army_style": "unknown",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly unknown-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "unknown",
+      "production_posture": "moderate",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Stalker"
+        }
+      ],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T240_OWN_S03"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T240_OWN_S03",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T300_OPP_S01": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "moderate",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, WidowMine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "WidowMine"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T300_OPP_S01"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T300_OPP_S01",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T300_OPP_S02": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Reaper. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Reaper"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T300_OPP_S02"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T300_OPP_S02",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T300_OPP_S03": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, Reaper. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Reaper"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T300_OPP_S03"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T300_OPP_S03",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T300_OPP_S04": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T300_OPP_S04"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T300_OPP_S04",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T300_OPP_S05": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "moderate",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Reaper, Marauder. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Reaper"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marauder"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T300_OPP_S05"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T300_OPP_S05",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T300_OPP_S06": {
+      "air_presence": "moderate",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, Reaper, Medivac, WidowMine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Reaper"
+        },
+        {
+          "strength": "representative",
+          "unit": "Medivac"
+        },
+        {
+          "strength": "representative",
+          "unit": "WidowMine"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T300_OPP_S06"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T300_OPP_S06",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T300_OPP_S07": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Reaper. Production appears moderate, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "moderate",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Reaper"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T300_OPP_S07"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T300_OPP_S07",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T300_OWN_S01": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "unknown",
+      "army_style": "unknown",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly unknown-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "unknown",
+      "production_posture": "moderate",
+      "representative_unit_cues": [],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T300_OWN_S01"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T300_OWN_S01",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T300_OWN_S02": {
+      "air_presence": "moderate",
+      "army_domain": "air",
+      "army_style": "air_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly air-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Stalker"
+        },
+        {
+          "strength": "representative",
+          "unit": "VoidRay"
+        }
+      ],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T300_OWN_S02"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T300_OWN_S02",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T300_OWN_S03": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Stalker"
+        }
+      ],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T300_OWN_S03"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T300_OWN_S03",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T360_OPP_S01": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "moderate",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine, WidowMine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "SiegeTank"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "WidowMine"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T360_OPP_S01"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T360_OPP_S01",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T360_OPP_S02": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Reaper, WidowMine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Reaper"
+        },
+        {
+          "strength": "representative",
+          "unit": "WidowMine"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T360_OPP_S02"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T360_OPP_S02",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T360_OPP_S03": {
+      "air_presence": "moderate",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "moderate",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, Reaper, Hellion, Battlecruiser. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Reaper"
+        },
+        {
+          "strength": "representative",
+          "unit": "Hellion"
+        },
+        {
+          "strength": "representative",
+          "unit": "Battlecruiser"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T360_OPP_S03"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T360_OPP_S03",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T360_OPP_S04": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "moderate",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, Medivac. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Medivac"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T360_OPP_S04"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T360_OPP_S04",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T360_OPP_S05": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "moderate",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "SiegeTank"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T360_OPP_S05"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T360_OPP_S05",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T360_OPP_S06": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, Reaper. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Reaper"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T360_OPP_S06"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T360_OPP_S06",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T360_OWN_S01": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly ground-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "moderate",
+      "representative_unit_cues": [],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T360_OWN_S01"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T360_OWN_S01",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T360_OWN_S02": {
+      "air_presence": "moderate",
+      "army_domain": "air",
+      "army_style": "air_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "moderate",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly air-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Stalker"
+        },
+        {
+          "strength": "representative",
+          "unit": "VoidRay"
+        }
+      ],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T360_OWN_S02"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T360_OWN_S02",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T360_OWN_S03": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "early_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Stalker"
+        }
+      ],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T360_OWN_S03"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T360_OWN_S03",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T420_OPP_S01": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "moderate",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine, Banshee, WidowMine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "SiegeTank"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Banshee"
+        },
+        {
+          "strength": "representative",
+          "unit": "WidowMine"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T420_OPP_S01"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T420_OPP_S01",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T420_OPP_S02": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, Reaper, WidowMine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Reaper"
+        },
+        {
+          "strength": "representative",
+          "unit": "WidowMine"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T420_OPP_S02"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T420_OPP_S02",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T420_OPP_S03": {
+      "air_presence": "moderate",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "moderate",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, Medivac. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Medivac"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T420_OPP_S03"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T420_OPP_S03",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T420_OPP_S04": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "moderate",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "SiegeTank"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T420_OPP_S04"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T420_OPP_S04",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T420_OPP_S05": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "moderate",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marauder. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marauder"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T420_OPP_S05"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T420_OPP_S05",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T420_OPP_S06": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "moderate",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine, Marauder. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "SiegeTank"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marauder"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T420_OPP_S06"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T420_OPP_S06",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T420_OWN_S01": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T420_OWN_S01"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T420_OWN_S01",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T420_OWN_S02": {
+      "air_presence": "moderate",
+      "army_domain": "air",
+      "army_style": "air_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "moderate",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly air-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Stalker"
+        },
+        {
+          "strength": "representative",
+          "unit": "VoidRay"
+        }
+      ],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T420_OWN_S02"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T420_OWN_S02",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T420_OWN_S03": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Stalker"
+        },
+        {
+          "strength": "representative",
+          "unit": "WarpPrism"
+        }
+      ],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T420_OWN_S03"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T420_OWN_S03",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T480_OPP_S01": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine, Banshee, WidowMine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "SiegeTank"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Banshee"
+        },
+        {
+          "strength": "representative",
+          "unit": "WidowMine"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T480_OPP_S01"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T480_OPP_S01",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T480_OPP_S02": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, Reaper, Marauder, WidowMine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Reaper"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marauder"
+        },
+        {
+          "strength": "representative",
+          "unit": "WidowMine"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T480_OPP_S02"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T480_OPP_S02",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T480_OPP_S03": {
+      "air_presence": "moderate",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "moderate",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, Reaper, Hellion, Battlecruiser. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Reaper"
+        },
+        {
+          "strength": "representative",
+          "unit": "Hellion"
+        },
+        {
+          "strength": "representative",
+          "unit": "Battlecruiser"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T480_OPP_S03"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T480_OPP_S03",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T480_OPP_S04": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine, Banshee. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "SiegeTank"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Banshee"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T480_OPP_S04"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T480_OPP_S04",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T480_OPP_S05": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "moderate",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "SiegeTank"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T480_OPP_S05"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T480_OPP_S05",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T480_OPP_S06": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "light_or_uncertain",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T480_OPP_S06"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T480_OPP_S06",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T480_OWN_S01": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "VoidRay"
+        }
+      ],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T480_OWN_S01"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T480_OWN_S01",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T480_OWN_S02": {
+      "air_presence": "heavy",
+      "army_domain": "air",
+      "army_style": "air_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "moderate",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly air-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Stalker"
+        },
+        {
+          "strength": "representative",
+          "unit": "VoidRay"
+        }
+      ],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T480_OWN_S02"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T480_OWN_S02",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T480_OWN_S03": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "moderate",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T480_OWN_S03"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T480_OWN_S03",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T540_OPP_S01": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine, Banshee, WidowMine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "SiegeTank"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Banshee"
+        },
+        {
+          "strength": "representative",
+          "unit": "WidowMine"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T540_OPP_S01"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T540_OPP_S01",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T540_OPP_S02": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "moderate",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, Reaper, Marauder, WidowMine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Reaper"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marauder"
+        },
+        {
+          "strength": "representative",
+          "unit": "WidowMine"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T540_OPP_S02"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T540_OPP_S02",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T540_OPP_S03": {
+      "air_presence": "moderate",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine, Banshee. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "SiegeTank"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Banshee"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T540_OPP_S03"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T540_OPP_S03",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T540_OPP_S04": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "SiegeTank"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T540_OPP_S04"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T540_OPP_S04",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T540_OPP_S05": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, Marauder. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marauder"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T540_OPP_S05"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T540_OPP_S05",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T540_OPP_S06": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "moderate",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marauder. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marauder"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T540_OPP_S06"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T540_OPP_S06",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T540_OPP_S07": {
+      "air_presence": "moderate",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine, Marauder. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "SiegeTank"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marauder"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T540_OPP_S07"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T540_OPP_S07",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T540_OWN_S01": {
+      "air_presence": "heavy",
+      "army_domain": "air",
+      "army_style": "air_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly air-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "VoidRay"
+        }
+      ],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T540_OWN_S01"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T540_OWN_S01",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T540_OWN_S02": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Stalker"
+        },
+        {
+          "strength": "representative",
+          "unit": "DarkTemplar"
+        },
+        {
+          "strength": "representative",
+          "unit": "WarpPrism"
+        },
+        {
+          "strength": "representative",
+          "unit": "Immortal"
+        }
+      ],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T540_OWN_S02"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T540_OWN_S02",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T540_OWN_S03": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "moderate",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T540_OWN_S03"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T540_OWN_S03",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T600_OPP_S01": {
+      "air_presence": "moderate",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine, Banshee, WidowMine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "late_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "SiegeTank"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Banshee"
+        },
+        {
+          "strength": "representative",
+          "unit": "WidowMine"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T600_OPP_S01"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T600_OPP_S01",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T600_OPP_S02": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, Reaper, Marauder, Hellion. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "late_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Reaper"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marauder"
+        },
+        {
+          "strength": "representative",
+          "unit": "Hellion"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T600_OPP_S02"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T600_OPP_S02",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T600_OPP_S03": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine, Reaper, Medivac. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "late_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "SiegeTank"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Reaper"
+        },
+        {
+          "strength": "representative",
+          "unit": "Medivac"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T600_OPP_S03"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T600_OPP_S03",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T600_OPP_S04": {
+      "air_presence": "moderate",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, Reaper, Hellion, Battlecruiser. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "late_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Reaper"
+        },
+        {
+          "strength": "representative",
+          "unit": "Hellion"
+        },
+        {
+          "strength": "representative",
+          "unit": "Battlecruiser"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T600_OPP_S04"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T600_OPP_S04",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T600_OPP_S05": {
+      "air_presence": "moderate",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine, Banshee. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "late_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "SiegeTank"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Banshee"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T600_OPP_S05"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T600_OPP_S05",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T600_OPP_S06": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, Marauder. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "late_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marauder"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T600_OPP_S06"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T600_OPP_S06",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T600_OPP_S07": {
+      "air_presence": "moderate",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "enemy_intelligence": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine, Marauder. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown."
+      },
+      "phase": "late_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "SiegeTank"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marine"
+        },
+        {
+          "strength": "representative",
+          "unit": "Marauder"
+        }
+      ],
+      "side": "opponent",
+      "source_state_ids": [
+        "PvT_PvT_O07_T600_OPP_S07"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T600_OPP_S07",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T600_OWN_S01": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "late_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "VoidRay"
+        }
+      ],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T600_OWN_S01"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T600_OWN_S01",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T600_OWN_S02": {
+      "air_presence": "heavy",
+      "army_domain": "air",
+      "army_style": "air_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly air-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "late_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Stalker"
+        },
+        {
+          "strength": "representative",
+          "unit": "Sentry"
+        },
+        {
+          "strength": "representative",
+          "unit": "VoidRay"
+        }
+      ],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T600_OWN_S02"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T600_OWN_S02",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T600_OWN_S03": {
+      "air_presence": "light_or_uncertain",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "moderate",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "late_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T600_OWN_S03"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T600_OWN_S03",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T720_OWN_S01": {
+      "air_presence": "heavy",
+      "army_domain": "air",
+      "army_style": "air_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly air-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "late_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "VoidRay"
+        }
+      ],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T720_OWN_S01"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T720_OWN_S01",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T720_OWN_S02": {
+      "air_presence": "moderate",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "late_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Stalker"
+        },
+        {
+          "strength": "representative",
+          "unit": "DarkTemplar"
+        },
+        {
+          "strength": "representative",
+          "unit": "WarpPrism"
+        },
+        {
+          "strength": "representative",
+          "unit": "Immortal"
+        }
+      ],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T720_OWN_S02"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T720_OWN_S02",
+      "technology_posture": "heavy"
+    },
+    "PvT_PvT_O07_T720_OWN_S03": {
+      "air_presence": "moderate",
+      "army_domain": "ground",
+      "army_style": "ground_macro_posture",
+      "confidence": "medium",
+      "defense_posture": "heavy",
+      "economy_posture": "heavy",
+      "expansion_posture": "heavy",
+      "obs_style_summary_seed": {
+        "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions."
+      },
+      "phase": "late_midgame",
+      "pressure_posture": "possible",
+      "production_posture": "heavy",
+      "representative_unit_cues": [
+        {
+          "strength": "representative",
+          "unit": "Carrier"
+        }
+      ],
+      "side": "own",
+      "source_state_ids": [
+        "PvT_PvT_O07_T720_OWN_S03"
+      ],
+      "special_threats": [],
+      "state_id": "PvT_PvT_O07_T720_OWN_S03",
+      "technology_posture": "heavy"
+    }
+  }
+}

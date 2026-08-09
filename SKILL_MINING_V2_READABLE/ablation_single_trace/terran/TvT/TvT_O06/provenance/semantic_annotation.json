@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overextending with expansions before you have a solid defensive position.",
+        "decision_direction": "Maintain current army path, economy, production, and technology. Focus on developing with safety checks.",
+        "exit_or_recheck_condition": "Recheck when you have secured a second expansion or when you have Siege Tanks available.",
+        "next_state_summary": "Early-midgame with a second expansion and Siege Tanks.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "Opponent is Terran, but no specific information is available. Expect possible early pressure.",
+        "own_situation": "You have a ground-oriented army with Marines as the representative unit. Your defense and economy are heavy, but your expansion is light or uncertain. Production is moderate, and technology investment is heavy.",
+        "strategic_reason": "Building a solid foundation with Marines and tech is important to support later transitions. Heavy defense helps survive early aggression.",
+        "title": "Early Game Foundation",
+        "transition_goal": "Transition to a more solid early-midgame posture with a second expansion and Siege Tanks.",
+        "trigger_summary": "Early game phase with a ground-oriented posture, moderate production, and heavy technology investment. Expansion is light or uncertain."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting for potential air transitions or tech switches.",
+        "decision_direction": "Maintain current army path, economy, production, and technology. Continue developing with safety checks.",
+        "exit_or_recheck_condition": "Recheck when you have a solid army composition and are ready to increase production.",
+        "next_state_summary": "Midgame with heavier production and Thors.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "Opponent is Terran, but no specific information is available. Possible pressure remains.",
+        "own_situation": "You have a ground-oriented army with Marines and Siege Tanks. Your defense, economy, and expansion are heavy. Production is moderate, and technology investment is heavy.",
+        "strategic_reason": "Siege Tanks provide strong defensive and positional advantages. Heavy economy supports further tech and production.",
+        "title": "Early-Midgame Consolidation",
+        "transition_goal": "Transition to a midgame posture with heavier production and possibly Thors.",
+        "trigger_summary": "Early-midgame phase with a ground-oriented posture, moderate production, and heavy technology. Expansion is now heavy."
+      },
+      {
+        "avoid_direction": "Avoid becoming too passive; consider using your army to secure map control.",
+        "decision_direction": "Maintain current army path, economy, production, and technology. Continue developing with safety checks.",
+        "exit_or_recheck_condition": "Recheck when you have a strong economy and are ready to increase production significantly.",
+        "next_state_summary": "Late-midgame with heavy production.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "Opponent is Terran, but no specific information is available. Possible pressure remains.",
+        "own_situation": "You have a ground-oriented army with Marines, Siege Tanks, and Thors. Your defense, economy, and expansion are heavy. Production is moderate, and technology investment is heavy.",
+        "strategic_reason": "Thors add anti-air and heavy firepower, making your ground army more versatile. Heavy economy supports a larger army.",
+        "title": "Midgame Production Ramp",
+        "transition_goal": "Transition to a late-midgame posture with heavy production.",
+        "trigger_summary": "Midgame phase with a ground-oriented posture, moderate production, and heavy technology. Expansion is heavy."
+      },
+      {
+        "avoid_direction": "Avoid overcommitting to ground-only forces; keep an eye on potential air threats.",
+        "decision_direction": "Maintain current army path, economy, production, and technology. Continue developing with safety checks.",
+        "exit_or_recheck_condition": "Recheck when you are near max supply or when you need to adapt to the opponent's composition.",
+        "next_state_summary": "Late-game with a powerful ground army.",
+        "node_id": "N004",
+        "node_type": "trace",
+        "opponent_situation": "Opponent is Terran, but no specific information is available. Possible pressure remains.",
+        "own_situation": "You have a ground-oriented army with Marines, Siege Tanks, and Thors. Your defense, economy, and expansion are heavy. Production is heavy, and technology investment is heavy.",
+        "strategic_reason": "Heavy production allows you to sustain a large army and replace losses. Heavy tech gives you access to advanced upgrades and units.",
+        "title": "Late-Midgame Heavy Production",
+        "transition_goal": "Transition to a late-game posture with a maxed army and possibly additional tech.",
+        "trigger_summary": "Late-midgame phase with a ground-oriented posture, heavy production, and heavy technology. Expansion is heavy."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "light_or_uncertain",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "TvT_O06 Balanced Macro",
+      "opening_summary": "A ground-oriented macro opening that emphasizes heavy technology and defense while expanding steadily. The plan is to build a solid foundation with Marines and Siege Tanks, then transition into heavier units like Thors in the mid-game.",
+      "production_character": "light_or_uncertain",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "light_or_uncertain"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "TvT_O06",
+  "projection_path": "02_observation_projection/ablation_single_trace/TvT_O06.json"
+}

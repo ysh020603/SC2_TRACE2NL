@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overcommitting to a single tech path or army composition before the opponent's plan is revealed.",
+        "decision_direction": "Maintain a balanced development path, focusing on economy and production while keeping options open for adaptation.",
+        "exit_or_recheck_condition": "Reassess when you have more information about the opponent's build or when you reach a critical timing (e.g., natural expansion).",
+        "next_state_summary": "Continue developing with a balanced posture, maintaining flexibility.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "The opponent's actions are not yet clear; they could be preparing for a rush, expanding, or teching. No specific threats have been identified.",
+        "own_situation": "Your economy, production, and technology are all in early stages, with no clear commitment to a specific strategy. Army composition is undefined, and you have minimal defensive structures.",
+        "strategic_reason": "Early game uncertainty calls for a flexible approach to avoid being caught off guard by aggressive or economic strategies.",
+        "title": "Early Game Development",
+        "transition_goal": "Reach a stable early-midgame state with a functioning economy and production capacity.",
+        "trigger_summary": "At the start of the game, with limited information about the opponent's intentions, the focus is on establishing a solid foundation."
+      },
+      {
+        "avoid_direction": "Avoid making large investments in tech or expansions without confirming the opponent's intentions.",
+        "decision_direction": "Continue maintaining a balanced approach, but start considering potential transitions based on scouting information.",
+        "exit_or_recheck_condition": "Reassess when you have scouted the opponent's main base or when you see a significant tech structure.",
+        "next_state_summary": "Move into the midgame with a balanced but adaptable posture.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "The opponent may be expanding, teching, or preparing an attack. You have not yet identified their primary threat.",
+        "own_situation": "Your economy and production are still light, but you have the capacity to expand or tech. Your army is still undefined, and you have not committed to a specific composition.",
+        "strategic_reason": "Maintaining flexibility allows you to respond to the opponent's tech or army choices without being locked into a disadvantageous position.",
+        "title": "Early-Midgame Transition",
+        "transition_goal": "Prepare to transition into a more defined strategy once the opponent's plan becomes clearer.",
+        "trigger_summary": "As the game progresses into the early-midgame, you have a basic economy and production, but the opponent's strategy is still not fully scouted."
+      },
+      {
+        "avoid_direction": "Avoid making a large tech switch or expanding too greedily without confirming the opponent's army composition.",
+        "decision_direction": "Maintain a balanced approach but be ready to adapt based on scouting. Consider adding defensive structures or units to counter potential threats.",
+        "exit_or_recheck_condition": "Reassess when you have a clear picture of the opponent's army composition or when you are about to take a third base.",
+        "next_state_summary": "Move into the late-midgame with a more defined strategy.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "The opponent may be preparing a timing attack, expanding, or transitioning to a specific tech. You have not yet identified their primary threat.",
+        "own_situation": "Your economy and production are still light, but you have the potential to expand further or tech up. Your army is still undefined, and you have not committed to a specific composition.",
+        "strategic_reason": "Midgame is a critical point where the opponent's strategy becomes more defined, and you need to be prepared to respond without overcommitting.",
+        "title": "Midgame Adaptation",
+        "transition_goal": "Transition to a more defined army composition or tech path based on the opponent's actions.",
+        "trigger_summary": "In the midgame, you have a reasonable economy and production, but the opponent's strategy is still not fully known. You need to start making more concrete decisions."
+      },
+      {
+        "avoid_direction": "Avoid making a large tech switch or expanding too greedily without confirming the opponent's army composition.",
+        "decision_direction": "Maintain a balanced approach but be ready to adapt based on scouting. Consider adding defensive structures or units to counter potential threats.",
+        "exit_or_recheck_condition": "Reassess when you have a clear picture of the opponent's army composition or when you are about to take a third base.",
+        "next_state_summary": "Move into the late game with a more defined strategy.",
+        "node_id": "N004",
+        "node_type": "trace",
+        "opponent_situation": "The opponent may be preparing a timing attack, expanding, or transitioning to a specific tech. You have not yet identified their primary threat.",
+        "own_situation": "Your economy and production are still light, but you have the potential to expand further or tech up. Your army is still undefined, and you have not committed to a specific composition.",
+        "strategic_reason": "Late-midgame is a critical point where the opponent's strategy becomes more defined, and you need to be prepared to respond without overcommitting.",
+        "title": "Late-Midgame Consolidation",
+        "transition_goal": "Transition to a more defined army composition or tech path based on the opponent's actions.",
+        "trigger_summary": "In the late-midgame, you have a solid economy and production, but the opponent's strategy is still not fully known. You need to start making more concrete decisions."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "light_or_uncertain",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "TvP_O02 Balanced Macro",
+      "opening_summary": "A balanced macro opening that prioritizes a stable economy and flexible production while keeping technology and army composition open. The plan is to develop steadily with safety checks, avoiding commitment to a specific strategy until more information is available.",
+      "production_character": "light_or_uncertain",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "light_or_uncertain"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "TvP_O02",
+  "projection_path": "02_observation_projection/ablation_single_trace/TvP_O02.json"
+}

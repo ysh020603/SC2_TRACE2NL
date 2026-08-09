@@ -1,0 +1,276 @@
+{
+  "allowed_information": {
+    "graph": false,
+    "labels": {
+      "trace": "trace"
+    },
+    "opponent": false,
+    "population": false,
+    "value": false
+  },
+  "method": "ablation_single_trace",
+  "opening_evidence": {
+    "opening_id": "PvZ_O01",
+    "source_trace": {
+      "is_win": 1,
+      "player_id": 1,
+      "replay_id": "008969ef43dc82a3e6b357ef"
+    }
+  },
+  "opening_id": "PvZ_O01",
+  "opponent_race": "Zerg",
+  "opponent_states": [],
+  "own_states": [
+    {
+      "profile": {
+        "own_cum_air": 0.0,
+        "own_cum_defense": 0.0,
+        "own_cum_economy": 0.47,
+        "own_cum_expansion": 0.3333,
+        "own_cum_ground": 0.0,
+        "own_cum_production": 0.1667,
+        "own_cum_technology": 0.75,
+        "own_cum_upgrade": 0.6667
+      },
+      "representative_cues": [
+        0,
+        0,
+        3
+      ],
+      "state_id": "PvZ_PvZ_O01_T180_OWN_S01",
+      "time": 180
+    },
+    {
+      "profile": {
+        "own_cum_air": 0.0,
+        "own_cum_defense": 0.25,
+        "own_cum_economy": 0.55,
+        "own_cum_expansion": 0.3333,
+        "own_cum_ground": 0.0,
+        "own_cum_production": 0.1667,
+        "own_cum_technology": 1.0,
+        "own_cum_upgrade": 0.6667
+      },
+      "representative_cues": [
+        0,
+        0,
+        5
+      ],
+      "state_id": "PvZ_PvZ_O01_T240_OWN_S01",
+      "time": 240
+    },
+    {
+      "profile": {
+        "own_cum_air": 0.0,
+        "own_cum_defense": 0.25,
+        "own_cum_economy": 0.63,
+        "own_cum_expansion": 0.3333,
+        "own_cum_ground": 0.0667,
+        "own_cum_production": 0.1667,
+        "own_cum_technology": 1.0,
+        "own_cum_upgrade": 0.6667
+      },
+      "representative_cues": [
+        1,
+        0,
+        7
+      ],
+      "state_id": "PvZ_PvZ_O01_T300_OWN_S01",
+      "time": 300
+    },
+    {
+      "profile": {
+        "own_cum_air": 0.0,
+        "own_cum_defense": 0.25,
+        "own_cum_economy": 0.7100000000000001,
+        "own_cum_expansion": 0.3333,
+        "own_cum_ground": 0.2,
+        "own_cum_production": 0.1667,
+        "own_cum_technology": 1.0,
+        "own_cum_upgrade": 0.6667
+      },
+      "representative_cues": [
+        3,
+        0,
+        8
+      ],
+      "state_id": "PvZ_PvZ_O01_T360_OWN_S01",
+      "time": 360
+    },
+    {
+      "profile": {
+        "own_cum_air": 0.0,
+        "own_cum_defense": 0.25,
+        "own_cum_economy": 0.87,
+        "own_cum_expansion": 0.3333,
+        "own_cum_ground": 0.2,
+        "own_cum_production": 0.8333,
+        "own_cum_technology": 1.0,
+        "own_cum_upgrade": 0.6667
+      },
+      "representative_cues": [
+        3,
+        0,
+        9
+      ],
+      "state_id": "PvZ_PvZ_O01_T420_OWN_S01",
+      "time": 420
+    },
+    {
+      "profile": {
+        "own_cum_air": 0.125,
+        "own_cum_defense": 0.25,
+        "own_cum_economy": 0.91,
+        "own_cum_expansion": 0.3333,
+        "own_cum_ground": 0.3333,
+        "own_cum_production": 1.0,
+        "own_cum_technology": 1.0,
+        "own_cum_upgrade": 0.6667
+      },
+      "representative_cues": [
+        6,
+        1,
+        10
+      ],
+      "state_id": "PvZ_PvZ_O01_T480_OWN_S01",
+      "time": 480
+    },
+    {
+      "profile": {
+        "own_cum_air": 0.125,
+        "own_cum_defense": 0.25,
+        "own_cum_economy": 0.91,
+        "own_cum_expansion": 0.3333,
+        "own_cum_ground": 0.4667,
+        "own_cum_production": 1.0,
+        "own_cum_technology": 1.0,
+        "own_cum_upgrade": 0.6667
+      },
+      "representative_cues": [
+        8,
+        1,
+        10
+      ],
+      "state_id": "PvZ_PvZ_O01_T540_OWN_S01",
+      "time": 540
+    }
+  ],
+  "provenance": {
+    "method_boundary_applied_before_annotation": true,
+    "source_files": [
+      "04_openings/opening_assignments.parquet",
+      "06_states/state_assignments.parquet"
+    ]
+  },
+  "race": "Protoss",
+  "transitions": [
+    {
+      "next_state_id": "PvZ_PvZ_O01_T240_OWN_S01",
+      "opponent_state_id": null,
+      "phase": [
+        180,
+        240
+      ],
+      "response_cluster_features": {},
+      "response_id": null,
+      "source_state_id": "PvZ_PvZ_O01_T180_OWN_S01",
+      "source_trace": {
+        "player_id": 1,
+        "replay_id": "008969ef43dc82a3e6b357ef"
+      },
+      "statistical_label": "trace",
+      "support": 1,
+      "value_fields": {}
+    },
+    {
+      "next_state_id": "PvZ_PvZ_O01_T300_OWN_S01",
+      "opponent_state_id": null,
+      "phase": [
+        240,
+        300
+      ],
+      "response_cluster_features": {},
+      "response_id": null,
+      "source_state_id": "PvZ_PvZ_O01_T240_OWN_S01",
+      "source_trace": {
+        "player_id": 1,
+        "replay_id": "008969ef43dc82a3e6b357ef"
+      },
+      "statistical_label": "trace",
+      "support": 1,
+      "value_fields": {}
+    },
+    {
+      "next_state_id": "PvZ_PvZ_O01_T360_OWN_S01",
+      "opponent_state_id": null,
+      "phase": [
+        300,
+        360
+      ],
+      "response_cluster_features": {},
+      "response_id": null,
+      "source_state_id": "PvZ_PvZ_O01_T300_OWN_S01",
+      "source_trace": {
+        "player_id": 1,
+        "replay_id": "008969ef43dc82a3e6b357ef"
+      },
+      "statistical_label": "trace",
+      "support": 1,
+      "value_fields": {}
+    },
+    {
+      "next_state_id": "PvZ_PvZ_O01_T420_OWN_S01",
+      "opponent_state_id": null,
+      "phase": [
+        360,
+        420
+      ],
+      "response_cluster_features": {},
+      "response_id": null,
+      "source_state_id": "PvZ_PvZ_O01_T360_OWN_S01",
+      "source_trace": {
+        "player_id": 1,
+        "replay_id": "008969ef43dc82a3e6b357ef"
+      },
+      "statistical_label": "trace",
+      "support": 1,
+      "value_fields": {}
+    },
+    {
+      "next_state_id": "PvZ_PvZ_O01_T480_OWN_S01",
+      "opponent_state_id": null,
+      "phase": [
+        420,
+        480
+      ],
+      "response_cluster_features": {},
+      "response_id": null,
+      "source_state_id": "PvZ_PvZ_O01_T420_OWN_S01",
+      "source_trace": {
+        "player_id": 1,
+        "replay_id": "008969ef43dc82a3e6b357ef"
+      },
+      "statistical_label": "trace",
+      "support": 1,
+      "value_fields": {}
+    },
+    {
+      "next_state_id": "PvZ_PvZ_O01_T540_OWN_S01",
+      "opponent_state_id": null,
+      "phase": [
+        480,
+        540
+      ],
+      "response_cluster_features": {},
+      "response_id": null,
+      "source_state_id": "PvZ_PvZ_O01_T480_OWN_S01",
+      "source_trace": {
+        "player_id": 1,
+        "replay_id": "008969ef43dc82a3e6b357ef"
+      },
+      "statistical_label": "trace",
+      "support": 1,
+      "value_fields": {}
+    }
+  ]
+}

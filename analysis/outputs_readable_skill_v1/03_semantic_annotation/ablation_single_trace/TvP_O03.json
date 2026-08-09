@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid over-committing to a single strategy or neglecting defense, as the opponent's plan is unknown.",
+        "decision_direction": "Maintain current development path, focusing on economy and expansion while keeping production and tech balanced.",
+        "exit_or_recheck_condition": "Re-evaluate when more information about the opponent's composition or pressure becomes available.",
+        "next_state_summary": "Transition to early-midgame with continued expansion and increased technology investment.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "No reliable information about the Protoss opponent's build or intentions.",
+        "own_situation": "Early game with moderate economy and production, heavy expansion posture, but army composition and defense are uncertain. Technology is moderate.",
+        "strategic_reason": "Establish a solid economic and technological foundation to support future transitions, without committing to a specific army composition prematurely.",
+        "title": "Early Game Foundation",
+        "transition_goal": "Progress to a more defined mid-game posture with clearer army direction.",
+        "trigger_summary": "At the start of the game, with limited information about the opponent's intentions."
+      },
+      {
+        "avoid_direction": "Avoid neglecting army production in favor of tech, as the opponent could exploit a weak defense.",
+        "decision_direction": "Continue maintaining the current path, but start considering defensive upgrades and army composition shifts.",
+        "exit_or_recheck_condition": "Re-evaluate when the opponent's first significant move is scouted or when army composition becomes clearer.",
+        "next_state_summary": "Transition to a ground-macro posture with heavy production and defense.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "Still limited information, but the opponent may be preparing for pressure or tech play.",
+        "own_situation": "Economy and expansion are heavy, production is moderate, technology is heavy. Army composition is still unknown, but Marines are present. Defense is light or uncertain.",
+        "strategic_reason": "With heavy tech investment, it's important to ensure the army can defend against potential early pressure while continuing to expand.",
+        "title": "Early-Mid Transition",
+        "transition_goal": "Move towards a ground-based army composition with stronger defensive capabilities.",
+        "trigger_summary": "As the game progresses into the early-mid phase, with some scouting information gathered."
+      },
+      {
+        "avoid_direction": "Avoid overextending without scouting, as the opponent could have hidden tech or a large army.",
+        "decision_direction": "Maintain the current ground-macro path, focusing on army upgrades and tech transitions to support the composition.",
+        "exit_or_recheck_condition": "Re-evaluate when the opponent's tech path is scouted or when a major engagement is imminent.",
+        "next_state_summary": "Transition to late-midgame with added air presence and Siege Tanks.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "The Protoss opponent may be preparing for a timing attack or tech switch, but details are unclear.",
+        "own_situation": "Heavy economy, production, and technology. Army is ground-based with Marines, Reapers, and Widow Mines. Defense is heavy, and pressure is possible.",
+        "strategic_reason": "A heavy ground army with defensive structures can hold most midgame threats while allowing for tech upgrades to improve army efficiency.",
+        "title": "Midgame Ground Macro",
+        "transition_goal": "Prepare for late-midgame by adding air support or additional tech units.",
+        "trigger_summary": "Entering the midgame with a clear ground-based army composition and heavy economy."
+      },
+      {
+        "avoid_direction": "Avoid becoming too immobile or lacking anti-air, as Protoss can transition to air-based compositions.",
+        "decision_direction": "Continue maintaining the current path, but consider adding more air units or tech to counter potential Protoss air or spellcasters.",
+        "exit_or_recheck_condition": "Re-evaluate when the opponent's late-game composition is scouted or when a decisive engagement is forced.",
+        "next_state_summary": "Continue developing towards a late-game composition with a balanced ground and air mix.",
+        "node_id": "N004",
+        "node_type": "trace",
+        "opponent_situation": "The Protoss opponent may be transitioning to a late-game composition, but their exact plan is still uncertain.",
+        "own_situation": "Heavy economy, production, and technology. Army includes Siege Tanks, Marines, Reapers, and Medivacs. Defense is heavy, and pressure is possible.",
+        "strategic_reason": "With a solid ground core, adding Medivacs and potentially Vikings or Liberators can provide mobility and support, while Siege Tanks anchor the defense.",
+        "title": "Late-Midgame Consolidation",
+        "transition_goal": "Prepare for the late game by diversifying the army and maintaining a strong economy.",
+        "trigger_summary": "In the late-midgame, with a strong ground army and moderate air presence."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "moderate to heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "TvP_O03 Balanced Macro",
+      "opening_summary": "A balanced macro-oriented Terran opening against Protoss, focusing on steady economy and tech development while keeping defensive options open. Early game is uncertain, transitioning into a heavy ground-based composition with strong defense and production.",
+      "production_character": "moderate to heavy",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "moderate to heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "TvP_O03",
+  "projection_path": "02_observation_projection/ablation_single_trace/TvP_O03.json"
+}

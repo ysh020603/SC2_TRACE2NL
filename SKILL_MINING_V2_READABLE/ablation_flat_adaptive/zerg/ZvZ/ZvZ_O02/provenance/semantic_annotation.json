@@ -1,0 +1,128 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid over-committing to a single strategy or neglecting scouting.",
+        "decision_direction": "Maintain current development path with safety checks. Focus on economy and expansion while keeping options open.",
+        "exit_or_recheck_condition": "Re-evaluate when more information becomes available, such as scouting units or opponent expansion.",
+        "next_state_summary": "Continue developing with safety checks, potentially transitioning to a more defined posture based on scouting.",
+        "node_id": "N001",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence is consistent with a unknown posture; representative observed or remembered cues may include no reliably grounded combat-unit cue. Production appears light_or_uncertain, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+        "own_situation": "Your completed or developing posture is broadly unknown-oriented, with light_or_uncertain production and technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+        "strategic_reason": "With limited information, it is prudent to develop a solid foundation without committing to a specific aggressive or tech-heavy path.",
+        "title": "Early Game Development with Safety Checks",
+        "transition_goal": "Reach a stable early-midgame position with a clear read on opponent intentions.",
+        "trigger_summary": "Early game, opponent posture unknown, own posture unknown or light."
+      },
+      {
+        "avoid_direction": "Avoid unnecessary aggression or risky tech switches without scouting confirmation.",
+        "decision_direction": "Maintain current development path with safety checks. Continue to expand and tech up cautiously.",
+        "exit_or_recheck_condition": "Re-evaluate when opponent's army composition or expansion count becomes clearer.",
+        "next_state_summary": "Continue developing, possibly transitioning to a more defined strategy based on scouting.",
+        "node_id": "N002",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence is consistent with a unknown posture; representative observed or remembered cues may include no reliably grounded combat-unit cue. Production appears light_or_uncertain, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+        "own_situation": "Your completed or developing posture is broadly unknown-oriented, with light_or_uncertain production and technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+        "strategic_reason": "Still lacking concrete information, maintaining a balanced approach reduces risk of being caught off guard.",
+        "title": "Early-Midgame Development with Safety Checks",
+        "transition_goal": "Reach midgame with a solid economy and army, ready to adapt to opponent's visible choices.",
+        "trigger_summary": "Early-midgame, opponent posture still unknown, own posture unknown or light."
+      },
+      {
+        "avoid_direction": "Avoid neglecting army production or scouting, as opponent could be hiding a tech switch.",
+        "decision_direction": "Maintain current development path with safety checks. Focus on army composition and tech upgrades.",
+        "exit_or_recheck_condition": "Re-evaluate when opponent's tech or army composition becomes apparent.",
+        "next_state_summary": "Continue developing, possibly transitioning to a more aggressive or defensive posture based on scouting.",
+        "node_id": "N003",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence is consistent with a unknown posture; representative observed or remembered cues may include no reliably grounded combat-unit cue. Production appears light_or_uncertain, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+        "own_situation": "Your completed or developing posture is broadly unknown-oriented, with light_or_uncertain production and technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+        "strategic_reason": "With no clear threat, continuing to develop economy and tech is beneficial, but keep safety in mind.",
+        "title": "Midgame Development with Safety Checks",
+        "transition_goal": "Reach late-midgame with a strong economy and a versatile army.",
+        "trigger_summary": "Midgame, opponent posture still unknown, own posture unknown or light."
+      },
+      {
+        "avoid_direction": "Avoid being caught with a weak army or economy if the opponent suddenly attacks.",
+        "decision_direction": "Maintain current development path with safety checks. Prepare for potential late-game transitions.",
+        "exit_or_recheck_condition": "Re-evaluate when opponent's intentions become clear or when you have enough information to commit.",
+        "next_state_summary": "Continue developing, possibly transitioning to a more defined strategy based on scouting.",
+        "node_id": "N004",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence is consistent with a unknown posture; representative observed or remembered cues may include no reliably grounded combat-unit cue. Production appears light_or_uncertain, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+        "own_situation": "Your completed or developing posture is broadly unknown-oriented, with light_or_uncertain production and technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+        "strategic_reason": "As the game progresses, it's important to have a solid foundation to support any necessary transitions.",
+        "title": "Late-Midgame Development with Safety Checks",
+        "transition_goal": "Reach a position where you can respond to opponent's strategy effectively.",
+        "trigger_summary": "Late-midgame, opponent posture still unknown, own posture unknown or light."
+      },
+      {
+        "avoid_direction": "Avoid over-investing in tech or air without confirming opponent's air capabilities.",
+        "decision_direction": "Strengthen ground army and increase defense while continuing economy and expansion.",
+        "exit_or_recheck_condition": "Re-evaluate when opponent's army composition or pressure level becomes clearer.",
+        "next_state_summary": "Continue developing ground forces and economy, possibly transitioning to a more aggressive stance if opponent is passive.",
+        "node_id": "N005",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Queen. Production appears moderate, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+        "own_situation": "Your completed or developing posture is broadly ground-oriented, with moderate production and light_or_uncertain technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+        "strategic_reason": "Opponent's ground posture suggests potential early pressure, so building a defensive ground force is prudent.",
+        "title": "Early Game Ground Defense and Economy",
+        "transition_goal": "Stabilize your defense and continue economic growth.",
+        "trigger_summary": "Early game, opponent shows ground posture with Queen, own ground posture with Zergling."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting for potential tech switches.",
+        "decision_direction": "Strengthen ground army and increase economy while maintaining defense.",
+        "exit_or_recheck_condition": "Re-evaluate when opponent's tech or army composition changes.",
+        "next_state_summary": "Continue developing ground forces and economy, possibly transitioning to a more defined strategy.",
+        "node_id": "N006",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Queen. Production appears moderate, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+        "own_situation": "Your completed or developing posture is broadly ground-oriented, with moderate production and light_or_uncertain technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+        "strategic_reason": "With opponent on ground, focusing on ground army and economy is a safe bet.",
+        "title": "Early Game Ground Development",
+        "transition_goal": "Reach a solid early-midgame position with a strong ground army.",
+        "trigger_summary": "Early game, opponent shows ground posture with Queen, own ground posture with moderate economy."
+      },
+      {
+        "avoid_direction": "Avoid over-committing to a single unit composition without scouting.",
+        "decision_direction": "Continue strengthening ground army and economy, maintain defense.",
+        "exit_or_recheck_condition": "Re-evaluate when opponent's tech or army composition becomes clearer.",
+        "next_state_summary": "Continue developing ground forces and economy, possibly transitioning to a more aggressive or tech-heavy strategy.",
+        "node_id": "N007",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zergling. Production appears moderate, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+        "own_situation": "Your completed or developing posture is broadly ground-oriented, with moderate production and light_or_uncertain technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+        "strategic_reason": "Both sides are on ground, so continuing to build a strong ground army and economy is key.",
+        "title": "Early-Midgame Ground Macro",
+        "transition_goal": "Reach midgame with a strong ground army and economy, ready to adapt.",
+        "trigger_summary": "Early-midgame, opponent shows ground posture with Zergling, own ground posture with Zergling and Queen."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "light_or_uncertain",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "economy / ground / expansion opening",
+      "opening_name": "ZvZ_O02 Economy / Ground / Expansion",
+      "opening_summary": "This opening focuses on developing a robust economy and expanding while maintaining a ground-oriented army. It is flexible and adapts based on scouting information.",
+      "production_character": "light_or_uncertain",
+      "strategic_goal": "Develop a economy / ground / expansion posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "light_or_uncertain"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_flat_adaptive",
+  "method_specific_annotation": true,
+  "opening_id": "ZvZ_O02",
+  "projection_path": "02_observation_projection/ablation_flat_adaptive/ZvZ_O02.json"
+}

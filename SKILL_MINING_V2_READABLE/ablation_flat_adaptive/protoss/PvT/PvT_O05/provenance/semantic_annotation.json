@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid neglecting scouting and defense. Even though the opponent's posture is unknown, a Reaper could indicate early harassment. Do not over-invest in tech at the expense of a basic army.",
+        "decision_direction": "Continue developing your economy and technology, while strengthening your ground army. Maintain your current expansion and defense posture.",
+        "exit_or_recheck_condition": "Recheck when you have a clearer picture of the opponent's army composition or when you are ready to move into the early-mid game.",
+        "next_state_summary": "Progress to a ground-oriented army with Stalkers and Sentries, maintaining heavy economy and tech.",
+        "node_id": "N001",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows a heavy economy and tech investment, with moderate production. Their army posture is unknown, but a Reaper may be present. They are likely expanding and teching up.",
+        "own_situation": "You have a heavy economy and tech focus, with moderate production. Your army is light or uncertain, but you have Zealots as a core unit. You are expanding and investing in technology.",
+        "strategic_reason": "This opening aims to secure a strong economic and tech lead. By investing in economy and tech, you set up for a powerful mid-game. The moderate production suggests you should not overcommit to early aggression but focus on macro.",
+        "title": "Early Game Tech/Eco Development",
+        "transition_goal": "Transition to a more defined ground army composition, likely with Stalkers and Sentries, while continuing to expand and tech.",
+        "trigger_summary": "Early game, both sides have heavy economy and tech investment, with moderate production. Opponent posture is unknown, possibly with Reaper presence."
+      },
+      {
+        "avoid_direction": "Avoid neglecting detection and anti-harassment. Reapers can harass, and Marines can be aggressive. Do not over-expand without sufficient defense.",
+        "decision_direction": "Strengthen your ground army, increase production, and continue teching. Maintain your economy and expansion, but be ready to defend against possible pressure.",
+        "exit_or_recheck_condition": "Recheck when you have a better read on the opponent's tech path or when you are ready to move to the mid-game.",
+        "next_state_summary": "Progress to a mid-game ground army with Sentries and Immortals, maintaining heavy production and tech.",
+        "node_id": "N002",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows a ground posture with Marines and possibly Reapers. They have heavy production and tech, and are likely expanding. Their defense is moderate, and they may apply pressure.",
+        "own_situation": "You have a ground-oriented army with Stalkers and Zealots, moderate production, and heavy tech. Your economy is strong, and you are expanding.",
+        "strategic_reason": "The opponent is likely to build a bio-based army. By strengthening your ground forces and teching, you prepare for the mid-game. Increasing production ensures you can sustain your army.",
+        "title": "Early-Mid Ground Army Transition",
+        "transition_goal": "Transition to a more robust ground composition, possibly including Sentries and Immortals, while continuing to tech towards Colossus or other tech units.",
+        "trigger_summary": "Early-mid game, both sides have a ground-oriented army with heavy economy and tech. Opponent has a ground macro posture with Marines and possibly Reapers."
+      },
+      {
+        "avoid_direction": "Avoid being too passive. The opponent may try to out-macro you. Do not neglect upgrades and tech transitions.",
+        "decision_direction": "Continue strengthening your ground army, increase production, and maintain your tech advantage. Keep expanding and defending.",
+        "exit_or_recheck_condition": "Recheck when you see the opponent's tech choices or when you are ready to move to the late-mid game.",
+        "next_state_summary": "Progress to a late-mid game army with more Colossus and Zealots, maintaining heavy production and tech.",
+        "node_id": "N003",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows a ground posture with Marines, Marauders, and Medivacs. They have heavy production and tech, and are likely to push with a bio army.",
+        "own_situation": "You have a ground-oriented army with Colossus, Stalkers, Sentries, and Warp Prisms. Your production and tech are heavy, and your economy is strong.",
+        "strategic_reason": "The opponent's bio army is strong in the mid-game. Colossus and Sentries provide good area damage and utility. Increasing production ensures you can replace losses and maintain army size.",
+        "title": "Mid-Game Ground Tech Army",
+        "transition_goal": "Transition to a late-mid game army with more Colossus or possibly transition to air if the opponent goes heavy on ground.",
+        "trigger_summary": "Mid-game, both sides have heavy ground armies and tech. Opponent has a ground macro posture with Marines, Marauders, and Medivacs."
+      },
+      {
+        "avoid_direction": "Avoid being caught off guard by a tech switch. The opponent may add air units or more tanks. Do not neglect scouting and upgrades.",
+        "decision_direction": "Continue strengthening your ground army, increase production, and maintain your tech advantage. Keep expanding and defending.",
+        "exit_or_recheck_condition": "Recheck when you see the opponent's final tech choices or when you are ready to move to the late game.",
+        "next_state_summary": "Progress to a late-game army with a mix of Colossus, High Templar, and possibly air units, maintaining heavy production and tech.",
+        "node_id": "N004",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows a ground posture with Marines, Marauders, and Medivacs. They have heavy production and tech, and are likely to have a large bio army.",
+        "own_situation": "You have a ground-oriented army with Colossus, Zealots, Stalkers, and Sentries. Your production and tech are heavy, and your economy is strong. Your defense is moderate.",
+        "strategic_reason": "The opponent's bio army is strong, but your Colossus and Zealots can counter it. Increasing production ensures you can sustain a long fight. Maintaining tech allows you to transition if needed.",
+        "title": "Late-Mid Game Ground Army Consolidation",
+        "transition_goal": "Transition to a late-game army with more Colossus or possibly add High Templar for storm, or transition to air if the opponent goes heavy on ground.",
+        "trigger_summary": "Late-mid game, both sides have heavy ground armies and tech. Opponent has a ground macro posture with Marines, Marauders, and Medivacs."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "technology / economy / expansion opening",
+      "opening_name": "PvT_O05 Technology / Economy / Expansion",
+      "opening_summary": "A Protoss opening that prioritizes heavy technology and economy while expanding, with moderate production. It aims to build a strong macro foundation and tech advantage, adapting to the opponent's actions.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a technology / economy / expansion posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_flat_adaptive",
+  "method_specific_annotation": true,
+  "opening_id": "PvT_O05",
+  "projection_path": "02_observation_projection/ablation_flat_adaptive/PvT_O05.json"
+}

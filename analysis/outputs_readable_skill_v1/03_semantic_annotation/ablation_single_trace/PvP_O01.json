@@ -1,0 +1,58 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid making early aggressive moves or committing to a specific army composition before scouting information is available.",
+        "decision_direction": "Maintain current development path, focusing on economy and technology while keeping production moderate. Avoid overcommitting to defense or army composition until more information is available.",
+        "exit_or_recheck_condition": "Re-evaluate when the opponent's strategy becomes apparent or when key milestones (e.g., natural expansion, tech building) are reached.",
+        "next_state_summary": "By the early midgame, the economy and technology remain heavy, but expansion posture becomes heavy, and a Stalker appears as a representative unit, indicating a shift toward a ground-based army.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "No reliable information about the opponent's composition or strategy at this stage.",
+        "own_situation": "Early game with heavy economy and technology investment, moderate production, and light defense. Army composition is unknown, and there is no significant air presence.",
+        "strategic_reason": "A heavy technology investment provides long-term flexibility, allowing adaptation to the opponent's strategy once it becomes clearer. Moderate production ensures a stable economy without sacrificing too much early game presence.",
+        "title": "Early Game Heavy Tech Development",
+        "transition_goal": "Transition to a more defined army composition and expansion posture as the game progresses, while continuing to develop economy and technology.",
+        "trigger_summary": "At the start of the game, focus on establishing a strong economy and technology base while keeping production moderate and defense light."
+      },
+      {
+        "avoid_direction": "Avoid committing to a single army composition too early, and avoid neglecting scouting or defensive preparations.",
+        "decision_direction": "Continue developing the ground army while maintaining the heavy economy and technology investment. Keep production moderate and avoid overextending defensively.",
+        "exit_or_recheck_condition": "Re-evaluate when the opponent's strategy is scouted or when the army composition needs to be adjusted based on the opponent's threats.",
+        "next_state_summary": "The next state shows a heavier production posture and a ground-oriented army with Zealots, indicating a more committed ground army strategy.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "Still no reliable information about the opponent's composition or strategy.",
+        "own_situation": "Early midgame with heavy economy, technology, and expansion. Production is moderate, and the army is starting to form with a Stalker as a representative unit. Defense remains light, and air presence is still uncertain.",
+        "strategic_reason": "The heavy economy and technology base supports a strong transition into a ground army. Maintaining moderate production allows for flexibility in responding to the opponent's actions.",
+        "title": "Early Midgame Ground Army Transition",
+        "transition_goal": "Transition to a more defined ground army composition, possibly including Zealots and Stalkers, while continuing to expand and tech up.",
+        "trigger_summary": "As the game enters the early midgame, the expansion posture becomes heavy, and a Stalker is produced, signaling a transition toward a ground-based army."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "PvP_O01 Balanced Macro",
+      "opening_summary": "A balanced Protoss opening that prioritizes economy and technology while keeping production moderate and defense light. It aims to reach a heavy economy and technology posture by the early midgame, with a possible transition to a ground-based army.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "PvP_O01",
+  "projection_path": "02_observation_projection/ablation_single_trace/PvP_O01.json"
+}

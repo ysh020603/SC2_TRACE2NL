@@ -1,0 +1,100 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overcommitting to early aggression that could compromise your economy.",
+        "decision_direction": "Continue developing your economy and technology while strengthening your ground army. Maintain defensive readiness.",
+        "exit_or_recheck_condition": "Re-evaluate if the opponent shows signs of a tech switch or heavy air investment.",
+        "next_state_summary": "Progress to a midgame state with stronger ground forces and continued economic growth.",
+        "node_id": "N001",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence suggests a ground posture with possible Reapers and Hellions. Their economy and technology are heavy, and they may apply early pressure.",
+        "own_situation": "You have a heavy economy and technology investment, with a ground-oriented army including Reapers and Hellions. Defense is moderate, and you are prepared for possible early pressure.",
+        "strategic_reason": "This opening aims to outscale the opponent economically and technologically. A solid ground core provides safety against early aggression.",
+        "title": "Early-Midgame Ground Macro",
+        "transition_goal": "Transition smoothly into the midgame with a strong economy and tech advantage.",
+        "trigger_summary": "Early-midgame phase with both players on heavy economy and technology, ground-oriented armies, and possible early pressure."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting for potential tech switches or drops.",
+        "decision_direction": "Increase your air presence and continue strengthening your ground army. Maintain expansion and production.",
+        "exit_or_recheck_condition": "Re-evaluate if the opponent commits heavily to air or shows signs of a different tech path.",
+        "next_state_summary": "Move towards a late-midgame state with a more diversified army.",
+        "node_id": "N002",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows a similar ground posture with Siege Tanks and Marines. They also have heavy economy and technology, and may be preparing for a push.",
+        "own_situation": "You have a heavy economy and technology, with a ground army including Siege Tanks and Marines. Your defense is moderate, and you are expanding.",
+        "strategic_reason": "As the game progresses, adding air units (e.g., Medivacs, Vikings) provides mobility and support. Continuing tech upgrades keeps you ahead.",
+        "title": "Midgame Ground Tech Transition",
+        "transition_goal": "Build a balanced army composition with both ground and air components.",
+        "trigger_summary": "Midgame phase with both players having heavy ground armies including Siege Tanks and Marines, and moderate air presence."
+      },
+      {
+        "avoid_direction": "Avoid making risky commitments without information.",
+        "decision_direction": "Focus on establishing a solid economy and tech base. Use the Reaper for scouting to gather information.",
+        "exit_or_recheck_condition": "Re-evaluate once you have more information about the opponent's build.",
+        "next_state_summary": "Progress to a more defined early-midgame state.",
+        "node_id": "N003",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows a Marine, suggesting a ground-oriented build. Their economy and technology are heavy, and they may be preparing for early pressure.",
+        "own_situation": "Your army composition is not yet clear, but you have a Reaper. Your economy is heavy, and technology investment is high. Defense is light.",
+        "strategic_reason": "Early game is about setting up for the midgame. Scouting with Reaper helps identify opponent's intentions.",
+        "title": "Early Game Ground Development",
+        "transition_goal": "Transition to a clear ground-oriented army composition with a strong economy.",
+        "trigger_summary": "Early game phase with your army composition unknown, but you have a Reaper. Opponent shows a Marine, indicating a ground posture."
+      },
+      {
+        "avoid_direction": "Avoid committing to a specific tech path without sufficient information.",
+        "decision_direction": "Continue scouting to determine opponent's build. Maintain your ground army and economy development.",
+        "exit_or_recheck_condition": "Re-evaluate once you have a clearer picture of the opponent's intentions.",
+        "next_state_summary": "Transition to a more informed early-midgame state.",
+        "node_id": "N004",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows a Reaper, but their overall army composition is unknown. They have a heavy economy and technology.",
+        "own_situation": "You have a ground-oriented army with Marines and Reapers. Your economy is heavy, and technology investment is high. Defense is light.",
+        "strategic_reason": "Information is key in the early game. Knowing the opponent's tech path allows you to adapt your build accordingly.",
+        "title": "Early Game Scouting and Adaptation",
+        "transition_goal": "Gain enough information to choose an appropriate midgame strategy.",
+        "trigger_summary": "Early game phase with your army including Marines and Reapers, while opponent's army is unknown but has a Reaper."
+      },
+      {
+        "avoid_direction": "Avoid being caught off guard by a sudden tech switch or drop play.",
+        "decision_direction": "Continue increasing your air presence and strengthening your ground army. Maintain production and expansion.",
+        "exit_or_recheck_condition": "Re-evaluate if the opponent shows signs of transitioning to a different composition.",
+        "next_state_summary": "Move towards a late-game state with a powerful, well-rounded army.",
+        "node_id": "N005",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows a similar heavy ground army. They also have heavy economy and technology, and may be preparing for a decisive engagement.",
+        "own_situation": "You have a heavy economy and technology, with a strong ground army. Your defense is heavy, and you are well-established.",
+        "strategic_reason": "As the game reaches late-midgame, having a balanced army with air support is crucial for map control and engagements.",
+        "title": "Late-Midgame Ground Army Consolidation",
+        "transition_goal": "Prepare for the late game by ensuring a strong economy and versatile army.",
+        "trigger_summary": "Late-midgame phase with both players having heavy ground armies including Siege Tanks, Marines, Reapers, and Hellions, and moderate air presence."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order. Adapt based on live observations.",
+      "opening_family": "expansion / economy / technology opening",
+      "opening_name": "TvT_O04 Expansion / Economy / Technology",
+      "opening_summary": "A Terran mirror opening that prioritizes economic and technological development over early aggression, aiming for a strong midgame position.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a robust economy and technology base while maintaining flexibility to adapt to opponent's actions.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_flat_adaptive",
+  "method_specific_annotation": true,
+  "opening_id": "TvT_O04",
+  "projection_path": "02_observation_projection/ablation_flat_adaptive/TvT_O04.json"
+}

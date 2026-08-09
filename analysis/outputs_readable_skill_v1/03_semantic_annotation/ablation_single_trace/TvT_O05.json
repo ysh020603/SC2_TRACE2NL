@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid committing to a specific army composition or overextending production before knowing the opponent's plan.",
+        "decision_direction": "Maintain current development path with a focus on technology and economy, while keeping production moderate to allow for flexibility.",
+        "exit_or_recheck_condition": "Re-evaluate when more information about the opponent's strategy becomes available, or when the next phase of the game begins.",
+        "next_state_summary": "Move to a state with a ground-oriented army and heavier production.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "No reliable information about the opponent's composition or strategy yet.",
+        "own_situation": "Early game, economy heavy, technology heavy, production moderate, army unknown, defense light, expansion light, air presence light or uncertain.",
+        "strategic_reason": "Investing in technology early can provide long-term advantages, but it is important to remain flexible to respond to opponent actions.",
+        "title": "Early Game Technology Focus",
+        "transition_goal": "Transition to a more defined ground-based army composition as the game progresses.",
+        "trigger_summary": "At the start of the game, the focus is on establishing a technology advantage while keeping production moderate. The army composition is not yet defined, with only a Marauder as a representative unit."
+      },
+      {
+        "avoid_direction": "Avoid neglecting air defense or scouting, as the opponent might transition to air units.",
+        "decision_direction": "Continue developing the ground army and expanding, while maintaining a heavy economy and technology investment.",
+        "exit_or_recheck_condition": "Re-evaluate when the opponent's composition becomes clearer or when transitioning to the midgame.",
+        "next_state_summary": "Move to a state with a more developed ground army and possible air presence.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "Still limited information, but the opponent is likely also developing a macro strategy.",
+        "own_situation": "Early midgame, economy heavy, technology heavy, production heavy, army ground, defense light, expansion heavy, air presence light or uncertain.",
+        "strategic_reason": "A strong ground army with heavy production and expansion can provide a solid foundation for midgame engagements.",
+        "title": "Ground Army Development",
+        "transition_goal": "Transition to a more mixed army composition as the game progresses, incorporating air units if needed.",
+        "trigger_summary": "The army composition becomes ground-oriented with Marines as the representative unit. Production and expansion are now heavy, indicating a commitment to a macro-oriented ground strategy."
+      },
+      {
+        "avoid_direction": "Avoid becoming too immobile or neglecting air threats, as the opponent might use drops or air units.",
+        "decision_direction": "Maintain the current ground army path with Siege Tanks for defensive strength, while continuing to expand and tech up.",
+        "exit_or_recheck_condition": "Re-evaluate when the opponent's composition is known or when transitioning to the late midgame.",
+        "next_state_summary": "Move to a state with a mixed army composition.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "The opponent is likely also developing a macro strategy, but their exact composition is still uncertain.",
+        "own_situation": "Midgame, economy heavy, technology heavy, production heavy, army ground, defense light, expansion heavy, air presence moderate.",
+        "strategic_reason": "Siege Tanks provide strong defensive capabilities and map control, which is valuable in TvT.",
+        "title": "Midgame Siege Tank Integration",
+        "transition_goal": "Transition to a mixed army composition to handle a wider range of threats.",
+        "trigger_summary": "The army composition now includes Siege Tanks alongside Marines, indicating a focus on defensive positioning and siege capabilities. Production and expansion remain heavy."
+      },
+      {
+        "avoid_direction": "Avoid overcommitting to one domain, as the opponent might exploit a weakness.",
+        "decision_direction": "Maintain the mixed army composition and continue to develop the economy and technology, while keeping an eye on potential threats.",
+        "exit_or_recheck_condition": "Re-evaluate when the opponent's strategy becomes clear or when entering the late game.",
+        "next_state_summary": "Continue with a mixed army and heavy macro posture.",
+        "node_id": "N004",
+        "node_type": "trace",
+        "opponent_situation": "The opponent's composition is still uncertain, but they are likely also in a macro game.",
+        "own_situation": "Late midgame, economy heavy, technology heavy, production heavy, army mixed, defense light, expansion heavy, air presence moderate.",
+        "strategic_reason": "A mixed army provides flexibility to respond to various opponent compositions and strategies.",
+        "title": "Late Midgame Mixed Army",
+        "transition_goal": "Continue to adapt the army composition based on live observations and prepare for late-game transitions.",
+        "trigger_summary": "The army composition becomes mixed, with both ground and air units. The economy and production remain heavy, indicating a strong macro position."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning early, mixed later",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "TvT_O05 Balanced Macro",
+      "opening_summary": "A Terran versus Terran opening that prioritizes a heavy economy and technology investment while keeping production moderate early on. The army composition starts ground-leaning and gradually becomes mixed as the game progresses. The overall posture is flexible, allowing adaptation based on live observations.",
+      "production_character": "moderate early, heavy later",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "TvT_O05",
+  "projection_path": "02_observation_projection/ablation_single_trace/TvT_O05.json"
+}

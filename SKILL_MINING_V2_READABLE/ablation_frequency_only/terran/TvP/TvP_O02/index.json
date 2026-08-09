@@ -1,0 +1,115 @@
+{
+  "method": "ablation_frequency_only",
+  "nodes": {
+    "N001": {
+      "children": [],
+      "path": "nodes/N001.md",
+      "summary": "At the start of the game, both sides show limited information. The opponent's posture is unknown, and your own posture is also uncertain. This node represents the initial phase where you are establishing your economy and technology. Maintain current development path while keeping safety checks active. Focus on economy and technology without overcommitting to a specific army composition.",
+      "title": "Early Game Development with Safety Checks",
+      "trigger_summary": "At the start of the game, both sides show limited information. The opponent's posture is unknown, and your own posture is also uncertain. This node represents the initial phase where you are establishing your economy and technology.",
+      "type": "frequent"
+    },
+    "N002": {
+      "children": [
+        "N005"
+      ],
+      "path": "nodes/N002.md",
+      "summary": "As the game transitions into the early-midgame, both sides still have limited information. The opponent's posture remains unknown, and your own posture is still developing. This node represents a continuation of the development phase. Maintain current development path while keeping safety checks active. Continue to focus on economy and technology, but be prepared to adapt if the opponent reveals their strategy.",
+      "title": "Early-Midgame Development with Safety Checks",
+      "trigger_summary": "As the game transitions into the early-midgame, both sides still have limited information. The opponent's posture remains unknown, and your own posture is still developing. This node represents a continuation of the development phase.",
+      "type": "frequent"
+    },
+    "N003": {
+      "children": [
+        "N007"
+      ],
+      "path": "nodes/N003.md",
+      "summary": "By the midgame, the opponent's posture is still unknown, but you have had time to develop your economy and technology. This node represents a continued focus on development while maintaining safety. Maintain current development path while keeping safety checks active. Continue to build up your economy and technology, but be ready to transition to a more aggressive stance if the opponent shows weakness.",
+      "title": "Midgame Development with Safety Checks",
+      "trigger_summary": "By the midgame, the opponent's posture is still unknown, but you have had time to develop your economy and technology. This node represents a continued focus on development while maintaining safety.",
+      "type": "frequent"
+    },
+    "N004": {
+      "children": [],
+      "path": "nodes/N004.md",
+      "summary": "In the late-midgame, the opponent's posture is still unknown, but you have had ample time to develop your economy and technology. This node represents a continued focus on development while maintaining safety. Maintain current development path while keeping safety checks active. Continue to build up your economy and technology, but be prepared to transition to a more aggressive stance if the opponent shows weakness.",
+      "title": "Late-Midgame Development with Safety Checks",
+      "trigger_summary": "In the late-midgame, the opponent's posture is still unknown, but you have had ample time to develop your economy and technology. This node represents a continued focus on development while maintaining safety.",
+      "type": "frequent"
+    },
+    "N005": {
+      "children": [
+        "N002",
+        "N002"
+      ],
+      "path": "nodes/N005.md",
+      "summary": "The opponent has revealed a ground-oriented posture with Zealots and Sentries, indicating a heavy investment in ground forces. Your own posture is still unknown, but you need to respond to the opponent's composition. Maintain current development path while keeping safety checks active. Consider strengthening your ground forces to counter the opponent's Zealot/Sentry composition.",
+      "title": "Early-Midgame Ground Response",
+      "trigger_summary": "The opponent has revealed a ground-oriented posture with Zealots and Sentries, indicating a heavy investment in ground forces. Your own posture is still unknown, but you need to respond to the opponent's composition.",
+      "type": "frequent"
+    },
+    "N006": {
+      "children": [],
+      "path": "nodes/N006.md",
+      "summary": "The opponent has revealed a ground-oriented posture with Zealots, indicating a possible early pressure. Your own posture is still unknown, but you need to respond to the opponent's composition. Maintain current development path while keeping safety checks active. Consider strengthening your ground forces to counter the opponent's Zealot composition.",
+      "title": "Early Game Ground Response",
+      "trigger_summary": "The opponent has revealed a ground-oriented posture with Zealots, indicating a possible early pressure. Your own posture is still unknown, but you need to respond to the opponent's composition.",
+      "type": "frequent"
+    },
+    "N007": {
+      "children": [
+        "N003"
+      ],
+      "path": "nodes/N007.md",
+      "summary": "The opponent has revealed a ground-oriented posture with Zealots, Stalkers, Sentries, and Observers, indicating a heavy investment in ground forces. Your own posture is still unknown, but you need to respond to the opponent's composition. Maintain current development path while keeping safety checks active. Consider strengthening your ground forces to counter the opponent's composition.",
+      "title": "Midgame Ground Response",
+      "trigger_summary": "The opponent has revealed a ground-oriented posture with Zealots, Stalkers, Sentries, and Observers, indicating a heavy investment in ground forces. Your own posture is still unknown, but you need to respond to the opponent's composition.",
+      "type": "frequent"
+    },
+    "N008": {
+      "children": [],
+      "path": "nodes/N008.md",
+      "summary": "The opponent's posture is unknown, but your own posture is more defined with moderate production and heavy technology investment. This node represents a need to stabilize your position before developing further. Stabilize your economy and production before continuing development. Focus on increasing your economy and production while maintaining your technology lead.",
+      "title": "Early Game Stabilize and Develop",
+      "trigger_summary": "The opponent's posture is unknown, but your own posture is more defined with moderate production and heavy technology investment. This node represents a need to stabilize your position before developing further.",
+      "type": "frequent"
+    },
+    "N009": {
+      "children": [],
+      "path": "nodes/N009.md",
+      "summary": "The opponent has revealed a ground-oriented posture with Zealots and Stalkers, indicating a heavy investment in ground forces. Your own posture is also ground-oriented with marines, reapers, and widow mines, so you need to strengthen your ground forces to counter the opponent. Strengthen your ground forces to counter the opponent's Zealot/Stalker composition. Continue to increase your economy and production to support a larger army.",
+      "title": "Late-Midgame Ground Strengthening",
+      "trigger_summary": "The opponent has revealed a ground-oriented posture with Zealots and Stalkers, indicating a heavy investment in ground forces. Your own posture is also ground-oriented with marines, reapers, and widow mines, so you need to strengthen your ground forces to counter the opponent.",
+      "type": "frequent"
+    },
+    "N010": {
+      "children": [],
+      "path": "nodes/N010.md",
+      "summary": "The opponent has revealed a ground-oriented posture with Zealots and Sentries, indicating a heavy investment in ground forces. Your own posture is also ground-oriented with marines, so you need to strengthen your ground forces to counter the opponent. Strengthen your ground forces to counter the opponent's Zealot/Sentry composition. Continue to increase your economy and production to support a larger army.",
+      "title": "Early-Midgame Ground Strengthening",
+      "trigger_summary": "The opponent has revealed a ground-oriented posture with Zealots and Sentries, indicating a heavy investment in ground forces. Your own posture is also ground-oriented with marines, so you need to strengthen your ground forces to counter the opponent.",
+      "type": "frequent"
+    },
+    "N011": {
+      "children": [],
+      "path": "nodes/N011.md",
+      "summary": "The opponent's posture is unknown, but your own posture is more defined with moderate economy and heavy expansion. This node represents a need to strengthen your ground forces while continuing to develop. Strengthen your ground forces while continuing to develop your economy and technology. Focus on increasing your production and technology to support a stronger army.",
+      "title": "Early Game Ground Strengthening",
+      "trigger_summary": "The opponent's posture is unknown, but your own posture is more defined with moderate economy and heavy expansion. This node represents a need to strengthen your ground forces while continuing to develop.",
+      "type": "frequent"
+    },
+    "N012": {
+      "children": [
+        "N010"
+      ],
+      "path": "nodes/N012.md",
+      "summary": "The opponent's posture is unknown, but your own posture is more defined with ground-oriented forces and heavy technology investment. This node represents a need to strengthen your ground forces while continuing to develop. Strengthen your ground forces while continuing to develop your economy and technology. Focus on increasing your production and technology to support a stronger army.",
+      "title": "Early-Midgame Ground Strengthening",
+      "trigger_summary": "The opponent's posture is unknown, but your own posture is more defined with ground-oriented forces and heavy technology investment. This node represents a need to strengthen your ground forces while continuing to develop.",
+      "type": "frequent"
+    }
+  },
+  "opening_name": "TvP_O02 Technology/Economy/Production Opening",
+  "root": "SKILL.md",
+  "skill_id": "TvP_O02"
+}

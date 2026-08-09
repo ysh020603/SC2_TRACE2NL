@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overcommitting to a specific tech path or army composition without more information. Do not neglect defense despite the macro focus.",
+        "decision_direction": "Maintain current army path, economy, expansion, production, technology, and defense. Develop with safety checks.",
+        "exit_or_recheck_condition": "Recheck when new information about the opponent's composition or pressure becomes available, or when transitioning to the next phase.",
+        "next_state_summary": "Proceed to the early-midgame with a similar ground-oriented macro posture, but with a focus on Queens and continued heavy economy and expansion.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "Opponent information is limited; you only have partial observations. They are Zerg, but their specific composition and intentions are uncertain.",
+        "own_situation": "You have a ground-oriented army with Zerglings and Queens, a heavy economy and expansion posture, but light defense and technology. Production is moderate, and you are in the early game.",
+        "strategic_reason": "Establish a solid macro foundation while keeping options open. The heavy economy and expansion posture aim to secure a long-term advantage, but the light defense and technology require caution against potential early pressure.",
+        "title": "Early Game Ground Macro Foundation",
+        "transition_goal": "Transition smoothly into the early-midgame while maintaining a balanced posture and adjusting based on any new information about the opponent.",
+        "trigger_summary": "Early game phase, with a ground-oriented macro posture, moderate production, and light or uncertain technology investment."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting or over-investing in economy at the expense of safety. Do not commit to a tech path without more information.",
+        "decision_direction": "Maintain current army path, economy, expansion, production, technology, and defense. Develop with safety checks.",
+        "exit_or_recheck_condition": "Recheck when the opponent's intentions become clearer or when you are ready to invest in technology.",
+        "next_state_summary": "Proceed to the midgame with a heavier technology investment and a more solid defense posture.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "Opponent information is still limited; you only have partial observations. They are Zerg, but their specific composition and intentions are uncertain.",
+        "own_situation": "You have a ground-oriented army with Queens as the representative unit, heavy economy and expansion, but light defense and technology. Production is moderate.",
+        "strategic_reason": "Continue building a strong economy and expansion lead while using Queens for defense and creep spread. The light technology suggests a focus on macro, but you must remain alert to potential aggression.",
+        "title": "Early-Midgame Queen-Centric Macro",
+        "transition_goal": "Transition to the midgame with a heavier technology investment and a more defined army composition, while maintaining the macro lead.",
+        "trigger_summary": "Early-midgame phase, with a ground-oriented macro posture, moderate production, and light or uncertain technology investment."
+      },
+      {
+        "avoid_direction": "Avoid overextending or neglecting scouting. Do not assume the opponent is passive; maintain safety checks.",
+        "decision_direction": "Maintain current army path, economy, expansion, production, technology, and defense. Develop with safety checks.",
+        "exit_or_recheck_condition": "Recheck when you have a clear read on the opponent's army composition or when you are ready to push or tech further.",
+        "next_state_summary": "Proceed to the late-midgame with a similar heavy tech ground army, but with a heavier production posture.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "Opponent information is still limited; you only have partial observations. They are Zerg, but their specific composition and intentions are uncertain.",
+        "own_situation": "You have a ground-oriented army with Zerglings and Queens, heavy economy, expansion, and defense. Technology is heavy, and production is moderate.",
+        "strategic_reason": "With heavy technology, you can now consider more advanced units or upgrades. The strong defense and economy provide a stable base to transition into a more powerful army.",
+        "title": "Midgame Heavy Tech Ground Army",
+        "transition_goal": "Transition to the late-midgame with a more defined army composition and possibly a stronger tech advantage.",
+        "trigger_summary": "Midgame phase, with a ground-oriented macro posture, moderate production, and heavy technology investment."
+      },
+      {
+        "avoid_direction": "Avoid becoming too passive; use your production advantage to apply pressure or prepare for a decisive engagement. Do not neglect scouting or upgrades.",
+        "decision_direction": "Maintain current army path, economy, expansion, production, technology, and defense. Develop with safety checks.",
+        "exit_or_recheck_condition": "Recheck when you have a clear advantage or when the opponent's composition requires a response.",
+        "next_state_summary": "Continue to the late game with a strong ground army and heavy production, ready to adapt to the opponent's moves.",
+        "node_id": "N004",
+        "node_type": "trace",
+        "opponent_situation": "Opponent information is still limited; you only have partial observations. They are Zerg, but their specific composition and intentions are uncertain.",
+        "own_situation": "You have a ground-oriented army with Zerglings, Queens, and Overseers, heavy economy, expansion, defense, and production. Technology is heavy.",
+        "strategic_reason": "With heavy production and technology, you can sustain a large army and potentially overwhelm the opponent. The Overseer provides detection and scouting, which is crucial in ZvZ.",
+        "title": "Late-Midgame Heavy Production Ground Army",
+        "transition_goal": "Transition to the late game with a powerful army composition and a clear strategic direction, such as a timing attack or tech switch.",
+        "trigger_summary": "Late-midgame phase, with a ground-oriented macro posture, heavy production, and heavy technology investment."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "ZvZ_O06 Balanced Macro",
+      "opening_summary": "A Zerg versus Zerg opening that focuses on a balanced macro posture, with a ground-oriented army and a heavy economy and expansion focus. Technology investment is initially light or uncertain, but becomes heavier as the game progresses. The opening is designed to be flexible, allowing adaptation based on live observations.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "light_or_uncertain"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "ZvZ_O06",
+  "projection_path": "02_observation_projection/ablation_single_trace/ZvZ_O06.json"
+}

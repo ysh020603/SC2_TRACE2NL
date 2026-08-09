@@ -1,0 +1,58 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overcommitting to a specific army composition or aggressive expansion without more information.",
+        "decision_direction": "Maintain current development path with safety checks, focusing on economy and technology while keeping production moderate.",
+        "exit_or_recheck_condition": "Re-evaluate when more information about the opponent's strategy is available or when transitioning to early-midgame.",
+        "next_state_summary": "Transition to early-midgame with heavier production and Stalker as representative unit.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "No confirmed information about the Terran opponent's composition or strategy at this stage.",
+        "own_situation": "Your economy is heavy, technology is heavy, production is moderate, and defense is light or uncertain. Army composition is unknown but ground-leaning with Zealots as representative. Expansion is light or uncertain.",
+        "strategic_reason": "Early game is a foundation phase; heavy tech investment can pay off later, but moderate production ensures some defensive capability. Maintaining economy supports future transitions.",
+        "title": "Early Game Tech and Economy Focus",
+        "transition_goal": "Progress to a heavier production posture while continuing technology investment.",
+        "trigger_summary": "Early game phase with moderate production and heavy technology investment, representative unit Zealot."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting or defensive preparations, as the opponent's intentions are still unknown.",
+        "decision_direction": "Maintain current development path with safety checks, focusing on heavy production and technology while keeping economy strong.",
+        "exit_or_recheck_condition": "Re-evaluate when the opponent's composition or strategy becomes clearer, or when considering expansion.",
+        "next_state_summary": "Continue with heavy production and technology, adding more Zealots and Stalkers to the army.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "No confirmed information about the Terran opponent's composition or strategy at this stage.",
+        "own_situation": "Your economy is heavy, technology is heavy, production is heavy, and defense is light or uncertain. Army composition is unknown but ground-leaning with Stalkers as representative. Expansion is light or uncertain.",
+        "strategic_reason": "With heavy production, you can start building a more substantial army. Maintaining technology investment keeps options open for later upgrades or tech switches.",
+        "title": "Early-Midgame Production Ramp",
+        "transition_goal": "Continue building a balanced ground army while preparing for potential midgame transitions.",
+        "trigger_summary": "Early-midgame phase with heavy production and heavy technology investment, representative unit Stalker."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "light_or_uncertain",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "PvT_O03 Balanced Macro",
+      "opening_summary": "A flexible Protoss opening against Terran that focuses on a balanced economy and technology development, with early Zealot and Stalker production to provide a safe ground core.",
+      "production_character": "light_or_uncertain",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "light_or_uncertain"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "PvT_O03",
+  "projection_path": "02_observation_projection/ablation_single_trace/PvT_O03.json"
+}

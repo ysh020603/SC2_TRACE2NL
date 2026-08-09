@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid making early army commitments that could be countered. Do not overproduce units at the expense of economy or technology.",
+        "decision_direction": "Maintain your current economic and technology development path. Continue producing workers and investing in technology structures. Keep your options open for army composition.",
+        "exit_or_recheck_condition": "Recheck when you have completed your initial technology structures or when you have scouted the opponent's base.",
+        "next_state_summary": "Continue developing your economy and technology, with production increasing to heavy.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "The opponent is Terran, but their specific actions are not yet known. They may be following any standard opening, so it is important to gather information.",
+        "own_situation": "You are in the early game with a heavy economy and heavy technology investment. Production is moderate, and your army composition is unknown. Your defense is light or uncertain, and you have not expanded yet.",
+        "strategic_reason": "A heavy economy and technology investment will give you a strong foundation for the midgame. By not committing to a specific army composition early, you can adapt to the opponent's strategy.",
+        "title": "Early Game Technology Focus",
+        "transition_goal": "Transition to a more defined army composition once you have scouted the opponent's intentions.",
+        "trigger_summary": "At the start of the game, the focus is on establishing a strong economy and technology base. Production is moderate, and the army composition is not yet defined."
+      },
+      {
+        "avoid_direction": "Avoid neglecting your economy or technology. Do not overcommit to a single attack without proper scouting.",
+        "decision_direction": "Continue producing a ground-based army with Stalkers, Sentries, and Immortals. Use Observers for vision and to detect hidden threats. Maintain your economic and technology development.",
+        "exit_or_recheck_condition": "Recheck when you have a sufficient army size or when you detect a major opponent move.",
+        "next_state_summary": "Your army becomes more defined with Zealots added to the composition, and you continue to expand your economy.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "The opponent is Terran, and you may have some information about their composition. They could be preparing for a push or expanding themselves. Keep an eye on their production and army movements.",
+        "own_situation": "You are in the early midgame with a heavy economy, heavy production, and heavy technology. Your army is starting to form, with Stalkers, Sentries, Observers, and Immortals appearing. Your defense is still light or uncertain, and you have not expanded yet.",
+        "strategic_reason": "A ground army with these units provides a solid core that can handle most Terran compositions. Observers give you crucial information and detection. Heavy production ensures you can reinforce quickly.",
+        "title": "Midgame Transition to Ground Army",
+        "transition_goal": "Transition to a more aggressive posture if the opponent is passive, or prepare defenses if they are aggressive.",
+        "trigger_summary": "As the game progresses into the early midgame, you begin to define your army composition. Production becomes heavy, and you start producing ground units."
+      },
+      {
+        "avoid_direction": "Avoid being caught off guard by drops or multi-pronged attacks. Do not neglect your defense while focusing on economy.",
+        "decision_direction": "Continue producing your ground army and maintain your economy. Consider adding more expansions to support your production. Use Observers to scout and detect incoming threats.",
+        "exit_or_recheck_condition": "Recheck when you have secured a new expansion or when you detect a major opponent move.",
+        "next_state_summary": "You have now expanded, and your economy is even stronger. Your army remains ground-based and ready for the late game.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "The opponent is Terran, and you may have scouted their composition. They could be preparing for a timing attack or expanding. Be aware of potential drops or harassment.",
+        "own_situation": "You are in the midgame with a heavy economy, heavy production, and heavy technology. Your army is ground-based with Zealots, Stalkers, Sentries, and Observers. Your defense is still light or uncertain, but you have a possible pressure posture. You have not expanded yet.",
+        "strategic_reason": "A well-rounded ground army can handle most Terran strategies. Expanding will give you the resources to sustain a long game. Observers provide valuable information.",
+        "title": "Midgame Army Consolidation",
+        "transition_goal": "Transition to a more aggressive stance if you have an army advantage, or continue to macro if the game is even.",
+        "trigger_summary": "In the midgame, your army composition is now well-defined with a mix of Zealots, Stalkers, Sentries, and Observers. Production is heavy, and you are maintaining a strong economy."
+      },
+      {
+        "avoid_direction": "Avoid becoming too passive. If the opponent is expanding, you may need to apply pressure. Do not neglect upgrades or technology.",
+        "decision_direction": "Continue to produce units and maintain your economy. Consider adding more production structures if needed. Use your Observers to keep vision on the map and detect any opponent movements.",
+        "exit_or_recheck_condition": "Recheck when you have maxed out your army or when you are ready to launch a decisive attack.",
+        "next_state_summary": "The game continues into the late game with a strong economy and a well-rounded army.",
+        "node_id": "N004",
+        "node_type": "trace",
+        "opponent_situation": "The opponent is Terran, and they may be preparing for a late-game push or transitioning to a more advanced composition. You need to be ready for anything.",
+        "own_situation": "You are in the late midgame with a heavy economy, heavy production, and heavy technology. Your army is ground-based with Zealots, Stalkers, Sentries, and Observers. You have expanded, and your defense is still light or uncertain, but you have a possible pressure posture.",
+        "strategic_reason": "With a strong economy and a solid army, you are in a good position to transition into the late game. Maintaining vision and production will allow you to respond to any threats.",
+        "title": "Late Midgame Expansion and Stability",
+        "transition_goal": "Transition to a late-game composition that can counter the opponent's final strategy.",
+        "trigger_summary": "In the late midgame, you have secured additional expansions and your economy is strong. Your army is well-developed and you are in a stable position."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "PvT_O06 Balanced Macro",
+      "opening_summary": "A Protoss opening that prioritizes a heavy economy and heavy technology investment while keeping production moderate early on. The army composition is initially undefined, then transitions into a ground-oriented force with Stalkers, Sentries, Observers, and Immortals. Expansion activity remains light until the late midgame, when it becomes heavier. The overall posture is defensive and macro-focused, with a medium confidence level.",
+      "production_character": "moderate to heavy",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "PvT_O06",
+  "projection_path": "02_observation_projection/ablation_single_trace/PvT_O06.json"
+}

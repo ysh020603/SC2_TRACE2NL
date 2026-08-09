@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overcommitting to a single composition without more information; keep options open.",
+        "decision_direction": "Strengthen ground forces while continuing to expand economy and technology. Maintain defense and increase production.",
+        "exit_or_recheck_condition": "Recheck when new information about opponent composition or pressure arrives, or when transitioning to midgame.",
+        "next_state_summary": "Progress to a midgame state with a more defined army composition and stronger defense.",
+        "node_id": "N001",
+        "node_type": "common",
+        "opponent_situation": "Opponent information is limited; no confirmed details on their composition or strategy.",
+        "own_situation": "You have a ground-focused army with heavy production and technology investment. Economy and expansion are heavy, but defense is light or uncertain. Pressure is possible, so maintain awareness.",
+        "strategic_reason": "A heavy economy and technology base supports a strong midgame transition. Strengthening ground forces provides a solid core that can adapt to opponent actions.",
+        "title": "Early-Midgame Ground Macro",
+        "transition_goal": "Transition smoothly into a stronger midgame army, either continuing ground or branching into air if needed.",
+        "trigger_summary": "Early-midgame phase with a ground-oriented macro posture, heavy production and technology, and light or uncertain defense. Representative unit cues include Stalkers."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting or over-investing in one tech path without confirming opponent intentions.",
+        "decision_direction": "Continue strengthening ground forces, increase economy and production, maintain defense, and keep technology advancing.",
+        "exit_or_recheck_condition": "Recheck when opponent composition is scouted or when transitioning to late-midgame.",
+        "next_state_summary": "Move toward late-midgame with a more specialized army, possibly incorporating air units.",
+        "node_id": "N002",
+        "node_type": "common",
+        "opponent_situation": "Opponent information is limited; no confirmed details on their composition or strategy.",
+        "own_situation": "You have a solid ground army with heavy production and technology. Economy and expansion are heavy, defense is moderate. Pressure is possible.",
+        "strategic_reason": "Maintaining a strong economy and tech while building a robust ground army positions you well for midgame engagements and transitions.",
+        "title": "Midgame Ground Macro",
+        "transition_goal": "Prepare for late-midgame by having a versatile army and tech base.",
+        "trigger_summary": "Midgame phase with a ground-oriented macro posture, heavy production and technology, and moderate defense. No specific unit cues."
+      },
+      {
+        "avoid_direction": "Avoid overextending without scouting; keep production flexible.",
+        "decision_direction": "Focus on developing technology and economy while establishing a defensive foundation. Begin to define your army direction.",
+        "exit_or_recheck_condition": "Recheck when you have more information about opponent or when your army composition becomes clearer.",
+        "next_state_summary": "Progress to early-midgame with a more defined army posture.",
+        "node_id": "N003",
+        "node_type": "common",
+        "opponent_situation": "Opponent information is limited; no confirmed details on their composition or strategy.",
+        "own_situation": "You are in the early game with a heavy technology investment and moderate production. Economy is heavy, expansion is moderate, and defense is light or uncertain. Army composition is not yet defined.",
+        "strategic_reason": "Early technology investment sets up strong midgame options. Maintaining economy and production ensures you can support tech choices.",
+        "title": "Early Game Tech Focus",
+        "transition_goal": "Transition into a defined army composition by early-midgame.",
+        "trigger_summary": "Early game phase with unknown army orientation, moderate production, heavy technology, and light or uncertain defense. No unit cues."
+      },
+      {
+        "avoid_direction": "Avoid becoming too one-dimensional; keep ground support to handle anti-air threats.",
+        "decision_direction": "Continue developing air forces while maintaining a strong ground core. Keep economy and production high, and maintain defense.",
+        "exit_or_recheck_condition": "Recheck when opponent composition is confirmed or when transitioning to late game.",
+        "next_state_summary": "Move toward late game with a powerful air-ground hybrid army.",
+        "node_id": "N004",
+        "node_type": "common",
+        "opponent_situation": "Opponent information is limited; no confirmed details on their composition or strategy.",
+        "own_situation": "You have transitioned to an air-heavy army with strong production and technology. Economy and expansion are heavy, defense is heavy. Pressure is possible.",
+        "strategic_reason": "An air-heavy composition with support from ground units provides versatility and can counter many Terran strategies. Heavy economy and tech sustain this army.",
+        "title": "Late-Midgame Air Transition",
+        "transition_goal": "Solidify a late-game army composition that can engage effectively.",
+        "trigger_summary": "Late-midgame phase with a heavy air presence, air-oriented macro posture, heavy production and technology, and heavy defense. Representative units include Stalkers, Sentries, and Void Rays."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "technology / economy / production opening",
+      "opening_name": "PvT_O07 Technology / Economy / Production",
+      "opening_summary": "A Protoss opening that emphasizes heavy technology and economy while maintaining moderate production, aiming to develop a strong midgame posture with flexibility to transition into either ground or air compositions based on live observations.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a technology / economy / production posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_static_population",
+  "method_specific_annotation": true,
+  "opening_id": "PvT_O07",
+  "projection_path": "02_observation_projection/ablation_static_population/PvT_O07.json"
+}

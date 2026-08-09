@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid committing to a specific army composition or aggressive actions before gathering more information.",
+        "decision_direction": "Maintain the current development path, focusing on economy and technology while keeping production moderate.",
+        "exit_or_recheck_condition": "Re-evaluate when the first Stalker is produced or when the opponent's strategy becomes clearer.",
+        "next_state_summary": "Move to a state with a Stalker produced, still maintaining heavy economy and technology, but with production increasing.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "No reliable information about the opponent's strategy or army composition at this stage.",
+        "own_situation": "Early game with heavy economy and technology investment, moderate production, and no clear army composition yet. Defense is light, and expansion is heavy.",
+        "strategic_reason": "A heavy economy and technology investment provides long-term flexibility and allows for a strong mid-game transition.",
+        "title": "Early Game Tech and Economy Focus",
+        "transition_goal": "Transition to a more defined army composition as technology completes and scouting information becomes available.",
+        "trigger_summary": "At the start of the game, the focus is on establishing a strong economy and technology base while keeping production moderate."
+      },
+      {
+        "avoid_direction": "Avoid overcommitting to Stalkers alone; keep options open for other tech paths.",
+        "decision_direction": "Continue the current macro-oriented path, adding Stalkers to the army while maintaining economy and technology development.",
+        "exit_or_recheck_condition": "Re-evaluate when Warp Prism or Observer is produced, or when the opponent's strategy is scouted.",
+        "next_state_summary": "Move to a state with heavier production and a ground-oriented army, including Warp Prism.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "Still no reliable information about the opponent's composition or intentions.",
+        "own_situation": "Early-mid game with a Stalker as the first representative unit. Economy and expansion are heavy, production is increasing, and technology is still heavy.",
+        "strategic_reason": "Stalkers provide a versatile core for the army and can be used for both defense and harassment, fitting the macro-oriented strategy.",
+        "title": "Early-Mid Transition with Stalker Production",
+        "transition_goal": "Transition to a more robust ground army with additional units and support structures.",
+        "trigger_summary": "The first Stalker is produced, indicating the beginning of a ground army, while the economy and technology remain heavy."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting or overextending without proper vision.",
+        "decision_direction": "Maintain the current ground army path, continuing to produce units and tech while keeping an eye on defense.",
+        "exit_or_recheck_condition": "Re-evaluate when Dark Templar is produced or if the opponent shows a specific threat.",
+        "next_state_summary": "Move to a state with Dark Templar in the army, indicating a tech switch.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "The opponent's strategy is still not fully known, but the possibility of pressure exists.",
+        "own_situation": "Midgame with a ground-based army, heavy production and technology, and a possible pressure posture. Economy and expansion remain heavy.",
+        "strategic_reason": "A well-rounded ground army with support units like Observers and Immortals provides strong defensive and offensive capabilities.",
+        "title": "Midgame Ground Army Consolidation",
+        "transition_goal": "Transition to a more advanced army composition, possibly including Dark Templar or other tech units.",
+        "trigger_summary": "The army becomes clearly ground-oriented with heavy production, including Stalkers, Warp Prisms, Observers, and Immortals."
+      },
+      {
+        "avoid_direction": "Avoid becoming too reliant on Dark Templar alone; keep a balanced army composition.",
+        "decision_direction": "Continue the current path, maintaining the army and economy while considering further tech upgrades or transitions.",
+        "exit_or_recheck_condition": "Re-evaluate when the opponent's composition is scouted or when a major engagement is imminent.",
+        "next_state_summary": "Continue to develop the army and economy, adapting to the opponent's actions.",
+        "node_id": "N004",
+        "node_type": "trace",
+        "opponent_situation": "The opponent's strategy is still not fully known, but the possibility of pressure remains.",
+        "own_situation": "Late-midgame with a ground army including Zealots, Stalkers, Dark Templar, and Warp Prisms. Production and technology are heavy, and economy is strong.",
+        "strategic_reason": "Dark Templar provide a powerful harassment tool and can force the opponent to invest in detection, creating opportunities.",
+        "title": "Late-Midgame Tech Diversification",
+        "transition_goal": "Transition to a late-game composition with a mix of ground and possibly air units, depending on the opponent's response.",
+        "trigger_summary": "The army includes Dark Templar, indicating a tech diversification, while maintaining a heavy ground force and economy."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "PvZ_O03 Balanced Macro",
+      "opening_summary": "A Protoss opening that prioritizes a heavy economy and technology investment while keeping production moderate early on. The army composition is initially undefined, then shifts to a ground-based force with Stalkers, and later incorporates Warp Prisms, Observers, Immortals, and Dark Templars. The overall posture remains defensive and macro-oriented, with a focus on expanding and teching up.",
+      "production_character": "moderate to heavy",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "PvZ_O03",
+  "projection_path": "02_observation_projection/ablation_single_trace/PvZ_O03.json"
+}

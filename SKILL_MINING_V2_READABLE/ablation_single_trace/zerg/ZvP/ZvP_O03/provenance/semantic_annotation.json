@@ -1,0 +1,72 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overcommitting to technology or air units before confirming opponent's intentions.",
+        "decision_direction": "Maintain current army path and continue developing economy and expansions. Keep production and technology at current levels while checking for safety.",
+        "exit_or_recheck_condition": "Re-evaluate when you have more information about opponent's composition or when you reach the next phase.",
+        "next_state_summary": "Continue with a similar ground macro posture, maintaining economy and expansion focus.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "Opponent is Protoss, but their specific composition and tech are not fully known. Expect possible early pressure.",
+        "own_situation": "You have a ground-oriented army with Zerglings and Queens, moderate production, and a heavy economy and expansion posture. Technology investment is light or uncertain.",
+        "strategic_reason": "Establish a solid economic and expansion lead while keeping a defensive ground army to respond to potential early pressure.",
+        "title": "Early Game Ground Macro Foundation",
+        "transition_goal": "Transition smoothly into the early-midgame with a stable economy and a flexible army composition.",
+        "trigger_summary": "Early game phase with a ground-oriented army and moderate production. Economy and expansion are heavy, technology is light or uncertain."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting or over-investing in a single tech path without information.",
+        "decision_direction": "Maintain current army path and continue economic expansion. Keep production and technology at current levels, but be ready to adapt based on scouting.",
+        "exit_or_recheck_condition": "Transition when you have a clearer picture of opponent's strategy or when you reach the midgame phase.",
+        "next_state_summary": "Move into the midgame with heavier production and technology investment.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "Protoss may be transitioning to a more defined strategy. Watch for tech choices or army composition shifts.",
+        "own_situation": "Your army is still ground-oriented with Zerglings and Queens, production is moderate, and you maintain a heavy economy and expansion posture. Technology investment remains light or uncertain.",
+        "strategic_reason": "Consolidate your economic advantage while staying flexible to counter potential Protoss tech or aggression.",
+        "title": "Early-Midgame Ground Macro Consolidation",
+        "transition_goal": "Prepare for the midgame by increasing production and technology when appropriate.",
+        "trigger_summary": "Early-midgame phase with continued ground-oriented army and moderate production. Economy and expansion remain heavy, technology still light or uncertain."
+      },
+      {
+        "avoid_direction": "Avoid overextending without scouting, and be cautious of Protoss air transitions or disruptor/colossus play.",
+        "decision_direction": "Maintain current army path and continue heavy production and technology development. Keep expanding and reinforcing your economy.",
+        "exit_or_recheck_condition": "Re-evaluate when you have more information about opponent's composition or when you reach the next phase.",
+        "next_state_summary": "Continue with a heavy ground macro posture, adapting to opponent's strategy.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "Protoss likely has a developed army and tech. Be aware of potential air threats or powerful ground compositions.",
+        "own_situation": "Your army is ground-oriented with Zerglings, Roaches, and Queens. Production and technology are heavy, and you maintain a heavy economy and expansion posture.",
+        "strategic_reason": "Leverage your economic and production advantage to field a strong ground army and tech up for the midgame.",
+        "title": "Midgame Ground Macro Expansion",
+        "transition_goal": "Transition to a more specialized army composition based on opponent's tech and army composition.",
+        "trigger_summary": "Midgame phase with a ground-oriented army, now including Roaches, and heavy production and technology investment. Economy and expansion remain heavy."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "ZvP_O03 Balanced Macro",
+      "opening_summary": "A Zerg versus Protoss opening that focuses on a balanced macro posture, with a ground-oriented army and heavy economy and expansion focus. The build maintains flexibility to adapt based on live observations.",
+      "production_character": "moderate to heavy",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "light to heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "ZvP_O03",
+  "projection_path": "02_observation_projection/ablation_single_trace/ZvP_O03.json"
+}

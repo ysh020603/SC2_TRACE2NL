@@ -1,0 +1,120 @@
+{
+  "method": "ablation_frequency_only",
+  "nodes": {
+    "N001": {
+      "children": [
+        "N003",
+        "N003",
+        "N007"
+      ],
+      "path": "nodes/N001.md",
+      "summary": "At the start of the game, both players are in the early game with limited information. The opponent's posture is unknown, and your own posture is also uncertain. Maintain current development path, focusing on economy and expansion. Keep your options open.",
+      "title": "Early Game Development",
+      "trigger_summary": "At the start of the game, both players are in the early game with limited information. The opponent's posture is unknown, and your own posture is also uncertain.",
+      "type": "frequent"
+    },
+    "N002": {
+      "children": [
+        "N006"
+      ],
+      "path": "nodes/N002.md",
+      "summary": "As the game progresses into the midgame, both players have had time to develop their economies and armies. The opponent's posture is still unknown, but your own posture is also uncertain. Maintain your current development path, but start to consider potential transitions based on scouting information.",
+      "title": "Midgame Development",
+      "trigger_summary": "As the game progresses into the midgame, both players have had time to develop their economies and armies. The opponent's posture is still unknown, but your own posture is also uncertain.",
+      "type": "frequent"
+    },
+    "N003": {
+      "children": [],
+      "path": "nodes/N003.md",
+      "summary": "In the early-midgame, you have had time to develop your economy and production. The opponent's posture is still unknown, but you have some information about their production and technology. Maintain your current development path, but start to consider potential transitions based on scouting information.",
+      "title": "Early-Midgame Transition",
+      "trigger_summary": "In the early-midgame, you have had time to develop your economy and production. The opponent's posture is still unknown, but you have some information about their production and technology.",
+      "type": "frequent"
+    },
+    "N004": {
+      "children": [],
+      "path": "nodes/N004.md",
+      "summary": "In the late-midgame, both players have had significant time to develop. The opponent's posture is still unknown, but your own posture is also uncertain. Maintain your current development path, but start to consider potential transitions based on scouting information.",
+      "title": "Late-Midgame Development",
+      "trigger_summary": "In the late-midgame, both players have had significant time to develop. The opponent's posture is still unknown, but your own posture is also uncertain.",
+      "type": "frequent"
+    },
+    "N005": {
+      "children": [
+        "N003",
+        "N003",
+        "N007"
+      ],
+      "path": "nodes/N005.md",
+      "summary": "In the early game, you have scouted a ground-based opponent with Zealots. The opponent's production is moderate, and their technology is heavy. Maintain your current development path, but start to prepare for a potential ground-based attack.",
+      "title": "Early Game with Ground Opponent",
+      "trigger_summary": "In the early game, you have scouted a ground-based opponent with Zealots. The opponent's production is moderate, and their technology is heavy.",
+      "type": "frequent"
+    },
+    "N006": {
+      "children": [],
+      "path": "nodes/N006.md",
+      "summary": "In the midgame, both you and the opponent have ground-based armies. The opponent has a heavy ground composition with Zealots, Stalkers, Sentries, and Immortals. Strengthen your ground army and continue developing your economy. Consider adding units that counter the opponent's composition.",
+      "title": "Midgame Ground vs Ground",
+      "trigger_summary": "In the midgame, both you and the opponent have ground-based armies. The opponent has a heavy ground composition with Zealots, Stalkers, Sentries, and Immortals.",
+      "type": "frequent"
+    },
+    "N007": {
+      "children": [
+        "N003"
+      ],
+      "path": "nodes/N007.md",
+      "summary": "In the early-midgame, you have scouted a ground-based opponent with Zealots. The opponent's production is heavy, and their technology is heavy. Maintain your current development path, but start to prepare for a potential ground-based attack.",
+      "title": "Early-Midgame Ground Opponent",
+      "trigger_summary": "In the early-midgame, you have scouted a ground-based opponent with Zealots. The opponent's production is heavy, and their technology is heavy.",
+      "type": "frequent"
+    },
+    "N008": {
+      "children": [],
+      "path": "nodes/N008.md",
+      "summary": "In the early-midgame, you have a ground-based army with Zerglings and Queens. The opponent's posture is unknown, but their production is moderate and technology is heavy. Strengthen your ground army and continue developing your economy. Consider adding units that counter the opponent's potential strategies.",
+      "title": "Early-Midgame Development with Ground Army",
+      "trigger_summary": "In the early-midgame, you have a ground-based army with Zerglings and Queens. The opponent's posture is unknown, but their production is moderate and technology is heavy.",
+      "type": "frequent"
+    },
+    "N009": {
+      "children": [
+        "N002"
+      ],
+      "path": "nodes/N009.md",
+      "summary": "In the midgame, you have scouted a ground-based opponent with Zealots, Stalkers, and Sentries. The opponent's production is heavy, and their technology is heavy. Maintain your current development path, but start to prepare for a potential ground-based attack.",
+      "title": "Midgame Ground Opponent",
+      "trigger_summary": "In the midgame, you have scouted a ground-based opponent with Zealots, Stalkers, and Sentries. The opponent's production is heavy, and their technology is heavy.",
+      "type": "frequent"
+    },
+    "N010": {
+      "children": [],
+      "path": "nodes/N010.md",
+      "summary": "In the early-midgame, both you and the opponent have ground-based armies. The opponent has a heavy ground composition with Stalkers. Strengthen your ground army and continue developing your economy. Consider adding units that counter the opponent's composition.",
+      "title": "Early-Midgame Ground vs Ground",
+      "trigger_summary": "In the early-midgame, both you and the opponent have ground-based armies. The opponent has a heavy ground composition with Stalkers.",
+      "type": "frequent"
+    },
+    "N011": {
+      "children": [
+        "N008"
+      ],
+      "path": "nodes/N011.md",
+      "summary": "In the early game, you have a ground-based army with Zerglings. The opponent's posture is unknown, but their production is moderate and technology is heavy. Strengthen your ground army and continue developing your economy. Consider adding units that counter the opponent's potential strategies.",
+      "title": "Early Game Development with Ground Army",
+      "trigger_summary": "In the early game, you have a ground-based army with Zerglings. The opponent's posture is unknown, but their production is moderate and technology is heavy.",
+      "type": "frequent"
+    },
+    "N012": {
+      "children": [],
+      "path": "nodes/N012.md",
+      "summary": "In the late-midgame, both you and the opponent have ground-based armies. The opponent has a heavy ground composition with Stalkers. Strengthen your ground army and continue developing your economy. Consider adding units that counter the opponent's composition.",
+      "title": "Late-Midgame Ground vs Ground",
+      "trigger_summary": "In the late-midgame, both you and the opponent have ground-based armies. The opponent has a heavy ground composition with Stalkers.",
+      "type": "frequent"
+    }
+  },
+  "opening_name": "ZvP_O02 Economy / Expansion / Ground",
+  "root": "SKILL.md",
+  "skill_id": "ZvP_O02"
+}

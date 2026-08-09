@@ -1,0 +1,72 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overcommitting to a specific army composition or tech path before confirming the opponent's intentions. Do not neglect scouting or defensive positioning.",
+        "decision_direction": "Maintain current development path, focusing on economy and technology. Use the Reaper for scouting to gather information about the opponent's expansion and tech choices.",
+        "exit_or_recheck_condition": "Re-evaluate when you have more information about the opponent's army composition or when you are ready to transition to a more defined army style.",
+        "next_state_summary": "Proceed to a ground-oriented macro posture with moderate production and heavy technology, still early in the game.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "Enemy information is limited at this stage. You have not confirmed their army composition or pressure level. Expect possible early aggression or economic builds.",
+        "own_situation": "You are in the early game with a Reaper for scouting. Your economy and technology are developing heavily, but your army composition is not yet defined. Production is moderate, and you have not committed to a specific army style.",
+        "strategic_reason": "A balanced macro opening requires information to adapt. The Reaper provides early scouting without committing to a specific army composition, allowing you to react to the opponent's strategy.",
+        "title": "Early Game Reaper Scout and Tech Focus",
+        "transition_goal": "Transition into a ground-oriented army composition with moderate production, while continuing to expand and tech up.",
+        "trigger_summary": "Early game phase with a Reaper as the representative unit, heavy economy and technology posture, but army composition and pressure unknown."
+      },
+      {
+        "avoid_direction": "Avoid overextending your army without proper scouting. Do not neglect defensive structures or positioning, as the opponent may attempt a timing attack.",
+        "decision_direction": "Continue developing your ground army and technology. Maintain scouting to detect any incoming pressure or tech switches. Consider adding production structures to support a larger army.",
+        "exit_or_recheck_condition": "Re-evaluate when you have a clear picture of the opponent's army composition or when you are ready to push out or take a third base.",
+        "next_state_summary": "Progress to a midgame ground army with heavy production and technology, including Siege Tanks and Medivacs.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "The opponent may be applying pressure or expanding. You have not confirmed their exact composition, but you should be prepared for possible aggression.",
+        "own_situation": "You have committed to a ground-oriented army style with moderate production. Your economy and technology are heavy, and you have a Reaper for scouting. Your army composition is still developing, with potential for Marines, Hellions, and Medivacs.",
+        "strategic_reason": "A ground macro posture with heavy tech provides a solid foundation for midgame fights. Maintaining scouting helps you adapt to the opponent's strategy.",
+        "title": "Early-Midgame Ground Macro and Tech Investment",
+        "transition_goal": "Transition into a heavier ground composition with Siege Tanks and Medivacs, while continuing to expand and tech up.",
+        "trigger_summary": "Early-midgame phase with a ground army style, moderate production, and heavy technology. Possible pressure from the opponent."
+      },
+      {
+        "avoid_direction": "Avoid being caught out of position with your Siege Tanks. Do not neglect anti-air capabilities, as the opponent may transition to air units.",
+        "decision_direction": "Maintain your heavy ground army and continue to tech up. Consider adding additional production or upgrades to support a larger army. Use your army to control the map and deny expansions.",
+        "exit_or_recheck_condition": "Re-evaluate when you have confirmed the opponent's composition or when you are ready to take a decisive engagement or expand further.",
+        "next_state_summary": "Continue to a late-midgame phase with a heavy ground army and potential for further tech and production.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "The opponent's composition is still uncertain, but you should be prepared for a variety of threats, including air units or heavy ground pushes. Your scouting should be ongoing.",
+        "own_situation": "You have a strong ground army with Siege Tanks, Marines, Reapers, and Hellions. Your production is heavy, and your technology is advanced. Your economy is strong, and you have multiple expansions.",
+        "strategic_reason": "A heavy ground army with Siege Tanks provides strong defensive and offensive capabilities. Maintaining tech and production ensures you can adapt to the opponent's composition.",
+        "title": "Midgame Heavy Ground Army and Tech Advantage",
+        "transition_goal": "Transition into a late-midgame army with additional upgrades and possibly a more diverse composition, including air support if needed.",
+        "trigger_summary": "Midgame phase with a heavy ground army composition including Siege Tanks, Marines, Reapers, and Hellions. Heavy production and technology."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order. Adapt based on live scouting and opponent actions.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "TvT_O04 Balanced Macro",
+      "opening_summary": "A balanced macro-oriented Terran opening that prioritizes economy and technology while maintaining a flexible ground army. Early Reaper presence provides scouting and light harassment, transitioning into a heavier ground composition with Siege Tanks, Marines, Hellions, and Medivacs.",
+      "production_character": "moderate to heavy",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "TvT_O04",
+  "projection_path": "02_observation_projection/ablation_single_trace/TvT_O04.json"
+}

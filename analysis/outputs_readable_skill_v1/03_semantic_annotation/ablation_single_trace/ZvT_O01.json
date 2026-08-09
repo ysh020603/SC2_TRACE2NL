@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overcommitting to a specific tech or army composition before seeing the opponent's direction.",
+        "decision_direction": "Maintain current army path, keep expanding, and develop economy while staying alert for potential early pressure.",
+        "exit_or_recheck_condition": "Recheck when the opponent's first significant unit composition or tech choice becomes visible, or when your next expansion completes.",
+        "next_state_summary": "Continue with a heavy economy and expansion focus, still ground-oriented.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "Terran opponent, but their composition and tech are not yet clear. They may be preparing for early pressure or macroing up.",
+        "own_situation": "You have a ground-based army with Zerglings and Queens, moderate production, and are expanding aggressively. Economy is moderate, technology is light.",
+        "strategic_reason": "Establish a strong economic base and map presence early, while keeping the option to react to the opponent's first moves.",
+        "title": "Early Game Ground Foundation",
+        "transition_goal": "Reach a stable early-midgame with a solid economy and multiple bases.",
+        "trigger_summary": "Early game, own posture is ground-oriented with Zerglings and Queens, moderate economy, heavy expansion intent."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting or over-investing in tech that may not be needed.",
+        "decision_direction": "Maintain the current macro path, keep expanding, and continue producing from your existing structures.",
+        "exit_or_recheck_condition": "Recheck when the opponent's army composition becomes clearer or when you are ready to add tech structures.",
+        "next_state_summary": "Continue with heavy economy and expansion, still ground-oriented, but with the option to add tech.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "Terran may be transitioning to a specific composition, but it is not yet clear. They could be preparing for a timing attack or expanding themselves.",
+        "own_situation": "Your economy is strong, you have multiple bases, and your army is still primarily Zerglings and Queens. Production is moderate, tech is light.",
+        "strategic_reason": "A heavy economy allows you to outproduce the opponent later, but you need to stay flexible to defend or counterattack.",
+        "title": "Early-Midgame Macro Sustain",
+        "transition_goal": "Reach the midgame with a strong economy and the ability to tech switch if needed.",
+        "trigger_summary": "Early-midgame, economy is heavy, expansion is heavy, still ground-based with Zerglings and Queens."
+      },
+      {
+        "avoid_direction": "Avoid staying on a pure Zergling/Queen composition if the opponent is building heavy anti-ground or air.",
+        "decision_direction": "Maintain the current army path and continue macroing, but start considering tech transitions based on scouting.",
+        "exit_or_recheck_condition": "Recheck when you have enough resources to invest in tech or when the opponent's army composition is confirmed.",
+        "next_state_summary": "Transition to a more air-inclusive composition, adding Mutalisks.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "Terran may have a mix of units, but their exact composition is not fully known. They could be preparing for a push or expanding.",
+        "own_situation": "You have a strong economy and multiple bases, but your army is still mostly Zerglings and Queens. Production is moderate, tech is light.",
+        "strategic_reason": "With a solid economy, you can afford to tech up or mass units, but you need to respond to the opponent's threats.",
+        "title": "Midgame Ground Stability",
+        "transition_goal": "Prepare to add tech units (e.g., Mutalisks) or upgrades to stay competitive.",
+        "trigger_summary": "Midgame, economy and expansion are heavy, army is still ground-based with Zerglings and Queens."
+      },
+      {
+        "avoid_direction": "Avoid overcommitting to Mutalisks if the opponent is heavily teching anti-air.",
+        "decision_direction": "Maintain the current army composition and continue macroing, but be ready to adapt to the opponent's response.",
+        "exit_or_recheck_condition": "Recheck when the opponent's tech or army composition changes significantly, or when you need to transition to late-game units.",
+        "next_state_summary": "Continue with a mixed army and strong economy, ready for late-game transitions.",
+        "node_id": "N004",
+        "node_type": "trace",
+        "opponent_situation": "Terran may be responding to your air presence, possibly building anti-air or preparing for a push.",
+        "own_situation": "You have added Mutalisks to your army, giving you air presence. Economy and expansion are heavy, production is moderate.",
+        "strategic_reason": "Mutalisks provide harassment and map control, but you need to keep your ground army strong to defend.",
+        "title": "Late-Midgame Air Integration",
+        "transition_goal": "Maintain a balanced army with both ground and air capabilities, and continue expanding.",
+        "trigger_summary": "Late-midgame, air presence is heavy, army includes Mutalisks, still ground-oriented overall."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "moderate to heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "ZvT_O01 Balanced Macro",
+      "opening_summary": "This opening focuses on establishing a solid economy and expanding while keeping a light defensive presence. It aims to maintain flexibility to adapt to the opponent's actions.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "light_or_uncertain"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "ZvT_O01",
+  "projection_path": "02_observation_projection/ablation_single_trace/ZvT_O01.json"
+}

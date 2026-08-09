@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid risky expansions or aggressive production that could leave you vulnerable.",
+        "decision_direction": "Maintain current development path with safety checks.",
+        "exit_or_recheck_condition": "Re-evaluate when you have more information about the opponent's strategy or when your technology upgrades complete.",
+        "next_state_summary": "Move to early-midgame with moderate production and continued heavy technology.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "No reliable information about the opponent's composition or strategy is available at this stage.",
+        "own_situation": "Your completed or developing posture is broadly unknown-oriented, with light_or_uncertain production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+        "strategic_reason": "Focus on technology and defense to reach a stable midgame without overcommitting to a specific army composition.",
+        "title": "Early Game Tech Focus",
+        "transition_goal": "Transition to moderate production while continuing technology investment.",
+        "trigger_summary": "Early game with light production and heavy technology investment, defense heavy, economy moderate."
+      },
+      {
+        "avoid_direction": "Avoid overextending production at the expense of defense or economy.",
+        "decision_direction": "Maintain current development path with safety checks.",
+        "exit_or_recheck_condition": "Re-evaluate when you see the opponent's first significant army or tech choice.",
+        "next_state_summary": "Move to midgame with heavier production and continued technology focus.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "Still limited information about the opponent; keep scouting for signs of aggression or tech switches.",
+        "own_situation": "Your completed or developing posture is broadly unknown-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+        "strategic_reason": "Gradually increase production while maintaining a defensive posture to handle potential early pressure.",
+        "title": "Early-Midgame Production Ramp",
+        "transition_goal": "Continue building a solid foundation for a midgame army.",
+        "trigger_summary": "Early-midgame with moderate production, heavy technology, defense heavy, economy moderate."
+      },
+      {
+        "avoid_direction": "Avoid committing to a single composition without confirming the opponent's plan.",
+        "decision_direction": "Maintain current army path while continuing to develop.",
+        "exit_or_recheck_condition": "Re-evaluate when you have a clear read on the opponent's army composition or when you reach a critical tech milestone.",
+        "next_state_summary": "Move to late-midgame with a ground-oriented army and possible air presence.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "Opponent's composition is still unclear; maintain scouting to detect tech switches or massing armies.",
+        "own_situation": "Your completed or developing posture is broadly unknown-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+        "strategic_reason": "With heavy production and tech, you can now field a credible army while still having flexibility to adapt.",
+        "title": "Midgame Army Development",
+        "transition_goal": "Transition to a more defined army composition based on scouting information.",
+        "trigger_summary": "Midgame with heavy production, heavy technology, defense heavy, economy moderate, representative units include Zealot."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting or over-investing in a single unit type.",
+        "decision_direction": "Maintain current army path while continuing to develop.",
+        "exit_or_recheck_condition": "Re-evaluate when you see the opponent's late-game tech or when you need to transition to a more specialized composition.",
+        "next_state_summary": "Continue developing towards a mixed army with heavy production and tech.",
+        "node_id": "N004",
+        "node_type": "trace",
+        "opponent_situation": "Opponent may be applying pressure; watch for tech switches or mass air.",
+        "own_situation": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+        "strategic_reason": "A mixed ground army with air support provides flexibility against most compositions.",
+        "title": "Late-Midgame Ground Army",
+        "transition_goal": "Prepare for late game by expanding economy and tech further.",
+        "trigger_summary": "Late-midgame with heavy production, heavy technology, defense heavy, economy moderate, ground army with Zealot, VoidRay, Immortal."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "light_or_uncertain",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "PvP_O03 Balanced Macro",
+      "opening_summary": "A balanced Protoss macro opening that emphasizes heavy technology investment and a defensive posture while keeping production and expansion light or uncertain. The plan is to develop a solid economy and tech foundation before committing to a specific army composition.",
+      "production_character": "light_or_uncertain",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "light_or_uncertain"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "PvP_O03",
+  "projection_path": "02_observation_projection/ablation_single_trace/PvP_O03.json"
+}

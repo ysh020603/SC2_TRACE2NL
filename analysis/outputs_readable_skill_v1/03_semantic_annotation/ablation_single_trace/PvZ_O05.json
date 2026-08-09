@@ -1,0 +1,72 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overcommitting to a specific army composition before scouting reveals opponent intentions.",
+        "decision_direction": "Maintain current development path with safety checks; continue heavy technology investment and moderate production.",
+        "exit_or_recheck_condition": "Re-evaluate when more information about opponent's strategy is available or when key technologies complete.",
+        "next_state_summary": "Move to early-midgame with a ground army composition and possible pressure posture.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "No specific opponent information available; maintain scouting to detect early pressure or all-ins.",
+        "own_situation": "Early game with unknown army composition, heavy defense and economy posture, moderate production, and heavy technology investment. Representative unit: Zealot.",
+        "strategic_reason": "Establish a strong foundation for later transitions while staying safe against potential early aggression.",
+        "title": "Early Game Foundation",
+        "transition_goal": "Transition to a ground-oriented army with Zealots and Stalkers as technology progresses.",
+        "trigger_summary": "At the start of the game, focus on establishing a solid economy and technology base while maintaining defensive readiness."
+      },
+      {
+        "avoid_direction": "Avoid neglecting air defense or scouting, as Zerg may transition to mutalisks or other air threats.",
+        "decision_direction": "Maintain current army path and continue developing economy and technology; keep defensive posture.",
+        "exit_or_recheck_condition": "Re-evaluate when Carriers are available or if opponent shows a specific tech path.",
+        "next_state_summary": "Move to midgame with a mixed army including Carriers.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "Possible pressure from Zerg; maintain scouting to detect tech switches or mass units.",
+        "own_situation": "Early-midgame with ground army composition, heavy defense and economy, moderate production, heavy technology. Representative units: Zealot, Stalker.",
+        "strategic_reason": "A ground-based army with heavy technology support provides a solid core that can adapt to various Zerg strategies.",
+        "title": "Early-Midgame Ground Transition",
+        "transition_goal": "Incorporate air units like Carriers to diversify the army and counter potential Zerg air or ground compositions.",
+        "trigger_summary": "As the game progresses, transition to a ground-oriented army with Zealots and Stalkers while maintaining heavy economy and technology investment."
+      },
+      {
+        "avoid_direction": "Avoid overextending without proper scouting; Zerg may have corruptors or other anti-air units.",
+        "decision_direction": "Maintain current army path and continue developing economy and technology; keep defensive posture.",
+        "exit_or_recheck_condition": "Re-evaluate when facing specific threats or when transitioning to late-game units.",
+        "next_state_summary": "Continue developing towards a late-midgame ground-oriented army with heavy air presence.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "Zerg may have a mix of ground and air units; maintain scouting to detect tech switches or mass expansions.",
+        "own_situation": "Midgame with mixed army composition (ground and air), heavy defense and economy, moderate production, heavy technology. Representative units: Zealot, Stalker, Carrier.",
+        "strategic_reason": "A mixed army with Carriers provides strong pushing power and can handle a variety of Zerg compositions.",
+        "title": "Midgame Mixed Army",
+        "transition_goal": "Continue to strengthen the army composition and prepare for late-game transitions if needed.",
+        "trigger_summary": "In the midgame, integrate air units like Carriers into the ground army to create a mixed composition with heavy technology support."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "light_or_uncertain",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "PvZ_O05 Balanced Macro",
+      "opening_summary": "A Protoss opening that emphasizes a balanced macro posture with heavy technology investment, moderate production, and a defensive stance. It transitions from an early unknown army composition to a ground-oriented force, eventually incorporating air units like Carriers in the midgame.",
+      "production_character": "light_or_uncertain",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "light_or_uncertain"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "PvZ_O05",
+  "projection_path": "02_observation_projection/ablation_single_trace/PvZ_O05.json"
+}

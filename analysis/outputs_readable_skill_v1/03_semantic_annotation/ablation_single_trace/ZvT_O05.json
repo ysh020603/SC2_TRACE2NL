@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overcommitting to tech or army before scouting confirms opponent's direction.",
+        "decision_direction": "Maintain current macro path, focusing on economy and expansion while keeping production moderate. Continue developing ground forces with Queens.",
+        "exit_or_recheck_condition": "Recheck when new information about opponent's composition or timing is available, or when transitioning to the next phase.",
+        "next_state_summary": "Early-midgame with heavy defense, still heavy economy and expansion, moderate production, and light or uncertain technology.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "Terran opponent. No specific information available; assume standard early game possibilities.",
+        "own_situation": "You are in the early game with a heavy economy and expansion posture, moderate production, and light or uncertain technology. Your army is ground-oriented, with Queens as the representative unit. Defense is light or uncertain, and pressure is possible.",
+        "strategic_reason": "Establish a solid economic and defensive foundation to support future tech and army transitions. Queens provide early defense and creep spread.",
+        "title": "Early Game Ground Macro Foundation",
+        "transition_goal": "Transition to a more defensive posture with heavier defense as the game progresses.",
+        "trigger_summary": "Early game phase, with a ground-oriented macro posture, heavy economy and expansion, moderate production, and light or uncertain technology. Representative unit is Queen."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting or over-investing in static defense without information.",
+        "decision_direction": "Maintain current macro path, focusing on defense and economy. Continue producing Queens and possibly add Hydralisks as tech becomes available.",
+        "exit_or_recheck_condition": "Recheck when transitioning to midgame or when opponent's composition is revealed.",
+        "next_state_summary": "Midgame with Hydralisks, Queens, and Overseers, still heavy economy and expansion, moderate production, and light or uncertain technology.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "Terran opponent. No specific information available; assume standard early-midgame possibilities.",
+        "own_situation": "You are in the early-midgame with a heavy defense posture, heavy economy and expansion, moderate production, and light or uncertain technology. Your army is ground-oriented, with Queens as the representative unit. Pressure is possible.",
+        "strategic_reason": "Solidify defenses to deter early pressure while continuing to expand economy. Queens are cost-effective for defense and creep control.",
+        "title": "Early-Midgame Defensive Consolidation",
+        "transition_goal": "Transition to a midgame army composition with Hydralisks and Overseers.",
+        "trigger_summary": "Early-midgame phase, with heavy defense, heavy economy and expansion, moderate production, and light or uncertain technology. Representative unit is Queen."
+      },
+      {
+        "avoid_direction": "Avoid overextending without vision or neglecting upgrades.",
+        "decision_direction": "Maintain current macro path, focusing on army composition and tech development. Continue producing Hydralisks and Overseers for detection and map control.",
+        "exit_or_recheck_condition": "Recheck when transitioning to late-midgame or when opponent's tech direction is known.",
+        "next_state_summary": "Late-midgame with moderate technology, still heavy economy and expansion, moderate production, and ground-oriented army.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "Terran opponent. No specific information available; assume standard midgame possibilities.",
+        "own_situation": "You are in the midgame with a heavy defense posture, heavy economy and expansion, moderate production, and light or uncertain technology. Your army is ground-oriented, with Hydralisks, Queens, and Overseers. Pressure is possible.",
+        "strategic_reason": "Hydralisks provide strong ground damage, while Overseers offer detection and scouting. Maintaining a heavy economy supports continued production.",
+        "title": "Midgame Ground Army Expansion",
+        "transition_goal": "Transition to a late-midgame posture with moderate technology investment.",
+        "trigger_summary": "Midgame phase, with heavy defense, heavy economy and expansion, moderate production, and light or uncertain technology. Representative units include Hydralisk, Queen, and Overseer."
+      },
+      {
+        "avoid_direction": "Avoid overcommitting to a single tech path without information.",
+        "decision_direction": "Maintain current macro path, focusing on technology upgrades and army composition. Continue producing Hydralisks and Overseers, and consider adding tech units based on scouting.",
+        "exit_or_recheck_condition": "Recheck when transitioning to late game or when opponent's final composition is known.",
+        "next_state_summary": "Late-midgame with heavy technology investment, still heavy economy and expansion, moderate production, and ground-oriented army.",
+        "node_id": "N004",
+        "node_type": "trace",
+        "opponent_situation": "Terran opponent. No specific information available; assume standard late-midgame possibilities.",
+        "own_situation": "You are in the late-midgame with a heavy defense posture, heavy economy and expansion, moderate production, and moderate technology. Your army is ground-oriented, with Hydralisks, Queens, and Overseers. Pressure is possible.",
+        "strategic_reason": "Moderate technology investment allows for upgrades and potential tech switches. Maintaining a heavy economy supports continued production and tech.",
+        "title": "Late-Midgame Tech and Army Refinement",
+        "transition_goal": "Transition to a late-game composition with heavier technology investment.",
+        "trigger_summary": "Late-midgame phase, with heavy defense, heavy economy and expansion, moderate production, and moderate technology. Representative units include Hydralisk, Queen, and Overseer."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "ZvT_O05 Balanced Macro",
+      "opening_summary": "A Zerg versus Terran opening that focuses on a balanced macro posture, with a heavy economy and expansion focus, moderate production, and light or uncertain technology investment. The army is ground-oriented, with Queens as the representative early unit, transitioning to Hydralisks and Overseers in the midgame. The overall tempo is to develop with safety checks, maintaining current directions while remaining flexible to adapt based on live observations.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "light_or_uncertain"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "ZvT_O05",
+  "projection_path": "02_observation_projection/ablation_single_trace/ZvT_O05.json"
+}

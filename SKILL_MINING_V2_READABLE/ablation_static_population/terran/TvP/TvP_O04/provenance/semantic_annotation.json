@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid over-committing to tech or expansions at the expense of army production, as this could leave you vulnerable to a timing attack.",
+        "decision_direction": "Continue developing your economy and tech while strengthening your ground army. Keep production active and consider adding defensive structures if pressure seems imminent.",
+        "exit_or_recheck_condition": "Recheck when you have a solid army composition and defenses in place, or if you detect a significant threat.",
+        "next_state_summary": "Move towards a mid-game state with a more developed army and moderate defense.",
+        "node_id": "N001",
+        "node_type": "common",
+        "opponent_situation": "Opponent's status is unknown; they may be preparing an attack or expanding themselves. Maintain scouting to detect any early aggression.",
+        "own_situation": "You have a strong economy and are expanding aggressively. Your production and tech are heavy, but your army is still developing and defense is light. You may be vulnerable to early pressure.",
+        "strategic_reason": "Your heavy economy and tech investment will pay off in the mid-game, but you need to survive potential early pressure. A balanced approach ensures you can transition smoothly.",
+        "title": "Early-Midgame Ground Macro with Heavy Economy",
+        "transition_goal": "Transition to a stronger defensive posture with a more substantial army, while maintaining your economic lead.",
+        "trigger_summary": "Own posture is ground-oriented with heavy production and technology, heavy economy and expansions, light defense, and possible pressure. Phase is early-midgame."
+      },
+      {
+        "avoid_direction": "Avoid making large army commitments too early, as this could delay your economy and tech. Also, avoid being caught off guard by early aggression.",
+        "decision_direction": "Prioritize economy and tech development while maintaining a small defensive force. Use Reapers for scouting and harassment to gain information.",
+        "exit_or_recheck_condition": "Recheck when you have a clearer picture of the opponent's strategy or when you reach a key timing.",
+        "next_state_summary": "Progress to an early-midgame state with a more defined ground army and heavier production.",
+        "node_id": "N002",
+        "node_type": "common",
+        "opponent_situation": "Opponent's intentions are unclear. They could be going for an early expand, tech, or aggression. Keep scouting to gather information.",
+        "own_situation": "You are in the early game, focusing on economy and expansions. Your army composition is not yet defined, and you have light defense. Production and tech are moderate, allowing for flexibility.",
+        "strategic_reason": "A strong economy and tech foundation will enable a powerful mid-game. Early scouting helps you adapt to the opponent's strategy.",
+        "title": "Early Game Economy and Tech Focus",
+        "transition_goal": "Transition to a more defined army composition and posture as the game progresses.",
+        "trigger_summary": "Own posture is unknown-oriented with moderate production and tech, heavy economy and expansions, light defense, and unknown pressure. Phase is early game."
+      },
+      {
+        "avoid_direction": "Avoid neglecting upgrades or failing to scout, as the opponent could surprise you with a tech switch or a large army.",
+        "decision_direction": "Continue strengthening your ground army and consider adding air support if needed. Maintain your economy and tech lead while preparing for potential engagements.",
+        "exit_or_recheck_condition": "Recheck when you have a significant army advantage or when you detect a major threat.",
+        "next_state_summary": "Move towards a late-midgame state with heavier defense and more advanced units.",
+        "node_id": "N003",
+        "node_type": "common",
+        "opponent_situation": "Opponent's composition is unknown, but they may be preparing for a mid-game push or transitioning to a different tech path. Continue scouting to anticipate their moves.",
+        "own_situation": "You have a solid economy and tech, with a ground army that includes Marines and Marauders. Defense is moderate, and you have some air presence. Production is heavy, allowing for continuous reinforcement.",
+        "strategic_reason": "A strong ground army with tech support can handle most mid-game threats. Keeping production and tech heavy ensures you can adapt to the opponent's composition.",
+        "title": "Midgame Ground Army Strengthening",
+        "transition_goal": "Transition to a late-midgame state with a more diverse army, including Siege Tanks and possibly Ravens.",
+        "trigger_summary": "Own posture is ground-oriented with heavy production and tech, heavy economy and expansions, moderate defense, and possible pressure. Phase is midgame."
+      },
+      {
+        "avoid_direction": "Avoid becoming too passive, as the opponent may out-expand you. Also, avoid neglecting anti-air if the opponent transitions to air.",
+        "decision_direction": "Continue to strengthen your army and tech, focusing on upgrades and unit composition. Consider adding more air units if the opponent goes for air. Maintain map control and be ready to take engagements.",
+        "exit_or_recheck_condition": "Recheck when you have a clear army advantage or when the opponent makes a significant move.",
+        "next_state_summary": "Progress towards a late-game state with a fully upgraded and diverse army.",
+        "node_id": "N004",
+        "node_type": "common",
+        "opponent_situation": "Opponent's composition is unknown, but they may be preparing for a late-game transition or a final push. Maintain scouting to stay informed.",
+        "own_situation": "You have a powerful ground army with Siege Tanks, Marines, and Marauders. Defense is heavy, and you have a strong economy and tech base. Air presence is moderate, providing support.",
+        "strategic_reason": "A well-rounded ground army with heavy defense can dominate the late-midgame. Your economic and tech advantages allow you to outproduce the opponent.",
+        "title": "Late-Midgame Heavy Ground Composition",
+        "transition_goal": "Transition to a late-game state with a maxed-out army and full upgrades, ready for a decisive battle.",
+        "trigger_summary": "Own posture is ground-oriented with heavy production and tech, heavy economy and expansions, heavy defense, and possible pressure. Phase is late-midgame."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order. Adapt based on live observations of the opponent's composition and pressure.",
+      "opening_family": "expansion / economy / technology opening",
+      "opening_name": "TvP_O04 Expansion / Economy / Technology",
+      "opening_summary": "A Terran opening that prioritizes rapid expansion, heavy economy, and technology investment, while keeping production moderate early and scaling up later. The army composition leans ground, with early Reapers for scouting and harassment, transitioning to Marine/Marauder cores and adding Siege Tanks, Medivacs, and Widow Mines as the game progresses.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a strong economic and technological foundation while maintaining flexibility to adapt to the opponent's actions. Aim to secure map control through expansions and use tech advantages to transition into a powerful mid-game army.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_static_population",
+  "method_specific_annotation": true,
+  "opening_id": "TvP_O04",
+  "projection_path": "02_observation_projection/ablation_static_population/TvP_O04.json"
+}

@@ -1,0 +1,128 @@
+{
+  "method": "ablation_frequency_only",
+  "nodes": {
+    "N001": {
+      "children": [
+        "N002",
+        "N006",
+        "N006"
+      ],
+      "path": "nodes/N001.md",
+      "summary": "At the start of the game, both sides have limited information. The opponent's posture is unknown, and your own production and technology are light or uncertain. Maintain current development path, focusing on economy and technology. Keep production queues active and expand cautiously.",
+      "title": "Early Game Development with Safety Checks",
+      "trigger_summary": "At the start of the game, both sides have limited information. The opponent's posture is unknown, and your own production and technology are light or uncertain.",
+      "type": "frequent"
+    },
+    "N002": {
+      "children": [
+        "N006",
+        "N006",
+        "N006"
+      ],
+      "path": "nodes/N002.md",
+      "summary": "As the game progresses into the early-midgame, you have maintained your development path. The opponent's posture remains unknown, but you have a stable base. Continue to develop your economy and technology. Consider adding production structures to support a future army.",
+      "title": "Early-Midgame Consolidation",
+      "trigger_summary": "As the game progresses into the early-midgame, you have maintained your development path. The opponent's posture remains unknown, but you have a stable base.",
+      "type": "frequent"
+    },
+    "N003": {
+      "children": [
+        "N008",
+        "N008",
+        "N008"
+      ],
+      "path": "nodes/N003.md",
+      "summary": "In the midgame, you have a stable economy and production, but the opponent's posture is still unknown. You have not yet committed to a specific army composition. Continue to develop your economy and technology. Consider adding production structures to support a future army.",
+      "title": "Midgame Development with Safety Checks",
+      "trigger_summary": "In the midgame, you have a stable economy and production, but the opponent's posture is still unknown. You have not yet committed to a specific army composition.",
+      "type": "frequent"
+    },
+    "N004": {
+      "children": [],
+      "path": "nodes/N004.md",
+      "summary": "In the late-midgame, you have maintained a flexible development path. The opponent's posture is still unknown, but you have a solid economy and production base. Continue to develop your economy and technology. Consider adding production structures to support a future army.",
+      "title": "Late-Midgame Flexibility",
+      "trigger_summary": "In the late-midgame, you have maintained a flexible development path. The opponent's posture is still unknown, but you have a solid economy and production base.",
+      "type": "frequent"
+    },
+    "N005": {
+      "children": [
+        "N009",
+        "N009"
+      ],
+      "path": "nodes/N005.md",
+      "summary": "Early in the game, you spot a Reaper from the opponent, indicating a possible harassment or early pressure. Your own economy is moderate, and you have invested in technology. Strengthen your ground defense and consider producing a few units to fend off potential harassment. Continue to develop your economy.",
+      "title": "Early Game Reaper Harassment Response",
+      "trigger_summary": "Early in the game, you spot a Reaper from the opponent, indicating a possible harassment or early pressure. Your own economy is moderate, and you have invested in technology.",
+      "type": "frequent"
+    },
+    "N006": {
+      "children": [
+        "N002"
+      ],
+      "path": "nodes/N006.md",
+      "summary": "In the early-midgame, the opponent shows a ground posture with Reapers, and their economy and production are heavy. Your own posture is still unknown, but you have a moderate economy. Maintain your current development path, but start to prepare for a potential ground engagement. Consider producing units that counter Reapers, such as Marines or Marauders.",
+      "title": "Early-Midgame Ground Posture Adaptation",
+      "trigger_summary": "In the early-midgame, the opponent shows a ground posture with Reapers, and their economy and production are heavy. Your own posture is still unknown, but you have a moderate economy.",
+      "type": "frequent"
+    },
+    "N007": {
+      "children": [],
+      "path": "nodes/N007.md",
+      "summary": "In the midgame, the opponent has a ground posture with Marines and Reapers, and their economy and production are heavy. Your own army is ground-based with Marines, and you have a heavy economy. Strengthen your ground army by producing more Marines and possibly adding Marauders or Siege Tanks. Continue to expand your economy.",
+      "title": "Midgame Ground Army Strengthening",
+      "trigger_summary": "In the midgame, the opponent has a ground posture with Marines and Reapers, and their economy and production are heavy. Your own army is ground-based with Marines, and you have a heavy economy.",
+      "type": "frequent"
+    },
+    "N008": {
+      "children": [
+        "N003"
+      ],
+      "path": "nodes/N008.md",
+      "summary": "In the midgame, the opponent has a ground posture with Marines and Reapers, but your own posture is still unknown. You have not committed to a specific army composition. Maintain your current development path, but start to prepare for a potential ground engagement. Consider producing units that counter Reapers, such as Marines or Marauders.",
+      "title": "Midgame Maintain Current Path",
+      "trigger_summary": "In the midgame, the opponent has a ground posture with Marines and Reapers, but your own posture is still unknown. You have not committed to a specific army composition.",
+      "type": "frequent"
+    },
+    "N009": {
+      "children": [],
+      "path": "nodes/N009.md",
+      "summary": "In the early-midgame, the opponent has a ground posture with Reapers, and their economy and production are heavy. Your own posture is unknown, but you have heavy production and technology. Strengthen your ground defense and consider producing a few units to fend off potential harassment. Continue to develop your economy.",
+      "title": "Early-Midgame Ground Posture with Heavy Production",
+      "trigger_summary": "In the early-midgame, the opponent has a ground posture with Reapers, and their economy and production are heavy. Your own posture is unknown, but you have heavy production and technology.",
+      "type": "frequent"
+    },
+    "N010": {
+      "children": [
+        "N009",
+        "N009"
+      ],
+      "path": "nodes/N010.md",
+      "summary": "In the early-midgame, the opponent has a ground posture with Reapers, and their economy and production are heavy. Your own posture is unknown, but you have moderate production and heavy technology. Continue to develop your economy and technology. Consider producing more units to support your Reaper harassment.",
+      "title": "Early-Midgame Reaper Harassment with Moderate Production",
+      "trigger_summary": "In the early-midgame, the opponent has a ground posture with Reapers, and their economy and production are heavy. Your own posture is unknown, but you have moderate production and heavy technology.",
+      "type": "frequent"
+    },
+    "N011": {
+      "children": [],
+      "path": "nodes/N011.md",
+      "summary": "In the late-midgame, the opponent has a ground posture with Siege Tanks, Marines, Reapers, and Medivacs, and their economy and production are heavy. Your own posture is unknown, but you have a light economy. Maintain your current development path, but start to prepare for a potential ground engagement. Consider producing units that counter Siege Tanks, such as Marauders or air units.",
+      "title": "Late-Midgame Ground Posture with Heavy Economy",
+      "trigger_summary": "In the late-midgame, the opponent has a ground posture with Siege Tanks, Marines, Reapers, and Medivacs, and their economy and production are heavy. Your own posture is unknown, but you have a light economy.",
+      "type": "frequent"
+    },
+    "N012": {
+      "children": [
+        "N007"
+      ],
+      "path": "nodes/N012.md",
+      "summary": "In the early-midgame, the opponent has a ground posture with Marines and Reapers, and their economy and production are heavy. Your own army is ground-based with Marines, and you have a moderate economy. Strengthen your ground army by producing more Marines and possibly adding Marauders or Siege Tanks. Continue to expand your economy.",
+      "title": "Early-Midgame Ground Army Strengthening",
+      "trigger_summary": "In the early-midgame, the opponent has a ground posture with Marines and Reapers, and their economy and production are heavy. Your own army is ground-based with Marines, and you have a moderate economy.",
+      "type": "frequent"
+    }
+  },
+  "opening_name": "TvT_O02 Economy / Technology / Production",
+  "root": "SKILL.md",
+  "skill_id": "TvT_O02"
+}

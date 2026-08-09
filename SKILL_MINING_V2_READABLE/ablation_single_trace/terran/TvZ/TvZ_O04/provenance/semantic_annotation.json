@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overcommitting to early aggression that could delay tech or economy.",
+        "decision_direction": "Maintain current development path, focusing on economy and technology while keeping a light defensive presence.",
+        "exit_or_recheck_condition": "Re-evaluate when the opponent's composition or pressure becomes clearer, or when transitioning to the next phase.",
+        "next_state_summary": "Move to a state with heavier production and the addition of Siege Tanks.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "Zerg opponent is likely to be expanding and may apply early pressure. Exact composition is uncertain.",
+        "own_situation": "Early game with a ground-oriented army, moderate production, and heavy technology investment. Economy and expansion are heavy, but defense is light. Representative units include Marines and Reapers.",
+        "strategic_reason": "A heavy economy and tech investment sets up for a strong midgame, while light defense is sufficient if scouting indicates no immediate threat.",
+        "title": "Early Game Foundation",
+        "transition_goal": "Transition to a heavier production and more robust army composition as the game progresses.",
+        "trigger_summary": "At the start of the game, focus on establishing a solid economy and early tech while keeping a light defensive posture."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting or over-investing in tech without army support.",
+        "decision_direction": "Maintain the current path, continuing to build up production and tech while keeping an eye on defense.",
+        "exit_or_recheck_condition": "Re-evaluate when the opponent's tech or army composition becomes more apparent.",
+        "next_state_summary": "Move to a state with moderate air presence and Medivacs added.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "Zerg may be transitioning to a more tech-heavy composition or preparing a timing attack. Exact composition is uncertain.",
+        "own_situation": "Early-midgame with a ground-oriented army, heavy production, and heavy technology. Economy and expansion remain heavy. Representative units include Siege Tanks, Marines, and Reapers.",
+        "strategic_reason": "Siege Tanks provide strong defensive and positional strength, supporting a macro-oriented approach.",
+        "title": "Early-Mid Transition",
+        "transition_goal": "Continue expanding and teching while preparing for potential midgame engagements.",
+        "trigger_summary": "As the game enters the early-mid phase, production becomes heavier and Siege Tanks are added to the army."
+      },
+      {
+        "avoid_direction": "Avoid being caught off guard by tech switches; keep scouting.",
+        "decision_direction": "Maintain the current path, focusing on army composition and upgrades while keeping defensive structures.",
+        "exit_or_recheck_condition": "Re-evaluate when the opponent's tech path is clear or when transitioning to late game.",
+        "next_state_summary": "Move to a state with heavier defense and Marauders.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "Zerg may have a mix of ground and air units, possibly including Mutalisks or Banelings. Exact composition is uncertain.",
+        "own_situation": "Midgame with a ground-oriented army, heavy production, and heavy technology. Economy and expansion are heavy. Representative units include Siege Tanks, Marines, Reapers, and Medivacs.",
+        "strategic_reason": "Medivacs add sustain and mobility, allowing for better map control and multi-pronged pressure.",
+        "title": "Midgame Consolidation",
+        "transition_goal": "Prepare for late-midgame by adding Marauders and increasing air presence.",
+        "trigger_summary": "In the midgame, the army becomes more rounded with Medivacs for mobility and healing, while production and tech remain heavy."
+      },
+      {
+        "avoid_direction": "Avoid overextending without proper scouting or army composition adjustments.",
+        "decision_direction": "Maintain the current path, continuing to build a strong ground army while adding air support.",
+        "exit_or_recheck_condition": "Re-evaluate when the opponent's final composition is known or when reaching max supply.",
+        "next_state_summary": "Continue developing towards a late-game army with heavy air presence.",
+        "node_id": "N004",
+        "node_type": "trace",
+        "opponent_situation": "Zerg may have a large army with a mix of ground and air, possibly including Brood Lords or Ultralisks. Exact composition is uncertain.",
+        "own_situation": "Late-midgame with a ground-oriented army, heavy production, and heavy technology. Economy and expansion are heavy, and defense is heavy. Representative units include Siege Tanks, Marines, Reapers, and Marauders.",
+        "strategic_reason": "Marauders provide anti-armor capability, and heavier defense helps withstand Zerg's late-game pushes.",
+        "title": "Late-Midgame Strength",
+        "transition_goal": "Transition to a late-game composition with more air units and possibly Ghosts or Vikings.",
+        "trigger_summary": "In the late-midgame, the army includes Marauders for anti-armor, and defense becomes heavier. Air presence is increasing."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "TvZ_O04 Balanced Macro",
+      "opening_summary": "A Terran opening that develops a heavy economy and technology while maintaining a ground-oriented army. It transitions from light early pressure to a robust midgame composition with Siege Tanks, Marines, and Medivacs, and eventually adds Marauders and heavier air presence.",
+      "production_character": "moderate to heavy",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "TvZ_O04",
+  "projection_path": "02_observation_projection/ablation_single_trace/TvZ_O04.json"
+}

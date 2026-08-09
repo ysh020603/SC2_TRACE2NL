@@ -1,0 +1,100 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overcommitting to defense or neglecting scouting, as the opponent's exact composition is uncertain.",
+        "decision_direction": "Continue developing your ground army and economy, increasing production and technology while maintaining expansion.",
+        "exit_or_recheck_condition": "Recheck if the opponent shows signs of air transition or heavy pressure.",
+        "next_state_summary": "Continue to midgame with a stronger ground force and heavier tech.",
+        "node_id": "N001",
+        "node_type": "frequent",
+        "opponent_situation": "Enemy Intelligence is consistent with a ground posture; representative cues may include Marines and Reapers. Production and technology appear heavy, but exact hidden counts are unknown.",
+        "own_situation": "You have a heavy economy, production, and technology, with a ground-oriented army including Stalkers. Defense is light or uncertain, and expansion is heavy.",
+        "strategic_reason": "This frequent path supports a macro-oriented approach, leveraging your heavy economy and tech to outscale the opponent.",
+        "title": "Early-Midgame Ground Development",
+        "transition_goal": "Reach a stronger ground army composition with improved technology and upgrades.",
+        "trigger_summary": "At around 300 seconds, both sides show heavy economy, production, and technology, with the opponent likely fielding Marines and Reapers, while you have Stalkers."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting or over-investing in tech without army.",
+        "decision_direction": "Strengthen your ground army, increase production and technology, and consider adding support units like Sentries or Immortals.",
+        "exit_or_recheck_condition": "Recheck if the opponent transitions to air or shows heavy pressure.",
+        "next_state_summary": "Continue to midgame with a stronger ground force and heavier tech.",
+        "node_id": "N002",
+        "node_type": "frequent",
+        "opponent_situation": "Enemy Intelligence is consistent with a ground posture; representative cues may include Marines, Reapers, and Marauders. Production and tech appear heavy, but exact counts are unknown.",
+        "own_situation": "You have a heavy economy, production, and technology, with a ground army of Zealots and Stalkers. Defense is light or uncertain, and expansion is heavy.",
+        "strategic_reason": "This frequent path supports a macro-oriented approach, leveraging your heavy economy and tech to outscale the opponent.",
+        "title": "Midgame Ground Tech Push",
+        "transition_goal": "Build a robust ground composition with tech support.",
+        "trigger_summary": "At around 420-480 seconds, both sides have heavy economy and tech, with the opponent adding Marauders, and you have Zealots and Stalkers."
+      },
+      {
+        "avoid_direction": "Avoid committing to a specific army composition without more information.",
+        "decision_direction": "Continue developing your technology and economy, while increasing production and scouting to determine the opponent's intent.",
+        "exit_or_recheck_condition": "Recheck when you have more information about the opponent's composition.",
+        "next_state_summary": "Transition to early-midgame with a clearer picture of the opponent.",
+        "node_id": "N003",
+        "node_type": "frequent",
+        "opponent_situation": "Enemy Intelligence is consistent with an unknown posture; representative cues may include Reaper. Production appears moderate, tech heavy, but exact counts are unknown.",
+        "own_situation": "You have heavy economy and technology, but production is moderate and expansion is light or uncertain. Army composition is unknown.",
+        "strategic_reason": "This frequent path supports a macro-oriented approach, leveraging your heavy economy and tech to outscale the opponent.",
+        "title": "Early Game Tech Development",
+        "transition_goal": "Establish a solid economy and tech base while gaining scouting information.",
+        "trigger_summary": "At around 180 seconds, the opponent's posture is unknown, with possible Reaper, while you have heavy tech and moderate production."
+      },
+      {
+        "avoid_direction": "Avoid overreacting to a single Reaper; keep scouting for more information.",
+        "decision_direction": "Continue developing your technology and economy, while increasing production and scouting to confirm the opponent's ground intent.",
+        "exit_or_recheck_condition": "Recheck when you have more information about the opponent's composition.",
+        "next_state_summary": "Transition to early-midgame with a clearer picture of the opponent.",
+        "node_id": "N004",
+        "node_type": "frequent",
+        "opponent_situation": "Enemy Intelligence is consistent with a ground posture; representative cues may include Reaper. Production appears heavy, tech heavy, but exact counts are unknown.",
+        "own_situation": "You have heavy economy and technology, but production is moderate and expansion is light or uncertain. Army composition is unknown.",
+        "strategic_reason": "This frequent path supports a macro-oriented approach, leveraging your heavy economy and tech to outscale the opponent.",
+        "title": "Early Game Ground Read",
+        "transition_goal": "Establish a solid economy and tech base while confirming the opponent's composition.",
+        "trigger_summary": "At around 180 seconds, the opponent shows a ground posture with Reaper, while your own posture is still unknown."
+      },
+      {
+        "avoid_direction": "Avoid neglecting detection or anti-air, as the opponent may have Medivacs and potential air transitions.",
+        "decision_direction": "Continue strengthening your ground army and technology, adding upgrades and support units, while maintaining economy and expansion.",
+        "exit_or_recheck_condition": "Recheck if the opponent transitions to air or shows heavy pressure.",
+        "next_state_summary": "Continue to late game with a strong ground force and heavy tech.",
+        "node_id": "N005",
+        "node_type": "frequent",
+        "opponent_situation": "Enemy Intelligence is consistent with a ground posture; representative cues may include Marines, Reapers, Marauders, and Medivacs. Production and tech appear heavy, but exact counts are unknown.",
+        "own_situation": "You have a heavy economy, production, and technology, with a ground army including Zealots, Stalkers, High Templars, and Sentries. Defense is moderate, and expansion is heavy.",
+        "strategic_reason": "This frequent path supports a macro-oriented approach, leveraging your heavy economy and tech to outscale the opponent.",
+        "title": "Late Midgame Ground Tech",
+        "transition_goal": "Build a powerful late-midgame ground army with strong tech support.",
+        "trigger_summary": "At around 600-720 seconds, the opponent has a ground army with Medivacs, and you have High Templars and Sentries, indicating a tech-heavy ground composition."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "Technology / Economy / Production",
+      "opening_name": "PvT_O06 Technology/Economy/Production",
+      "opening_summary": "A heavy-economy, heavy-technology, heavy-production opening that develops a broadly ground-oriented posture while retaining flexibility to shift toward air or tech units based on live observation.",
+      "production_character": "heavy",
+      "strategic_goal": "Develop a technology/economy/production posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_frequency_only",
+  "method_specific_annotation": true,
+  "opening_id": "PvT_O06",
+  "projection_path": "02_observation_projection/ablation_frequency_only/PvT_O06.json"
+}

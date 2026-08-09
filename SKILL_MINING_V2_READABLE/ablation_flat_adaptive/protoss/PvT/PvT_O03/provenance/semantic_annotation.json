@@ -1,0 +1,114 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid over-committing to defense without scouting; avoid neglecting tech upgrades.",
+        "decision_direction": "Strengthen ground forces while increasing production and technology. Maintain economy and expansion.",
+        "exit_or_recheck_condition": "Recheck if enemy shows air units or heavy pressure; adjust accordingly.",
+        "next_state_summary": "Continue developing with safety checks, possibly transitioning to a more defensive or tech-heavy composition.",
+        "node_id": "N001",
+        "node_type": "default",
+        "opponent_situation": "Enemy is likely on a ground macro posture with heavy production and tech. Possible Marine/Hellion cues suggest early pressure or a bio opener.",
+        "own_situation": "You have a heavy economy and production, with a ground-oriented army (Zealot/Stalker). Defense is light, so you need to be cautious.",
+        "strategic_reason": "Matching the opponent's heavy macro while investing in tech gives you a strong mid-game. Ground army is safe against unknown air.",
+        "title": "Early-Mid Ground Macro with Heavy Tech",
+        "transition_goal": "Build a solid ground army with tech support (e.g., Immortal/Sentry) to handle bio and mech.",
+        "trigger_summary": "Early-mid game, both sides have heavy economy and production, with ground-oriented armies. Enemy shows possible Marine/Hellion cues."
+      },
+      {
+        "avoid_direction": "Avoid neglecting defense; Reapers can punish a greedy expansion.",
+        "decision_direction": "Increase expansion to secure economy, while maintaining ground strength and tech. Be ready to defend against Reaper harass.",
+        "exit_or_recheck_condition": "Recheck if enemy commits to a timing attack or transitions to air.",
+        "next_state_summary": "Move towards a more stable economy and defensive posture.",
+        "node_id": "N002",
+        "node_type": "negative",
+        "opponent_situation": "Enemy has heavy production and tech, with Reaper cues suggesting early aggression or scouting.",
+        "own_situation": "You have heavy economy and production but light expansion, meaning you are on fewer bases. Ground army (Stalker) is present.",
+        "strategic_reason": "Light expansion is risky against a heavy economy opponent. Expanding now secures long-term income.",
+        "title": "Early-Mid Ground with Light Expansion",
+        "transition_goal": "Secure a third base and build a defensive ground force to deter harassment.",
+        "trigger_summary": "Early-mid game, enemy shows Reaper cues, indicating possible early harassment. Your expansion is light, so you are vulnerable."
+      },
+      {
+        "avoid_direction": "Avoid attacking into a fortified position without proper army composition.",
+        "decision_direction": "Strengthen ground forces, increase production and tech, and maintain economy. Consider adding defensive structures.",
+        "exit_or_recheck_condition": "Recheck if enemy moves out or techs to air.",
+        "next_state_summary": "Continue developing, possibly transitioning to a more aggressive stance if enemy expands.",
+        "node_id": "N003",
+        "node_type": "default",
+        "opponent_situation": "Enemy is heavily defended with a ground army, possibly preparing for a push or expanding.",
+        "own_situation": "You have a heavy economy and production, with a ground army (Zealot/Stalker). Defense is light, so you need to be cautious.",
+        "strategic_reason": "Enemy's heavy defense suggests a macro game. Matching their economy while teching gives you an advantage.",
+        "title": "Midgame Ground Macro with Heavy Defense",
+        "transition_goal": "Build a strong ground army with tech (e.g., Colossus or High Templar) to break defenses.",
+        "trigger_summary": "Midgame, enemy has heavy defense and ground army (Marine/Medivac). You have heavy economy and production."
+      },
+      {
+        "avoid_direction": "Avoid over-teching without army; scout to determine enemy's plan.",
+        "decision_direction": "Continue teching while increasing production. Maintain economy and expansion.",
+        "exit_or_recheck_condition": "Recheck when enemy's army composition becomes clearer.",
+        "next_state_summary": "Transition to a more defined army composition based on scouting.",
+        "node_id": "N004",
+        "node_type": "default",
+        "opponent_situation": "Enemy has heavy tech and moderate production, with Marine cues. Their army composition is unclear.",
+        "own_situation": "You have heavy economy and tech, but production is moderate. Army is unknown, but you have Zealot.",
+        "strategic_reason": "Heavy tech gives you options. Increasing production ensures you can field an army.",
+        "title": "Early Game Tech Focus with Unknown Enemy",
+        "transition_goal": "Establish a solid tech base (e.g., Robotics or Stargate) and a production backbone.",
+        "trigger_summary": "Early game, enemy posture is unknown but shows Marine cues. You have heavy tech investment."
+      },
+      {
+        "avoid_direction": "Avoid engaging without proper positioning; Siege Tanks are deadly in open fields.",
+        "decision_direction": "Strengthen ground forces with tech units like Immortal and Sentry. Increase production and tech. Maintain economy.",
+        "exit_or_recheck_condition": "Recheck if enemy adds air units or switches to a more mobile composition.",
+        "next_state_summary": "Continue developing, possibly transitioning to a more mixed army.",
+        "node_id": "N005",
+        "node_type": "default",
+        "opponent_situation": "Enemy has a heavy ground army with Siege Tanks, indicating a mech or bio-tank composition.",
+        "own_situation": "You have a heavy economy and production, with a ground army including Stalker, Sentry, Observer, and Immortal. Defense is moderate.",
+        "strategic_reason": "Immortals are strong against Siege Tanks. Sentries provide utility with Force Field.",
+        "title": "Late-Mid Ground vs Siege Tank Composition",
+        "transition_goal": "Build a composition that can break siege lines, possibly adding Colossus or High Templar.",
+        "trigger_summary": "Late-mid game, enemy has a heavy ground army with Siege Tanks, Marines, Marauders, and Medivacs. You have a ground army with tech."
+      },
+      {
+        "avoid_direction": "Avoid over-committing to Stalkers; Marauders will shred them.",
+        "decision_direction": "Continue teching while increasing production. Maintain economy and expansion.",
+        "exit_or_recheck_condition": "Recheck if enemy adds Medivacs or techs to other units.",
+        "next_state_summary": "Transition to a more robust ground composition.",
+        "node_id": "N006",
+        "node_type": "default",
+        "opponent_situation": "Enemy has a ground posture with Marine and Marauder, suggesting early bio pressure.",
+        "own_situation": "You have heavy economy and tech, but production is moderate. Army is unknown, but you have Stalker.",
+        "strategic_reason": "Stalkers are good against Marines, but Marauders counter them. Need to tech to counter.",
+        "title": "Early Game Ground vs Marine/Marauder",
+        "transition_goal": "Tech to units that counter bio (e.g., Colossus or High Templar) while building a solid ground army.",
+        "trigger_summary": "Early game, enemy shows Marine and Marauder cues, indicating a bio opening. You have a Stalker."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order. Adapt based on live observations.",
+      "opening_family": "Technology/Economy/Production",
+      "opening_name": "PvT_O03 Technology/Economy/Production",
+      "opening_summary": "A Protoss opening that emphasizes heavy technology and economy while maintaining moderate production, aiming for a flexible mid-game transition based on scouting.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a robust economy and technology infrastructure while keeping production options open, adapting to Terran's ground-oriented play.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_flat_adaptive",
+  "method_specific_annotation": true,
+  "opening_id": "PvT_O03",
+  "projection_path": "02_observation_projection/ablation_flat_adaptive/PvT_O03.json"
+}

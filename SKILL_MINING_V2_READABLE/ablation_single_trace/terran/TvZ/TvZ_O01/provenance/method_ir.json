@@ -1,0 +1,276 @@
+{
+  "allowed_information": {
+    "graph": false,
+    "labels": {
+      "trace": "trace"
+    },
+    "opponent": false,
+    "population": false,
+    "value": false
+  },
+  "method": "ablation_single_trace",
+  "opening_evidence": {
+    "opening_id": "TvZ_O01",
+    "source_trace": {
+      "is_win": 1,
+      "player_id": 1,
+      "replay_id": "000b070c52721a335c886ed1"
+    }
+  },
+  "opening_id": "TvZ_O01",
+  "opponent_race": "Zerg",
+  "opponent_states": [],
+  "own_states": [
+    {
+      "profile": {
+        "own_cum_air": 0.0,
+        "own_cum_defense": 0.0,
+        "own_cum_economy": 0.59,
+        "own_cum_expansion": 0.8667,
+        "own_cum_ground": 0.1333,
+        "own_cum_production": 0.1667,
+        "own_cum_technology": 0.75,
+        "own_cum_upgrade": 0.0
+      },
+      "representative_cues": [
+        2,
+        0,
+        3
+      ],
+      "state_id": "TvZ_TvZ_O01_T180_OWN_S01",
+      "time": 180
+    },
+    {
+      "profile": {
+        "own_cum_air": 0.0,
+        "own_cum_defense": 0.0,
+        "own_cum_economy": 0.79,
+        "own_cum_expansion": 0.8667,
+        "own_cum_ground": 0.1333,
+        "own_cum_production": 0.3333,
+        "own_cum_technology": 0.75,
+        "own_cum_upgrade": 0.0
+      },
+      "representative_cues": [
+        2,
+        0,
+        3
+      ],
+      "state_id": "TvZ_TvZ_O01_T240_OWN_S01",
+      "time": 240
+    },
+    {
+      "profile": {
+        "own_cum_air": 0.0,
+        "own_cum_defense": 0.0,
+        "own_cum_economy": 1.0,
+        "own_cum_expansion": 1.0,
+        "own_cum_ground": 0.2,
+        "own_cum_production": 0.5,
+        "own_cum_technology": 1.0,
+        "own_cum_upgrade": 0.0
+      },
+      "representative_cues": [
+        3,
+        0,
+        4
+      ],
+      "state_id": "TvZ_TvZ_O01_T300_OWN_S01",
+      "time": 300
+    },
+    {
+      "profile": {
+        "own_cum_air": 0.125,
+        "own_cum_defense": 0.0,
+        "own_cum_economy": 1.0,
+        "own_cum_expansion": 1.0,
+        "own_cum_ground": 0.2667,
+        "own_cum_production": 0.5,
+        "own_cum_technology": 1.0,
+        "own_cum_upgrade": 0.3333
+      },
+      "representative_cues": [
+        5,
+        1,
+        5
+      ],
+      "state_id": "TvZ_TvZ_O01_T360_OWN_S01",
+      "time": 360
+    },
+    {
+      "profile": {
+        "own_cum_air": 0.25,
+        "own_cum_defense": 0.0,
+        "own_cum_economy": 1.0,
+        "own_cum_expansion": 1.0,
+        "own_cum_ground": 0.4667,
+        "own_cum_production": 0.6667,
+        "own_cum_technology": 1.0,
+        "own_cum_upgrade": 0.3333
+      },
+      "representative_cues": [
+        9,
+        2,
+        5
+      ],
+      "state_id": "TvZ_TvZ_O01_T420_OWN_S01",
+      "time": 420
+    },
+    {
+      "profile": {
+        "own_cum_air": 0.25,
+        "own_cum_defense": 0.0,
+        "own_cum_economy": 1.0,
+        "own_cum_expansion": 1.0,
+        "own_cum_ground": 0.6,
+        "own_cum_production": 0.6667,
+        "own_cum_technology": 1.0,
+        "own_cum_upgrade": 0.3333
+      },
+      "representative_cues": [
+        11,
+        2,
+        8
+      ],
+      "state_id": "TvZ_TvZ_O01_T480_OWN_S01",
+      "time": 480
+    },
+    {
+      "profile": {
+        "own_cum_air": 0.25,
+        "own_cum_defense": 0.0,
+        "own_cum_economy": 1.0,
+        "own_cum_expansion": 1.0,
+        "own_cum_ground": 0.8667,
+        "own_cum_production": 0.6667,
+        "own_cum_technology": 1.0,
+        "own_cum_upgrade": 1.0
+      },
+      "representative_cues": [
+        15,
+        2,
+        10
+      ],
+      "state_id": "TvZ_TvZ_O01_T540_OWN_S01",
+      "time": 540
+    }
+  ],
+  "provenance": {
+    "method_boundary_applied_before_annotation": true,
+    "source_files": [
+      "04_openings/opening_assignments.parquet",
+      "06_states/state_assignments.parquet"
+    ]
+  },
+  "race": "Terran",
+  "transitions": [
+    {
+      "next_state_id": "TvZ_TvZ_O01_T240_OWN_S01",
+      "opponent_state_id": null,
+      "phase": [
+        180,
+        240
+      ],
+      "response_cluster_features": {},
+      "response_id": null,
+      "source_state_id": "TvZ_TvZ_O01_T180_OWN_S01",
+      "source_trace": {
+        "player_id": 1,
+        "replay_id": "000b070c52721a335c886ed1"
+      },
+      "statistical_label": "trace",
+      "support": 1,
+      "value_fields": {}
+    },
+    {
+      "next_state_id": "TvZ_TvZ_O01_T300_OWN_S01",
+      "opponent_state_id": null,
+      "phase": [
+        240,
+        300
+      ],
+      "response_cluster_features": {},
+      "response_id": null,
+      "source_state_id": "TvZ_TvZ_O01_T240_OWN_S01",
+      "source_trace": {
+        "player_id": 1,
+        "replay_id": "000b070c52721a335c886ed1"
+      },
+      "statistical_label": "trace",
+      "support": 1,
+      "value_fields": {}
+    },
+    {
+      "next_state_id": "TvZ_TvZ_O01_T360_OWN_S01",
+      "opponent_state_id": null,
+      "phase": [
+        300,
+        360
+      ],
+      "response_cluster_features": {},
+      "response_id": null,
+      "source_state_id": "TvZ_TvZ_O01_T300_OWN_S01",
+      "source_trace": {
+        "player_id": 1,
+        "replay_id": "000b070c52721a335c886ed1"
+      },
+      "statistical_label": "trace",
+      "support": 1,
+      "value_fields": {}
+    },
+    {
+      "next_state_id": "TvZ_TvZ_O01_T420_OWN_S01",
+      "opponent_state_id": null,
+      "phase": [
+        360,
+        420
+      ],
+      "response_cluster_features": {},
+      "response_id": null,
+      "source_state_id": "TvZ_TvZ_O01_T360_OWN_S01",
+      "source_trace": {
+        "player_id": 1,
+        "replay_id": "000b070c52721a335c886ed1"
+      },
+      "statistical_label": "trace",
+      "support": 1,
+      "value_fields": {}
+    },
+    {
+      "next_state_id": "TvZ_TvZ_O01_T480_OWN_S01",
+      "opponent_state_id": null,
+      "phase": [
+        420,
+        480
+      ],
+      "response_cluster_features": {},
+      "response_id": null,
+      "source_state_id": "TvZ_TvZ_O01_T420_OWN_S01",
+      "source_trace": {
+        "player_id": 1,
+        "replay_id": "000b070c52721a335c886ed1"
+      },
+      "statistical_label": "trace",
+      "support": 1,
+      "value_fields": {}
+    },
+    {
+      "next_state_id": "TvZ_TvZ_O01_T540_OWN_S01",
+      "opponent_state_id": null,
+      "phase": [
+        480,
+        540
+      ],
+      "response_cluster_features": {},
+      "response_id": null,
+      "source_state_id": "TvZ_TvZ_O01_T480_OWN_S01",
+      "source_trace": {
+        "player_id": 1,
+        "replay_id": "000b070c52721a335c886ed1"
+      },
+      "statistical_label": "trace",
+      "support": 1,
+      "value_fields": {}
+    }
+  ]
+}

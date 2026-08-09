@@ -1,0 +1,72 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid making early commitments to a specific army composition or aggressive posture that could be exploited if the opponent's strategy differs from expectations.",
+        "decision_direction": "Maintain current development path while keeping options open. Continue investing in economy and technology, but avoid overcommitting to a specific army composition until more information is available.",
+        "exit_or_recheck_condition": "Re-evaluate when you have more information about the opponent's composition or when your technology advantages are ready to be leveraged.",
+        "next_state_summary": "Your army becomes ground-oriented with a macro focus, and your expansion posture becomes heavier.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "No reliable information about the opponent's composition or strategy is available at this stage.",
+        "own_situation": "Your economy is developing heavily, but your army composition and defensive posture are not yet established. You have a moderate production capacity and are investing heavily in technology. Your representative unit is a Stalker, indicating a potential ground path, but you have not committed to a specific army style.",
+        "strategic_reason": "Early game is a period of uncertainty. By focusing on economy and technology, you build a strong foundation that can support multiple strategic directions later. This approach minimizes risk while preserving flexibility.",
+        "title": "Early Game Technology Focus",
+        "transition_goal": "Transition to a more defined ground-based army composition as you gain more information and your technology advantages come online.",
+        "trigger_summary": "Early game phase with moderate production and heavy technology investment, but army composition and posture are still undefined."
+      },
+      {
+        "avoid_direction": "Avoid overcommitting to an aggressive push without proper scouting, as the opponent's composition is still unknown.",
+        "decision_direction": "Continue developing your ground army and economy while maintaining a defensive posture. Keep an eye out for opportunities to apply pressure, but do not overextend.",
+        "exit_or_recheck_condition": "Re-evaluate when you have more information about the opponent's composition or when your production capacity increases.",
+        "next_state_summary": "Your production becomes heavy, and you add Sentries to your army composition.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "No reliable information about the opponent's composition or strategy is available at this stage.",
+        "own_situation": "Your army is now ground-based with a macro-oriented style, and you have expanded heavily. Your economy remains strong, and you continue to invest in technology. Your production is moderate, and you have a possible pressure posture, meaning you might be able to apply pressure if the opportunity arises.",
+        "strategic_reason": "With a solid economy and technology lead, you can afford to build a strong ground army. Maintaining a defensive posture reduces risk while you continue to scale up. The possible pressure posture indicates that you may be able to threaten the opponent, but only if you have sufficient information.",
+        "title": "Ground Macro Development",
+        "transition_goal": "Transition to a heavier production capacity and a more defined army composition as you approach the midgame.",
+        "trigger_summary": "Transition to early-midgame with a clear ground-oriented army style and a heavy expansion posture."
+      },
+      {
+        "avoid_direction": "Avoid becoming too passive, as the opponent might be building up a counter to your ground army. Also, avoid overextending your army without proper scouting.",
+        "decision_direction": "Maintain your current army composition and production, but be prepared to adapt based on the opponent's actions. Consider using your Sentries for scouting or defensive purposes, and use your Immortals to counter any heavy ground units the opponent might have.",
+        "exit_or_recheck_condition": "Re-evaluate when you have more information about the opponent's composition or when you are ready to make a decisive move.",
+        "next_state_summary": "Continue to develop your army and economy, potentially transitioning to a more aggressive stance or further technological advancement.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "No reliable information about the opponent's composition or strategy is available at this stage.",
+        "own_situation": "Your army is now well-developed with a mix of Stalkers, Sentries, and Immortals, giving you a strong ground force. Your production is heavy, and you continue to invest heavily in technology. Your economy is strong, and you have expanded heavily. Your defensive posture is still light, but your army strength is likely sufficient to deter most attacks.",
+        "strategic_reason": "With a strong ground army and heavy production, you are in a good position to transition into a midgame push or continue expanding. The technology investment gives you access to powerful units and upgrades, which can be leveraged to gain an advantage.",
+        "title": "Midgame Heavy Production",
+        "transition_goal": "Transition to a more aggressive posture if you gain an advantage, or continue to tech up to higher-tier units if the game goes late.",
+        "trigger_summary": "Midgame phase with heavy production and a ground-based army that includes Stalkers, Sentries, and Immortals."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "light_or_uncertain",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "PvP_O04 Balanced Macro",
+      "opening_summary": "A balanced macro-oriented Protoss opening that emphasizes heavy technology investment and a gradual transition to a ground-based army, while maintaining flexibility for live observation-driven adaptation.",
+      "production_character": "light_or_uncertain",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "light_or_uncertain"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "PvP_O04",
+  "projection_path": "02_observation_projection/ablation_single_trace/PvP_O04.json"
+}

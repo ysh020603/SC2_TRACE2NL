@@ -1,0 +1,58 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid over-investing in a single tech path or neglecting scouting. Do not over-pull workers or take unnecessary risks.",
+        "decision_direction": "Maintain current army path, defense, economy, expansion, production, and technology. Continue developing with safety checks.",
+        "exit_or_recheck_condition": "Re-evaluate when you have more information about opponent's composition or if you detect an aggressive push.",
+        "next_state_summary": "Move to early-midgame with heavier technology and a Reaper for scouting.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "Opponent is Protoss, but their specific composition and tech path are not yet confirmed. Expect possible early pressure or a fast expand.",
+        "own_situation": "Your completed or developing posture is broadly ground-oriented, with moderate production and moderate technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+        "strategic_reason": "A balanced macro approach allows you to respond to opponent's tech or aggression without overcommitting. Heavy defense and economy provide a stable foundation.",
+        "title": "Early Game Ground Macro",
+        "transition_goal": "Transition to a heavier technology investment and possibly add Reapers for map control and scouting.",
+        "trigger_summary": "Early game phase with a ground-oriented army, moderate production, and moderate technology. Defense and economy are heavy, with possible pressure from the opponent."
+      },
+      {
+        "avoid_direction": "Avoid neglecting army production while teching. Do not over-expand without proper scouting.",
+        "decision_direction": "Maintain current army path, defense, economy, expansion, production, and technology. Continue developing with safety checks.",
+        "exit_or_recheck_condition": "Re-evaluate when you have confirmed opponent's tech path or if you face an attack.",
+        "next_state_summary": "Move to a state with heavier production and a more diverse ground army.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "Opponent is Protoss, but their specific composition and tech path are still not fully confirmed. Possible tech choices include Stargate or Robo.",
+        "own_situation": "Your completed or developing posture is broadly ground-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+        "strategic_reason": "Heavy technology investment gives you access to key upgrades and units that can counter Protoss tech. Maintaining a strong economy supports this investment.",
+        "title": "Early-Midgame Tech Transition",
+        "transition_goal": "Transition to a heavier production and a more robust ground army, possibly adding Marauders.",
+        "trigger_summary": "Early-midgame phase with a ground-oriented army, moderate production, and heavy technology. Defense and economy remain heavy, with possible pressure."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "TvP_O07 Balanced Macro",
+      "opening_summary": "A balanced macro-oriented opening that focuses on a solid ground-based army composition with a strong economy and defense. The build transitions from early game Marines to a heavier ground force with Marauders and Reapers, while maintaining a heavy defensive and economic posture.",
+      "production_character": "moderate to heavy",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "moderate to heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "TvP_O07",
+  "projection_path": "02_observation_projection/ablation_single_trace/TvP_O07.json"
+}

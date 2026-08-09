@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overcommitting to a specific army composition or defensive structure before you have more information.",
+        "decision_direction": "Maintain current development path, focusing on economy and technology while keeping production steady.",
+        "exit_or_recheck_condition": "Re-evaluate when you have more information about the opponent's army composition or if you detect early pressure.",
+        "next_state_summary": "Transition to early-midgame with continued heavy economy and technology, but production may increase.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "No confirmed information about the Terran opponent's composition or intentions at this stage.",
+        "own_situation": "Your economy and technology are developing strongly, but your army composition and defensive posture are not yet clear. Production is moderate, and you have a Zealot as a representative unit.",
+        "strategic_reason": "Early game is about establishing a solid foundation. Heavy economy and technology investment will pay off later, but you need to be ready to adapt if the opponent shows aggression.",
+        "title": "Early Game Development",
+        "transition_goal": "Continue developing while gathering information about the opponent's strategy.",
+        "trigger_summary": "Early game phase with unknown army composition and light defense, but heavy economy and technology investment."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting or failing to react to early Terran aggression.",
+        "decision_direction": "Continue maintaining your development path, but start to prepare for potential transitions based on what you observe.",
+        "exit_or_recheck_condition": "Re-evaluate when you have a clearer picture of the opponent's strategy or when you reach a critical tech milestone.",
+        "next_state_summary": "Transition to midgame with a more defined army composition, likely ground-focused.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "No confirmed information about the Terran opponent's composition or intentions.",
+        "own_situation": "Your economy and technology remain heavy, and production is ramping up. You have Zealots and possibly Oracles, indicating a mix of ground and air capabilities.",
+        "strategic_reason": "As the game progresses, you need to be ready to shift your army composition. Maintaining a balanced approach allows you to adapt to the opponent's tech choices.",
+        "title": "Early-Midgame Transition",
+        "transition_goal": "Build a versatile army core that can transition into either ground or air dominance.",
+        "trigger_summary": "Early-midgame phase with still unknown army composition, but production is increasing and air presence is becoming moderate."
+      },
+      {
+        "avoid_direction": "Avoid overextending your army without proper scouting, as Terran may have hidden tech or drops.",
+        "decision_direction": "Maintain your ground army and continue to develop your economy and technology. Be ready to defend against possible attacks.",
+        "exit_or_recheck_condition": "Re-evaluate when you have information about the Terran's army composition or when you are ready to push or expand further.",
+        "next_state_summary": "Transition to late-midgame with an even stronger ground army, possibly including Colossi.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "No confirmed information about the Terran opponent's composition, but you should be aware of potential pressure.",
+        "own_situation": "Your army is now ground-oriented with Zealots, Stalkers, Sentries, and Immortals. Production and defense are heavy, and you have a solid economy and technology base.",
+        "strategic_reason": "A strong ground army with heavy production can apply pressure or defend effectively. Your technology investment allows for upgrades and tech switches if needed.",
+        "title": "Midgame Ground Army",
+        "transition_goal": "Continue to strengthen your ground army and prepare for late-game transitions, possibly adding Colossi or other tech.",
+        "trigger_summary": "Midgame phase with a ground-focused army composition, heavy production, and heavy defense."
+      },
+      {
+        "avoid_direction": "Avoid being caught off guard by Terran air units or drops. Keep detection and anti-air options in mind.",
+        "decision_direction": "Maintain your army and continue to develop. Consider pushing or expanding if you have an advantage, but keep your defenses strong.",
+        "exit_or_recheck_condition": "Re-evaluate when you have information about the Terran's final composition or when you are ready to make a decisive move.",
+        "next_state_summary": "Continue to the late game with a strong ground army, ready for the final engagements.",
+        "node_id": "N004",
+        "node_type": "trace",
+        "opponent_situation": "No confirmed information about the Terran opponent's composition, but you should be prepared for a possible late-game confrontation.",
+        "own_situation": "Your army is now a formidable ground force with Colossi, Zealots, Stalkers, and Sentries. Production and defense are heavy, and your economy and technology are strong.",
+        "strategic_reason": "With a strong ground army and heavy production, you can dictate the pace of the game. Your technology investment allows for further upgrades or tech switches.",
+        "title": "Late-Midgame Consolidation",
+        "transition_goal": "Prepare for the late game by ensuring your army composition is well-rounded and your economy can support a sustained fight.",
+        "trigger_summary": "Late-midgame phase with a powerful ground army including Colossi, heavy production, and heavy defense."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "PvT_O05 Balanced Macro",
+      "opening_summary": "A flexible Protoss opening that prioritizes economy and technology while keeping production moderate. It transitions from an unknown early posture into a ground-heavy midgame with heavy production and defense.",
+      "production_character": "moderate to heavy",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "PvT_O05",
+  "projection_path": "02_observation_projection/ablation_single_trace/PvT_O05.json"
+}

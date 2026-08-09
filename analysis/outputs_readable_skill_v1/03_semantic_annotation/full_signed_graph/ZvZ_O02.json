@@ -1,0 +1,128 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid making risky all-in commitments or neglecting scouting. Do not assume the opponent is passive; they may be preparing an aggressive move.",
+        "decision_direction": "Maintain current development path while keeping safety checks. Focus on economy and scouting to determine the opponent's intentions.",
+        "exit_or_recheck_condition": "Exit this node when you have scouted the opponent's base or seen their units. Recheck if the opponent's posture remains unknown for an extended period.",
+        "next_state_summary": "The next state is either a continuation of the unknown posture (N002) or a shift to a ground macro posture (N005 or N006) depending on scouting.",
+        "node_id": "N001",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows no reliable combat-unit cues. The opponent's economy, production, and technology are all light or uncertain. Their army domain is unknown, and they may be pursuing any strategy.",
+        "own_situation": "Your economy and production are light or uncertain. You have not committed to a specific army composition. You are in the early game, with limited scouting information.",
+        "strategic_reason": "In the early game, overcommitting to a specific strategy can be punished if the opponent is doing something different. Maintaining flexibility allows you to react to the opponent's first moves.",
+        "title": "Early Game Unknown Posture",
+        "transition_goal": "Transition to a more defined posture once you have more information about the opponent's strategy. This could be a ground macro posture or a more aggressive build.",
+        "trigger_summary": "At the start of the game, both players have limited information. The opponent's posture is unknown, and your own posture is also uncertain. This node represents the initial phase where you are still gathering information."
+      },
+      {
+        "avoid_direction": "Avoid overextending your economy without a sufficient army to defend. Do not ignore the possibility of a hidden tech switch or a surprise attack.",
+        "decision_direction": "Continue to develop your economy and infrastructure while maintaining a defensive posture. Keep scouting to detect any sudden changes in the opponent's behavior.",
+        "exit_or_recheck_condition": "Exit this node when you have a clear picture of the opponent's strategy or when the opponent makes a move that forces a response.",
+        "next_state_summary": "The next state is either a continuation of the unknown posture (N003) or a shift to a ground macro posture (N007) if you decide to commit to ground forces.",
+        "node_id": "N002",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence still shows no reliable combat-unit cues. The opponent's economy, production, and technology remain light or uncertain. Their army domain is unknown.",
+        "own_situation": "Your economy and production are still light or uncertain. You have not built a significant army. You are in the early-midgame, and the opponent has not shown any clear signs of aggression or expansion.",
+        "strategic_reason": "If the opponent is also playing passively, you can safely expand and build a strong economy. However, you must be prepared to defend against a possible timing attack.",
+        "title": "Early-Midgame Unknown Posture",
+        "transition_goal": "Transition to a more concrete strategy once you have a better read on the opponent. This could involve committing to a ground army or teching up.",
+        "trigger_summary": "The game progresses into the early-midgame while the opponent's posture remains unknown. You have not yet committed to a specific strategy, and the opponent's intentions are still unclear."
+      },
+      {
+        "avoid_direction": "Avoid staying too passive for too long, as the opponent may be building a strong economy and will outscale you. Do not neglect army production.",
+        "decision_direction": "Start committing to a specific strategy. Given the lack of information, it is often safe to focus on a ground-based army with a strong economy. Continue to scout and be ready to adapt.",
+        "exit_or_recheck_condition": "Exit this node when you have a clear army composition and a plan for the rest of the game.",
+        "next_state_summary": "The next state is a continuation of the unknown posture (N004) or a shift to a ground macro posture (N007) if you commit to ground forces.",
+        "node_id": "N003",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence still shows no reliable combat-unit cues. The opponent's economy, production, and technology remain light or uncertain. Their army domain is unknown.",
+        "own_situation": "Your economy and production are still light or uncertain. You have not built a significant army. You are in the midgame, and the opponent has not shown any clear signs of aggression or expansion.",
+        "strategic_reason": "In the midgame, you need to have a plan to avoid falling behind. A ground macro posture is a solid default in ZvZ, as it allows for both defense and aggression.",
+        "title": "Midgame Unknown Posture",
+        "transition_goal": "Transition to a concrete army composition, such as Zerglings and Queens, and start expanding to support it.",
+        "trigger_summary": "The game reaches the midgame, and the opponent's posture is still unknown. You have maintained a flexible approach, but now you need to start making more concrete decisions."
+      },
+      {
+        "avoid_direction": "Avoid continuing to play passively, as you will fall behind in economy and army. Do not make a risky all-in without proper scouting.",
+        "decision_direction": "Make a decisive move. If you have been playing passively, you need to either expand aggressively or build a strong army to pressure the opponent. Consider teching up to a more advanced composition.",
+        "exit_or_recheck_condition": "Exit this node when you have a clear plan for the late game and have started executing it.",
+        "next_state_summary": "The next state is a continuation of the unknown posture (N004) or a shift to a ground macro posture (N007) if you commit to ground forces.",
+        "node_id": "N004",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence still shows no reliable combat-unit cues. The opponent's economy, production, and technology remain light or uncertain. Their army domain is unknown.",
+        "own_situation": "Your economy and production are still light or uncertain. You have not built a significant army. You are in the late-midgame, and the opponent has not shown any clear signs of aggression or expansion.",
+        "strategic_reason": "At this stage, the game cannot remain passive for long. You need to take a proactive stance to secure a win. A ground army with tech support is a common choice.",
+        "title": "Late-Midgame Unknown Posture",
+        "transition_goal": "Transition to a late-game composition, such as Roaches or Mutalisks, and start applying pressure on the opponent.",
+        "trigger_summary": "The game is in the late-midgame, and the opponent's posture is still unknown. You have maintained a flexible approach, but now you need to make a decisive move."
+      },
+      {
+        "avoid_direction": "Avoid overcommitting to defense at the expense of economy. Do not neglect scouting, as the opponent may switch to a more aggressive build.",
+        "decision_direction": "Strengthen your ground army and increase your defense. Continue to expand and develop your economy. Focus on building a solid foundation for the midgame.",
+        "exit_or_recheck_condition": "Exit this node when you have a stable economy and a solid ground army, or if the opponent shows signs of a different strategy.",
+        "next_state_summary": "The next state is a continuation of the ground macro posture (N007) or a shift to a more defensive posture (N006) depending on the situation.",
+        "node_id": "N005",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows a ground posture with Queens. The opponent's economy is heavy, and they are expanding. They may be preparing for a macro game.",
+        "own_situation": "You have a ground-oriented army with Zerglings and are starting to build Queens. Your economy is light or uncertain, but you are planning to expand. You are in the early game.",
+        "strategic_reason": "In ZvZ, a ground macro posture is a safe and effective way to play. By matching the opponent's economy and army, you can avoid falling behind and set up for a strong midgame.",
+        "title": "Early Game Ground Macro Posture",
+        "transition_goal": "Transition to a more developed ground army with Zerglings and Queens, and expand to support it.",
+        "trigger_summary": "You have scouted the opponent and they appear to be pursuing a ground macro posture, with Queens and a heavy economy. You decide to commit to a ground-based army as well."
+      },
+      {
+        "avoid_direction": "Avoid being too passive, as the opponent may out-expand you. Do not neglect army production, as you need to be able to defend.",
+        "decision_direction": "Maintain your ground army and focus on defense. Continue to develop your economy and expand. Be ready to defend against any early pressure.",
+        "exit_or_recheck_condition": "Exit this node when you feel safe to expand or when the opponent makes a move that requires a response.",
+        "next_state_summary": "The next state is a continuation of the ground macro posture (N007) or a shift to a more aggressive posture (N005) if you decide to pressure the opponent.",
+        "node_id": "N006",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows a ground posture with Queens. The opponent's economy is heavy, and they are expanding. They may be preparing for a macro game.",
+        "own_situation": "You have a ground-oriented army with moderate economy. You are building Queens and Zerglings. Your defense is light or uncertain, but you are planning to expand. You are in the early game.",
+        "strategic_reason": "A defensive approach can be safer if you are unsure about the opponent's intentions. By focusing on defense, you can avoid early game losses and transition to a strong midgame.",
+        "title": "Early Game Ground Macro Posture (Defensive)",
+        "transition_goal": "Transition to a more aggressive ground army once you have a solid economy and defense.",
+        "trigger_summary": "You have scouted the opponent and they appear to be pursuing a ground macro posture, with Queens and a heavy economy. You decide to commit to a ground-based army, but with a more defensive focus."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting, as the opponent may switch to a different strategy. Do not overcommit to ground forces if the opponent is teching to air.",
+        "decision_direction": "Continue to strengthen your ground army and expand. Maintain your economy and be ready to transition to a more advanced composition if needed.",
+        "exit_or_recheck_condition": "Exit this node when you have a clear plan for the midgame and have started executing it, or if the opponent forces a different response.",
+        "next_state_summary": "The next state is a continuation of the ground macro posture (N007) or a shift to a different strategy based on the opponent's actions.",
+        "node_id": "N007",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows a ground posture with Zerglings. The opponent's economy is heavy, and they are expanding. They may be preparing for a macro game.",
+        "own_situation": "You have a heavy economy and a ground army with Zerglings and Queens. Your defense is light or uncertain, but you are expanding. You are in the early-midgame.",
+        "strategic_reason": "A strong ground army with a good economy is a solid foundation for the midgame. By continuing to develop, you can set up for a powerful late-game composition.",
+        "title": "Midgame Ground Macro Posture",
+        "transition_goal": "Transition to a more advanced ground composition, such as Roaches or Banelings, or consider teching to air if the situation calls for it.",
+        "trigger_summary": "You have committed to a ground macro posture and are in the early-midgame. You have a strong economy and a ground army with Zerglings and Queens."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "light_or_uncertain",
+      "flexibility_note": "This is a strategic template, not a fixed build order. The actual build should be adjusted based on live scouting and opponent actions.",
+      "opening_family": "economy / ground / expansion",
+      "opening_name": "ZvZ_O02 Economy / Ground / Expansion",
+      "opening_summary": "A Zerg versus Zerg opening that prioritizes economy and expansion while keeping ground forces as the main defensive and offensive tool. The early game is flexible, with the option to stay on a light, unknown-oriented path or commit to a ground macro posture with Queens and Zerglings.",
+      "production_character": "light_or_uncertain",
+      "strategic_goal": "Develop a strong economy and expand safely while maintaining a ground-based army that can defend against early pressure and transition into a midgame composition. Preserve flexibility to adapt based on scouting information.",
+      "technology_character": "light_or_uncertain"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "full_signed_graph",
+  "method_specific_annotation": true,
+  "opening_id": "ZvZ_O02",
+  "projection_path": "02_observation_projection/full_signed_graph/ZvZ_O02.json"
+}

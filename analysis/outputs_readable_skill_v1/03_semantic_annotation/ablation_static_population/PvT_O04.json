@@ -1,0 +1,100 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid expanding too aggressively without scouting, as this can leave you vulnerable to early pressure. Also avoid overproducing units that may not fit the final composition.",
+        "decision_direction": "Continue teching and defending while scouting to determine the opponent's intent. Maintain a stable economy and avoid overcommitting to a specific army composition.",
+        "exit_or_recheck_condition": "Recheck when you have scouted the opponent's base or when your tech structures are complete. Exit this node when you have a clearer picture of the game state.",
+        "next_state_summary": "Move towards a midgame state with a defined army direction, either ground or air, based on scouting and tech choices.",
+        "node_id": "N001",
+        "node_type": "common",
+        "opponent_situation": "Opponent information is limited at this stage. Expect standard Terran early game possibilities such as Reaper harassment or fast expand, but nothing is confirmed.",
+        "own_situation": "You are in the early game with a heavy focus on defense and technology. Your economy is strong, but your expansion is uncertain. Production is moderate, and your army composition is not yet defined.",
+        "strategic_reason": "Heavy technology investment requires time to pay off. A defensive posture protects your tech structures and economy while you gather information. Moderate production keeps options open for either ground or air transitions.",
+        "title": "Early Game Tech and Defense Foundation",
+        "transition_goal": "Transition to a more defined army composition once you have scouted the opponent and your tech is established.",
+        "trigger_summary": "Early game phase with heavy defense and technology investment, moderate production, and uncertain expansion. Army composition is unknown."
+      },
+      {
+        "avoid_direction": "Avoid neglecting upgrades or tech advancements. Also avoid overextending your army without proper scouting, as Terran can punish with drops or counter-attacks.",
+        "decision_direction": "Continue strengthening your ground army while maintaining economy and tech. Keep expanding and increasing production to support a larger army.",
+        "exit_or_recheck_condition": "Recheck when you have scouted a major Terran tech switch or when your army supply is high. Exit when you are ready to push or when the game enters the late game.",
+        "next_state_summary": "Move towards a late-midgame state with a more refined army composition and possibly a stronger air presence.",
+        "node_id": "N002",
+        "node_type": "common",
+        "opponent_situation": "Opponent is likely to have a Terran army with bio or mech compositions. Expect possible pressure or harassment, but no confirmed information.",
+        "own_situation": "You are in the midgame with a strong economy and multiple expansions. Your army is ground-based with a mix of Zealots, Stalkers, and Void Rays. Production and technology are heavy, and you have a defensive posture.",
+        "strategic_reason": "A heavy economy and production allow you to out-macro the opponent. The ground army with Void Ray support provides a solid core that can be adapted to counter Terran compositions.",
+        "title": "Midgame Ground Army Consolidation",
+        "transition_goal": "Transition to a late-midgame or late-game army with more advanced units and upgrades, possibly adding more air support if needed.",
+        "trigger_summary": "Midgame phase with heavy defense, economy, and expansion. Ground army composition with Zealots, Stalkers, and Void Rays. Production and technology are heavy."
+      },
+      {
+        "avoid_direction": "Avoid staying in this uncertain state for too long. Also avoid committing to a specific army composition without sufficient scouting information.",
+        "decision_direction": "Continue teching and defending while increasing production and scouting. Decide on a clear army direction based on the opponent's composition.",
+        "exit_or_recheck_condition": "Recheck when you have scouted the opponent's army composition or when your tech is complete. Exit when you have a clear plan for the midgame.",
+        "next_state_summary": "Move towards a midgame state with a defined army direction and heavier production.",
+        "node_id": "N003",
+        "node_type": "common",
+        "opponent_situation": "Opponent may be starting to apply pressure or expand themselves. Expect standard Terran midgame options like bio or mech, but nothing is confirmed.",
+        "own_situation": "You are transitioning from early to midgame. Your defense and technology are heavy, but your production is only moderate. Expansion is uncertain, and your army is not yet defined.",
+        "strategic_reason": "This is a critical timing to solidify your tech advantage and prepare for the midgame. Maintaining defense while scouting allows you to react appropriately to the opponent's strategy.",
+        "title": "Early-Midgame Tech and Defense Transition",
+        "transition_goal": "Transition to a defined army composition, either ground or air, and increase production to support it.",
+        "trigger_summary": "Early-midgame phase with heavy defense and technology, moderate production, and uncertain expansion. Army composition is unknown."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting, as Terran can surprise with cloaked units or drops. Also avoid overextending your army without proper support.",
+        "decision_direction": "Continue developing your ground army and increasing production. Maintain defense and economy while scouting for the opponent's tech choices.",
+        "exit_or_recheck_condition": "Recheck when you have scouted the opponent's composition or when your army is large enough to be aggressive. Exit when you are ready to push or when the game progresses.",
+        "next_state_summary": "Move towards a midgame state with a stronger ground army and possibly a mix of air units.",
+        "node_id": "N004",
+        "node_type": "common",
+        "opponent_situation": "Opponent may be preparing for a midgame push or expanding. Expect Terran bio or mech, but no confirmed information.",
+        "own_situation": "You are in the early-midgame with a strong economy and heavy production. Your army is ground-based and developing. Defense is heavy, and technology is heavy. Expansion is moderate.",
+        "strategic_reason": "Heavy production and economy allow you to build a strong army quickly. A ground-based army is versatile and can be adapted with tech units like Colossus or High Templar later.",
+        "title": "Early-Midgame Ground Army Development",
+        "transition_goal": "Transition to a midgame army with more advanced units and upgrades, possibly adding air support if needed.",
+        "trigger_summary": "Early-midgame phase with heavy defense, economy, and production. Ground army composition is developing. Technology is heavy."
+      },
+      {
+        "avoid_direction": "Avoid neglecting upgrades or tech advancements. Also avoid overextending your army without proper scouting, as Terran can punish with drops or counter-attacks.",
+        "decision_direction": "Continue strengthening your ground army and maintaining economy. Consider adding more advanced units like Colossus or High Templar to counter Terran compositions. Keep expanding and upgrading.",
+        "exit_or_recheck_condition": "Recheck when you have scouted a major Terran tech switch or when your army supply is high. Exit when you are ready to push or when the game enters the late game.",
+        "next_state_summary": "Move towards a late-game state with a refined army composition and possibly a stronger air presence.",
+        "node_id": "N005",
+        "node_type": "common",
+        "opponent_situation": "Opponent is likely to have a strong Terran army with bio or mech. Expect possible pushes or harassment, but no confirmed information.",
+        "own_situation": "You are in the late-midgame with a strong economy and multiple expansions. Your army is ground-based with Zealots, Stalkers, and Sentries. Production and technology are heavy, and you have a defensive posture.",
+        "strategic_reason": "A heavy economy and production allow you to out-macro the opponent. The ground army with Sentry support provides utility and can be upgraded with powerful tech units.",
+        "title": "Late-Midgame Ground Army Refinement",
+        "transition_goal": "Transition to a late-game army with a full tech tree and a composition that counters the opponent's army.",
+        "trigger_summary": "Late-midgame phase with heavy defense, economy, and expansion. Ground army with Zealots, Stalkers, and Sentries. Production and technology are heavy."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "moderate",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "technology / defense / economy",
+      "opening_name": "PvT_O04 Technology / Defense / Economy",
+      "opening_summary": "A Protoss opening that prioritizes heavy technology and defense while building a solid economy. It is flexible, allowing transitions into either ground or air compositions depending on scouting and game state.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a technology / defense / economy posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_static_population",
+  "method_specific_annotation": true,
+  "opening_id": "PvT_O04",
+  "projection_path": "02_observation_projection/ablation_static_population/PvT_O04.json"
+}

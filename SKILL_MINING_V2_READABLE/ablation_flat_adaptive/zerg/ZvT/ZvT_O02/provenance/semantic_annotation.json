@@ -1,0 +1,142 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid making risky all-in commitments or neglecting scouting. Do not assume the opponent is passive just because no units are seen.",
+        "decision_direction": "Maintain current development path while keeping safety checks active. Prioritize economy and expansion, but be ready to adjust if scouting reveals aggression.",
+        "exit_or_recheck_condition": "Re-evaluate when you spot the opponent's first combat unit or when you complete your second base. If the opponent shows early pressure, switch to defensive production.",
+        "next_state_summary": "Continue developing with safety checks, moving into the early-midgame with more information.",
+        "node_id": "N001",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows no reliable combat-unit cues. The opponent's production and technology are light or uncertain. They could be going for an early expand, a tech rush, or a timing attack.",
+        "own_situation": "Your economy, production, and technology are all light or uncertain. You have no confirmed combat units yet. Focus on establishing a solid foundation.",
+        "strategic_reason": "Early game is about maximizing economy and flexibility. Overcommitting to a specific plan without information can be punished. Maintaining a balanced approach allows adaptation.",
+        "title": "Early Game Development with Safety Checks",
+        "transition_goal": "Reach a stable economy with at least two bases and a basic defensive structure (e.g., spine crawlers) before transitioning to more specific strategies.",
+        "trigger_summary": "At the start of the game, both sides are in early game with limited information. The opponent's posture is unknown, and your own posture is also uncertain."
+      },
+      {
+        "avoid_direction": "Avoid over-investing in economy without any military. Do not ignore the possibility of a two-base all-in.",
+        "decision_direction": "Maintain current development path, but start to prepare for potential aggression. Consider adding a few defensive units or scouting overlords to gain information.",
+        "exit_or_recheck_condition": "Re-evaluate when you see the opponent's army composition or when you reach a certain supply. If the opponent is passive, you can continue to expand.",
+        "next_state_summary": "Continue developing, but be ready to adapt if the opponent shows signs of aggression.",
+        "node_id": "N002",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence still shows no reliable combat-unit cues. The opponent could be teching, expanding, or preparing a timing attack. Their production and technology are light or uncertain.",
+        "own_situation": "Your economy and production are still light or uncertain, but you may have a second base and some basic units. Continue to focus on macro.",
+        "strategic_reason": "As the game enters the midgame, the opponent's plan becomes more critical. Maintaining economy while preparing for defense is a safe approach.",
+        "title": "Early-Midgame Development with Safety Checks",
+        "transition_goal": "Establish a solid economy with at least three bases and a modest army to defend against early pushes.",
+        "trigger_summary": "The game progresses to early-midgame. The opponent's posture remains unknown, but you have had time to expand and develop."
+      },
+      {
+        "avoid_direction": "Avoid staying on a purely economic build without any military. Do not neglect scouting for tech structures or expansions.",
+        "decision_direction": "Maintain current development path, but start to transition into a more specific strategy based on your scouting. Consider teching to a midgame composition.",
+        "exit_or_recheck_condition": "Re-evaluate when you see the opponent's main army or tech structures. If the opponent is passive, you can take a fourth base.",
+        "next_state_summary": "Continue developing, but be ready to commit to a specific strategy.",
+        "node_id": "N003",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence still shows no reliable combat-unit cues. The opponent could be hiding a tech switch or preparing a large army. Their production and technology are light or uncertain.",
+        "own_situation": "Your economy and production are still light or uncertain, but you likely have multiple bases and a decent army. You need to decide whether to tech up or mass units.",
+        "strategic_reason": "In the midgame, you need to have a plan. Without information, it's best to stay flexible and avoid committing to a composition that could be countered.",
+        "title": "Midgame Development with Safety Checks",
+        "transition_goal": "Have a solid economy and a midgame army composition that can handle common Terran strategies.",
+        "trigger_summary": "The game reaches the midgame. The opponent's posture is still unknown, but you have had time to build a strong economy."
+      },
+      {
+        "avoid_direction": "Avoid being too passive and letting the opponent take a fourth base uncontested. Do not over-commit to a push without scouting.",
+        "decision_direction": "Maintain current development path, but start to consider aggressive options. If you have a supply advantage, you might want to push.",
+        "exit_or_recheck_condition": "Re-evaluate when you see the opponent's army composition or when you reach max supply. If the opponent is passive, you can take a fourth base.",
+        "next_state_summary": "Continue developing, but be ready to commit to a decisive action.",
+        "node_id": "N004",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence still shows no reliable combat-unit cues. The opponent could be preparing a massive army or a tech switch. Their production and technology are light or uncertain.",
+        "own_situation": "Your economy and production are still light or uncertain, but you likely have a large army and multiple bases. You need to decide whether to push or continue teching.",
+        "strategic_reason": "In the late-midgame, you need to start applying pressure or you will fall behind. Without information, it's best to keep your army mobile and ready to respond.",
+        "title": "Late-Midgame Development with Safety Checks",
+        "transition_goal": "Have a strong army and be ready to transition into a late-game composition or a timing attack.",
+        "trigger_summary": "The game enters the late-midgame. The opponent's posture is still unknown, but you have a strong economy and army."
+      },
+      {
+        "avoid_direction": "Avoid neglecting anti-ground defenses. Do not assume the opponent will stay on the ground; they might tech to air later.",
+        "decision_direction": "Maintain current development path, but start to strengthen your ground army. Consider teching to units that counter Marines and Reapers, such as Banelings or Roaches.",
+        "exit_or_recheck_condition": "Re-evaluate when you see more of the opponent's army composition or if they expand. If they are passive, you can continue to expand.",
+        "next_state_summary": "Continue developing, but with a focus on ground defense.",
+        "node_id": "N005",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows a ground posture with representative cues like Marine and Reaper. Production and technology are heavy, and they may be planning a timing attack.",
+        "own_situation": "Your economy and production are light or uncertain. You need to respond to the opponent's ground-heavy approach.",
+        "strategic_reason": "The opponent is committing to a ground army. You need to prepare a ground defense and potentially a counter-attack.",
+        "title": "Early-Midgame Ground Macro Response",
+        "transition_goal": "Have a solid ground army and defensive structures to hold off any early pushes.",
+        "trigger_summary": "The opponent shows a ground-based macro posture with heavy production and technology, possibly with Marines and Reapers. Your own posture is still unknown."
+      },
+      {
+        "avoid_direction": "Avoid focusing only on ground defense. Do not ignore the possibility of a Battlecruiser push.",
+        "decision_direction": "Maintain current development path, but start to prepare for both ground and air threats. Consider teching to units like Hydralisks or Mutalisks.",
+        "exit_or_recheck_condition": "Re-evaluate when you see the opponent's main army composition. If they are going for Battlecruisers, you need anti-air.",
+        "next_state_summary": "Continue developing, but with a focus on a balanced army.",
+        "node_id": "N006",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows a ground posture with representative cues like Reaper and Battlecruiser. Production and technology are heavy, and they may be transitioning to air.",
+        "own_situation": "Your economy and production are light or uncertain. You need to respond to the opponent's ground-heavy approach, but also be aware of potential air threats.",
+        "strategic_reason": "The opponent has a mix of ground and air units. You need a balanced army to counter both.",
+        "title": "Midgame Ground Macro Response",
+        "transition_goal": "Have a versatile army that can handle both ground and air threats.",
+        "trigger_summary": "The opponent shows a ground-based macro posture with heavy production and technology, possibly with Reapers and Battlecruisers. Your own posture is still unknown."
+      },
+      {
+        "avoid_direction": "Avoid falling behind in economy. Do not neglect scouting for tech switches.",
+        "decision_direction": "Strengthen your ground army and continue to increase your economy. Consider teching to units that counter Marines, such as Banelings or Roaches.",
+        "exit_or_recheck_condition": "Re-evaluate when you see the opponent's army composition or if they expand. If they are passive, you can take a fourth base.",
+        "next_state_summary": "Continue developing, but with a focus on ground superiority.",
+        "node_id": "N007",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows a ground posture with representative cue Marine. Production and technology are heavy, and they may be planning a timing attack.",
+        "own_situation": "You have a ground-oriented army with moderate production and heavy expansion. You are in a good position to match the opponent's ground game.",
+        "strategic_reason": "You are both going for a ground-based macro game. You need to out-produce and out-tech your opponent.",
+        "title": "Early-Midgame Ground Macro with Own Ground Posture",
+        "transition_goal": "Have a strong ground army and a solid economy to support it.",
+        "trigger_summary": "The opponent shows a ground-based macro posture with heavy production and technology, possibly with Marines. Your own posture is ground-oriented with moderate production."
+      },
+      {
+        "avoid_direction": "Avoid being too passive and letting the opponent take a fourth base. Do not neglect anti-air if the opponent techs to air.",
+        "decision_direction": "Increase your production and continue to strengthen your ground army. Consider teching to units like Roaches or Hydralisks.",
+        "exit_or_recheck_condition": "Re-evaluate when you see the opponent's army composition or when you reach max supply. If the opponent is passive, you can take a fourth base.",
+        "next_state_summary": "Continue developing, but with a focus on army size and tech.",
+        "node_id": "N008",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows a ground posture with representative cue Marine. Production and technology are heavy, and they may be planning a timing attack.",
+        "own_situation": "You have a ground-oriented army with heavy economy and expansion. You have Zerglings and Queens, and you are in a strong position.",
+        "strategic_reason": "You have a strong economy, so you can afford to produce more units and tech up. You need to maintain pressure on the opponent.",
+        "title": "Midgame Ground Macro with Own Ground Posture",
+        "transition_goal": "Have a large ground army and be ready to transition into a late-game composition.",
+        "trigger_summary": "The opponent shows a ground-based macro posture with heavy production and technology, possibly with Marines. Your own posture is ground-oriented with heavy economy."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "light_or_uncertain",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "economy / expansion / ground opening",
+      "opening_name": "ZvT_O02 Economy / Expansion / Ground",
+      "opening_summary": "This opening focuses on establishing a strong economy and expanding while keeping production and technology light or uncertain. It is flexible and can adapt to either a macro-oriented or aggressive ground-based approach depending on scouting information.",
+      "production_character": "light_or_uncertain",
+      "strategic_goal": "Develop a economy / expansion / ground posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "light_or_uncertain"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_flat_adaptive",
+  "method_specific_annotation": true,
+  "opening_id": "ZvT_O02",
+  "projection_path": "02_observation_projection/ablation_flat_adaptive/ZvT_O02.json"
+}

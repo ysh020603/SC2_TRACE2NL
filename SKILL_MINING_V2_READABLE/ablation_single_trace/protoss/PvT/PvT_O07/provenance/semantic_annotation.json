@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid committing to a specific army composition or over-investing in defense before you have information about the opponent.",
+        "decision_direction": "Maintain your current development path, focusing on economy and technology while keeping production moderate.",
+        "exit_or_recheck_condition": "Recheck when you have more information about the opponent's composition or when your first combat units are produced.",
+        "next_state_summary": "Your army becomes ground-oriented with Stalkers, and you maintain your heavy economy and technology focus.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "No reliable information about the opponent's composition or intentions is available at this stage.",
+        "own_situation": "Your economy is heavy, technology is heavy, production is moderate, and defense is light. Your army composition is unknown, and you have no representative units yet.",
+        "strategic_reason": "Early game is about establishing a solid foundation. Heavy economy and technology investment set up for later transitions, while moderate production keeps options open.",
+        "title": "Early Game Foundation",
+        "transition_goal": "Transition to a ground-oriented army with Stalkers as you approach the early-midgame.",
+        "trigger_summary": "At the start of the game, your army composition is not yet defined, and you are focusing on economy and technology."
+      },
+      {
+        "avoid_direction": "Avoid over-committing to ground-only units; keep the option to add air units later.",
+        "decision_direction": "Continue developing your ground army and maintain your economy and technology focus.",
+        "exit_or_recheck_condition": "Recheck when you have more information about the opponent's composition or when you are ready to add air units.",
+        "next_state_summary": "Your army becomes mixed with Stalkers and Void Rays, and you continue to develop your economy and technology.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "You have limited information about the opponent, but you are aware of a possible pressure from them.",
+        "own_situation": "Your economy is heavy, technology is heavy, production is moderate, and defense is light. Your army is ground-oriented with Stalkers, and you have a possible pressure posture.",
+        "strategic_reason": "Stalkers provide a solid ground core and mobility. Maintaining heavy economy and technology allows for future tech switches if needed.",
+        "title": "Ground Army Development",
+        "transition_goal": "Transition to a mixed army by adding Void Rays as you progress.",
+        "trigger_summary": "Your army is now ground-based with Stalkers, and you are transitioning into the early-midgame."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting; the opponent's composition may require a shift in your army mix.",
+        "decision_direction": "Maintain your mixed army composition and continue to develop your economy and technology.",
+        "exit_or_recheck_condition": "Recheck when you have more information about the opponent's composition or when you are ready to commit to an air army.",
+        "next_state_summary": "Your army becomes air-oriented with Void Rays, and you continue to expand your economy.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "You have limited information about the opponent, but you are aware of a possible pressure from them.",
+        "own_situation": "Your economy is heavy, technology is heavy, production is moderate, and defense is light. Your army is mixed with Stalkers and Void Rays, and you have a possible pressure posture.",
+        "strategic_reason": "A mixed army provides flexibility against various opponent compositions. Heavy economy and technology support continued production and upgrades.",
+        "title": "Mixed Army Transition",
+        "transition_goal": "Transition to an air-oriented army with Void Rays as your primary unit.",
+        "trigger_summary": "Your army is now mixed with Stalkers and Void Rays, and you are in the midgame."
+      },
+      {
+        "avoid_direction": "Avoid becoming too one-dimensional; keep some ground units like Stalkers and Sentries for defense and utility.",
+        "decision_direction": "Maintain your air army and continue to expand your economy and technology.",
+        "exit_or_recheck_condition": "Recheck when you have more information about the opponent's composition or when you are ready to make a final push.",
+        "next_state_summary": "Your army becomes mixed again with Void Rays, and you have a heavy production and economy.",
+        "node_id": "N004",
+        "node_type": "trace",
+        "opponent_situation": "You have limited information about the opponent, but you are aware of a possible pressure from them.",
+        "own_situation": "Your economy is heavy, technology is heavy, production is moderate, and defense is light. Your army is air-oriented with Stalkers, Sentries, and Void Rays, and you have a possible pressure posture.",
+        "strategic_reason": "An air army with Void Rays can be very powerful, but it requires a strong economy to sustain. Heavy technology investment supports upgrades and transitions.",
+        "title": "Air Army and Expansion",
+        "transition_goal": "Transition to a mixed army again if the opponent's composition demands it, or continue to strengthen your air army.",
+        "trigger_summary": "Your army is now air-oriented with Void Rays, and you are in the late-midgame."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "PvT_O07 Balanced Macro",
+      "opening_summary": "A balanced macro opening that develops a heavy economy and technology while keeping production moderate and defense light. The army starts undefined, then shifts to ground, then mixed, then air, and finally mixed again, reflecting a flexible transition path.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "PvT_O07",
+  "projection_path": "02_observation_projection/ablation_single_trace/PvT_O07.json"
+}

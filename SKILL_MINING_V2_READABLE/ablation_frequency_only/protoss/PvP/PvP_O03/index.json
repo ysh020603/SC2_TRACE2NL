@@ -1,0 +1,120 @@
+{
+  "method": "ablation_frequency_only",
+  "nodes": {
+    "N001": {
+      "children": [],
+      "path": "nodes/N001.md",
+      "summary": "Early game, around 3-4 minutes, with limited information about the opponent. Both players are investing heavily in technology, and your own defense is strong. Continue developing your technology and economy while maintaining a strong defense. Avoid over-committing to a specific army composition until more information is available.",
+      "title": "Early Game Tech and Defense",
+      "trigger_summary": "Early game, around 3-4 minutes, with limited information about the opponent. Both players are investing heavily in technology, and your own defense is strong.",
+      "type": "frequent"
+    },
+    "N002": {
+      "children": [],
+      "path": "nodes/N002.md",
+      "summary": "Around 5-6 minutes, the opponent is showing a ground-based army with Zealots, and you have a strong economy and defense. Strengthen your ground army to counter the opponent's ground forces. Continue to increase your economy and technology, but prioritize ground units and upgrades.",
+      "title": "Mid-Game Ground Transition",
+      "trigger_summary": "Around 5-6 minutes, the opponent is showing a ground-based army with Zealots, and you have a strong economy and defense.",
+      "type": "frequent"
+    },
+    "N003": {
+      "children": [
+        "N002",
+        "N002"
+      ],
+      "path": "nodes/N003.md",
+      "summary": "Around 5-6 minutes, the opponent's army composition is still unknown, but they have a heavy economy and defense. Continue to develop your economy and technology, while maintaining a strong defense. Avoid making a large army commitment until you have more information.",
+      "title": "Mid-Game Tech Development",
+      "trigger_summary": "Around 5-6 minutes, the opponent's army composition is still unknown, but they have a heavy economy and defense.",
+      "type": "frequent"
+    },
+    "N004": {
+      "children": [
+        "N009"
+      ],
+      "path": "nodes/N004.md",
+      "summary": "Around 7-8 minutes, the opponent has a ground-based army with Zealots and Stalkers, and you have already invested in air units like Void Rays. Increase your air presence and strengthen your air army. Continue to develop your economy and technology, but prioritize air units and upgrades.",
+      "title": "Mid-Game Air Transition",
+      "trigger_summary": "Around 7-8 minutes, the opponent has a ground-based army with Zealots and Stalkers, and you have already invested in air units like Void Rays.",
+      "type": "frequent"
+    },
+    "N005": {
+      "children": [],
+      "path": "nodes/N005.md",
+      "summary": "Around 7-8 minutes, the opponent has a ground-based army with Zealots and Stalkers, and you have a ground-based army with Zealots and Immortals. Strengthen your ground army to counter the opponent's ground forces. Continue to develop your economy and technology, but prioritize ground units and upgrades.",
+      "title": "Mid-Game Ground Army",
+      "trigger_summary": "Around 7-8 minutes, the opponent has a ground-based army with Zealots and Stalkers, and you have a ground-based army with Zealots and Immortals.",
+      "type": "frequent"
+    },
+    "N006": {
+      "children": [],
+      "path": "nodes/N006.md",
+      "summary": "Around 10-12 minutes, the opponent has a ground-based army with Zealots, Stalkers, Immortals, and Oracles, and you have a strong air army with Void Rays. Continue to increase your air presence and strengthen your air army. Maintain a strong defense and continue to develop your economy and technology.",
+      "title": "Late Mid-Game Air Superiority",
+      "trigger_summary": "Around 10-12 minutes, the opponent has a ground-based army with Zealots, Stalkers, Immortals, and Oracles, and you have a strong air army with Void Rays.",
+      "type": "frequent"
+    },
+    "N007": {
+      "children": [
+        "N004",
+        "N004"
+      ],
+      "path": "nodes/N007.md",
+      "summary": "Around 6-7 minutes, the opponent has a ground-based army with Zealots and Stalkers, and you have already invested in air units like Oracles. Increase your air presence and strengthen your air army. Continue to develop your economy and technology, but prioritize air units and upgrades.",
+      "title": "Early Mid-Game Air Transition",
+      "trigger_summary": "Around 6-7 minutes, the opponent has a ground-based army with Zealots and Stalkers, and you have already invested in air units like Oracles.",
+      "type": "frequent"
+    },
+    "N008": {
+      "children": [],
+      "path": "nodes/N008.md",
+      "summary": "Around 10-12 minutes, the opponent has a ground-based army with Zealots, Stalkers, Immortals, and Oracles, and you have a ground-based army with Zealots. Strengthen your ground army to counter the opponent's ground forces. Continue to develop your economy and technology, but prioritize ground units and upgrades.",
+      "title": "Late Mid-Game Ground Army",
+      "trigger_summary": "Around 10-12 minutes, the opponent has a ground-based army with Zealots, Stalkers, Immortals, and Oracles, and you have a ground-based army with Zealots.",
+      "type": "frequent"
+    },
+    "N009": {
+      "children": [
+        "N004",
+        "N004"
+      ],
+      "path": "nodes/N009.md",
+      "summary": "Around 8-9 minutes, the opponent has an air-based army with Void Rays and Oracles, and you have an air-based army with Void Rays. Increase your air presence and strengthen your air army. Continue to develop your economy and technology, but prioritize air units and upgrades.",
+      "title": "Mid-Game Air Mirror",
+      "trigger_summary": "Around 8-9 minutes, the opponent has an air-based army with Void Rays and Oracles, and you have an air-based army with Void Rays.",
+      "type": "frequent"
+    },
+    "N010": {
+      "children": [],
+      "path": "nodes/N010.md",
+      "summary": "Around 10-12 minutes, the opponent has an air-based army with Void Rays and Oracles, and you have a strong air army with Void Rays. Continue to increase your air presence and strengthen your air army. Maintain a strong defense and continue to develop your economy and technology.",
+      "title": "Late Mid-Game Air Mirror",
+      "trigger_summary": "Around 10-12 minutes, the opponent has an air-based army with Void Rays and Oracles, and you have a strong air army with Void Rays.",
+      "type": "frequent"
+    },
+    "N011": {
+      "children": [
+        "N008"
+      ],
+      "path": "nodes/N011.md",
+      "summary": "Around 9-10 minutes, the opponent's army composition is unknown, but they have a heavy economy and defense. You have a ground-based army with Zealots, Warp Prisms, Immortals, and Oracles. Continue to develop your ground army and technology, while maintaining a strong defense. Avoid making a large army commitment until you have more information.",
+      "title": "Mid-Game Ground Tech",
+      "trigger_summary": "Around 9-10 minutes, the opponent's army composition is unknown, but they have a heavy economy and defense. You have a ground-based army with Zealots, Warp Prisms, Immortals, and Oracles.",
+      "type": "frequent"
+    },
+    "N012": {
+      "children": [
+        "N004",
+        "N004"
+      ],
+      "path": "nodes/N012.md",
+      "summary": "Around 6-7 minutes, the opponent has an air-based army with Oracles, and you have an air-based army with Oracles. Increase your air presence and strengthen your air army. Continue to develop your economy and technology, but prioritize air units and upgrades.",
+      "title": "Early Mid-Game Air Mirror",
+      "trigger_summary": "Around 6-7 minutes, the opponent has an air-based army with Oracles, and you have an air-based army with Oracles.",
+      "type": "frequent"
+    }
+  },
+  "opening_name": "PvP_O03 Technology / Defense / Economy",
+  "root": "SKILL.md",
+  "skill_id": "PvP_O03"
+}

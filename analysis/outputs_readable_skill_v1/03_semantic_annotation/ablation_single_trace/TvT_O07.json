@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid making early army units that are not needed, as this could delay your tech and economy. Also, avoid expanding too early without proper defense.",
+        "decision_direction": "Continue developing your economy and technology while keeping production moderate. Avoid overcommitting to a specific army composition until you have more information.",
+        "exit_or_recheck_condition": "Re-evaluate when you have more information about the opponent's build or when you reach a new phase of the game.",
+        "next_state_summary": "Move towards a heavier defense and continue tech investment, preparing for the mid-game.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "The opponent's actions are not yet clear. They could be going for an early aggressive push or a macro-oriented build. Maintain awareness of potential early pressure.",
+        "own_situation": "You are in the early game with a heavy economy and technology investment. Your production is moderate, and your army is not yet formed. You have a light defense and no clear expansion yet.",
+        "strategic_reason": "A strong economy and tech lead will allow you to transition into a powerful mid-game army. Keeping production moderate conserves resources for tech and expansions.",
+        "title": "Early Game Tech Focus",
+        "transition_goal": "Transition to a more defined army composition once you have scouted the opponent's intentions.",
+        "trigger_summary": "At the start of the game, focus on establishing a solid economy and teching up. Production is moderate, and the army composition is not yet defined."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting, as the opponent could be planning a surprise attack. Also, avoid over-expanding without proper army support.",
+        "decision_direction": "Continue to build up your economy and technology while increasing production. Start to invest in units that will form the core of your army, such as Marines and Siege Tanks.",
+        "exit_or_recheck_condition": "Re-evaluate when you have a clear picture of the opponent's army composition or when you are ready to move out.",
+        "next_state_summary": "Move towards a heavy production and a defined ground army, with possible air support.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "The opponent may be starting to show their hand. They could be preparing for a push or expanding. Keep scouting to understand their composition.",
+        "own_situation": "You are in the early-midgame with a heavy economy and technology. Your defense is now heavy, and production is increasing. Your army is still not fully formed, but you are leaning towards a ground-based force.",
+        "strategic_reason": "A heavy defense protects your economy while you tech up. Increasing production allows you to build a larger army for the mid-game.",
+        "title": "Mid-Game Transition",
+        "transition_goal": "Transition to a full ground-based army with Siege Tanks and Marines, and consider adding air support if needed.",
+        "trigger_summary": "As the game progresses, you start to build a heavier defense and increase production. Your army is still undefined, but you are preparing for a ground-based composition."
+      },
+      {
+        "avoid_direction": "Avoid being too passive, as the opponent could take advantage. Also, avoid neglecting anti-air defenses if the opponent goes for air units.",
+        "decision_direction": "Continue to build your ground army and expand. Consider adding air support, such as Banshees, to harass or defend against air threats.",
+        "exit_or_recheck_condition": "Re-evaluate when you have a significant army advantage or when the opponent makes a move.",
+        "next_state_summary": "Move towards a late-midgame with a heavier expansion and a mix of ground and air units.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "The opponent may be preparing for a push or expanding themselves. They could have a variety of compositions, so keep scouting to adapt.",
+        "own_situation": "You are in the mid-game with a heavy economy, production, and technology. Your army is ground-based with Siege Tanks, Marines, and Marauders. You have a heavy defense and are starting to expand.",
+        "strategic_reason": "A strong ground army with Siege Tanks is powerful in TvT. Expanding gives you more resources to sustain a larger army and tech.",
+        "title": "Heavy Production and Ground Army",
+        "transition_goal": "Transition to a late-midgame army with a mix of ground and air units, and continue expanding.",
+        "trigger_summary": "You have reached the mid-game with a heavy economy and production. Your army is now ground-based with Siege Tanks, Marines, and Marauders. You are starting to expand."
+      },
+      {
+        "avoid_direction": "Avoid overextending without proper support, as the opponent could counter-attack. Also, avoid neglecting upgrades to keep your army strong.",
+        "decision_direction": "Continue to build your army and consider adding Thors for additional anti-air and anti-armor. Push out to take map control or attack the opponent's bases.",
+        "exit_or_recheck_condition": "Re-evaluate when you have a clear advantage or when the opponent's composition changes.",
+        "next_state_summary": "Continue to build your army and prepare for the late game, possibly adding more Thors or other units as needed.",
+        "node_id": "N004",
+        "node_type": "trace",
+        "opponent_situation": "The opponent may be preparing for a final push or defending. They could have a variety of compositions, so keep scouting to adapt.",
+        "own_situation": "You are in the late-midgame with a heavy economy, production, technology, and expansion. Your army is ground-based with Siege Tanks, Marines, Marauders, and Banshees. You have a heavy defense and are ready to take the initiative.",
+        "strategic_reason": "A well-rounded army with Siege Tanks, Marines, Marauders, Banshees, and Thors is strong in TvT. Taking map control allows you to deny expansions and force engagements on your terms.",
+        "title": "Late-Midgame Army Composition",
+        "transition_goal": "Transition to a late-game army with a mix of units and upgrades, and aim to secure a decisive advantage.",
+        "trigger_summary": "In the late-midgame, you have a heavy economy, production, and expansion. Your army is ground-based with Siege Tanks, Marines, Marauders, and Banshees. You are well-positioned for a strong push."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning with air support",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order. Adjust based on scouting information and opponent behavior.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "TvT_O07 Balanced Macro",
+      "opening_summary": "A macro-oriented Terran opening that prioritizes a strong economy and technology progression while keeping production moderate early on. The build transitions into a heavy ground-based army composition with Siege Tanks and Marines, supplemented by Banshees or Thors for air support. The approach is flexible, relying on live scouting to adapt to the opponent's actions.",
+      "production_character": "moderate to heavy",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "TvT_O07",
+  "projection_path": "02_observation_projection/ablation_single_trace/TvT_O07.json"
+}

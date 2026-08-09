@@ -1,0 +1,117 @@
+{
+  "method": "ablation_frequency_only",
+  "nodes": {
+    "N001": {
+      "children": [
+        "N002"
+      ],
+      "path": "nodes/N001.md",
+      "summary": "At the start of the game, both sides have limited information. The opponent's posture is unknown, and your own development is in early stages. Maintain current development path while keeping safety checks active. Avoid over-committing to any single strategy until more information is available.",
+      "title": "Early Game Development with Safety Checks",
+      "trigger_summary": "At the start of the game, both sides have limited information. The opponent's posture is unknown, and your own development is in early stages.",
+      "type": "frequent"
+    },
+    "N002": {
+      "children": [
+        "N007"
+      ],
+      "path": "nodes/N002.md",
+      "summary": "As the game progresses into the early-midgame, the opponent's posture remains unclear, but your own development continues. Maintain current development path, continuing to build economy and technology while keeping safety checks active.",
+      "title": "Early-Midgame Development Continuation",
+      "trigger_summary": "As the game progresses into the early-midgame, the opponent's posture remains unclear, but your own development continues.",
+      "type": "frequent"
+    },
+    "N003": {
+      "children": [],
+      "path": "nodes/N003.md",
+      "summary": "Entering the midgame, the opponent's posture is still unknown, but your own development continues. Maintain current development path, continuing to build economy and technology while keeping safety checks active.",
+      "title": "Midgame Development with Safety Checks",
+      "trigger_summary": "Entering the midgame, the opponent's posture is still unknown, but your own development continues.",
+      "type": "frequent"
+    },
+    "N004": {
+      "children": [],
+      "path": "nodes/N004.md",
+      "summary": "In the late-midgame, the opponent's posture is still unknown, but your own development continues. Maintain current development path, continuing to build economy and technology while keeping safety checks active.",
+      "title": "Late-Midgame Development with Safety Checks",
+      "trigger_summary": "In the late-midgame, the opponent's posture is still unknown, but your own development continues.",
+      "type": "frequent"
+    },
+    "N005": {
+      "children": [
+        "N002"
+      ],
+      "path": "nodes/N005.md",
+      "summary": "Early in the game, you observe the opponent's ground posture with Zergling and Queen cues, indicating a possible ground macro strategy. Maintain current development path while keeping safety checks active. Consider preparing for a ground-based opponent.",
+      "title": "Early Game Ground Posture Detection",
+      "trigger_summary": "Early in the game, you observe the opponent's ground posture with Zergling and Queen cues, indicating a possible ground macro strategy.",
+      "type": "frequent"
+    },
+    "N006": {
+      "children": [],
+      "path": "nodes/N006.md",
+      "summary": "Early in the game, you have developed a ground-oriented posture with Zealots, while the opponent shows a ground macro posture with Zergling and Queen. Strengthen your ground army and continue developing your economy and technology. Maintain safety checks.",
+      "title": "Early Game Ground Development",
+      "trigger_summary": "Early in the game, you have developed a ground-oriented posture with Zealots, while the opponent shows a ground macro posture with Zergling and Queen.",
+      "type": "frequent"
+    },
+    "N007": {
+      "children": [
+        "N002"
+      ],
+      "path": "nodes/N007.md",
+      "summary": "In the early-midgame, the opponent's ground posture is still evident, but your own posture remains unknown. Maintain current development path while keeping safety checks active. Consider preparing for a ground-based opponent.",
+      "title": "Early-Midgame Ground Posture Detection",
+      "trigger_summary": "In the early-midgame, the opponent's ground posture is still evident, but your own posture remains unknown.",
+      "type": "frequent"
+    },
+    "N008": {
+      "children": [
+        "N009"
+      ],
+      "path": "nodes/N008.md",
+      "summary": "In the early-midgame, you have developed a moderate economy and heavy technology, while the opponent shows a ground macro posture. Strengthen your ground army and continue developing your economy and technology. Maintain safety checks.",
+      "title": "Early-Midgame Ground Development",
+      "trigger_summary": "In the early-midgame, you have developed a moderate economy and heavy technology, while the opponent shows a ground macro posture.",
+      "type": "frequent"
+    },
+    "N009": {
+      "children": [],
+      "path": "nodes/N009.md",
+      "summary": "In the early-midgame, you have a moderate economy and heavy technology, but the opponent's posture is less clear, with no reliable combat-unit cues. Stabilize your position by increasing defense and continuing to develop your economy and technology. Strengthen your ground army.",
+      "title": "Early-Midgame Stabilization",
+      "trigger_summary": "In the early-midgame, you have a moderate economy and heavy technology, but the opponent's posture is less clear, with no reliable combat-unit cues.",
+      "type": "frequent"
+    },
+    "N010": {
+      "children": [],
+      "path": "nodes/N010.md",
+      "summary": "Early in the game, you have a moderate economy and heavy technology, while the opponent shows a ground macro posture. Increase your economy and production while continuing to develop technology. Strengthen your ground army.",
+      "title": "Early Game Economy Focus",
+      "trigger_summary": "Early in the game, you have a moderate economy and heavy technology, while the opponent shows a ground macro posture.",
+      "type": "frequent"
+    },
+    "N011": {
+      "children": [
+        "N004",
+        "N012"
+      ],
+      "path": "nodes/N011.md",
+      "summary": "In the midgame, the opponent's ground posture is more developed, with Zergling, Queen, and Overseer cues, indicating a heavy ground macro strategy. Maintain current development path while keeping safety checks active. Consider preparing for a ground-based opponent.",
+      "title": "Midgame Ground Posture Detection",
+      "trigger_summary": "In the midgame, the opponent's ground posture is more developed, with Zergling, Queen, and Overseer cues, indicating a heavy ground macro strategy.",
+      "type": "frequent"
+    },
+    "N012": {
+      "children": [],
+      "path": "nodes/N012.md",
+      "summary": "In the late-midgame, the opponent's ground posture is still evident, with Queen cues, indicating a heavy ground macro strategy. Maintain current development path while keeping safety checks active. Consider preparing for a ground-based opponent.",
+      "title": "Late-Midgame Ground Posture Detection",
+      "trigger_summary": "In the late-midgame, the opponent's ground posture is still evident, with Queen cues, indicating a heavy ground macro strategy.",
+      "type": "frequent"
+    }
+  },
+  "opening_name": "PvZ_O02 Technology / Economy / Production",
+  "root": "SKILL.md",
+  "skill_id": "PvZ_O02"
+}

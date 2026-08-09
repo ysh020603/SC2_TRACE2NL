@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid making risky all-in moves or neglecting scouting. Also avoid over-investing in technology or production without a clear plan.",
+        "decision_direction": "Maintain a balanced development path, focusing on economy and production while keeping safety checks in mind. Avoid overcommitting to any single strategy until you have more information.",
+        "exit_or_recheck_condition": "Re-evaluate when you have more scouting information or when you reach a new phase of the game.",
+        "next_state_summary": "Proceed to the early-midgame with a continued balanced approach, maintaining flexibility.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "The opponent's actions are not yet clear. They may be expanding, teching, or preparing an early attack. You should scout to gather information about their base and unit composition.",
+        "own_situation": "You are in the early game with a light or uncertain economy, production, and technology. Your army composition and style are unknown, and you have not committed to a specific defensive or offensive posture. Your overall posture is broadly unknown-oriented, so you need to check your current structures, queues, and resources to make informed decisions.",
+        "strategic_reason": "In the early game, information is limited, and overcommitting can be punished. A balanced approach allows you to respond to a variety of opponent strategies while building a solid foundation.",
+        "title": "Early Game Foundation",
+        "transition_goal": "Reach the early-midgame with a stable economy and production, ready to adapt based on scouting information.",
+        "trigger_summary": "At the start of the game, you have limited information about the opponent's intentions. Your own economy, production, and technology are all in early development stages."
+      },
+      {
+        "avoid_direction": "Avoid committing to a single tech path too early. Also avoid neglecting scouting or defensive preparations.",
+        "decision_direction": "Maintain a balanced development path, but start to lean towards a ground-based army composition. Keep your options open for tech switches if needed. Continue to develop with safety checks.",
+        "exit_or_recheck_condition": "Re-evaluate when you have more information about the opponent's composition or when you reach the midgame.",
+        "next_state_summary": "Proceed to the midgame with a continued balanced approach, maintaining flexibility.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "The opponent's strategy is still not fully clear. They might be preparing a timing attack, expanding aggressively, or teching to a specific unit composition. Continue scouting to identify their intentions.",
+        "own_situation": "You are in the early-midgame with a light or uncertain economy, production, and technology. Your army composition is still unknown, and you have not committed to a specific strategy. Your posture remains broadly unknown-oriented, so you need to continue checking your current status.",
+        "strategic_reason": "At this stage, you can start to shape your army composition based on the opponent's likely strategy. A ground-leaning approach is versatile and can transition to air if necessary.",
+        "title": "Early-Midgame Adaptation",
+        "transition_goal": "Reach the midgame with a solid economy and a flexible army composition, ready to respond to the opponent's midgame threats.",
+        "trigger_summary": "As the game progresses into the early-midgame, you still have limited information about the opponent, but you may have some scouting data. Your own economy and production remain light or uncertain."
+      },
+      {
+        "avoid_direction": "Avoid overextending your economy at the expense of army production. Also avoid neglecting upgrades or tech that could be crucial in midgame fights.",
+        "decision_direction": "Maintain a balanced development path, but start to solidify your army composition and tech choices. Continue to develop with safety checks, ensuring you have defenses against potential attacks.",
+        "exit_or_recheck_condition": "Re-evaluate when you have a clear picture of the opponent's army composition or when you reach the late-midgame.",
+        "next_state_summary": "Proceed to the late-midgame with a continued balanced approach, maintaining flexibility.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "The opponent's strategy is becoming clearer. They may be massing a specific unit composition, expanding heavily, or preparing a timing attack. Use your scouting to identify their key threats.",
+        "own_situation": "You are in the midgame with a light or uncertain economy, production, and technology. Your army composition is still unknown, but you have a ground-leaning tendency. Your posture remains broadly unknown-oriented, so you need to check your current structures and army strength.",
+        "strategic_reason": "In the midgame, you need to be ready for engagements. A balanced approach with a ground-leaning army gives you flexibility to counter the opponent's composition.",
+        "title": "Midgame Consolidation",
+        "transition_goal": "Reach the late-midgame with a stable economy, a defined army composition, and the ability to transition to a lategame strategy.",
+        "trigger_summary": "In the midgame, you have more information about the opponent's strategy, but your own posture is still light or uncertain. You need to consolidate your position and prepare for the midgame conflicts."
+      },
+      {
+        "avoid_direction": "Avoid making drastic tech switches without a clear plan. Also avoid neglecting your economy or production, as you will need them to sustain a lategame army.",
+        "decision_direction": "Maintain a balanced development path, but start to make concrete plans for the lategame. Consider transitioning to a composition that can counter the opponent's likely lategame army. Continue to develop with safety checks.",
+        "exit_or_recheck_condition": "Re-evaluate when you have a clear plan for the lategame or when the game enters the lategame phase.",
+        "next_state_summary": "Proceed to the lategame with a continued balanced approach, maintaining flexibility.",
+        "node_id": "N004",
+        "node_type": "trace",
+        "opponent_situation": "The opponent's strategy is now clear. They may be preparing for a lategame composition, such as brood lords or ultralisks, or they may be planning a final push. Use your scouting to anticipate their next move.",
+        "own_situation": "You are in the late-midgame with a light or uncertain economy, production, and technology. Your army composition is still unknown, but you have a ground-leaning tendency. Your posture remains broadly unknown-oriented, so you need to check your current status and plan for the future.",
+        "strategic_reason": "In the late-midgame, you need to set up for the lategame. A balanced approach with a ground-leaning army can be adapted to include air units or spellcasters as needed.",
+        "title": "Late-Midgame Preparation",
+        "transition_goal": "Reach the lategame with a strong economy, a well-defined army composition, and the ability to execute your chosen strategy.",
+        "trigger_summary": "In the late-midgame, you have a good understanding of the opponent's strategy, and you need to prepare for the transition to the lategame. Your own posture is still light or uncertain, but you have a foundation to build upon."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "light_or_uncertain",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "PvZ_O02 Balanced Macro",
+      "opening_summary": "A balanced Protoss macro opening against Zerg, focusing on steady economy and production development while remaining flexible to adapt based on scouting. The opening does not commit to a specific army composition or tech path early, instead aiming to reach a stable midgame with options open.",
+      "production_character": "light_or_uncertain",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "light_or_uncertain"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "PvZ_O02",
+  "projection_path": "02_observation_projection/ablation_single_trace/PvZ_O02.json"
+}

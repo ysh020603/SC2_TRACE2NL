@@ -1,0 +1,94 @@
+{
+  "method": "ablation_frequency_only",
+  "nodes": {
+    "N001": {
+      "children": [
+        "N002",
+        "N005"
+      ],
+      "path": "nodes/N001.md",
+      "summary": "At the start of the game, both sides have limited information. The opponent's posture is unknown, and your own economy and production are still developing. Maintain current development path, focusing on economy and expansion while keeping options open.",
+      "title": "Early Game Development",
+      "trigger_summary": "At the start of the game, both sides have limited information. The opponent's posture is unknown, and your own economy and production are still developing.",
+      "type": "frequent"
+    },
+    "N002": {
+      "children": [
+        "N005"
+      ],
+      "path": "nodes/N002.md",
+      "summary": "As the game progresses into the early-midgame, both sides are still relatively unknown, but you have had time to establish your economy. Continue to maintain your current path, focusing on economy and expansion while keeping an eye on potential threats.",
+      "title": "Early-Midgame Consolidation",
+      "trigger_summary": "As the game progresses into the early-midgame, both sides are still relatively unknown, but you have had time to establish your economy.",
+      "type": "frequent"
+    },
+    "N003": {
+      "children": [
+        "N006"
+      ],
+      "path": "nodes/N003.md",
+      "summary": "By the midgame, you have enough information to start making more concrete decisions about your army composition. Maintain your current development path, but start considering which tech paths to pursue based on scouting.",
+      "title": "Midgame Strategic Pivot",
+      "trigger_summary": "By the midgame, you have enough information to start making more concrete decisions about your army composition.",
+      "type": "frequent"
+    },
+    "N004": {
+      "children": [],
+      "path": "nodes/N004.md",
+      "summary": "In the late-midgame, you should have a clear direction and be executing your strategy. Maintain your current army path and continue to develop your economy and tech.",
+      "title": "Late-Midgame Execution",
+      "trigger_summary": "In the late-midgame, you should have a clear direction and be executing your strategy.",
+      "type": "frequent"
+    },
+    "N005": {
+      "children": [
+        "N002"
+      ],
+      "path": "nodes/N005.md",
+      "summary": "You have scouted the opponent and see a ground-based Terran composition with Marines, indicating a macro-oriented play. Maintain your current army path, but consider strengthening your ground forces to match the opponent's composition.",
+      "title": "Early-Midgame Ground Commitment",
+      "trigger_summary": "You have scouted the opponent and see a ground-based Terran composition with Marines, indicating a macro-oriented play.",
+      "type": "frequent"
+    },
+    "N006": {
+      "children": [
+        "N003"
+      ],
+      "path": "nodes/N006.md",
+      "summary": "In the midgame, the opponent continues with a ground-based Marine composition, and you have a moderate defense. Maintain your current army path, but focus on strengthening your ground forces and defense.",
+      "title": "Midgame Ground Defense",
+      "trigger_summary": "In the midgame, the opponent continues with a ground-based Marine composition, and you have a moderate defense.",
+      "type": "frequent"
+    },
+    "N007": {
+      "children": [
+        "N002",
+        "N005"
+      ],
+      "path": "nodes/N007.md",
+      "summary": "You see a Reaper from the opponent, indicating a possible early harassment or scout. Maintain your current development path, but be ready to defend against early harassment.",
+      "title": "Early Game Reaper Scout",
+      "trigger_summary": "You see a Reaper from the opponent, indicating a possible early harassment or scout.",
+      "type": "frequent"
+    },
+    "N008": {
+      "children": [],
+      "path": "nodes/N008.md",
+      "summary": "You have scouted a ground-based Terran and have committed to a ground-oriented army yourself. Strengthen your ground army and continue to expand your economy.",
+      "title": "Early-Midgame Ground Adaptation",
+      "trigger_summary": "You have scouted a ground-based Terran and have committed to a ground-oriented army yourself.",
+      "type": "frequent"
+    },
+    "N009": {
+      "children": [],
+      "path": "nodes/N009.md",
+      "summary": "In the midgame, you have a ground-based army with Zerglings and Queens, and the opponent is also ground-based. Increase your production and continue to strengthen your ground army.",
+      "title": "Midgame Ground Army Development",
+      "trigger_summary": "In the midgame, you have a ground-based army with Zerglings and Queens, and the opponent is also ground-based.",
+      "type": "frequent"
+    }
+  },
+  "opening_name": "ZvT_O02 Economy / Expansion / Ground",
+  "root": "SKILL.md",
+  "skill_id": "ZvT_O02"
+}

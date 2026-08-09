@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overcommitting to early aggression or neglecting scouting.",
+        "decision_direction": "Maintain current development path, focusing on economy and technology while keeping production moderate.",
+        "exit_or_recheck_condition": "Recheck when the first Stalker is produced or when the opponent's strategy becomes clearer.",
+        "next_state_summary": "Move to the early-midgame with a Stalker as a representative unit.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "No confirmed information about the opponent's strategy or army composition.",
+        "own_situation": "Early game with heavy economy and technology investment, moderate production, and no clear army composition yet. Defense is light, and expansion is heavy.",
+        "strategic_reason": "A balanced macro opening allows flexibility to adapt to the opponent's actions without committing to a specific army composition.",
+        "title": "Early Game Development",
+        "transition_goal": "Transition smoothly into the early-midgame with a clear army direction.",
+        "trigger_summary": "At the start of the game, focus on establishing a solid economy and technology foundation."
+      },
+      {
+        "avoid_direction": "Avoid overextending with the Stalker without proper scouting.",
+        "decision_direction": "Continue maintaining the current path, with a focus on developing a ground army.",
+        "exit_or_recheck_condition": "Recheck when production becomes heavy or when the opponent's strategy is identified.",
+        "next_state_summary": "Move to the midgame with a ground macro posture and heavy production.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "No confirmed information about the opponent's strategy or army composition.",
+        "own_situation": "Early-midgame with heavy economy and technology, moderate production, and a Stalker as the first representative unit. Army domain is still unknown but leaning ground.",
+        "strategic_reason": "The Stalker provides a versatile unit that can be used for both defense and harassment, while the heavy economy and technology investment supports future transitions.",
+        "title": "Early-Midgame Transition",
+        "transition_goal": "Transition to a heavier ground production posture in the midgame.",
+        "trigger_summary": "The first Stalker is produced, indicating a shift towards a ground army."
+      },
+      {
+        "avoid_direction": "Avoid neglecting defense while focusing on harassment.",
+        "decision_direction": "Maintain the ground macro posture, continuing to build a strong army and economy.",
+        "exit_or_recheck_condition": "Recheck when Dark Templar or Immortal are produced or when the opponent's army composition is known.",
+        "next_state_summary": "Move to the late-midgame with a more diverse ground army.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "No confirmed information about the opponent's strategy, but pressure is possible.",
+        "own_situation": "Midgame with heavy economy, production, and technology. Army is ground-based with Stalkers and a Warp Prism, indicating potential for harassment or mobility.",
+        "strategic_reason": "The Warp Prism adds mobility and harassment potential, while heavy production and technology support a strong midgame army.",
+        "title": "Midgame Ground Macro",
+        "transition_goal": "Transition to a late-midgame army with additional tech units like Dark Templar and Immortal.",
+        "trigger_summary": "Production becomes heavy, and the army is clearly ground-oriented with a Warp Prism."
+      },
+      {
+        "avoid_direction": "Avoid overextending with Dark Templar without support.",
+        "decision_direction": "Maintain the current army path, focusing on leveraging the tech advantage.",
+        "exit_or_recheck_condition": "Recheck when the opponent's strategy is fully scouted or when transitioning to a different army composition.",
+        "next_state_summary": "Continue the late-midgame posture, maintaining the current army composition.",
+        "node_id": "N004",
+        "node_type": "trace",
+        "opponent_situation": "No confirmed information about the opponent's strategy, but pressure is possible.",
+        "own_situation": "Late-midgame with heavy economy, production, and technology. Army includes Stalkers, Dark Templar, Warp Prism, and Immortals, providing a mix of mobility, stealth, and tankiness.",
+        "strategic_reason": "The combination of Dark Templar and Immortal provides strong offensive and defensive capabilities, while the Warp Prism enables flexible positioning.",
+        "title": "Late-Midgame Tech Integration",
+        "transition_goal": "Continue developing the army and economy, preparing for potential late-game transitions.",
+        "trigger_summary": "Dark Templar and Immortal are added to the army, indicating a tech-heavy ground composition."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "PvT_O01 Balanced Macro",
+      "opening_summary": "A balanced macro opening that emphasizes heavy economy and technology investment while keeping production moderate early, then shifting to heavy ground production with a possible pressure posture in the midgame. The opening is flexible and observation-driven.",
+      "production_character": "moderate early, heavy later",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "PvT_O01",
+  "projection_path": "02_observation_projection/ablation_single_trace/PvT_O01.json"
+}

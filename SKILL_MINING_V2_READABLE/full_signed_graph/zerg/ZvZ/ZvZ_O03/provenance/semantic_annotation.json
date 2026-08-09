@@ -1,0 +1,114 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid over-committing to tech or economy at the expense of army, as pressure is possible.",
+        "decision_direction": "Maintain ground army strength, continue economy and expansion, keep production and tech steady, and add safety checks.",
+        "exit_or_recheck_condition": "Recheck if opponent shows signs of aggression or tech switch.",
+        "next_state_summary": "Proceed to midgame with continued ground macro development.",
+        "node_id": "N001",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence suggests a ground posture with Zergling and Queen cues, moderate production and tech, heavy economy and expansion. Defense is light or uncertain, and pressure is possible.",
+        "own_situation": "You are in early-midgame with a ground-oriented army, moderate production and tech, heavy economy and expansion. Defense is light or uncertain, and pressure is possible.",
+        "strategic_reason": "Both sides are developing similarly; maintaining a balanced approach avoids falling behind while preparing for potential pressure.",
+        "title": "Early-Midgame Ground Macro",
+        "transition_goal": "Transition smoothly into midgame with a solid ground army and economy.",
+        "trigger_summary": "Early-midgame phase with both sides on ground macro posture, moderate production and tech, heavy economy and expansion."
+      },
+      {
+        "avoid_direction": "Avoid neglecting defense or over-extending without army support.",
+        "decision_direction": "Strengthen ground army, maintain economy and expansion, keep production and tech steady, and maintain defense.",
+        "exit_or_recheck_condition": "Recheck if opponent tech switches or shows heavy aggression.",
+        "next_state_summary": "Continue to late-midgame with a robust ground force.",
+        "node_id": "N002",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence suggests a ground posture with Zergling and Queen cues, moderate production and tech, heavy economy and expansion, defense moderate.",
+        "own_situation": "You are in midgame with a ground-oriented army including Zergling, Roach, and Queen, moderate production and tech, heavy economy and expansion, defense moderate.",
+        "strategic_reason": "Midgame is a critical point; consolidating ground forces and economy prepares for potential engagements.",
+        "title": "Midgame Ground Consolidation",
+        "transition_goal": "Build a strong ground army to either pressure or defend effectively.",
+        "trigger_summary": "Midgame phase with both sides on ground macro posture, moderate production and tech, heavy economy and expansion, defense moderate."
+      },
+      {
+        "avoid_direction": "Avoid over-investing in tech or army too early, which could hurt economy.",
+        "decision_direction": "Continue economy and expansion, maintain ground army, keep production and tech steady, and add safety checks.",
+        "exit_or_recheck_condition": "Recheck if opponent shows early aggression or tech rush.",
+        "next_state_summary": "Transition to early-midgame with a solid foundation.",
+        "node_id": "N003",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence suggests a ground posture with Zergling and Queen cues, moderate production, tech light or uncertain, heavy economy and expansion.",
+        "own_situation": "You are in early game with a ground-oriented army, moderate production and tech, heavy economy and expansion, defense light or uncertain.",
+        "strategic_reason": "Early game is about establishing a strong economy while staying safe against early pressure.",
+        "title": "Early Game Economy Focus",
+        "transition_goal": "Reach early-midgame with a healthy economy and a modest army.",
+        "trigger_summary": "Early game phase with both sides on ground macro posture, moderate production, heavy economy and expansion, tech light or uncertain."
+      },
+      {
+        "avoid_direction": "Avoid over-extending without army support or neglecting scouting for tech switches.",
+        "decision_direction": "Increase economy and upgrades, continue ground army strength, maintain production and tech, and keep defense.",
+        "exit_or_recheck_condition": "Recheck if opponent transitions to air or shows heavy aggression.",
+        "next_state_summary": "Proceed to late game with a powerful ground force.",
+        "node_id": "N004",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence suggests a ground posture with Zergling, Roach, and Queen cues, heavy production and tech, heavy economy and expansion, defense heavy.",
+        "own_situation": "You are in late-midgame with a ground-oriented army, heavy production and tech, heavy economy and expansion, defense heavy.",
+        "strategic_reason": "Late-midgame is about maximizing economy and tech to gain an advantage for the late game.",
+        "title": "Late-Midgame Heavy Ground",
+        "transition_goal": "Prepare for late game with a strong economy and upgraded ground army.",
+        "trigger_summary": "Late-midgame phase with both sides on ground macro posture, heavy production and tech, heavy economy and expansion, defense heavy."
+      },
+      {
+        "avoid_direction": "Avoid risky engagements or over-committing to tech without army.",
+        "decision_direction": "Stabilize defense, increase economy and production, continue tech and upgrades, and strengthen ground army.",
+        "exit_or_recheck_condition": "Recheck if opponent techs up or shows signs of all-in.",
+        "next_state_summary": "Continue to late-midgame with a solid foundation.",
+        "node_id": "N005",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence suggests a ground posture with Roach and Queen cues, heavy production, moderate tech, heavy economy and expansion, defense moderate.",
+        "own_situation": "You are in midgame with a ground-oriented army including Zergling, Roach, and Queen, heavy production and tech, heavy economy and expansion, defense heavy.",
+        "strategic_reason": "Opponent has heavy production but moderate tech; stabilizing and out-producing can lead to an advantage.",
+        "title": "Midgame Stabilization",
+        "transition_goal": "Achieve a stable position with a strong economy and army.",
+        "trigger_summary": "Midgame phase with opponent on ground posture, heavy production, moderate tech, heavy economy and expansion; own side heavy production and tech, heavy economy and expansion, defense heavy."
+      },
+      {
+        "avoid_direction": "Avoid over-defending to the point of sacrificing economy or tech.",
+        "decision_direction": "Increase defense and economy, continue production and tech, and strengthen ground army.",
+        "exit_or_recheck_condition": "Recheck if opponent shows no aggression, allowing more economy focus.",
+        "next_state_summary": "Transition to early-midgame with a defensive posture.",
+        "node_id": "N006",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence suggests a ground posture with Zergling and Queen cues, moderate production, tech light or uncertain, heavy economy and expansion, defense light or uncertain.",
+        "own_situation": "You are in early game with a ground-oriented army, heavy defense, moderate production and tech, heavy economy and expansion.",
+        "strategic_reason": "Heavy defense early can deter aggression while you build economy and tech.",
+        "title": "Early Game Defense Focus",
+        "transition_goal": "Reach early-midgame with a safe economy and a solid defense.",
+        "trigger_summary": "Early game phase with opponent on ground posture, moderate production, tech light or uncertain, heavy economy and expansion; own side heavy defense, moderate production and tech, heavy economy and expansion."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order. Adjust based on scouting and opponent behavior.",
+      "opening_family": "economy / technology / expansion opening",
+      "opening_name": "ZvZ_O03 Economy / Technology / Expansion",
+      "opening_summary": "A Zerg versus Zerg opening that prioritizes economy, technology, and expansion while maintaining a ground-oriented posture. The strategy is flexible and adapts based on live observations.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a robust economy and technology base while expanding, keeping ground army strength as a safety net, and remaining adaptable to opponent actions.",
+      "technology_character": "moderate"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "full_signed_graph",
+  "method_specific_annotation": true,
+  "opening_id": "ZvZ_O03",
+  "projection_path": "02_observation_projection/full_signed_graph/ZvZ_O03.json"
+}

@@ -1,0 +1,44 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid making premature commitments to a particular army composition or expanding too aggressively without scouting. Also, avoid neglecting production entirely, as you will need to build an army soon.",
+        "decision_direction": "Maintain your current development path with a focus on economy and technology, while keeping your defensive posture strong. Avoid overcommitting to a specific army composition or expansion until you have more information about the opponent's intentions.",
+        "exit_or_recheck_condition": "Re-evaluate this node when you have more information about the opponent's strategy, such as their expansion timing, tech choices, or army composition. Also, re-check when your own production and expansion become more defined.",
+        "next_state_summary": "In the next state, your production becomes moderate, indicating a shift toward building an army. Your technology and economy remain heavy, and your defense is still strong. You are entering the early-mid game with a more defined posture.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "Your opponent is Terran, but you have no confirmed information about their army composition, tech choices, or expansion plans. They could be pursuing a variety of strategies, so you must remain alert and gather information through scouting.",
+        "own_situation": "You are in the early game with a heavy focus on technology and defense. Your economy is also heavy, but your production and expansion are light or uncertain. Your army is not yet defined, and you have no confirmed air units. Your overall posture is still developing, so you need to check your current structures, queues, and resources to make precise decisions.",
+        "strategic_reason": "By maintaining a balanced approach, you preserve the flexibility to react to whatever the Terran player is doing. Heavy technology investment can lead to powerful mid-game options, while a strong economy supports future production. Keeping defense heavy reduces vulnerability to early aggression.",
+        "title": "Early Game Balanced Development",
+        "transition_goal": "As you move into the early-mid game, aim to increase your production capacity and begin to define your army composition based on what you have observed from the opponent. Continue to develop your technology and economy, but start to shift toward a more balanced posture.",
+        "trigger_summary": "At the start of the early game, you have a heavy technology investment and a heavy defensive posture, but your production and expansion are light or uncertain. Your army composition is unknown, and you have no confirmed air presence."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "light_or_uncertain",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "PvT_O04 Balanced Macro",
+      "opening_summary": "A flexible early-game Protoss opening that emphasizes a balanced economy and technology investment while keeping production light and defensive options open. The strategy is designed to adapt based on live scouting rather than committing to a rigid build.",
+      "production_character": "light_or_uncertain",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "light_or_uncertain"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "PvT_O04",
+  "projection_path": "02_observation_projection/ablation_single_trace/PvT_O04.json"
+}

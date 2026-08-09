@@ -1,0 +1,58 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overcommitting to a specific army composition or aggressive actions before gathering more information.",
+        "decision_direction": "Maintain current development path, focusing on economy and technology while keeping production moderate.",
+        "exit_or_recheck_condition": "Re-evaluate when you have more information about the opponent's strategy or when your economy and tech are sufficiently developed.",
+        "next_state_summary": "Move to a state with a defined ground army and heavier defense.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "No confirmed information about the opponent's actions or composition yet.",
+        "own_situation": "Your economy and expansion are heavy, with moderate production and heavy technology investment. Your army composition is not yet defined, but you have a Marine representative. Your defense is light or uncertain, and your pressure posture is unknown.",
+        "strategic_reason": "Establishing a strong economy and tech base early allows for flexible responses to the opponent's strategy.",
+        "title": "Early Game Development",
+        "transition_goal": "Transition to a ground-oriented army with a heavier defense posture as the game progresses.",
+        "trigger_summary": "At the start of the game, focus on establishing a solid economic and technological foundation."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting or over-investing in a single tech path without confirming the opponent's intentions.",
+        "decision_direction": "Continue maintaining your current army path and defensive posture, while keeping an eye on potential pressure.",
+        "exit_or_recheck_condition": "Re-evaluate when you have more information about the opponent's army composition or when you need to transition to a more specialized strategy.",
+        "next_state_summary": "Continue with a ground-oriented macro posture, ready to adapt.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "Still no confirmed information about the opponent's composition or strategy.",
+        "own_situation": "Your economy and expansion remain heavy, with moderate production and heavy technology. Your army is ground-based with a macro posture, and your defense is heavy. Pressure is possible, but not confirmed.",
+        "strategic_reason": "A solid ground army with heavy defense provides a stable foundation to respond to Zerg's potential tech switches or aggression.",
+        "title": "Early-Midgame Ground Transition",
+        "transition_goal": "Prepare for midgame transitions based on observed opponent behavior, such as adding air units or tech if needed.",
+        "trigger_summary": "As the game progresses, your army becomes ground-oriented and your defense posture strengthens."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "TvZ_O03 Balanced Macro",
+      "opening_summary": "A Terran opening focused on a balanced macro posture with heavy technology investment and moderate production, aiming for a smooth transition into the midgame while preserving flexibility.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "TvZ_O03",
+  "projection_path": "02_observation_projection/ablation_single_trace/TvZ_O03.json"
+}

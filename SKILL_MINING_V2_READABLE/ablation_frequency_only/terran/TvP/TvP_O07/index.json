@@ -1,0 +1,133 @@
+{
+  "method": "ablation_frequency_only",
+  "nodes": {
+    "N001": {
+      "children": [
+        "N008"
+      ],
+      "path": "nodes/N001.md",
+      "summary": "At around 240-300 seconds, own ground posture with heavy production and tech, opponent shows ground units like Stalker, possible pressure. Continue strengthening ground forces, increase economy and expansions, maintain defense.",
+      "title": "Early-Mid Ground Macro with Heavy Tech",
+      "trigger_summary": "At around 240-300 seconds, own ground posture with heavy production and tech, opponent shows ground units like Stalker, possible pressure.",
+      "type": "frequent"
+    },
+    "N002": {
+      "children": [
+        "N001",
+        "N008"
+      ],
+      "path": "nodes/N002.md",
+      "summary": "At around 180 seconds, own ground posture with moderate production and heavy tech, opponent unknown with heavy tech. Continue tech development, increase economy, maintain ground forces.",
+      "title": "Early Game Tech Focus with Unknown Opponent",
+      "trigger_summary": "At around 180 seconds, own ground posture with moderate production and heavy tech, opponent unknown with heavy tech.",
+      "type": "frequent"
+    },
+    "N003": {
+      "children": [
+        "N005"
+      ],
+      "path": "nodes/N003.md",
+      "summary": "At around 540 seconds, own ground army with Siege Tanks and Marines, opponent ground with Stalkers and Immortals, possible pressure. Strengthen ground forces, increase air presence, continue tech upgrades.",
+      "title": "Midgame Ground Push with Air Support",
+      "trigger_summary": "At around 540 seconds, own ground army with Siege Tanks and Marines, opponent ground with Stalkers and Immortals, possible pressure.",
+      "type": "frequent"
+    },
+    "N004": {
+      "children": [
+        "N001",
+        "N008"
+      ],
+      "path": "nodes/N004.md",
+      "summary": "At around 180 seconds, own ground posture, opponent shows Zealot, possible early pressure. Maintain defense, strengthen ground forces, increase economy.",
+      "title": "Early Game Zealot Pressure Defense",
+      "trigger_summary": "At around 180 seconds, own ground posture, opponent shows Zealot, possible early pressure.",
+      "type": "frequent"
+    },
+    "N005": {
+      "children": [],
+      "path": "nodes/N005.md",
+      "summary": "At around 600 seconds, own ground army with Siege Tanks, opponent ground with Stalkers and Immortals, possible pressure. Increase air presence, continue tech upgrades, maintain ground strength.",
+      "title": "Late Midgame Ground vs Ground",
+      "trigger_summary": "At around 600 seconds, own ground army with Siege Tanks, opponent ground with Stalkers and Immortals, possible pressure.",
+      "type": "frequent"
+    },
+    "N006": {
+      "children": [
+        "N001",
+        "N001"
+      ],
+      "path": "nodes/N006.md",
+      "summary": "At around 300 seconds, own ground posture with heavy production, opponent ground with Stalkers and Sentries. Continue ground development, increase economy, maintain defense.",
+      "title": "Early-Mid Ground vs Ground with Heavy Production",
+      "trigger_summary": "At around 300 seconds, own ground posture with heavy production, opponent ground with Stalkers and Sentries.",
+      "type": "frequent"
+    },
+    "N007": {
+      "children": [
+        "N001",
+        "N001"
+      ],
+      "path": "nodes/N007.md",
+      "summary": "At around 300 seconds, own ground posture, opponent unknown but with Zealot cue, possible pressure. Continue ground development, increase economy, maintain defense.",
+      "title": "Early-Mid Unknown Opponent with Zealot Cue",
+      "trigger_summary": "At around 300 seconds, own ground posture, opponent unknown but with Zealot cue, possible pressure.",
+      "type": "frequent"
+    },
+    "N008": {
+      "children": [
+        "N006",
+        "N007"
+      ],
+      "path": "nodes/N008.md",
+      "summary": "At around 240-300 seconds, own ground posture, opponent unknown with heavy defense, possible tech. Continue ground development, increase economy, maintain defense.",
+      "title": "Early-Mid Unknown Opponent with Heavy Defense",
+      "trigger_summary": "At around 240-300 seconds, own ground posture, opponent unknown with heavy defense, possible tech.",
+      "type": "frequent"
+    },
+    "N009": {
+      "children": [
+        "N008"
+      ],
+      "path": "nodes/N009.md",
+      "summary": "At around 180 seconds, own ground posture, opponent unknown with moderate economy, possible tech. Continue tech development, increase economy, maintain ground forces.",
+      "title": "Early Game Unknown Opponent with Moderate Economy",
+      "trigger_summary": "At around 180 seconds, own ground posture, opponent unknown with moderate economy, possible tech.",
+      "type": "frequent"
+    },
+    "N010": {
+      "children": [
+        "N008"
+      ],
+      "path": "nodes/N010.md",
+      "summary": "At around 180 seconds, own ground posture, opponent shows Zealot, possible early pressure. Maintain defense, strengthen ground forces, increase economy.",
+      "title": "Early Game Zealot Pressure Defense (Alternate)",
+      "trigger_summary": "At around 180 seconds, own ground posture, opponent shows Zealot, possible early pressure.",
+      "type": "frequent"
+    },
+    "N011": {
+      "children": [
+        "N012"
+      ],
+      "path": "nodes/N011.md",
+      "summary": "At around 420-540 seconds, own ground army with Siege Tanks, opponent ground with Zealots and Void Rays, possible air transition. Maintain ground strength, consider adding anti-air, continue tech upgrades.",
+      "title": "Midgame Ground vs Ground with Air Cue",
+      "trigger_summary": "At around 420-540 seconds, own ground army with Siege Tanks, opponent ground with Zealots and Void Rays, possible air transition.",
+      "type": "frequent"
+    },
+    "N012": {
+      "children": [
+        "N011",
+        "N011",
+        "N011"
+      ],
+      "path": "nodes/N012.md",
+      "summary": "At around 480 seconds, own ground army with Siege Tanks and Marines, opponent ground with Zealots, Stalkers, Warp Prism. Increase air presence, strengthen ground forces, continue tech upgrades.",
+      "title": "Midgame Ground vs Ground with Warp Prism",
+      "trigger_summary": "At around 480 seconds, own ground army with Siege Tanks and Marines, opponent ground with Zealots, Stalkers, Warp Prism.",
+      "type": "frequent"
+    }
+  },
+  "opening_name": "TvP_O07 Economy / Technology / Expansion",
+  "root": "SKILL.md",
+  "skill_id": "TvP_O07"
+}

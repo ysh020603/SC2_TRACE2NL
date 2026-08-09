@@ -1,0 +1,72 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid making risky tech switches or cutting production too low, as you need to be ready for potential early aggression.",
+        "decision_direction": "Maintain current development path: continue economy and technology investment, keep production moderate, and avoid overcommitting to a specific army composition until more information is available.",
+        "exit_or_recheck_condition": "Recheck when you have more information about opponent's composition or when you reach the next phase.",
+        "next_state_summary": "Move to early-midgame with a ground army focus and heavier production.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "Opponent information is limited at this stage. Their army composition, production, and technology are unknown. Be alert for early pressure or cheese.",
+        "own_situation": "You are in the early game with a developing posture. Production is moderate, technology investment is heavy, and you are expanding economically. Your army composition is not yet defined, but you have Marines as a representative unit.",
+        "strategic_reason": "A balanced macro approach allows you to adapt to opponent actions. Heavy technology investment provides options, while moderate production keeps you safe from early all-ins.",
+        "title": "Early Game Development",
+        "transition_goal": "Transition to a ground-oriented army with heavier production as you move into the early-midgame.",
+        "trigger_summary": "Early game phase with moderate production and heavy technology investment, economy and expansion heavy."
+      },
+      {
+        "avoid_direction": "Avoid neglecting air defense or scouting, as the opponent could transition to air units.",
+        "decision_direction": "Maintain your ground army path and continue heavy production and technology. Keep expanding and developing your economy.",
+        "exit_or_recheck_condition": "Recheck when you have more information about opponent's composition or when you reach the midgame.",
+        "next_state_summary": "Move to midgame with a heavy ground army and defensive posture.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "Opponent's composition is still uncertain, but you may have some scouting information. Be aware of possible pressure or tech plays.",
+        "own_situation": "You are in the early-midgame with a ground-oriented army. Production is heavy, technology is heavy, and you are expanding. Your army includes Marines, and you may have Thors and Medivacs as you progress.",
+        "strategic_reason": "A ground army with heavy production and technology provides a solid foundation for midgame engagements. Continuing to expand ensures a strong economy for sustained production.",
+        "title": "Ground Army Transition",
+        "transition_goal": "Transition to a midgame posture with a more defined army composition and defensive structures.",
+        "trigger_summary": "Early-midgame phase with ground army orientation, heavy production and technology, economy and expansion heavy."
+      },
+      {
+        "avoid_direction": "Avoid overcommitting to a single composition without scouting. Be ready to adapt to opponent's tech choices.",
+        "decision_direction": "Maintain your current army composition and production. Continue to expand and tech up, but also consider adding air units or upgrades to counter potential threats.",
+        "exit_or_recheck_condition": "Recheck when you have more information about opponent's composition or when you reach the late game.",
+        "next_state_summary": "Continue to develop your army and economy, adapting to opponent's moves.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "Opponent's composition is still uncertain, but you may have scouted some units. Be prepared for potential tech switches or large engagements.",
+        "own_situation": "You are in the midgame with a heavy ground army, including Marines, Thors, and Medivacs. Production and technology are heavy, and you have a strong defensive posture. Your economy is strong with multiple expansions.",
+        "strategic_reason": "A heavy ground army with Thors and Medivacs is strong in TvT, but you need to be flexible to counter air or siege tank compositions. Maintaining a strong economy allows for tech switches if needed.",
+        "title": "Midgame Consolidation",
+        "transition_goal": "Transition to a late-game composition with a mix of ground and air units, or a more specialized army based on opponent's composition.",
+        "trigger_summary": "Midgame phase with heavy ground army, heavy production and technology, heavy defense and expansion."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "TvT_O01 Balanced Macro",
+      "opening_summary": "A balanced macro opening that develops economy and technology while keeping production moderate, then transitions into a ground-oriented army with heavy production and technology.",
+      "production_character": "moderate to heavy",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "TvT_O01",
+  "projection_path": "02_observation_projection/ablation_single_trace/TvT_O01.json"
+}

@@ -1,0 +1,133 @@
+{
+  "method": "ablation_frequency_only",
+  "nodes": {
+    "N001": {
+      "children": [
+        "N002"
+      ],
+      "path": "nodes/N001.md",
+      "summary": "Early-midgame phase with heavy economy and expansion, moderate production, and light technology. Opponent posture is unknown but heavy economy and expansion are observed. Continue developing economy and production while maintaining a ground army. Keep defense light but be ready to respond to potential pressure.",
+      "title": "Early Macro Development",
+      "trigger_summary": "Early-midgame phase with heavy economy and expansion, moderate production, and light technology. Opponent posture is unknown but heavy economy and expansion are observed.",
+      "type": "frequent"
+    },
+    "N002": {
+      "children": [],
+      "path": "nodes/N002.md",
+      "summary": "Early-midgame phase with opponent showing a ground posture with Stalker presence and heavy production. Your own posture is ground-oriented with moderate production. Strengthen your ground army to match the opponent's ground composition. Continue economy and production development while maintaining defense.",
+      "title": "Ground Army Strengthening",
+      "trigger_summary": "Early-midgame phase with opponent showing a ground posture with Stalker presence and heavy production. Your own posture is ground-oriented with moderate production.",
+      "type": "frequent"
+    },
+    "N003": {
+      "children": [
+        "N001"
+      ],
+      "path": "nodes/N003.md",
+      "summary": "Early game phase with heavy economy and expansion, moderate production, and light technology. Opponent posture is unknown but heavy economy and expansion are observed. Focus on economy and expansion while maintaining a light defense. Continue ground-oriented development.",
+      "title": "Early Game Economy Focus",
+      "trigger_summary": "Early game phase with heavy economy and expansion, moderate production, and light technology. Opponent posture is unknown but heavy economy and expansion are observed.",
+      "type": "frequent"
+    },
+    "N004": {
+      "children": [
+        "N007"
+      ],
+      "path": "nodes/N004.md",
+      "summary": "Midgame phase with opponent showing a ground posture with Stalker presence and heavy production. Your own posture is ground-oriented with heavy production and moderate technology. Continue strengthening ground army and expand production. Maintain defense and consider tech upgrades.",
+      "title": "Midgame Ground Army Expansion",
+      "trigger_summary": "Midgame phase with opponent showing a ground posture with Stalker presence and heavy production. Your own posture is ground-oriented with heavy production and moderate technology.",
+      "type": "frequent"
+    },
+    "N005": {
+      "children": [
+        "N004",
+        "N010"
+      ],
+      "path": "nodes/N005.md",
+      "summary": "Midgame phase with opponent showing a ground posture with Stalker, Immortal, and Oracle presence. Your own posture is ground-oriented with heavy production and heavy technology. Increase economy and technology while continuing to strengthen ground army. Consider adding anti-air capabilities due to Oracle presence.",
+      "title": "Midgame Tech and Army Diversification",
+      "trigger_summary": "Midgame phase with opponent showing a ground posture with Stalker, Immortal, and Oracle presence. Your own posture is ground-oriented with heavy production and heavy technology.",
+      "type": "frequent"
+    },
+    "N006": {
+      "children": [],
+      "path": "nodes/N006.md",
+      "summary": "Late midgame phase with opponent showing a ground posture with Zealot, HighTemplar, Observer, and Archon presence. Your own posture is ground-oriented with heavy production and heavy technology. Maintain ground army strength and continue economy and production. Consider tech upgrades to counter high-tech ground units.",
+      "title": "Late Midgame Ground Army Consolidation",
+      "trigger_summary": "Late midgame phase with opponent showing a ground posture with Zealot, HighTemplar, Observer, and Archon presence. Your own posture is ground-oriented with heavy production and heavy technology.",
+      "type": "frequent"
+    },
+    "N007": {
+      "children": [
+        "N004",
+        "N004"
+      ],
+      "path": "nodes/N007.md",
+      "summary": "Midgame phase with opponent showing an air posture with VoidRay presence. Your own posture is ground-oriented with heavy production and moderate technology. Increase defense and economy while continuing ground development. Consider adding anti-air units or tech.",
+      "title": "Midgame Air Threat Response",
+      "trigger_summary": "Midgame phase with opponent showing an air posture with VoidRay presence. Your own posture is ground-oriented with heavy production and moderate technology.",
+      "type": "frequent"
+    },
+    "N008": {
+      "children": [
+        "N004",
+        "N007",
+        "N012"
+      ],
+      "path": "nodes/N008.md",
+      "summary": "Early midgame phase with opponent showing a ground posture with Stalker presence. Your own posture is ground-oriented with moderate production and light technology. Increase economy and expansion while continuing ground army development. Consider increasing production.",
+      "title": "Early Midgame Expansion and Production",
+      "trigger_summary": "Early midgame phase with opponent showing a ground posture with Stalker presence. Your own posture is ground-oriented with moderate production and light technology.",
+      "type": "frequent"
+    },
+    "N009": {
+      "children": [
+        "N004",
+        "N007",
+        "N012"
+      ],
+      "path": "nodes/N009.md",
+      "summary": "Early midgame phase with opponent showing a ground posture with Stalker presence. Your own posture is ground-oriented with heavy production and moderate technology. Increase technology and continue production. Maintain ground army strength.",
+      "title": "Early Midgame Tech and Production Increase",
+      "trigger_summary": "Early midgame phase with opponent showing a ground posture with Stalker presence. Your own posture is ground-oriented with heavy production and moderate technology.",
+      "type": "frequent"
+    },
+    "N010": {
+      "children": [
+        "N006"
+      ],
+      "path": "nodes/N010.md",
+      "summary": "Midgame phase with opponent showing an air posture with Stalker and Oracle presence. Your own posture is ground-oriented with heavy production and heavy technology. Increase economy and expansion while continuing ground army development. Consider adding anti-air units.",
+      "title": "Midgame Air Threat and Expansion",
+      "trigger_summary": "Midgame phase with opponent showing an air posture with Stalker and Oracle presence. Your own posture is ground-oriented with heavy production and heavy technology.",
+      "type": "frequent"
+    },
+    "N011": {
+      "children": [
+        "N004",
+        "N005",
+        "N010"
+      ],
+      "path": "nodes/N011.md",
+      "summary": "Midgame phase with opponent showing an air posture with VoidRay presence. Your own posture is ground-oriented with heavy production and heavy technology. Maintain ground army strength and increase economy. Consider tech upgrades for anti-air.",
+      "title": "Midgame Air Threat Response",
+      "trigger_summary": "Midgame phase with opponent showing an air posture with VoidRay presence. Your own posture is ground-oriented with heavy production and heavy technology.",
+      "type": "frequent"
+    },
+    "N012": {
+      "children": [
+        "N005",
+        "N011"
+      ],
+      "path": "nodes/N012.md",
+      "summary": "Midgame phase with opponent showing a ground posture with Stalker and Immortal presence. Your own posture is ground-oriented with heavy production and heavy technology. Continue strengthening ground army and increase economy. Consider tech upgrades to counter Immortals.",
+      "title": "Midgame Ground Army and Tech",
+      "trigger_summary": "Midgame phase with opponent showing a ground posture with Stalker and Immortal presence. Your own posture is ground-oriented with heavy production and heavy technology.",
+      "type": "frequent"
+    }
+  },
+  "opening_name": "ZvP_O07 Economy / Production / Expansion",
+  "root": "SKILL.md",
+  "skill_id": "ZvP_O07"
+}

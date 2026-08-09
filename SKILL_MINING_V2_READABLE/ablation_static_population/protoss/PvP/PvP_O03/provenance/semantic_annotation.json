@@ -1,0 +1,142 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid early aggression or expanding too greedily without scouting, as your army is not yet strong.",
+        "decision_direction": "Continue developing your technology and economy while maintaining a defensive posture. Focus on establishing a solid foundation without overcommitting to a specific army composition.",
+        "exit_or_recheck_condition": "Recheck when you have a clearer picture of the opponent's strategy or when your technology upgrades complete.",
+        "next_state_summary": "Progress to early-midgame with a stronger economy and more defined army direction.",
+        "node_id": "N001",
+        "node_type": "common",
+        "opponent_situation": "Opponent information is limited at this stage; their composition and intentions are unknown.",
+        "own_situation": "You are in the early game with a heavy investment in defense and technology. Your production is moderate, and your expansion is light or uncertain. Your army composition is not yet defined, and you have limited air presence.",
+        "strategic_reason": "This opening prioritizes long-term strength through technology and economy. Early defense prevents all-ins while you tech up.",
+        "title": "Early Game Tech and Defense Foundation",
+        "transition_goal": "Transition to a more defined army composition (ground or air) as scouting reveals opponent intentions.",
+        "trigger_summary": "Early game phase with heavy defense and technology posture, moderate production, and light or uncertain expansion."
+      },
+      {
+        "avoid_direction": "Avoid neglecting army production in favor of pure economy, as you need to be ready for potential pressure.",
+        "decision_direction": "Continue to strengthen your economy and technology while maintaining defense. Begin to lean towards a ground or air composition based on scouting and your own preferences.",
+        "exit_or_recheck_condition": "Recheck when you have scouted the opponent's composition or when your tech buildings are complete.",
+        "next_state_summary": "Move into midgame with a defined army direction and continued economic growth.",
+        "node_id": "N002",
+        "node_type": "common",
+        "opponent_situation": "Opponent information is still limited; their army composition and pressure potential are unknown.",
+        "own_situation": "You are in the early-midgame with a heavy economy and technology investment. Your defense is strong, and you have expanded. Your army composition is still undefined, but you have moderate production.",
+        "strategic_reason": "A heavy economy supports further tech and production. Maintaining defense deters aggression while you scale.",
+        "title": "Early-Midgame Tech and Economy Consolidation",
+        "transition_goal": "Transition to a midgame army composition, either ground-based with Zealots and Immortals or air-based with Void Rays.",
+        "trigger_summary": "Early-midgame phase with heavy defense and technology, heavy economy, and moderate production. Expansion is heavy."
+      },
+      {
+        "avoid_direction": "Avoid overextending without scouting, as the opponent may have air units that counter your ground composition.",
+        "decision_direction": "Continue strengthening your ground army and economy. Maintain defense while preparing for potential engagements.",
+        "exit_or_recheck_condition": "Recheck when you have better scouting of the opponent's army or when you are ready to attack.",
+        "next_state_summary": "Progress to late-midgame with a stronger ground army and potential air support.",
+        "node_id": "N003",
+        "node_type": "common",
+        "opponent_situation": "Opponent information is partial; you may have scouted some of their units, but their full composition is not confirmed.",
+        "own_situation": "You are in the midgame with a strong economy and heavy production. Your army is ground-based, featuring Zealots and Immortals. You have a heavy technology investment and a defensive posture.",
+        "strategic_reason": "A ground army with Immortals is strong against enemy ground forces and can be supported by your heavy economy.",
+        "title": "Midgame Ground Army Development",
+        "transition_goal": "Transition to a more mixed composition if the opponent shows heavy air, or continue to upgrade your ground forces.",
+        "trigger_summary": "Midgame phase with heavy defense, economy, and production. Army is ground-oriented with Zealots and Immortals."
+      },
+      {
+        "avoid_direction": "Avoid neglecting your ground army, as it remains your main force.",
+        "decision_direction": "Continue to increase your air presence while maintaining your ground core. Keep expanding and upgrading.",
+        "exit_or_recheck_condition": "Recheck when you have better scouting of the opponent's army or when you are ready to attack.",
+        "next_state_summary": "Move towards a late-game composition with a mix of ground and air forces.",
+        "node_id": "N004",
+        "node_type": "common",
+        "opponent_situation": "Opponent information is partial; you may have scouted some of their units, but their full composition is not confirmed.",
+        "own_situation": "You are in the late-midgame with a heavy economy and production. Your army is primarily ground-based but you have added Void Rays for air support. Your technology is heavy.",
+        "strategic_reason": "Adding Void Rays gives you flexibility against air threats and can help break defensive positions.",
+        "title": "Late-Midgame Ground with Air Support",
+        "transition_goal": "Transition to a more air-heavy composition if the opponent is weak against air, or maintain a balanced mix.",
+        "trigger_summary": "Late-midgame phase with heavy defense, economy, and production. Army is ground-oriented but includes Void Rays."
+      },
+      {
+        "avoid_direction": "Avoid being too one-dimensional; ensure you have some ground units to defend against ground attacks.",
+        "decision_direction": "Continue strengthening your air army and economy. Maintain defense while preparing for potential engagements.",
+        "exit_or_recheck_condition": "Recheck when you have better scouting of the opponent's army or when you are ready to attack.",
+        "next_state_summary": "Progress to late-midgame with a stronger air army and potential ground support.",
+        "node_id": "N005",
+        "node_type": "common",
+        "opponent_situation": "Opponent information is partial; you may have scouted some of their units, but their full composition is not confirmed.",
+        "own_situation": "You are in the midgame with a strong economy and heavy production. Your army is air-based, featuring Void Rays and Stalkers. You have a heavy technology investment and a defensive posture.",
+        "strategic_reason": "An air army with Void Rays can be very powerful, especially if the opponent lacks anti-air.",
+        "title": "Midgame Air Army Development",
+        "transition_goal": "Transition to a more mixed composition if the opponent shows heavy anti-air, or continue to upgrade your air forces.",
+        "trigger_summary": "Midgame phase with heavy defense, economy, and production. Army is air-oriented with Void Rays and Stalkers."
+      },
+      {
+        "avoid_direction": "Avoid overcommitting to air if the opponent is building many anti-air units.",
+        "decision_direction": "Continue to develop your air army and economy. Use Oracles for scouting and harassment while building up your forces.",
+        "exit_or_recheck_condition": "Recheck when you have scouted the opponent's composition or when your tech buildings are complete.",
+        "next_state_summary": "Move into midgame with a defined air army direction and continued economic growth.",
+        "node_id": "N006",
+        "node_type": "common",
+        "opponent_situation": "Opponent information is limited; their army composition and pressure potential are unknown.",
+        "own_situation": "You are in the early-midgame with a heavy economy and technology investment. Your army is air-oriented, featuring Stalkers and Oracles. You have a defensive posture and moderate expansion.",
+        "strategic_reason": "Oracles provide valuable scouting and can harass the opponent's economy, while Stalkers give you a mobile core.",
+        "title": "Early-Midgame Air Transition",
+        "transition_goal": "Transition to a more powerful air composition with Void Rays as the game progresses.",
+        "trigger_summary": "Early-midgame phase with heavy defense, economy, and production. Army is air-oriented with Stalkers and Oracles."
+      },
+      {
+        "avoid_direction": "Avoid neglecting air defense, as the opponent may transition to air units.",
+        "decision_direction": "Continue to strengthen your ground army and upgrades. Maintain defense while preparing for potential engagements.",
+        "exit_or_recheck_condition": "Recheck when you have better scouting of the opponent's army or when you are ready to attack.",
+        "next_state_summary": "Progress to late-game with a strong ground army and potential air support.",
+        "node_id": "N007",
+        "node_type": "common",
+        "opponent_situation": "Opponent information is partial; you may have scouted some of their units, but their full composition is not confirmed.",
+        "own_situation": "You are in the late-midgame with a heavy economy and production. Your army is ground-based, featuring Zealots. You have a heavy technology investment and are increasing upgrades.",
+        "strategic_reason": "A well-upgraded ground army can be very cost-effective and powerful in the late-midgame.",
+        "title": "Late-Midgame Ground Army with Upgrades",
+        "transition_goal": "Transition to a more mixed composition if the opponent shows heavy air, or continue to upgrade your ground forces.",
+        "trigger_summary": "Late-midgame phase with heavy defense, economy, and production. Army is ground-oriented with Zealots."
+      },
+      {
+        "avoid_direction": "Avoid overcommitting to a specific composition without scouting.",
+        "decision_direction": "Continue to develop your economy and technology while building a ground-based army. Use Stalkers for scouting and defense.",
+        "exit_or_recheck_condition": "Recheck when you have scouted the opponent's composition or when your tech buildings are complete.",
+        "next_state_summary": "Move into midgame with a defined army direction and continued economic growth.",
+        "node_id": "N008",
+        "node_type": "common",
+        "opponent_situation": "Opponent information is limited; their army composition and pressure potential are unknown.",
+        "own_situation": "You are in the early-midgame with a heavy economy and technology investment. Your army is undefined but you have some Stalkers. You have a defensive posture and moderate expansion.",
+        "strategic_reason": "Stalkers are versatile and can transition into either ground or air compositions later.",
+        "title": "Early-Midgame Ground Transition",
+        "transition_goal": "Transition to a more defined ground army with Zealots and Immortals, or an air army with Void Rays.",
+        "trigger_summary": "Early-midgame phase with heavy defense and economy, moderate production, and moderate expansion. Army is undefined but has Stalkers."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "moderate",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "technology / defense / economy opening",
+      "opening_name": "PvP_O03 Technology / Defense / Economy",
+      "opening_summary": "A Protoss opening that prioritizes heavy technology investment and defensive structures while building a solid economy. It is flexible, allowing transitions into either ground or air compositions depending on scouting and game flow.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a technology / defense / economy posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_static_population",
+  "method_specific_annotation": true,
+  "opening_id": "PvP_O03",
+  "projection_path": "02_observation_projection/ablation_static_population/PvP_O03.json"
+}

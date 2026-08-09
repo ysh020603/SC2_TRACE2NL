@@ -1,0 +1,72 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid over-committing to army units too early, as this can delay economy and tech.",
+        "decision_direction": "Maintain current development path, focusing on economy and expansions while keeping a light defense.",
+        "exit_or_recheck_condition": "Re-evaluate when the opponent's first attack or tech choice is scouted.",
+        "next_state_summary": "Move to a state with heavier defense and the first Queen produced.",
+        "node_id": "N001",
+        "node_type": "trace",
+        "opponent_situation": "No confirmed information about the opponent's composition or strategy yet.",
+        "own_situation": "Early game, with a heavy economy and expansion posture, but light defense and technology. Production is moderate, and the army is ground-oriented.",
+        "strategic_reason": "A strong economy is the foundation for Zerg's mid-game power spike. Early expansions allow for more production and tech later.",
+        "title": "Early Game Foundation",
+        "transition_goal": "Transition to a more defensive posture with additional Queens and tech as the game progresses.",
+        "trigger_summary": "At the start of the game, focus on establishing a solid economy and early defenses."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting, as the opponent's tech choice will dictate the necessary response.",
+        "decision_direction": "Maintain the current path, continuing to expand and tech up while keeping a strong defense.",
+        "exit_or_recheck_condition": "Re-evaluate when the opponent's first significant army or tech is revealed.",
+        "next_state_summary": "Move to a state with heavier production and more diverse army units.",
+        "node_id": "N002",
+        "node_type": "trace",
+        "opponent_situation": "No confirmed information about the opponent's composition or strategy yet.",
+        "own_situation": "Early-mid game, with a heavy economy and expansions, heavy defense, and moderate production. Technology is light to moderate, and the army includes Queens.",
+        "strategic_reason": "Queens provide defense and creep spread, while tech allows for better army compositions later.",
+        "title": "Early-Mid Transition",
+        "transition_goal": "Transition to a heavier production and tech posture, adding Roaches and Zerglings.",
+        "trigger_summary": "After establishing the early economy, begin transitioning to a more defensive and tech-oriented posture."
+      },
+      {
+        "avoid_direction": "Avoid over-investing in a single unit type, as the opponent may counter it.",
+        "decision_direction": "Maintain the current army composition and continue to expand and tech.",
+        "exit_or_recheck_condition": "Re-evaluate when the opponent's composition is fully scouted or a major engagement occurs.",
+        "next_state_summary": "Move to a state with continued heavy production and a similar army composition.",
+        "node_id": "N003",
+        "node_type": "trace",
+        "opponent_situation": "No confirmed information about the opponent's composition or strategy yet.",
+        "own_situation": "Midgame, with a heavy economy, expansions, and defense. Production is heavy, and technology is moderate. The army includes Zerglings, Hydralisks, Roaches, and Queens.",
+        "strategic_reason": "A diverse ground army can handle various threats, and a strong economy supports continuous production.",
+        "title": "Midgame Army Development",
+        "transition_goal": "Transition to a late-midgame posture with even heavier production and potential tech upgrades.",
+        "trigger_summary": "In the midgame, focus on building a strong ground army and maintaining map control."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "balanced macro opening",
+      "opening_name": "ZvP_O07 Balanced Macro",
+      "opening_summary": "A Zerg opening that focuses on a balanced macro posture, building a strong economy and expanding while keeping a ground-oriented army. The opening is flexible and adapts based on scouting information.",
+      "production_character": "moderate to heavy",
+      "strategic_goal": "Develop a balanced macro posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "light to moderate"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_single_trace",
+  "method_specific_annotation": true,
+  "opening_id": "ZvP_O07",
+  "projection_path": "02_observation_projection/ablation_single_trace/ZvP_O07.json"
+}
