@@ -1,6 +1,33 @@
 # SC2 Human Trace → Adaptive Skill Mining
 ## 面向 Code Agent 的完整执行方案
 
+> **归档状态：已完成（2026-08-10）**
+> 本文档已完成从方案到 V2 统计挖掘产物的落地，现作为历史设计与数据口径说明
+> 归档。后续 Readable Skill、Agent runtime、Full-v2 和 SC2 对局实验由各自文档
+> 与代码负责。
+
+### 最终落地状态
+
+- V2 opening/state/transition/value/signed graph 产物已生成并提交于
+  `SKILL_MINING_V2/`；
+- 实际数据规模包含 207,574 行 opening assignments、1,247,812 行 state
+  assignments 和 50,122 行 edge values；
+- stage10–14 的原始统计产物在 Readable Skill 开发中保持冻结，未被覆盖；
+- Readable 后处理已在 `analysis/readable_skill_v1/` 完成，并生成
+  `SKILL_MINING_V2_READABLE/`；
+- 342/342 方法 Skill 均使用 LLM annotation，且无 reasoning content、API error、
+  fallback 或 validation failure；
+- V2 产物提交为 `f2a0ee1`，Readable 编译提交为 `6ba2890`，Full-v2 guarded
+  annotation/skill 提交为 `50f199e`；
+- Agent 消费端已随 human-skill 最终代码树提交至 `SC2-Agent-knowlegde` 的
+  `SC2-Agent-trace2skill` 分支（`5a60b71`）。
+
+### 范围说明
+
+本文档最初明确排除 Agent runtime 与在线 SC2 对局，这一边界保持不变。相关
+实现与运行时问题分别见 Readable/Agent 计划归档和 Agent 仓库的
+`docs/SC2_HIGH_CONCURRENCY_TIMEOUT_AND_EXIT_INCIDENT.md`。
+
 ---
 
 # 1. 项目目标
