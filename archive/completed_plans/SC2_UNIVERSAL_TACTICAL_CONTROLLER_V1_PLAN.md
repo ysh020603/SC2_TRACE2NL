@@ -3,8 +3,8 @@
 
 > **归档状态：已完成（2026-08-10）**
 > 本文档保留为设计与验收依据，不再作为待执行计划。实现已进入
-> `SC2-Agent-knowlegde` 的 `SC2-Agent-trace2skill` 分支，最终替换提交为
-> `5a60b71`（来源代码树：human-skill `4aa7717`）。
+> outer repo 当前通过 `SC2-Agent-human-skill/` submodule 固定 Agent，实现分支为
+> `codex/human-skill-agent`；最终根因修复与文档同步已进入 `83654f8`。
 
 ### 最终实现映射
 
@@ -23,9 +23,10 @@
 
 ### 归档说明
 
-当前另有 SC2 高并发 observation timeout/异常退出问题持续排查，记录在 Agent
-仓库 `docs/SC2_HIGH_CONCURRENCY_TIMEOUT_AND_EXIT_INCIDENT.md`。该运行时问题不改变
-本任务书中的 Universal Tactical Controller 功能已经完成这一结论。
+SC2 observation stall 已收敛为 Human-Skill bot 名称触发真人实时模式的子串误判，
+修复后 Qwen3-32B 1200 秒压力测试为 15/15 首轮干净完成。现行启动约束见 Agent
+仓库 `docs/SC2_BATCH_EXPERIMENT_POLICY.md`，事故摘要见
+`docs/SC2_OBSERVATION_NOT_RETURNING_ROOT_CAUSE_AND_FIX.md`。
 
 > 本文档是一个**独立补充任务书**。
 > 只处理当前 SC2 Agent 中“每个策略需要独立 `strategy_tools.py` 托管微操/攻击逻辑”的问题。

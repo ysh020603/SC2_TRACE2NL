@@ -30,3 +30,11 @@ Outputs:
 - `READABLE_SKILL_BASELINE_MANIFEST.json`: frozen mining and Agent baseline identities.
 
 Validation is fail-closed for action/oracle/count leakage, navigation, badges, and all ablation boundaries.
+
+## Agent consumer and live-match policy
+
+The versioned consumer is the `SC2-Agent-human-skill/` submodule on branch
+`codex/human-skill-agent`. Generated Skill Markdown is experiment data and must
+not be edited to carry runtime instructions. Native SC2 launch, clean-result
+acceptance, retry, and match-local cleanup are defined only in the Agent
+submodule's `docs/SC2_BATCH_EXPERIMENT_POLICY.md`.

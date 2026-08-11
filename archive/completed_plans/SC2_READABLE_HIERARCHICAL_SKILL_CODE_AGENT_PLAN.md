@@ -3,9 +3,9 @@
 
 > **归档状态：已完成（2026-08-10）**
 > 本文档保留为 Readable Skill 编译器和交互式 Skill Agent 的设计/验收依据，
-> 不再作为待执行计划。最终 Agent 代码已进入 `SC2-Agent-knowlegde` 的
-> `SC2-Agent-trace2skill` 分支，替换提交为 `5a60b71`；Readable 产物和编译流水线
-> 位于本 outer repo 的已提交代码中。
+> 不再作为待执行计划。最终 Agent 代码由 outer repo 的
+> `SC2-Agent-human-skill/` submodule 固定，分支为 `codex/human-skill-agent`，当前
+> 根因修复与文档基线为 `83654f8`；Readable 产物和编译流水线位于本 outer repo。
 
 ### 最终实现与产物
 
@@ -28,9 +28,10 @@
 
 ### 后续运行时记录
 
-SC2 高并发 observation timeout 与 Python 异常退出问题单独记录在 Agent 仓库
-`docs/SC2_HIGH_CONCURRENCY_TIMEOUT_AND_EXIT_INCIDENT.md`。该问题不影响 342 个
-Readable Skill 均已完成 LLM 标注、编译和静态验证的事实。
+SC2 observation stall 已完成根因修复并通过 15/15 Qwen3-32B 完整验收。现行批量
+实验约束见 Agent 仓库 `docs/SC2_BATCH_EXPERIMENT_POLICY.md`；事故时间线已移入
+`docs/archive/`。该运行时记录不改变 342 个 Readable Skill 已完成 LLM 标注、
+编译和静态验证的事实。
 
 > 目标仓库：`/data2/shy_2608/SC2trace2nl/SC2_TRACE2NL`（以实际本地目录为准）
 > Agent 基线：`/data2/shy_2608/SC2trace2nl/SC2-Agent-knowlegde`

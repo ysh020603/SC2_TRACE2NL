@@ -24,7 +24,7 @@
 SC2trace2nl/
 ├── README.md
 ├── pyproject.toml                 # package: sc2-replay-miner, CLI: sc2mine
-├── .gitmodules                    # SC2-Agent-knowlegde submodule
+├── .gitmodules                    # SC2-Agent-human-skill submodule
 │
 ├── src/sc2_replay_miner/          # 解析器、BO、导出、CLI
 ├── tests/                         # pytest
@@ -48,7 +48,7 @@ SC2trace2nl/
 ├── API_Tools/                     # LLM 调用与 reasoning 抽取工具
 ├── API_config/                    # config.example.json（真实 config.json 本地自建）
 │
-├── SC2-Agent-knowlegde/           # git submodule：knowledge-backed SC2 Agent
+├── SC2-Agent-human-skill/         # git submodule：Readable/Human-Skill SC2 Agent
 ├── archive/local_ai_logs/         # 非 human 样本归档
 ├── vendor/                        # 可选外部参考钉扎（非运行时依赖）
 └── logs/                          # 运行日志（gitignore 内容）
@@ -254,19 +254,19 @@ SKILL_MINING_V2/<method>/<race>/<matchup>/<opening>/
 
 ## SC2-Agent submodule
 
-Knowledge-backed agent 以 **git submodule** 挂在仓库根目录（不在 `vendor/`）：
+Readable/Human-Skill agent 以 **git submodule** 挂在仓库根目录（不在 `vendor/`）：
 
 | Local path | Remote | Branch |
 |------------|--------|--------|
-| `SC2-Agent-knowlegde/` | [ysh020603/SC2-Agent-260510](https://github.com/ysh020603/SC2-Agent-260510/tree/SC2-Agent-knowlegde) | `SC2-Agent-knowlegde` |
+| `SC2-Agent-human-skill/` | [ysh020603/SC2-Agent-260510](https://github.com/ysh020603/SC2-Agent-260510/tree/codex/human-skill-agent) | `codex/human-skill-agent` |
 
 ```bash
 git submodule update --init --recursive
 
 # 拉取上游并更新钉住的 submodule commit
-git submodule update --remote SC2-Agent-knowlegde
-git add SC2-Agent-knowlegde
-git commit -m "Bump SC2-Agent-knowlegde submodule"
+git submodule update --remote SC2-Agent-human-skill
+git add SC2-Agent-human-skill
+git commit -m "Bump SC2-Agent-human-skill submodule"
 ```
 
 `API_Tools/` 与 `API_config/` 也在本仓库根目录提供一份可提交工具与 example 配置，供分析 / LLM 调用使用；子模块内部另有对应目录。

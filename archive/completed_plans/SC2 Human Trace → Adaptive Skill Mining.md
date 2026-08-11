@@ -19,14 +19,15 @@
   fallback 或 validation failure；
 - V2 产物提交为 `f2a0ee1`，Readable 编译提交为 `6ba2890`，Full-v2 guarded
   annotation/skill 提交为 `50f199e`；
-- Agent 消费端已随 human-skill 最终代码树提交至 `SC2-Agent-knowlegde` 的
-  `SC2-Agent-trace2skill` 分支（`5a60b71`）。
+- Agent 消费端由 outer repo 的 `SC2-Agent-human-skill/` submodule 固定，分支为
+  `codex/human-skill-agent`，当前根因修复与文档基线为 `83654f8`。
 
 ### 范围说明
 
 本文档最初明确排除 Agent runtime 与在线 SC2 对局，这一边界保持不变。相关
 实现与运行时问题分别见 Readable/Agent 计划归档和 Agent 仓库的
-`docs/SC2_HIGH_CONCURRENCY_TIMEOUT_AND_EXIT_INCIDENT.md`。
+`docs/SC2_BATCH_EXPERIMENT_POLICY.md` 与
+`docs/SC2_OBSERVATION_NOT_RETURNING_ROOT_CAUSE_AND_FIX.md`。
 
 ---
 

@@ -14,6 +14,14 @@ python analysis/skill_mining_v2/run_pipeline.py --fresh --full-windows
 
 产出：`analysis/outputs_skill_v2/` + `SKILL_MINING_V2/`。
 
+## Readable Skill 编译
+
+V2 统计产物的 Agent-facing 编译器位于
+[`readable_skill_v1/`](readable_skill_v1/README.md)，输出
+`analysis/outputs_readable_skill_v1/` 与 `SKILL_MINING_V2_READABLE/`。该阶段已完成
+57 openings × 6 methods，共 342 个 LLM 标注 Skill；原 Stage 00–14 统计产物保持
+只读。消费端位于根目录 submodule `SC2-Agent-human-skill/`。
+
 ## 数据放置
 
 | 路径 | 角色 |

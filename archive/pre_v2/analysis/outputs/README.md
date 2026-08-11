@@ -10,4 +10,4 @@ python analysis/run_pipeline.py
 python analysis/plan2/run_plan2_pilot.py
 ```
 
-See [`../README.md`](../README.md) for phase mapping.
+See [`../../README.md`](../../README.md) for the archived pre-V2 phase mapping.

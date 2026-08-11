@@ -8,3 +8,7 @@
 - `SC2_UNIVERSAL_TACTICAL_CONTROLLER_V1_PLAN.md`：Universal Tactical Controller V1。
 
 归档日期：2026-08-10。
+
+当前 Agent 实现位于 outer repo 的 `SC2-Agent-human-skill/` submodule，分支为
+`codex/human-skill-agent`。原生 SC2 批量实验的现行约束不在这些历史计划中维护，
+统一见 Agent submodule 的 `docs/SC2_BATCH_EXPERIMENT_POLICY.md`。
