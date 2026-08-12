@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Continue strengthening your ground army, particularly with Siege Tanks for defensive positioning. Increase economy and maintain production and tech.",
+        "lesson_id": "L01",
+        "mistake": "Pushing without Siege Tank support or into a fortified position.",
+        "recheck": "Re-evaluate when you have a clear read on the opponent's composition or if they attempt an aggressive move.",
+        "target_node_id": "N003",
+        "title": "Siege Tank Support",
+        "when": "Early midgame (~5 min) with both players ground-oriented, heavy economy and tech, opponent shows Marine cues, you have Siege Tanks and Marines.",
+        "why": "Siege Tanks provide strong defensive and positional advantages in TvT. Maintaining a heavy economy and tech allows transition to advanced units if needed."
+      },
+      {
+        "correction": "Maintain your ground army and continue increasing economy. Keep production and tech steady.",
+        "lesson_id": "L02",
+        "mistake": "Attacking into Siege Tanks without proper positioning or support.",
+        "recheck": "Re-evaluate when you have a clear picture of the opponent's army or if they make a tech switch.",
+        "target_node_id": "N007",
+        "title": "Avoid Tank Pushes",
+        "when": "Midgame (~7 min) with opponent ground posture with Marines, you have Marines and Marauders.",
+        "why": "A balanced Marine/Marauder composition is strong in TvT. Maintaining economy and tech allows adaptation to opponent's composition."
+      },
+      {
+        "correction": "Maintain your ground army and continue increasing economy. Keep production and tech steady.",
+        "lesson_id": "L03",
+        "mistake": "Getting into a siege war without breaking their defenses; failing to use mobility to force engagements.",
+        "recheck": "Re-evaluate when you see the opponent's late-game composition or if they attempt a major push.",
+        "target_node_id": "N008",
+        "title": "Avoid Siege Stalemate",
+        "when": "Late midgame (~10 min) with opponent ground posture with Marines, you have Siege Tanks, Marines, Marauders, and Hellions.",
+        "why": "Your army composition is strong and versatile. Maintaining economy and tech ensures sustainability and response to opponent moves."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "TvT_O06",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "TvT_O06:N003->TvT_O06:N003",
+      "TvT_O06:N007->TvT_O06:N007",
+      "TvT_O06:N008->TvT_O06:N008"
+    ],
+    "source_digest": "d17c87a3e33e8fd6155308a9f2aaaea16ab8d436acbd51834f8f8a4957af0f4d",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

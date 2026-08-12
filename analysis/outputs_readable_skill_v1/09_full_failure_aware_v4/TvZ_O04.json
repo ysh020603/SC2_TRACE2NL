@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Recheck at next decision cycle: bank below 400 minerals and 200 gas, and active production structures at least 3.",
+        "correction": "Queue units from all completed production structures, prioritizing Marines and Reapers to maintain ground pressure. If a Factory and Starport are complete, add Siege Tank and Medivac production. If supply is not blocked, add a Barracks if production capacity is insufficient. Convert bank into army before expanding.",
+        "rule_id": "R01",
+        "title": "Production Tempo and Bank Conversion",
+        "when": "At 4-6 minutes, if bank exceeds 800 minerals and 400 gas, or if active production structures are fewer than 3 with army supply below 30."
+      },
+      {
+        "check": "Recheck at next decision cycle: appropriate counter units in production or completed, and army composition diversified.",
+        "correction": "If air threat, add a Starport with Tech Lab and produce Vikings or Liberators, and ensure an Engineering Bay for missile turrets at bases. If ground threat, add Marauders from Barracks with Tech Lab and produce Siege Tanks from Factory. Maintain worker saturation and expand if safe.",
+        "rule_id": "R02",
+        "title": "Enemy Composition Response",
+        "when": "If enemy intelligence reveals heavy air (Mutalisks) or heavy ground (Roaches, Zerglings) with high production, and your army lacks appropriate counters."
+      },
+      {
+        "check": "Recheck at next decision cycle: army supply above 20 and bank reduced below 500 minerals and 250 gas.",
+        "correction": "Immediately queue units from all production structures, prioritizing combat units (Marines, Marauders, Siege Tanks). If production is idle, add Barracks or Factory. Do not expand. If supply is blocked, add a supply provider. Convert bank into army to stabilize defense.",
+        "rule_id": "R03",
+        "title": "Recovery from Low Army and High Bank",
+        "when": "If army supply is below 15 and bank exceeds 1000 minerals and 500 gas, or predicted advantage is OverwhelmingDisadvantage."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "TvZ_O04",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "55345815ae8c1220dfd80edadd1472bde8fe4a57a89fb22684cbee4195f8ced2",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 0,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 3.8,
+            "bank": 1234.6,
+            "bases": 1.4,
+            "production": 1.2,
+            "supply_providers": 6.1,
+            "workers": 24.7
+          },
+          "300": {
+            "army_supply": 7.6,
+            "bank": 1865.2,
+            "bases": 1.5,
+            "production": 1.6,
+            "supply_providers": 6.8,
+            "workers": 27.8
+          },
+          "360": {
+            "army_supply": 7.5,
+            "bank": 2289.6,
+            "bases": 1.6,
+            "production": 2.2,
+            "supply_providers": 7.6,
+            "workers": 27.8
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.435,
+          "average_bank": 2389.3,
+          "consume_per_min": 573.2
+        },
+        "defeats_with_three_or_more_supply_entries": 9,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 13,
+          "Tie": 3,
+          "Victory": 4
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

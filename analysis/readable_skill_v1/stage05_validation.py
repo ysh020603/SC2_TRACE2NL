@@ -13,6 +13,9 @@ def run(cfg: PipelineConfig) -> dict:
         for opening_id, item in openings.items():
             skill_dir = cfg.skill_root / item["path"]
             errors = validate_skill(skill_dir, method, entity_path)
+            semantic = read_json(cfg.stage_dir(3) / method / f"{opening_id}.json")
+            if not (semantic.get("knowledge_validation") or {}).get("valid"):
+                errors.append("semantic annotation failed knowledge validation")
             report = {"method": method, "opening_id": opening_id, "valid": not errors, "errors": errors}
             reports.setdefault(method, {})[opening_id] = report
             write_json(skill_dir / "provenance" / "validation_report.json", report)

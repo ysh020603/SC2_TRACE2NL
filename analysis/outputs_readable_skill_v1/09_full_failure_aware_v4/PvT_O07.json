@@ -1,0 +1,98 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "At next decision cycle, verify production count is at least 3 and army supply is above 15 or bank is below 800.",
+        "correction": "Prioritize adding production structures (Gateways or Robo) up to at least 3 active production facilities, and queue units to keep them busy. Convert excess minerals into additional production or tech prerequisites, but do not delay worker saturation. If supply is below 15, build army units from existing production before expanding.",
+        "rule_id": "R01",
+        "title": "Maintain tech-economy tempo with production scaling",
+        "when": "Before 360 seconds, with heavy economy and technology investment, and production below 3 active structures or army supply below 15 while bank exceeds 800."
+      },
+      {
+        "check": "At next decision cycle, confirm you have at least 2 Void Rays or equivalent air support, and detection if needed, while maintaining ground production.",
+        "correction": "Add Void Rays from Stargate if the enemy lacks anti-air, while continuing to strengthen your ground army with Immortals or Colossus to handle armored units. Ensure detection is available if Widow Mines or Banshees are present. Keep production and technology advancing to support both ground and air units.",
+        "rule_id": "R02",
+        "title": "Counter Terran ground composition with tech and air support",
+        "when": "When enemy intelligence reveals a ground-heavy composition including Marines, Marauders, Reapers, Hellions, or Siege Tanks, and you have a ground-leaning army with access to Stargate."
+      },
+      {
+        "check": "At next decision cycle, verify army supply is above 15 and bank is below 1000, or production is actively building units.",
+        "correction": "Immediately convert bank into army by queuing units from all available production structures, prioritizing combat units over economy. If production is insufficient, add production structures first, then queue units. Do not expand or tech greedily until army supply is above 15 and bank is below 1000.",
+        "rule_id": "R03",
+        "title": "Recover from low army and high bank with urgent production",
+        "when": "When army supply is below 15, bank exceeds 1500, and predicted advantage is OverwhelmingDisadvantage or threat flags are high."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "PvT_O07",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "aa93f8f8294112771540197d21bed18c829f5be755a8545c292eaaf43247b0b7",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 1,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 6.0,
+            "bank": 915.2,
+            "bases": 1.2,
+            "production": 1.5,
+            "supply_providers": 5.8,
+            "workers": 26.0
+          },
+          "300": {
+            "army_supply": 12.5,
+            "bank": 1365.2,
+            "bases": 1.5,
+            "production": 2.5,
+            "supply_providers": 6.8,
+            "workers": 29.5
+          },
+          "360": {
+            "army_supply": 14.5,
+            "bank": 2029.2,
+            "bases": 2.0,
+            "production": 3.0,
+            "supply_providers": 7.5,
+            "workers": 32.0
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.437,
+          "average_bank": 1995.2,
+          "consume_per_min": 816.3
+        },
+        "defeats_with_three_or_more_supply_entries": 3,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 4,
+          "Tie": 1,
+          "Victory": 15
+        }
+      },
+      "opening": {
+        "decision_error_total": 0,
+        "defeat_checkpoints": {},
+        "defeat_macro_average": {},
+        "defeats_with_three_or_more_supply_entries": 0,
+        "direct_matches": 4,
+        "outcome_counts_private": {
+          "Victory": 4
+        }
+      },
+      "scope_note_private": "opening-specific plus race evidence"
+    }
+  },
+  "schema_version": 1
+}

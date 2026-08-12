@@ -1,0 +1,99 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Recheck at next decision cycle.",
+        "correction": "Queue units from all available production structures, prioritizing marines, marauders, and tanks. If no production structures are available, build a Barracks or Factory if prerequisites are met. If supply is not blocked and bank remains high after queuing, add one additional production structure if resources allow, but do not exceed 3 total production structures before 6 minutes.",
+        "rule_id": "R01",
+        "title": "Production Tempo and Bank Conversion",
+        "when": "At any point before 6 minutes, if bank is above 400 minerals or 200 gas, or if active production queues are empty while army supply is below 30."
+      },
+      {
+        "check": "Recheck at next decision cycle.",
+        "correction": "Ensure at least 2 Missile Turrets per base if air threat is detected. Add a Starport with a Tech Lab and produce Vikings or Liberators if air units are confirmed. Continue producing ground units (Marines, Marauders, Tanks) to maintain ground strength. If no air threat is detected, focus on ground upgrades and production.",
+        "rule_id": "R02",
+        "title": "Enemy Composition Response",
+        "when": "If enemy intelligence reveals a heavy ground composition with possible air (e.g., Roach/Ravager or Hydralisk), or if air units are detected (e.g., Mutalisks, Corruptors)."
+      },
+      {
+        "check": "Recheck at next decision cycle.",
+        "correction": "Immediately queue units from all production structures, prioritizing combat units (Marines, Marauders, Tanks). If production is insufficient, build additional Barracks or Factory if prerequisites are met. Do not expand or invest in technology until army supply is above 30 and bank is below 500 minerals. If supply is blocked, build a Supply Depot if no supply provider is already queued or completed.",
+        "rule_id": "R03",
+        "title": "Recovery from Low Army and High Bank",
+        "when": "If army supply is below 15 and bank is above 1000 minerals or 500 gas, or if predicted advantage is OverwhelmingDisadvantage."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "TvZ_O05",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "eb8ff025e12d1f80c6a06e95932632c4e39ece097d427cd97cdda19c27a76930",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 0,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 3.8,
+            "bank": 1234.6,
+            "bases": 1.4,
+            "production": 1.2,
+            "supply_providers": 6.1,
+            "workers": 24.7
+          },
+          "300": {
+            "army_supply": 7.6,
+            "bank": 1865.2,
+            "bases": 1.5,
+            "production": 1.6,
+            "supply_providers": 6.8,
+            "workers": 27.8
+          },
+          "360": {
+            "army_supply": 7.5,
+            "bank": 2289.6,
+            "bases": 1.6,
+            "production": 2.2,
+            "supply_providers": 7.6,
+            "workers": 27.8
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.435,
+          "average_bank": 2389.3,
+          "consume_per_min": 573.2
+        },
+        "defeats_with_three_or_more_supply_entries": 9,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 13,
+          "Tie": 3,
+          "Victory": 4
+        }
+      },
+      "opening": {
+        "decision_error_total": 0,
+        "defeat_checkpoints": {},
+        "defeat_macro_average": {},
+        "defeats_with_three_or_more_supply_entries": 0,
+        "direct_matches": 4,
+        "outcome_counts_private": {
+          "Tie": 1,
+          "Victory": 3
+        }
+      },
+      "scope_note_private": "opening-specific plus race evidence"
+    }
+  },
+  "schema_version": 1
+}

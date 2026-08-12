@@ -1,0 +1,640 @@
+{
+  "annotation": {
+    "phase_policies": [
+      {
+        "applies_when": "At the start of the game, both sides have limited information. Your own production and tech are uncertain, and the opponent's posture is similarly unclear.",
+        "live_check": "Re-evaluate when you see the opponent's first combat units or when you complete key tech structures. If the opponent shows early aggression, adjust your defense accordingly.",
+        "phase": "early_game",
+        "routing_summary": "Develop economy and tech with flexible production, maintaining safety checks.",
+        "target": "Maintain current development path with a focus on economy and technology. Keep production flexible to adapt to incoming information.",
+        "title": "Early Game Development with Safety Checks",
+        "veto": "Do not overcommit to a specific tech or army composition without scouting; avoid neglecting defense while developing economy."
+      },
+      {
+        "applies_when": "In the early midgame, you have had time to develop your economy and tech. The opponent's posture is still uncertain, but you have some information.",
+        "live_check": "Re-evaluate when you see the opponent's first combat units or when you complete key tech structures. If the opponent shows early aggression, adjust your defense accordingly.",
+        "phase": "early_midgame",
+        "routing_summary": "Continue economy and tech development, with flexible production and ground defense if needed.",
+        "target": "Maintain your current development path, focusing on economy and technology. Keep production flexible to adapt to incoming information. If the opponent shows a ground posture with Zealots, strengthen your ground army and continue developing economy and tech.",
+        "title": "Early Midgame Development with Safety Checks",
+        "veto": "Do not overextend economy without adequate defense; avoid neglecting scouting due to unknown composition."
+      },
+      {
+        "applies_when": "In the midgame, both sides have had time to develop. Your own posture remains uncertain, but the opponent's is also still unclear.",
+        "live_check": "Re-evaluate when you see the opponent's main army composition or when you are ready to push out. If the opponent is passive, consider expanding or teching further.",
+        "phase": "midgame",
+        "routing_summary": "Develop economy and tech with defensive posture, adapting army composition to opponent's cues.",
+        "target": "Continue to develop your economy and technology while maintaining a defensive posture. Keep your army composition flexible to respond to the opponent's eventual composition. If the opponent shows a ground posture, strengthen your ground army and consider increasing production and upgrades.",
+        "title": "Midgame Development with Safety Checks",
+        "veto": "Do not overextend economy without adequate defense; avoid neglecting air defense if the opponent has mixed forces."
+      },
+      {
+        "applies_when": "In the late midgame, both sides have had time to develop. Your own posture remains uncertain, but the opponent's is also still unclear.",
+        "live_check": "Re-evaluate when you see the opponent's main army composition or when you are ready to push out. If the opponent is passive, consider expanding or teching further.",
+        "phase": "late_midgame",
+        "routing_summary": "Continue economy and tech development with defensive posture, preparing for potential large-scale engagement.",
+        "target": "Continue to develop your economy and technology while maintaining a defensive posture. Keep your army composition flexible to respond to the opponent's eventual composition. If the opponent has a ground posture with Zealots, Stalkers, and Immortals, strengthen your ground army and continue developing economy and tech.",
+        "title": "Late Midgame Development with Safety Checks",
+        "veto": "Do not overextend economy without adequate defense; avoid neglecting scouting due to unknown composition."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_trajectory_fusion_graph_v5",
+  "opening_id": "PvP_O02",
+  "private_inputs": {
+    "agent_visible": false,
+    "experiment_feedback": {
+      "global": {
+        "v3": {
+          "VTD": [
+            23,
+            8,
+            29
+          ],
+          "apu": 0.58,
+          "bank": 2625.63,
+          "consume": 887.43,
+          "decision_errors": 3,
+          "duration": 814.29,
+          "invalid_buckets": {
+            "graph_phase_refresh": 86,
+            "idle_producer_overbuild": 32,
+            "initial_skill_read": 59,
+            "missing_gas_prerequisite": 5,
+            "other": 65,
+            "response_protocol": 20,
+            "supply_queue": 172
+          },
+          "invalid_rounds": 439,
+          "max_queue_mean": 34.37,
+          "max_supply_queue_ge3": 45,
+          "n": 60,
+          "queue_mix_pct": {
+            "bases": 1.2,
+            "production": 2.25,
+            "supply": 9.7,
+            "tech": 1.09,
+            "workers": 20.2
+          },
+          "score": 0.45
+        },
+        "v4": {
+          "VTD": [
+            24,
+            6,
+            30
+          ],
+          "apu": 0.61,
+          "bank": 2310.45,
+          "consume": 765.97,
+          "decision_errors": 10,
+          "duration": 788.15,
+          "invalid_buckets": {
+            "graph_phase_refresh": 99,
+            "idle_producer_overbuild": 26,
+            "initial_skill_read": 60,
+            "missing_gas_prerequisite": 16,
+            "other": 58,
+            "response_protocol": 26,
+            "supply_queue": 195
+          },
+          "invalid_rounds": 480,
+          "max_queue_mean": 29.95,
+          "max_supply_queue_ge3": 30,
+          "n": 60,
+          "queue_mix_pct": {
+            "bases": 0.85,
+            "production": 2.36,
+            "supply": 8.33,
+            "tech": 0.82,
+            "workers": 16.96
+          },
+          "score": 0.45
+        }
+      },
+      "matchup": {
+        "v3": {
+          "VTD": [
+            1,
+            1,
+            2
+          ],
+          "apu": 0.56,
+          "bank": 2290.55,
+          "consume": 1148.62,
+          "decision_errors": 1,
+          "duration": 949.55,
+          "invalid_buckets": {
+            "graph_phase_refresh": 7,
+            "idle_producer_overbuild": 5,
+            "initial_skill_read": 4,
+            "other": 7,
+            "supply_queue": 7
+          },
+          "invalid_rounds": 30,
+          "max_queue_mean": 40.0,
+          "max_supply_queue_ge3": 4,
+          "n": 4,
+          "queue_mix_pct": {
+            "bases": 1.17,
+            "production": 3.15,
+            "supply": 7.69,
+            "tech": 0.66,
+            "workers": 18.17
+          },
+          "score": 0.375
+        },
+        "v4": {
+          "VTD": [
+            4,
+            0,
+            0
+          ],
+          "apu": 0.69,
+          "bank": 1306.45,
+          "consume": 1200.65,
+          "decision_errors": 2,
+          "duration": 796.1,
+          "invalid_buckets": {
+            "graph_phase_refresh": 7,
+            "idle_producer_overbuild": 3,
+            "initial_skill_read": 4,
+            "other": 8,
+            "response_protocol": 1,
+            "supply_queue": 31
+          },
+          "invalid_rounds": 54,
+          "max_queue_mean": 34.75,
+          "max_supply_queue_ge3": 3,
+          "n": 4,
+          "queue_mix_pct": {
+            "bases": 0.48,
+            "production": 3.63,
+            "supply": 10.17,
+            "tech": 2.06,
+            "workers": 18.64
+          },
+          "score": 1.0
+        }
+      },
+      "opening": {
+        "v3": {},
+        "v4": {}
+      },
+      "race": {
+        "v3": {
+          "VTD": [
+            15,
+            1,
+            4
+          ],
+          "apu": 0.56,
+          "bank": 1105.01,
+          "consume": 1114.03,
+          "decision_errors": 1,
+          "duration": 745.04,
+          "invalid_buckets": {
+            "graph_phase_refresh": 27,
+            "idle_producer_overbuild": 28,
+            "initial_skill_read": 19,
+            "other": 13,
+            "response_protocol": 1,
+            "supply_queue": 30
+          },
+          "invalid_rounds": 118,
+          "max_queue_mean": 31.5,
+          "max_supply_queue_ge3": 14,
+          "n": 20,
+          "queue_mix_pct": {
+            "bases": 0.96,
+            "production": 4.17,
+            "supply": 9.9,
+            "tech": 1.35,
+            "workers": 18.43
+          },
+          "score": 0.775
+        },
+        "v4": {
+          "VTD": [
+            13,
+            1,
+            6
+          ],
+          "apu": 0.61,
+          "bank": 1164.52,
+          "consume": 855.05,
+          "decision_errors": 3,
+          "duration": 712.61,
+          "invalid_buckets": {
+            "graph_phase_refresh": 28,
+            "idle_producer_overbuild": 21,
+            "initial_skill_read": 20,
+            "missing_gas_prerequisite": 5,
+            "other": 15,
+            "response_protocol": 3,
+            "supply_queue": 61
+          },
+          "invalid_rounds": 153,
+          "max_queue_mean": 26.7,
+          "max_supply_queue_ge3": 11,
+          "n": 20,
+          "queue_mix_pct": {
+            "bases": 0.48,
+            "production": 4.87,
+            "supply": 10.31,
+            "tech": 1.02,
+            "workers": 18.81
+          },
+          "score": 0.675
+        }
+      },
+      "use_boundary": "Prioritize execution risks only; never infer the strategic target from agent outcomes."
+    },
+    "experiment_feedback_digest": "eb695c8a346992e3113fb5237d33d74c286d78e0f39ff25befd88986c2be4c98",
+    "human_evidence_digest": "f5cbf25dc7e98c43f8918e5adefe2995f0301742f87c1014387fce5346330b92",
+    "human_phase_evidence": [
+      {
+        "adverse_aggregate_nodes": [],
+        "phase": "early_game",
+        "preferred_aggregate_nodes": [
+          {
+            "annotated_direction": "Maintain current development path with a focus on economy and technology. Keep production flexible to adapt to incoming information.",
+            "annotated_recheck": "Re-evaluate when you see the opponent's first combat units or when you complete key tech structures. If the opponent shows early aggression, adjust your defense accordingly.",
+            "annotated_trigger": "At the start of the game, both sides have limited information. Your own production and tech are uncertain, and the opponent's posture is similarly unclear.",
+            "frequency": 1.0,
+            "node_id": "N001",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a unknown posture; representative observed or remembered cues may include no reliably grounded combat-unit cue. Production appears light_or_uncertain, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly unknown-oriented, with light_or_uncertain production and light_or_uncertain technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "maintain_current_army_path",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "maintain",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "maintain",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 522
+          },
+          {
+            "annotated_direction": "Strengthen your ground army and increase your defense while continuing to develop your economy and technology. This is a stabilize-then-develop approach.",
+            "annotated_recheck": "Re-evaluate when you see the opponent's first combat units or when you complete key tech structures. If the opponent shows early aggression, adjust your defense accordingly.",
+            "annotated_trigger": "In the early game, you have a heavy defense posture and moderate economy, while the opponent has a heavy economy and moderate production. This suggests a potential tech or economic race.",
+            "frequency": 0.6571,
+            "node_id": "N005",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a unknown posture; representative observed or remembered cues may include no reliably grounded combat-unit cue. Production appears moderate, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly unknown-oriented, with light_or_uncertain production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "increase",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "continue",
+              "technology_direction": "increase",
+              "tempo": "stabilize_then_develop",
+              "upgrade_direction": "maintain"
+            },
+            "support": 23
+          }
+        ]
+      },
+      {
+        "adverse_aggregate_nodes": [
+          {
+            "direction_to_avoid": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "continue",
+              "technology_direction": "increase",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zealot. Production appears moderate, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly unknown-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "support": 10
+          },
+          {
+            "direction_to_avoid": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "continue",
+              "technology_direction": "increase",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "opponent_cues": "Enemy Intelligence is consistent with a unknown posture; representative observed or remembered cues may include no reliably grounded combat-unit cue. Production appears moderate, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly unknown-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "support": 4
+          }
+        ],
+        "phase": "early_midgame",
+        "preferred_aggregate_nodes": [
+          {
+            "annotated_direction": "Maintain your current development path, focusing on economy and technology. Keep production flexible to adapt to incoming information.",
+            "annotated_recheck": "Re-evaluate when you see the opponent's first combat units or when you complete key tech structures. If the opponent shows early aggression, adjust your defense accordingly.",
+            "annotated_trigger": "In the early midgame, you have had time to develop your economy and tech. The opponent's posture is still uncertain, but you have some information.",
+            "frequency": 1.0,
+            "node_id": "N003",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a unknown posture; representative observed or remembered cues may include no reliably grounded combat-unit cue. Production appears light_or_uncertain, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly unknown-oriented, with light_or_uncertain production and light_or_uncertain technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "maintain_current_army_path",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "maintain",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "maintain",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 520
+          },
+          {
+            "annotated_direction": "Strengthen your ground army and continue to develop your economy and technology. Maintain a defensive posture while preparing for a potential ground engagement.",
+            "annotated_recheck": "Re-evaluate when you see more of the opponent's army composition or when you are ready to push out. If the opponent is passive, consider expanding or teching further.",
+            "annotated_trigger": "In the early midgame, the opponent has shown a ground posture with Zealots, and their economy is heavy. You have a moderate economy and heavy tech.",
+            "frequency": 0.4,
+            "node_id": "N006",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zealot. Production appears moderate, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly unknown-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "continue",
+              "technology_direction": "increase",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 10
+          },
+          {
+            "annotated_direction": "Strengthen your ground army and continue to develop your economy and technology. Maintain a defensive posture while preparing for a potential ground engagement.",
+            "annotated_recheck": "Re-evaluate when you see more of the opponent's army composition or when you are ready to push out. If the opponent is passive, consider expanding or teching further.",
+            "annotated_trigger": "In the early midgame, the opponent has a heavy economy and expansion, but their production is moderate. You have a moderate economy and heavy tech, with a heavy expansion.",
+            "frequency": 0.3333,
+            "node_id": "N009",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a unknown posture; representative observed or remembered cues may include no reliably grounded combat-unit cue. Production appears moderate, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly unknown-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "continue",
+              "technology_direction": "increase",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 4
+          }
+        ]
+      },
+      {
+        "adverse_aggregate_nodes": [
+          {
+            "direction_to_avoid": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "continue",
+              "technology_direction": "increase",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "opponent_cues": "Enemy Intelligence is consistent with a mixed posture; representative observed or remembered cues may include Zealot, Stalker. Production appears moderate, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly unknown-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "support": 3
+          }
+        ],
+        "phase": "midgame",
+        "preferred_aggregate_nodes": [
+          {
+            "annotated_direction": "Continue to develop your economy and technology while maintaining a defensive posture. Keep your army composition flexible to respond to the opponent's eventual composition.",
+            "annotated_recheck": "Re-evaluate when you see the opponent's main army composition or when you are ready to push out. If the opponent is passive, consider expanding or teching further.",
+            "annotated_trigger": "In the midgame, both sides have had time to develop. Your own posture remains uncertain, but the opponent's is also still unclear.",
+            "frequency": 1.0,
+            "node_id": "N004",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a unknown posture; representative observed or remembered cues may include no reliably grounded combat-unit cue. Production appears light_or_uncertain, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly unknown-oriented, with light_or_uncertain production and light_or_uncertain technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "maintain_current_army_path",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "maintain",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "maintain",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 520
+          },
+          {
+            "annotated_direction": "Strengthen your ground army and increase your defense while continuing to develop your economy and technology. This is a stabilize-then-develop approach.",
+            "annotated_recheck": "Re-evaluate when you see more of the opponent's army composition or when you are ready to push out. If the opponent is passive, consider expanding or teching further.",
+            "annotated_trigger": "In the midgame, the opponent has a ground posture with Zealots, and their economy and production are heavy. You have a moderate economy and heavy tech, but your expansion is heavy.",
+            "frequency": 0.3571,
+            "node_id": "N007",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zealot. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly unknown-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "increase",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "continue",
+              "technology_direction": "increase",
+              "tempo": "stabilize_then_develop",
+              "upgrade_direction": "maintain"
+            },
+            "support": 5
+          },
+          {
+            "annotated_direction": "Continue to strengthen your ground army and increase your production and technology. Focus on upgrades to gain an edge in engagements.",
+            "annotated_recheck": "Re-evaluate when you see the opponent's main army composition or when you are ready to push out. If the opponent is passive, consider expanding or teching further.",
+            "annotated_trigger": "In the midgame, both you and the opponent have a ground posture with Zealots and Stalkers. Both economies and production are heavy.",
+            "frequency": 0.6,
+            "node_id": "N010",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zealot, Stalker, Immortal. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "increase",
+              "technology_direction": "increase",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "increase"
+            },
+            "support": 3
+          },
+          {
+            "annotated_direction": "Increase your air presence and strengthen your air army. Continue to develop your economy and technology while maintaining a defensive posture.",
+            "annotated_recheck": "Re-evaluate when you see the opponent's anti-air capabilities or when you are ready to push out. If the opponent is passive, consider expanding or teching further.",
+            "annotated_trigger": "In the midgame, the opponent has a mixed posture with Zealots and Stalkers, and their economy is heavy. You have a moderate economy and heavy tech, but your expansion is uncertain.",
+            "frequency": 0.3333,
+            "node_id": "N011",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a mixed posture; representative observed or remembered cues may include Zealot, Stalker. Production appears moderate, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly unknown-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "increase",
+              "army_direction": "strengthen_air",
+              "confidence": "medium",
+              "defense_direction": "continue",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "continue",
+              "technology_direction": "increase",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 3
+          },
+          {
+            "annotated_direction": "Strengthen your ground army and continue to develop your economy and technology. Maintain a defensive posture while preparing for a potential ground engagement.",
+            "annotated_recheck": "Re-evaluate when you see more of the opponent's army composition or when you are ready to push out. If the opponent is passive, consider expanding or teching further.",
+            "annotated_trigger": "In the midgame, the opponent has a mixed posture with Zealots and Stalkers, and their economy is heavy. You have a heavy economy and tech, with a heavy expansion.",
+            "frequency": 0.25,
+            "node_id": "N012",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a mixed posture; representative observed or remembered cues may include Zealot, Stalker. Production appears moderate, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly unknown-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "continue",
+              "technology_direction": "increase",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 3
+          }
+        ]
+      },
+      {
+        "adverse_aggregate_nodes": [
+          {
+            "direction_to_avoid": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "continue",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zealot, Stalker, Immortal. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "support": 4
+          }
+        ],
+        "phase": "late_midgame",
+        "preferred_aggregate_nodes": [
+          {
+            "annotated_direction": "Continue to develop your economy and technology while maintaining a defensive posture. Keep your army composition flexible to respond to the opponent's eventual composition.",
+            "annotated_recheck": "Re-evaluate when you see the opponent's main army composition or when you are ready to push out. If the opponent is passive, consider expanding or teching further.",
+            "annotated_trigger": "In the late midgame, both sides have had time to develop. Your own posture remains uncertain, but the opponent's is also still unclear.",
+            "frequency": 1.0,
+            "node_id": "N002",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a unknown posture; representative observed or remembered cues may include no reliably grounded combat-unit cue. Production appears light_or_uncertain, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly unknown-oriented, with light_or_uncertain production and light_or_uncertain technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "maintain_current_army_path",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "maintain",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "maintain",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 521
+          },
+          {
+            "annotated_direction": "Continue to strengthen your ground army and develop your economy and technology. Maintain a defensive posture while preparing for a potential large-scale engagement.",
+            "annotated_recheck": "Re-evaluate when you see the opponent's main army composition or when you are ready to push out. If the opponent is passive, consider expanding or teching further.",
+            "annotated_trigger": "In the late midgame, both you and the opponent have a ground posture with Zealots, Stalkers, and Immortals. Both economies and production are heavy.",
+            "frequency": 0.5714,
+            "node_id": "N008",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zealot, Stalker, Immortal. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "continue",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 4
+          }
+        ]
+      }
+    ]
+  },
+  "schema_version": 1
+}

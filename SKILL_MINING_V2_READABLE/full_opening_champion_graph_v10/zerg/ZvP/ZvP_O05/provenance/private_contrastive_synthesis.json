@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Continue developing economy and ground forces, increase production and expansions.",
+        "lesson_id": "L01",
+        "mistake": "Over-committing to a specific tech path or army composition without more information, neglecting scouting or defensive positioning.",
+        "recheck": "Recheck when opponent's first combat units appear or when tech advantage is established.",
+        "target_node_id": "N001",
+        "title": "Avoid tech overcommitment without scouting",
+        "when": "Early midgame, own ground army with Zerglings, opponent unknown but heavy tech.",
+        "why": "Maintain economic lead while preparing for potential tech switches."
+      },
+      {
+        "correction": "Increase economy and expansions, continue ground development.",
+        "lesson_id": "L02",
+        "mistake": "Neglecting scouting and over-investing in tech before confirming the opponent's plan.",
+        "recheck": "Recheck when more information about opponent's army composition is available.",
+        "target_node_id": "N002",
+        "title": "Avoid neglecting scouting and over-investing in tech",
+        "when": "Early game, own Queen, opponent unknown but heavy tech.",
+        "why": "Queens provide defense and creep spread, supporting a macro-oriented start."
+      },
+      {
+        "correction": "Maintain ground army, continue economy, consider upgrades.",
+        "lesson_id": "L03",
+        "mistake": "Over-committing to Infestors if the opponent transitions to air, and neglecting scouting to detect tech switches.",
+        "recheck": "Recheck if opponent shows air units or heavy tech.",
+        "target_node_id": "N005",
+        "title": "Avoid over-committing to Infestors without scouting for air",
+        "when": "Late midgame, own Zergling/Infestor/Queen/Overseer, opponent ground with Zealots/Stalkers.",
+        "why": "Infestors provide strong spellcasting against ground-based Protoss armies."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "ZvP_O05",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "ZvP_O05:N001->ZvP_O05:N001",
+      "ZvP_O05:N002->ZvP_O05:N002",
+      "ZvP_O05:N005->ZvP_O05:N005"
+    ],
+    "source_digest": "032326d1305e05d74f384c4161f5eabfc4a9666a9fb7b7c850bb2438be629a5b",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

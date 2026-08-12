@@ -1,0 +1,114 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overcommitting to a specific army composition before you have more information about the opponent's plan.",
+        "decision_direction": "Focus on stabilizing your defense while continuing to develop your economy and technology. Maintain a defensive posture to deter early aggression.",
+        "exit_or_recheck_condition": "Re-evaluate when you have more information about the opponent's army composition or if you detect a significant tech switch.",
+        "next_state_summary": "Proceed to a mid-game state with a stronger economy and tech, ready to adapt to the opponent's strategy.",
+        "node_id": "N001",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence suggests a ground-oriented Terran with possible early Reaper harassment. Their production is moderate, but their technology investment is heavy, indicating a potential tech switch later.",
+        "own_situation": "Your economy is strong, but your army composition is not yet defined. Defensive structures are in place, and you are investing heavily in technology.",
+        "strategic_reason": "A stable early game allows you to reach your powerful mid-game tech without falling behind. The opponent's possible Reaper pressure requires careful defensive positioning.",
+        "title": "Early Game Stabilization",
+        "transition_goal": "Transition into a more defined army composition (ground or air) once you have scouted the opponent's tech path.",
+        "trigger_summary": "Early game, around 3 minutes, with heavy technology investment and moderate production. Opponent shows a ground posture with possible Reaper pressure."
+      },
+      {
+        "avoid_direction": "Avoid neglecting your economy or upgrades, as the opponent's heavy production could lead to a prolonged game.",
+        "decision_direction": "Continue strengthening your ground army and increase production. Maintain your defensive posture while preparing for a potential engagement.",
+        "exit_or_recheck_condition": "Re-evaluate when you have a clear army advantage or if the opponent switches to a more air-heavy composition.",
+        "next_state_summary": "Continue to develop your ground army and tech, preparing for a decisive engagement.",
+        "node_id": "N002",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows a Terran ground army with Siege Tanks, Marines, and Medivacs. They are heavily invested in production and technology, indicating a strong push potential.",
+        "own_situation": "You have a solid ground army with Zealots, Stalkers, and Dark Templars. Your economy and tech are strong, and you have multiple expansions.",
+        "strategic_reason": "Your ground army is well-suited to counter the Terran's composition. Dark Templars can be effective against Siege Tanks if positioned well.",
+        "title": "Midgame Ground Army Development",
+        "transition_goal": "Transition to a more aggressive posture if you gain an advantage, or continue to develop if the game is even.",
+        "trigger_summary": "Midgame, around 9 minutes, with a heavy ground army and heavy tech. Opponent has a strong ground army with Siege Tanks and Medivacs."
+      },
+      {
+        "avoid_direction": "Avoid taking unnecessary engagements that could cost you your tech advantage.",
+        "decision_direction": "Maintain your defensive posture while increasing your production and tech. Continue to expand to support your growing army.",
+        "exit_or_recheck_condition": "Re-evaluate when you have scouted the opponent's tech path or if they attempt a timing attack.",
+        "next_state_summary": "Proceed to a mid-game state with a strong economy and tech, ready to produce a powerful army.",
+        "node_id": "N003",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence suggests a Terran ground army with Marines and Reapers. Their production is heavy, and they are also investing in technology.",
+        "own_situation": "You have a strong economy and are expanding. Your army is ground-oriented, and you are investing heavily in production and technology.",
+        "strategic_reason": "A strong economy and tech advantage will allow you to outproduce the opponent in the mid-game. Your defensive structures buy you time.",
+        "title": "Early-Midgame Expansion and Tech",
+        "transition_goal": "Transition to a more aggressive stance once you have a critical mass of units and upgrades.",
+        "trigger_summary": "Early-midgame, around 5-6 minutes, with heavy production and tech. Opponent shows a ground posture with Marines and Reapers."
+      },
+      {
+        "avoid_direction": "Avoid committing to a specific army composition before you have more scouting information.",
+        "decision_direction": "Continue to invest in technology while maintaining a defensive posture. Keep your options open for either a ground or air transition.",
+        "exit_or_recheck_condition": "Re-evaluate when you have more information about the opponent's army or if they apply pressure.",
+        "next_state_summary": "Proceed to a mid-game state with a strong tech base, ready to adapt.",
+        "node_id": "N004",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence suggests a Terran ground posture with Reapers. Their production is moderate, but their tech investment is heavy, indicating a possible tech switch.",
+        "own_situation": "Your economy is strong, but your army composition is not yet defined. You are heavily investing in technology, and your defense is solid.",
+        "strategic_reason": "Heavy tech investment gives you flexibility to counter the opponent's eventual composition. A defensive posture prevents early game losses.",
+        "title": "Early-Midgame Tech Investment",
+        "transition_goal": "Transition to a more defined army composition once you have identified the opponent's tech path.",
+        "trigger_summary": "Early-midgame, around 4-5 minutes, with heavy tech investment and moderate production. Opponent shows a ground posture with Reapers."
+      },
+      {
+        "avoid_direction": "Avoid overextending your army without proper scouting, as the opponent may have hidden tech.",
+        "decision_direction": "Continue to strengthen your ground army while adding air support to deal with potential threats. Maintain your defensive posture.",
+        "exit_or_recheck_condition": "Re-evaluate when you have a clear army advantage or if the opponent switches to a more air-heavy composition.",
+        "next_state_summary": "Continue to develop your army and tech, preparing for a decisive engagement.",
+        "node_id": "N005",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows a Terran ground army with Marines. Their production is heavy, and they are heavily invested in technology.",
+        "own_situation": "You have a strong ground army with Zealots, Stalkers, and Void Rays. Your economy and tech are strong, and you have multiple expansions.",
+        "strategic_reason": "A mix of ground and air units gives you flexibility to handle various Terran compositions. Void Rays can be effective against massed Marines.",
+        "title": "Late-Midgame Ground/Air Hybrid",
+        "transition_goal": "Transition to a more aggressive posture if you have an advantage, or continue to develop if the game is even.",
+        "trigger_summary": "Late-midgame, around 10-12 minutes, with a heavy ground army and some air support. Opponent has a heavy ground army with Marines."
+      },
+      {
+        "avoid_direction": "Avoid overcommitting to a specific army composition before you have more information.",
+        "decision_direction": "Focus on stabilizing your defense and continuing your tech investment. Keep your options open for either a ground or air transition.",
+        "exit_or_recheck_condition": "Re-evaluate when you have more information about the opponent's army or if they apply pressure.",
+        "next_state_summary": "Proceed to a mid-game state with a strong tech base, ready to adapt.",
+        "node_id": "N006",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence is uncertain, but a Marine has been spotted. Their production is moderate, and their tech investment is heavy.",
+        "own_situation": "Your economy is strong, and you have a Zealot. You are investing heavily in technology, and your defense is solid.",
+        "strategic_reason": "A solid defense and strong tech give you a stable foundation to adapt to the opponent's strategy.",
+        "title": "Early Game Tech and Defense",
+        "transition_goal": "Transition to a more defined army composition once you have scouted the opponent's plan.",
+        "trigger_summary": "Early game, around 3 minutes, with heavy tech investment and moderate production. Opponent's posture is unknown, but a Marine is seen."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "moderate",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "technology / defense / economy opening",
+      "opening_name": "PvT_O04 Technology / Defense / Economy",
+      "opening_summary": "A Protoss opening that emphasizes heavy technology investment, a solid defensive posture, and a strong economy. It aims to develop a versatile foundation that can transition into either a ground or air-oriented army based on scouting information.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a technology / defense / economy posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_positive_only",
+  "method_specific_annotation": true,
+  "opening_id": "PvT_O04",
+  "projection_path": "02_observation_projection/ablation_positive_only/PvT_O04.json"
+}

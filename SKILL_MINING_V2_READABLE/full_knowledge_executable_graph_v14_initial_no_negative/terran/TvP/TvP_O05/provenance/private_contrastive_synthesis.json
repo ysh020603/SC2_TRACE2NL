@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Continue strengthening your ground army while increasing economy and expansions. Maintain current defense and technology development.",
+        "lesson_id": "L01",
+        "mistake": "Over-committing to a single attack without scouting, neglecting anti-air, or over-investing in ground without flexibility.",
+        "recheck": "Re-evaluate if the opponent shows signs of an air transition or heavy pressure.",
+        "target_node_id": "N001",
+        "title": "Avoid over-committing to a single attack without scouting",
+        "when": "Early-midgame, around 4 minutes, both sides have heavy economy and production, opponent likely ground with Zealots/Stalkers, you have Marines/Marauders.",
+        "why": "Both sides are in a macro-oriented phase. Maintaining a strong economy and production allows you to out-scale the opponent if they commit to a ground composition."
+      },
+      {
+        "correction": "Increase your production and continue developing your ground army. Maintain your economy and technology development.",
+        "lesson_id": "L02",
+        "mistake": "Over-extending your economy without sufficient army, or neglecting scouting to identify opponent's tech path.",
+        "recheck": "Re-evaluate if the opponent shows signs of an air transition or heavy pressure.",
+        "target_node_id": "N004",
+        "title": "Avoid over-extending economy without sufficient army",
+        "when": "Early game, around 3 minutes, you have ground army of Marines/Marauders, heavy economy, opponent posture unknown but heavy economy.",
+        "why": "With a ground army already established, it is efficient to continue producing units and expanding your economy to support a strong mid-game."
+      },
+      {
+        "correction": "Maintain your ground army while considering adding anti-air capabilities. Continue developing your economy and technology.",
+        "lesson_id": "L03",
+        "mistake": "Neglecting your ground army in favor of anti-air, or being caught off guard by Oracle harassment.",
+        "recheck": "Re-evaluate if the opponent commits more heavily to air or if they switch back to ground.",
+        "target_node_id": "N006",
+        "title": "Avoid neglecting anti-air against air transition",
+        "when": "Early-midgame, around 5 minutes, opponent has transitioned to air with Oracles/Zealots, you have ground army with Marines/Marauders.",
+        "why": "The opponent's air presence requires you to prepare for potential Oracle harassment or a transition to a more air-heavy composition."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "TvP_O05",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "TvP_O05:N001->TvP_O05:N001",
+      "TvP_O05:N004->TvP_O05:N004",
+      "TvP_O05:N006->TvP_O05:N006"
+    ],
+    "source_digest": "9a9be094ca9f33e0f9db040959e9b311d063a48ef43919c17bd74226025262db",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

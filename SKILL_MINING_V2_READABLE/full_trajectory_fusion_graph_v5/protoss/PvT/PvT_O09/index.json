@@ -1,0 +1,50 @@
+{
+  "method": "full_trajectory_fusion_graph_v5",
+  "nodes": {
+    "N001": {
+      "children": [],
+      "path": "nodes/N001.md",
+      "phase": "midgame",
+      "policy_summary": "Develop ground army and tech, increase production and economy, maintain expansion, and stay active with defense.",
+      "summary": "Reaching the midgame with a heavy economy and production, facing a Terran ground posture with heavy tech. Continue developing your ground army and technology, while increasing production and economy. Maintain your current expansion count and keep a watchful eye on defense.",
+      "title": "Midgame Ground Macro Development",
+      "trigger_summary": "Reaching the midgame with a heavy economy and production, facing a Terran ground posture with heavy tech.",
+      "type": "default"
+    },
+    "N002": {
+      "children": [],
+      "path": "nodes/N002.md",
+      "phase": "early_midgame",
+      "policy_summary": "Boost economy and production, strengthen ground forces, consider expansion, and keep defense solid.",
+      "summary": "In the early-midgame, with a heavy economy and production, facing a Terran ground posture with heavy tech. Increase your economy and production, continue strengthening your ground army, and consider expanding to secure more resources. Maintain your current defense.",
+      "title": "Early-Midgame Ground Tech Investment",
+      "trigger_summary": "In the early-midgame, with a heavy economy and production, facing a Terran ground posture with heavy tech.",
+      "type": "default"
+    },
+    "N003": {
+      "children": [],
+      "path": "nodes/N003.md",
+      "phase": "late_midgame",
+      "policy_summary": "Reinforce ground army and tech, maintain economy and production, solidify defense, and prepare for a decisive engagement.",
+      "summary": "In the late-midgame, with a heavy economy and production, facing a Terran ground posture with heavy tech and moderate air presence. Continue strengthening your ground army and technology, while maintaining your economy and production. Keep your defense solid and consider adding more tech units.",
+      "title": "Late-Midgame Ground Army Reinforcement",
+      "trigger_summary": "In the late-midgame, with a heavy economy and production, facing a Terran ground posture with heavy tech and moderate air presence.",
+      "type": "default"
+    },
+    "N004": {
+      "children": [
+        "N002"
+      ],
+      "path": "nodes/N004.md",
+      "phase": "early_game",
+      "policy_summary": "Focus on economy and production growth, tech development, and maintaining expansion; avoid tech overcommitment without scouting.",
+      "summary": "In the early game, with a heavy economy and moderate production, facing a Terran with unknown posture but heavy tech. Focus on increasing your economy and production, while continuing to develop your technology. Maintain your current expansion and prepare for the midgame.",
+      "title": "Early Game Tech and Economy Foundation",
+      "trigger_summary": "In the early game, with a heavy economy and moderate production, facing a Terran with unknown posture but heavy tech.",
+      "type": "default"
+    }
+  },
+  "opening_name": "PvT_O09 Technology / Economy / Production",
+  "root": "SKILL.md",
+  "skill_id": "PvT_O09"
+}

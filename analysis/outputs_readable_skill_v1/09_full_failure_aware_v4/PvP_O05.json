@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "At next decision cycle, verify that production count has increased if bank was high, and that worker count is progressing toward 2 per mineral line and 3 per gas geyser.",
+        "correction": "Prioritize completing tech structures (Twilight Council, Robotics Facility, or Stargate) and keep probes producing toward saturation. Add one production structure if bank exceeds 400 minerals and 200 gas, and ensure warpgate cooldowns are used by warping in a round of gateway units. Do not expand beyond your natural until army supply is at least 15 and production is active.",
+        "rule_id": "R01",
+        "title": "Maintain tech-economy tempo with production scaling",
+        "when": "Early to midgame, both players have heavy economy and tech, own army composition unclear, no reliable enemy combat-unit cues, and production is below 3 active warpgates or robotics facilities."
+      },
+      {
+        "check": "At next decision cycle, confirm that your army composition includes the required counter units and that detection is available if the opponent has cloaked or invisible units.",
+        "correction": "If opponent is Zealot-heavy, add Immortals and keep Stalkers for support. If opponent shows Stalker/Sentry with Warp Prism and Observer, ensure you have Observers for detection and add Immortals. If opponent has air units, produce Stalkers or Phoenixes for anti-air, and consider a Stargate if not already present. Maintain economy and production while adapting.",
+        "rule_id": "R02",
+        "title": "Counter enemy composition with tech-appropriate units",
+        "when": "Enemy intelligence reveals a clear composition: if opponent shows Zealot-heavy ground, or Stalker/Sentry with Warp Prism and Observer, or air units like Oracle/Void Ray/Carrier, and own army lacks appropriate counters or detection."
+      },
+      {
+        "check": "At next decision cycle, verify that army supply has increased, bank is reduced, and production is no longer idle.",
+        "correction": "Immediately convert bank into army by warping in units from all available gateways and queuing production from robotics or stargate. If production is insufficient, add one production structure (gateway or robotics facility) without expanding. Prioritize units that counter the enemy's known composition. Do not spend on technology or expansions until army supply is above 15 and production is active.",
+        "rule_id": "R03",
+        "title": "Recover from low army and high bank with immediate production",
+        "when": "Army supply is below 15, bank exceeds 1000 minerals and 500 gas, or predicted advantage is OverwhelmingDisadvantage, and production is idle or insufficient."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "PvP_O05",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "b7dc0c96c101ef61398dfb8285e2f8e0bfa8d7da601390e2f6cea8d8299e9268",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 1,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 6.0,
+            "bank": 915.2,
+            "bases": 1.2,
+            "production": 1.5,
+            "supply_providers": 5.8,
+            "workers": 26.0
+          },
+          "300": {
+            "army_supply": 12.5,
+            "bank": 1365.2,
+            "bases": 1.5,
+            "production": 2.5,
+            "supply_providers": 6.8,
+            "workers": 29.5
+          },
+          "360": {
+            "army_supply": 14.5,
+            "bank": 2029.2,
+            "bases": 2.0,
+            "production": 3.0,
+            "supply_providers": 7.5,
+            "workers": 32.0
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.437,
+          "average_bank": 1995.2,
+          "consume_per_min": 816.3
+        },
+        "defeats_with_three_or_more_supply_entries": 3,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 4,
+          "Tie": 1,
+          "Victory": 15
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

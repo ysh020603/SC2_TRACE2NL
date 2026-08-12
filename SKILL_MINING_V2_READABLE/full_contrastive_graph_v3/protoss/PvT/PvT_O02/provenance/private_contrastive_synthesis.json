@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Increase economy and technology. Strengthen ground forces. Increase defense. Maintain expansion. Continue production.",
+        "lesson_id": "L01",
+        "mistake": "Over-committing to offense before your defense is solid, potentially leaving you vulnerable to a ground attack.",
+        "recheck": "Re-evaluate when you see more of the opponent's army composition or if they apply pressure.",
+        "target_node_id": "N008",
+        "title": "Stabilize before pushing",
+        "when": "Early-midgame, around 240 seconds, with heavy defense and moderate economy, while the opponent shows a ground posture with Marine cues.",
+        "why": "The opponent's ground posture suggests a potential ground attack. Stabilizing your defense while developing your economy and tech is prudent."
+      },
+      {
+        "correction": "Increase economy and technology. Strengthen ground forces. Increase defense. Maintain expansion. Continue production.",
+        "lesson_id": "L02",
+        "mistake": "Over-committing to offense before your defense is solid, risking vulnerability when the opponent's intentions are unclear.",
+        "recheck": "Re-evaluate when you observe more of the opponent's army composition or production structures, or when you reach a new tech milestone.",
+        "target_node_id": "N011",
+        "title": "Balanced development under uncertainty",
+        "when": "Early-midgame, around 300-360 seconds, with heavy defense and moderate economy, while the opponent's posture is unknown.",
+        "why": "With limited information, balanced development keeps options open. Strengthening ground forces provides a solid base for any transition."
+      },
+      {
+        "correction": "Increase economy, production, and technology. Strengthen ground forces. Maintain defense and expansion. Continue air development.",
+        "lesson_id": "L03",
+        "mistake": "Neglecting ground defense, leaving you vulnerable to drops or flanking maneuvers.",
+        "recheck": "Re-evaluate when you see more of the opponent's army composition or if they expand further.",
+        "target_node_id": "N010",
+        "title": "Maintain ground defense against drops",
+        "when": "Late-midgame, around 600 seconds, with heavy economy and production, while the opponent shows a ground posture with SiegeTank, Reaper, Thor, and Medivac.",
+        "why": "The opponent's ground posture suggests a potential ground attack. Strengthening ground forces and maintaining defense is prudent while continuing development."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "PvT_O02",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "PvT_O02:N008->PvT_O02:N008",
+      "PvT_O02:N011->PvT_O02:N011",
+      "PvT_O07:N004->PvT_O02:N010"
+    ],
+    "source_digest": "d6894221165190ad88ae6e0bc05a270ccfb9cc12af6ee7f236eff48c3cdfcfd6",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

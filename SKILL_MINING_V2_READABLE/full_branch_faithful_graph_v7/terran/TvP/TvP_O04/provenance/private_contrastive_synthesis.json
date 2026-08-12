@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Strengthen your ground army and increase technology investment. Consider adding air units for flexibility. Maintain expansion and production.",
+        "lesson_id": "L01",
+        "mistake": "Continuing to expand and tech without reinforcing your army, assuming the enemy is passive.",
+        "recheck": "Re-evaluate if the opponent transitions to heavy air or if you face a timing attack.",
+        "target_node_id": "N002",
+        "title": "Ground vs Ground: Don't Overextend Economy",
+        "when": "Early-midgame, both sides ground-oriented with heavy production and tech, around 300 seconds.",
+        "why": "The opponent is ground-oriented, so a strong ground army is essential. Air units provide flexibility against potential air transitions."
+      },
+      {
+        "correction": "Focus on developing economy and technology while maintaining a light defensive posture. Use your Reaper for scouting to gather information.",
+        "lesson_id": "L02",
+        "mistake": "Over-committing to tech at the expense of army production and neglecting scouting.",
+        "recheck": "Re-evaluate when you have more scouting information or if the opponent shows signs of an early attack.",
+        "target_node_id": "N003",
+        "title": "Early Game: Don't Overcommit to Tech",
+        "when": "Early game, both sides unknown compositions, heavy economy and tech investment, around 180 seconds.",
+        "why": "This sets up a strong midgame, and scouting helps you adapt to the opponent's choices."
+      },
+      {
+        "correction": "Add anti-air units such as Marines, Thors, or Vikings to counter the opponent's air presence. Maintain your ground army and continue expanding.",
+        "lesson_id": "L03",
+        "mistake": "Neglecting your ground army entirely or over-investing in anti-air without a clear threat.",
+        "recheck": "Re-evaluate if the opponent transitions back to ground or if you face a large push.",
+        "target_node_id": "N006",
+        "title": "Ground vs Air: Don't Ignore Anti-Air",
+        "when": "Early-midgame, opponent air-oriented with Phoenixes and Oracles, you have ground army with Siege Tanks and Marines, around 360 seconds.",
+        "why": "The opponent's air units can be a threat, so you need a response. Adding anti-air units helps defend against harass and potential air attacks."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "TvP_O04",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "TvP_O04:N002->TvP_O04:N002",
+      "TvP_O04:N004->TvP_O04:N003",
+      "TvP_O04:N007->TvP_O04:N006"
+    ],
+    "source_digest": "5063815f7ced2737ce917a4a6b4a382fd1529a87861e933a27874372b41af2dc",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

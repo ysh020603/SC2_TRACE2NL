@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Continue strengthening ground, maintain economy, production, tech, and expansion.",
+        "lesson_id": "L01",
+        "mistake": "Investing in unnecessary technology that delays army production.",
+        "recheck": "Recheck if opponent techs up or shows air presence.",
+        "target_node_id": "N002",
+        "title": "Avoid Premature Tech",
+        "when": "Early-midgame, both sides ground, heavy economy, moderate production, light tech. Zergling and Queen cues visible.",
+        "why": "Maintaining a balanced ground macro approach keeps you competitive while allowing adaptation to opponent's tech or army choices."
+      },
+      {
+        "correction": "Increase defense, economy, continue production and tech, strengthen ground.",
+        "lesson_id": "L02",
+        "mistake": "Staying purely ground when opponent has a significant air force.",
+        "recheck": "Recheck if opponent commits to air or ground.",
+        "target_node_id": "N008",
+        "title": "Don't Ignore Air Threat",
+        "when": "Midgame, opponent ground with heavy air presence, heavy economy, heavy production, moderate tech. Zergling, Mutalisk, Queen, Overseer cues.",
+        "why": "With opponent having air presence, you need to bolster defenses and possibly tech to anti-air while maintaining economy."
+      },
+      {
+        "correction": "Increase air, economy, continue tech, maintain production, strengthen air.",
+        "lesson_id": "L03",
+        "mistake": "Neglecting ground defense while teching to air.",
+        "recheck": "Recheck if opponent techs anti-air or shows heavy ground pressure.",
+        "target_node_id": "N009",
+        "title": "Don't Neglect Ground Defense",
+        "when": "Midgame, opponent ground with light air, heavy economy, heavy production, heavy tech. Zergling, Roach, Queen cues.",
+        "why": "If you have air presence and opponent is ground-heavy, transitioning to air can give you a strategic advantage."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "ZvZ_O01",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "ZvZ_O01:N002->ZvZ_O01:N002",
+      "ZvZ_O01:N009->ZvZ_O01:N008",
+      "ZvZ_O01:N010->ZvZ_O01:N009"
+    ],
+    "source_digest": "dc97f418ab3ad21368bbd56d69ee6033679ec4f2a7254b730ff5475b3db703a4",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

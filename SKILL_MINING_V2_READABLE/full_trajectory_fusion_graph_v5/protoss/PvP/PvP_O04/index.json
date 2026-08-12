@@ -1,0 +1,132 @@
+{
+  "method": "full_trajectory_fusion_graph_v5",
+  "nodes": {
+    "N001": {
+      "children": [
+        "N011"
+      ],
+      "path": "nodes/N001.md",
+      "phase": "early_midgame",
+      "policy_summary": "Prioritize ground army, economy, and expansion; keep defense and production steady.",
+      "summary": "At around 4 minutes, both players are in early-midgame with heavy economy and technology, and the opponent shows a ground posture with Stalker cues. Strengthen ground forces while increasing economy and expansion. Maintain defense and continue production.",
+      "title": "Early-Mid Ground Development",
+      "trigger_summary": "At around 4 minutes, both players are in early-midgame with heavy economy and technology, and the opponent shows a ground posture with Stalker cues.",
+      "type": "default"
+    },
+    "N002": {
+      "children": [
+        "N008"
+      ],
+      "path": "nodes/N002.md",
+      "phase": "midgame",
+      "policy_summary": "Maintain ground strength, economy, and expansion; continue technology development.",
+      "summary": "At around 8 minutes, both players have heavy economies and technology, with the opponent showing a ground posture including Zealots, Stalkers, Sentries, and Immortals. Continue strengthening ground forces and maintain economy and expansion. Keep technology development ongoing.",
+      "title": "Midgame Ground Consolidation",
+      "trigger_summary": "At around 8 minutes, both players have heavy economies and technology, with the opponent showing a ground posture including Zealots, Stalkers, Sentries, and Immortals.",
+      "type": "default"
+    },
+    "N003": {
+      "children": [],
+      "path": "nodes/N003.md",
+      "phase": "late_midgame",
+      "policy_summary": "Keep ground army and economy strong; prioritize defense and technology.",
+      "summary": "At around 10 minutes, the opponent remains ground-focused with a moderate defense, and you have a heavy economy and expansion. Maintain ground strength and economy, with a focus on defense and continued technology development.",
+      "title": "Late-Mid Ground Stability",
+      "trigger_summary": "At around 10 minutes, the opponent remains ground-focused with a moderate defense, and you have a heavy economy and expansion.",
+      "type": "default"
+    },
+    "N004": {
+      "children": [
+        "N006"
+      ],
+      "path": "nodes/N004.md",
+      "phase": "early_midgame",
+      "policy_summary": "Prioritize ground army, economy, and expansion; keep defense and production steady.",
+      "summary": "At around 5 minutes, the opponent shows a ground posture with Stalkers, but you have a mixed army with Oracles and a heavy economy. Increase air presence and strengthen air forces while continuing economy and technology development.",
+      "title": "Early-Mid Mixed Transition",
+      "trigger_summary": "At around 5 minutes, the opponent shows a ground posture with Stalkers, but you have a mixed army with Oracles and a heavy economy.",
+      "type": "default"
+    },
+    "N005": {
+      "children": [],
+      "path": "nodes/N005.md",
+      "phase": "early_game",
+      "policy_summary": "Focus on ground army strength, economy, and technology; keep defense and production steady.",
+      "summary": "At around 3 minutes, both players are in early game with unknown army postures, but you have Zealots and Stalkers. Strengthen ground forces while increasing economy and technology. Maintain defense and continue production.",
+      "title": "Early Game Ground Foundation",
+      "trigger_summary": "At around 3 minutes, both players are in early game with unknown army postures, but you have Zealots and Stalkers.",
+      "type": "default"
+    },
+    "N006": {
+      "children": [],
+      "path": "nodes/N006.md",
+      "phase": "early_midgame",
+      "policy_summary": "Prioritize ground army, economy, and expansion; keep defense and production steady.",
+      "summary": "At around 6 minutes, both players have air-oriented armies with Phoenixes and Oracles, and heavy economies. Maintain air presence and strengthen ground forces as a complement. Continue economy and technology development.",
+      "title": "Early-Mid Air Mirror",
+      "trigger_summary": "At around 6 minutes, both players have air-oriented armies with Phoenixes and Oracles, and heavy economies.",
+      "type": "default"
+    },
+    "N007": {
+      "children": [
+        "N001"
+      ],
+      "path": "nodes/N007.md",
+      "phase": "early_game",
+      "policy_summary": "Focus on ground army strength, economy, and technology; keep defense and production steady.",
+      "summary": "At around 3 minutes, the opponent has a heavy defense posture and moderate economy, while you have a Stalker and heavy economy. Stabilize your economy and defense while increasing production and technology. Maintain ground strength.",
+      "title": "Early Game Defensive Development",
+      "trigger_summary": "At around 3 minutes, the opponent has a heavy defense posture and moderate economy, while you have a Stalker and heavy economy.",
+      "type": "default"
+    },
+    "N008": {
+      "children": [
+        "N003"
+      ],
+      "path": "nodes/N008.md",
+      "phase": "midgame",
+      "policy_summary": "Maintain ground strength, economy, and expansion; continue technology development.",
+      "summary": "At around 9 minutes, the opponent has a heavy air army with Carriers and Void Rays, while you have a ground army with Zealots, Stalkers, Sentries, and Warp Prisms. Strengthen ground forces and consider adding anti-air capabilities. Maintain economy and expansion.",
+      "title": "Midgame Ground vs Air",
+      "trigger_summary": "At around 9 minutes, the opponent has a heavy air army with Carriers and Void Rays, while you have a ground army with Zealots, Stalkers, Sentries, and Warp Prisms.",
+      "type": "default"
+    },
+    "N009": {
+      "children": [
+        "N003"
+      ],
+      "path": "nodes/N009.md",
+      "phase": "midgame",
+      "policy_summary": "Maintain ground strength, economy, and expansion; continue technology development.",
+      "summary": "At around 9 minutes, the opponent has a ground army with Stalkers, Sentries, Observers, and Oracles, while you have an air army with Phoenixes. Increase air presence and strengthen air forces. Continue economy and technology development.",
+      "title": "Midgame Air Transition",
+      "trigger_summary": "At around 9 minutes, the opponent has a ground army with Stalkers, Sentries, Observers, and Oracles, while you have an air army with Phoenixes.",
+      "type": "default"
+    },
+    "N010": {
+      "children": [],
+      "path": "nodes/N010.md",
+      "phase": "late_midgame",
+      "policy_summary": "Keep ground army and economy strong; prioritize defense and technology.",
+      "summary": "At around 10 minutes, the opponent has a heavy air army with Carriers and Void Rays, while you have a ground army with Stalkers, Sentries, Void Rays, and Observers. Increase defense and strengthen ground forces while adding anti-air. Continue economy and technology development.",
+      "title": "Late-Mid Ground Defense vs Air",
+      "trigger_summary": "At around 10 minutes, the opponent has a heavy air army with Carriers and Void Rays, while you have a ground army with Stalkers, Sentries, Void Rays, and Observers.",
+      "type": "default"
+    },
+    "N011": {
+      "children": [
+        "N001"
+      ],
+      "path": "nodes/N011.md",
+      "phase": "early_midgame",
+      "policy_summary": "Prioritize ground army, economy, and expansion; keep defense and production steady.",
+      "summary": "At around 5 minutes, the opponent's posture is unknown, but you have a ground army with Stalkers and a heavy economy. Strengthen ground forces while increasing economy and technology. Maintain defense and continue production.",
+      "title": "Early-Mid Ground Development (Unknown Opponent)",
+      "trigger_summary": "At around 5 minutes, the opponent's posture is unknown, but you have a ground army with Stalkers and a heavy economy.",
+      "type": "default"
+    }
+  },
+  "opening_name": "PvP_O04 Technology / Economy / Upgrade",
+  "root": "SKILL.md",
+  "skill_id": "PvP_O04"
+}

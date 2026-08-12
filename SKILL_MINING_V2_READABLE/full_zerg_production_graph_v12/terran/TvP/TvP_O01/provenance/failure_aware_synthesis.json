@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Recheck at next decision cycle: confirm production >= 3 and army_supply >= 15, or bank < 400.",
+        "correction": "Prioritize adding production structures (e.g., Barracks, Factory, Starport) up to at least 3 total, and queue units from existing structures to keep them active. Continue worker production toward saturation (target ~30 workers by 5 minutes). Avoid expanding until army_supply >= 15 and production is sufficient.",
+        "rule_id": "R01",
+        "title": "Maintain production tempo while preserving tech/economy opening",
+        "when": "Time >= 240 and (army_supply < 15 or production < 2) and bank > 800"
+      },
+      {
+        "check": "Recheck at next decision cycle: confirm counter units are in production or completed, and army composition includes required anti-air/anti-Colossus.",
+        "correction": "If air-heavy, add Marines and/or Thors, and ensure at least one tech lab on Barracks/Factory for upgrades. If Colossus, add Vikings or Liberators, and consider Widow Mines for defense. Maintain ground army core (Marines, Siege Tanks) while adding counters. Keep production active to support the transition.",
+        "rule_id": "R02",
+        "title": "Adapt to enemy composition with appropriate tech and units",
+        "when": "Enemy intelligence indicates air-heavy (e.g., Void Rays, Phoenix) or Colossus-based ground composition"
+      },
+      {
+        "check": "Recheck at next decision cycle: confirm army_supply increased by at least 10 or bank reduced below 800.",
+        "correction": "Immediately convert bank into army: queue units from all available production structures, add production structures if supply allows (up to 4 total), and prioritize combat units over economy. Do not expand or tech further until army_supply >= 30. If supply blocked, add a supply provider (but only one per decision).",
+        "rule_id": "R03",
+        "title": "Recover from low army and high bank with urgent production",
+        "when": "army_supply < 15 and bank > 1500 and (predicted_advantage == OverwhelmingDisadvantage or threat_flags indicate imminent attack)"
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "TvP_O01",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "55345815ae8c1220dfd80edadd1472bde8fe4a57a89fb22684cbee4195f8ced2",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 0,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 3.8,
+            "bank": 1234.6,
+            "bases": 1.4,
+            "production": 1.2,
+            "supply_providers": 6.1,
+            "workers": 24.7
+          },
+          "300": {
+            "army_supply": 7.6,
+            "bank": 1865.2,
+            "bases": 1.5,
+            "production": 1.6,
+            "supply_providers": 6.8,
+            "workers": 27.8
+          },
+          "360": {
+            "army_supply": 7.5,
+            "bank": 2289.6,
+            "bases": 1.6,
+            "production": 2.2,
+            "supply_providers": 7.6,
+            "workers": 27.8
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.435,
+          "average_bank": 2389.3,
+          "consume_per_min": 573.2
+        },
+        "defeats_with_three_or_more_supply_entries": 9,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 13,
+          "Tie": 3,
+          "Victory": 4
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

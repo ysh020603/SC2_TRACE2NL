@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Maintain and strengthen your ground army, continue increasing production and tech. Consider adding Phoenixes for map control and to handle any air transitions.",
+        "lesson_id": "L01",
+        "mistake": "Being too passive and neglecting air defense if opponent transitions to air.",
+        "recheck": "Re-evaluate when opponent's army composition shifts or when you are ready to attack.",
+        "target_node_id": "N003",
+        "title": "Ground vs Air Transition",
+        "when": "Late midgame (~10 min) with own ground army including Zealots, Stalkers, Sentries, and Immortals; opponent shows ground posture with Siege Tanks, Marines, Reapers, Hellions, heavy production and tech.",
+        "why": "Immortals counter Siege Tanks, Sentries provide shields, and Phoenixes offer mobility and scouting. This composition is robust against ground pushes."
+      },
+      {
+        "correction": "Continue strengthening your ground army, increase production and tech. Use Sentries for force fields and Immortals for tanky units. Maintain economy and expansion.",
+        "lesson_id": "L02",
+        "mistake": "Being caught without splash against Marine-heavy armies and neglecting scouting for tech switches.",
+        "recheck": "Re-evaluate when opponent's composition changes or when you are ready to take a decisive engagement.",
+        "target_node_id": "N004",
+        "title": "Splash vs Marine-heavy",
+        "when": "Midgame (~9 min) with own ground army including Zealots, Stalkers, Sentries, and Immortals; opponent shows ground posture with Marines and Marauders, heavy production and tech.",
+        "why": "Marauders are strong against armored, but Immortals and Stalkers can handle them. Sentries provide utility."
+      },
+      {
+        "correction": "Continue strengthening your ground army and increasing production and tech. Maintain economy growth and keep defense up. Consider adding Sentries or Immortals for utility.",
+        "lesson_id": "L03",
+        "mistake": "Over-extending your economy without proper defense, as Reaper harassment can punish that.",
+        "recheck": "Re-evaluate when opponent's tech path or army composition becomes clearer, or when you reach a critical mass.",
+        "target_node_id": "N002",
+        "title": "Economy vs Defense",
+        "when": "Early-midgame (~5-6 min) with own ground army including Zealots and Stalkers, heavy production and tech; opponent shows ground posture with Siege Tanks and Marines, heavy economy and production.",
+        "why": "Siege Tanks require careful engagement; a mix of Stalkers for mobility and Zealots for tanking, plus Sentry shields, can handle ground pushes."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "PvT_O08",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "PvT_O08:N003->PvT_O08:N003",
+      "PvT_O08:N004->PvT_O08:N004",
+      "PvT_O03:N002->PvT_O08:N002"
+    ],
+    "source_digest": "3c2df8a90a71469d33b4642f00a941c6205fa3f80997d6a3c8b97cc2d30545e1",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Recheck at next decision cycle: army supply should be increasing, bank reduced, and production structures active.",
+        "correction": "Prioritize spending bank on army production and additional production structures (e.g., Hatcheries) to convert resources into units. Keep workers flowing toward saturation (target 2 per base on minerals, 3 per gas) without letting worker queues crowd out defense. Ensure supply is added just in time to avoid blocking production.",
+        "rule_id": "R01",
+        "title": "Maintain production tempo and economy",
+        "when": "At any time before 6 minutes, if army supply is below 15 and bank is above 500, or if production structures are idle or insufficient relative to income."
+      },
+      {
+        "check": "Recheck at next decision cycle: ensure counter units are in production or queued, and tech structures are completed or underway.",
+        "correction": "Adjust production and technology to counter the observed threat. If enemy has air, add Hydralisks and Spore Crawlers at bases; if enemy has heavy ground, add Roaches or Hydralisks for durability and damage. Continue developing economy and production to sustain the counter.",
+        "rule_id": "R02",
+        "title": "Counter enemy composition",
+        "when": "When enemy intelligence reveals a significant air presence (e.g., Mutalisks) or heavy ground (e.g., Roaches) that threatens your current army composition."
+      },
+      {
+        "check": "Recheck at next decision cycle: army supply should be above 15, bank reduced, and threat mitigated.",
+        "correction": "Immediately convert bank into army and production. Prioritize building units from existing structures and adding production if needed. Do not expand or tech until army supply is above 15 and bank is reduced. If threatened, reinforce defenses with static structures (e.g., Spore Crawlers) and units.",
+        "rule_id": "R03",
+        "title": "Recover from low army and high bank",
+        "when": "When army supply is below 15, bank is above 1000, and predicted advantage is OverwhelmingDisadvantage, or when owned zones are threatened."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "ZvZ_O06",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "4bc24b5e9f92075db3e3eab94b025837af6ec1b31b90d7c9c323d19e0f21baaa",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 2,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 0.7,
+            "bank": 2053.8,
+            "bases": 1.8,
+            "production": 1.8,
+            "supply_providers": 4.4,
+            "workers": 31.0
+          },
+          "300": {
+            "army_supply": 2.2,
+            "bank": 3071.1,
+            "bases": 2.1,
+            "production": 2.1,
+            "supply_providers": 5.9,
+            "workers": 36.4
+          },
+          "360": {
+            "army_supply": 4.4,
+            "bank": 4271.2,
+            "bases": 2.0,
+            "production": 2.0,
+            "supply_providers": 7.5,
+            "workers": 38.3
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.693,
+          "average_bank": 3327.4,
+          "consume_per_min": 614.5
+        },
+        "defeats_with_three_or_more_supply_entries": 10,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 12,
+          "Tie": 4,
+          "Victory": 4
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

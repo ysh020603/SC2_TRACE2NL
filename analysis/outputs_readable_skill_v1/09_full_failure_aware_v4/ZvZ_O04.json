@@ -1,0 +1,129 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Recheck at next decision cycle.",
+        "correction": "If army_supply < 15, prioritize building army units from existing production structures; if production is idle or insufficient, add a production structure (e.g., Hatchery or Roach Warren) if prerequisites are met. If bank >= 800 and production is active, queue additional army units to convert resources. Do not expand unless army_supply >= 15 and production is sufficient.",
+        "rule_id": "R01",
+        "title": "Maintain production tempo and convert bank into army",
+        "when": "Time >= 240 and (army_supply < 15 or (bank >= 800 and (production_idle or production < 2))) and not (predicted_advantage == OverwhelmingDisadvantage)"
+      },
+      {
+        "check": "Recheck at next decision cycle.",
+        "correction": "If enemy has Roach cues, ensure you have Roach or Hydralisk production and add a Roach Warren or Hydralisk Den if prerequisites are met. If enemy has Mutalisk cues, add anti-air units (e.g., Hydralisks or Spore Crawlers) and consider transitioning to air if economy allows. Maintain ground army strength while teching.",
+        "rule_id": "R02",
+        "title": "Adapt ground composition to enemy tech and air cues",
+        "when": "Enemy intelligence shows ground posture with Roach cues or air presence with Mutalisk cues, and current army lacks appropriate counters."
+      },
+      {
+        "check": "Recheck at next decision cycle.",
+        "correction": "Immediately convert bank into army by queuing units from existing production and adding production structures if needed. Prioritize defensive units and static defense if threatened. Do not expand or tech until army_supply >= 15 and production is active.",
+        "rule_id": "R03",
+        "title": "Recover from low army and high bank",
+        "when": "army_supply < 15 and bank >= 1000 and (production_idle or production < 2) and (predicted_advantage == OverwhelmingDisadvantage or threatened_owned_zones)"
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "ZvZ_O04",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "e3721233bfcd50b8c42d246f380ec915ad8f0545bea7f17ac653b417e72ba398",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 2,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 0.7,
+            "bank": 2053.8,
+            "bases": 1.8,
+            "production": 1.8,
+            "supply_providers": 4.4,
+            "workers": 31.0
+          },
+          "300": {
+            "army_supply": 2.2,
+            "bank": 3071.1,
+            "bases": 2.1,
+            "production": 2.1,
+            "supply_providers": 5.9,
+            "workers": 36.4
+          },
+          "360": {
+            "army_supply": 4.4,
+            "bank": 4271.2,
+            "bases": 2.0,
+            "production": 2.0,
+            "supply_providers": 7.5,
+            "workers": 38.3
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.693,
+          "average_bank": 3327.4,
+          "consume_per_min": 614.5
+        },
+        "defeats_with_three_or_more_supply_entries": 10,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 12,
+          "Tie": 4,
+          "Victory": 4
+        }
+      },
+      "opening": {
+        "decision_error_total": 2,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 0.0,
+            "bank": 2915.0,
+            "bases": 1.0,
+            "production": 1.0,
+            "supply_providers": 2.0,
+            "workers": 27.0
+          },
+          "300": {
+            "army_supply": 0.0,
+            "bank": 4085.0,
+            "bases": 1.0,
+            "production": 1.0,
+            "supply_providers": 2.0,
+            "workers": 27.0
+          },
+          "360": {
+            "army_supply": 0.0,
+            "bank": 5250.0,
+            "bases": 1.0,
+            "production": 1.0,
+            "supply_providers": 2.0,
+            "workers": 27.0
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 1.082,
+          "average_bank": 3688.3,
+          "consume_per_min": 162.5
+        },
+        "defeats_with_three_or_more_supply_entries": 1,
+        "direct_matches": 4,
+        "outcome_counts_private": {
+          "Defeat": 1,
+          "Tie": 2,
+          "Victory": 1
+        }
+      },
+      "scope_note_private": "opening-specific plus race evidence"
+    }
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Focus on increasing production and technology while maintaining a safe economy. Scout to clarify the opponent's intentions.",
+        "lesson_id": "L01",
+        "mistake": "Assuming the enemy's build without scouting and neglecting defense while teching.",
+        "recheck": "Recheck when you have more information about the opponent's army composition or if you face early pressure.",
+        "target_node_id": "N002",
+        "title": "Avoid blind teching without scouting",
+        "when": "Early game around 180 seconds, when you have heavy economy and technology investment but unknown enemy composition, with possible Reapers and Marines.",
+        "why": "Early game is about establishing a strong foundation. Heavy technology investment can pay off later, but you need to be aware of potential early pressure."
+      },
+      {
+        "correction": "Continue strengthening your ground army while maintaining air support from Void Rays. Increase production and technology, and consider adding more air units if the opponent lacks anti-air.",
+        "lesson_id": "L02",
+        "mistake": "Neglecting ground defense and failing to exploit your air advantage.",
+        "recheck": "Recheck if the opponent adapts with anti-air or if you need to adjust your composition.",
+        "target_node_id": "N004",
+        "title": "Leverage Void Rays against ground-heavy enemy",
+        "when": "Late midgame around 600 seconds, when you have a ground-oriented army with Void Rays and the opponent shows a ground posture with Marines, Reapers, Marauders, and Hellions.",
+        "why": "The opponent's ground army is strong, but your Void Rays provide an advantage if they lack anti-air. You can leverage this to gain map control."
+      },
+      {
+        "correction": "Focus on increasing production and technology while maintaining a safe economy. Scout to confirm the opponent's build.",
+        "lesson_id": "L03",
+        "mistake": "Over-committing to defense at the expense of economy and neglecting scouting for tech switches or all-ins.",
+        "recheck": "Recheck when you have more information about the opponent's army composition or if you face early pressure.",
+        "target_node_id": "N005",
+        "title": "Prepare for bio-based army while expanding",
+        "when": "Early game around 180 seconds, when you have an unknown army composition, heavy economy, and are expanding, while the opponent shows a ground posture with Marines and Marauders.",
+        "why": "The opponent's ground posture with Marines and Marauders suggests a bio-based army. You need to prepare for that with appropriate units and upgrades."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "PvT_O07",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "PvT_O07:N002->PvT_O07:N002",
+      "PvT_O07:N004->PvT_O07:N004",
+      "PvT_O01:N004->PvT_O07:N005"
+    ],
+    "source_digest": "9803b46714b7a00d13f9be938660fb96256eff373b6a0c9b89cbebce2dfcf8ab",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

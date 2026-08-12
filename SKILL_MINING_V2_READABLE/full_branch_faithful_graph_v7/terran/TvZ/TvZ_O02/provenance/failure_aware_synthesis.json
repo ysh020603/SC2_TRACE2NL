@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Recheck at next decision cycle.",
+        "correction": "Queue units from existing production structures, prioritizing Marines and Marauders. If no production structures exist, build a Barracks with a Reactor if prerequisites allow. If supply is not blocked and bank remains high, add a second Barracks or Factory. Do not expand until army supply is at least 15 and production is active.",
+        "rule_id": "R01",
+        "title": "Production Tempo and Bank Conversion",
+        "when": "At any time, if bank is above 800 minerals and production is below 3 active structures, or if army supply is below 15 and bank is above 1000."
+      },
+      {
+        "check": "Recheck at next decision cycle.",
+        "correction": "If Roaches or Hydralisks are present, add Marauders and Siege Tanks. If Zerglings are the main threat, ensure Hellions or Widow Mines are available. Continue producing Marines as core. If Factory is not built, construct one with a Tech Lab for Siege Tanks. Maintain at least 2 production structures per base.",
+        "rule_id": "R02",
+        "title": "Counter Zerg Ground Composition",
+        "when": "Enemy Intelligence shows Zergling, Roach, or Hydralisk, and own army lacks sufficient anti-ground or anti-armor units."
+      },
+      {
+        "check": "Recheck at next decision cycle.",
+        "correction": "Immediately queue units from all available production structures, prioritizing combat units. If production is insufficient, build additional Barracks or Factories. Do not spend on expansions or technology until army supply is at least 20 and bank is below 500. If supply is blocked, add a supply depot.",
+        "rule_id": "R03",
+        "title": "Recovery from Low Army and High Bank",
+        "when": "Army supply is below 15, bank is above 1500, or predicted advantage is OverwhelmingDisadvantage."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "TvZ_O02",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "55345815ae8c1220dfd80edadd1472bde8fe4a57a89fb22684cbee4195f8ced2",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 0,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 3.8,
+            "bank": 1234.6,
+            "bases": 1.4,
+            "production": 1.2,
+            "supply_providers": 6.1,
+            "workers": 24.7
+          },
+          "300": {
+            "army_supply": 7.6,
+            "bank": 1865.2,
+            "bases": 1.5,
+            "production": 1.6,
+            "supply_providers": 6.8,
+            "workers": 27.8
+          },
+          "360": {
+            "army_supply": 7.5,
+            "bank": 2289.6,
+            "bases": 1.6,
+            "production": 2.2,
+            "supply_providers": 7.6,
+            "workers": 27.8
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.435,
+          "average_bank": 2389.3,
+          "consume_per_min": 573.2
+        },
+        "defeats_with_three_or_more_supply_entries": 9,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 13,
+          "Tie": 3,
+          "Victory": 4
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Focus on developing economy and tech while maintaining production. Strengthen ground army as a baseline.",
+        "lesson_id": "L01",
+        "mistake": "Committing to a large army before knowing the opponent's plan, or over-expanding without defense.",
+        "recheck": "Recheck when you have more information about enemy composition or when you reach a tech milestone.",
+        "target_node_id": "N002",
+        "title": "Avoid premature army commitment",
+        "when": "Early game, around 180 seconds, with unknown enemy posture and heavy tech investment.",
+        "why": "Early game is about establishing a strong economy and tech base. A ground-oriented army provides flexibility against unknown enemy tech."
+      },
+      {
+        "correction": "Continue strengthening ground army and increase production. Maintain expansion and tech progression.",
+        "lesson_id": "L02",
+        "mistake": "Neglecting defense while expanding, or committing to a single tech path without information.",
+        "recheck": "Recheck when enemy tech becomes apparent or when you have a significant army advantage.",
+        "target_node_id": "N003",
+        "title": "Balance expansion with defense",
+        "when": "Early-midgame, around 240 seconds, with ground-oriented posture and heavy production.",
+        "why": "Heavy production allows a strong ground army. Continuing to expand and tech gives a long-term advantage."
+      },
+      {
+        "correction": "Maintain defensive posture while continuing to develop ground army. Increase economy and tech.",
+        "lesson_id": "L03",
+        "mistake": "Continuing to expand and tech without reinforcing the army, assuming the enemy is passive.",
+        "recheck": "Recheck when enemy tech direction becomes clearer or when you have a sufficient army to push.",
+        "target_node_id": "N005",
+        "title": "Maintain defense while developing",
+        "when": "Early-midgame, around 360 seconds, with ground-oriented posture and enemy ground cues.",
+        "why": "Siege Tanks provide strong defensive capabilities against ground pushes. Maintaining defense while expanding gives a safe economy."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "TvP_O01",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "TvP_O01:N002->TvP_O01:N002",
+      "TvP_O01:N003->TvP_O01:N003",
+      "TvP_O04:N002->TvP_O01:N005"
+    ],
+    "source_digest": "5f5f8a51794916a9bb39ca7c842b3f882bbf3b3f45c7aec5889f51aceec3bf09",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

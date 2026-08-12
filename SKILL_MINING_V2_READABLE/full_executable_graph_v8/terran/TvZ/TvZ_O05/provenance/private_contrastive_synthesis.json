@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Stabilize then develop, increase production, maintain ground strength.",
+        "lesson_id": "L01",
+        "mistake": "Risky aggression or overexpansion without sufficient army strength or defense.",
+        "recheck": "Recheck when map control or opponent intentions are clearer.",
+        "target_node_id": "N004",
+        "title": "Stabilize before expanding",
+        "when": "Early-midgame, own ground army with heavy production and tech, opponent ground with light air.",
+        "why": "Ensure safety before expanding further, leveraging tech advantage."
+      },
+      {
+        "correction": "Increase air presence, strengthen ground army, continue tech and production.",
+        "lesson_id": "L02",
+        "mistake": "Over-investing in air without proper scouting, or neglecting upgrades.",
+        "recheck": "Recheck when opponent tech or air presence changes.",
+        "target_node_id": "N002",
+        "title": "Add air flexibility while maintaining ground",
+        "when": "Midgame, own ground army with heavy production and tech, opponent heavy ground with possible air.",
+        "why": "Maintain ground dominance while adding air flexibility to counter potential tech switches."
+      },
+      {
+        "correction": "Increase defense, continue tech, strengthen ground army.",
+        "lesson_id": "L03",
+        "mistake": "Neglecting anti-air, as Mutalisks can harass.",
+        "recheck": "Recheck when opponent tech or army composition is known.",
+        "target_node_id": "N007",
+        "title": "Prepare defense for late-game",
+        "when": "Late-midgame, own heavy ground army, opponent heavy ground with possible air.",
+        "why": "Prepare for potential late-game engagements with solid defense."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "TvZ_O05",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "TvZ_O05:N004->TvZ_O05:N004",
+      "TvZ_O01:N005->TvZ_O05:N002",
+      "TvZ_O03:N005->TvZ_O05:N007"
+    ],
+    "source_digest": "a072a9a5732b4e5caaf2bf7c6063f14d3dc844acbd1fd595b9d2a733d6fe9c07",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

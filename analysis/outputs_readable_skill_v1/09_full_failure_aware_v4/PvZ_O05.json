@@ -1,0 +1,98 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "At next decision cycle, verify that Cybernetics Core is completed or under construction, at least one defensive structure exists, and Gateway count is at least 2. Ensure worker count is at least 26 by 4:00 and 32 by 5:00. If bank is high, confirm production is not idle.",
+        "correction": "Prioritize completing a Cybernetics Core and a defensive structure (e.g., Shield Battery or Photon Cannon) if prerequisites are met. Queue 2-3 Stalkers or Zealots from Gateways, ensuring Warp Gate research is started if available. Keep worker production continuous toward 2-base saturation (about 32-40 workers). If bank exceeds 400 minerals and 200 gas, add a Gateway or Forge to convert resources into production capacity. Do not expand beyond 2 bases until army supply is at least 15 and production is active.",
+        "rule_id": "R01",
+        "title": "Maintain Tech and Defense Tempo",
+        "when": "Early game (before 5:00) with heavy technology investment, moderate production, and heavy defense posture. Own army composition unknown. Enemy shows ground posture with Zergling and Queen cues, moderate production, light technology."
+      },
+      {
+        "check": "At next decision cycle, confirm that appropriate tech structures (Robotics Facility or Stargate) are completed or under construction. Verify army supply is at least 30 by 6:00 and 45 by 8:00. Ensure at least 2 defensive structures at each base if threat flags are high.",
+        "correction": "If enemy has Roaches or Hydralisks, prioritize Immortal or Colossus tech (e.g., Robotics Facility and Robotics Bay) if prerequisites are met. Add 1-2 Shield Batteries at natural and third base if threatened. Queue Zealots and Stalkers to maintain a mixed ground army. If enemy has Mutalisks (air threat), add 2-3 Phoenixes or a Stalker-heavy composition with Blink. Keep worker count at 3-base saturation (about 48-54 workers) and expand to a third base only if army supply is above 15 and production is active. Convert excess bank (over 1000 minerals/gas) into additional Gateways or tech structures.",
+        "rule_id": "R02",
+        "title": "Counter Ground Swarm with Tech and Defense",
+        "when": "Midgame (after 5:00) when enemy intelligence shows a ground-heavy composition with Zerglings, Roaches, or Hydralisks, and moderate to heavy production. Own army is ground-oriented with Stalkers and Oracles, heavy production and tech."
+      },
+      {
+        "check": "At next decision cycle, verify that all Gateways are producing or have queued units. Confirm army supply has increased by at least 10 from the previous cycle. If bank remains high, add more production. Reassess threat level and adjust composition accordingly.",
+        "correction": "Immediately queue units from all available Gateways, prioritizing Zealots and Stalkers. If Warp Gate is researched, warp in a round of units at a proxy pylon near the threatened base. If production is idle, add Gateways (up to 4-6 total) to convert bank into army. Do not expand or tech further until army supply is at least 30. If enemy has air units, include Stalkers or Phoenixes. If enemy has ground swarm, include Colossi or Immortals if tech is available. Keep workers at current base saturation; do not transfer workers to new bases.",
+        "rule_id": "R03",
+        "title": "Recover from Low Army and High Bank",
+        "when": "Any time when army supply is below 15, bank exceeds 1000 minerals and 500 gas, or predicted advantage is OverwhelmingDisadvantage. Also if owned bases are threatened and production is insufficient."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "PvZ_O05",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "aa93f8f8294112771540197d21bed18c829f5be755a8545c292eaaf43247b0b7",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 1,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 6.0,
+            "bank": 915.2,
+            "bases": 1.2,
+            "production": 1.5,
+            "supply_providers": 5.8,
+            "workers": 26.0
+          },
+          "300": {
+            "army_supply": 12.5,
+            "bank": 1365.2,
+            "bases": 1.5,
+            "production": 2.5,
+            "supply_providers": 6.8,
+            "workers": 29.5
+          },
+          "360": {
+            "army_supply": 14.5,
+            "bank": 2029.2,
+            "bases": 2.0,
+            "production": 3.0,
+            "supply_providers": 7.5,
+            "workers": 32.0
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.437,
+          "average_bank": 1995.2,
+          "consume_per_min": 816.3
+        },
+        "defeats_with_three_or_more_supply_entries": 3,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 4,
+          "Tie": 1,
+          "Victory": 15
+        }
+      },
+      "opening": {
+        "decision_error_total": 0,
+        "defeat_checkpoints": {},
+        "defeat_macro_average": {},
+        "defeats_with_three_or_more_supply_entries": 0,
+        "direct_matches": 4,
+        "outcome_counts_private": {
+          "Victory": 4
+        }
+      },
+      "scope_note_private": "opening-specific plus race evidence"
+    }
+  },
+  "schema_version": 1
+}

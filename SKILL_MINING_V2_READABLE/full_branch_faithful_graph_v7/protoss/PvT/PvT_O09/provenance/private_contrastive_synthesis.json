@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Continue strengthening ground army and tech, but maintain defense and consider adding tech units to prepare for a decisive engagement.",
+        "lesson_id": "L01",
+        "mistake": "Passively strengthening ground and tech without pushing or scouting, allowing the enemy to amass a large force.",
+        "recheck": "Re-evaluate when you see a clear Terran tech switch or when you are ready to push.",
+        "target_node_id": "N003",
+        "title": "Avoid passive ground buildup",
+        "when": "Late midgame, heavy economy and production, facing Terran ground with heavy tech and moderate air.",
+        "why": "Your heavy economy supports both army and tech, giving you an advantage if you stay active and ready."
+      },
+      {
+        "correction": "Focus on increasing economy and production while developing technology, and maintain current expansion to prepare for midgame.",
+        "lesson_id": "L02",
+        "mistake": "Over-committing to a specific tech path without scouting, risking vulnerability to early pressure or wrong composition.",
+        "recheck": "Re-evaluate when you have a clear read on Terran composition or when ready to expand.",
+        "target_node_id": "N004",
+        "title": "Avoid over-committing to tech without scouting",
+        "when": "Early game, heavy economy, moderate production, facing Terran with unknown posture but heavy tech.",
+        "why": "A strong economy and tech foundation early pays off, and the Terran's heavy tech suggests strong units you need to match."
+      },
+      {
+        "correction": "Increase economy and production, continue strengthening ground army, and consider expanding while maintaining current defense.",
+        "lesson_id": "L03",
+        "mistake": "Over-extending economy without proper defense, leaving you vulnerable to harassment like Reapers.",
+        "recheck": "Re-evaluate when you have secured a third base or detect a change in Terran strategy.",
+        "target_node_id": "N002",
+        "title": "Avoid over-extending economy without defense",
+        "when": "Early midgame, heavy economy and production, facing Terran ground with heavy tech.",
+        "why": "Investing in tech and economy now gives a strong midgame, and you need to match the Terran's heavy tech."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "PvT_O09",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "PvT_O09:N003->PvT_O09:N003",
+      "PvT_O09:N004->PvT_O09:N004",
+      "PvT_O03:N002->PvT_O09:N002"
+    ],
+    "source_digest": "f3d633fc417b5dd889663bbd9857731bc0929bad9dc91dbb33c30460512ce9e6",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

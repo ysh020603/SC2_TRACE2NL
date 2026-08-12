@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Next decision cycle, verify bank is below 1500 minerals and 300 gas, and that active production structures are at least 3 or army supply has increased by at least 10.",
+        "correction": "Spend bank on additional Hatcheries or tech structures if prerequisites are met, and queue units from all Hatcheries. Prioritize Zerglings and Roaches to keep ground army strength. Do not expand unless army supply is at least 15 and production is sufficient.",
+        "rule_id": "R01",
+        "title": "Maintain production tempo and convert bank into army",
+        "when": "At any time, if bank is above 2500 minerals and 500 gas, or if active production structures are fewer than 3 and army supply is below 30, or if supply is not blocked and larvae are available."
+      },
+      {
+        "check": "Next decision cycle, confirm that anti-air or anti-ground units are in production or queued, and that your tech structures are progressing.",
+        "correction": "If air threat is detected, tech to Spire and start producing Mutalisks or Corruptors while maintaining ground forces. If ground heavy, ensure Roach Warren is available and produce Roaches. Continue expanding and upgrading to keep pace with enemy tech.",
+        "rule_id": "R02",
+        "title": "Adapt to Protoss air or ground composition",
+        "when": "If enemy intelligence reveals a significant air presence (e.g., Void Rays, Oracles, Phoenixes) or a heavy ground composition with Stalkers and Sentries, and your army lacks appropriate counters."
+      },
+      {
+        "check": "Next decision cycle, verify army supply has increased by at least 10 and bank is below 1000 minerals, or threat flags are cleared.",
+        "correction": "Immediately spend bank on army production: queue Zerglings and Roaches from all Hatcheries, and if possible, add a Spine Crawler at threatened bases. Do not expand or tech up until army supply is at least 30 and threat is mitigated.",
+        "rule_id": "R03",
+        "title": "Recover from low army and high bank",
+        "when": "If army supply is below 15 and bank is above 2000 minerals, or if predicted advantage is OverwhelmingDisadvantage, or if any owned base is threatened."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "ZvP_O03",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "4bc24b5e9f92075db3e3eab94b025837af6ec1b31b90d7c9c323d19e0f21baaa",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 2,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 0.7,
+            "bank": 2053.8,
+            "bases": 1.8,
+            "production": 1.8,
+            "supply_providers": 4.4,
+            "workers": 31.0
+          },
+          "300": {
+            "army_supply": 2.2,
+            "bank": 3071.1,
+            "bases": 2.1,
+            "production": 2.1,
+            "supply_providers": 5.9,
+            "workers": 36.4
+          },
+          "360": {
+            "army_supply": 4.4,
+            "bank": 4271.2,
+            "bases": 2.0,
+            "production": 2.0,
+            "supply_providers": 7.5,
+            "workers": 38.3
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.693,
+          "average_bank": 3327.4,
+          "consume_per_min": 614.5
+        },
+        "defeats_with_three_or_more_supply_entries": 10,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 12,
+          "Tie": 4,
+          "Victory": 4
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

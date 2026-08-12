@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Focus on economy and expansion, but start building up production and army. Maintain a defensive posture.",
+        "lesson_id": "L01",
+        "mistake": "Continuing to expand and strengthen ground army without first building up production and scouting, leaving you vulnerable to early aggression.",
+        "recheck": "Recheck when you have more information about the opponent's composition.",
+        "target_node_id": "N002",
+        "title": "Avoid over-expanding without army support",
+        "when": "Early game, around 180 seconds, when you have a heavy economy and expansion but light production and tech, and opponent's posture is unknown.",
+        "why": "Your economy is strong, so you can afford to expand and tech. The opponent's unknown posture means you should be cautious."
+      },
+      {
+        "correction": "Increase your economy and tech, while maintaining your production and expansion. Keep a defensive posture.",
+        "lesson_id": "L02",
+        "mistake": "Increasing economy and tech without scouting, potentially leaving you unprepared for the opponent's strategy and neglecting army production.",
+        "recheck": "Recheck when you have more scouting information.",
+        "target_node_id": "N004",
+        "title": "Avoid blind teching without scouting",
+        "when": "Early midgame, around 240 seconds, when you have a heavy economy and expansion but light production and tech, and opponent's posture is unknown.",
+        "why": "Your economy is strong, so you can invest in tech. The opponent's unknown posture means you should be cautious."
+      },
+      {
+        "correction": "Increase your economy, production, and expansion, while continuing to develop your ground army. Consider adding anti-air.",
+        "lesson_id": "L03",
+        "mistake": "Continuing to strengthen ground army and expand without adding anti-air, leaving you vulnerable to the opponent's air units.",
+        "recheck": "Recheck when you have more information about the opponent's air composition.",
+        "target_node_id": "N008",
+        "title": "Avoid neglecting ground defense against air-heavy opponent",
+        "when": "Midgame, around 540 seconds, when you have a heavy economy, production, expansion, and tech, and opponent has an air posture with heavy production and tech.",
+        "why": "The opponent's air threat requires a response, so you need to prepare anti-air while maintaining your economy."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "ZvP_O07",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "ZvP_O07:N002->ZvP_O07:N002",
+      "ZvP_O07:N004->ZvP_O07:N004",
+      "ZvP_O07:N008->ZvP_O07:N008"
+    ],
+    "source_digest": "342ab89f4a86a57c401b75f47ec2d3c6c60b26259dfcb2b4d2717b9a5d155239",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

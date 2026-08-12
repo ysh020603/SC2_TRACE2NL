@@ -1,0 +1,598 @@
+{
+  "annotation": {
+    "phase_policies": [
+      {
+        "applies_when": "At around 180 seconds, you have a moderate ground army with Marines, heavy economy, and heavy tech. The opponent shows a ground posture with Zealots, moderate production, and heavy tech.",
+        "live_check": "Recheck when you see the opponent's tech choice or if they apply early pressure.",
+        "phase": "early_game",
+        "routing_summary": "Develop economy and tech, strengthen ground, maintain defense, scout for tech.",
+        "target": "Maintain defensive posture while continuing to expand and tech. Strengthen ground army with additional Marines and possibly Marauders. Keep scouting for tech switches.",
+        "title": "Early Ground Defense and Economy",
+        "veto": "Do not overcommit to a tech switch or abandon ground defense based on incomplete enemy information."
+      },
+      {
+        "applies_when": "At around 240 seconds, you have a heavy economy, heavy production, and heavy tech investment. Your army is ground-oriented with Reapers. The opponent shows a ground posture with Stalkers, moderate production, and heavy tech.",
+        "live_check": "Recheck when you see a tech switch (e.g., Phoenix, Oracle, or Colossus) or when the opponent's army size becomes threatening.",
+        "phase": "early_midgame",
+        "routing_summary": "Develop economy and tech, strengthen ground, add production, maintain defense, scout.",
+        "target": "Continue developing economy and tech. Strengthen ground army composition. Consider adding production structures to support a larger army. Maintain defensive positioning while scouting for tech switches.",
+        "title": "Ground Macro with Heavy Tech",
+        "veto": "Do not overcommit to a tech switch or abandon ground defense based on incomplete enemy information."
+      },
+      {
+        "applies_when": "At around 540 seconds, you have a heavy ground army with Siege Tanks, Marines, Reapers, and Hellions. Your economy and tech are heavy. The opponent has a ground army with Stalkers, Sentries, Observers, and Immortals, and heavy production.",
+        "live_check": "Recheck if the opponent transitions to heavy air (e.g., Phoenix, Void Rays) or if you need to respond to a specific threat.",
+        "phase": "midgame",
+        "routing_summary": "Increase air, strengthen ground, add Medivacs, maintain economy.",
+        "target": "Increase air presence to gain mobility and support ground army. Continue strengthening ground composition. Consider adding Medivacs for healing and drops. Maintain economic growth.",
+        "title": "Ground Army with Air Transition",
+        "veto": "Do not overcommit to air transition without ensuring ground army strength and economy."
+      },
+      {
+        "applies_when": "At around 600 seconds, you have a heavy ground army with Siege Tanks, Marines, and Medivacs. Your economy and tech are heavy. The opponent has a ground army with Stalkers, Sentries, Observers, and Immortals, and heavy production.",
+        "live_check": "Recheck when you have a decisive army advantage or if the opponent makes a tech switch.",
+        "phase": "late_midgame",
+        "routing_summary": "Stabilize, increase defense, maintain army, continue economy, add Medivacs.",
+        "target": "Focus on stabilizing your position. Increase defensive structures and maintain army strength. Continue economic growth but prioritize safety. Consider adding more Medivacs for sustain.",
+        "title": "Stabilization and Defense",
+        "veto": "Do not overcommit to expansion or tech while neglecting defense and army safety."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_trajectory_fusion_graph_v5",
+  "opening_id": "TvP_O07",
+  "private_inputs": {
+    "agent_visible": false,
+    "experiment_feedback": {
+      "global": {
+        "v3": {
+          "VTD": [
+            23,
+            8,
+            29
+          ],
+          "apu": 0.58,
+          "bank": 2625.63,
+          "consume": 887.43,
+          "decision_errors": 3,
+          "duration": 814.29,
+          "invalid_buckets": {
+            "graph_phase_refresh": 86,
+            "idle_producer_overbuild": 32,
+            "initial_skill_read": 59,
+            "missing_gas_prerequisite": 5,
+            "other": 65,
+            "response_protocol": 20,
+            "supply_queue": 172
+          },
+          "invalid_rounds": 439,
+          "max_queue_mean": 34.37,
+          "max_supply_queue_ge3": 45,
+          "n": 60,
+          "queue_mix_pct": {
+            "bases": 1.2,
+            "production": 2.25,
+            "supply": 9.7,
+            "tech": 1.09,
+            "workers": 20.2
+          },
+          "score": 0.45
+        },
+        "v4": {
+          "VTD": [
+            24,
+            6,
+            30
+          ],
+          "apu": 0.61,
+          "bank": 2310.45,
+          "consume": 765.97,
+          "decision_errors": 10,
+          "duration": 788.15,
+          "invalid_buckets": {
+            "graph_phase_refresh": 99,
+            "idle_producer_overbuild": 26,
+            "initial_skill_read": 60,
+            "missing_gas_prerequisite": 16,
+            "other": 58,
+            "response_protocol": 26,
+            "supply_queue": 195
+          },
+          "invalid_rounds": 480,
+          "max_queue_mean": 29.95,
+          "max_supply_queue_ge3": 30,
+          "n": 60,
+          "queue_mix_pct": {
+            "bases": 0.85,
+            "production": 2.36,
+            "supply": 8.33,
+            "tech": 0.82,
+            "workers": 16.96
+          },
+          "score": 0.45
+        }
+      },
+      "matchup": {
+        "v3": {
+          "VTD": [
+            0,
+            2,
+            6
+          ],
+          "apu": 0.44,
+          "bank": 2148.76,
+          "consume": 566.01,
+          "decision_errors": 0,
+          "duration": 962.5,
+          "invalid_buckets": {
+            "graph_phase_refresh": 13,
+            "idle_producer_overbuild": 1,
+            "initial_skill_read": 8,
+            "other": 10,
+            "supply_queue": 12
+          },
+          "invalid_rounds": 44,
+          "max_queue_mean": 33.38,
+          "max_supply_queue_ge3": 4,
+          "n": 8,
+          "queue_mix_pct": {
+            "bases": 1.04,
+            "production": 2.28,
+            "supply": 7.12,
+            "tech": 0.46,
+            "workers": 14.53
+          },
+          "score": 0.125
+        },
+        "v4": {
+          "VTD": [
+            5,
+            0,
+            3
+          ],
+          "apu": 0.61,
+          "bank": 1991.75,
+          "consume": 749.88,
+          "decision_errors": 3,
+          "duration": 859.77,
+          "invalid_buckets": {
+            "graph_phase_refresh": 15,
+            "idle_producer_overbuild": 1,
+            "initial_skill_read": 8,
+            "other": 11,
+            "response_protocol": 4,
+            "supply_queue": 24
+          },
+          "invalid_rounds": 63,
+          "max_queue_mean": 35.88,
+          "max_supply_queue_ge3": 4,
+          "n": 8,
+          "queue_mix_pct": {
+            "bases": 0.9,
+            "production": 2.47,
+            "supply": 7.36,
+            "tech": 0.28,
+            "workers": 9.73
+          },
+          "score": 0.625
+        }
+      },
+      "opening": {
+        "v3": {},
+        "v4": {}
+      },
+      "race": {
+        "v3": {
+          "VTD": [
+            4,
+            3,
+            13
+          ],
+          "apu": 0.46,
+          "bank": 2688.7,
+          "consume": 626.04,
+          "decision_errors": 0,
+          "duration": 902.57,
+          "invalid_buckets": {
+            "graph_phase_refresh": 33,
+            "idle_producer_overbuild": 4,
+            "initial_skill_read": 20,
+            "other": 28,
+            "response_protocol": 7,
+            "supply_queue": 32
+          },
+          "invalid_rounds": 124,
+          "max_queue_mean": 35.6,
+          "max_supply_queue_ge3": 13,
+          "n": 20,
+          "queue_mix_pct": {
+            "bases": 0.81,
+            "production": 2.93,
+            "supply": 7.28,
+            "tech": 0.45,
+            "workers": 12.21
+          },
+          "score": 0.275
+        },
+        "v4": {
+          "VTD": [
+            9,
+            4,
+            7
+          ],
+          "apu": 0.6,
+          "bank": 2518.7,
+          "consume": 782.81,
+          "decision_errors": 3,
+          "duration": 932.77,
+          "invalid_buckets": {
+            "graph_phase_refresh": 36,
+            "idle_producer_overbuild": 5,
+            "initial_skill_read": 20,
+            "missing_gas_prerequisite": 1,
+            "other": 29,
+            "response_protocol": 18,
+            "supply_queue": 65
+          },
+          "invalid_rounds": 174,
+          "max_queue_mean": 34.05,
+          "max_supply_queue_ge3": 6,
+          "n": 20,
+          "queue_mix_pct": {
+            "bases": 0.57,
+            "production": 2.62,
+            "supply": 6.42,
+            "tech": 0.28,
+            "workers": 10.3
+          },
+          "score": 0.55
+        }
+      },
+      "use_boundary": "Prioritize execution risks only; never infer the strategic target from agent outcomes."
+    },
+    "experiment_feedback_digest": "717efee68f82bd8d2f4793564aba3fd4387d0bc6e4416028ced1d3c0a11314ca",
+    "human_evidence_digest": "d6fa02779dfe3337b3f414723645fed6d2c65325a84b4c3f29d93329bee2d98b",
+    "human_phase_evidence": [
+      {
+        "adverse_aggregate_nodes": [],
+        "phase": "early_game",
+        "preferred_aggregate_nodes": [
+          {
+            "annotated_direction": "Maintain your defensive posture while continuing to expand and tech. Strengthen your ground army with additional Marines and possibly Marauders. Keep scouting for tech switches.",
+            "annotated_recheck": "Recheck when you see the opponent's tech choice or if they apply early pressure.",
+            "annotated_trigger": "At around 180 seconds, you have a moderate ground army with Marines, heavy economy, and heavy tech. The opponent shows a ground posture with Zealots, moderate production, and heavy tech.",
+            "frequency": 0.4872,
+            "node_id": "N003",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zealot. Production appears moderate, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "continue",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 76
+          },
+          {
+            "annotated_direction": "Continue developing your economy and tech. Maintain a defensive posture while scouting to determine the opponent's plan. Expand cautiously.",
+            "annotated_recheck": "Recheck when you have more scouting information or if the opponent reveals their tech.",
+            "annotated_trigger": "At around 180 seconds, you have a moderate ground army with Marines, heavy economy, and heavy tech. The opponent's posture is unknown, with a Sentry seen, moderate production.",
+            "frequency": 0.2667,
+            "node_id": "N007",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a unknown posture; representative observed or remembered cues may include Sentry. Production appears moderate, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "increase",
+              "production_direction": "continue",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 16
+          }
+        ]
+      },
+      {
+        "adverse_aggregate_nodes": [],
+        "phase": "early_midgame",
+        "preferred_aggregate_nodes": [
+          {
+            "annotated_direction": "Continue developing your economy and tech. Strengthen your ground army composition. Consider adding production structures to support a larger army. Maintain defensive positioning while scouting for tech switches.",
+            "annotated_recheck": "Recheck when you see a tech switch (e.g., Phoenix, Oracle, or Colossus) or when the opponent's army size becomes threatening.",
+            "annotated_trigger": "At around 240 seconds, you have a heavy economy, heavy production, and heavy tech investment. Your army is ground-oriented with Reapers. The opponent shows a ground posture with Stalkers, moderate production, and heavy tech.",
+            "frequency": 0.5985,
+            "node_id": "N001",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Stalker. Production appears moderate, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "increase",
+              "production_direction": "continue",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 389
+          },
+          {
+            "annotated_direction": "Maintain your ground army but start preparing anti-air. Consider adding Marines and possibly Thors or Vikings. Continue expanding and teching.",
+            "annotated_recheck": "Recheck when you see more air units (e.g., Phoenix, Void Rays) or if the opponent switches back to ground.",
+            "annotated_trigger": "At around 300 seconds, you have a heavy ground army with Marines. Your economy and tech are heavy. The opponent shows an air posture with Zealots and Oracles, heavy production.",
+            "frequency": 0.2169,
+            "node_id": "N006",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a air posture; representative observed or remembered cues may include Zealot, Oracle. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "continue",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 18
+          }
+        ]
+      },
+      {
+        "adverse_aggregate_nodes": [
+          {
+            "direction_to_avoid": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zealot, VoidRay. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "support": 25
+          },
+          {
+            "direction_to_avoid": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "continue",
+              "technology_direction": "increase",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "increase"
+            },
+            "opponent_cues": "Enemy Intelligence is consistent with a air posture; representative observed or remembered cues may include Zealot, Stalker, Phoenix, Observer. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "support": 12
+          },
+          {
+            "direction_to_avoid": {
+              "air_direction": "maintain",
+              "army_direction": "maintain_current_army_path",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "maintain",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "maintain",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zealot, VoidRay. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "support": 2
+          }
+        ],
+        "phase": "midgame",
+        "preferred_aggregate_nodes": [
+          {
+            "annotated_direction": "Increase your air presence to gain mobility and support your ground army. Continue strengthening your ground composition. Consider adding Medivacs for healing and drops. Maintain economic growth.",
+            "annotated_recheck": "Recheck if the opponent transitions to heavy air (e.g., Phoenix, Void Rays) or if you need to respond to a specific threat.",
+            "annotated_trigger": "At around 540 seconds, you have a heavy ground army with Siege Tanks, Marines, Reapers, and Hellions. Your economy and tech are heavy. The opponent has a ground army with Stalkers, Sentries, Observers, and Immortals, and heavy production.",
+            "frequency": 0.3527,
+            "node_id": "N002",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Stalker, Sentry, Observer, Immortal. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "increase",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "continue",
+              "technology_direction": "increase",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "continue"
+            },
+            "support": 91
+          },
+          {
+            "annotated_direction": "Maintain your ground army and continue to expand. Consider adding anti-air capabilities (e.g., Marines, Thors) to counter potential Void Rays. Keep scouting for further tech.",
+            "annotated_recheck": "Recheck if the opponent commits heavily to air or if you need to adjust your composition.",
+            "annotated_trigger": "At around 420 seconds, you have a heavy ground army with Siege Tanks, Marines, Hellions, and Medivacs. Your economy and tech are heavy. The opponent shows a ground posture with Zealots and Void Rays, heavy production.",
+            "frequency": 0.2,
+            "node_id": "N005",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zealot, VoidRay. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 25
+          },
+          {
+            "annotated_direction": "Increase your anti-air capabilities. Consider adding Thors, Vikings, or more Marines. Continue to strengthen your ground army and maintain economy.",
+            "annotated_recheck": "Recheck if the opponent transitions to more ground or if you need to adjust your composition.",
+            "annotated_trigger": "At around 480 seconds, you have a heavy ground army with Siege Tanks, Marines, Reapers, and Hellions. Your economy and tech are heavy. The opponent has a heavy air posture with Zealots, Stalkers, Phoenixes, and Observers.",
+            "frequency": 0.2308,
+            "node_id": "N008",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a air posture; representative observed or remembered cues may include Zealot, Stalker, Phoenix, Observer. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "continue",
+              "technology_direction": "increase",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "increase"
+            },
+            "support": 12
+          },
+          {
+            "annotated_direction": "Maintain your ground army but start adding anti-air units. Consider Vikings or Thors. Continue expanding and teching.",
+            "annotated_recheck": "Recheck if the opponent commits heavily to air or if you need to adjust your composition.",
+            "annotated_trigger": "At around 420 seconds, you have a heavy ground army with Marines. Your economy and tech are heavy. The opponent has an air posture with Zealots, Stalkers, Phoenixes, and Observers.",
+            "frequency": 0.2,
+            "node_id": "N009",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a air posture; representative observed or remembered cues may include Zealot, Stalker, Phoenix, Observer. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 10
+          },
+          {
+            "annotated_direction": "Maintain your current army path and continue to tech. Consider adding anti-air to counter Void Rays. Keep expanding.",
+            "annotated_recheck": "Recheck if the opponent commits heavily to air or if you need to adjust your composition.",
+            "annotated_trigger": "At around 420 seconds, you have a heavy ground army with Siege Tanks, Marines, and Reapers. Your economy and tech are heavy. The opponent shows a ground posture with Zealots and Void Rays, heavy production.",
+            "frequency": 0.2857,
+            "node_id": "N011",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zealot, VoidRay. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "maintain_current_army_path",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "maintain",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "maintain",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 2
+          }
+        ]
+      },
+      {
+        "adverse_aggregate_nodes": [],
+        "phase": "late_midgame",
+        "preferred_aggregate_nodes": [
+          {
+            "annotated_direction": "Focus on stabilizing your position. Increase defensive structures and maintain army strength. Continue economic growth but prioritize safety. Consider adding more Medivacs for sustain.",
+            "annotated_recheck": "Recheck when you have a decisive army advantage or if the opponent makes a tech switch.",
+            "annotated_trigger": "At around 600 seconds, you have a heavy ground army with Siege Tanks, Marines, and Medivacs. Your economy and tech are heavy. The opponent has a ground army with Stalkers, Sentries, Observers, and Immortals, and heavy production.",
+            "frequency": 0.2523,
+            "node_id": "N004",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Stalker, Sentry, Observer, Immortal. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "increase",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "continue",
+              "technology_direction": "continue",
+              "tempo": "stabilize_then_develop",
+              "upgrade_direction": "continue"
+            },
+            "support": 28
+          },
+          {
+            "annotated_direction": "Maintain your ground army and continue to expand. Consider adding more anti-air units (Thors, Vikings) to counter the air threat. Keep teching.",
+            "annotated_recheck": "Recheck if the opponent transitions to more ground or if you need to adjust your composition.",
+            "annotated_trigger": "At around 600 seconds, you have a heavy ground army with Siege Tanks, Marines, Reapers, and Hellions. Your economy and tech are heavy. The opponent has a heavy air posture with Zealots, Stalkers, Phoenixes, and Observers.",
+            "frequency": 0.2727,
+            "node_id": "N010",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a air posture; representative observed or remembered cues may include Zealot, Stalker, Phoenix, Observer. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 6
+          }
+        ]
+      }
+    ]
+  },
+  "schema_version": 1
+}

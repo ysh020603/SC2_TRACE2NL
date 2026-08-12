@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "At the next decision cycle, verify that all production structures have active queues and that bank has decreased by at least 300 minerals or 200 gas.",
+        "correction": "Prioritize completing prerequisite tech structures and keep all existing production structures active. If any production structure is idle or has an empty queue, add a unit to its queue. If army supply is below 15, do not expand; instead, convert bank into additional production structures (e.g., Warp Gates) and units. Ensure worker production continues toward saturation without exceeding 2 per base.",
+        "rule_id": "R01",
+        "title": "Maintain tech-defense tempo with continuous production",
+        "when": "Before 6 minutes, with heavy tech investment and moderate production, and bank above 800 minerals or 400 gas."
+      },
+      {
+        "check": "At the next decision cycle, confirm that the required tech structures are completed or queued, and that army supply has increased by at least 5.",
+        "correction": "If Siege Tanks are detected, prioritize Dark Templar tech and add a Dark Shrine if not already present. If Reapers are present, ensure at least one Stalker or Adept per Reaper and consider a Robo for Observer or Immortal. Maintain a defensive posture with Photon Cannons at natural and third expansions if threatened. Continue producing from all structures, prioritizing units that counter the observed composition.",
+        "rule_id": "R02",
+        "title": "Counter Terran ground composition with tech and defense",
+        "when": "Enemy Intelligence shows a ground-heavy Terran army with Marines, Reapers, or Siege Tanks, and your army supply is below 30."
+      },
+      {
+        "check": "At the next decision cycle, verify that army supply has increased by at least 5 and bank has decreased by at least 500 minerals or 300 gas.",
+        "correction": "Immediately convert bank into army and production: add Warp Gates or Robo facilities if production is insufficient, and queue units from all structures. Do not expand or invest in new technology until army supply is above 20. If threatened, add defensive structures (Photon Cannons) at vulnerable bases. Prioritize units that counter the enemy's known composition.",
+        "rule_id": "R03",
+        "title": "Recover from low army and high bank with defensive production",
+        "when": "Army supply is below 15, bank exceeds 1500 minerals or 800 gas, or predicted advantage is OverwhelmingDisadvantage."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "PvT_O04",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "b7dc0c96c101ef61398dfb8285e2f8e0bfa8d7da601390e2f6cea8d8299e9268",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 1,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 6.0,
+            "bank": 915.2,
+            "bases": 1.2,
+            "production": 1.5,
+            "supply_providers": 5.8,
+            "workers": 26.0
+          },
+          "300": {
+            "army_supply": 12.5,
+            "bank": 1365.2,
+            "bases": 1.5,
+            "production": 2.5,
+            "supply_providers": 6.8,
+            "workers": 29.5
+          },
+          "360": {
+            "army_supply": 14.5,
+            "bank": 2029.2,
+            "bases": 2.0,
+            "production": 3.0,
+            "supply_providers": 7.5,
+            "workers": 32.0
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.437,
+          "average_bank": 1995.2,
+          "consume_per_min": 816.3
+        },
+        "defeats_with_three_or_more_supply_entries": 3,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 4,
+          "Tie": 1,
+          "Victory": 15
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

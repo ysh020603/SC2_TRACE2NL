@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Next decision cycle: verify production >= 3, army supply >= 14, and bank < 1000.",
+        "correction": "Prioritize adding Gateways (up to 4-5 total) and a Robotics Facility if missing, then spend bank on Warp Prism and Observer. Keep probes producing toward 32-40 workers. Do not expand until army supply >= 15 and production is sufficient.",
+        "rule_id": "R01",
+        "title": "Maintain tech-economy tempo with production scaling",
+        "when": "At 240-360s, if bank > 800 and (production < 3 or army supply < 14) and no OverwhelmingDisadvantage"
+      },
+      {
+        "check": "Next decision cycle: confirm Observer is active or queued, and army composition includes at least 2 Immortals or 2 Sentries.",
+        "correction": "Queue Immortals and a Observer for detection. Add a Templar Archives if tech allows, and prepare to warp in Sentries for Guardian Shield. Maintain a ground core of Stalkers and Zealots. Do not neglect air defense if enemy adds Vikings or Banshees.",
+        "rule_id": "R02",
+        "title": "Counter Terran ground with detection and splash",
+        "when": "If enemy composition shows Marines/Marauders with Medivacs or Widow Mines, and you have at least 2 Gateways and a Robotics Facility"
+      },
+      {
+        "check": "Next decision cycle: verify army supply >= 20 and bank < 800, or threat level reduced.",
+        "correction": "Immediately convert bank into army: queue units from all production structures, add Gateways if supply allows, and warp in units. Prioritize Stalkers and Zealots. Do not expand or tech until army supply >= 20 and bank < 800.",
+        "rule_id": "R03",
+        "title": "Recover from low army and high bank",
+        "when": "If army supply < 15 and bank > 1500, or predicted advantage is OverwhelmingDisadvantage"
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "PvT_O01",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "b7dc0c96c101ef61398dfb8285e2f8e0bfa8d7da601390e2f6cea8d8299e9268",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 1,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 6.0,
+            "bank": 915.2,
+            "bases": 1.2,
+            "production": 1.5,
+            "supply_providers": 5.8,
+            "workers": 26.0
+          },
+          "300": {
+            "army_supply": 12.5,
+            "bank": 1365.2,
+            "bases": 1.5,
+            "production": 2.5,
+            "supply_providers": 6.8,
+            "workers": 29.5
+          },
+          "360": {
+            "army_supply": 14.5,
+            "bank": 2029.2,
+            "bases": 2.0,
+            "production": 3.0,
+            "supply_providers": 7.5,
+            "workers": 32.0
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.437,
+          "average_bank": 1995.2,
+          "consume_per_min": 816.3
+        },
+        "defeats_with_three_or_more_supply_entries": 3,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 4,
+          "Tie": 1,
+          "Victory": 15
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

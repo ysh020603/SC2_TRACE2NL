@@ -1,0 +1,136 @@
+{
+  "method": "full_trajectory_fusion_graph_v5",
+  "nodes": {
+    "N001": {
+      "children": [
+        "N002"
+      ],
+      "path": "nodes/N001.md",
+      "phase": "early_game",
+      "policy_summary": "Prioritize economy and expansion, maintain Queens for defense, and stay alert for enemy tech.",
+      "summary": "Early game, around 3 minutes, with limited enemy information and your own economy expanding. Continue expanding and increasing economy while maintaining a defensive ground posture. Keep producing Queens for defense and creep spread.",
+      "title": "Early Economy and Queen Defense",
+      "trigger_summary": "Early game, around 3 minutes, with limited enemy information and your own economy expanding.",
+      "type": "default"
+    },
+    "N002": {
+      "children": [
+        "N006"
+      ],
+      "path": "nodes/N002.md",
+      "phase": "early_midgame",
+      "policy_summary": "Balance ground army strength with expansion, adapt to enemy tech, and maintain scouting.",
+      "summary": "Early-midgame, around 4-5 minutes, with enemy showing Zealots and Stalkers, indicating a ground-based army. Strengthen your ground army by adding more Zerglings and possibly Roaches. Continue expanding and increasing production. Maintain defense while scouting for tech switches.",
+      "title": "Early-Mid Transition to Ground Army",
+      "trigger_summary": "Early-midgame, around 4-5 minutes, with enemy showing Zealots and Stalkers, indicating a ground-based army.",
+      "type": "default"
+    },
+    "N003": {
+      "children": [
+        "N009"
+      ],
+      "path": "nodes/N003.md",
+      "phase": "midgame",
+      "policy_summary": "Consolidate ground army, adapt to enemy composition, and maintain map presence.",
+      "summary": "Midgame, around 9 minutes, with enemy having a heavy ground army including Sentries and Observers. Continue strengthening your ground army and tech. Consider adding Roaches or Hydralisks for anti-armor. Maintain map control and prepare for a decisive battle.",
+      "title": "Midgame Ground Army and Tech",
+      "trigger_summary": "Midgame, around 9 minutes, with enemy having a heavy ground army including Sentries and Observers.",
+      "type": "default"
+    },
+    "N004": {
+      "children": [],
+      "path": "nodes/N004.md",
+      "phase": "early_midgame",
+      "policy_summary": "Balance ground army strength with expansion, adapt to enemy tech, and maintain scouting.",
+      "summary": "Early-midgame, around 5-6 minutes, with enemy showing a ground army and you are expanding. Continue expanding and increasing production. Strengthen your ground army with more Zerglings and possibly Roaches. Maintain scouting to detect any tech switches.",
+      "title": "Early-Mid Expansion and Army",
+      "trigger_summary": "Early-midgame, around 5-6 minutes, with enemy showing a ground army and you are expanding.",
+      "type": "default"
+    },
+    "N005": {
+      "children": [],
+      "path": "nodes/N005.md",
+      "phase": "midgame",
+      "policy_summary": "Consolidate ground army, adapt to enemy composition, and maintain map presence.",
+      "summary": "Midgame, around 7-8 minutes, with enemy having a ground army including Sentries. Consolidate your ground army and tech. Consider adding Roaches or Hydralisks for durability. Maintain defense and continue expanding.",
+      "title": "Midgame Ground Army Consolidation",
+      "trigger_summary": "Midgame, around 7-8 minutes, with enemy having a ground army including Sentries.",
+      "type": "default"
+    },
+    "N006": {
+      "children": [
+        "N004"
+      ],
+      "path": "nodes/N006.md",
+      "phase": "early_midgame",
+      "policy_summary": "Balance ground army strength with expansion, adapt to enemy tech, and maintain scouting.",
+      "summary": "Early-midgame, around 5 minutes, with enemy hidden and you are focusing on economy. Continue expanding and increasing production. Invest in defensive tech such as Lair for Overseers and possibly Roach Warren. Maintain scouting to detect enemy intentions.",
+      "title": "Early-Mid Defensive Tech",
+      "trigger_summary": "Early-midgame, around 5 minutes, with enemy hidden and you are focusing on economy.",
+      "type": "default"
+    },
+    "N007": {
+      "children": [],
+      "path": "nodes/N007.md",
+      "phase": "early_midgame",
+      "policy_summary": "Balance ground army strength with expansion, adapt to enemy tech, and maintain scouting.",
+      "summary": "Early-midgame, around 6 minutes, with enemy showing Phoenixes and Oracles, indicating an air commitment. Maintain your ground army while preparing anti-air. Consider adding Hydralisks or Spore Crawlers for defense. Continue expanding and teching.",
+      "title": "Early-Mid Air Defense",
+      "trigger_summary": "Early-midgame, around 6 minutes, with enemy showing Phoenixes and Oracles, indicating an air commitment.",
+      "type": "default"
+    },
+    "N008": {
+      "children": [],
+      "path": "nodes/N008.md",
+      "phase": "late_midgame",
+      "policy_summary": "Adapt army composition to enemy, maintain economy, and prepare for decisive engagement.",
+      "summary": "Late-midgame, around 10-12 minutes, with enemy having a heavy ground army including Observers. Continue strengthening your ground army and tech. Consider adding Roaches or Hydralisks for anti-armor. Maintain map control and prepare for a decisive battle.",
+      "title": "Late-Mid Ground Army and Tech",
+      "trigger_summary": "Late-midgame, around 10-12 minutes, with enemy having a heavy ground army including Observers.",
+      "type": "default"
+    },
+    "N009": {
+      "children": [],
+      "path": "nodes/N009.md",
+      "phase": "late_midgame",
+      "policy_summary": "Adapt army composition to enemy, maintain economy, and prepare for decisive engagement.",
+      "summary": "Late-midgame, around 10-12 minutes, with enemy having a heavy air presence including Phoenixes and Oracles. Consider transitioning to air units like Mutalisks or Corruptors to counter the enemy's air. Continue expanding and teching. Maintain ground defense as well.",
+      "title": "Late-Mid Air Transition",
+      "trigger_summary": "Late-midgame, around 10-12 minutes, with enemy having a heavy air presence including Phoenixes and Oracles.",
+      "type": "default"
+    },
+    "N010": {
+      "children": [],
+      "path": "nodes/N010.md",
+      "phase": "early_midgame",
+      "policy_summary": "Balance ground army strength with expansion, adapt to enemy tech, and maintain scouting.",
+      "summary": "Early-midgame, around 6 minutes, with enemy showing Phoenixes and Oracles, and you have a strong economy. Maintain your ground army while preparing anti-air. Consider adding Hydralisks or Spore Crawlers for defense. Continue expanding and teching.",
+      "title": "Early-Mid Air Defense and Economy",
+      "trigger_summary": "Early-midgame, around 6 minutes, with enemy showing Phoenixes and Oracles, and you have a strong economy.",
+      "type": "default"
+    },
+    "N011": {
+      "children": [],
+      "path": "nodes/N011.md",
+      "phase": "midgame",
+      "policy_summary": "Consolidate ground army, adapt to enemy composition, and maintain map presence.",
+      "summary": "Midgame, around 8-9 minutes, with enemy having a ground army and you are transitioning to air. Continue building Mutalisks and upgrading them. Use them for harassment and to control the map. Maintain a ground army for defense.",
+      "title": "Midgame Air Transition",
+      "trigger_summary": "Midgame, around 8-9 minutes, with enemy having a ground army and you are transitioning to air.",
+      "type": "default"
+    },
+    "N012": {
+      "children": [],
+      "path": "nodes/N012.md",
+      "phase": "late_midgame",
+      "policy_summary": "Adapt army composition to enemy, maintain economy, and prepare for decisive engagement.",
+      "summary": "Late-midgame, around 10-12 minutes, with enemy having a ground army and you have a strong air force. Continue using Mutalisks to harass expansions and force the enemy to react. Maintain a strong ground army for defense. Consider adding Corruptors if the enemy transitions to air.",
+      "title": "Late-Mid Air Harassment",
+      "trigger_summary": "Late-midgame, around 10-12 minutes, with enemy having a ground army and you have a strong air force.",
+      "type": "default"
+    }
+  },
+  "opening_name": "ZvP_O01 Economy / Expansion / Production",
+  "root": "SKILL.md",
+  "skill_id": "ZvP_O01"
+}

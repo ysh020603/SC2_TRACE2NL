@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Continue strengthening ground forces, maintain economy and tech, and consider upgrades. Keep some Stalkers or prepare for air transition.",
+        "lesson_id": "L01",
+        "mistake": "Focusing solely on ground forces and neglecting anti-air, leaving you vulnerable to a potential air transition.",
+        "recheck": "Recheck when opponent tech or army composition changes.",
+        "target_node_id": "N003",
+        "title": "Maintain Ground Strength with Anti-Air",
+        "when": "Midgame, own ground posture with Zealots, Stalkers, Observers, Immortals; opponent ground with Zerglings, Queens, Overseers; both heavy tech.",
+        "why": "A strong ground presence counters the opponent's ground army and tech, while retaining anti-air capability prevents being caught off guard."
+      },
+      {
+        "correction": "Increase air forces, strengthen air army, continue economy and tech. Keep some ground units to protect bases.",
+        "lesson_id": "L02",
+        "mistake": "Overcommitting to air forces and neglecting ground defense, leaving bases exposed to ground harassment.",
+        "recheck": "Recheck when opponent tech switches to anti-air or when air army is sufficient.",
+        "target_node_id": "N008",
+        "title": "Leverage Early Air Tech",
+        "when": "Early-mid game, own mixed posture with Void Rays; opponent ground with Zerglings and Queens; both heavy economy.",
+        "why": "Early air tech provides an advantage over a ground-focused opponent, but ground defense is essential to secure your economy."
+      },
+      {
+        "correction": "Stabilize then develop, increase production and tech, maintain defense.",
+        "lesson_id": "L03",
+        "mistake": "Pushing out aggressively with your tech advantage without ensuring a stable defensive position.",
+        "recheck": "Recheck when the situation stabilizes or when opponent tech changes.",
+        "target_node_id": "N009",
+        "title": "Stabilize Before Expanding",
+        "when": "Midgame, own ground posture with Zealots; opponent ground with Zerglings and Queens; both heavy economy.",
+        "why": "Ensuring a stable position before committing to further development prevents overextension and allows safe growth."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "PvZ_O04",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "PvZ_O04:N004->PvZ_O04:N003",
+      "PvZ_O04:N009->PvZ_O04:N008",
+      "PvZ_O04:N010->PvZ_O04:N009"
+    ],
+    "source_digest": "ba42dd96d265df21081fbecf3a40148303dd12c277004685bc6eb7a4e775038b",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

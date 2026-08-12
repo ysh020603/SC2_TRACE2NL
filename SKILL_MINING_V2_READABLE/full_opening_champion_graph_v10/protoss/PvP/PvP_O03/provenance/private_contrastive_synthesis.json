@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Continue strengthening ground army and economy, but maintain defensive posture and consider adding tech like High Templar for spell support.",
+        "lesson_id": "L01",
+        "mistake": "Tempting to blindly strengthen ground forces and continue production without considering anti-air, risking vulnerability to an air transition.",
+        "recheck": "Re-evaluate if opponent transitions to air or if composition needs adaptation.",
+        "target_node_id": "N004",
+        "title": "Ground vs Ground: Avoid Overcommitting Without Anti-Air",
+        "when": "Midgame (7-9 minutes), opponent shows ground posture (Zealots, Stalkers), your army is ground-oriented with Zealots and Immortals.",
+        "why": "Ground army with Immortals is strong vs enemy ground, especially armored units. Solid economy enables further tech and expansion."
+      },
+      {
+        "correction": "Continue strengthening ground army and economy, but add tech like High Templar for spell support and maintain defensive posture.",
+        "lesson_id": "L02",
+        "mistake": "Tempting to continue pure ground production without adding spell casters, missing opportunities to counter enemy composition.",
+        "recheck": "Re-evaluate if opponent transitions to air or if composition needs adaptation.",
+        "target_node_id": "N007",
+        "title": "Ground vs Ground with Oracles: Avoid Ignoring Spell Support",
+        "when": "Late-midgame (10-12 minutes), opponent shows ground posture (Zealots, Stalkers, Immortals, Oracles), your army is ground-oriented with Zealots.",
+        "why": "Zealots alone can be countered; High Templar provide spell support and improve composition. Economy allows further tech and expansion."
+      },
+      {
+        "correction": "Continue strengthening air army and economy, but maintain defensive posture and consider adding tech like Tempests for late-game.",
+        "lesson_id": "L03",
+        "mistake": "Tempting to overcommit to air units without ensuring ground defense, risking vulnerability to ground transitions.",
+        "recheck": "Re-evaluate if opponent builds significant anti-air or if transition back to ground is needed.",
+        "target_node_id": "N009",
+        "title": "Air vs Air: Avoid Neglecting Ground Defense",
+        "when": "Late-midgame (10-12 minutes), opponent shows air posture (Zealots, Stalkers, Void Rays, Oracles), your army is air-oriented with Void Rays.",
+        "why": "Air army with Void Rays is powerful vs air-oriented opponent. Strong economy enables further tech and expansion."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "PvP_O03",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "PvP_O03:N004->PvP_O03:N004",
+      "PvP_O03:N007->PvP_O03:N007",
+      "PvP_O03:N009->PvP_O03:N009"
+    ],
+    "source_digest": "d73cddd53dfdf8173281709ef89dd3b35f566f6b17de08fb417de20134596de1",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

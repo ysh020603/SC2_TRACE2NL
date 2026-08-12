@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Continue strengthening ground forces, increase economy and expansions, and maintain technology development.",
+        "lesson_id": "L01",
+        "mistake": "Overcommitting to a single tech path without scouting, neglecting defense against possible aggression.",
+        "recheck": "Recheck when midgame approaches or if enemy composition shifts.",
+        "target_node_id": "N002",
+        "title": "Ground vs Ground: Avoid Tech Tunnel Vision",
+        "when": "Early-midgame, both sides ground-oriented with heavy production and tech; own army strong.",
+        "why": "Leverage economic and tech advantage to build a strong ground army while expanding safely."
+      },
+      {
+        "correction": "Strengthen ground forces while increasing economy and maintaining production.",
+        "lesson_id": "L02",
+        "mistake": "Staying too defensive for too long, neglecting expansion and map control, and failing to scout for tech switches.",
+        "recheck": "Recheck when more enemy information is available or when ready to apply pressure.",
+        "target_node_id": "N004",
+        "title": "Unknown vs Ground: Avoid Passive Defense",
+        "when": "Early game, own posture unknown with moderate production and heavy tech; opponent ground with heavy defense and economy.",
+        "why": "Build a safe economic and tech lead while preparing for potential early aggression."
+      },
+      {
+        "correction": "Maintain current army path and continue developing with safety checks.",
+        "lesson_id": "L03",
+        "mistake": "Making drastic changes to army composition or tech without information, overcommitting to a countered path.",
+        "recheck": "Recheck when enemy movements are detected or when ready to push.",
+        "target_node_id": "N005",
+        "title": "Ground vs Ground: Avoid Drastic Changes",
+        "when": "Early-midgame, own ground-oriented with moderate production and heavy tech; opponent heavy production and possible pressure.",
+        "why": "Avoid unnecessary deviations while ensuring defenses are adequate against possible pressure."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "TvT_O03",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "TvT_O03:N002->TvT_O03:N002",
+      "TvT_O03:N004->TvT_O03:N004",
+      "TvT_O03:N005->TvT_O03:N005"
+    ],
+    "source_digest": "15f9332b8fa9cd80c14cb462c990b17ffd9f0c6551f39ca348d8252299da6fd9",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

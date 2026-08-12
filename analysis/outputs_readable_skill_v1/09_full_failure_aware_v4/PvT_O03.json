@@ -1,0 +1,128 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Recheck at next decision cycle: verify bank is below 300 minerals and 150 gas, and that all production structures have at least one unit queued.",
+        "correction": "Prioritize adding production structures (Gateways, Robotics Facilities, or Stargates) up to a reasonable count for your economy, then queue units from existing structures. If army supply is below 15, do not expand; instead, spend bank on units and production. Ensure prerequisites for tech structures are met before building them.",
+        "rule_id": "R01",
+        "title": "Maintain production tempo and convert bank into army",
+        "when": "At any time, if bank is above 400 minerals and 200 gas, or if active production queues are empty while army supply is below 40, or if supply is not blocked and production capacity is idle."
+      },
+      {
+        "check": "Recheck at next decision cycle: confirm you have at least one counter unit type for the observed enemy composition, and that tech structures are either completed or under construction.",
+        "correction": "If enemy has Siege Tanks, build Immortals and use Stalkers for mobility. If enemy has heavy bio, add Colossi or High Templar with Psionic Storm. If enemy has air, add Stalkers and Phoenixes or Archons. Ensure required tech structures (Robotics Bay, Templar Archives, Stargate) are built and queued. Maintain a mix of Zealots and Stalkers for a solid ground core.",
+        "rule_id": "R02",
+        "title": "Counter enemy composition with tech and units",
+        "when": "When enemy intelligence reveals a composition: if Terran has heavy bio with Medivacs, or Siege Tanks, or air units like Banshees or Liberators, and your army lacks appropriate counters."
+      },
+      {
+        "check": "Recheck at next decision cycle: verify army supply is above 30 and bank is below 300 minerals, or that the threat has passed.",
+        "correction": "Immediately convert bank into army by queuing units from all available production structures. If production is insufficient, build additional Gateways or other production structures first, then queue units. Prioritize defensive units like Zealots and Stalkers. Do not expand or tech further until army supply is above 30 and bank is below 300 minerals.",
+        "rule_id": "R03",
+        "title": "Recover from low army and high bank",
+        "when": "When army supply is below 15 and bank is above 500 minerals and 300 gas, or when predicted advantage is OverwhelmingDisadvantage, or when an owned base is threatened."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "PvT_O03",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "d2738b528cb64d00deb3921427aacd9acdb88595b3c1f3461389cbe4acba14fd",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 1,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 6.0,
+            "bank": 915.2,
+            "bases": 1.2,
+            "production": 1.5,
+            "supply_providers": 5.8,
+            "workers": 26.0
+          },
+          "300": {
+            "army_supply": 12.5,
+            "bank": 1365.2,
+            "bases": 1.5,
+            "production": 2.5,
+            "supply_providers": 6.8,
+            "workers": 29.5
+          },
+          "360": {
+            "army_supply": 14.5,
+            "bank": 2029.2,
+            "bases": 2.0,
+            "production": 3.0,
+            "supply_providers": 7.5,
+            "workers": 32.0
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.437,
+          "average_bank": 1995.2,
+          "consume_per_min": 816.3
+        },
+        "defeats_with_three_or_more_supply_entries": 3,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 4,
+          "Tie": 1,
+          "Victory": 15
+        }
+      },
+      "opening": {
+        "decision_error_total": 0,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 6.0,
+            "bank": 228.0,
+            "bases": 1.0,
+            "production": 1.0,
+            "supply_providers": 6.0,
+            "workers": 30.0
+          },
+          "300": {
+            "army_supply": 20.0,
+            "bank": 703.0,
+            "bases": 1.0,
+            "production": 3.0,
+            "supply_providers": 7.0,
+            "workers": 40.0
+          },
+          "360": {
+            "army_supply": 10.0,
+            "bank": 836.0,
+            "bases": 2.0,
+            "production": 3.0,
+            "supply_providers": 9.0,
+            "workers": 44.0
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.417,
+          "average_bank": 1322.4,
+          "consume_per_min": 1075.7
+        },
+        "defeats_with_three_or_more_supply_entries": 0,
+        "direct_matches": 4,
+        "outcome_counts_private": {
+          "Defeat": 1,
+          "Victory": 3
+        }
+      },
+      "scope_note_private": "opening-specific plus race evidence"
+    }
+  },
+  "schema_version": 1
+}

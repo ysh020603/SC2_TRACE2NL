@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid over-committing to a specific army composition or tech path before you have more information about the opponent's intentions.",
+        "decision_direction": "Continue developing your economy and technology, increase production, and strengthen your ground army. Maintain a defensive posture while expanding.",
+        "exit_or_recheck_condition": "Re-evaluate when you see more of the opponent's army composition or if you detect early pressure.",
+        "next_state_summary": "Move towards a ground-macro posture with Stalkers and Sentries, while maintaining heavy economy and tech.",
+        "node_id": "N001",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence is consistent with an unknown posture; representative observed or remembered cues may include Reaper. Production appears moderate, technology investment appears heavy, and exact hidden counts remain unknown.",
+        "own_situation": "You have a developing economy and technology base, with moderate production. Your army is light or uncertain, but you have some Zealots. You are aiming for a heavy economy and tech investment.",
+        "strategic_reason": "This opening prioritizes long-term economic and tech advantages. By investing early, you set up for a strong mid-game. Maintaining a light defense is sufficient as the opponent's posture is unclear and pressure is not confirmed.",
+        "title": "Early Game Tech and Economy Foundation",
+        "transition_goal": "Transition into a more defined ground-oriented army with heavier production as you approach the early-mid game.",
+        "trigger_summary": "Early game, around 3 minutes, with both sides having heavy economy and technology investment, moderate production, and no clear army composition yet."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting; the opponent's heavy production could indicate an aggressive timing. Keep a watch for drops or multi-pronged attacks.",
+        "decision_direction": "Continue strengthening your ground army, increase production, and maintain your economy and tech lead. Keep expanding and consider adding Observers for vision.",
+        "exit_or_recheck_condition": "Re-evaluate when you see the opponent's tech choices (e.g., Medivacs, Marauders) or if you face early pressure.",
+        "next_state_summary": "Move towards a mid-game composition with Colossus and Warp Prism, while maintaining heavy economy and tech.",
+        "node_id": "N002",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+        "own_situation": "You have a ground-oriented army with Stalkers and Sentries, moderate production, and heavy economy and tech. Your defense is light or uncertain, but you are expanding.",
+        "strategic_reason": "The opponent is likely going for a bio-based ground army. Your Stalkers and Sentries provide a solid core, and your tech advantage allows for transitions into Colossus or other tech units later.",
+        "title": "Early-Mid Game Ground Transition",
+        "transition_goal": "Transition towards a heavier production and tech composition, possibly adding Colossus or other splash damage to deal with massed Marines.",
+        "trigger_summary": "Early-mid game, around 4-6 minutes, with both sides transitioning to a ground-oriented army. Opponent shows Marines, and you have Stalkers and Sentries."
+      },
+      {
+        "avoid_direction": "Avoid being too passive; the opponent's heavy production could lead to a large army. Keep scouting for tech switches like Siege Tanks or Battlecruisers.",
+        "decision_direction": "Continue strengthening your ground army, increase production, and maintain your economy and tech. Consider adding more Colossus or transitioning to High Templar for additional spell damage.",
+        "exit_or_recheck_condition": "Re-evaluate when you see the opponent's tech choices (e.g., Siege Tanks, Banshees) or if you face a large push.",
+        "next_state_summary": "Move towards a late-midgame composition with Colossus, Zealots, Stalkers, and Sentries, while maintaining heavy economy and tech.",
+        "node_id": "N003",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, Reaper, Marauder, Medivac. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+        "own_situation": "You have a strong ground army with Colossus, Stalkers, Sentries, and Warp Prism. Your production is heavy, and you have a heavy economy and tech base. Your defense is light or uncertain, but you are expanding.",
+        "strategic_reason": "Your Colossus provide splash damage against the opponent's bio army. Maintaining a heavy economy allows you to sustain a large army and tech upgrades. The Warp Prism gives you mobility and drop potential.",
+        "title": "Mid-Game Tech Army Assembly",
+        "transition_goal": "Transition towards a late-midgame composition with additional Colossus or High Templar, and consider adding air support if the opponent goes for air.",
+        "trigger_summary": "Mid-game, around 9 minutes, with both sides having heavy production and tech. Opponent shows a ground army with Marines, Reapers, Marauders, and Medivacs. You have Colossus, Stalkers, Sentries, and Warp Prism."
+      },
+      {
+        "avoid_direction": "Avoid being caught off-guard by tech switches to air or heavy mech. Keep scouting and be ready to adapt with Phoenix or Void Rays if needed.",
+        "decision_direction": "Continue strengthening your ground army, increase production, and maintain your economy and tech. Consider adding High Templar for Storm or transitioning to a more mixed composition if needed.",
+        "exit_or_recheck_condition": "Re-evaluate when you see the opponent's tech choices (e.g., Battlecruisers, Ravens) or if you face a large push.",
+        "next_state_summary": "Continue developing your ground army and tech, with potential for High Templar or air transitions based on opponent's composition.",
+        "node_id": "N004",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, Reaper, Marauder, Medivac. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+        "own_situation": "You have a strong ground army with Colossus, Zealots, Stalkers, and Sentries. Your production is heavy, and you have a heavy economy and tech base. Your defense is moderate, and you are expanding.",
+        "strategic_reason": "Your army is well-rounded with Colossus for splash and Zealots for tanking. Maintaining a heavy economy allows you to sustain a large army and tech upgrades. The opponent's composition is still ground-based, so your ground army is effective.",
+        "title": "Late-Midgame Consolidation",
+        "transition_goal": "Transition towards a late-game composition with High Templar or additional Colossus, and consider adding air support if the opponent goes for air.",
+        "trigger_summary": "Late-midgame, around 10-12 minutes, with both sides having heavy production and tech. Opponent shows a ground army with Marines, Reapers, Marauders, and Medivacs. You have Colossus, Zealots, Stalkers, and Sentries."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "technology / economy / expansion opening",
+      "opening_name": "PvT_O05 Technology / Economy / Expansion",
+      "opening_summary": "A Protoss opening that emphasizes heavy technology investment and economic expansion while keeping production moderate in the early game. The plan is to develop a strong tech-based army and economy, then transition into a heavier production and ground-oriented composition as the game progresses.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a technology / economy / expansion posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_positive_only",
+  "method_specific_annotation": true,
+  "opening_id": "PvT_O05",
+  "projection_path": "02_observation_projection/ablation_positive_only/PvT_O05.json"
+}

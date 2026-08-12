@@ -1,0 +1,103 @@
+{
+  "method": "full_knowledge_executable_graph_v14",
+  "nodes": {
+    "KNEG001": {
+      "children": [],
+      "path": "nodes/KNEG001.md",
+      "summary": "The node is triggered when the player has committed to a heavy-economy, technology-heavy ground posture but fails to convert accumulated resources into a sufficient army, leading to defeat. Avoid over-investing in technology and economy without corresponding production capacity. Do not neglect army composition and unit production while pursuing upgrades.",
+      "title": "Resource-to-army conversion failure in a heavy-economy ground-macro posture",
+      "trigger_summary": "The node is triggered when the player has committed to a heavy-economy, technology-heavy ground posture but fails to convert accumulated resources into a sufficient army, leading to defeat.",
+      "type": "negative"
+    },
+    "N001": {
+      "children": [
+        "N002"
+      ],
+      "path": "nodes/N001.md",
+      "summary": "Early game, own posture unknown or ground-oriented, opponent ground posture with light tech, both heavy economy. Strengthen ground forces, increase economy and technology, maintain defense and expansions.",
+      "title": "Early Game Tech Development",
+      "trigger_summary": "Early game, own posture unknown or ground-oriented, opponent ground posture with light tech, both heavy economy.",
+      "type": "default"
+    },
+    "N002": {
+      "children": [],
+      "path": "nodes/N002.md",
+      "summary": "Early-mid game, own ground posture with Zealots and Stalkers, opponent ground with Zerglings and Queens, both heavy economy. Continue strengthening ground forces, increase economy and production, maintain tech development.",
+      "title": "Early-Mid Ground Consolidation",
+      "trigger_summary": "Early-mid game, own ground posture with Zealots and Stalkers, opponent ground with Zerglings and Queens, both heavy economy.",
+      "type": "default"
+    },
+    "N003": {
+      "children": [],
+      "path": "nodes/N003.md",
+      "summary": "Midgame, own ground posture with Zealots, Stalkers, Observers, Immortals, opponent ground with Zerglings, Queens, Overseers, both heavy tech. Continue strengthening ground forces, maintain economy and tech, consider upgrades.",
+      "title": "Midgame Ground Tech",
+      "trigger_summary": "Midgame, own ground posture with Zealots, Stalkers, Observers, Immortals, opponent ground with Zerglings, Queens, Overseers, both heavy tech.",
+      "type": "default"
+    },
+    "N004": {
+      "children": [],
+      "path": "nodes/N004.md",
+      "summary": "Late-mid game, own ground posture with Zealots and Stalkers, opponent ground with Zerglings, Roaches, Queens, both heavy tech. Maintain ground strength, continue economy and tech, consider defensive upgrades.",
+      "title": "Late-Mid Ground Stability",
+      "trigger_summary": "Late-mid game, own ground posture with Zealots and Stalkers, opponent ground with Zerglings, Roaches, Queens, both heavy tech.",
+      "type": "default"
+    },
+    "N005": {
+      "children": [
+        "N002"
+      ],
+      "path": "nodes/N005.md",
+      "summary": "Early-mid game, own ground posture with Stalkers and Sentries, opponent ground with Zerglings and Queens, both heavy economy. Increase economy and expansions, continue production and tech, strengthen ground forces.",
+      "title": "Early-Mid Tech Expansion",
+      "trigger_summary": "Early-mid game, own ground posture with Stalkers and Sentries, opponent ground with Zerglings and Queens, both heavy economy.",
+      "type": "default"
+    },
+    "N006": {
+      "children": [],
+      "path": "nodes/N006.md",
+      "summary": "Midgame, own air posture with Phoenixes, opponent ground with Zerglings, Queens, Overseers, both heavy tech. Increase air forces, strengthen air army, continue economy and tech.",
+      "title": "Midgame Air Transition",
+      "trigger_summary": "Midgame, own air posture with Phoenixes, opponent ground with Zerglings, Queens, Overseers, both heavy tech.",
+      "type": "default"
+    },
+    "N007": {
+      "children": [
+        "N002",
+        "KNEG001"
+      ],
+      "path": "nodes/N007.md",
+      "summary": "Early game, own ground posture with Zealots, opponent ground with Queens, both heavy economy. Increase economy and expansions, continue production and tech, maintain defense.",
+      "title": "Early Game Defensive Tech",
+      "trigger_summary": "Early game, own ground posture with Zealots, opponent ground with Queens, both heavy economy.",
+      "type": "default"
+    },
+    "N008": {
+      "children": [],
+      "path": "nodes/N008.md",
+      "summary": "Early-mid game, own mixed posture with Void Rays, opponent ground with Zerglings and Queens, both heavy economy. Increase air forces, strengthen air army, continue economy and tech.",
+      "title": "Early-Mid Air Tech",
+      "trigger_summary": "Early-mid game, own mixed posture with Void Rays, opponent ground with Zerglings and Queens, both heavy economy.",
+      "type": "default"
+    },
+    "N009": {
+      "children": [],
+      "path": "nodes/N009.md",
+      "summary": "Midgame, own ground posture with Zealots, opponent ground with Zerglings and Queens, both heavy economy. Stabilize then develop, increase production and tech, maintain defense.",
+      "title": "Midgame Stabilization",
+      "trigger_summary": "Midgame, own ground posture with Zealots, opponent ground with Zerglings and Queens, both heavy economy.",
+      "type": "default"
+    },
+    "N010": {
+      "children": [],
+      "path": "nodes/N010.md",
+      "summary": "Late-mid game, own air posture with Phoenixes, opponent ground with Mutalisks, Roaches, Queens, both heavy tech. Increase air forces, strengthen air army, continue economy and tech.",
+      "title": "Late-Mid Air Dominance",
+      "trigger_summary": "Late-mid game, own air posture with Phoenixes, opponent ground with Mutalisks, Roaches, Queens, both heavy tech.",
+      "type": "default"
+    }
+  },
+  "opening_name": "PvZ_O04 Technology / Economy / Production",
+  "root": "SKILL.md",
+  "skill_id": "PvZ_O04"
+}

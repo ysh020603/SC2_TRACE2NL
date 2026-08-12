@@ -1,0 +1,124 @@
+{
+  "method": "full_trajectory_fusion_graph_v5",
+  "nodes": {
+    "N001": {
+      "children": [
+        "N002"
+      ],
+      "path": "nodes/N001.md",
+      "phase": "early_game",
+      "policy_summary": "Maintain flexibility, prioritize scouting, and if ground cues appear, bolster ground forces and defense while continuing tech and economy.",
+      "summary": "At the start of the game, both sides are largely unknown. No reliable combat-unit cues have been observed from the opponent, and your own posture is also undefined. Maintain current army path, keep production and technology development steady, and prepare to adapt based on scouting.",
+      "title": "Early Game: Maintain Flexibility",
+      "trigger_summary": "At the start of the game, both sides are largely unknown. No reliable combat-unit cues have been observed from the opponent, and your own posture is also undefined.",
+      "type": "default"
+    },
+    "N002": {
+      "children": [],
+      "path": "nodes/N002.md",
+      "phase": "early_midgame",
+      "policy_summary": "Maintain development, adapt to ground cues by strengthening ground forces and continuing production and tech.",
+      "summary": "The game progresses into the early-midgame with still limited information. The opponent remains unknown, and your own posture is still developing. Maintain current army path, keep production and technology development steady, and prepare to adapt based on scouting.",
+      "title": "Early-Midgame: Continue Development",
+      "trigger_summary": "The game progresses into the early-midgame with still limited information. The opponent remains unknown, and your own posture is still developing.",
+      "type": "default"
+    },
+    "N003": {
+      "children": [],
+      "path": "nodes/N003.md",
+      "phase": "midgame",
+      "policy_summary": "Maintain flexibility, reinforce ground forces if ground cues appear, and continue balanced development.",
+      "summary": "The game reaches the midgame with the opponent still unknown. No reliable combat-unit cues have been observed, and your own posture remains undefined. Maintain current army path, keep production and technology development steady, and prepare to adapt based on scouting.",
+      "title": "Midgame: Maintain Flexibility",
+      "trigger_summary": "The game reaches the midgame with the opponent still unknown. No reliable combat-unit cues have been observed, and your own posture remains undefined.",
+      "type": "default"
+    },
+    "N004": {
+      "children": [],
+      "path": "nodes/N004.md",
+      "phase": "late_midgame",
+      "policy_summary": "Maintain flexibility, strengthen ground forces if ground cues appear, and continue balanced development.",
+      "summary": "The game reaches the late-midgame with the opponent still unknown. No reliable combat-unit cues have been observed, and your own posture remains undefined. Maintain current army path, keep production and technology development steady, and prepare to adapt based on scouting.",
+      "title": "Late-Midgame: Maintain Flexibility",
+      "trigger_summary": "The game reaches the late-midgame with the opponent still unknown. No reliable combat-unit cues have been observed, and your own posture remains undefined.",
+      "type": "default"
+    },
+    "N005": {
+      "children": [],
+      "path": "nodes/N005.md",
+      "phase": "early_game",
+      "policy_summary": "Maintain flexibility, prioritize scouting, and if ground cues appear, bolster ground forces and defense while continuing tech and economy.",
+      "summary": "Early game, the opponent shows a ground posture with Zergling and Queen cues. Your own posture is unknown but with heavy technology investment and heavy defense. Strengthen ground forces, increase defense and economy, and continue technology development.",
+      "title": "Early Game: Ground Defense and Tech",
+      "trigger_summary": "Early game, the opponent shows a ground posture with Zergling and Queen cues. Your own posture is unknown but with heavy technology investment and heavy defense.",
+      "type": "default"
+    },
+    "N006": {
+      "children": [],
+      "path": "nodes/N006.md",
+      "phase": "early_game",
+      "policy_summary": "Maintain flexibility, prioritize scouting, and if ground cues appear, bolster ground forces and defense while continuing tech and economy.",
+      "summary": "Early game, the opponent shows a ground posture with Zergling and Queen cues. Your own posture is unknown but with heavy technology investment and heavy expansion. Strengthen ground forces, increase economy and production, and continue technology development.",
+      "title": "Early Game: Economy and Tech Focus",
+      "trigger_summary": "Early game, the opponent shows a ground posture with Zergling and Queen cues. Your own posture is unknown but with heavy technology investment and heavy expansion.",
+      "type": "default"
+    },
+    "N007": {
+      "children": [],
+      "path": "nodes/N007.md",
+      "phase": "early_midgame",
+      "policy_summary": "Maintain development, adapt to ground cues by strengthening ground forces and continuing production and tech.",
+      "summary": "Early-midgame, the opponent shows a ground posture with Zergling and Queen cues. Your own posture is ground-oriented with Zealot and Stalker cues. Strengthen ground forces, continue production and technology development, and maintain economy.",
+      "title": "Early-Midgame: Ground Army Development",
+      "trigger_summary": "Early-midgame, the opponent shows a ground posture with Zergling and Queen cues. Your own posture is ground-oriented with Zealot and Stalker cues.",
+      "type": "default"
+    },
+    "N008": {
+      "children": [
+        "N007"
+      ],
+      "path": "nodes/N008.md",
+      "phase": "early_midgame",
+      "policy_summary": "Maintain development, adapt to ground cues by strengthening ground forces and continuing production and tech.",
+      "summary": "Early-midgame, the opponent shows a ground posture with Zergling and Queen cues. Your own posture is unknown but with heavy economy and technology investment. Strengthen ground forces, increase production and technology, and maintain economy.",
+      "title": "Early-Midgame: Economy and Tech",
+      "trigger_summary": "Early-midgame, the opponent shows a ground posture with Zergling and Queen cues. Your own posture is unknown but with heavy economy and technology investment.",
+      "type": "default"
+    },
+    "N009": {
+      "children": [
+        "N010"
+      ],
+      "path": "nodes/N009.md",
+      "phase": "midgame",
+      "policy_summary": "Maintain flexibility, reinforce ground forces if ground cues appear, and continue balanced development.",
+      "summary": "Midgame, the opponent shows a ground posture with Zergling, Queen, and Overseer cues. Your own posture is ground-oriented with Zealot, Stalker, Observer, and Immortal cues. Strengthen ground forces, continue production and technology development, and maintain economy.",
+      "title": "Midgame: Ground Army and Tech",
+      "trigger_summary": "Midgame, the opponent shows a ground posture with Zergling, Queen, and Overseer cues. Your own posture is ground-oriented with Zealot, Stalker, Observer, and Immortal cues.",
+      "type": "default"
+    },
+    "N010": {
+      "children": [],
+      "path": "nodes/N010.md",
+      "phase": "late_midgame",
+      "policy_summary": "Maintain flexibility, strengthen ground forces if ground cues appear, and continue balanced development.",
+      "summary": "Late-midgame, the opponent shows a ground posture with Queen cues. Your own posture is ground-oriented with Zealot, Stalker, Sentry, and Observer cues. Strengthen ground forces, continue production and technology development, and maintain economy.",
+      "title": "Late-Midgame: Ground Army and Tech",
+      "trigger_summary": "Late-midgame, the opponent shows a ground posture with Queen cues. Your own posture is ground-oriented with Zealot, Stalker, Sentry, and Observer cues.",
+      "type": "default"
+    },
+    "N011": {
+      "children": [],
+      "path": "nodes/N011.md",
+      "phase": "midgame",
+      "policy_summary": "Maintain flexibility, reinforce ground forces if ground cues appear, and continue balanced development.",
+      "summary": "Midgame, the opponent shows a ground posture with Queen cues. Your own posture is ground-oriented with Zealot cues. Strengthen ground forces, increase production and technology, and maintain economy.",
+      "title": "Midgame: Ground Army and Tech",
+      "trigger_summary": "Midgame, the opponent shows a ground posture with Queen cues. Your own posture is ground-oriented with Zealot cues.",
+      "type": "default"
+    }
+  },
+  "opening_name": "PvZ_O02 Technology / Economy / Production",
+  "root": "SKILL.md",
+  "skill_id": "PvZ_O02"
+}

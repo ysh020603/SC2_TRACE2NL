@@ -1,0 +1,86 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid over-committing to air units or neglecting defense, as the Terran ground army can punish a weak defense.",
+        "decision_direction": "Continue developing your ground army and technology, while increasing production and economy. Maintain your current expansion count and keep a watchful eye on defense.",
+        "exit_or_recheck_condition": "Re-evaluate when you see a shift in Terran composition (e.g., more air units) or when you are ready to take a more aggressive stance.",
+        "next_state_summary": "Continue to a state where your ground army is stronger and your defense is more solid, ready for the next phase.",
+        "node_id": "N001",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence indicates a ground posture with Siege Tanks, Marines, Reapers, and Medivacs. Their production and tech are heavy, and they have a heavy defense and expansion posture.",
+        "own_situation": "Your economy and production are heavy, with a ground-oriented army including Zealots, Stalkers, Observers, and Immortals. Defense is light or uncertain, but you have the capacity to strengthen it.",
+        "strategic_reason": "Your heavy economy and tech allow you to out-scale the Terran if you avoid early losses. Strengthening your ground forces and tech will prepare you for the midgame clash.",
+        "title": "Midgame Ground Macro Development",
+        "transition_goal": "Transition to a stronger ground composition with Colossus or Immortal support, and ensure your production can sustain a large army.",
+        "trigger_summary": "Reaching the midgame with a heavy economy and production, facing a Terran ground posture with heavy tech."
+      },
+      {
+        "avoid_direction": "Avoid neglecting scouting or over-expanding without defense, as the Terran could pressure you.",
+        "decision_direction": "Increase your economy and production, continue strengthening your ground army, and consider expanding to secure more resources. Maintain your current defense.",
+        "exit_or_recheck_condition": "Re-evaluate when you have secured a third base or when you detect a change in Terran strategy.",
+        "next_state_summary": "Move to a state where your economy is even stronger and your army is more developed.",
+        "node_id": "N002",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows a ground posture with Marines, and their production and tech are heavy. They have a moderate defense and heavy expansion.",
+        "own_situation": "Your economy is heavy, production is heavy, and you have a ground-oriented army with Zealots and Stalkers. Your expansion is light or uncertain, but you have the resources to expand further.",
+        "strategic_reason": "Investing in tech and economy now will give you a strong midgame. The Terran's heavy tech suggests they will have a strong army, so you need to match it.",
+        "title": "Early-Midgame Ground Tech Investment",
+        "transition_goal": "Transition to a solid midgame position with a strong economy and a versatile ground army.",
+        "trigger_summary": "In the early-midgame, with a heavy economy and production, facing a Terran ground posture with heavy tech."
+      },
+      {
+        "avoid_direction": "Avoid neglecting air defense, as the Terran may transition to air later. Also, avoid over-committing to a single tech path.",
+        "decision_direction": "Continue strengthening your ground army and technology, while maintaining your economy and production. Keep your defense solid and consider adding more tech units.",
+        "exit_or_recheck_condition": "Re-evaluate when you see a clear Terran tech switch or when you are ready to push for a decisive engagement.",
+        "next_state_summary": "Progress to a state where your army is more diverse and your tech is further advanced.",
+        "node_id": "N003",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows a ground posture with Siege Tanks, Marines, Reapers, and Medivacs. Their production and tech are heavy, and they have a heavy defense and expansion.",
+        "own_situation": "Your economy and production are heavy, and you have a ground-oriented army with Zealots, Stalkers, Void Rays, and Observers. Your defense is heavy, indicating you have prepared for potential attacks.",
+        "strategic_reason": "The Terran's heavy ground army requires a strong response. Your heavy economy allows you to invest in both army and tech, giving you an advantage in the late game.",
+        "title": "Late-Midgame Ground Army Reinforcement",
+        "transition_goal": "Transition to a late-game composition that can handle both ground and potential air threats.",
+        "trigger_summary": "In the late-midgame, with a heavy economy and production, facing a Terran ground posture with heavy tech and moderate air presence."
+      },
+      {
+        "avoid_direction": "Avoid making risky attacks or neglecting scouting, as the Terran's tech could surprise you.",
+        "decision_direction": "Focus on increasing your economy and production, while continuing to develop your technology. Maintain your current expansion and prepare for the midgame.",
+        "exit_or_recheck_condition": "Re-evaluate when you have a clear read on the Terran's composition or when you are ready to expand.",
+        "next_state_summary": "Move to a state where your production is heavier and your army is more developed.",
+        "node_id": "N004",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows an unknown posture with a Marauder, and their production is moderate but tech is heavy. Their defense and expansion are light or uncertain.",
+        "own_situation": "Your economy is heavy, production is moderate, and you have a Zealot. Your expansion is light or uncertain, but you have the potential to expand.",
+        "strategic_reason": "Building a strong economy and tech foundation early will pay off in the midgame. The Terran's heavy tech suggests they will have strong units, so you need to be prepared.",
+        "title": "Early Game Tech and Economy Foundation",
+        "transition_goal": "Transition to a solid early-midgame position with a strong economy and tech base.",
+        "trigger_summary": "In the early game, with a heavy economy and moderate production, facing a Terran with unknown posture but heavy tech."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "technology / economy / production opening",
+      "opening_name": "PvT_O09 Technology / Economy / Production",
+      "opening_summary": "A Protoss opening that emphasizes heavy technology and economy while maintaining moderate production, aiming for a flexible midgame with a ground-leaning army.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a technology / economy / production posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_positive_only",
+  "method_specific_annotation": true,
+  "opening_id": "PvT_O09",
+  "projection_path": "02_observation_projection/ablation_positive_only/PvT_O09.json"
+}

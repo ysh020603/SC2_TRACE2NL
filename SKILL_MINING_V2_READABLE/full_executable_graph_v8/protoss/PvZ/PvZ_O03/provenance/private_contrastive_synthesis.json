@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Continue developing economy and technology while maintaining flexibility. Strengthen ground forces as a baseline, but keep options open for air transition.",
+        "lesson_id": "L01",
+        "mistake": "Committing to a specific army composition before scouting the opponent's tech path, or neglecting defense while focusing on economy.",
+        "recheck": "Re-evaluate when you have scouted the opponent's tech path or when your army composition becomes defined.",
+        "target_node_id": "N001",
+        "title": "Avoid early army commitment",
+        "when": "Early game, own economy and tech heavy, production moderate, opponent ground-based with light air.",
+        "why": "Early game is about establishing a strong economic and technological foundation. Committing too early to a specific army composition can be punished by scouting and adaptation."
+      },
+      {
+        "correction": "Increase air presence and strengthen air forces. Continue developing technology and economy, but ensure ground defense is not neglected.",
+        "lesson_id": "L02",
+        "mistake": "Over-committing to air while neglecting ground defense, or failing to adapt if the opponent shows anti-air.",
+        "recheck": "Re-evaluate when you see the opponent's tech choice or if they commit to anti-air.",
+        "target_node_id": "N007",
+        "title": "Balance air commitment with ground defense",
+        "when": "Early-midgame, own army air-oriented with Oracles, heavy production and tech, opponent ground-based with light air.",
+        "why": "Oracles provide harassment and scouting, and can transition into Phoenix or Void Ray compositions. Air can be strong against ground-based Zerg, but ground defense remains essential."
+      },
+      {
+        "correction": "Strengthen ground forces and maintain Void Rays for anti-air. Continue developing technology and economy.",
+        "lesson_id": "L03",
+        "mistake": "Over-committing to Void Rays if the opponent has many Corruptors, or neglecting ground defense.",
+        "recheck": "Re-evaluate when you see the opponent's tech choice or if they commit to air.",
+        "target_node_id": "N010",
+        "title": "Maintain balanced ground and air forces",
+        "when": "Midgame, own army ground-oriented with Zealots and Void Rays, opponent ground-based with Zerglings, Mutalisks, Corruptors, and Queens.",
+        "why": "Void Rays provide anti-air and can be effective against Corruptors. A balanced army can handle mixed compositions."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "PvZ_O03",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "PvZ_O03:N001->PvZ_O03:N001",
+      "PvZ_O03:N008->PvZ_O03:N007",
+      "PvZ_O03:N011->PvZ_O03:N010"
+    ],
+    "source_digest": "f78bf0c464b41409149a65f28d13e7eea45d33938b43e92cc65a0236df378614",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

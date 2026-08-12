@@ -1,0 +1,573 @@
+{
+  "annotation": {
+    "phase_policies": [
+      {
+        "applies_when": "Early game (around 180s) with own ground-oriented macro posture, heavy economy and tech, moderate production. Opponent appears as a ground macro Zerg with light tech and moderate production.",
+        "live_check": "Re-evaluate when you have a significant army advantage or when scouting reveals a change in opponent's posture (e.g., tech switch or aggression).",
+        "phase": "early_game",
+        "routing_summary": "Develop economy and tech, strengthen ground army, maintain defenses, expand cautiously.",
+        "target": "Continue developing your economy and tech while strengthening your ground army. Maintain defensive structures and consider expanding further.",
+        "title": "Early Ground Macro with Heavy Tech",
+        "veto": "Do not overextend your economy without sufficient army to defend, or neglect scouting for tech switches or all-ins."
+      },
+      {
+        "applies_when": "Early-midgame (around 240-300s) with own heavy production and tech, ground army. Opponent still ground macro with moderate production and light tech.",
+        "live_check": "Re-evaluate when you have a clear army lead or when opponent's tech or production changes significantly.",
+        "phase": "early_midgame",
+        "routing_summary": "Strengthen ground army, expand, maintain production and tech, add Siege Tanks if needed.",
+        "target": "Continue strengthening your ground army and expanding. Maintain production and tech progression. Consider adding Siege Tanks or other tech units to your composition.",
+        "title": "Midgame Ground Strength and Expansion",
+        "veto": "Do not fall behind in tech or upgrades, or over-commit to a single composition without scouting for tech switches."
+      },
+      {
+        "applies_when": "Midgame (around 420-480s) with own heavy ground army, heavy production and tech. Opponent has heavy production and tech, still ground-oriented.",
+        "live_check": "Re-evaluate when you have a decisive army advantage or when opponent's composition changes significantly.",
+        "phase": "midgame",
+        "routing_summary": "Strengthen ground army, increase tech, maintain production, expand if safe, keep defenses.",
+        "target": "Continue to strengthen your ground army and increase tech. Maintain production and consider adding more expansions if needed. Keep defenses strong.",
+        "title": "Midgame Tech and Army Consolidation",
+        "veto": "Do not overextend without scouting for all-ins or tech switches, and do not neglect anti-air if opponent shows air units."
+      },
+      {
+        "applies_when": "Late-midgame (around 600s) with own heavy ground army, moderate air, and heavy economy. Opponent has heavy production and tech, with Mutalisks.",
+        "live_check": "Re-evaluate when you have a clear army advantage or when opponent's composition changes.",
+        "phase": "late_midgame",
+        "routing_summary": "Stabilize defenses, strengthen ground army, add anti-air, continue economy and tech.",
+        "target": "Stabilize your defenses against potential Mutalisk harassment. Continue to strengthen your ground army and consider adding anti-air units like Thors or Marines with upgrades.",
+        "title": "Late-Midgame Stabilization and Anti-Air",
+        "veto": "Do not neglect anti-air defense or overextend your economy without sufficient army to defend."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_trajectory_fusion_graph_v5",
+  "opening_id": "TvZ_O06",
+  "private_inputs": {
+    "agent_visible": false,
+    "experiment_feedback": {
+      "global": {
+        "v3": {
+          "VTD": [
+            23,
+            8,
+            29
+          ],
+          "apu": 0.58,
+          "bank": 2625.63,
+          "consume": 887.43,
+          "decision_errors": 3,
+          "duration": 814.29,
+          "invalid_buckets": {
+            "graph_phase_refresh": 86,
+            "idle_producer_overbuild": 32,
+            "initial_skill_read": 59,
+            "missing_gas_prerequisite": 5,
+            "other": 65,
+            "response_protocol": 20,
+            "supply_queue": 172
+          },
+          "invalid_rounds": 439,
+          "max_queue_mean": 34.37,
+          "max_supply_queue_ge3": 45,
+          "n": 60,
+          "queue_mix_pct": {
+            "bases": 1.2,
+            "production": 2.25,
+            "supply": 9.7,
+            "tech": 1.09,
+            "workers": 20.2
+          },
+          "score": 0.45
+        },
+        "v4": {
+          "VTD": [
+            24,
+            6,
+            30
+          ],
+          "apu": 0.61,
+          "bank": 2310.45,
+          "consume": 765.97,
+          "decision_errors": 10,
+          "duration": 788.15,
+          "invalid_buckets": {
+            "graph_phase_refresh": 99,
+            "idle_producer_overbuild": 26,
+            "initial_skill_read": 60,
+            "missing_gas_prerequisite": 16,
+            "other": 58,
+            "response_protocol": 26,
+            "supply_queue": 195
+          },
+          "invalid_rounds": 480,
+          "max_queue_mean": 29.95,
+          "max_supply_queue_ge3": 30,
+          "n": 60,
+          "queue_mix_pct": {
+            "bases": 0.85,
+            "production": 2.36,
+            "supply": 8.33,
+            "tech": 0.82,
+            "workers": 16.96
+          },
+          "score": 0.45
+        }
+      },
+      "matchup": {
+        "v3": {
+          "VTD": [
+            4,
+            1,
+            3
+          ],
+          "apu": 0.48,
+          "bank": 2951.78,
+          "consume": 637.89,
+          "decision_errors": 0,
+          "duration": 880.47,
+          "invalid_buckets": {
+            "graph_phase_refresh": 14,
+            "idle_producer_overbuild": 2,
+            "initial_skill_read": 8,
+            "other": 10,
+            "response_protocol": 3,
+            "supply_queue": 12
+          },
+          "invalid_rounds": 49,
+          "max_queue_mean": 36.38,
+          "max_supply_queue_ge3": 5,
+          "n": 8,
+          "queue_mix_pct": {
+            "bases": 0.54,
+            "production": 3.04,
+            "supply": 6.88,
+            "tech": 0.25,
+            "workers": 8.55
+          },
+          "score": 0.5625
+        },
+        "v4": {
+          "VTD": [
+            4,
+            3,
+            1
+          ],
+          "apu": 0.6,
+          "bank": 2853.88,
+          "consume": 838.96,
+          "decision_errors": 0,
+          "duration": 1051.34,
+          "invalid_buckets": {
+            "graph_phase_refresh": 15,
+            "idle_producer_overbuild": 2,
+            "initial_skill_read": 8,
+            "missing_gas_prerequisite": 1,
+            "other": 11,
+            "response_protocol": 9,
+            "supply_queue": 29
+          },
+          "invalid_rounds": 75,
+          "max_queue_mean": 32.88,
+          "max_supply_queue_ge3": 2,
+          "n": 8,
+          "queue_mix_pct": {
+            "bases": 0.29,
+            "production": 2.67,
+            "supply": 6.09,
+            "tech": 0.25,
+            "workers": 9.05
+          },
+          "score": 0.6875
+        }
+      },
+      "opening": {
+        "v3": {},
+        "v4": {}
+      },
+      "race": {
+        "v3": {
+          "VTD": [
+            4,
+            3,
+            13
+          ],
+          "apu": 0.46,
+          "bank": 2688.7,
+          "consume": 626.04,
+          "decision_errors": 0,
+          "duration": 902.57,
+          "invalid_buckets": {
+            "graph_phase_refresh": 33,
+            "idle_producer_overbuild": 4,
+            "initial_skill_read": 20,
+            "other": 28,
+            "response_protocol": 7,
+            "supply_queue": 32
+          },
+          "invalid_rounds": 124,
+          "max_queue_mean": 35.6,
+          "max_supply_queue_ge3": 13,
+          "n": 20,
+          "queue_mix_pct": {
+            "bases": 0.81,
+            "production": 2.93,
+            "supply": 7.28,
+            "tech": 0.45,
+            "workers": 12.21
+          },
+          "score": 0.275
+        },
+        "v4": {
+          "VTD": [
+            9,
+            4,
+            7
+          ],
+          "apu": 0.6,
+          "bank": 2518.7,
+          "consume": 782.81,
+          "decision_errors": 3,
+          "duration": 932.77,
+          "invalid_buckets": {
+            "graph_phase_refresh": 36,
+            "idle_producer_overbuild": 5,
+            "initial_skill_read": 20,
+            "missing_gas_prerequisite": 1,
+            "other": 29,
+            "response_protocol": 18,
+            "supply_queue": 65
+          },
+          "invalid_rounds": 174,
+          "max_queue_mean": 34.05,
+          "max_supply_queue_ge3": 6,
+          "n": 20,
+          "queue_mix_pct": {
+            "bases": 0.57,
+            "production": 2.62,
+            "supply": 6.42,
+            "tech": 0.28,
+            "workers": 10.3
+          },
+          "score": 0.55
+        }
+      },
+      "use_boundary": "Prioritize execution risks only; never infer the strategic target from agent outcomes."
+    },
+    "experiment_feedback_digest": "a4bfa2af20481553b92e5285d704981d5e9ab75e88a7f79be4b9a678d73115f8",
+    "human_evidence_digest": "ee8986b01c42d5c17111d7637f162df61331dd9f16aaf53eed80fd1decbd032b",
+    "human_phase_evidence": [
+      {
+        "adverse_aggregate_nodes": [
+          {
+            "direction_to_avoid": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zergling, Queen. Production appears moderate, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "support": 47
+          },
+          {
+            "direction_to_avoid": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "increase",
+              "production_direction": "increase",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "continue"
+            },
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zergling, Queen. Production appears moderate, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "support": 16
+          }
+        ],
+        "phase": "early_game",
+        "preferred_aggregate_nodes": [
+          {
+            "annotated_direction": "Continue developing your economy and tech while strengthening your ground army. Maintain defensive structures and consider expanding further.",
+            "annotated_recheck": "Re-evaluate when you have a significant army advantage or when scouting reveals a change in opponent's posture (e.g., tech switch or aggression).",
+            "annotated_trigger": "Early game (around 180s) with own ground-oriented macro posture, heavy economy and tech, moderate production. Opponent appears as a ground macro Zerg with light tech and moderate production.",
+            "frequency": 0.3029,
+            "node_id": "N001",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zergling, Queen. Production appears moderate, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "increase",
+              "production_direction": "continue",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 106
+          },
+          {
+            "annotated_direction": "Maintain your production and tech, but consider applying light pressure to exploit the opponent's light defense. Continue expanding.",
+            "annotated_recheck": "Re-evaluate when the opponent's defense strengthens or when you have a clear army lead.",
+            "annotated_trigger": "Early game (around 180s) with own heavy production and tech, ground army. Opponent similar to N001 but with lighter defense.",
+            "frequency": 0.2919,
+            "node_id": "N004",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zergling, Queen. Production appears moderate, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 47
+          },
+          {
+            "annotated_direction": "Use your Reaper to harass the opponent's economy and scout. Continue to develop your economy and tech, and consider expanding.",
+            "annotated_recheck": "Re-evaluate when the opponent's defense strengthens or when you have a clear army lead.",
+            "annotated_trigger": "Early game (around 180s) with own moderate production and heavy tech, using Reapers. Opponent ground macro with light defense.",
+            "frequency": 0.2162,
+            "node_id": "N007",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zergling, Queen. Production appears moderate, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "increase",
+              "production_direction": "increase",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "continue"
+            },
+            "support": 16
+          }
+        ]
+      },
+      {
+        "adverse_aggregate_nodes": [
+          {
+            "direction_to_avoid": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "increase",
+              "production_direction": "continue",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zergling, Queen. Production appears moderate, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "support": 83
+          }
+        ],
+        "phase": "early_midgame",
+        "preferred_aggregate_nodes": [
+          {
+            "annotated_direction": "Continue strengthening your ground army and expanding. Maintain production and tech progression. Consider adding Siege Tanks or other tech units to your composition.",
+            "annotated_recheck": "Re-evaluate when you have a clear army lead or when opponent's tech or production changes significantly.",
+            "annotated_trigger": "Early-midgame (around 240-300s) with own heavy production and tech, ground army. Opponent still ground macro with moderate production and light tech.",
+            "frequency": 0.4109,
+            "node_id": "N002",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zergling, Queen. Production appears moderate, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "increase",
+              "production_direction": "continue",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 83
+          },
+          {
+            "annotated_direction": "Maintain your defensive posture and continue to strengthen your ground army. Consider adding more Siege Tanks or Marauders to counter Roaches.",
+            "annotated_recheck": "Re-evaluate when you have a clear army advantage or when opponent's composition changes.",
+            "annotated_trigger": "Early-midgame (around 360s) with own heavy production and tech, ground army with Siege Tanks. Opponent has moderate production and light tech, but with Roaches.",
+            "frequency": 0.1828,
+            "node_id": "N006",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zergling, Roach, Queen. Production appears moderate, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 34
+          },
+          {
+            "annotated_direction": "Continue to strengthen your army and expand. Consider adding more production or tech units. Maintain pressure with Reapers if possible.",
+            "annotated_recheck": "Re-evaluate when you have a clear army advantage or when opponent's posture changes.",
+            "annotated_trigger": "Early-midgame (around 240s) with own heavy production and tech, using Marines and Reapers. Opponent ground macro with light defense.",
+            "frequency": 0.1864,
+            "node_id": "N008",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zergling, Queen. Production appears moderate, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "increase",
+              "production_direction": "increase",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "continue"
+            },
+            "support": 11
+          }
+        ]
+      },
+      {
+        "adverse_aggregate_nodes": [
+          {
+            "direction_to_avoid": {
+              "air_direction": "continue",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "increase",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "continue"
+            },
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zergling, Queen. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "support": 61
+          }
+        ],
+        "phase": "midgame",
+        "preferred_aggregate_nodes": [
+          {
+            "annotated_direction": "Continue to strengthen your ground army and increase tech. Maintain production and consider adding more expansions if needed. Keep defenses strong.",
+            "annotated_recheck": "Re-evaluate when you have a decisive army advantage or when opponent's composition changes significantly.",
+            "annotated_trigger": "Midgame (around 420-480s) with own heavy ground army, heavy production and tech. Opponent has heavy production and tech, still ground-oriented.",
+            "frequency": 0.1912,
+            "node_id": "N003",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zergling, Queen. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "continue",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "increase",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "continue"
+            },
+            "support": 61
+          },
+          {
+            "annotated_direction": "Continue to strengthen your ground army while also developing your air presence. Increase production and tech, and consider expanding further.",
+            "annotated_recheck": "Re-evaluate when you have a significant army advantage or when opponent's composition changes.",
+            "annotated_trigger": "Midgame (around 420-480s) with own ground army but moderate air presence, including Battlecruisers. Opponent heavy production and tech, ground-oriented.",
+            "frequency": 0.2387,
+            "node_id": "N005",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zergling, Queen. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "increase",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "increase",
+              "production_direction": "continue",
+              "technology_direction": "increase",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "continue"
+            },
+            "support": 37
+          }
+        ]
+      },
+      {
+        "adverse_aggregate_nodes": [],
+        "phase": "late_midgame",
+        "preferred_aggregate_nodes": [
+          {
+            "annotated_direction": "Stabilize your defenses against potential Mutalisk harassment. Continue to strengthen your ground army and consider adding anti-air units like Thors or Marines with upgrades.",
+            "annotated_recheck": "Re-evaluate when you have a clear army advantage or when opponent's composition changes.",
+            "annotated_trigger": "Late-midgame (around 600s) with own heavy ground army, moderate air, and heavy economy. Opponent has heavy production and tech, with Mutalisks.",
+            "frequency": 0.2326,
+            "node_id": "N009",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zergling, Mutalisk, Queen. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "increase",
+              "economy_direction": "increase",
+              "expansion_direction": "increase",
+              "production_direction": "continue",
+              "technology_direction": "continue",
+              "tempo": "stabilize_then_develop",
+              "upgrade_direction": "continue"
+            },
+            "support": 10
+          }
+        ]
+      }
+    ]
+  },
+  "schema_version": 1
+}

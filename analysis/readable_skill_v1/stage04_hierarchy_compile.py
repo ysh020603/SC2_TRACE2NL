@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import shutil
+from copy import deepcopy
 
 from .common.io import read_json, write_json, write_text
 from .common.method_policy import policy
@@ -66,11 +67,25 @@ def _node_markdown(node: dict, child_ids: list[str], by_id: dict[str, dict], met
     if node.get("opponent_situation"):
         lines.extend(["### Opponent cues", "", f"- {node['opponent_situation']}", "- Treat remembered or observed Enemy Intelligence as partial and uncertain.", ""])
     lines.extend(["### Own cues", "", f"- {node['own_situation']}", "- Use the live observation to check army supply, free supply, resource bank, technology, and current queues.", "- These cues are approximate and do not all need to be true.", ""])
+    lines.extend(["## Human-Trajectory Interpretation", "", node.get("trajectory_interpretation") or "Use only the broad response direction retained from human trajectory evidence.", ""])
+    checks = node.get("applicability_checks") or []
+    if checks:
+        lines.extend(["## Applicability Checks", ""])
+        lines.extend(f"- {check}" for check in checks)
+        lines.append("")
     if badge == "NEGATIVE":
-        lines.extend(["## Risk Direction", "", "Historical matched contexts associate this broad direction with worse outcomes; the evidence is associative, not causal.", "", node["avoid_direction"], "", "## Safer Re-evaluation", "", node["exit_or_recheck_condition"], ""])
+        lines.extend(["## General Failure Mode", "", node.get("failure_mode") or "historical_response_mismatch", "", "## Risk Direction", "", "Historical matched contexts associate this broad direction with worse outcomes; the evidence is associative, not causal.", "", node["avoid_direction"], "", "## Safer Re-evaluation", "", node.get("repair_or_recheck_condition") or node["exit_or_recheck_condition"], ""])
     else:
         lines.extend(["## Recommended Strategic Direction", "", node["decision_direction"], "", node["strategic_reason"], ""])
     lines.extend(["## What This Does NOT Mean", "", "This node is not an instruction to reproduce a historical action sequence.", "", "Choose exact macro actions from the current live observation, not merely because a unit or structure appeared in historical evidence.", "", "## Transition Goal", "", node["transition_goal"], ""])
+    if badge != "NEGATIVE":
+        lines.extend(["## Stop / Repair / Recheck", "", node.get("repair_or_recheck_condition") or node["exit_or_recheck_condition"], ""])
+    envelope = node.get("execution_envelope") or {}
+    candidates = envelope.get("trajectory_candidate_pool") or []
+    if candidates:
+        lines.extend(["## Knowledge-Grounded Execution Envelope", ""])
+        lines.append("**Human-trajectory candidate pool (not an ordered build list):** " + ", ".join(x["name"] for x in candidates))
+        lines.extend(["", f"- Selection: {envelope.get('selection_rule', '')}", f"- Resource conversion: {envelope.get('resource_conversion_trigger', '')}", f"- Unreachable-candidate fallback: {envelope.get('fallback_rule', '')}", f"- Feedback repair: {envelope.get('feedback_rule', '')}", ""])
     if child_ids:
         lines.extend(["## Possible Next Situations", ""])
         for child_id in child_ids:
@@ -81,7 +96,25 @@ def _node_markdown(node: dict, child_ids: list[str], by_id: dict[str, dict], met
 
 def compile_one(cfg: PipelineConfig, projection: dict, semantic: dict) -> dict:
     method, opening_id = projection["method"], projection["opening_id"]
+    semantic = deepcopy(semantic)
     annotation = semantic["annotation"]
+    opening_seed = projection["opening_projection"]
+    supplied_opening = annotation.get("opening") if isinstance(annotation.get("opening"), dict) else {}
+    opening_defaults = {
+        "opening_name": opening_seed["opening_name_seed"],
+        "opening_family": opening_seed["opening_family_seed"],
+        "opening_summary": opening_seed["strategic_goal_seed"],
+        "strategic_goal": opening_seed["strategic_goal_seed"],
+        "economy_character": opening_seed["economy_character"],
+        "production_character": opening_seed["production_character"],
+        "technology_character": opening_seed["technology_character"],
+        "army_character": opening_seed["army_character"],
+        "flexibility_note": opening_seed["flexibility_note"],
+    }
+    annotation["opening"] = {
+        key: supplied_opening.get(key) if supplied_opening.get(key) not in (None, "") else value
+        for key, value in opening_defaults.items()
+    }
     matchup, race_dir = opening_id[:3], projection["race"].lower()
     dest = cfg.skill_root / method / race_dir / matchup / opening_id
     dest.mkdir(parents=True, exist_ok=True)
@@ -107,8 +140,8 @@ def compile_one(cfg: PipelineConfig, projection: dict, semantic: dict) -> dict:
     annotation_path = cfg.stage_dir(3) / method / f"{opening_id}.json"
     shutil.copyfile(ir_path, prov / "method_ir.json")
     shutil.copyfile(projection_path, prov / "observation_projection.json")
-    shutil.copyfile(annotation_path, prov / "semantic_annotation.json")
-    write_json(prov / "source_mapping.json", {node["node_id"]: {"source_state_ids": node.get("source_state_ids", []), "source_edge_ids": node.get("source_edge_ids", [])} for node in projection.get("nodes", [])})
+    write_json(prov / "semantic_annotation.json", semantic)
+    write_json(prov / "source_mapping.json", {node["node_id"]: {"source_state_ids": node.get("source_state_ids", []), "source_edge_ids": node.get("source_edge_ids", []), "knowledge_claims": (ann_by_id.get(node["node_id"]) or {}).get("knowledge_claims", [])} for node in projection.get("nodes", [])})
     return {"path": str(dest.relative_to(cfg.skill_root)), "nodes": len(index_nodes), "annotation_source": semantic.get("annotation_source")}
 
 

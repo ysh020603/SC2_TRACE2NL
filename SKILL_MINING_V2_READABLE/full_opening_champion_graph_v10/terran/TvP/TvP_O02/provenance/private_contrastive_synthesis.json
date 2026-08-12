@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Increase your economy and production to match the opponent's heavy economy, while continuing technology development.",
+        "lesson_id": "L01",
+        "mistake": "Focusing on technology and economy while neglecting army production, leaving you vulnerable to an attack.",
+        "recheck": "Re-evaluate when you see enemy units or when your own production and technology become more defined.",
+        "target_node_id": "N006",
+        "title": "Match Opponent's Economy",
+        "when": "Early game when opponent has heavy economy and technology, moderate production, and your own economy is moderate with heavy technology.",
+        "why": "The opponent's heavy economy and technology indicate a macro-oriented game; matching their economy and production keeps you competitive."
+      },
+      {
+        "correction": "Strengthen your ground forces further, considering adding Siege Tanks or Marauders to counter Zealots and Stalkers.",
+        "lesson_id": "L02",
+        "mistake": "Neglecting upgrades or tech that could give the opponent an advantage in the ground engagement.",
+        "recheck": "Re-evaluate when you see more of the opponent's army composition or when you are ready to push.",
+        "target_node_id": "N007",
+        "title": "Counter Ground Composition",
+        "when": "Late-midgame when both sides have ground posture, opponent has Zealots and Stalkers with heavy economy, production, and technology, and your ground forces include Marines, Reapers, and Widow Mines.",
+        "why": "The opponent's ground army is strong; Siege Tanks provide area denial and Marauders are effective against Zealots."
+      },
+      {
+        "correction": "Strengthen your ground forces, considering adding Marauders to counter Zealots and Sentries.",
+        "lesson_id": "L03",
+        "mistake": "Over-committing to a single unit composition that could be countered by Sentry abilities.",
+        "recheck": "Re-evaluate when you see more of the opponent's army composition or when you are ready to push.",
+        "target_node_id": "N008",
+        "title": "Adapt to Sentry Threats",
+        "when": "Early-midgame when opponent has ground posture with Zealots and Sentries, heavy economy, production, and technology, and your ground forces include Marines.",
+        "why": "The opponent's ground army is strong; Marauders are effective against Zealots and can help break Sentry force fields."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "TvP_O02",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "TvP_O02:N006->TvP_O02:N006",
+      "TvP_O02:N007->TvP_O02:N007",
+      "TvP_O02:N008->TvP_O02:N008"
+    ],
+    "source_digest": "fed4898ba7f4c53bda936f4cc3bae19c0e7fe600322679f729cce4658be7bc14",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

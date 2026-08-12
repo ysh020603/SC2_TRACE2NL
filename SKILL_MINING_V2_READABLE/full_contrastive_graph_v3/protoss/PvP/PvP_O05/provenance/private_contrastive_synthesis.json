@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Continue strengthening your ground army, adding more Immortals and supporting units. Keep expanding and increasing your economy.",
+        "lesson_id": "L01",
+        "mistake": "Continuing to strengthen ground and expand without ensuring detection or anti-air, risking a surprise transition to air units like Oracles or Void Rays.",
+        "recheck": "Re-evaluate if the opponent shows signs of transitioning to air or if you face a timing attack.",
+        "target_node_id": "N002",
+        "title": "Avoid neglecting detection or anti-air when both sides are heavy ground",
+        "when": "Midgame, both sides have heavy ground armies and heavy tech. Own army includes Stalkers and Immortals, opponent shows Zealot cues.",
+        "why": "Immortals are strong against Zealot-heavy ground compositions common in PvP. Maintaining a heavy economy allows you to outproduce the opponent."
+      },
+      {
+        "correction": "Focus on developing your economy and technology while maintaining a flexible army composition. Continue expanding and increasing production.",
+        "lesson_id": "L02",
+        "mistake": "Making a large army investment too early, which may delay your tech and economy.",
+        "recheck": "Re-evaluate when you have more scouting information or when you hit a tech milestone.",
+        "target_node_id": "N003",
+        "title": "Avoid over-investing in army early when opponent is unknown",
+        "when": "Early game, both sides have heavy economy and technology, but no clear army composition yet. No reliable combat-unit cues from the opponent.",
+        "why": "In the early game, investing in tech and economy sets up a strong midgame. Keeping options open allows you to react to the opponent's first moves."
+      },
+      {
+        "correction": "Continue strengthening your ground army, adding more Immortals and ensuring you have detection. Maintain your economy and expansion.",
+        "lesson_id": "L03",
+        "mistake": "Being too passive, allowing the opponent to build up for a timing attack.",
+        "recheck": "Re-evaluate if the opponent transitions to air or if you need to add splash damage.",
+        "target_node_id": "N005",
+        "title": "Avoid being too passive when opponent has heavy ground and detection",
+        "when": "Late-midgame, both sides have heavy ground armies and heavy tech. Own army includes Stalkers, Observers, and Immortals, opponent shows Stalker, Sentry, WarpPrism, Observer cues.",
+        "why": "Observers provide detection against potential cloaked units, while Immortals are strong against armored ground units. A heavy economy allows you to sustain a large army."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "PvP_O05",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "PvP_O05:N002->PvP_O05:N002",
+      "PvP_O05:N003->PvP_O05:N003",
+      "PvP_O05:N005->PvP_O05:N005"
+    ],
+    "source_digest": "00d913ea98063da6115f6bc2bfc62773665eed80f57f15b39a5e984c607173a4",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

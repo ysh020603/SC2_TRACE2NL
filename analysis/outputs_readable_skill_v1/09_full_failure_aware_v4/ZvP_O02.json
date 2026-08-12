@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Recheck at next decision cycle: bank below 500, workers at target, and at least 3 hatcheries with active larvae.",
+        "correction": "Spend bank on hatcheries (up to 3 bases total) and inject larvae with queens; queue drones from all hatcheries until worker count reaches 38-44, but keep at least 2 larvae in reserve for defensive units if threat is detected.",
+        "rule_id": "R01",
+        "title": "Maintain Zerg production tempo and worker saturation",
+        "when": "At any time before 6 minutes, if bank is above 800 minerals and either (a) active larvae plus hatchery count is below 3, or (b) workers are below 32 by 4 minutes or below 38 by 5 minutes."
+      },
+      {
+        "check": "Recheck at next decision cycle: roach count at least 12, roach warren completed, and army supply above 30.",
+        "correction": "Prioritize building roach warren if not already completed, then queue roaches from all hatcheries until you have at least 12 roaches; ensure you have enough supply (build overlords if needed) and keep 2-3 queens for creep and defense.",
+        "rule_id": "R02",
+        "title": "Counter Protoss ground composition with roaches",
+        "when": "If enemy intelligence shows a ground-heavy Protoss army (Zealots, Stalkers, Sentries, or Immortals) and your army supply is below 30, or if you have fewer than 6 roaches."
+      },
+      {
+        "check": "Recheck at next decision cycle: army supply above 25, bank below 800, and production capacity (hatcheries + larvae) sufficient to sustain unit production.",
+        "correction": "Immediately convert bank into combat units: queue zerglings and roaches from all hatcheries, prioritizing roaches if enemy has stalkers/immortals; build additional hatcheries if larvae are insufficient, and ensure supply is not blocked by building overlords if needed.",
+        "rule_id": "R03",
+        "title": "Recover from low army and high bank",
+        "when": "If army supply is below 15 and bank is above 1500 minerals, or if predicted advantage is OverwhelmingDisadvantage."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "ZvP_O02",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "4bc24b5e9f92075db3e3eab94b025837af6ec1b31b90d7c9c323d19e0f21baaa",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 2,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 0.7,
+            "bank": 2053.8,
+            "bases": 1.8,
+            "production": 1.8,
+            "supply_providers": 4.4,
+            "workers": 31.0
+          },
+          "300": {
+            "army_supply": 2.2,
+            "bank": 3071.1,
+            "bases": 2.1,
+            "production": 2.1,
+            "supply_providers": 5.9,
+            "workers": 36.4
+          },
+          "360": {
+            "army_supply": 4.4,
+            "bank": 4271.2,
+            "bases": 2.0,
+            "production": 2.0,
+            "supply_providers": 7.5,
+            "workers": 38.3
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.693,
+          "average_bank": 3327.4,
+          "consume_per_min": 614.5
+        },
+        "defeats_with_three_or_more_supply_entries": 10,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 12,
+          "Tie": 4,
+          "Victory": 4
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

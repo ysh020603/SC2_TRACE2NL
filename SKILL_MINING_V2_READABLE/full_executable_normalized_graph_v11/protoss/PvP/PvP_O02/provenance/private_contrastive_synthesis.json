@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Strengthen your ground army and continue developing economy and technology. Maintain a defensive posture while preparing for a potential ground engagement.",
+        "lesson_id": "L01",
+        "mistake": "Overcommitting to air units or neglecting scouting, assuming the opponent lacks anti-air.",
+        "recheck": "Re-evaluate when you see more of the opponent's army composition or when ready to push out. If passive, consider expanding or teching further.",
+        "target_node_id": "N006",
+        "title": "Ground Defense Priority",
+        "when": "Early midgame, opponent has ground posture with Zealots, heavy economy, moderate production. You have moderate economy and heavy tech.",
+        "why": "The opponent's ground posture suggests a Zealot-heavy army. Ground forces and tech advantage counter their composition."
+      },
+      {
+        "correction": "Continue to strengthen your ground army and develop economy and technology. Maintain a defensive posture while preparing for a potential large-scale engagement.",
+        "lesson_id": "L02",
+        "mistake": "Neglecting air defense or overextending economy without adequate defense.",
+        "recheck": "Re-evaluate when you see the opponent's main army composition or when ready to push out. If passive, consider expanding or teching further.",
+        "target_node_id": "N008",
+        "title": "Balanced Ground and Tech",
+        "when": "Late midgame, both you and opponent have ground posture with Zealots, Stalkers, Immortals. Both economies and production are heavy.",
+        "why": "Both sides have similar ground compositions. Continuing economy and tech development gives an advantage in upgrades or army size."
+      },
+      {
+        "correction": "Strengthen your ground army and continue to develop economy and technology. Maintain a defensive posture while preparing for a potential ground engagement.",
+        "lesson_id": "L03",
+        "mistake": "Overextending economy without adequate defense or neglecting scouting due to unknown composition.",
+        "recheck": "Re-evaluate when you see more of the opponent's army composition or when ready to push out. If passive, consider expanding or teching further.",
+        "target_node_id": "N009",
+        "title": "Macro Defense with Unknown Composition",
+        "when": "Early midgame, opponent has heavy economy and expansion, moderate production. You have moderate economy and heavy tech, with heavy expansion.",
+        "why": "The opponent's heavy economy suggests a macro-oriented game. Ground forces and tech advantage counter their eventual army."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "PvP_O02",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "PvP_O02:N006->PvP_O02:N006",
+      "PvP_O02:N008->PvP_O02:N008",
+      "PvP_O02:N009->PvP_O02:N009"
+    ],
+    "source_digest": "10546568fb5d94ef42ede7ffbcace27927f8806d4d4ad4fbe05dc74c3e49cd4b",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

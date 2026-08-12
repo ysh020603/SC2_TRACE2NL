@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Strengthen your ground army, continue teching, and add units that counter the enemy's composition (e.g., Roaches against Zealots/Stalkers).",
+        "lesson_id": "L01",
+        "mistake": "Engaging in a straight-up fight without proper army composition, or over-investing in economy at the expense of defense.",
+        "recheck": "Re-evaluate if the enemy adds air units or changes their composition significantly.",
+        "target_node_id": "N004",
+        "title": "Ground vs Ground: Avoid Straight-Up Fight",
+        "when": "Midgame, enemy scouted as ground-heavy with Zealots, Stalkers, Sentries, possibly Immortals; your army is ground-based with Zerglings, Roaches, Queens.",
+        "why": "Matching the enemy's ground strength is necessary to hold off potential pushes and maintain map control."
+      },
+      {
+        "correction": "Increase your economy and tech, strengthen your ground army, and keep scouting to identify the enemy's plan.",
+        "lesson_id": "L02",
+        "mistake": "Over-committing to an attack without knowing the opponent's composition, or neglecting scouting to confirm their greed.",
+        "recheck": "Re-evaluate when you see the enemy's first combat units or tech structures.",
+        "target_node_id": "N006",
+        "title": "Unknown Enemy: Avoid Overcommitting Without Scouting",
+        "when": "Early-midgame, enemy shows heavy economy and tech investment with moderate production; your army is ground-based with Zerglings and Queens.",
+        "why": "Matching the enemy's economy and tech is important to avoid falling behind, while maintaining a defensive ground army."
+      },
+      {
+        "correction": "Strengthen your ground army, continue teching, and consider adding units that counter the enemy's composition (e.g., Roaches against Stalkers).",
+        "lesson_id": "L03",
+        "mistake": "Engaging in a straight-up fight without proper army composition, or over-investing in economy at the expense of defense.",
+        "recheck": "Re-evaluate if the enemy adds air units or changes their composition significantly.",
+        "target_node_id": "N007",
+        "title": "Stalker Ground: Avoid Straight-Up Fight",
+        "when": "Early-midgame, enemy scouted with Stalkers and a heavy ground posture; your army is ground-based with Zerglings and Queens.",
+        "why": "Matching the enemy's ground strength is necessary to hold off potential pushes and maintain map control."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "ZvP_O02",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "ZvP_O02:N004->ZvP_O02:N004",
+      "ZvP_O02:N006->ZvP_O02:N006",
+      "ZvP_O02:N007->ZvP_O02:N007"
+    ],
+    "source_digest": "d468f0ec1689396548c06740661e6fd27c52ade2e02ed226887b9554a726e725",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

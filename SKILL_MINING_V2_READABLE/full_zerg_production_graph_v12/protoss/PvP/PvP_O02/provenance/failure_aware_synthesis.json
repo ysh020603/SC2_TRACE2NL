@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Recheck at next decision cycle.",
+        "correction": "Queue units from existing production structures first; if all are busy and bank remains above 800, add a Gateway or tech structure that fits the opening's technology/economy identity. Prioritize ground units (Zealots, Stalkers) to keep army supply above 15 before considering expansions.",
+        "rule_id": "R01",
+        "title": "Maintain tech-economy tempo with production scaling",
+        "when": "At any time before 6 minutes, if bank is above 800 minerals and active production structures are fewer than 3, or if any production structure is idle while bank exceeds 400 minerals."
+      },
+      {
+        "check": "Recheck at next decision cycle.",
+        "correction": "Strengthen ground army by queuing Zealots and Stalkers from existing Gateways; if tech allows, add an Immortal or Colossus. Ensure detection (Observer or Oracle) if enemy has stealth-capable units. Continue economy and tech development while maintaining a defensive posture.",
+        "rule_id": "R02",
+        "title": "Counter enemy ground composition with tech and ground army",
+        "when": "If Enemy Intelligence shows a ground-heavy composition (Zealots, Stalkers, Immortals) and your army supply is below 20, or if you lack detection against potential DTs."
+      },
+      {
+        "check": "Recheck at next decision cycle.",
+        "correction": "Immediately convert bank into army by queuing units from all production structures; if production is insufficient, add Gateways (up to 2) and queue Zealots/Stalkers. Prioritize army over economy or tech until army supply is at least 20. Do not expand until army is stable.",
+        "rule_id": "R03",
+        "title": "Recover from low army and high bank",
+        "when": "If army supply is below 15 and bank exceeds 1000 minerals, or if predicted advantage is OverwhelmingDisadvantage."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "PvP_O02",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "b7dc0c96c101ef61398dfb8285e2f8e0bfa8d7da601390e2f6cea8d8299e9268",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 1,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 6.0,
+            "bank": 915.2,
+            "bases": 1.2,
+            "production": 1.5,
+            "supply_providers": 5.8,
+            "workers": 26.0
+          },
+          "300": {
+            "army_supply": 12.5,
+            "bank": 1365.2,
+            "bases": 1.5,
+            "production": 2.5,
+            "supply_providers": 6.8,
+            "workers": 29.5
+          },
+          "360": {
+            "army_supply": 14.5,
+            "bank": 2029.2,
+            "bases": 2.0,
+            "production": 3.0,
+            "supply_providers": 7.5,
+            "workers": 32.0
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.437,
+          "average_bank": 1995.2,
+          "consume_per_min": 816.3
+        },
+        "defeats_with_three_or_more_supply_entries": 3,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 4,
+          "Tie": 1,
+          "Victory": 15
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

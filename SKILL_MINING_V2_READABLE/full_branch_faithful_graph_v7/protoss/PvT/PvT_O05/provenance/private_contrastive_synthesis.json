@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Continue strengthening ground army, increase production, maintain economy and tech lead, expand, and add Observers for vision.",
+        "lesson_id": "L01",
+        "mistake": "Focusing solely on ground strength and production, ignoring potential air transitions and overextending without scouting.",
+        "recheck": "Re-evaluate when you see opponent's tech choices (Medivacs, Marauders) or early pressure.",
+        "target_node_id": "N002",
+        "title": "Avoid neglecting air defense while pushing ground",
+        "when": "Early-mid game (4-6 min) with both sides ground-oriented, opponent has Marines, you have Stalkers and Sentries.",
+        "why": "Opponent likely bio-based ground; your Stalkers/Sentries are solid, tech advantage allows later transitions."
+      },
+      {
+        "correction": "Continue strengthening ground army, increase production, maintain economy/tech, consider High Templar for Storm or mixed composition.",
+        "lesson_id": "L02",
+        "mistake": "Neglecting upgrades and being caught out of position, allowing a timing attack.",
+        "recheck": "Re-evaluate when you see opponent's tech choices (Battlecruisers, Ravens) or large push.",
+        "target_node_id": "N004",
+        "title": "Avoid neglecting upgrades and positioning in late-midgame",
+        "when": "Late-midgame (10-12 min) with heavy production/tech, opponent has Marines, Reapers, Marauders, Medivacs; you have Colossus, Zealots, Stalkers, Sentries.",
+        "why": "Your army is well-rounded with Colossus splash and Zealot tanking; heavy economy sustains large army and upgrades."
+      },
+      {
+        "correction": "Continue developing economy/tech, increase production, strengthen ground army, maintain defensive posture while expanding.",
+        "lesson_id": "L03",
+        "mistake": "Making assumptions about enemy build without scouting and neglecting defense while teching.",
+        "recheck": "Re-evaluate when you see more of opponent's army composition or early pressure.",
+        "target_node_id": "N001",
+        "title": "Avoid assuming enemy build without scouting",
+        "when": "Early game (~3 min) with heavy economy/tech, moderate production, unclear army composition, opponent may show Reaper.",
+        "why": "This opening prioritizes long-term advantages; light defense is sufficient as opponent's posture is unclear."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "PvT_O05",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "PvT_O05:N002->PvT_O05:N002",
+      "PvT_O06:N004->PvT_O05:N004",
+      "PvT_O07:N002->PvT_O05:N001"
+    ],
+    "source_digest": "863ae3a0923cc05939fd096df392a479249ecf36189f5aec26826a8eb20ec171",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

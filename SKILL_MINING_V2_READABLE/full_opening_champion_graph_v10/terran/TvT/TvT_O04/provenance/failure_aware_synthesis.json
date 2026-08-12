@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Recheck at next decision cycle: bank below 600 minerals and 300 gas, and all production structures have active queues.",
+        "correction": "Queue Marines from Barracks and ensure at least 2 Barracks are active; if Factory is available, queue a Siege Tank. Prioritize spending bank on production and army over expansions or upgrades. Keep workers producing toward saturation (target 2 per mineral line and 3 per gas).",
+        "rule_id": "R01",
+        "title": "Production Tempo and Bank Conversion",
+        "when": "At 240-360 seconds, if bank exceeds 800 minerals and 400 gas, or if active production structures are fewer than 2, or if any production structure is idle with bank above 300 minerals."
+      },
+      {
+        "check": "Recheck at next decision cycle: army includes at least 2 anti-air units or a Starport with a Viking queued, and ground production remains active.",
+        "correction": "Add a Tech Lab on a Barracks and queue a Marauder or produce a Viking from a Starport if available; if Starport is not built, prioritize constructing one. Maintain ground army production (Marines, Siege Tanks) while adding anti-air. Ensure at least one Engineering Bay is upgrading if feasible.",
+        "rule_id": "R02",
+        "title": "Enemy Composition Response",
+        "when": "If enemy intelligence shows air units (e.g., Banshees, Medivacs, Vikings) or if threat flags indicate air harassment, and your army lacks anti-air capability."
+      },
+      {
+        "check": "Recheck at next decision cycle: army supply above 20 and bank below 500 minerals, or production structures are all active with queues.",
+        "correction": "Immediately queue units from all available production structures (Barracks, Factory, Starport) prioritizing Marines and Siege Tanks. If production structures are insufficient, construct additional Barracks (up to 3 total) and attach Tech Labs as needed. Do not expand or invest in upgrades until army supply is above 20 and bank is below 500 minerals.",
+        "rule_id": "R03",
+        "title": "Recovery from Low Army and High Bank",
+        "when": "If army supply is below 15 and bank exceeds 1000 minerals and 500 gas, or if predicted advantage is OverwhelmingDisadvantage."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "TvT_O04",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "55345815ae8c1220dfd80edadd1472bde8fe4a57a89fb22684cbee4195f8ced2",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 0,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 3.8,
+            "bank": 1234.6,
+            "bases": 1.4,
+            "production": 1.2,
+            "supply_providers": 6.1,
+            "workers": 24.7
+          },
+          "300": {
+            "army_supply": 7.6,
+            "bank": 1865.2,
+            "bases": 1.5,
+            "production": 1.6,
+            "supply_providers": 6.8,
+            "workers": 27.8
+          },
+          "360": {
+            "army_supply": 7.5,
+            "bank": 2289.6,
+            "bases": 1.6,
+            "production": 2.2,
+            "supply_providers": 7.6,
+            "workers": 27.8
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.435,
+          "average_bank": 2389.3,
+          "consume_per_min": 573.2
+        },
+        "defeats_with_three_or_more_supply_entries": 9,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 13,
+          "Tie": 3,
+          "Victory": 4
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

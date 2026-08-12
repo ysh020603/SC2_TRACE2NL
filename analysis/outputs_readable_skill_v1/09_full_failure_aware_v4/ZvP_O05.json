@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Next decision cycle, verify army supply increased and bank decreased.",
+        "correction": "Queue units from existing hatcheries, prioritizing Zerglings and Queens. If bank exceeds 1500 and no more than 2 bases, build an additional Hatchery at a natural expansion. Ensure worker production is continuous until 2 per mineral patch and 3 per gas geyser.",
+        "rule_id": "R01",
+        "title": "Maintain production tempo and economy",
+        "when": "At any time before 6 minutes, if army supply is below 15 and bank is above 1000, or if active production structures are fewer than 2 and bank is above 500."
+      },
+      {
+        "check": "Next decision cycle, verify anti-air units or structures are in production or completed.",
+        "correction": "Queue Hydralisks or Spore Crawlers at each base. If tech is not available, prioritize Lair and Hydralisk Den. Maintain ground army while adding anti-air. If enemy is heavy ground with Zealots/Stalkers, ensure Roach Warren and Roaches are available.",
+        "rule_id": "R02",
+        "title": "Counter enemy composition",
+        "when": "If enemy intelligence reveals a heavy air composition (e.g., Void Rays, Phoenixes, or Carriers) and own army lacks anti-air units."
+      },
+      {
+        "check": "Next decision cycle, verify army supply increased and bank decreased.",
+        "correction": "Immediately queue units from all available hatcheries, prioritizing Zerglings and Roaches. If production is insufficient, build additional Hatcheries. Do not expand or tech until army supply is above 30. If threatened, use Spine Crawlers for defense.",
+        "rule_id": "R03",
+        "title": "Recover from low army and high bank",
+        "when": "If army supply is below 15 and bank is above 2000, or if predicted advantage is OverwhelmingDisadvantage."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "ZvP_O05",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "4bc24b5e9f92075db3e3eab94b025837af6ec1b31b90d7c9c323d19e0f21baaa",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 2,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 0.7,
+            "bank": 2053.8,
+            "bases": 1.8,
+            "production": 1.8,
+            "supply_providers": 4.4,
+            "workers": 31.0
+          },
+          "300": {
+            "army_supply": 2.2,
+            "bank": 3071.1,
+            "bases": 2.1,
+            "production": 2.1,
+            "supply_providers": 5.9,
+            "workers": 36.4
+          },
+          "360": {
+            "army_supply": 4.4,
+            "bank": 4271.2,
+            "bases": 2.0,
+            "production": 2.0,
+            "supply_providers": 7.5,
+            "workers": 38.3
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.693,
+          "average_bank": 3327.4,
+          "consume_per_min": 614.5
+        },
+        "defeats_with_three_or_more_supply_entries": 10,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 12,
+          "Tie": 4,
+          "Victory": 4
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

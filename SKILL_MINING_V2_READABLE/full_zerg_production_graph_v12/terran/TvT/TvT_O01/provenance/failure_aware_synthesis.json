@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Recheck at next decision cycle: bank below 800 minerals and 400 gas, production queues non-empty, worker count at least 30 by 5 minutes.",
+        "correction": "Prioritize adding production structures (Barracks, Factory, Starport) up to a ratio of 3 per base, then queue units continuously. If supply is not blocked, spend bank on production and army. If worker count is below 30 by 5 minutes, queue SCVs from all Command Centers until saturation (about 22 per base).",
+        "rule_id": "R01",
+        "title": "Production Tempo and Bank Conversion",
+        "when": "At any time, if bank is above 800 minerals and 400 gas, or if active production queues are empty and army supply is below 40, or if worker count is below 30 by 5 minutes."
+      },
+      {
+        "check": "Recheck at next decision cycle: anti-air structures and units in place, or Siege Tanks produced, and detection available.",
+        "correction": "If enemy has air units, add at least 2 Missile Turrets per base and produce Marines or Cyclones for anti-air. If enemy has Siege Tanks, produce your own Siege Tanks and ensure you have detection (Raven or scan). Continue expanding and teching to support the response.",
+        "rule_id": "R02",
+        "title": "Enemy Composition Response",
+        "when": "When enemy intelligence reveals a composition with air units (Banshees, Ravens, Vikings) or heavy ground with Siege Tanks, and your army lacks adequate anti-air or Siege Tanks."
+      },
+      {
+        "check": "Recheck at next decision cycle: army supply above 15, bank reduced, production active, and threat mitigated.",
+        "correction": "Immediately convert bank into army: queue units from all production structures, add production if needed, and ensure supply is not blocked. If a base is threatened, prioritize defensive structures (Bunkers, Missile Turrets) and units. Do not expand until army supply is above 15 and production is active.",
+        "rule_id": "R03",
+        "title": "Recovery from Low Army and High Bank",
+        "when": "When army supply is below 15 and bank is above 1000 minerals, or when predicted advantage is OverwhelmingDisadvantage, or when a base is threatened."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "TvT_O01",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "55345815ae8c1220dfd80edadd1472bde8fe4a57a89fb22684cbee4195f8ced2",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 0,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 3.8,
+            "bank": 1234.6,
+            "bases": 1.4,
+            "production": 1.2,
+            "supply_providers": 6.1,
+            "workers": 24.7
+          },
+          "300": {
+            "army_supply": 7.6,
+            "bank": 1865.2,
+            "bases": 1.5,
+            "production": 1.6,
+            "supply_providers": 6.8,
+            "workers": 27.8
+          },
+          "360": {
+            "army_supply": 7.5,
+            "bank": 2289.6,
+            "bases": 1.6,
+            "production": 2.2,
+            "supply_providers": 7.6,
+            "workers": 27.8
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.435,
+          "average_bank": 2389.3,
+          "consume_per_min": 573.2
+        },
+        "defeats_with_three_or_more_supply_entries": 9,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 13,
+          "Tie": 3,
+          "Victory": 4
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

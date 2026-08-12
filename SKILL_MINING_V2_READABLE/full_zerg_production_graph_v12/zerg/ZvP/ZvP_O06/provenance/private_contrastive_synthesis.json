@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Continue teching and increase army production. Add units that counter Immortals, such as Roaches or Hydralisks.",
+        "lesson_id": "L01",
+        "mistake": "Staying on a small ground army and continuing to tech without increasing production, leaving you vulnerable to being overwhelmed.",
+        "recheck": "Recheck when your tech is complete or when the opponent attacks.",
+        "target_node_id": "N005",
+        "title": "Counter Immortal-heavy ground armies",
+        "when": "Midgame, around 7 minutes, when opponent has a ground army with Immortals and you have heavy defense and tech investment.",
+        "why": "Immortals are strong against armored units, so you need a mix of units. Your tech investment will provide upgrades to help in the fight."
+      },
+      {
+        "correction": "Add anti-air units such as Hydralisks or Mutalisks. Consider building Spore Crawlers for defense.",
+        "lesson_id": "L02",
+        "mistake": "Staying on a ground-only army and continuing to strengthen ground forces, leaving you vulnerable to air harassment.",
+        "recheck": "Recheck when you have sufficient anti-air or when the opponent's air army is confirmed.",
+        "target_node_id": "N007",
+        "title": "Transition to anti-air against Phoenix/Warp Prism",
+        "when": "Midgame, around 8 minutes, when opponent transitions to an air-based army with Phoenixes and Warp Prisms, and you have a heavy ground defense.",
+        "why": "The opponent's air army requires anti-air capabilities. Your strong economy can support a tech switch to counter."
+      },
+      {
+        "correction": "Continue expanding and teching. Maintain a ground army for safety and scout for tech choices.",
+        "lesson_id": "L03",
+        "mistake": "Overcommitting to a specific tech path before knowing the opponent's plan, risking a poor matchup.",
+        "recheck": "Recheck when you have a clear read on the opponent's tech or when you are ready to transition.",
+        "target_node_id": "N008",
+        "title": "Maintain flexibility against unknown tech",
+        "when": "Early game, around 3 minutes, with a heavy economy and expansion, while opponent's tech is unknown but heavy.",
+        "why": "A strong economy and tech lead will give you an advantage in the mid-game. Ground army provides defense against early pressure."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "ZvP_O06",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "ZvP_O06:N005->ZvP_O06:N005",
+      "ZvP_O06:N007->ZvP_O06:N007",
+      "ZvP_O06:N008->ZvP_O06:N008"
+    ],
+    "source_digest": "e16dba3245fb14d4c140fc259cd8e93ca5cddb30396ea387e5d8d8aebbef72e5",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

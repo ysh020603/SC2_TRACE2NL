@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Strengthen ground army, increase economy, maintain expansions and production, continue tech.",
+        "lesson_id": "L01",
+        "mistake": "Being too passive and letting the Terran dictate the pace, neglecting army production while expanding.",
+        "recheck": "Recheck when opponent tech or army composition changes.",
+        "target_node_id": "N002",
+        "title": "Balanced Macro with Ground Focus",
+        "when": "Early game, opponent ground posture (Marine/Reaper), own Zergling/Queen, moderate production and light tech.",
+        "why": "Maintaining a balanced macro approach supports a strong midgame."
+      },
+      {
+        "correction": "Strengthen ground army, increase economy, continue expansions and production, increase tech.",
+        "lesson_id": "L02",
+        "mistake": "Being passive and letting the Terran dictate the pace, neglecting upgrades.",
+        "recheck": "Recheck when opponent tech or army composition changes.",
+        "target_node_id": "N005",
+        "title": "Late Midgame Preparation",
+        "when": "Late midgame, opponent ground posture (SiegeTank/Marine/Reaper/Hellion), own Zergling/Queen, heavy production and tech.",
+        "why": "In late midgame, you need to prepare for large engagements; maintaining economy while teching is crucial."
+      },
+      {
+        "correction": "Strengthen ground, increase economy, continue expansions and production, increase tech.",
+        "lesson_id": "L03",
+        "mistake": "Over-investing in tech at the expense of army size, neglecting scouting to anticipate the attack.",
+        "recheck": "Recheck when opponent tech or army composition changes.",
+        "target_node_id": "N007",
+        "title": "Transition to Midgame",
+        "when": "Early midgame, opponent ground posture (Marine/Reaper/Hellion), own Zergling/Queen, moderate tech.",
+        "why": "As you transition to midgame, you need to start teching to counter opponent's composition; maintaining economy is key."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "ZvT_O01",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "ZvT_O01:N002->ZvT_O01:N002",
+      "ZvT_O01:N011->ZvT_O01:N005",
+      "ZvT_O01:N009->ZvT_O01:N007"
+    ],
+    "source_digest": "f8e5051617fda3818e56c594f1f0ecf0ce89e7cc6e5e67a4b4227d9a6dbd7f0e",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

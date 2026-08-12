@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Bank > 1500 and production < 3, or army supply < 15 and bank > 1000.",
+        "correction": "Prioritize converting bank into production: add Barracks or Factory if prerequisites are met, and queue units from existing structures. Ensure worker production continues toward saturation (target 2 per base) without letting worker queues delay army production. Recheck at next decision cycle.",
+        "rule_id": "R01",
+        "title": "Production Tempo and Bank Conversion",
+        "when": "At any point before 6 minutes, if average bank exceeds 1500 minerals and production is below 3 active structures, or if army supply is below 15 and bank exceeds 1000."
+      },
+      {
+        "check": "Enemy composition includes air or splash units and current army lacks counters.",
+        "correction": "Adjust production and technology to counter the observed composition: if air threat, add Marines and Vikings, and ensure Starport with tech lab is available; if ground splash, add Siege Tanks and consider Ghosts for EMP. Maintain economy and production while transitioning. Recheck at next decision cycle.",
+        "rule_id": "R02",
+        "title": "Enemy Composition Response",
+        "when": "When enemy intelligence reveals a significant air threat (e.g., Carriers, Void Rays, Phoenix) or heavy ground splash (e.g., Colossus, High Templar) and current army lacks appropriate counters."
+      },
+      {
+        "check": "Army supply < 15 and bank > 2000 and (predicted advantage is OverwhelmingDisadvantage or threat flags active).",
+        "correction": "Immediately convert bank into army: queue units from all available production structures, add supply providers if needed (but only one at a time), and prioritize defensive structures if threatened. Do not expand or tech switch until army supply is above 15 and bank is reduced. Recheck at next decision cycle.",
+        "rule_id": "R03",
+        "title": "Recovery from Low Army and High Bank",
+        "when": "When army supply is below 15, bank exceeds 2000, and predicted advantage is OverwhelmingDisadvantage or threat flags indicate imminent attack."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "TvP_O03",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "55345815ae8c1220dfd80edadd1472bde8fe4a57a89fb22684cbee4195f8ced2",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 0,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 3.8,
+            "bank": 1234.6,
+            "bases": 1.4,
+            "production": 1.2,
+            "supply_providers": 6.1,
+            "workers": 24.7
+          },
+          "300": {
+            "army_supply": 7.6,
+            "bank": 1865.2,
+            "bases": 1.5,
+            "production": 1.6,
+            "supply_providers": 6.8,
+            "workers": 27.8
+          },
+          "360": {
+            "army_supply": 7.5,
+            "bank": 2289.6,
+            "bases": 1.6,
+            "production": 2.2,
+            "supply_providers": 7.6,
+            "workers": 27.8
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.435,
+          "average_bank": 2389.3,
+          "consume_per_min": 573.2
+        },
+        "defeats_with_three_or_more_supply_entries": 9,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 13,
+          "Tie": 3,
+          "Victory": 4
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

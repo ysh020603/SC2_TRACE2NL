@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Recheck at next decision cycle: ensure bank is below 800 minerals and 400 gas, and that production structures are actively queued.",
+        "correction": "Queue units from all available hatcheries, prioritizing Zerglings and Roaches to maintain ground pressure. If a spawning pool is missing, build it first. If a hatchery is missing, build one at an available expansion. If supply is not blocked and workers are below 60, continue injecting larvae and building workers up to 60. If bank remains high after queuing, build additional hatcheries to increase production capacity.",
+        "rule_id": "R01",
+        "title": "Maintain production tempo and convert bank into army",
+        "when": "At any time, if bank is above 800 minerals and 400 gas, or if active production structures are fewer than 3 and army supply is below 30, or if supply is not blocked and workers are below 60."
+      },
+      {
+        "check": "Recheck at next decision cycle: confirm that appropriate counter units are in production or completed, and detection is present at each base.",
+        "correction": "If Dark Templar or Warp Prism is observed, build an Evolution Chamber and research Overseer morph, then morph Overseers from existing overlords. If Immortal is observed, add Roaches or Hydralisks to counter. If Phoenix or Oracle is observed, build a Hydralisk Den and produce Hydralisks, or add Spore Crawlers at bases. If Void Ray is observed, build a Spire and produce Corruptors. Ensure at least one Overseer or Spore Crawler per base for detection.",
+        "rule_id": "R02",
+        "title": "Adapt composition to enemy tech and detection needs",
+        "when": "If enemy intelligence reveals any of: Dark Templar, Warp Prism, Immortal, Phoenix, Oracle, or Void Ray, and your army lacks appropriate counters or detection."
+      },
+      {
+        "check": "Recheck at next decision cycle: army supply should be above 15, bank should be below 1000 minerals, and no owned base should be under threat.",
+        "correction": "Immediately queue combat units from all hatcheries, prioritizing Zerglings and Roaches. If a spawning pool is missing, build it. If a hatchery is missing, build one at the nearest safe expansion. Do not build additional supply providers unless supply is blocked. Do not expand. If workers are above 40, do not build more workers until army supply is above 30. If gas is high, consider building a Baneling Nest and morph Banelings if enemy has light units.",
+        "rule_id": "R03",
+        "title": "Recover from low army and high bank with emergency production",
+        "when": "If army supply is below 15 and bank is above 1000 minerals, or if predicted advantage is OverwhelmingDisadvantage, or if any owned base is threatened."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "ZvP_O04",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "4bc24b5e9f92075db3e3eab94b025837af6ec1b31b90d7c9c323d19e0f21baaa",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 2,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 0.7,
+            "bank": 2053.8,
+            "bases": 1.8,
+            "production": 1.8,
+            "supply_providers": 4.4,
+            "workers": 31.0
+          },
+          "300": {
+            "army_supply": 2.2,
+            "bank": 3071.1,
+            "bases": 2.1,
+            "production": 2.1,
+            "supply_providers": 5.9,
+            "workers": 36.4
+          },
+          "360": {
+            "army_supply": 4.4,
+            "bank": 4271.2,
+            "bases": 2.0,
+            "production": 2.0,
+            "supply_providers": 7.5,
+            "workers": 38.3
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.693,
+          "average_bank": 3327.4,
+          "consume_per_min": 614.5
+        },
+        "defeats_with_three_or_more_supply_entries": 10,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 12,
+          "Tie": 4,
+          "Victory": 4
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

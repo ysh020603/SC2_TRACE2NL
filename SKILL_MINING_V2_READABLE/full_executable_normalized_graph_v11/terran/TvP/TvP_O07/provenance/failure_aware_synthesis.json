@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Recheck at next decision cycle.",
+        "correction": "Queue units from all available production structures, prioritizing Marines and Marauders. If no production structures are available, build a Barracks with a Reactor if prerequisites allow. If supply is not blocked and workers are below 30, queue SCVs from all Command Centers. If supply is blocked, add a Supply Depot only if no supply provider is already completed, pending, or queued.",
+        "rule_id": "R01",
+        "title": "Production Tempo and Bank Conversion",
+        "when": "At any time, if bank exceeds 800 minerals and 400 gas, or if active production structures are fewer than 3 and army supply is below 30, or if supply is not blocked and workers are below 30 at 5 minutes."
+      },
+      {
+        "check": "Recheck at next decision cycle.",
+        "correction": "Queue additional Marines from Barracks, and if tech lab is available, start producing Thors or Vikings from Factories or Starports. If no Starport exists, build one with a Tech Lab. Ensure at least 2 anti-air units per 10 army supply.",
+        "rule_id": "R02",
+        "title": "Anti-Air Response to Enemy Air Composition",
+        "when": "If enemy intelligence shows any of Void Rays, Phoenixes, Oracles, or other air units, and your army composition lacks sufficient anti-air (e.g., fewer than 4 Marines per 10 army supply, or no Thors/Vikings)."
+      },
+      {
+        "check": "Recheck at next decision cycle.",
+        "correction": "Immediately queue units from all production structures, prioritizing combat units. If production is insufficient, build additional Barracks, Factories, or Starports as resources allow. Do not expand or tech until army supply is above 15 and production is active.",
+        "rule_id": "R03",
+        "title": "Recovery from Low Army and High Bank",
+        "when": "If army supply is below 15 and bank exceeds 1000 minerals and 500 gas, or if predicted advantage is OverwhelmingDisadvantage."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "TvP_O07",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "55345815ae8c1220dfd80edadd1472bde8fe4a57a89fb22684cbee4195f8ced2",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 0,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 3.8,
+            "bank": 1234.6,
+            "bases": 1.4,
+            "production": 1.2,
+            "supply_providers": 6.1,
+            "workers": 24.7
+          },
+          "300": {
+            "army_supply": 7.6,
+            "bank": 1865.2,
+            "bases": 1.5,
+            "production": 1.6,
+            "supply_providers": 6.8,
+            "workers": 27.8
+          },
+          "360": {
+            "army_supply": 7.5,
+            "bank": 2289.6,
+            "bases": 1.6,
+            "production": 2.2,
+            "supply_providers": 7.6,
+            "workers": 27.8
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.435,
+          "average_bank": 2389.3,
+          "consume_per_min": 573.2
+        },
+        "defeats_with_three_or_more_supply_entries": 9,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 13,
+          "Tie": 3,
+          "Victory": 4
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Strengthen your ground army, increase economy and expansion, and continue technology development.",
+        "lesson_id": "L01",
+        "mistake": "Committing to a head-on fight against Siege Tanks without proper tech or positioning, or over-expanding without sufficient army to defend.",
+        "recheck": "Re-evaluate when you have more information about the opponent's army composition or expansion.",
+        "target_node_id": "N007",
+        "title": "Avoid head-on engagement with Siege Tanks",
+        "when": "Early-midgame, opponent shows heavy ground production (e.g., Marines) and you have moderate ground forces.",
+        "why": "The opponent is investing heavily in ground forces, so matching their strength while growing your economy is prudent."
+      },
+      {
+        "correction": "Strengthen your ground army, increase economy and expansion, and continue technology development.",
+        "lesson_id": "L02",
+        "mistake": "Neglecting army production while teching, or over-expanding if an attack is imminent.",
+        "recheck": "Re-evaluate when you have more information about the opponent's army composition or expansion.",
+        "target_node_id": "N008",
+        "title": "Balance tech and army production",
+        "when": "Midgame, opponent has heavy ground production (e.g., Marines) and you have a strong economy but moderate production.",
+        "why": "The opponent is investing heavily in ground forces, so you need a strong army to defend while maintaining your economy."
+      },
+      {
+        "correction": "Maintain current development path with safety checks. Focus on economy and expansion while keeping options open.",
+        "lesson_id": "L03",
+        "mistake": "Overcommitting to army before your economy is stable.",
+        "recheck": "Re-evaluate when more information becomes available, such as scouting units or opponent expansion.",
+        "target_node_id": "N001",
+        "title": "Develop economy before committing",
+        "when": "Early game, opponent's posture is unknown and your own economy is still developing.",
+        "why": "With limited information, it is efficient to build a solid economic foundation before committing to a specific strategy."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "ZvT_O02",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "ZvT_O03:N002->ZvT_O02:N007",
+      "ZvT_O03:N006->ZvT_O02:N008",
+      "ZvT_O04:N001->ZvT_O02:N001"
+    ],
+    "source_digest": "8e7cbf240f8f267538f79c10bbd128565e1325d664d7cb4e385ffc39ea7d8e0a",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "At next decision cycle, verify production count is at least 3 and no production structure is idle for more than 10 seconds.",
+        "correction": "Prioritize adding production structures (Gateways or Stargates) to reach at least 3 total by 5 minutes, while keeping tech buildings (Cybernetics Core, Twilight Council) on schedule. Queue units from existing production if idle. Do not expand until production is sufficient and army supply is at least 15.",
+        "rule_id": "R01",
+        "title": "Maintain production tempo while preserving tech/economy focus",
+        "when": "Time between 240 and 360 seconds, with bank above 800 minerals, army supply below 15, and production structures (Gateways, Stargates, Robotic Facilities) fewer than 3 completed or under construction."
+      },
+      {
+        "check": "At next decision cycle, verify that at least one counter unit type is in production or completed, and that production is not idle.",
+        "correction": "If enemy has Roaches, add Immortals from Robotics Facility. If enemy has mass Zerglings, add Colossi or High Templar for splash damage. If enemy has air presence, add Void Rays or Phoenixes. Maintain a ground core for defense. Prioritize these units in production queues.",
+        "rule_id": "R02",
+        "title": "Counter enemy ground composition with tech units",
+        "when": "Enemy Intelligence indicates a ground-heavy composition with Zerglings, Roaches, or Queens, and you have a Robotics Facility or Stargate completed."
+      },
+      {
+        "check": "At next decision cycle, verify army supply has increased by at least 5 or production is actively building units.",
+        "correction": "Immediately convert bank into army: queue units from all production structures, add production if possible, and prioritize defensive units. Do not expand or tech further until army supply is at least 20. If production is insufficient, build additional Gateways or Stargates.",
+        "rule_id": "R03",
+        "title": "Recover from low army and high bank",
+        "when": "Army supply below 15, bank above 1500 minerals, and predicted advantage is OverwhelmingDisadvantage or threat flags indicate imminent attack."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "PvZ_O01",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "b7dc0c96c101ef61398dfb8285e2f8e0bfa8d7da601390e2f6cea8d8299e9268",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 1,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 6.0,
+            "bank": 915.2,
+            "bases": 1.2,
+            "production": 1.5,
+            "supply_providers": 5.8,
+            "workers": 26.0
+          },
+          "300": {
+            "army_supply": 12.5,
+            "bank": 1365.2,
+            "bases": 1.5,
+            "production": 2.5,
+            "supply_providers": 6.8,
+            "workers": 29.5
+          },
+          "360": {
+            "army_supply": 14.5,
+            "bank": 2029.2,
+            "bases": 2.0,
+            "production": 3.0,
+            "supply_providers": 7.5,
+            "workers": 32.0
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.437,
+          "average_bank": 1995.2,
+          "consume_per_min": 816.3
+        },
+        "defeats_with_three_or_more_supply_entries": 3,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 4,
+          "Tie": 1,
+          "Victory": 15
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

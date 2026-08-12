@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "At the next decision cycle, verify that production structures are active (queues non-empty) and bank is below 500 minerals. If not, repeat the correction.",
+        "correction": "Prioritize adding a Gateway or Warp Gate if prerequisites are met, and queue at least 2 units per production structure. If Robotics Facility or Stargate is available, queue a unit from it. Keep worker production continuous until saturation (around 2 per base). Avoid spending on technology or expansions until production is active and bank is below 500 minerals.",
+        "rule_id": "R01",
+        "title": "Maintain Tech/Economy Tempo with Production Scaling",
+        "when": "Game time is between 4 and 6 minutes, bank is above 800 minerals, and active production structures are fewer than 3, or all production structures are idle."
+      },
+      {
+        "check": "At the next decision cycle, confirm that your army composition includes both ground and air units, and that production structures are active. If not, adjust production queues accordingly.",
+        "correction": "Ensure your army includes a mix of ground units (Zealots, Stalkers) and add air support (e.g., Oracles, Phoenixes) if tech allows. Prioritize building a Robotics Facility or Stargate if not already present, and queue units that counter the enemy composition. Maintain economy and technology development to support the transition.",
+        "rule_id": "R02",
+        "title": "Counter Enemy Ground Composition with Tech and Army Mix",
+        "when": "Enemy Intelligence shows a ground-heavy composition (e.g., Zealots, Stalkers, Sentries, Immortals) and your army supply is above 15."
+      },
+      {
+        "check": "At the next decision cycle, verify that army supply has increased and bank is reduced. If not, continue producing units and consider adding production structures.",
+        "correction": "Immediately convert bank into army by queuing units from all available production structures. If production is insufficient, add a Gateway or Warp Gate (if prerequisites met) and queue units. Prioritize defensive units (e.g., Stalkers, Zealots) to protect bases. Do not expand or invest in technology until army supply is above 15 and bank is below 500 minerals.",
+        "rule_id": "R03",
+        "title": "Recover from Low Army and High Bank",
+        "when": "Army supply is below 15, bank is above 1000 minerals, and predicted advantage is not OverwhelmingAdvantage."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "PvP_O04",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "b7dc0c96c101ef61398dfb8285e2f8e0bfa8d7da601390e2f6cea8d8299e9268",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 1,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 6.0,
+            "bank": 915.2,
+            "bases": 1.2,
+            "production": 1.5,
+            "supply_providers": 5.8,
+            "workers": 26.0
+          },
+          "300": {
+            "army_supply": 12.5,
+            "bank": 1365.2,
+            "bases": 1.5,
+            "production": 2.5,
+            "supply_providers": 6.8,
+            "workers": 29.5
+          },
+          "360": {
+            "army_supply": 14.5,
+            "bank": 2029.2,
+            "bases": 2.0,
+            "production": 3.0,
+            "supply_providers": 7.5,
+            "workers": 32.0
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.437,
+          "average_bank": 1995.2,
+          "consume_per_min": 816.3
+        },
+        "defeats_with_three_or_more_supply_entries": 3,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 4,
+          "Tie": 1,
+          "Victory": 15
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

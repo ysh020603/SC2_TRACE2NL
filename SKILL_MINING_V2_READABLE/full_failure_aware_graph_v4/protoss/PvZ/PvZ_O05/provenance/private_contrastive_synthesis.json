@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Strengthen ground forces, increase defense, continue economy growth, and increase technology. Maintain air and expansion.",
+        "lesson_id": "L01",
+        "mistake": "Tempting to over-commit to air or neglect defense, or expand too greedily without scouting.",
+        "recheck": "Re-evaluate when your army composition becomes clearer or if the opponent shows signs of tech switches.",
+        "target_node_id": "N001",
+        "title": "Avoid over-committing to air or neglecting defense",
+        "when": "Early game, own army composition unknown, heavy technology investment, moderate production, heavy defense. Opponent shows ground posture with Zergling and Queen cues, moderate production, light technology.",
+        "why": "With an unknown own army and possible early Zergling pressure, prioritizing defense and ground strength while teching up is a safe way to transition into a stronger midgame."
+      },
+      {
+        "correction": "Increase defense and economy, strengthen ground forces, continue production and tech. Maintain air and expansion.",
+        "lesson_id": "L02",
+        "mistake": "Tempting to be too passive, missing opportunities to gain map control or punish over-expansion.",
+        "recheck": "Re-evaluate when your army composition becomes clear or if the opponent shows signs of tech switches.",
+        "target_node_id": "N003",
+        "title": "Avoid being too passive; seek map control",
+        "when": "Early-midgame, own army unknown, heavy tech, moderate production, heavy defense. Opponent ground posture with Zergling and Queen cues, moderate production, light tech.",
+        "why": "As the game progresses, stabilizing your defense and economy while continuing tech development prepares you for a strong midgame transition."
+      },
+      {
+        "correction": "Strengthen ground forces, continue production and tech, maintain defense and economy. Do not over-expand.",
+        "lesson_id": "L03",
+        "mistake": "Tempting to neglect air defense if opponent techs to Mutalisks; also risk over-expanding.",
+        "recheck": "Re-evaluate if the opponent shows signs of air tech or if your army composition needs adjustment.",
+        "target_node_id": "N004",
+        "title": "Avoid neglecting air defense if opponent techs to Mutalisks",
+        "when": "Midgame, own army ground-oriented with Stalkers and Oracles, heavy production and tech. Opponent ground posture with Zerglings, Queens, and Overseers, heavy production and tech.",
+        "why": "With a defined ground army, focusing on strengthening it while maintaining a solid economy is key to matching the opponent's heavy production."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "PvZ_O05",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "PvZ_O05:N001->PvZ_O05:N001",
+      "PvZ_O05:N003->PvZ_O05:N003",
+      "PvZ_O05:N004->PvZ_O05:N004"
+    ],
+    "source_digest": "fb74b4574f4acd10066dfdaa569a03137935633a426117a33ca169700fa4e109",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

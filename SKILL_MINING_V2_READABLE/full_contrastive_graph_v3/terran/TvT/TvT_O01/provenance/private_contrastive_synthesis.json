@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Transition into a Siege Tank-based army to counter the opponent's ground composition, while continuing to expand and tech.",
+        "lesson_id": "L01",
+        "mistake": "Expanding too greedily without proper scouting, risking being caught off guard by an enemy push.",
+        "recheck": "Re-evaluate when you see the opponent's tech choices or when you have a critical mass of Siege Tanks.",
+        "target_node_id": "N004",
+        "title": "Avoid greedy expansion without scouting",
+        "when": "Early-midgame, around 5 minutes, when the opponent shows a ground posture with Siege Tanks and Marauders, and you have Marines and a heavy economy.",
+        "why": "Siege Tanks provide strong defensive and offensive capabilities against ground armies, especially in TvT."
+      },
+      {
+        "correction": "Diversify your tech to counter the opponent's mix, adding air defense and detection. Continue expanding and teching.",
+        "lesson_id": "L02",
+        "mistake": "Neglecting anti-air defenses, leaving you vulnerable to Banshees and Ravens.",
+        "recheck": "Re-evaluate when you see the opponent's tech choices or when you reach a new supply threshold.",
+        "target_node_id": "N010",
+        "title": "Avoid neglecting anti-air defenses",
+        "when": "Late-midgame, around 10 minutes, when the opponent shows a ground posture with Siege Tanks, Reapers, Banshees, and Ravens, and you have a ground army with Siege Tanks, Marines, Reapers, and Hellions.",
+        "why": "The opponent's mix of air and ground units requires a balanced response. Heavy economy allows for tech diversification."
+      },
+      {
+        "correction": "Maintain your balanced army composition and continue expanding. Consider adding air units for scouting and drop potential.",
+        "lesson_id": "L03",
+        "mistake": "Neglecting upgrades or falling behind in army supply, as the opponent may attempt a timing attack with Siege Tanks.",
+        "recheck": "Re-evaluate when you see the opponent's tech choices or when you reach a new supply threshold.",
+        "target_node_id": "N005",
+        "title": "Avoid neglecting upgrades or falling behind in army supply",
+        "when": "Midgame, around 8 minutes, when both players have a moderate air presence and heavy ground armies, with you having Siege Tanks, Marines, Marauders, and Medivacs, and the opponent showing similar units.",
+        "why": "A balanced army is versatile and can adapt to various opponent compositions. Heavy economy supports continued production."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "TvT_O01",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "TvT_O01:N002->TvT_O01:N004",
+      "TvT_O01:N011->TvT_O01:N010",
+      "TvT_O04:N002->TvT_O01:N005"
+    ],
+    "source_digest": "e0482216964d2977573ab51b81da589f45eb8171f93ced2a0fb6ff74dabaebfc",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

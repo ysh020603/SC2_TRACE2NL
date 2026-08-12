@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Next decision cycle: verify production count >= 3, army supply >= 15, and bank < 1000.",
+        "correction": "Prioritize adding production structures (Gateways or Robo) up to at least 3 active production facilities, and queue units to keep them busy. If tech prerequisites are missing, build the required structure (e.g., Twilight Council or Robotics Facility) before queuing advanced units. Convert excess minerals into additional production or tech, and keep workers mining. Avoid expanding until production is sufficient and army supply is at least 15.",
+        "rule_id": "R01",
+        "title": "Maintain production tempo and tech progression",
+        "when": "Time >= 240 and (army_supply < 15 or production < 3 or bank > 1000) and not OverwhelmingDisadvantage"
+      },
+      {
+        "check": "Next decision cycle: verify army supply >= 30 and that you have at least one detection unit and appropriate counter units.",
+        "correction": "Strengthen ground forces by producing units that counter the observed composition: add Colossus or High Templar for bio, Immortals for tanks, and ensure detection (Observer) if cloaked units are possible. Maintain a defensive posture near your bases, and continue expanding economy and production to support a larger army. If Medivacs are present, consider Stalkers or Phoenix for anti-air.",
+        "rule_id": "R02",
+        "title": "Counter enemy ground composition with detection and splash",
+        "when": "Enemy Intelligence shows ground posture with Marine, Marauder, SiegeTank, Reaper, Thor, or Medivac, and army supply < 30"
+      },
+      {
+        "check": "Next decision cycle: verify army supply >= 15 and bank < 1000, or threat flags cleared.",
+        "correction": "Immediately convert bank into army: queue units from all available production structures, and if production is insufficient, build additional Gateways or Robo facilities. Prioritize defensive units (e.g., Zealots, Stalkers) and ensure you have a defensive structure (e.g., Shield Battery) if threatened. Do not expand or tech greedily until army supply is at least 15 and the threat is mitigated.",
+        "rule_id": "R03",
+        "title": "Recover from low army and high bank",
+        "when": "army_supply < 15 and bank > 1500 and (predicted_advantage == OverwhelmingDisadvantage or threat_flags indicate imminent attack)"
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "PvT_O02",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "b7dc0c96c101ef61398dfb8285e2f8e0bfa8d7da601390e2f6cea8d8299e9268",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 1,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 6.0,
+            "bank": 915.2,
+            "bases": 1.2,
+            "production": 1.5,
+            "supply_providers": 5.8,
+            "workers": 26.0
+          },
+          "300": {
+            "army_supply": 12.5,
+            "bank": 1365.2,
+            "bases": 1.5,
+            "production": 2.5,
+            "supply_providers": 6.8,
+            "workers": 29.5
+          },
+          "360": {
+            "army_supply": 14.5,
+            "bank": 2029.2,
+            "bases": 2.0,
+            "production": 3.0,
+            "supply_providers": 7.5,
+            "workers": 32.0
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.437,
+          "average_bank": 1995.2,
+          "consume_per_min": 816.3
+        },
+        "defeats_with_three_or_more_supply_entries": 3,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 4,
+          "Tie": 1,
+          "Victory": 15
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

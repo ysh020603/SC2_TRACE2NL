@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Strengthen ground forces while increasing economy and expansion. Maintain defense and continue production.",
+        "lesson_id": "L01",
+        "mistake": "Over-committing to a single ground tech path without scouting, potentially neglecting defense against possible pressure.",
+        "recheck": "Re-evaluate when the opponent's army composition or posture changes, or when you reach a new tech tier.",
+        "target_node_id": "N001",
+        "title": "Ground Commitment vs. Balanced Expansion",
+        "when": "Early-midgame (around 4 minutes) when both players have heavy economy and tech, and the opponent shows a ground posture with Stalkers.",
+        "why": "The opponent is ground-focused, so reinforcing your ground army and expanding your economy will set up a strong midgame. Heavy technology investment supports future transitions."
+      },
+      {
+        "correction": "Continue strengthening ground forces and maintain economy and expansion. Keep technology development ongoing.",
+        "lesson_id": "L02",
+        "mistake": "Over-committing to a single tech path without scouting, or neglecting defense against possible pressure.",
+        "recheck": "Re-evaluate if the opponent transitions to air or if you need to adjust your composition.",
+        "target_node_id": "N002",
+        "title": "Matching Ground Strength",
+        "when": "Midgame (around 8 minutes) when both players have heavy economies and tech, and the opponent shows a ground posture with Zealots, Stalkers, Sentries, and Immortals.",
+        "why": "The opponent's ground composition is strong, so matching with a robust ground army and maintaining tech advantages will keep you competitive."
+      },
+      {
+        "correction": "Increase air presence and strengthen air forces while continuing economy and technology development.",
+        "lesson_id": "L03",
+        "mistake": "Over-committing to air without sufficient ground support, or neglecting economy.",
+        "recheck": "Re-evaluate if the opponent transitions to air or if your air investment is not paying off.",
+        "target_node_id": "N004",
+        "title": "Air Harassment Against Ground",
+        "when": "Early-midgame (around 5 minutes) when the opponent shows a ground posture with Stalkers, but you have a mixed army with Oracles and a heavy economy.",
+        "why": "The opponent is ground-focused, so adding air units like Oracles can provide harassment and scouting advantages while you build a mixed composition."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "PvP_O04",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "PvP_O04:N001->PvP_O04:N001",
+      "PvP_O04:N002->PvP_O04:N002",
+      "PvP_O04:N004->PvP_O04:N004"
+    ],
+    "source_digest": "fe45673e96044819f4c4551a92f0227fb71366458d58b48d7b1b77275acdcf87",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

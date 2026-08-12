@@ -1,0 +1,5572 @@
+{
+  "analysis_full_v16_mediumhard_60": {
+    "source_report": "/data2/shy_2608/SC2trace2nl/SC2-Agent-human-skill/game_records/_human_skill_ablation/human_skill_deepseek_flash_nothinking_fullv16_60_mediumhard_20260812/analysis_full_v16_mediumhard_60.json",
+    "matches": 60,
+    "result_totals": {
+      "Victory": 27,
+      "Defeat": 20,
+      "Tie": 13
+    },
+    "prevalence_by_outcome": {
+      "feedback_not_changing_repeated_failed_posture": {
+        "Defeat": {
+          "matches": 10,
+          "total": 20,
+          "rate": 0.5
+        },
+        "Tie": {
+          "matches": 5,
+          "total": 13,
+          "rate": 0.3846
+        },
+        "Victory": {
+          "matches": 0,
+          "total": 27,
+          "rate": 0.0
+        }
+      },
+      "knowledge_visible_composition_mismatch": {
+        "Defeat": {
+          "matches": 4,
+          "total": 20,
+          "rate": 0.2
+        },
+        "Tie": {
+          "matches": 2,
+          "total": 13,
+          "rate": 0.1538
+        },
+        "Victory": {
+          "matches": 3,
+          "total": 27,
+          "rate": 0.1111
+        }
+      },
+      "live_supply_block_with_bank": {
+        "Defeat": {
+          "matches": 1,
+          "total": 20,
+          "rate": 0.05
+        },
+        "Tie": {
+          "matches": 0,
+          "total": 13,
+          "rate": 0.0
+        },
+        "Victory": {
+          "matches": 0,
+          "total": 27,
+          "rate": 0.0
+        }
+      },
+      "resource_to_army_conversion_failure": {
+        "Defeat": {
+          "matches": 20,
+          "total": 20,
+          "rate": 1.0
+        },
+        "Tie": {
+          "matches": 9,
+          "total": 13,
+          "rate": 0.6923
+        },
+        "Victory": {
+          "matches": 2,
+          "total": 27,
+          "rate": 0.0741
+        }
+      },
+      "routing_not_rechecked_after_new_enemy_property": {
+        "Defeat": {
+          "matches": 12,
+          "total": 20,
+          "rate": 0.6
+        },
+        "Tie": {
+          "matches": 8,
+          "total": 13,
+          "rate": 0.6154
+        },
+        "Victory": {
+          "matches": 18,
+          "total": 27,
+          "rate": 0.6667
+        }
+      },
+      "runtime_or_api_instability": {
+        "Defeat": {
+          "matches": 3,
+          "total": 20,
+          "rate": 0.15
+        },
+        "Tie": {
+          "matches": 10,
+          "total": 13,
+          "rate": 0.7692
+        },
+        "Victory": {
+          "matches": 7,
+          "total": 27,
+          "rate": 0.2593
+        }
+      },
+      "supply_planning_repair": {
+        "Defeat": {
+          "matches": 11,
+          "total": 20,
+          "rate": 0.55
+        },
+        "Tie": {
+          "matches": 12,
+          "total": 13,
+          "rate": 0.9231
+        },
+        "Victory": {
+          "matches": 19,
+          "total": 27,
+          "rate": 0.7037
+        }
+      }
+    },
+    "defeat_enrichment_order": [
+      "resource_to_army_conversion_failure",
+      "feedback_not_changing_repeated_failed_posture",
+      "knowledge_visible_composition_mismatch",
+      "live_supply_block_with_bank",
+      "routing_not_rechecked_after_new_enemy_property",
+      "runtime_or_api_instability",
+      "supply_planning_repair"
+    ],
+    "match_diagnostics": [
+      {
+        "run_index": 0,
+        "skill_id": "PvP_O01",
+        "result": "Victory",
+        "duration": 650.89,
+        "avg_bank": 613.5,
+        "army_utilization": 0.7267,
+        "present_signals": [
+          "knowledge_visible_composition_mismatch",
+          "routing_not_rechecked_after_new_enemy_property",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "routing_not_rechecked_after_new_enemy_property": 2,
+          "knowledge_visible_composition_mismatch": 5,
+          "supply_planning_repair": 3
+        },
+        "evidence": {
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 225.9,
+              "new_properties": [
+                "Armored",
+                "AttacksAny",
+                "Mechanical"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Stalker"
+              ]
+            },
+            {
+              "time": 517.9,
+              "new_properties": [
+                "Air"
+              ],
+              "enemy_units": [
+                "Observer"
+              ]
+            }
+          ],
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 232.6,
+              "own_units": [
+                "Zealot",
+                "Stalker"
+              ],
+              "enemy_units": [
+                "Zealot"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Zealot",
+                  "Stalker",
+                  "da7fe72dda4011d7196644031cbf927703680a9ff8147d3653fb98cdf2686c88"
+                ]
+              ]
+            },
+            {
+              "time": 278.1,
+              "own_units": [
+                "Zealot",
+                "Stalker"
+              ],
+              "enemy_units": [
+                "Zealot"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Zealot",
+                  "Stalker",
+                  "da7fe72dda4011d7196644031cbf927703680a9ff8147d3653fb98cdf2686c88"
+                ]
+              ]
+            },
+            {
+              "time": 338.4,
+              "own_units": [
+                "Zealot",
+                "Stalker"
+              ],
+              "enemy_units": [
+                "Zealot"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Zealot",
+                  "Stalker",
+                  "da7fe72dda4011d7196644031cbf927703680a9ff8147d3653fb98cdf2686c88"
+                ]
+              ]
+            },
+            {
+              "time": 398.7,
+              "own_units": [
+                "Zealot",
+                "Stalker"
+              ],
+              "enemy_units": [
+                "Zealot"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Zealot",
+                  "Stalker",
+                  "da7fe72dda4011d7196644031cbf927703680a9ff8147d3653fb98cdf2686c88"
+                ]
+              ]
+            },
+            {
+              "time": 458.9,
+              "own_units": [
+                "Stalker",
+                "Zealot"
+              ],
+              "enemy_units": [
+                "Zealot"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Zealot",
+                  "Stalker",
+                  "da7fe72dda4011d7196644031cbf927703680a9ff8147d3653fb98cdf2686c88"
+                ]
+              ]
+            }
+          ],
+          "supply_planning_repair": [
+            {
+              "time": 458.9,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Zealot (projected 102/102). Place at least 1 additional Pylon entry before Zealot, or shorten the unit queue to fit; actions after a blocked unit are never reached. Ret"
+            },
+            {
+              "time": 458.9,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Stalker (projected 109/110). Place at least 2 additional Pylon entries before Stalker, or shorten the unit queue to fit; actions after a blocked unit are never reached."
+            },
+            {
+              "time": 571.4,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Stalker (projected 134/134). Place at least 6 additional Pylon entries before Stalker, or shorten the unit queue to fit; actions after a blocked unit are never reached."
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 1,
+        "skill_id": "PvT_O03",
+        "result": "Defeat",
+        "duration": 1132.59,
+        "avg_bank": 727.8,
+        "army_utilization": 0.5083,
+        "present_signals": [
+          "feedback_not_changing_repeated_failed_posture",
+          "resource_to_army_conversion_failure",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 2,
+          "routing_not_rechecked_after_new_enemy_property": 1,
+          "resource_to_army_conversion_failure": 5,
+          "feedback_not_changing_repeated_failed_posture": 2
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 73.2,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Probe (projected 23/23). Place at least 1 additional Pylon entry before Probe, or shorten the unit queue to fit; actions after a blocked unit are never reached. Return "
+            },
+            {
+              "time": 1128.6,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Zealot (projected 23/24). Place at least 2 additional Pylon entries before Zealot, or shorten the unit queue to fit; actions after a blocked unit are never reached. Ret"
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 646.4,
+              "new_properties": [
+                "Air",
+                "Mechanical"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Marauder",
+                "Raven",
+                "Medivac"
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 827.2,
+              "bank": 1085.0,
+              "army_supply": 14.0
+            },
+            {
+              "time": 947.8,
+              "bank": 1567.0,
+              "army_supply": 16.0
+            },
+            {
+              "time": 1008.0,
+              "bank": 1731.0,
+              "army_supply": 0.0
+            },
+            {
+              "time": 1068.3,
+              "bank": 1815.0,
+              "army_supply": 0.0
+            },
+            {
+              "time": 1128.6,
+              "bank": 1815.0,
+              "army_supply": 0.0
+            }
+          ],
+          "feedback_not_changing_repeated_failed_posture": [
+            {
+              "time": 1008.0,
+              "repeated_combat_plan": [
+                "Observer",
+                "Zealot",
+                "Stalker",
+                "Immortal"
+              ],
+              "bank": 1731.0,
+              "army_supply": 0.0
+            },
+            {
+              "time": 1128.6,
+              "repeated_combat_plan": [
+                "Zealot",
+                "Stalker",
+                "Immortal",
+                "Observer"
+              ],
+              "bank": 1815.0,
+              "army_supply": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 3,
+        "skill_id": "PvT_O07",
+        "result": "Victory",
+        "duration": 581.25,
+        "avg_bank": 208.1,
+        "army_utilization": 0.5107,
+        "present_signals": [],
+        "evidence_counts": {
+          "supply_planning_repair": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 217.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Stalker (projected 79/79). Place at least 5 additional Pylon entries before Stalker, or shorten the unit queue to fit; actions after a blocked unit are never reached. R"
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 6,
+        "skill_id": "TvT_O03",
+        "result": "Defeat",
+        "duration": 878.12,
+        "avg_bank": 1792.5,
+        "army_utilization": 0.5529,
+        "present_signals": [
+          "feedback_not_changing_repeated_failed_posture",
+          "knowledge_visible_composition_mismatch",
+          "resource_to_army_conversion_failure",
+          "routing_not_rechecked_after_new_enemy_property"
+        ],
+        "evidence_counts": {
+          "knowledge_visible_composition_mismatch": 3,
+          "routing_not_rechecked_after_new_enemy_property": 2,
+          "supply_planning_repair": 1,
+          "resource_to_army_conversion_failure": 4,
+          "feedback_not_changing_repeated_failed_posture": 2
+        },
+        "evidence": {
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 223.7,
+              "own_units": [
+                "Marine",
+                "Marauder",
+                "Reaper"
+              ],
+              "enemy_units": [
+                "Marine"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Marine",
+                  "Marauder",
+                  "4fb0d2a293e56cc7a82b22149d7188c0a130ae041e9f44c5ef880cafe925cafd"
+                ],
+                [
+                  "Marine",
+                  "Reaper",
+                  "8382014d94b77f908cb8e2242a7095d3b3de1de89d8d8a54d69c01fde7f40191"
+                ]
+              ]
+            },
+            {
+              "time": 283.9,
+              "own_units": [
+                "Marine",
+                "Marauder"
+              ],
+              "enemy_units": [
+                "Marine"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Marine",
+                  "Marauder",
+                  "4fb0d2a293e56cc7a82b22149d7188c0a130ae041e9f44c5ef880cafe925cafd"
+                ]
+              ]
+            },
+            {
+              "time": 665.6,
+              "own_units": [
+                "Marine"
+              ],
+              "enemy_units": [
+                "Hellion",
+                "SiegeTank",
+                "Raven"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Hellion",
+                  "Marine",
+                  "2340db263dd818436a4ba45d629b14322759e27ff907ce0400ced6993aa1fa1d"
+                ],
+                [
+                  "SiegeTank",
+                  "Marine",
+                  "01fd2d4e225e2dabeed6332a70ba7968d897e4e103d6f5740d06198d1e4e4b00"
+                ]
+              ]
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 344.2,
+              "new_properties": [
+                "Armored",
+                "AttacksGround",
+                "Mechanical"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Reaper",
+                "Marauder",
+                "Hellion"
+              ]
+            },
+            {
+              "time": 605.4,
+              "new_properties": [
+                "Air"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Reaper",
+                "Marauder",
+                "Hellion",
+                "SiegeTank",
+                "HellionTank",
+                "Raven"
+              ]
+            }
+          ],
+          "supply_planning_repair": [
+            {
+              "time": 545.1,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Marauder (projected 103/103). Place at least 2 additional SupplyDepot entries before Marauder, or shorten the unit queue to fit; actions after a blocked unit are never "
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 665.6,
+              "bank": 2408.0,
+              "army_supply": 6.0
+            },
+            {
+              "time": 723.7,
+              "bank": 2394.0,
+              "army_supply": 5.0
+            },
+            {
+              "time": 783.9,
+              "bank": 2583.0,
+              "army_supply": 0.0
+            },
+            {
+              "time": 844.2,
+              "bank": 2464.0,
+              "army_supply": 0.0
+            }
+          ],
+          "feedback_not_changing_repeated_failed_posture": [
+            {
+              "time": 783.9,
+              "repeated_combat_plan": [
+                "Marine",
+                "Ghost"
+              ],
+              "bank": 2583.0,
+              "army_supply": 0.0
+            },
+            {
+              "time": 844.2,
+              "repeated_combat_plan": [
+                "Marine",
+                "Ghost"
+              ],
+              "bank": 2464.0,
+              "army_supply": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 2,
+        "skill_id": "PvZ_O02",
+        "result": "Victory",
+        "duration": 1041.96,
+        "avg_bank": 929.4,
+        "army_utilization": 0.6677,
+        "present_signals": [
+          "routing_not_rechecked_after_new_enemy_property",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 9,
+          "live_supply_block_with_bank": 1,
+          "routing_not_rechecked_after_new_enemy_property": 2
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Probe (projected 23/23). Place at least 4 additional Pylon entries before Probe, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            },
+            {
+              "time": 60.3,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Probe (projected 15/15). Place at least 1 additional Pylon entry before Probe, or shorten the unit queue to fit; actions after a blocked unit are never reached. Return "
+            },
+            {
+              "time": 412.5,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Zealot (projected 85/86). Place at least 1 additional Pylon entry before Zealot, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            },
+            {
+              "time": 472.8,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Stalker (projected 93/94). Place at least 2 additional Pylon entries before Stalker, or shorten the unit queue to fit; actions after a blocked unit are never reached. R"
+            },
+            {
+              "time": 593.3,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Zealot (projected 101/102). Place at least 1 additional Pylon entry before Zealot, or shorten the unit queue to fit; actions after a blocked unit are never reached. Ret"
+            }
+          ],
+          "live_supply_block_with_bank": [
+            {
+              "time": 60.3,
+              "bank": 615.0,
+              "army_supply": 0.0
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 111.2,
+              "new_properties": [
+                "AttacksGround",
+                "Ground",
+                "Light"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Zergling"
+              ]
+            },
+            {
+              "time": 533.0,
+              "new_properties": [
+                "AttacksAny"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Zergling",
+                "Mutalisk"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 4,
+        "skill_id": "PvZ_O05",
+        "result": "Defeat",
+        "duration": 761.16,
+        "avg_bank": 1912.4,
+        "army_utilization": 0.5435,
+        "present_signals": [
+          "resource_to_army_conversion_failure",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 2,
+          "routing_not_rechecked_after_new_enemy_property": 1,
+          "resource_to_army_conversion_failure": 2
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 17.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Probe (projected 15/15). Place at least 1 additional Pylon entry before Probe, or shorten the unit queue to fit; actions after a blocked unit are never reached. Return "
+            },
+            {
+              "time": 728.1,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Zealot (projected 32/32). Place at least 1 additional Pylon entry before Zealot, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 191.1,
+              "new_properties": [
+                "AttacksAir",
+                "AttacksGround",
+                "Ground",
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Queen"
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 667.9,
+              "bank": 3573.0,
+              "army_supply": 20.0
+            },
+            {
+              "time": 728.1,
+              "bank": 3573.0,
+              "army_supply": 2.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 5,
+        "skill_id": "TvP_O02",
+        "result": "Victory",
+        "duration": 928.13,
+        "avg_bank": 1432.3,
+        "army_utilization": 0.5504,
+        "present_signals": [
+          "resource_to_army_conversion_failure",
+          "routing_not_rechecked_after_new_enemy_property"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 1,
+          "knowledge_visible_composition_mismatch": 1,
+          "resource_to_army_conversion_failure": 2,
+          "routing_not_rechecked_after_new_enemy_property": 3
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 27.7,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 15/15). Place at least 1 additional SupplyDepot entry before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            }
+          ],
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 210.7,
+              "own_units": [
+                "Marine"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Adept"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Zealot",
+                  "Marine",
+                  "c0fe4222f2147c54241101cfbe773385772affe4f25cdaff2bd3fa84f7757f25"
+                ],
+                [
+                  "Adept",
+                  "Marine",
+                  "9cb309057197c0955bcfe28fd8876eb86817652082a581a0a7253bb61107210f"
+                ]
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 331.2,
+              "bank": 1484.0,
+              "army_supply": 9.0
+            },
+            {
+              "time": 391.5,
+              "bank": 2098.0,
+              "army_supply": 10.0
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 331.2,
+              "new_properties": [
+                "Armored",
+                "AttacksAny",
+                "Mechanical"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Adept",
+                "Stalker"
+              ]
+            },
+            {
+              "time": 497.8,
+              "new_properties": [
+                "Air"
+              ],
+              "enemy_units": [
+                "Observer"
+              ]
+            },
+            {
+              "time": 710.7,
+              "new_properties": [
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Stalker",
+                "Observer",
+                "Sentry"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 7,
+        "skill_id": "TvZ_O01",
+        "result": "Victory",
+        "duration": 628.12,
+        "avg_bank": 841.8,
+        "army_utilization": 0.7076,
+        "present_signals": [
+          "routing_not_rechecked_after_new_enemy_property",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 10,
+          "routing_not_rechecked_after_new_enemy_property": 2,
+          "live_supply_block_with_bank": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 15/15). Place at least 1 additional SupplyDepot entry before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            },
+            {
+              "time": 22.3,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 15/15). Place at least 1 additional SupplyDepot entry before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            },
+            {
+              "time": 22.3,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 15/15). Place at least 1 additional SupplyDepot entry before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            },
+            {
+              "time": 298.2,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Marine (projected 47/47). Place at least 2 additional SupplyDepot entries before Marine, or shorten the unit queue to fit; actions after a blocked unit are never reache"
+            },
+            {
+              "time": 298.2,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Marine (projected 55/55). Place at least 3 additional SupplyDepot entries before Marine, or shorten the unit queue to fit; actions after a blocked unit are never reache"
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 126.8,
+              "new_properties": [
+                "AttacksGround",
+                "Ground",
+                "Light"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Zergling"
+              ]
+            },
+            {
+              "time": 575.9,
+              "new_properties": [
+                "AttacksAny"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Overseer",
+                "Hydralisk"
+              ]
+            }
+          ],
+          "live_supply_block_with_bank": [
+            {
+              "time": 461.6,
+              "bank": 1255.0,
+              "army_supply": 59.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 9,
+        "skill_id": "TvZ_O05",
+        "result": "Victory",
+        "duration": 598.21,
+        "avg_bank": 1449.6,
+        "army_utilization": 0.6505,
+        "present_signals": [
+          "runtime_or_api_instability",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 3,
+          "routing_not_rechecked_after_new_enemy_property": 1,
+          "resource_to_army_conversion_failure": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 66.1,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 31/31). Place at least 1 additional SupplyDepot entry before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            },
+            {
+              "time": 305.4,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Marine (projected 47/47). Place at least 1 additional SupplyDepot entry before Marine, or shorten the unit queue to fit; actions after a blocked unit are never reached."
+            },
+            {
+              "time": 415.6,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Marine (projected 87/87). Place at least 1 additional SupplyDepot entry before Marine, or shorten the unit queue to fit; actions after a blocked unit are never reached."
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 186.6,
+              "new_properties": [
+                "AttacksAir",
+                "AttacksGround",
+                "Ground",
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Queen"
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 362.1,
+              "bank": 1694.0,
+              "army_supply": 13.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 12,
+        "skill_id": "ZvZ_O04",
+        "result": "Tie",
+        "duration": 1200.0,
+        "avg_bank": 2719.4,
+        "army_utilization": 0.6126,
+        "present_signals": [
+          "runtime_or_api_instability",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 3,
+          "routing_not_rechecked_after_new_enemy_property": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 14/14). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            },
+            {
+              "time": 350.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Hydralisk (projected 59/60). Place at least 1 additional Overlord entry before Hydralisk, or shorten the unit queue to fit; actions after a blocked unit are never reach"
+            },
+            {
+              "time": 504.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Roach (projected 115/116). Place at least 3 additional Overlord entries before Roach, or shorten the unit queue to fit; actions after a blocked unit are never reached. "
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 624.5,
+              "new_properties": [
+                "AttacksAny"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Overseer",
+                "Hydralisk"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 10,
+        "skill_id": "ZvP_O01",
+        "result": "Victory",
+        "duration": 1001.34,
+        "avg_bank": 4854.0,
+        "army_utilization": 0.8062,
+        "present_signals": [
+          "knowledge_visible_composition_mismatch",
+          "routing_not_rechecked_after_new_enemy_property",
+          "runtime_or_api_instability",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 21,
+          "knowledge_visible_composition_mismatch": 2,
+          "routing_not_rechecked_after_new_enemy_property": 3,
+          "resource_to_army_conversion_failure": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 14/14). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            },
+            {
+              "time": 497.3,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 154/154). Place at least 2 additional Overlord entries before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. "
+            },
+            {
+              "time": 579.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Hydralisk (projected 199/200). Shorten the unit queue: even after raising the cap to 200, only 1 more supply can fit; actions after a blocked unit are never reached. Re"
+            },
+            {
+              "time": 579.0,
+              "error": "FINAL_DECISION rejected: the army is already at the maximum supply (200/200), so Zergling cannot start. Return an empty ordered_names queue or only zero-supply upgrades and morphs until combat losses create room; an additional supply provid"
+            },
+            {
+              "time": 650.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Queen (projected 199/200). Shorten the unit queue: even after raising the cap to 200, only 1 more supply can fit; actions after a blocked unit are never reached. Return"
+            }
+          ],
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 187.1,
+              "own_units": [
+                "Queen",
+                "Overlord"
+              ],
+              "enemy_units": [
+                "Zealot"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Zealot",
+                  "Queen",
+                  "60a94f61aacacb2adaaa1c774e9c1bce226a00cf3b738c6c877fd758eeba233d"
+                ]
+              ]
+            },
+            {
+              "time": 228.1,
+              "own_units": [
+                "Overlord",
+                "Queen"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Stalker",
+                "Adept"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Zealot",
+                  "Queen",
+                  "60a94f61aacacb2adaaa1c774e9c1bce226a00cf3b738c6c877fd758eeba233d"
+                ],
+                [
+                  "Stalker",
+                  "Overlord",
+                  "7015963ba638703979c5e0bcc0778d61e05741c3680e45ca4b42015ec0dcb6fe"
+                ]
+              ]
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 228.1,
+              "new_properties": [
+                "Armored",
+                "AttacksAny",
+                "Mechanical"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Stalker",
+                "Adept"
+              ]
+            },
+            {
+              "time": 302.2,
+              "new_properties": [
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Stalker",
+                "Adept",
+                "Sentry"
+              ]
+            },
+            {
+              "time": 424.6,
+              "new_properties": [
+                "Air"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Stalker",
+                "Adept",
+                "Sentry",
+                "Observer"
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 358.9,
+              "bank": 1638.0,
+              "army_supply": 14.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 8,
+        "skill_id": "TvP_O06",
+        "result": "Victory",
+        "duration": 1144.2,
+        "avg_bank": 5235.3,
+        "army_utilization": 0.8216,
+        "present_signals": [
+          "routing_not_rechecked_after_new_enemy_property",
+          "runtime_or_api_instability",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "resource_to_army_conversion_failure": 1,
+          "supply_planning_repair": 5,
+          "routing_not_rechecked_after_new_enemy_property": 2
+        },
+        "evidence": {
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 310.3,
+              "bank": 2298.0,
+              "army_supply": 13.0
+            }
+          ],
+          "supply_planning_repair": [
+            {
+              "time": 421.9,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Marine (projected 71/71). Place at least 2 additional SupplyDepot entries before Marine, or shorten the unit queue to fit; actions after a blocked unit are never reache"
+            },
+            {
+              "time": 588.4,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Reaper (projected 110/110). Place at least 1 additional SupplyDepot entry before Reaper, or shorten the unit queue to fit; actions after a blocked unit are never reache"
+            },
+            {
+              "time": 829.5,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Marine (projected 150/150). Place at least 1 additional SupplyDepot entry before Marine, or shorten the unit queue to fit; actions after a blocked unit are never reache"
+            },
+            {
+              "time": 829.5,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Marine (projected 150/150). Place at least 1 additional SupplyDepot entry before Marine, or shorten the unit queue to fit; actions after a blocked unit are never reache"
+            },
+            {
+              "time": 829.5,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Marine (projected 150/150). Place at least 1 additional SupplyDepot entry before Marine, or shorten the unit queue to fit; actions after a blocked unit are never reache"
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 528.1,
+              "new_properties": [
+                "Air",
+                "Mechanical"
+              ],
+              "enemy_units": [
+                "Observer"
+              ]
+            },
+            {
+              "time": 708.9,
+              "new_properties": [
+                "Armored",
+                "AttacksAny",
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Adept",
+                "Stalker",
+                "Observer",
+                "Sentry"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 15,
+        "skill_id": "PvP_O01",
+        "result": "Victory",
+        "duration": 652.68,
+        "avg_bank": 356.0,
+        "army_utilization": 0.6217,
+        "present_signals": [
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 3,
+          "routing_not_rechecked_after_new_enemy_property": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Probe (projected 15/15). Place at least 1 additional Pylon entry before Probe, or shorten the unit queue to fit; actions after a blocked unit are never reached. Return "
+            },
+            {
+              "time": 534.4,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Stalker (projected 141/142). Place at least 3 additional Pylon entries before Stalker, or shorten the unit queue to fit; actions after a blocked unit are never reached."
+            },
+            {
+              "time": 534.4,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Stalker (projected 142/142). Place at least 3 additional Pylon entries before Stalker, or shorten the unit queue to fit; actions after a blocked unit are never reached."
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 510.3,
+              "new_properties": [
+                "Air"
+              ],
+              "enemy_units": [
+                "Stalker",
+                "Observer"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 11,
+        "skill_id": "ZvT_O04",
+        "result": "Defeat",
+        "duration": 680.36,
+        "avg_bank": 1454.6,
+        "army_utilization": 0.4745,
+        "present_signals": [
+          "resource_to_army_conversion_failure"
+        ],
+        "evidence_counts": {
+          "resource_to_army_conversion_failure": 4,
+          "knowledge_visible_composition_mismatch": 1,
+          "routing_not_rechecked_after_new_enemy_property": 1
+        },
+        "evidence": {
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 300.9,
+              "bank": 3237.0,
+              "army_supply": 4.0
+            },
+            {
+              "time": 337.1,
+              "bank": 1852.0,
+              "army_supply": 10.0
+            },
+            {
+              "time": 397.3,
+              "bank": 2788.0,
+              "army_supply": 4.0
+            },
+            {
+              "time": 457.6,
+              "bank": 1588.0,
+              "army_supply": 9.0
+            }
+          ],
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 300.9,
+              "own_units": [
+                "Overlord",
+                "Queen"
+              ],
+              "enemy_units": [
+                "Marine"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Marine",
+                  "Overlord",
+                  "97e0d1326fcf70d9bae474d699af7d12ad281ad71a6143f33b35178b04a271d8"
+                ],
+                [
+                  "Marine",
+                  "Queen",
+                  "f7a1f1583ee45383ba3369ee10448cf8335c2b1d91a845162d7006dfc8db1b48"
+                ]
+              ]
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 578.1,
+              "new_properties": [
+                "Air",
+                "Mechanical",
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Marauder",
+                "Raven",
+                "Ghost"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 13,
+        "skill_id": "ZvP_O06",
+        "result": "Tie",
+        "duration": 1200.0,
+        "avg_bank": 2346.7,
+        "army_utilization": 0.6744,
+        "present_signals": [
+          "routing_not_rechecked_after_new_enemy_property",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 6,
+          "knowledge_visible_composition_mismatch": 1,
+          "resource_to_army_conversion_failure": 1,
+          "routing_not_rechecked_after_new_enemy_property": 3
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 14/14). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            },
+            {
+              "time": 60.3,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 22/22). Place at least 2 additional Overlord entries before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Re"
+            },
+            {
+              "time": 396.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Queen (projected 68/68). Place at least 1 additional Overlord entry before Queen, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            },
+            {
+              "time": 886.2,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Hydralisk (projected 199/200). Shorten the unit queue: even after raising the cap to 200, only 1 more supply can fit; actions after a blocked unit are never reached. Re"
+            },
+            {
+              "time": 993.3,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Corruptor (projected 199/200). Shorten the unit queue: even after raising the cap to 200, only 1 more supply can fit; actions after a blocked unit are never reached. Re"
+            }
+          ],
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 275.4,
+              "own_units": [
+                "Overlord",
+                "Zergling",
+                "Queen",
+                "Hydralisk"
+              ],
+              "enemy_units": [
+                "Phoenix"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Phoenix",
+                  "Overlord",
+                  "3335236c1498d7d9e14216a06e435ecffc8a2e31768b42244fed9f15241a5831"
+                ]
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 335.7,
+              "bank": 2038.0,
+              "army_supply": 13.0
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 335.7,
+              "new_properties": [
+                "Armored"
+              ],
+              "enemy_units": [
+                "Phoenix",
+                "VoidRay"
+              ]
+            },
+            {
+              "time": 886.2,
+              "new_properties": [
+                "AttacksAny",
+                "Massive"
+              ],
+              "enemy_units": [
+                "Phoenix",
+                "VoidRay",
+                "Observer",
+                "Interceptor",
+                "Carrier"
+              ]
+            },
+            {
+              "time": 944.6,
+              "new_properties": [
+                "AttacksGround"
+              ],
+              "enemy_units": [
+                "Observer",
+                "Tempest"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 14,
+        "skill_id": "ZvT_O05",
+        "result": "Defeat",
+        "duration": 558.48,
+        "avg_bank": 2936.9,
+        "army_utilization": 0.5935,
+        "present_signals": [
+          "resource_to_army_conversion_failure",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 2,
+          "resource_to_army_conversion_failure": 4,
+          "routing_not_rechecked_after_new_enemy_property": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 14/14). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            },
+            {
+              "time": 330.8,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Zergling (projected 74/74). Place at least 1 additional Overlord entry before Zergling, or shorten the unit queue to fit; actions after a blocked unit are never reached"
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 330.8,
+              "bank": 3975.0,
+              "army_supply": 0.0
+            },
+            {
+              "time": 391.1,
+              "bank": 5515.0,
+              "army_supply": 0.0
+            },
+            {
+              "time": 451.3,
+              "bank": 7065.0,
+              "army_supply": 0.0
+            },
+            {
+              "time": 511.6,
+              "bank": 7360.0,
+              "army_supply": 0.0
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 451.3,
+              "new_properties": [
+                "Armored",
+                "AttacksGround"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Marauder"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 18,
+        "skill_id": "PvT_O07",
+        "result": "Defeat",
+        "duration": 1120.54,
+        "avg_bank": 1082.9,
+        "army_utilization": 0.4258,
+        "present_signals": [
+          "feedback_not_changing_repeated_failed_posture",
+          "resource_to_army_conversion_failure",
+          "routing_not_rechecked_after_new_enemy_property"
+        ],
+        "evidence_counts": {
+          "resource_to_army_conversion_failure": 7,
+          "routing_not_rechecked_after_new_enemy_property": 4,
+          "feedback_not_changing_repeated_failed_posture": 1
+        },
+        "evidence": {
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 344.6,
+              "bank": 1075.0,
+              "army_supply": 12.0
+            },
+            {
+              "time": 621.4,
+              "bank": 1079.0,
+              "army_supply": 14.0
+            },
+            {
+              "time": 802.2,
+              "bank": 1679.0,
+              "army_supply": 24.0
+            },
+            {
+              "time": 862.5,
+              "bank": 2247.0,
+              "army_supply": 29.0
+            },
+            {
+              "time": 983.0,
+              "bank": 1048.0,
+              "army_supply": 8.0
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 344.6,
+              "new_properties": [
+                "Armored",
+                "AttacksGround",
+                "Mechanical"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Hellion",
+                "Marauder"
+              ]
+            },
+            {
+              "time": 621.4,
+              "new_properties": [
+                "Air"
+              ],
+              "enemy_units": [
+                "Raven",
+                "SiegeTank",
+                "WidowMine"
+              ]
+            },
+            {
+              "time": 922.8,
+              "new_properties": [
+                "AttacksAir"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Marauder",
+                "Raven",
+                "Cyclone",
+                "VikingFighter",
+                "Banshee",
+                "Medivac"
+              ]
+            },
+            {
+              "time": 983.0,
+              "new_properties": [
+                "Massive"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Raven",
+                "SiegeTank",
+                "VikingFighter",
+                "Banshee",
+                "Medivac",
+                "Thor"
+              ]
+            }
+          ],
+          "feedback_not_changing_repeated_failed_posture": [
+            {
+              "time": 1043.3,
+              "repeated_combat_plan": [
+                "Immortal"
+              ],
+              "bank": 3298.0,
+              "army_supply": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 16,
+        "skill_id": "PvT_O03",
+        "result": "Victory",
+        "duration": 557.14,
+        "avg_bank": 503.1,
+        "army_utilization": 0.6199,
+        "present_signals": [
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 3,
+          "routing_not_rechecked_after_new_enemy_property": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 22.3,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Probe (projected 15/15). Place at least 1 additional Pylon entry before Probe, or shorten the unit queue to fit; actions after a blocked unit are never reached. Return "
+            },
+            {
+              "time": 195.5,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Immortal (projected 69/71). Place at least 1 additional Pylon entry before Immortal, or shorten the unit queue to fit; actions after a blocked unit are never reached. R"
+            },
+            {
+              "time": 404.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Immortal (projected 100/103). Place at least 2 additional Pylon entries before Immortal, or shorten the unit queue to fit; actions after a blocked unit are never reache"
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 404.0,
+              "new_properties": [
+                "Armored",
+                "AttacksGround",
+                "Mechanical"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Marauder",
+                "Hellion"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 17,
+        "skill_id": "PvZ_O02",
+        "result": "Tie",
+        "duration": 1200.0,
+        "avg_bank": 3217.9,
+        "army_utilization": 0.722,
+        "present_signals": [
+          "routing_not_rechecked_after_new_enemy_property",
+          "runtime_or_api_instability",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 9,
+          "routing_not_rechecked_after_new_enemy_property": 3,
+          "live_supply_block_with_bank": 1,
+          "resource_to_army_conversion_failure": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 130.4,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Zealot (projected 55/55). Place at least 1 additional Pylon entry before Zealot, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            },
+            {
+              "time": 268.3,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Zealot (projected 70/71). Place at least 3 additional Pylon entries before Zealot, or shorten the unit queue to fit; actions after a blocked unit are never reached. Ret"
+            },
+            {
+              "time": 295.1,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Zealot (projected 79/79). Place at least 2 additional Pylon entries before Zealot, or shorten the unit queue to fit; actions after a blocked unit are never reached. Ret"
+            },
+            {
+              "time": 415.6,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Zealot (projected 142/142). Place at least 3 additional Pylon entries before Zealot, or shorten the unit queue to fit; actions after a blocked unit are never reached. R"
+            },
+            {
+              "time": 717.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Zealot (projected 188/189). Place at least 1 additional Pylon entry before Zealot, or shorten the unit queue to fit; actions after a blocked unit are never reached. Ret"
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 130.4,
+              "new_properties": [
+                "AttacksGround",
+                "Ground",
+                "Light"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Zergling"
+              ]
+            },
+            {
+              "time": 991.1,
+              "new_properties": [
+                "AttacksAny",
+                "Massive"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Overseer",
+                "Hydralisk",
+                "SwarmHostMP",
+                "SwarmHostBurrowedMP",
+                "Viper",
+                "Infestor",
+                "Ultralisk"
+              ]
+            },
+            {
+              "time": 1111.6,
+              "new_properties": [
+                "AttacksAir"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Zergling",
+                "Roach",
+                "Overseer",
+                "SwarmHostBurrowedMP",
+                "Infestor",
+                "Queen"
+              ]
+            }
+          ],
+          "live_supply_block_with_bank": [
+            {
+              "time": 268.3,
+              "bank": 387.0,
+              "army_supply": 20.0
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 1150.9,
+              "bank": 6063.0,
+              "army_supply": 27.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 21,
+        "skill_id": "TvT_O03",
+        "result": "Defeat",
+        "duration": 1154.02,
+        "avg_bank": 4463.1,
+        "army_utilization": 0.4633,
+        "present_signals": [
+          "knowledge_visible_composition_mismatch",
+          "resource_to_army_conversion_failure",
+          "runtime_or_api_instability"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 1,
+          "knowledge_visible_composition_mismatch": 3,
+          "resource_to_army_conversion_failure": 9,
+          "routing_not_rechecked_after_new_enemy_property": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 22.8,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 15/15). Place at least 2 additional SupplyDepot entries before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Ret"
+            }
+          ],
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 221.0,
+              "own_units": [
+                "Marine",
+                "Reaper"
+              ],
+              "enemy_units": [
+                "Marine"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Marine",
+                  "Reaper",
+                  "8382014d94b77f908cb8e2242a7095d3b3de1de89d8d8a54d69c01fde7f40191"
+                ]
+              ]
+            },
+            {
+              "time": 281.2,
+              "own_units": [
+                "Marine",
+                "Marauder"
+              ],
+              "enemy_units": [
+                "Marine"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Marine",
+                  "Marauder",
+                  "4fb0d2a293e56cc7a82b22149d7188c0a130ae041e9f44c5ef880cafe925cafd"
+                ]
+              ]
+            },
+            {
+              "time": 341.5,
+              "own_units": [
+                "Marine",
+                "Marauder",
+                "Reaper"
+              ],
+              "enemy_units": [
+                "Marine"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Marine",
+                  "Marauder",
+                  "4fb0d2a293e56cc7a82b22149d7188c0a130ae041e9f44c5ef880cafe925cafd"
+                ],
+                [
+                  "Marine",
+                  "Reaper",
+                  "8382014d94b77f908cb8e2242a7095d3b3de1de89d8d8a54d69c01fde7f40191"
+                ]
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 341.5,
+              "bank": 2763.0,
+              "army_supply": 11.0
+            },
+            {
+              "time": 602.7,
+              "bank": 5960.0,
+              "army_supply": 17.0
+            },
+            {
+              "time": 630.8,
+              "bank": 6131.0,
+              "army_supply": 11.0
+            },
+            {
+              "time": 691.1,
+              "bank": 6890.0,
+              "army_supply": 8.0
+            },
+            {
+              "time": 751.3,
+              "bank": 6529.0,
+              "army_supply": 17.0
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 602.7,
+              "new_properties": [
+                "Air",
+                "AttacksAir",
+                "Massive"
+              ],
+              "enemy_units": [
+                "WidowMine",
+                "SiegeTank",
+                "Thor",
+                "VikingFighter",
+                "Raven"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 19,
+        "skill_id": "PvZ_O05",
+        "result": "Victory",
+        "duration": 859.38,
+        "avg_bank": 690.0,
+        "army_utilization": 0.7438,
+        "present_signals": [
+          "runtime_or_api_instability",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 5,
+          "routing_not_rechecked_after_new_enemy_property": 1,
+          "resource_to_army_conversion_failure": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Probe (projected 15/15). Place at least 3 additional Pylon entries before Probe, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            },
+            {
+              "time": 293.8,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Zealot (projected 54/55). Place at least 1 additional Pylon entry before Zealot, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            },
+            {
+              "time": 293.8,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Zealot (projected 54/55). Place at least 5 additional Pylon entries before Zealot, or shorten the unit queue to fit; actions after a blocked unit are never reached. Ret"
+            },
+            {
+              "time": 511.6,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Zealot (projected 110/111). Place at least 1 additional Pylon entry before Zealot, or shorten the unit queue to fit; actions after a blocked unit are never reached. Ret"
+            },
+            {
+              "time": 752.7,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Zealot (projected 150/151). Place at least 3 additional Pylon entries before Zealot, or shorten the unit queue to fit; actions after a blocked unit are never reached. R"
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 180.8,
+              "new_properties": [
+                "AttacksAir",
+                "AttacksGround",
+                "Ground",
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Queen"
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 304.5,
+              "bank": 900.0,
+              "army_supply": 14.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 24,
+        "skill_id": "TvZ_O05",
+        "result": "Victory",
+        "duration": 600.45,
+        "avg_bank": 1476.0,
+        "army_utilization": 0.652,
+        "present_signals": [
+          "resource_to_army_conversion_failure",
+          "routing_not_rechecked_after_new_enemy_property",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 2,
+          "routing_not_rechecked_after_new_enemy_property": 2,
+          "resource_to_army_conversion_failure": 2
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 23/23). Place at least 1 additional SupplyDepot entry before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            },
+            {
+              "time": 441.1,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SiegeTank (projected 77/79). Place at least 1 additional SupplyDepot entry before SiegeTank, or shorten the unit queue to fit; actions after a blocked unit are never re"
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 175.4,
+              "new_properties": [
+                "AttacksAir",
+                "AttacksGround",
+                "Ground",
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Queen"
+              ]
+            },
+            {
+              "time": 422.3,
+              "new_properties": [
+                "AttacksAny",
+                "Light"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Mutalisk",
+                "Roach",
+                "Zergling"
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 320.5,
+              "bank": 1984.0,
+              "army_supply": 14.0
+            },
+            {
+              "time": 422.3,
+              "bank": 2660.0,
+              "army_supply": 12.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 22,
+        "skill_id": "TvZ_O01",
+        "result": "Tie",
+        "duration": 1200.0,
+        "avg_bank": 2407.1,
+        "army_utilization": 0.6975,
+        "present_signals": [
+          "resource_to_army_conversion_failure",
+          "routing_not_rechecked_after_new_enemy_property",
+          "runtime_or_api_instability",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 16,
+          "routing_not_rechecked_after_new_enemy_property": 3,
+          "resource_to_army_conversion_failure": 4
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 15/15). Place at least 1 additional SupplyDepot entry before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            },
+            {
+              "time": 427.2,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Marine (projected 71/71). Place at least 1 additional SupplyDepot entry before Marine, or shorten the unit queue to fit; actions after a blocked unit are never reached."
+            },
+            {
+              "time": 427.2,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Marine (projected 79/79). Place at least 2 additional SupplyDepot entries before Marine, or shorten the unit queue to fit; actions after a blocked unit are never reache"
+            },
+            {
+              "time": 427.2,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Marine (projected 86/86). Place at least 3 additional SupplyDepot entries before Marine, or shorten the unit queue to fit; actions after a blocked unit are never reache"
+            },
+            {
+              "time": 487.5,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SiegeTank (projected 71/71). Place at least 3 additional SupplyDepot entries before SiegeTank, or shorten the unit queue to fit; actions after a blocked unit are never "
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 125.9,
+              "new_properties": [
+                "AttacksGround",
+                "Ground",
+                "Light"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Zergling"
+              ]
+            },
+            {
+              "time": 909.4,
+              "new_properties": [
+                "AttacksAny",
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Zergling",
+                "Roach",
+                "Overseer",
+                "Ravager",
+                "Hydralisk",
+                "Viper"
+              ]
+            },
+            {
+              "time": 1029.9,
+              "new_properties": [
+                "AttacksAir",
+                "Massive"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Zergling",
+                "Roach",
+                "Overseer",
+                "Queen",
+                "Ultralisk"
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 306.7,
+              "bank": 1644.0,
+              "army_supply": 7.0
+            },
+            {
+              "time": 1029.9,
+              "bank": 2245.0,
+              "army_supply": 14.0
+            },
+            {
+              "time": 1090.2,
+              "bank": 2095.0,
+              "army_supply": 21.0
+            },
+            {
+              "time": 1150.5,
+              "bank": 1395.0,
+              "army_supply": 2.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 20,
+        "skill_id": "TvP_O02",
+        "result": "Victory",
+        "duration": 787.95,
+        "avg_bank": 1484.3,
+        "army_utilization": 0.6427,
+        "present_signals": [
+          "routing_not_rechecked_after_new_enemy_property",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 4,
+          "knowledge_visible_composition_mismatch": 1,
+          "routing_not_rechecked_after_new_enemy_property": 2
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 17.9,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 15/15). Place at least 1 additional SupplyDepot entry before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            },
+            {
+              "time": 32.1,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 15/15). Place at least 1 additional SupplyDepot entry before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            },
+            {
+              "time": 32.1,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Marine (projected 23/23). Place at least 1 additional SupplyDepot entry before Marine, or shorten the unit queue to fit; actions after a blocked unit are never reached."
+            },
+            {
+              "time": 32.1,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 15/15). Place at least 1 additional SupplyDepot entry before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            }
+          ],
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 244.2,
+              "own_units": [
+                "Marine"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Stalker"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Zealot",
+                  "Marine",
+                  "c0fe4222f2147c54241101cfbe773385772affe4f25cdaff2bd3fa84f7757f25"
+                ]
+              ]
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 485.3,
+              "new_properties": [
+                "Air"
+              ],
+              "enemy_units": [
+                "Observer"
+              ]
+            },
+            {
+              "time": 597.3,
+              "new_properties": [
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Stalker",
+                "Adept",
+                "Observer",
+                "Sentry"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 27,
+        "skill_id": "ZvZ_O04",
+        "result": "Tie",
+        "duration": 1200.0,
+        "avg_bank": 2358.8,
+        "army_utilization": 0.6506,
+        "present_signals": [
+          "feedback_not_changing_repeated_failed_posture",
+          "resource_to_army_conversion_failure",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 3,
+          "routing_not_rechecked_after_new_enemy_property": 1,
+          "resource_to_army_conversion_failure": 3,
+          "feedback_not_changing_repeated_failed_posture": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 14/14). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            },
+            {
+              "time": 227.2,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 38/38). Place at least 3 additional Overlord entries before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Re"
+            },
+            {
+              "time": 465.2,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Roach (projected 117/118). Place at least 1 additional Overlord entry before Roach, or shorten the unit queue to fit; actions after a blocked unit are never reached. Re"
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 577.7,
+              "new_properties": [
+                "AttacksAny"
+              ],
+              "enemy_units": [
+                "Zergling",
+                "Overlord",
+                "Overseer",
+                "Mutalisk"
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 1075.0,
+              "bank": 5669.0,
+              "army_supply": 8.0
+            },
+            {
+              "time": 1135.3,
+              "bank": 6240.0,
+              "army_supply": 4.0
+            },
+            {
+              "time": 1195.5,
+              "bank": 7420.0,
+              "army_supply": 4.0
+            }
+          ],
+          "feedback_not_changing_repeated_failed_posture": [
+            {
+              "time": 1135.3,
+              "repeated_combat_plan": [
+                "Queen",
+                "Hydralisk"
+              ],
+              "bank": 6240.0,
+              "army_supply": 4.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 25,
+        "skill_id": "ZvP_O01",
+        "result": "Defeat",
+        "duration": 400.45,
+        "avg_bank": 1375.8,
+        "army_utilization": 0.549,
+        "present_signals": [
+          "feedback_not_changing_repeated_failed_posture",
+          "resource_to_army_conversion_failure"
+        ],
+        "evidence_counts": {
+          "resource_to_army_conversion_failure": 2,
+          "feedback_not_changing_repeated_failed_posture": 1
+        },
+        "evidence": {
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 338.4,
+              "bank": 4624.0,
+              "army_supply": 0.0
+            },
+            {
+              "time": 398.7,
+              "bank": 4486.0,
+              "army_supply": 0.0
+            }
+          ],
+          "feedback_not_changing_repeated_failed_posture": [
+            {
+              "time": 398.7,
+              "repeated_combat_plan": [
+                "Overlord",
+                "Queen",
+                "Zergling"
+              ],
+              "bank": 4486.0,
+              "army_supply": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 23,
+        "skill_id": "TvP_O06",
+        "result": "Victory",
+        "duration": 762.5,
+        "avg_bank": 1538.5,
+        "army_utilization": 0.5348,
+        "present_signals": [
+          "routing_not_rechecked_after_new_enemy_property",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 2,
+          "knowledge_visible_composition_mismatch": 1,
+          "resource_to_army_conversion_failure": 1,
+          "routing_not_rechecked_after_new_enemy_property": 2
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 22.3,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 15/15). Place at least 5 additional SupplyDepot entries before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Ret"
+            },
+            {
+              "time": 465.6,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Marauder (projected 95/95). Place at least 4 additional SupplyDepot entries before Marauder, or shorten the unit queue to fit; actions after a blocked unit are never re"
+            }
+          ],
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 164.3,
+              "own_units": [
+                "Marine"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Stalker"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Zealot",
+                  "Marine",
+                  "c0fe4222f2147c54241101cfbe773385772affe4f25cdaff2bd3fa84f7757f25"
+                ]
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 345.1,
+              "bank": 1672.0,
+              "army_supply": 13.0
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 525.9,
+              "new_properties": [
+                "Air"
+              ],
+              "enemy_units": [
+                "Observer"
+              ]
+            },
+            {
+              "time": 706.7,
+              "new_properties": [
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Observer",
+                "WarpPrism"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 26,
+        "skill_id": "ZvT_O04",
+        "result": "Defeat",
+        "duration": 594.2,
+        "avg_bank": 2811.1,
+        "army_utilization": 0.58,
+        "present_signals": [
+          "feedback_not_changing_repeated_failed_posture",
+          "resource_to_army_conversion_failure",
+          "routing_not_rechecked_after_new_enemy_property",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 4,
+          "knowledge_visible_composition_mismatch": 1,
+          "resource_to_army_conversion_failure": 5,
+          "routing_not_rechecked_after_new_enemy_property": 2,
+          "feedback_not_changing_repeated_failed_posture": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 14/14). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            },
+            {
+              "time": 86.6,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 30/30). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            },
+            {
+              "time": 207.1,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 38/38). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            },
+            {
+              "time": 207.1,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 38/38). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            }
+          ],
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 146.9,
+              "own_units": [
+                "Overlord",
+                "Queen"
+              ],
+              "enemy_units": [
+                "Marine"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Marine",
+                  "Overlord",
+                  "97e0d1326fcf70d9bae474d699af7d12ad281ad71a6143f33b35178b04a271d8"
+                ],
+                [
+                  "Marine",
+                  "Queen",
+                  "f7a1f1583ee45383ba3369ee10448cf8335c2b1d91a845162d7006dfc8db1b48"
+                ]
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 327.7,
+              "bank": 3980.0,
+              "army_supply": 0.0
+            },
+            {
+              "time": 387.9,
+              "bank": 4045.0,
+              "army_supply": 0.0
+            },
+            {
+              "time": 448.2,
+              "bank": 4930.0,
+              "army_supply": 0.0
+            },
+            {
+              "time": 508.5,
+              "bank": 5260.0,
+              "army_supply": 0.0
+            },
+            {
+              "time": 568.8,
+              "bank": 4740.0,
+              "army_supply": 0.0
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 327.7,
+              "new_properties": [
+                "AttacksGround",
+                "Mechanical"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Hellion"
+              ]
+            },
+            {
+              "time": 568.8,
+              "new_properties": [
+                "Air",
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Ghost",
+                "Raven"
+              ]
+            }
+          ],
+          "feedback_not_changing_repeated_failed_posture": [
+            {
+              "time": 568.8,
+              "repeated_combat_plan": [
+                "Zergling",
+                "Queen",
+                "Overlord"
+              ],
+              "bank": 4740.0,
+              "army_supply": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 28,
+        "skill_id": "ZvP_O06",
+        "result": "Defeat",
+        "duration": 471.88,
+        "avg_bank": 2522.2,
+        "army_utilization": 0.6988,
+        "present_signals": [
+          "feedback_not_changing_repeated_failed_posture",
+          "resource_to_army_conversion_failure"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 1,
+          "resource_to_army_conversion_failure": 3,
+          "feedback_not_changing_repeated_failed_posture": 1,
+          "knowledge_visible_composition_mismatch": 1,
+          "routing_not_rechecked_after_new_enemy_property": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 14/14). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 306.2,
+              "bank": 3645.0,
+              "army_supply": 0.0
+            },
+            {
+              "time": 366.5,
+              "bank": 5249.0,
+              "army_supply": 0.0
+            },
+            {
+              "time": 426.8,
+              "bank": 6546.0,
+              "army_supply": 0.0
+            }
+          ],
+          "feedback_not_changing_repeated_failed_posture": [
+            {
+              "time": 366.5,
+              "repeated_combat_plan": [
+                "Overlord",
+                "Zergling"
+              ],
+              "bank": 5249.0,
+              "army_supply": 0.0
+            }
+          ],
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 426.8,
+              "own_units": [
+                "Overlord",
+                "Zergling"
+              ],
+              "enemy_units": [
+                "VoidRay",
+                "Phoenix"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Phoenix",
+                  "Overlord",
+                  "3335236c1498d7d9e14216a06e435ecffc8a2e31768b42244fed9f15241a5831"
+                ]
+              ]
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 426.8,
+              "new_properties": [
+                "AttacksAir",
+                "Light"
+              ],
+              "enemy_units": [
+                "VoidRay",
+                "Phoenix"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 29,
+        "skill_id": "ZvT_O05",
+        "result": "Victory",
+        "duration": 694.64,
+        "avg_bank": 1279.8,
+        "army_utilization": 0.7429,
+        "present_signals": [
+          "routing_not_rechecked_after_new_enemy_property",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 3,
+          "routing_not_rechecked_after_new_enemy_property": 4
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 14/14). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            },
+            {
+              "time": 332.1,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Zergling (projected 82/82). Place at least 1 additional Overlord entry before Zergling, or shorten the unit queue to fit; actions after a blocked unit are never reached"
+            },
+            {
+              "time": 332.1,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 84/84). Place at least 3 additional Overlord entries before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Re"
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 332.1,
+              "new_properties": [
+                "AttacksGround",
+                "Mechanical"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Hellion"
+              ]
+            },
+            {
+              "time": 433.9,
+              "new_properties": [
+                "Armored"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Hellion",
+                "Marauder"
+              ]
+            },
+            {
+              "time": 590.6,
+              "new_properties": [
+                "Air"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Marauder",
+                "Raven"
+              ]
+            },
+            {
+              "time": 643.3,
+              "new_properties": [
+                "AttacksAir"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Marauder",
+                "Raven",
+                "VikingFighter"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 30,
+        "skill_id": "PvP_O01",
+        "result": "Victory",
+        "duration": 713.84,
+        "avg_bank": 409.8,
+        "army_utilization": 0.6163,
+        "present_signals": [
+          "runtime_or_api_instability",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 8,
+          "knowledge_visible_composition_mismatch": 1,
+          "routing_not_rechecked_after_new_enemy_property": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Probe (projected 15/15). Place at least 1 additional Pylon entry before Probe, or shorten the unit queue to fit; actions after a blocked unit are never reached. Return "
+            },
+            {
+              "time": 22.3,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Probe (projected 15/15). Place at least 1 additional Pylon entry before Probe, or shorten the unit queue to fit; actions after a blocked unit are never reached. Return "
+            },
+            {
+              "time": 22.3,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Probe (projected 15/15). Place at least 1 additional Pylon entry before Probe, or shorten the unit queue to fit; actions after a blocked unit are never reached. Return "
+            },
+            {
+              "time": 22.3,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Probe (projected 15/15). Place at least 1 additional Pylon entry before Probe, or shorten the unit queue to fit; actions after a blocked unit are never reached. Return "
+            },
+            {
+              "time": 22.3,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Probe (projected 15/15). Place at least 1 additional Pylon entry before Probe, or shorten the unit queue to fit; actions after a blocked unit are never reached. Return "
+            }
+          ],
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 175.9,
+              "own_units": [
+                "Stalker"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Stalker"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Zealot",
+                  "Stalker",
+                  "da7fe72dda4011d7196644031cbf927703680a9ff8147d3653fb98cdf2686c88"
+                ]
+              ]
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 499.6,
+              "new_properties": [
+                "Air"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Stalker",
+                "Observer"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 33,
+        "skill_id": "PvT_O07",
+        "result": "Victory",
+        "duration": 609.82,
+        "avg_bank": 762.9,
+        "army_utilization": 0.7001,
+        "present_signals": [
+          "routing_not_rechecked_after_new_enemy_property"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 1,
+          "routing_not_rechecked_after_new_enemy_property": 2
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 28.1,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Probe (projected 15/15). Place at least 1 additional Pylon entry before Probe, or shorten the unit queue to fit; actions after a blocked unit are never reached. Return "
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 338.8,
+              "new_properties": [
+                "Armored",
+                "AttacksGround",
+                "Mechanical"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Marauder",
+                "Hellion"
+              ]
+            },
+            {
+              "time": 519.6,
+              "new_properties": [
+                "Air",
+                "AttacksAir"
+              ],
+              "enemy_units": [
+                "WidowMine",
+                "VikingFighter"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 31,
+        "skill_id": "PvT_O03",
+        "result": "Victory",
+        "duration": 1044.64,
+        "avg_bank": 1264.6,
+        "army_utilization": 0.5448,
+        "present_signals": [
+          "routing_not_rechecked_after_new_enemy_property"
+        ],
+        "evidence_counts": {
+          "routing_not_rechecked_after_new_enemy_property": 2,
+          "resource_to_army_conversion_failure": 1
+        },
+        "evidence": {
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 336.2,
+              "new_properties": [
+                "Armored",
+                "AttacksGround"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Marauder"
+              ]
+            },
+            {
+              "time": 517.0,
+              "new_properties": [
+                "Air",
+                "Mechanical",
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Marauder",
+                "Ghost",
+                "Raven"
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 396.4,
+              "bank": 2677.0,
+              "army_supply": 8.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 36,
+        "skill_id": "TvT_O03",
+        "result": "Tie",
+        "duration": 1200.0,
+        "avg_bank": 2124.5,
+        "army_utilization": 0.5316,
+        "present_signals": [
+          "feedback_not_changing_repeated_failed_posture",
+          "knowledge_visible_composition_mismatch",
+          "resource_to_army_conversion_failure",
+          "runtime_or_api_instability",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 7,
+          "knowledge_visible_composition_mismatch": 2,
+          "resource_to_army_conversion_failure": 7,
+          "live_supply_block_with_bank": 1,
+          "routing_not_rechecked_after_new_enemy_property": 1,
+          "feedback_not_changing_repeated_failed_posture": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 23/23). Place at least 1 additional SupplyDepot entry before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            },
+            {
+              "time": 22.8,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 15/15). Place at least 1 additional SupplyDepot entry before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            },
+            {
+              "time": 360.7,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Marine (projected 55/55). Place at least 1 additional SupplyDepot entry before Marine, or shorten the unit queue to fit; actions after a blocked unit are never reached."
+            },
+            {
+              "time": 417.9,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Marine (projected 79/79). Place at least 1 additional SupplyDepot entry before Marine, or shorten the unit queue to fit; actions after a blocked unit are never reached."
+            },
+            {
+              "time": 478.1,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 63/63). Place at least 3 additional SupplyDepot entries before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Ret"
+            }
+          ],
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 188.4,
+              "own_units": [
+                "Marine",
+                "Reaper"
+              ],
+              "enemy_units": [
+                "Marine"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Marine",
+                  "Reaper",
+                  "8382014d94b77f908cb8e2242a7095d3b3de1de89d8d8a54d69c01fde7f40191"
+                ]
+              ]
+            },
+            {
+              "time": 240.2,
+              "own_units": [
+                "Marine",
+                "Reaper",
+                "Marauder"
+              ],
+              "enemy_units": [
+                "Marine"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Marine",
+                  "Marauder",
+                  "4fb0d2a293e56cc7a82b22149d7188c0a130ae041e9f44c5ef880cafe925cafd"
+                ],
+                [
+                  "Marine",
+                  "Reaper",
+                  "8382014d94b77f908cb8e2242a7095d3b3de1de89d8d8a54d69c01fde7f40191"
+                ]
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 300.4,
+              "bank": 2017.0,
+              "army_supply": 10.0
+            },
+            {
+              "time": 839.7,
+              "bank": 2340.0,
+              "army_supply": 13.0
+            },
+            {
+              "time": 900.0,
+              "bank": 3483.0,
+              "army_supply": 18.0
+            },
+            {
+              "time": 960.3,
+              "bank": 3392.0,
+              "army_supply": 2.0
+            },
+            {
+              "time": 1020.5,
+              "bank": 4092.0,
+              "army_supply": 6.0
+            }
+          ],
+          "live_supply_block_with_bank": [
+            {
+              "time": 478.1,
+              "bank": 2936.0,
+              "army_supply": 41.0
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 658.9,
+              "new_properties": [
+                "AttacksAir"
+              ],
+              "enemy_units": [
+                "Medivac",
+                "Raven",
+                "VikingFighter",
+                "SiegeTank",
+                "WidowMine"
+              ]
+            }
+          ],
+          "feedback_not_changing_repeated_failed_posture": [
+            {
+              "time": 1080.8,
+              "repeated_combat_plan": [
+                "Cyclone",
+                "Marine"
+              ],
+              "bank": 5076.0,
+              "army_supply": 12.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 32,
+        "skill_id": "PvZ_O02",
+        "result": "Victory",
+        "duration": 762.05,
+        "avg_bank": 338.6,
+        "army_utilization": 0.7516,
+        "present_signals": [
+          "routing_not_rechecked_after_new_enemy_property",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "routing_not_rechecked_after_new_enemy_property": 3,
+          "supply_planning_repair": 8
+        },
+        "evidence": {
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 112.5,
+              "new_properties": [
+                "AttacksGround",
+                "Ground",
+                "Light"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Zergling"
+              ]
+            },
+            {
+              "time": 518.8,
+              "new_properties": [
+                "AttacksAny"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Zergling",
+                "Mutalisk"
+              ]
+            },
+            {
+              "time": 639.3,
+              "new_properties": [
+                "AttacksAir",
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Zergling",
+                "Queen"
+              ]
+            }
+          ],
+          "supply_planning_repair": [
+            {
+              "time": 398.2,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Probe (projected 79/79). Place at least 5 additional Pylon entries before Probe, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            },
+            {
+              "time": 579.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Stalker (projected 149/150). Shorten the unit queue: even after raising the cap to 200, only 51 more supply can fit; actions after a blocked unit are never reached. Ret"
+            },
+            {
+              "time": 579.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Stalker (projected 149/150). Place at least 6 additional Pylon entries before Stalker, or shorten the unit queue to fit; actions after a blocked unit are never reached."
+            },
+            {
+              "time": 639.3,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Stalker (projected 199/200). Shorten the unit queue: even after raising the cap to 200, only 1 more supply can fit; actions after a blocked unit are never reached. Retu"
+            },
+            {
+              "time": 639.3,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Immortal (projected 199/200). Shorten the unit queue: even after raising the cap to 200, only 1 more supply can fit; actions after a blocked unit are never reached. Ret"
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 34,
+        "skill_id": "PvZ_O05",
+        "result": "Defeat",
+        "duration": 857.59,
+        "avg_bank": 1200.1,
+        "army_utilization": 0.4592,
+        "present_signals": [
+          "feedback_not_changing_repeated_failed_posture",
+          "resource_to_army_conversion_failure",
+          "routing_not_rechecked_after_new_enemy_property",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "routing_not_rechecked_after_new_enemy_property": 2,
+          "supply_planning_repair": 2,
+          "resource_to_army_conversion_failure": 3,
+          "feedback_not_changing_repeated_failed_posture": 1
+        },
+        "evidence": {
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 197.3,
+              "new_properties": [
+                "AttacksAir",
+                "AttacksGround",
+                "Ground",
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Queen"
+              ]
+            },
+            {
+              "time": 438.4,
+              "new_properties": [
+                "AttacksAny",
+                "Light"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Queen",
+                "Mutalisk"
+              ]
+            }
+          ],
+          "supply_planning_repair": [
+            {
+              "time": 317.9,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Zealot (projected 79/79). Place at least 1 additional Pylon entry before Zealot, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            },
+            {
+              "time": 378.1,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Zealot (projected 79/79). Place at least 8 additional Pylon entries before Zealot, or shorten the unit queue to fit; actions after a blocked unit are never reached. Ret"
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 679.5,
+              "bank": 1406.0,
+              "army_supply": 0.0
+            },
+            {
+              "time": 739.7,
+              "bank": 1406.0,
+              "army_supply": 0.0
+            },
+            {
+              "time": 800.0,
+              "bank": 1406.0,
+              "army_supply": 0.0
+            }
+          ],
+          "feedback_not_changing_repeated_failed_posture": [
+            {
+              "time": 800.0,
+              "repeated_combat_plan": [
+                "Zealot"
+              ],
+              "bank": 1406.0,
+              "army_supply": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 37,
+        "skill_id": "TvZ_O01",
+        "result": "Defeat",
+        "duration": 625.89,
+        "avg_bank": 2454.9,
+        "army_utilization": 0.9414,
+        "present_signals": [
+          "live_supply_block_with_bank",
+          "resource_to_army_conversion_failure",
+          "routing_not_rechecked_after_new_enemy_property",
+          "runtime_or_api_instability",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 14,
+          "routing_not_rechecked_after_new_enemy_property": 2,
+          "resource_to_army_conversion_failure": 6,
+          "live_supply_block_with_bank": 4
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 22.3,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 15/15). Place at least 1 additional SupplyDepot entry before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            },
+            {
+              "time": 314.7,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Cyclone (projected 46/47). Place at least 2 additional SupplyDepot entries before Cyclone, or shorten the unit queue to fit; actions after a blocked unit are never reac"
+            },
+            {
+              "time": 314.7,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Cyclone (projected 46/47). Place at least 2 additional SupplyDepot entries before Cyclone, or shorten the unit queue to fit; actions after a blocked unit are never reac"
+            },
+            {
+              "time": 314.7,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Cyclone (projected 46/47). Place at least 2 additional SupplyDepot entries before Cyclone, or shorten the unit queue to fit; actions after a blocked unit are never reac"
+            },
+            {
+              "time": 314.7,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Cyclone (projected 46/47). Place at least 2 additional SupplyDepot entries before Cyclone, or shorten the unit queue to fit; actions after a blocked unit are never reac"
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 133.9,
+              "new_properties": [
+                "AttacksGround",
+                "Ground",
+                "Light"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Zergling"
+              ]
+            },
+            {
+              "time": 495.5,
+              "new_properties": [
+                "AttacksAny"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Zergling",
+                "Baneling",
+                "Overseer",
+                "Roach",
+                "Hydralisk"
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 314.7,
+              "bank": 2301.0,
+              "army_supply": 14.0
+            },
+            {
+              "time": 375.0,
+              "bank": 3630.0,
+              "army_supply": 14.0
+            },
+            {
+              "time": 435.3,
+              "bank": 4903.0,
+              "army_supply": 14.0
+            },
+            {
+              "time": 495.5,
+              "bank": 6186.0,
+              "army_supply": 13.0
+            },
+            {
+              "time": 517.9,
+              "bank": 6260.0,
+              "army_supply": 4.0
+            }
+          ],
+          "live_supply_block_with_bank": [
+            {
+              "time": 314.7,
+              "bank": 2301.0,
+              "army_supply": 14.0
+            },
+            {
+              "time": 375.0,
+              "bank": 3630.0,
+              "army_supply": 14.0
+            },
+            {
+              "time": 435.3,
+              "bank": 4903.0,
+              "army_supply": 14.0
+            },
+            {
+              "time": 495.5,
+              "bank": 6186.0,
+              "army_supply": 13.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 39,
+        "skill_id": "TvZ_O05",
+        "result": "Victory",
+        "duration": 501.34,
+        "avg_bank": 753.4,
+        "army_utilization": 0.5967,
+        "present_signals": [
+          "routing_not_rechecked_after_new_enemy_property",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 3,
+          "routing_not_rechecked_after_new_enemy_property": 2
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 27.2,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 15/15). Place at least 2 additional SupplyDepot entries before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Ret"
+            },
+            {
+              "time": 277.7,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Marine (projected 63/63). Place at least 1 additional SupplyDepot entry before Marine, or shorten the unit queue to fit; actions after a blocked unit are never reached."
+            },
+            {
+              "time": 288.4,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 63/63). Place at least 2 additional SupplyDepot entries before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Ret"
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 174.6,
+              "new_properties": [
+                "AttacksAir",
+                "AttacksGround",
+                "Ground",
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Queen"
+              ]
+            },
+            {
+              "time": 332.6,
+              "new_properties": [
+                "AttacksAny",
+                "Light"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Queen",
+                "Mutalisk"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 35,
+        "skill_id": "TvP_O02",
+        "result": "Victory",
+        "duration": 888.84,
+        "avg_bank": 1764.1,
+        "army_utilization": 0.6367,
+        "present_signals": [
+          "knowledge_visible_composition_mismatch",
+          "routing_not_rechecked_after_new_enemy_property"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 1,
+          "knowledge_visible_composition_mismatch": 2,
+          "routing_not_rechecked_after_new_enemy_property": 2
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 67.4,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 31/31). Place at least 1 additional SupplyDepot entry before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            }
+          ],
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 225.0,
+              "own_units": [
+                "Marine"
+              ],
+              "enemy_units": [
+                "Zealot"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Zealot",
+                  "Marine",
+                  "c0fe4222f2147c54241101cfbe773385772affe4f25cdaff2bd3fa84f7757f25"
+                ]
+              ]
+            },
+            {
+              "time": 230.8,
+              "own_units": [
+                "Marine"
+              ],
+              "enemy_units": [
+                "Zealot"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Zealot",
+                  "Marine",
+                  "c0fe4222f2147c54241101cfbe773385772affe4f25cdaff2bd3fa84f7757f25"
+                ]
+              ]
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 471.9,
+              "new_properties": [
+                "Air",
+                "Mechanical"
+              ],
+              "enemy_units": [
+                "Observer"
+              ]
+            },
+            {
+              "time": 584.4,
+              "new_properties": [
+                "Armored",
+                "AttacksAny",
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Stalker",
+                "Adept",
+                "Observer",
+                "Sentry"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 40,
+        "skill_id": "ZvP_O01",
+        "result": "Defeat",
+        "duration": 616.96,
+        "avg_bank": 1780.8,
+        "army_utilization": 0.3775,
+        "present_signals": [
+          "feedback_not_changing_repeated_failed_posture",
+          "resource_to_army_conversion_failure",
+          "routing_not_rechecked_after_new_enemy_property",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 2,
+          "routing_not_rechecked_after_new_enemy_property": 3,
+          "resource_to_army_conversion_failure": 6,
+          "knowledge_visible_composition_mismatch": 1,
+          "feedback_not_changing_repeated_failed_posture": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 22/22). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            },
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 14/14). Place at least 2 additional Overlord entries before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Re"
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 250.0,
+              "new_properties": [
+                "Armored",
+                "AttacksAny",
+                "Mechanical"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Adept",
+                "Stalker"
+              ]
+            },
+            {
+              "time": 310.3,
+              "new_properties": [
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Adept",
+                "Stalker",
+                "Sentry"
+              ]
+            },
+            {
+              "time": 430.8,
+              "new_properties": [
+                "Air"
+              ],
+              "enemy_units": [
+                "Adept",
+                "Stalker",
+                "Sentry",
+                "Observer"
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 310.3,
+              "bank": 3035.0,
+              "army_supply": 6.0
+            },
+            {
+              "time": 370.5,
+              "bank": 3206.0,
+              "army_supply": 4.0
+            },
+            {
+              "time": 430.8,
+              "bank": 2720.0,
+              "army_supply": 6.0
+            },
+            {
+              "time": 491.1,
+              "bank": 2370.0,
+              "army_supply": 2.0
+            },
+            {
+              "time": 551.3,
+              "bank": 2920.0,
+              "army_supply": 0.0
+            }
+          ],
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 310.3,
+              "own_units": [
+                "Overlord",
+                "Queen"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Adept",
+                "Stalker",
+                "Sentry"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Zealot",
+                  "Queen",
+                  "60a94f61aacacb2adaaa1c774e9c1bce226a00cf3b738c6c877fd758eeba233d"
+                ],
+                [
+                  "Stalker",
+                  "Overlord",
+                  "7015963ba638703979c5e0bcc0778d61e05741c3680e45ca4b42015ec0dcb6fe"
+                ]
+              ]
+            }
+          ],
+          "feedback_not_changing_repeated_failed_posture": [
+            {
+              "time": 491.1,
+              "repeated_combat_plan": [
+                "Queen",
+                "Hydralisk"
+              ],
+              "bank": 2370.0,
+              "army_supply": 2.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 38,
+        "skill_id": "TvP_O06",
+        "result": "Tie",
+        "duration": 1200.0,
+        "avg_bank": 3345.0,
+        "army_utilization": 0.6262,
+        "present_signals": [
+          "resource_to_army_conversion_failure",
+          "routing_not_rechecked_after_new_enemy_property",
+          "runtime_or_api_instability",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 4,
+          "resource_to_army_conversion_failure": 2,
+          "routing_not_rechecked_after_new_enemy_property": 2
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 22.8,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 15/15). Place at least 1 additional SupplyDepot entry before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            },
+            {
+              "time": 775.5,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Ghost (projected 124/126). Place at least 1 additional SupplyDepot entry before Ghost, or shorten the unit queue to fit; actions after a blocked unit are never reached."
+            },
+            {
+              "time": 775.5,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Cyclone (projected 125/126). Place at least 1 additional SupplyDepot entry before Cyclone, or shorten the unit queue to fit; actions after a blocked unit are never reac"
+            },
+            {
+              "time": 775.5,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Ghost (projected 124/126). Place at least 1 additional SupplyDepot entry before Ghost, or shorten the unit queue to fit; actions after a blocked unit are never reached."
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 301.8,
+              "bank": 2792.0,
+              "army_supply": 10.0
+            },
+            {
+              "time": 1146.4,
+              "bank": 5180.0,
+              "army_supply": 18.0
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 542.9,
+              "new_properties": [
+                "Air",
+                "Mechanical"
+              ],
+              "enemy_units": [
+                "Observer"
+              ]
+            },
+            {
+              "time": 965.6,
+              "new_properties": [
+                "Armored",
+                "AttacksAny",
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Stalker",
+                "Observer",
+                "Sentry",
+                "VoidRay"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 42,
+        "skill_id": "ZvZ_O04",
+        "result": "Tie",
+        "duration": 1200.0,
+        "avg_bank": 1480.8,
+        "army_utilization": 0.7284,
+        "present_signals": [
+          "feedback_not_changing_repeated_failed_posture",
+          "resource_to_army_conversion_failure",
+          "runtime_or_api_instability",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 16,
+          "resource_to_army_conversion_failure": 2,
+          "feedback_not_changing_repeated_failed_posture": 1,
+          "live_supply_block_with_bank": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 14/14). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            },
+            {
+              "time": 180.8,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Zergling (projected 38/38). Place at least 1 additional Overlord entry before Zergling, or shorten the unit queue to fit; actions after a blocked unit are never reached"
+            },
+            {
+              "time": 417.4,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Hydralisk (projected 65/66). Place at least 1 additional Overlord entry before Hydralisk, or shorten the unit queue to fit; actions after a blocked unit are never reach"
+            },
+            {
+              "time": 459.8,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Zergling (projected 98/98). Place at least 2 additional Overlord entries before Zergling, or shorten the unit queue to fit; actions after a blocked unit are never reach"
+            },
+            {
+              "time": 459.8,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Zergling (projected 90/90). Place at least 4 additional Overlord entries before Zergling, or shorten the unit queue to fit; actions after a blocked unit are never reach"
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 301.3,
+              "bank": 2125.0,
+              "army_supply": 7.0
+            },
+            {
+              "time": 361.6,
+              "bank": 2004.0,
+              "army_supply": 14.0
+            }
+          ],
+          "feedback_not_changing_repeated_failed_posture": [
+            {
+              "time": 361.6,
+              "repeated_combat_plan": [
+                "Queen",
+                "Hydralisk"
+              ],
+              "bank": 2004.0,
+              "army_supply": 14.0
+            }
+          ],
+          "live_supply_block_with_bank": [
+            {
+              "time": 684.8,
+              "bank": 593.0,
+              "army_supply": 117.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 45,
+        "skill_id": "PvP_O01",
+        "result": "Tie",
+        "duration": 1200.0,
+        "avg_bank": 1386.5,
+        "army_utilization": 0.4707,
+        "present_signals": [
+          "feedback_not_changing_repeated_failed_posture",
+          "resource_to_army_conversion_failure",
+          "routing_not_rechecked_after_new_enemy_property",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 2,
+          "routing_not_rechecked_after_new_enemy_property": 2,
+          "resource_to_army_conversion_failure": 5,
+          "feedback_not_changing_repeated_failed_posture": 3
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 26.8,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Probe (projected 15/15). Place at least 1 additional Pylon entry before Probe, or shorten the unit queue to fit; actions after a blocked unit are never reached. Return "
+            },
+            {
+              "time": 430.4,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Stalker (projected 111/111). Place at least 4 additional Pylon entries before Stalker, or shorten the unit queue to fit; actions after a blocked unit are never reached."
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 218.8,
+              "new_properties": [
+                "Armored",
+                "AttacksAny",
+                "Mechanical"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Stalker"
+              ]
+            },
+            {
+              "time": 550.9,
+              "new_properties": [
+                "Air",
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Stalker",
+                "Adept",
+                "Sentry",
+                "Observer"
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 938.4,
+              "bank": 1944.0,
+              "army_supply": 16.0
+            },
+            {
+              "time": 998.7,
+              "bank": 2272.0,
+              "army_supply": 2.0
+            },
+            {
+              "time": 1058.9,
+              "bank": 2478.0,
+              "army_supply": 2.0
+            },
+            {
+              "time": 1119.2,
+              "bank": 2600.0,
+              "army_supply": 2.0
+            },
+            {
+              "time": 1179.5,
+              "bank": 2600.0,
+              "army_supply": 2.0
+            }
+          ],
+          "feedback_not_changing_repeated_failed_posture": [
+            {
+              "time": 998.7,
+              "repeated_combat_plan": [
+                "Observer",
+                "Stalker",
+                "Zealot",
+                "Immortal"
+              ],
+              "bank": 2272.0,
+              "army_supply": 2.0
+            },
+            {
+              "time": 1119.2,
+              "repeated_combat_plan": [
+                "Stalker",
+                "Zealot",
+                "Immortal",
+                "Observer"
+              ],
+              "bank": 2600.0,
+              "army_supply": 2.0
+            },
+            {
+              "time": 1179.5,
+              "repeated_combat_plan": [
+                "Stalker",
+                "Zealot",
+                "Immortal",
+                "Observer"
+              ],
+              "bank": 2600.0,
+              "army_supply": 2.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 43,
+        "skill_id": "ZvP_O06",
+        "result": "Tie",
+        "duration": 1200.0,
+        "avg_bank": 5113.6,
+        "army_utilization": 0.7515,
+        "present_signals": [
+          "knowledge_visible_composition_mismatch",
+          "resource_to_army_conversion_failure",
+          "routing_not_rechecked_after_new_enemy_property",
+          "runtime_or_api_instability",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 16,
+          "knowledge_visible_composition_mismatch": 8,
+          "resource_to_army_conversion_failure": 2,
+          "routing_not_rechecked_after_new_enemy_property": 4
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 14/14). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            },
+            {
+              "time": 75.9,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 22/22). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            },
+            {
+              "time": 816.5,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Queen (projected 165/166). Place at least 1 additional Overlord entry before Queen, or shorten the unit queue to fit; actions after a blocked unit are never reached. Re"
+            },
+            {
+              "time": 816.5,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Queen (projected 165/166). Place at least 1 additional Overlord entry before Queen, or shorten the unit queue to fit; actions after a blocked unit are never reached. Re"
+            },
+            {
+              "time": 876.8,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Queen (projected 173/174). Place at least 1 additional Overlord entry before Queen, or shorten the unit queue to fit; actions after a blocked unit are never reached. Re"
+            }
+          ],
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 256.7,
+              "own_units": [
+                "Overlord",
+                "Zergling"
+              ],
+              "enemy_units": [
+                "Phoenix"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Phoenix",
+                  "Overlord",
+                  "3335236c1498d7d9e14216a06e435ecffc8a2e31768b42244fed9f15241a5831"
+                ]
+              ]
+            },
+            {
+              "time": 317.0,
+              "own_units": [
+                "Overlord",
+                "Queen"
+              ],
+              "enemy_units": [
+                "Phoenix"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Phoenix",
+                  "Overlord",
+                  "3335236c1498d7d9e14216a06e435ecffc8a2e31768b42244fed9f15241a5831"
+                ]
+              ]
+            },
+            {
+              "time": 353.1,
+              "own_units": [
+                "Overlord",
+                "Zergling",
+                "Queen",
+                "Hydralisk"
+              ],
+              "enemy_units": [
+                "Phoenix"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Phoenix",
+                  "Overlord",
+                  "3335236c1498d7d9e14216a06e435ecffc8a2e31768b42244fed9f15241a5831"
+                ]
+              ]
+            },
+            {
+              "time": 413.4,
+              "own_units": [
+                "Overlord",
+                "Zergling",
+                "Queen",
+                "Hydralisk"
+              ],
+              "enemy_units": [
+                "Phoenix"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Phoenix",
+                  "Overlord",
+                  "3335236c1498d7d9e14216a06e435ecffc8a2e31768b42244fed9f15241a5831"
+                ]
+              ]
+            },
+            {
+              "time": 473.7,
+              "own_units": [
+                "Zergling",
+                "Overlord",
+                "Queen",
+                "Hydralisk"
+              ],
+              "enemy_units": [
+                "Phoenix"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Phoenix",
+                  "Overlord",
+                  "3335236c1498d7d9e14216a06e435ecffc8a2e31768b42244fed9f15241a5831"
+                ]
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 317.0,
+              "bank": 3231.0,
+              "army_supply": 4.0
+            },
+            {
+              "time": 353.1,
+              "bank": 2071.0,
+              "army_supply": 10.0
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 654.5,
+              "new_properties": [
+                "Armored"
+              ],
+              "enemy_units": [
+                "Phoenix",
+                "VoidRay",
+                "Observer"
+              ]
+            },
+            {
+              "time": 779.0,
+              "new_properties": [
+                "AttacksGround",
+                "Massive"
+              ],
+              "enemy_units": [
+                "Phoenix",
+                "VoidRay",
+                "Observer",
+                "Tempest"
+              ]
+            },
+            {
+              "time": 816.5,
+              "new_properties": [
+                "Psionic"
+              ],
+              "enemy_units": [
+                "VoidRay",
+                "Observer",
+                "Tempest",
+                "WarpPrism"
+              ]
+            },
+            {
+              "time": 997.3,
+              "new_properties": [
+                "AttacksAny"
+              ],
+              "enemy_units": [
+                "Phoenix",
+                "VoidRay",
+                "Observer",
+                "Tempest",
+                "WarpPrism",
+                "Carrier",
+                "Interceptor"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 41,
+        "skill_id": "ZvT_O04",
+        "result": "Defeat",
+        "duration": 1123.66,
+        "avg_bank": 7446.2,
+        "army_utilization": 0.6108,
+        "present_signals": [
+          "resource_to_army_conversion_failure",
+          "routing_not_rechecked_after_new_enemy_property",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 4,
+          "knowledge_visible_composition_mismatch": 1,
+          "routing_not_rechecked_after_new_enemy_property": 3,
+          "resource_to_army_conversion_failure": 6
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 14/14). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            },
+            {
+              "time": 89.7,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 30/30). Place at least 2 additional Overlord entries before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Re"
+            },
+            {
+              "time": 429.9,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Roach (projected 97/98). Place at least 5 additional Overlord entries before Roach, or shorten the unit queue to fit; actions after a blocked unit are never reached. Re"
+            },
+            {
+              "time": 490.2,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Roach (projected 146/146). Place at least 4 additional Overlord entries before Roach, or shorten the unit queue to fit; actions after a blocked unit are never reached. "
+            }
+          ],
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 215.2,
+              "own_units": [
+                "Overlord",
+                "Queen"
+              ],
+              "enemy_units": [
+                "Marine"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Marine",
+                  "Overlord",
+                  "97e0d1326fcf70d9bae474d699af7d12ad281ad71a6143f33b35178b04a271d8"
+                ],
+                [
+                  "Marine",
+                  "Queen",
+                  "f7a1f1583ee45383ba3369ee10448cf8335c2b1d91a845162d7006dfc8db1b48"
+                ]
+              ]
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 309.4,
+              "new_properties": [
+                "Armored",
+                "AttacksGround"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Marauder"
+              ]
+            },
+            {
+              "time": 573.2,
+              "new_properties": [
+                "Air",
+                "Mechanical",
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Marauder",
+                "Raven",
+                "Ghost"
+              ]
+            },
+            {
+              "time": 965.6,
+              "new_properties": [
+                "AttacksAir"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Marauder",
+                "Raven",
+                "Ghost",
+                "Reaper",
+                "Medivac",
+                "Cyclone",
+                "Liberator"
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 633.5,
+              "bank": 10255.0,
+              "army_supply": 24.0
+            },
+            {
+              "time": 845.5,
+              "bank": 15936.0,
+              "army_supply": 6.0
+            },
+            {
+              "time": 905.8,
+              "bank": 15660.0,
+              "army_supply": 6.0
+            },
+            {
+              "time": 965.6,
+              "bank": 16303.0,
+              "army_supply": 10.0
+            },
+            {
+              "time": 1025.9,
+              "bank": 18558.0,
+              "army_supply": 2.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 48,
+        "skill_id": "PvT_O07",
+        "result": "Victory",
+        "duration": 647.77,
+        "avg_bank": 390.7,
+        "army_utilization": 0.6116,
+        "present_signals": [
+          "routing_not_rechecked_after_new_enemy_property",
+          "runtime_or_api_instability"
+        ],
+        "evidence_counts": {
+          "routing_not_rechecked_after_new_enemy_property": 2,
+          "supply_planning_repair": 1
+        },
+        "evidence": {
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 478.6,
+              "new_properties": [
+                "Mechanical"
+              ],
+              "enemy_units": [
+                "WidowMine"
+              ]
+            },
+            {
+              "time": 538.8,
+              "new_properties": [
+                "Air"
+              ],
+              "enemy_units": [
+                "Marauder",
+                "Raven"
+              ]
+            }
+          ],
+          "supply_planning_repair": [
+            {
+              "time": 599.1,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Stalker (projected 133/134). Place at least 4 additional Pylon entries before Stalker, or shorten the unit queue to fit; actions after a blocked unit are never reached."
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 46,
+        "skill_id": "PvT_O03",
+        "result": "Defeat",
+        "duration": 898.21,
+        "avg_bank": 1335.7,
+        "army_utilization": 0.4853,
+        "present_signals": [
+          "feedback_not_changing_repeated_failed_posture",
+          "resource_to_army_conversion_failure",
+          "routing_not_rechecked_after_new_enemy_property"
+        ],
+        "evidence_counts": {
+          "resource_to_army_conversion_failure": 7,
+          "routing_not_rechecked_after_new_enemy_property": 2,
+          "supply_planning_repair": 1,
+          "feedback_not_changing_repeated_failed_posture": 1
+        },
+        "evidence": {
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 352.2,
+              "bank": 1226.0,
+              "army_supply": 12.0
+            },
+            {
+              "time": 412.5,
+              "bank": 1809.0,
+              "army_supply": 12.0
+            },
+            {
+              "time": 641.5,
+              "bank": 1900.0,
+              "army_supply": 12.0
+            },
+            {
+              "time": 683.9,
+              "bank": 1613.0,
+              "army_supply": 22.0
+            },
+            {
+              "time": 744.2,
+              "bank": 2111.0,
+              "army_supply": 22.0
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 352.2,
+              "new_properties": [
+                "Armored",
+                "AttacksGround"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Marauder"
+              ]
+            },
+            {
+              "time": 533.0,
+              "new_properties": [
+                "Air",
+                "Mechanical"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Marauder",
+                "SiegeTank",
+                "WidowMine",
+                "Raven"
+              ]
+            }
+          ],
+          "supply_planning_repair": [
+            {
+              "time": 472.8,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Adept (projected 78/79). Place at least 2 additional Pylon entries before Adept, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            }
+          ],
+          "feedback_not_changing_repeated_failed_posture": [
+            {
+              "time": 864.7,
+              "repeated_combat_plan": [
+                "Stalker"
+              ],
+              "bank": 3155.0,
+              "army_supply": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 44,
+        "skill_id": "ZvT_O05",
+        "result": "Defeat",
+        "duration": 559.38,
+        "avg_bank": 2369.4,
+        "army_utilization": 0.6829,
+        "present_signals": [
+          "knowledge_visible_composition_mismatch",
+          "resource_to_army_conversion_failure",
+          "runtime_or_api_instability",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 4,
+          "knowledge_visible_composition_mismatch": 8,
+          "resource_to_army_conversion_failure": 4
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 14/14). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            },
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 22/22). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            },
+            {
+              "time": 54.5,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 30/30). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            },
+            {
+              "time": 157.6,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 30/30). Place at least 2 additional Overlord entries before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Re"
+            }
+          ],
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 157.6,
+              "own_units": [
+                "Overlord"
+              ],
+              "enemy_units": [
+                "Marine"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Marine",
+                  "Overlord",
+                  "97e0d1326fcf70d9bae474d699af7d12ad281ad71a6143f33b35178b04a271d8"
+                ]
+              ]
+            },
+            {
+              "time": 217.9,
+              "own_units": [
+                "Overlord",
+                "Queen"
+              ],
+              "enemy_units": [
+                "Marine"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Marine",
+                  "Overlord",
+                  "97e0d1326fcf70d9bae474d699af7d12ad281ad71a6143f33b35178b04a271d8"
+                ],
+                [
+                  "Marine",
+                  "Queen",
+                  "f7a1f1583ee45383ba3369ee10448cf8335c2b1d91a845162d7006dfc8db1b48"
+                ]
+              ]
+            },
+            {
+              "time": 278.1,
+              "own_units": [
+                "Overlord",
+                "Queen"
+              ],
+              "enemy_units": [
+                "Marine"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Marine",
+                  "Overlord",
+                  "97e0d1326fcf70d9bae474d699af7d12ad281ad71a6143f33b35178b04a271d8"
+                ],
+                [
+                  "Marine",
+                  "Queen",
+                  "f7a1f1583ee45383ba3369ee10448cf8335c2b1d91a845162d7006dfc8db1b48"
+                ]
+              ]
+            },
+            {
+              "time": 289.7,
+              "own_units": [
+                "Overlord",
+                "Queen"
+              ],
+              "enemy_units": [
+                "Marine"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Marine",
+                  "Overlord",
+                  "97e0d1326fcf70d9bae474d699af7d12ad281ad71a6143f33b35178b04a271d8"
+                ],
+                [
+                  "Marine",
+                  "Queen",
+                  "f7a1f1583ee45383ba3369ee10448cf8335c2b1d91a845162d7006dfc8db1b48"
+                ]
+              ]
+            },
+            {
+              "time": 350.0,
+              "own_units": [
+                "Overlord",
+                "Queen"
+              ],
+              "enemy_units": [
+                "Marine"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Marine",
+                  "Overlord",
+                  "97e0d1326fcf70d9bae474d699af7d12ad281ad71a6143f33b35178b04a271d8"
+                ],
+                [
+                  "Marine",
+                  "Queen",
+                  "f7a1f1583ee45383ba3369ee10448cf8335c2b1d91a845162d7006dfc8db1b48"
+                ]
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 350.0,
+              "bank": 3450.0,
+              "army_supply": 8.0
+            },
+            {
+              "time": 410.3,
+              "bank": 5055.0,
+              "army_supply": 12.0
+            },
+            {
+              "time": 470.5,
+              "bank": 5975.0,
+              "army_supply": 2.0
+            },
+            {
+              "time": 530.8,
+              "bank": 6510.0,
+              "army_supply": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 51,
+        "skill_id": "TvT_O03",
+        "result": "Defeat",
+        "duration": 791.52,
+        "avg_bank": 1786.9,
+        "army_utilization": 0.5899,
+        "present_signals": [
+          "feedback_not_changing_repeated_failed_posture",
+          "knowledge_visible_composition_mismatch",
+          "resource_to_army_conversion_failure",
+          "routing_not_rechecked_after_new_enemy_property"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 1,
+          "knowledge_visible_composition_mismatch": 3,
+          "resource_to_army_conversion_failure": 5,
+          "routing_not_rechecked_after_new_enemy_property": 2,
+          "feedback_not_changing_repeated_failed_posture": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 15/15). Place at least 1 additional SupplyDepot entry before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            }
+          ],
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 199.1,
+              "own_units": [
+                "Marine",
+                "Reaper"
+              ],
+              "enemy_units": [
+                "Marine"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Marine",
+                  "Reaper",
+                  "8382014d94b77f908cb8e2242a7095d3b3de1de89d8d8a54d69c01fde7f40191"
+                ]
+              ]
+            },
+            {
+              "time": 250.0,
+              "own_units": [
+                "Marine",
+                "Reaper",
+                "Marauder"
+              ],
+              "enemy_units": [
+                "Marine"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Marine",
+                  "Marauder",
+                  "4fb0d2a293e56cc7a82b22149d7188c0a130ae041e9f44c5ef880cafe925cafd"
+                ],
+                [
+                  "Marine",
+                  "Reaper",
+                  "8382014d94b77f908cb8e2242a7095d3b3de1de89d8d8a54d69c01fde7f40191"
+                ]
+              ]
+            },
+            {
+              "time": 310.3,
+              "own_units": [
+                "Marine",
+                "Reaper",
+                "Marauder"
+              ],
+              "enemy_units": [
+                "Marine"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Marine",
+                  "Marauder",
+                  "4fb0d2a293e56cc7a82b22149d7188c0a130ae041e9f44c5ef880cafe925cafd"
+                ],
+                [
+                  "Marine",
+                  "Reaper",
+                  "8382014d94b77f908cb8e2242a7095d3b3de1de89d8d8a54d69c01fde7f40191"
+                ]
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 310.3,
+              "bank": 1902.0,
+              "army_supply": 14.0
+            },
+            {
+              "time": 370.5,
+              "bank": 2505.0,
+              "army_supply": 9.0
+            },
+            {
+              "time": 611.6,
+              "bank": 2732.0,
+              "army_supply": 23.0
+            },
+            {
+              "time": 671.9,
+              "bank": 3620.0,
+              "army_supply": 4.0
+            },
+            {
+              "time": 732.1,
+              "bank": 3809.0,
+              "army_supply": 1.0
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 430.8,
+              "new_properties": [
+                "Armored"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Reaper",
+                "Hellion",
+                "Marauder"
+              ]
+            },
+            {
+              "time": 611.6,
+              "new_properties": [
+                "Air"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Hellion",
+                "Marauder",
+                "HellionTank",
+                "Raven",
+                "SiegeTank"
+              ]
+            }
+          ],
+          "feedback_not_changing_repeated_failed_posture": [
+            {
+              "time": 732.1,
+              "repeated_combat_plan": [
+                "Marine",
+                "Ghost"
+              ],
+              "bank": 3809.0,
+              "army_supply": 1.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 49,
+        "skill_id": "PvZ_O05",
+        "result": "Victory",
+        "duration": 793.3,
+        "avg_bank": 516.3,
+        "army_utilization": 0.5805,
+        "present_signals": [],
+        "evidence_counts": {
+          "routing_not_rechecked_after_new_enemy_property": 1
+        },
+        "evidence": {
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 165.6,
+              "new_properties": [
+                "AttacksAir",
+                "AttacksGround",
+                "Ground",
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Queen"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 47,
+        "skill_id": "PvZ_O02",
+        "result": "Victory",
+        "duration": 1094.64,
+        "avg_bank": 2519.3,
+        "army_utilization": 0.6441,
+        "present_signals": [
+          "routing_not_rechecked_after_new_enemy_property"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 1,
+          "routing_not_rechecked_after_new_enemy_property": 3,
+          "knowledge_visible_composition_mismatch": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 43.8,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Probe (projected 31/31). Place at least 3 additional Pylon entries before Probe, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 164.3,
+              "new_properties": [
+                "AttacksGround",
+                "Ground",
+                "Light"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Zergling"
+              ]
+            },
+            {
+              "time": 498.7,
+              "new_properties": [
+                "AttacksAny"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Zergling",
+                "Roach",
+                "Overseer",
+                "Ravager",
+                "Hydralisk"
+              ]
+            },
+            {
+              "time": 711.2,
+              "new_properties": [
+                "Massive"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Overseer",
+                "Ultralisk"
+              ]
+            }
+          ],
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 332.1,
+              "own_units": [
+                "Zealot"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Roach"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Roach",
+                  "Zealot",
+                  "65c3f3831f35b28eceedab8e634f937586880675ff2a97fa191bf22db1697b14"
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 54,
+        "skill_id": "TvZ_O05",
+        "result": "Victory",
+        "duration": 658.04,
+        "avg_bank": 1537.6,
+        "army_utilization": 0.6821,
+        "present_signals": [
+          "routing_not_rechecked_after_new_enemy_property",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 2,
+          "routing_not_rechecked_after_new_enemy_property": 2,
+          "resource_to_army_conversion_failure": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 22.3,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 15/15). Place at least 1 additional SupplyDepot entry before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            },
+            {
+              "time": 500.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at VikingFighter (projected 78/79). Place at least 3 additional SupplyDepot entries before VikingFighter, or shorten the unit queue to fit; actions after a blocked unit ar"
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 171.4,
+              "new_properties": [
+                "AttacksAir",
+                "AttacksGround",
+                "Ground",
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Queen"
+              ]
+            },
+            {
+              "time": 322.3,
+              "new_properties": [
+                "AttacksAny",
+                "Light"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Queen",
+                "Mutalisk"
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 379.5,
+              "bank": 2064.0,
+              "army_supply": 12.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 50,
+        "skill_id": "TvP_O02",
+        "result": "Victory",
+        "duration": 1025.89,
+        "avg_bank": 1356.4,
+        "army_utilization": 0.5966,
+        "present_signals": [
+          "runtime_or_api_instability",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 4,
+          "knowledge_visible_composition_mismatch": 1,
+          "resource_to_army_conversion_failure": 1,
+          "routing_not_rechecked_after_new_enemy_property": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 15/15). Place at least 1 additional SupplyDepot entry before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            },
+            {
+              "time": 626.8,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SiegeTank (projected 118/118). Place at least 2 additional SupplyDepot entries before SiegeTank, or shorten the unit queue to fit; actions after a blocked unit are neve"
+            },
+            {
+              "time": 687.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Marine (projected 126/126). Place at least 2 additional SupplyDepot entries before Marine, or shorten the unit queue to fit; actions after a blocked unit are never reac"
+            },
+            {
+              "time": 747.3,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SiegeTank (projected 172/173). Shorten the unit queue: even after raising the cap to 200, only 28 more supply can fit; actions after a blocked unit are never reached. R"
+            }
+          ],
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 265.2,
+              "own_units": [
+                "Marine"
+              ],
+              "enemy_units": [
+                "Zealot"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Zealot",
+                  "Marine",
+                  "c0fe4222f2147c54241101cfbe773385772affe4f25cdaff2bd3fa84f7757f25"
+                ]
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 385.7,
+              "bank": 1850.0,
+              "army_supply": 12.0
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 491.5,
+              "new_properties": [
+                "Air",
+                "Mechanical"
+              ],
+              "enemy_units": [
+                "Observer"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 52,
+        "skill_id": "TvZ_O01",
+        "result": "Tie",
+        "duration": 1200.0,
+        "avg_bank": 3478.1,
+        "army_utilization": 0.6721,
+        "present_signals": [
+          "routing_not_rechecked_after_new_enemy_property",
+          "runtime_or_api_instability",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 13,
+          "routing_not_rechecked_after_new_enemy_property": 2,
+          "resource_to_army_conversion_failure": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 22.3,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 15/15). Place at least 1 additional SupplyDepot entry before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            },
+            {
+              "time": 674.1,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Ghost (projected 116/118). Place at least 1 additional SupplyDepot entry before Ghost, or shorten the unit queue to fit; actions after a blocked unit are never reached."
+            },
+            {
+              "time": 674.1,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Cyclone (projected 116/118). Place at least 1 additional SupplyDepot entry before Cyclone, or shorten the unit queue to fit; actions after a blocked unit are never reac"
+            },
+            {
+              "time": 674.1,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Cyclone (projected 117/118). Place at least 1 additional SupplyDepot entry before Cyclone, or shorten the unit queue to fit; actions after a blocked unit are never reac"
+            },
+            {
+              "time": 674.1,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Cyclone (projected 117/118). Place at least 1 additional SupplyDepot entry before Cyclone, or shorten the unit queue to fit; actions after a blocked unit are never reac"
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 138.4,
+              "new_properties": [
+                "AttacksGround",
+                "Ground",
+                "Light"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Zergling"
+              ]
+            },
+            {
+              "time": 906.7,
+              "new_properties": [
+                "AttacksAir",
+                "Massive",
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Overlord",
+                "Zergling",
+                "Baneling",
+                "Overseer",
+                "BroodLordCocoon",
+                "Queen"
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 312.5,
+              "bank": 1104.0,
+              "army_supply": 11.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 55,
+        "skill_id": "ZvP_O01",
+        "result": "Defeat",
+        "duration": 458.93,
+        "avg_bank": 1910.2,
+        "army_utilization": 0.6024,
+        "present_signals": [
+          "resource_to_army_conversion_failure",
+          "routing_not_rechecked_after_new_enemy_property"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 1,
+          "knowledge_visible_composition_mismatch": 1,
+          "routing_not_rechecked_after_new_enemy_property": 3,
+          "resource_to_army_conversion_failure": 3
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 14/14). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            }
+          ],
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 200.4,
+              "own_units": [
+                "Overlord",
+                "Queen"
+              ],
+              "enemy_units": [
+                "Zealot"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Zealot",
+                  "Queen",
+                  "60a94f61aacacb2adaaa1c774e9c1bce226a00cf3b738c6c877fd758eeba233d"
+                ]
+              ]
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 260.7,
+              "new_properties": [
+                "Armored",
+                "AttacksAny",
+                "Mechanical"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Stalker",
+                "Adept"
+              ]
+            },
+            {
+              "time": 321.0,
+              "new_properties": [
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Stalker",
+                "Adept",
+                "Sentry"
+              ]
+            },
+            {
+              "time": 441.5,
+              "new_properties": [
+                "Air"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Stalker",
+                "Adept",
+                "Sentry",
+                "Observer"
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 321.0,
+              "bank": 3970.0,
+              "army_supply": 0.0
+            },
+            {
+              "time": 381.2,
+              "bank": 4104.0,
+              "army_supply": 0.0
+            },
+            {
+              "time": 441.5,
+              "bank": 3704.0,
+              "army_supply": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 53,
+        "skill_id": "TvP_O06",
+        "result": "Defeat",
+        "duration": 1170.54,
+        "avg_bank": 2166.4,
+        "army_utilization": 0.5691,
+        "present_signals": [
+          "resource_to_army_conversion_failure",
+          "routing_not_rechecked_after_new_enemy_property",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 4,
+          "knowledge_visible_composition_mismatch": 1,
+          "routing_not_rechecked_after_new_enemy_property": 3,
+          "resource_to_army_conversion_failure": 3
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 30.8,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 15/15). Place at least 3 additional SupplyDepot entries before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Ret"
+            },
+            {
+              "time": 141.5,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Marine (projected 31/31). Place at least 1 additional SupplyDepot entry before Marine, or shorten the unit queue to fit; actions after a blocked unit are never reached."
+            },
+            {
+              "time": 158.5,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at SCV (projected 23/23). Place at least 1 additional SupplyDepot entry before SCV, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retur"
+            },
+            {
+              "time": 158.5,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Marine (projected 31/31). Place at least 4 additional SupplyDepot entries before Marine, or shorten the unit queue to fit; actions after a blocked unit are never reache"
+            }
+          ],
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 269.6,
+              "own_units": [
+                "Marine"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Stalker"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Zealot",
+                  "Marine",
+                  "c0fe4222f2147c54241101cfbe773385772affe4f25cdaff2bd3fa84f7757f25"
+                ]
+              ]
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 510.7,
+              "new_properties": [
+                "Air"
+              ],
+              "enemy_units": [
+                "Observer"
+              ]
+            },
+            {
+              "time": 858.9,
+              "new_properties": [
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Stalker",
+                "Observer",
+                "Sentry",
+                "Immortal"
+              ]
+            },
+            {
+              "time": 1100.0,
+              "new_properties": [
+                "Massive"
+              ],
+              "enemy_units": [
+                "Zealot",
+                "Stalker",
+                "Observer",
+                "Sentry",
+                "Immortal",
+                "DarkTemplar",
+                "WarpPrism",
+                "Colossus",
+                "Archon",
+                "VoidRay"
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 979.5,
+              "bank": 4431.0,
+              "army_supply": 24.0
+            },
+            {
+              "time": 1100.0,
+              "bank": 5308.0,
+              "army_supply": 27.0
+            },
+            {
+              "time": 1160.3,
+              "bank": 6046.0,
+              "army_supply": 0.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 57,
+        "skill_id": "ZvZ_O04",
+        "result": "Tie",
+        "duration": 1200.0,
+        "avg_bank": 4135.5,
+        "army_utilization": 0.74,
+        "present_signals": [
+          "resource_to_army_conversion_failure",
+          "runtime_or_api_instability"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 1,
+          "resource_to_army_conversion_failure": 2,
+          "routing_not_rechecked_after_new_enemy_property": 1
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 22/22). Place at least 2 additional Overlord entries before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Re"
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 316.5,
+              "bank": 1735.0,
+              "army_supply": 11.0
+            },
+            {
+              "time": 376.8,
+              "bank": 3190.0,
+              "army_supply": 14.0
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 563.4,
+              "new_properties": [
+                "AttacksAny"
+              ],
+              "enemy_units": [
+                "Zergling",
+                "Overlord",
+                "Queen",
+                "Overseer",
+                "Roach",
+                "Hydralisk",
+                "Baneling"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 56,
+        "skill_id": "ZvT_O04",
+        "result": "Defeat",
+        "duration": 1073.66,
+        "avg_bank": 1802.7,
+        "army_utilization": 0.4849,
+        "present_signals": [
+          "resource_to_army_conversion_failure",
+          "routing_not_rechecked_after_new_enemy_property",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 4,
+          "routing_not_rechecked_after_new_enemy_property": 4,
+          "resource_to_army_conversion_failure": 5
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 0.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 14/14). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            },
+            {
+              "time": 1060.7,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 14/14). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            },
+            {
+              "time": 1060.7,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Roach (projected 21/22). Place at least 2 additional Overlord entries before Roach, or shorten the unit queue to fit; actions after a blocked unit are never reached. Re"
+            },
+            {
+              "time": 1060.7,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 6/6). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Return"
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 283.0,
+              "new_properties": [
+                "AttacksGround",
+                "Mechanical"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Hellion"
+              ]
+            },
+            {
+              "time": 549.1,
+              "new_properties": [
+                "Air",
+                "Armored"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Marauder",
+                "Reaper",
+                "Raven"
+              ]
+            },
+            {
+              "time": 654.5,
+              "new_properties": [
+                "Psionic"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Marauder",
+                "Reaper",
+                "Raven",
+                "Medivac",
+                "Ghost"
+              ]
+            },
+            {
+              "time": 1000.5,
+              "new_properties": [
+                "AttacksAir",
+                "Massive"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Hellion",
+                "Marauder",
+                "Reaper",
+                "Raven",
+                "Medivac",
+                "Ghost",
+                "HellionTank",
+                "SiegeTank",
+                "Thor"
+              ]
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 819.6,
+              "bank": 3289.0,
+              "army_supply": 12.0
+            },
+            {
+              "time": 879.9,
+              "bank": 3984.0,
+              "army_supply": 8.0
+            },
+            {
+              "time": 940.2,
+              "bank": 3738.0,
+              "army_supply": 14.0
+            },
+            {
+              "time": 1000.5,
+              "bank": 4049.0,
+              "army_supply": 2.0
+            },
+            {
+              "time": 1060.7,
+              "bank": 3779.0,
+              "army_supply": 4.0
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 58,
+        "skill_id": "ZvP_O06",
+        "result": "Tie",
+        "duration": 1200.0,
+        "avg_bank": 2741.1,
+        "army_utilization": 0.7333,
+        "present_signals": [
+          "feedback_not_changing_repeated_failed_posture",
+          "resource_to_army_conversion_failure",
+          "routing_not_rechecked_after_new_enemy_property",
+          "runtime_or_api_instability",
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "supply_planning_repair": 7,
+          "resource_to_army_conversion_failure": 3,
+          "feedback_not_changing_repeated_failed_posture": 1,
+          "routing_not_rechecked_after_new_enemy_property": 4
+        },
+        "evidence": {
+          "supply_planning_repair": [
+            {
+              "time": 56.2,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 22/22). Place at least 1 additional Overlord entry before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Retu"
+            },
+            {
+              "time": 808.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Queen (projected 173/174). Place at least 1 additional Overlord entry before Queen, or shorten the unit queue to fit; actions after a blocked unit are never reached. Re"
+            },
+            {
+              "time": 854.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Queen (projected 181/182). Place at least 1 additional Overlord entry before Queen, or shorten the unit queue to fit; actions after a blocked unit are never reached. Re"
+            },
+            {
+              "time": 854.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Queen (projected 181/182). Place at least 1 additional Overlord entry before Queen, or shorten the unit queue to fit; actions after a blocked unit are never reached. Re"
+            },
+            {
+              "time": 1042.0,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Queen (projected 173/174). Place at least 1 additional Overlord entry before Queen, or shorten the unit queue to fit; actions after a blocked unit are never reached. Re"
+            }
+          ],
+          "resource_to_army_conversion_failure": [
+            {
+              "time": 337.5,
+              "bank": 2767.0,
+              "army_supply": 4.0
+            },
+            {
+              "time": 397.8,
+              "bank": 2756.0,
+              "army_supply": 12.0
+            },
+            {
+              "time": 458.0,
+              "bank": 3490.0,
+              "army_supply": 12.0
+            }
+          ],
+          "feedback_not_changing_repeated_failed_posture": [
+            {
+              "time": 397.8,
+              "repeated_combat_plan": [
+                "Queen",
+                "Hydralisk"
+              ],
+              "bank": 2756.0,
+              "army_supply": 12.0
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 658.0,
+              "new_properties": [
+                "AttacksAir",
+                "Light"
+              ],
+              "enemy_units": [
+                "VoidRay",
+                "Phoenix",
+                "Observer"
+              ]
+            },
+            {
+              "time": 808.0,
+              "new_properties": [
+                "AttacksAny",
+                "Massive",
+                "Psionic"
+              ],
+              "enemy_units": [
+                "VoidRay",
+                "Phoenix",
+                "Observer",
+                "WarpPrism",
+                "Carrier",
+                "Interceptor"
+              ]
+            },
+            {
+              "time": 936.6,
+              "new_properties": [
+                "Ground"
+              ],
+              "enemy_units": [
+                "VoidRay",
+                "Observer",
+                "WarpPrism",
+                "Carrier",
+                "Interceptor",
+                "Stalker",
+                "Oracle"
+              ]
+            },
+            {
+              "time": 1172.8,
+              "new_properties": [
+                "AttacksGround"
+              ],
+              "enemy_units": [
+                "VoidRay",
+                "Phoenix",
+                "Observer",
+                "WarpPrism",
+                "Stalker",
+                "Oracle",
+                "Tempest"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "run_index": 59,
+        "skill_id": "ZvT_O05",
+        "result": "Victory",
+        "duration": 588.39,
+        "avg_bank": 1818.6,
+        "army_utilization": 0.7918,
+        "present_signals": [
+          "supply_planning_repair"
+        ],
+        "evidence_counts": {
+          "live_supply_block_with_bank": 1,
+          "knowledge_visible_composition_mismatch": 1,
+          "supply_planning_repair": 2,
+          "routing_not_rechecked_after_new_enemy_property": 1
+        },
+        "evidence": {
+          "live_supply_block_with_bank": [
+            {
+              "time": 99.1,
+              "bank": 750.0,
+              "army_supply": 0.0
+            }
+          ],
+          "knowledge_visible_composition_mismatch": [
+            {
+              "time": 212.9,
+              "own_units": [
+                "Overlord",
+                "Queen"
+              ],
+              "enemy_units": [
+                "Marine"
+              ],
+              "enemy_counter_evidence": [
+                [
+                  "Marine",
+                  "Overlord",
+                  "97e0d1326fcf70d9bae474d699af7d12ad281ad71a6143f33b35178b04a271d8"
+                ],
+                [
+                  "Marine",
+                  "Queen",
+                  "f7a1f1583ee45383ba3369ee10448cf8335c2b1d91a845162d7006dfc8db1b48"
+                ]
+              ]
+            }
+          ],
+          "supply_planning_repair": [
+            {
+              "time": 273.2,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Zergling (projected 44/44). Place at least 2 additional Overlord entries before Zergling, or shorten the unit queue to fit; actions after a blocked unit are never reach"
+            },
+            {
+              "time": 328.1,
+              "error": "FINAL_DECISION rejected: the sequential queue reaches a supply block at Drone (projected 60/60). Place at least 3 additional Overlord entries before Drone, or shorten the unit queue to fit; actions after a blocked unit are never reached. Re"
+            }
+          ],
+          "routing_not_rechecked_after_new_enemy_property": [
+            {
+              "time": 545.5,
+              "new_properties": [
+                "Air",
+                "Mechanical"
+              ],
+              "enemy_units": [
+                "Marine",
+                "Raven"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "interpretation_boundary": "These are process-level diagnostic signals, not proven causal labels."
+  }
+}

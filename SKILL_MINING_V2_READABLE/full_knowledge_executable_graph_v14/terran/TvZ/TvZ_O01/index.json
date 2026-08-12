@@ -1,0 +1,117 @@
+{
+  "method": "full_knowledge_executable_graph_v14",
+  "nodes": {
+    "KNEG001": {
+      "children": [],
+      "path": "nodes/KNEG001.md",
+      "summary": "Heavy economy and technology investment with moderate production, but army strength lags behind resource investment, indicating inefficient conversion of resources into combat power. Avoid continuing to invest in economy and technology without commensurate army production. Do not neglect defense while expanding.",
+      "title": "Resource-to-army conversion failure",
+      "trigger_summary": "Heavy economy and technology investment with moderate production, but army strength lags behind resource investment, indicating inefficient conversion of resources into combat power.",
+      "type": "negative"
+    },
+    "KNEG002": {
+      "children": [],
+      "path": "nodes/KNEG002.md",
+      "summary": "Trajectory evidence indicates a heavy economy and technology investment with a ground-oriented army, but the node is marked negative, suggesting that resources are not being converted into effective army strength or that the strategic posture is failing to produce a decisive advantage. Avoid continuing to invest in economy and technology without simultaneously producing army units. Avoid neglecting defense while expanding. Avoid relying solely on ground forces without incorporating air support if the opponent's composition demands it.",
+      "title": "Resource-to-army conversion failure in a heavy economy/technology ground posture",
+      "trigger_summary": "Trajectory evidence indicates a heavy economy and technology investment with a ground-oriented army, but the node is marked negative, suggesting that resources are not being converted into effective army strength or that the strategic posture is failing to produce a decisive advantage.",
+      "type": "negative"
+    },
+    "KNEG003": {
+      "children": [],
+      "path": "nodes/KNEG003.md",
+      "summary": "Heavy economy and technology investment with moderate production, but army strength lags behind resource investment; repeated failed ground pushes without adapting composition. Avoid over-investing in economy/technology without proportional army production. Avoid relying solely on Hellion or Reaper against Queen-heavy defenses. Avoid neglecting upgrades that improve Marine effectiveness.",
+      "title": "Resource-to-army conversion failure in a heavy economy/technology ground posture",
+      "trigger_summary": "Heavy economy and technology investment with moderate production, but army strength lags behind resource investment; repeated failed ground pushes without adapting composition.",
+      "type": "negative"
+    },
+    "N001": {
+      "children": [
+        "N007",
+        "KNEG003"
+      ],
+      "path": "nodes/N001.md",
+      "summary": "Around 4 minutes, you have a heavy economy and production, with ground forces (Marine, Reaper) and heavy tech. Enemy is likely on a ground macro posture with Zergling/Queen, moderate production, and light tech. Continue developing your economy and technology while strengthening your ground army. Maintain current defense and production.",
+      "title": "Early-Midgame Ground Macro with Heavy Tech",
+      "trigger_summary": "Around 4 minutes, you have a heavy economy and production, with ground forces (Marine, Reaper) and heavy tech. Enemy is likely on a ground macro posture with Zergling/Queen, moderate production, and light tech.",
+      "type": "default"
+    },
+    "N002": {
+      "children": [
+        "KNEG001"
+      ],
+      "path": "nodes/N002.md",
+      "summary": "Around 10 minutes, you have a strong ground army with Siege Tanks, Marines, and Hellions, heavy production and tech. Enemy is on a ground macro posture with Zergling/Queen, heavy production and tech. Continue strengthening your ground army and increase technology investment. Maintain economy and defense.",
+      "title": "Late-Midgame Ground Strength with Siege Tanks",
+      "trigger_summary": "Around 10 minutes, you have a strong ground army with Siege Tanks, Marines, and Hellions, heavy production and tech. Enemy is on a ground macro posture with Zergling/Queen, heavy production and tech.",
+      "type": "positive"
+    },
+    "N003": {
+      "children": [
+        "N001"
+      ],
+      "path": "nodes/N003.md",
+      "summary": "Around 3 minutes, you have a heavy economy and moderate production, with Reaper for scouting. Enemy is on a ground macro posture with Zergling/Queen, moderate production, and light tech. Continue developing your economy and technology, and strengthen your ground army. Maintain current production.",
+      "title": "Early Game Tech Development",
+      "trigger_summary": "Around 3 minutes, you have a heavy economy and moderate production, with Reaper for scouting. Enemy is on a ground macro posture with Zergling/Queen, moderate production, and light tech.",
+      "type": "default"
+    },
+    "N004": {
+      "children": [
+        "N002"
+      ],
+      "path": "nodes/N004.md",
+      "summary": "Around 9 minutes, you have a heavy economy and production, with Siege Tanks, Marines, and Hellions. Enemy is on a ground macro posture with Zergling/Queen, heavy production and tech. Continue strengthening your ground army and increase technology. Maintain economy and defense.",
+      "title": "Midgame Ground Macro with Siege Tanks",
+      "trigger_summary": "Around 9 minutes, you have a heavy economy and production, with Siege Tanks, Marines, and Hellions. Enemy is on a ground macro posture with Zergling/Queen, heavy production and tech.",
+      "type": "default"
+    },
+    "N005": {
+      "children": [],
+      "path": "nodes/N005.md",
+      "summary": "Around 7 minutes, you have a heavy economy and production, with Marines, Reapers, and Hellions. Enemy has a ground army with Zergling, Hydralisk, and Queen, heavy tech. Continue strengthening your ground army and increase technology. Maintain economy and defense.",
+      "title": "Midgame Ground Defense with Tech Advantage",
+      "trigger_summary": "Around 7 minutes, you have a heavy economy and production, with Marines, Reapers, and Hellions. Enemy has a ground army with Zergling, Hydralisk, and Queen, heavy tech.",
+      "type": "default"
+    },
+    "N006": {
+      "children": [
+        "KNEG002"
+      ],
+      "path": "nodes/N006.md",
+      "summary": "Around 10 minutes, you have a heavy economy and production, with Marines, Reapers, Hellions, and Banshees. Enemy is on a ground macro posture with Zergling/Queen, heavy production and tech. Continue strengthening your ground army and increase technology. Maintain economy and defense.",
+      "title": "Late-Midgame Ground with Air Support",
+      "trigger_summary": "Around 10 minutes, you have a heavy economy and production, with Marines, Reapers, Hellions, and Banshees. Enemy is on a ground macro posture with Zergling/Queen, heavy production and tech.",
+      "type": "default"
+    },
+    "N007": {
+      "children": [],
+      "path": "nodes/N007.md",
+      "summary": "Around 5-6 minutes, you have a heavy economy and production, with Marines, Reapers, and Hellions. Enemy is on a ground macro posture with Zergling/Queen, moderate production and tech. Continue strengthening your ground army and increase technology. Maintain economy and defense.",
+      "title": "Early-Midgame Ground with Hellions",
+      "trigger_summary": "Around 5-6 minutes, you have a heavy economy and production, with Marines, Reapers, and Hellions. Enemy is on a ground macro posture with Zergling/Queen, moderate production and tech.",
+      "type": "default"
+    },
+    "N008": {
+      "children": [
+        "N001"
+      ],
+      "path": "nodes/N008.md",
+      "summary": "Around 3 minutes, you have a heavy economy and moderate production, with Marines and Reapers. Enemy has no reliable combat-unit cues, but is likely on a ground macro posture. Stabilize your defense and continue developing your economy and technology. Increase production.",
+      "title": "Early Game Stabilization",
+      "trigger_summary": "Around 3 minutes, you have a heavy economy and moderate production, with Marines and Reapers. Enemy has no reliable combat-unit cues, but is likely on a ground macro posture.",
+      "type": "default"
+    },
+    "N009": {
+      "children": [],
+      "path": "nodes/N009.md",
+      "summary": "Around 7 minutes, you have a heavy economy and production, with Marines, Reapers, and Hellions. Enemy has a ground army with Zergling and Queen, heavy production and moderate tech. Stabilize your defense and continue developing your economy and technology. Increase production.",
+      "title": "Midgame Stabilization with Heavy Production",
+      "trigger_summary": "Around 7 minutes, you have a heavy economy and production, with Marines, Reapers, and Hellions. Enemy has a ground army with Zergling and Queen, heavy production and moderate tech.",
+      "type": "default"
+    }
+  },
+  "opening_name": "TvZ_O01 Expansion / Economy / Technology",
+  "root": "SKILL.md",
+  "skill_id": "TvZ_O01"
+}

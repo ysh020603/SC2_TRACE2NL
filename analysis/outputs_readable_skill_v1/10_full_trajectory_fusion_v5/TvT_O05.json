@@ -1,0 +1,658 @@
+{
+  "annotation": {
+    "phase_policies": [
+      {
+        "applies_when": "Early game, opponent shows a ground posture with Marines or Marauders. Your own posture is unknown but with heavy tech investment.",
+        "live_check": "Recheck when you have a clear read on the opponent's composition or when you reach a tech milestone.",
+        "phase": "early_game",
+        "routing_summary": "Prioritize ground army and economy, maintain production, continue tech. Avoid air overcommit.",
+        "target": "Strengthen ground forces, increase economy, and increase production. Continue technology development.",
+        "title": "Early Ground Tech Development",
+        "veto": "Do not overcommit to air or neglect ground defense while focusing solely on tech."
+      },
+      {
+        "applies_when": "Early-midgame, opponent shows a ground posture with Marines, Siege Tanks, Marauders, or Reapers. Your own posture is ground-oriented with heavy production and tech.",
+        "live_check": "Recheck when opponent's air presence or army composition changes, or when you reach a new tech milestone.",
+        "phase": "early_midgame",
+        "routing_summary": "Focus on ground army and economy, maintain production, continue tech. Avoid air overcommit.",
+        "target": "Strengthen ground forces, increase economy, and maintain or increase production. Continue technology development. Consider adding Siege Tanks or Reapers based on opponent cues.",
+        "title": "Ground Macro with Tech",
+        "veto": "Do not overcommit to air or neglect ground defense while focusing solely on tech."
+      },
+      {
+        "applies_when": "Midgame, opponent shows a ground posture with Siege Tanks, Marines, Marauders, and possibly Battlecruisers. Your own posture is ground with heavy production and tech.",
+        "live_check": "Recheck when you confirm the opponent's air transition or when your army composition is ready.",
+        "phase": "midgame",
+        "routing_summary": "Maintain ground army, increase economy, continue tech. Prepare air contingency for Battlecruisers.",
+        "target": "Maintain ground strength, increase economy, and continue technology. Consider adding air units or upgrades to counter potential Battlecruisers.",
+        "title": "Ground Strength with Air Contingency",
+        "veto": "Do not overcommit to ground without preparing for a potential air transition to Battlecruisers."
+      },
+      {
+        "applies_when": "Late-midgame, opponent shows moderate air presence with Hellions and Medivacs, indicating a possible drop play. Your own posture is ground with moderate air.",
+        "live_check": "Recheck when you have sufficient anti-drop defenses or when the opponent's composition becomes clearer.",
+        "phase": "late_midgame",
+        "routing_summary": "Increase air for drop defense, strengthen ground, expand, continue tech. Avoid neglecting ground defense.",
+        "target": "Increase air presence and continue strengthening ground forces. Maintain economy and expand further. Continue technology and upgrades.",
+        "title": "Ground with Air Defense",
+        "veto": "Do not neglect ground defense while focusing on air or expansion, leaving you vulnerable to the opponent's ground army."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_trajectory_fusion_graph_v5",
+  "opening_id": "TvT_O05",
+  "private_inputs": {
+    "agent_visible": false,
+    "experiment_feedback": {
+      "global": {
+        "v3": {
+          "VTD": [
+            23,
+            8,
+            29
+          ],
+          "apu": 0.58,
+          "bank": 2625.63,
+          "consume": 887.43,
+          "decision_errors": 3,
+          "duration": 814.29,
+          "invalid_buckets": {
+            "graph_phase_refresh": 86,
+            "idle_producer_overbuild": 32,
+            "initial_skill_read": 59,
+            "missing_gas_prerequisite": 5,
+            "other": 65,
+            "response_protocol": 20,
+            "supply_queue": 172
+          },
+          "invalid_rounds": 439,
+          "max_queue_mean": 34.37,
+          "max_supply_queue_ge3": 45,
+          "n": 60,
+          "queue_mix_pct": {
+            "bases": 1.2,
+            "production": 2.25,
+            "supply": 9.7,
+            "tech": 1.09,
+            "workers": 20.2
+          },
+          "score": 0.45
+        },
+        "v4": {
+          "VTD": [
+            24,
+            6,
+            30
+          ],
+          "apu": 0.61,
+          "bank": 2310.45,
+          "consume": 765.97,
+          "decision_errors": 10,
+          "duration": 788.15,
+          "invalid_buckets": {
+            "graph_phase_refresh": 99,
+            "idle_producer_overbuild": 26,
+            "initial_skill_read": 60,
+            "missing_gas_prerequisite": 16,
+            "other": 58,
+            "response_protocol": 26,
+            "supply_queue": 195
+          },
+          "invalid_rounds": 480,
+          "max_queue_mean": 29.95,
+          "max_supply_queue_ge3": 30,
+          "n": 60,
+          "queue_mix_pct": {
+            "bases": 0.85,
+            "production": 2.36,
+            "supply": 8.33,
+            "tech": 0.82,
+            "workers": 16.96
+          },
+          "score": 0.45
+        }
+      },
+      "matchup": {
+        "v3": {
+          "VTD": [
+            0,
+            0,
+            4
+          ],
+          "apu": 0.47,
+          "bank": 3242.4,
+          "consume": 722.42,
+          "decision_errors": 0,
+          "duration": 826.9,
+          "invalid_buckets": {
+            "graph_phase_refresh": 6,
+            "idle_producer_overbuild": 1,
+            "initial_skill_read": 4,
+            "other": 8,
+            "response_protocol": 4,
+            "supply_queue": 8
+          },
+          "invalid_rounds": 31,
+          "max_queue_mean": 38.5,
+          "max_supply_queue_ge3": 4,
+          "n": 4,
+          "queue_mix_pct": {
+            "bases": 0.89,
+            "production": 3.98,
+            "supply": 8.37,
+            "tech": 0.81,
+            "workers": 14.8
+          },
+          "score": 0.0
+        },
+        "v4": {
+          "VTD": [
+            0,
+            1,
+            3
+          ],
+          "apu": 0.6,
+          "bank": 2902.25,
+          "consume": 736.4,
+          "decision_errors": 0,
+          "duration": 841.63,
+          "invalid_buckets": {
+            "graph_phase_refresh": 6,
+            "idle_producer_overbuild": 2,
+            "initial_skill_read": 4,
+            "other": 7,
+            "response_protocol": 5,
+            "supply_queue": 12
+          },
+          "invalid_rounds": 36,
+          "max_queue_mean": 32.75,
+          "max_supply_queue_ge3": 0,
+          "n": 4,
+          "queue_mix_pct": {
+            "bases": 0.55,
+            "production": 2.77,
+            "supply": 5.36,
+            "tech": 0.37,
+            "workers": 14.23
+          },
+          "score": 0.125
+        }
+      },
+      "opening": {
+        "v3": {},
+        "v4": {}
+      },
+      "race": {
+        "v3": {
+          "VTD": [
+            4,
+            3,
+            13
+          ],
+          "apu": 0.46,
+          "bank": 2688.7,
+          "consume": 626.04,
+          "decision_errors": 0,
+          "duration": 902.57,
+          "invalid_buckets": {
+            "graph_phase_refresh": 33,
+            "idle_producer_overbuild": 4,
+            "initial_skill_read": 20,
+            "other": 28,
+            "response_protocol": 7,
+            "supply_queue": 32
+          },
+          "invalid_rounds": 124,
+          "max_queue_mean": 35.6,
+          "max_supply_queue_ge3": 13,
+          "n": 20,
+          "queue_mix_pct": {
+            "bases": 0.81,
+            "production": 2.93,
+            "supply": 7.28,
+            "tech": 0.45,
+            "workers": 12.21
+          },
+          "score": 0.275
+        },
+        "v4": {
+          "VTD": [
+            9,
+            4,
+            7
+          ],
+          "apu": 0.6,
+          "bank": 2518.7,
+          "consume": 782.81,
+          "decision_errors": 3,
+          "duration": 932.77,
+          "invalid_buckets": {
+            "graph_phase_refresh": 36,
+            "idle_producer_overbuild": 5,
+            "initial_skill_read": 20,
+            "missing_gas_prerequisite": 1,
+            "other": 29,
+            "response_protocol": 18,
+            "supply_queue": 65
+          },
+          "invalid_rounds": 174,
+          "max_queue_mean": 34.05,
+          "max_supply_queue_ge3": 6,
+          "n": 20,
+          "queue_mix_pct": {
+            "bases": 0.57,
+            "production": 2.62,
+            "supply": 6.42,
+            "tech": 0.28,
+            "workers": 10.3
+          },
+          "score": 0.55
+        }
+      },
+      "use_boundary": "Prioritize execution risks only; never infer the strategic target from agent outcomes."
+    },
+    "experiment_feedback_digest": "7028c3630e2871440867469c2153781ceaedfc7d7232e1132eb6189c2184ec74",
+    "human_evidence_digest": "ae0c3ddd4c7eb4430dd8df97451926b02e3281cf2e4f3ec4446dc34518e284f0",
+    "human_phase_evidence": [
+      {
+        "adverse_aggregate_nodes": [],
+        "phase": "early_game",
+        "preferred_aggregate_nodes": [
+          {
+            "annotated_direction": "Strengthen ground forces, increase economy, and increase production. Continue technology development.",
+            "annotated_recheck": "Recheck when you have a clear read on the opponent's composition or when you reach a tech milestone.",
+            "annotated_trigger": "Early game, opponent shows a ground posture with Marines. Your own posture is unknown but with heavy tech investment.",
+            "frequency": 0.2286,
+            "node_id": "N010",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine. Production appears moderate, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly unknown-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "increase",
+              "technology_direction": "continue",
+              "tempo": "stabilize_then_develop",
+              "upgrade_direction": "maintain"
+            },
+            "support": 24
+          },
+          {
+            "annotated_direction": "Strengthen ground forces, increase economy, and maintain production. Continue technology development.",
+            "annotated_recheck": "Recheck when you have a clear read on the opponent's composition or when you reach a tech milestone.",
+            "annotated_trigger": "Early game, opponent shows a Marauder, indicating a ground tech path. Your own posture is ground with heavy tech.",
+            "frequency": 0.5,
+            "node_id": "N012",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a unknown posture; representative observed or remembered cues may include Marauder. Production appears moderate, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with moderate production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 8
+          }
+        ]
+      },
+      {
+        "adverse_aggregate_nodes": [
+          {
+            "direction_to_avoid": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "increase",
+              "technology_direction": "continue",
+              "tempo": "stabilize_then_develop",
+              "upgrade_direction": "maintain"
+            },
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine. Production appears moderate, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "support": 177
+          },
+          {
+            "direction_to_avoid": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine, Reaper. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "support": 96
+          }
+        ],
+        "phase": "early_midgame",
+        "preferred_aggregate_nodes": [
+          {
+            "annotated_direction": "Strengthen ground forces while increasing economy and maintaining production. Continue technology development.",
+            "annotated_recheck": "Recheck when opponent's air presence or army composition changes, or when you reach a new tech milestone.",
+            "annotated_trigger": "Early-midgame, both sides have a ground-oriented macro posture with heavy economy and technology. Opponent shows light air presence and possible pressure.",
+            "frequency": 0.1973,
+            "node_id": "N001",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine. Production appears moderate, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "increase",
+              "technology_direction": "continue",
+              "tempo": "stabilize_then_develop",
+              "upgrade_direction": "maintain"
+            },
+            "support": 177
+          },
+          {
+            "annotated_direction": "Continue strengthening ground forces, increase economy, and maintain production and technology. Consider adding Siege Tanks to your composition.",
+            "annotated_recheck": "Recheck when you have a comfortable army supply or when opponent's composition shifts.",
+            "annotated_trigger": "Early-midgame, opponent shows Siege Tanks and Marauders, indicating a heavy ground tech path. Your own posture is ground-oriented with heavy production and tech.",
+            "frequency": 0.1993,
+            "node_id": "N002",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marauder. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "continue",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 165
+          },
+          {
+            "annotated_direction": "Strengthen ground forces, increase economy, and maintain production and technology. Consider adding Reapers for map control or scouting.",
+            "annotated_recheck": "Recheck when the opponent's harassment stops or when you have a significant army lead.",
+            "annotated_trigger": "Early-midgame, opponent shows Siege Tanks, Marines, and Reapers, indicating a ground tech path with harassment potential. Your own posture is ground with heavy production.",
+            "frequency": 0.2148,
+            "node_id": "N005",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine, Reaper. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 96
+          },
+          {
+            "annotated_direction": "Increase air presence and strengthen air forces. Continue economy and expansion. Continue technology and upgrades.",
+            "annotated_recheck": "Recheck when you have a critical mass of air units or when the opponent shows anti-air.",
+            "annotated_trigger": "Early-midgame, opponent shows Marines, Thors, and Medivacs, indicating a ground-heavy composition with some air. Your own posture has moderate air presence.",
+            "frequency": 0.1602,
+            "node_id": "N009",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, Thor, Medivac. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "increase",
+              "army_direction": "strengthen_air",
+              "confidence": "medium",
+              "defense_direction": "continue",
+              "economy_direction": "increase",
+              "expansion_direction": "increase",
+              "production_direction": "continue",
+              "technology_direction": "increase",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "continue"
+            },
+            "support": 29
+          }
+        ]
+      },
+      {
+        "adverse_aggregate_nodes": [
+          {
+            "direction_to_avoid": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine, Marauder, Battlecruiser. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "support": 130
+          },
+          {
+            "direction_to_avoid": {
+              "air_direction": "maintain",
+              "army_direction": "maintain_current_army_path",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "maintain",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "maintain",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine, Marauder, Battlecruiser. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "support": 17
+          }
+        ],
+        "phase": "midgame",
+        "preferred_aggregate_nodes": [
+          {
+            "annotated_direction": "Maintain ground strength, increase economy, and continue technology. Consider adding air units or upgrades to counter potential Battlecruisers.",
+            "annotated_recheck": "Recheck when you confirm the opponent's air transition or when your army composition is ready.",
+            "annotated_trigger": "Midgame, both sides have heavy ground macro with heavy production and tech. Opponent shows a mix of Siege Tanks, Marines, Marauders, and possibly Battlecruisers.",
+            "frequency": 0.1715,
+            "node_id": "N003",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine, Marauder, Battlecruiser. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 130
+          },
+          {
+            "annotated_direction": "Increase defense and economy, continue production and technology. Strengthen ground forces and consider adding anti-air units.",
+            "annotated_recheck": "Recheck when the opponent's air threat diminishes or when you have a solid defense.",
+            "annotated_trigger": "Midgame, opponent shows a mix of Marines, Reapers, Medivacs, and Banshees, indicating possible air harassment. Your own posture is ground with heavy defense.",
+            "frequency": 0.2569,
+            "node_id": "N006",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, Reaper, Medivac, Banshee. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "increase",
+              "economy_direction": "increase",
+              "expansion_direction": "increase",
+              "production_direction": "continue",
+              "technology_direction": "continue",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "continue"
+            },
+            "support": 65
+          },
+          {
+            "annotated_direction": "Increase air presence and strengthen air forces. Continue economy and expansion. Continue technology and upgrades.",
+            "annotated_recheck": "Recheck when you have a critical mass of air units or when the opponent shows anti-air.",
+            "annotated_trigger": "Midgame, opponent shows a ground posture with Marines and Marauders. Your own posture has moderate air presence, indicating a possible air transition.",
+            "frequency": 0.1785,
+            "node_id": "N007",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Marine, Marauder. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "increase",
+              "army_direction": "strengthen_air",
+              "confidence": "medium",
+              "defense_direction": "continue",
+              "economy_direction": "increase",
+              "expansion_direction": "increase",
+              "production_direction": "continue",
+              "technology_direction": "increase",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "continue"
+            },
+            "support": 53
+          },
+          {
+            "annotated_direction": "Maintain current army path, continue economy and production. Consider adding anti-air or Battlecruiser support.",
+            "annotated_recheck": "Recheck when you confirm the opponent's air transition or when your army composition is ready.",
+            "annotated_trigger": "Midgame, opponent shows Siege Tanks, Marines, Marauders, and possibly Battlecruisers. Your own posture is ground with heavy production.",
+            "frequency": 0.3036,
+            "node_id": "N011",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine, Marauder, Battlecruiser. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "maintain_current_army_path",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "maintain",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "maintain",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 17
+          }
+        ]
+      },
+      {
+        "adverse_aggregate_nodes": [
+          {
+            "direction_to_avoid": {
+              "air_direction": "increase",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "continue",
+              "production_direction": "continue",
+              "technology_direction": "increase",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "continue"
+            },
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine, Hellion, Medivac. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "support": 101
+          }
+        ],
+        "phase": "late_midgame",
+        "preferred_aggregate_nodes": [
+          {
+            "annotated_direction": "Increase air presence and continue strengthening ground forces. Maintain economy and expand further. Continue technology and upgrades.",
+            "annotated_recheck": "Recheck when you have sufficient anti-drop defenses or when the opponent's composition becomes clearer.",
+            "annotated_trigger": "Late-midgame, opponent shows moderate air presence with Hellions and Medivacs, indicating a possible drop play. Your own posture is ground with moderate air.",
+            "frequency": 0.154,
+            "node_id": "N004",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine, Hellion, Medivac. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "increase",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "continue",
+              "production_direction": "continue",
+              "technology_direction": "increase",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "continue"
+            },
+            "support": 101
+          },
+          {
+            "annotated_direction": "Increase air presence and strengthen air forces. Continue economy and expansion. Continue technology and upgrades.",
+            "annotated_recheck": "Recheck when you have a composition that can deal with Thors or when the opponent's army composition changes.",
+            "annotated_trigger": "Late-midgame, opponent shows Siege Tanks, Marines, and Thors, indicating a heavy ground anti-air composition. Your own posture has moderate air presence.",
+            "frequency": 0.1452,
+            "node_id": "N008",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include SiegeTank, Marine, Thor. Production appears heavy, technology investment appears heavy, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with heavy production and heavy technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "increase",
+              "army_direction": "strengthen_air",
+              "confidence": "medium",
+              "defense_direction": "continue",
+              "economy_direction": "increase",
+              "expansion_direction": "increase",
+              "production_direction": "continue",
+              "technology_direction": "increase",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "continue"
+            },
+            "support": 36
+          }
+        ]
+      }
+    ]
+  },
+  "schema_version": 1
+}

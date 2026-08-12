@@ -1,0 +1,128 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Recheck at next decision cycle: workers, active production count, bank, and supply headroom.",
+        "correction": "Prioritize worker production from all Nexi until saturation (16 per base) is reached. If bank exceeds 800 minerals and production is idle, add a Gateway or tech structure (e.g., Twilight Council) if prerequisites are met, and queue units from existing production. Keep supply providers just in time to avoid blocking.",
+        "rule_id": "R01",
+        "title": "Maintain production tempo and worker saturation",
+        "when": "At any time, if workers are below 24 by 4:00 or below 30 by 5:00, or if active production structures are fewer than 3 by 5:00, or if bank exceeds 800 minerals with idle production."
+      },
+      {
+        "check": "Recheck at next decision cycle: enemy composition cues, army supply, bank, and production queue status.",
+        "correction": "Queue Zealots and Stalkers from Gateways, and add a Robotics Facility if not present to enable Observer for detection. If Banelings are present, ensure Sentries are available for Force Field. Continue worker production but do not let it delay army production.",
+        "rule_id": "R02",
+        "title": "Adapt to Zerg ground composition",
+        "when": "Enemy Intelligence shows Zergling and Queen cues, or if Zergling or Baneling threat is detected. If army supply is below 30 and bank is above 600 minerals, prioritize army production over tech."
+      },
+      {
+        "check": "Recheck at next decision cycle: army supply, bank, production count, and threat flags.",
+        "correction": "Immediately convert bank into army: queue units from all production structures, add Gateways if supply allows (up to 4 total), and ensure supply is not blocking. If production is insufficient, add a Gateway or Warp Gate. Do not expand or tech until army supply is above 30 and threat is mitigated.",
+        "rule_id": "R03",
+        "title": "Recover from low army and high bank",
+        "when": "If army supply is below 15 and bank is above 1000 minerals, or if predicted advantage is OverwhelmingDisadvantage, or if any owned base is threatened."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "PvZ_O02",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "bb8501a85bf04c03771c4e11de563230c7e7c81b8a7d923a394164085b671997",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 1,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 6.0,
+            "bank": 915.2,
+            "bases": 1.2,
+            "production": 1.5,
+            "supply_providers": 5.8,
+            "workers": 26.0
+          },
+          "300": {
+            "army_supply": 12.5,
+            "bank": 1365.2,
+            "bases": 1.5,
+            "production": 2.5,
+            "supply_providers": 6.8,
+            "workers": 29.5
+          },
+          "360": {
+            "army_supply": 14.5,
+            "bank": 2029.2,
+            "bases": 2.0,
+            "production": 3.0,
+            "supply_providers": 7.5,
+            "workers": 32.0
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.437,
+          "average_bank": 1995.2,
+          "consume_per_min": 816.3
+        },
+        "defeats_with_three_or_more_supply_entries": 3,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 4,
+          "Tie": 1,
+          "Victory": 15
+        }
+      },
+      "opening": {
+        "decision_error_total": 0,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 8.0,
+            "bank": 1190.0,
+            "bases": 1.0,
+            "production": 2.0,
+            "supply_providers": 7.0,
+            "workers": 24.0
+          },
+          "300": {
+            "army_supply": 16.0,
+            "bank": 1608.0,
+            "bases": 1.0,
+            "production": 3.0,
+            "supply_providers": 8.0,
+            "workers": 24.0
+          },
+          "360": {
+            "army_supply": 28.0,
+            "bank": 2091.0,
+            "bases": 1.0,
+            "production": 3.0,
+            "supply_providers": 8.0,
+            "workers": 24.0
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.447,
+          "average_bank": 1777.6,
+          "consume_per_min": 658.2
+        },
+        "defeats_with_three_or_more_supply_entries": 1,
+        "direct_matches": 4,
+        "outcome_counts_private": {
+          "Defeat": 1,
+          "Victory": 3
+        }
+      },
+      "scope_note_private": "opening-specific plus race evidence"
+    }
+  },
+  "schema_version": 1
+}

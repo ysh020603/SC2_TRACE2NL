@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Next decision cycle, verify bank is below 2000, production is at least 3, and army supply is at least 5.",
+        "correction": "Convert bank into additional hatcheries and keep larvae spending on workers and a small defensive ground force. Prioritize completing the planned expansion and tech structures, but do not let production idle. If supply is below 30, add one overlord now and queue another only when supply approaches the cap.",
+        "rule_id": "R01",
+        "title": "Maintain production tempo while preserving economy/tech expansion",
+        "when": "Game time 240-360, bank above 2000, army supply below 5, production below 3, and at least one expansion completed or pending."
+      },
+      {
+        "check": "Next decision cycle, confirm defensive structures are in place and army supply is above 15; adjust if enemy composition shifts.",
+        "correction": "If Siege Tanks or Thors are observed, start a Roach Warren and tech to Roach Speed if not already; if Hellions or Reapers are present, add a Spine Crawler at each base and keep a few Zerglings for map vision. Maintain at least one spore crawler per base if Medivacs are seen. Do not over-expand; keep army supply above 15.",
+        "rule_id": "R02",
+        "title": "Respond to Terran ground composition with defensive tech and anti-armor",
+        "when": "Enemy intelligence shows Terran ground units (Marines, Reapers, Hellions, Siege Tanks, or Thors) and threat flag is not None."
+      },
+      {
+        "check": "Next decision cycle, verify army supply is above 20 and bank is below 2000; if not, continue army conversion.",
+        "correction": "Immediately spend bank on army-producing structures and units: add at least two hatcheries if larvae are insufficient, and queue a mix of Zerglings and Roaches (or Hydralisks if tech allows). Do not expand or tech further until army supply is above 20. If supply is below 40, add one overlord now and queue another only when supply approaches the cap.",
+        "rule_id": "R03",
+        "title": "Recover from low army and high bank with immediate army conversion",
+        "when": "Army supply below 10, bank above 3000, and predicted advantage is OverwhelmingDisadvantage or threat flag is high."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 3,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "ZvT_O03",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "4bc24b5e9f92075db3e3eab94b025837af6ec1b31b90d7c9c323d19e0f21baaa",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 2,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 0.7,
+            "bank": 2053.8,
+            "bases": 1.8,
+            "production": 1.8,
+            "supply_providers": 4.4,
+            "workers": 31.0
+          },
+          "300": {
+            "army_supply": 2.2,
+            "bank": 3071.1,
+            "bases": 2.1,
+            "production": 2.1,
+            "supply_providers": 5.9,
+            "workers": 36.4
+          },
+          "360": {
+            "army_supply": 4.4,
+            "bank": 4271.2,
+            "bases": 2.0,
+            "production": 2.0,
+            "supply_providers": 7.5,
+            "workers": 38.3
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.693,
+          "average_bank": 3327.4,
+          "consume_per_min": 614.5
+        },
+        "defeats_with_three_or_more_supply_entries": 10,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 12,
+          "Tie": 4,
+          "Victory": 4
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

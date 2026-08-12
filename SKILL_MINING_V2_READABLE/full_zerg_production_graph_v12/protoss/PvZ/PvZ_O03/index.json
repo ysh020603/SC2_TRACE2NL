@@ -1,0 +1,102 @@
+{
+  "method": "full_zerg_production_graph_v12",
+  "nodes": {
+    "N001": {
+      "children": [],
+      "path": "nodes/N001.md",
+      "summary": "Early game, own army composition unknown, economy heavy, technology heavy, production moderate. Opponent shows ground posture with light air presence, moderate production, light tech. Continue developing economy and technology while maintaining flexibility. Strengthen ground forces as a baseline, but keep options open for air transition.",
+      "title": "Early Game Tech/Eco Development",
+      "trigger_summary": "Early game, own army composition unknown, economy heavy, technology heavy, production moderate. Opponent shows ground posture with light air presence, moderate production, light tech.",
+      "type": "default"
+    },
+    "N002": {
+      "children": [
+        "N003"
+      ],
+      "path": "nodes/N002.md",
+      "summary": "Early-midgame, own army is ground-oriented with Stalkers, heavy production and tech. Opponent remains ground-based with light air, moderate production. Stabilize your ground army and continue increasing production and technology. Maintain economy and expansion.",
+      "title": "Ground Army Stabilization",
+      "trigger_summary": "Early-midgame, own army is ground-oriented with Stalkers, heavy production and tech. Opponent remains ground-based with light air, moderate production.",
+      "type": "positive"
+    },
+    "N003": {
+      "children": [],
+      "path": "nodes/N003.md",
+      "summary": "Early-midgame, own army ground-oriented with Stalkers, heavy production and tech. Opponent ground-based, light air, moderate production. Continue developing ground forces and technology while maintaining safety checks. Increase production and economy.",
+      "title": "Ground Army Development with Safety Checks",
+      "trigger_summary": "Early-midgame, own army ground-oriented with Stalkers, heavy production and tech. Opponent ground-based, light air, moderate production.",
+      "type": "default"
+    },
+    "N004": {
+      "children": [],
+      "path": "nodes/N004.md",
+      "summary": "Midgame, own army ground-oriented with Stalkers, Sentries, and Warp Prisms. Opponent ground-based with Zerglings, Roaches, and Queens, heavy production and tech. Continue strengthening your ground army and maintain economy. Consider adding tech units like Immortals or Colossi.",
+      "title": "Midgame Ground Army Expansion",
+      "trigger_summary": "Midgame, own army ground-oriented with Stalkers, Sentries, and Warp Prisms. Opponent ground-based with Zerglings, Roaches, and Queens, heavy production and tech.",
+      "type": "default"
+    },
+    "N005": {
+      "children": [],
+      "path": "nodes/N005.md",
+      "summary": "Early game, own army unknown, economy heavy, expansion light_or_uncertain. Opponent ground-based with light air, moderate production. Increase expansion and continue developing technology. Strengthen ground forces as a baseline.",
+      "title": "Early Game Expansion Focus",
+      "trigger_summary": "Early game, own army unknown, economy heavy, expansion light_or_uncertain. Opponent ground-based with light air, moderate production.",
+      "type": "default"
+    },
+    "N006": {
+      "children": [
+        "N004"
+      ],
+      "path": "nodes/N006.md",
+      "summary": "Midgame, own army ground-oriented with Stalkers, Warp Prisms, Observers, and Immortals. Opponent ground-based with Zerglings and Queens, moderate production and tech. Leverage your tech advantage to pressure the opponent or expand further. Continue increasing technology.",
+      "title": "Midgame Tech Advantage",
+      "trigger_summary": "Midgame, own army ground-oriented with Stalkers, Warp Prisms, Observers, and Immortals. Opponent ground-based with Zerglings and Queens, moderate production and tech.",
+      "type": "positive"
+    },
+    "N007": {
+      "children": [],
+      "path": "nodes/N007.md",
+      "summary": "Early-midgame, own army air-oriented with Oracles, heavy production and tech. Opponent ground-based with light air, moderate production. Increase air presence and strengthen air forces. Continue developing technology and economy.",
+      "title": "Air Transition with Oracles",
+      "trigger_summary": "Early-midgame, own army air-oriented with Oracles, heavy production and tech. Opponent ground-based with light air, moderate production.",
+      "type": "default"
+    },
+    "N008": {
+      "children": [],
+      "path": "nodes/N008.md",
+      "summary": "Late-midgame, own army ground-oriented with Stalkers and Dark Templar, heavy production and tech. Opponent ground-based with Zerglings, Hydralisks, Roaches, and Queens. Continue strengthening your ground army and consider adding Colossi or High Templar. Maintain economy and expansion.",
+      "title": "Late-Midgame Ground Tech",
+      "trigger_summary": "Late-midgame, own army ground-oriented with Stalkers and Dark Templar, heavy production and tech. Opponent ground-based with Zerglings, Hydralisks, Roaches, and Queens.",
+      "type": "default"
+    },
+    "N009": {
+      "children": [],
+      "path": "nodes/N009.md",
+      "summary": "Midgame, own army air-oriented with Zealots, Stalkers, and Oracles. Opponent ground-based with Zerglings, Mutalisks, Corruptors, and Queens. Increase air presence and strengthen air forces. Consider adding Phoenix to counter Mutalisks.",
+      "title": "Midgame Air Army with Phoenix",
+      "trigger_summary": "Midgame, own army air-oriented with Zealots, Stalkers, and Oracles. Opponent ground-based with Zerglings, Mutalisks, Corruptors, and Queens.",
+      "type": "default"
+    },
+    "N010": {
+      "children": [
+        "N004"
+      ],
+      "path": "nodes/N010.md",
+      "summary": "Midgame, own army ground-oriented with Zealots and Void Rays. Opponent ground-based with Zerglings, Mutalisks, Corruptors, and Queens. Strengthen ground forces and maintain Void Rays for anti-air. Continue developing technology and economy.",
+      "title": "Midgame Ground with Void Rays",
+      "trigger_summary": "Midgame, own army ground-oriented with Zealots and Void Rays. Opponent ground-based with Zerglings, Mutalisks, Corruptors, and Queens.",
+      "type": "default"
+    },
+    "N011": {
+      "children": [],
+      "path": "nodes/N011.md",
+      "summary": "Late-midgame, own army air-oriented with Zealots, Stalkers, Phoenix, and Oracles. Opponent ground-based with Zerglings, Mutalisks, Roaches, and Queens. Continue strengthening air forces and consider adding Carriers or Void Rays. Maintain economy and expansion.",
+      "title": "Late-Midgame Air Army with Phoenix",
+      "trigger_summary": "Late-midgame, own army air-oriented with Zealots, Stalkers, Phoenix, and Oracles. Opponent ground-based with Zerglings, Mutalisks, Roaches, and Queens.",
+      "type": "default"
+    }
+  },
+  "opening_name": "PvZ_O03 Technology / Economy / Expansion",
+  "root": "SKILL.md",
+  "skill_id": "PvZ_O03"
+}

@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Continue strengthening your ground army and economy. Add Sentries for defensive capabilities and detection.",
+        "lesson_id": "L01",
+        "mistake": "Over-committing to a single ground unit type and neglecting support units or upgrades, leaving you vulnerable to Warp Prism harass.",
+        "recheck": "Re-evaluate if the opponent transitions to air or if you need to respond to harass.",
+        "target_node_id": "N004",
+        "title": "Ground vs Ground with Warp Prism Harass",
+        "when": "Midgame, opponent shows ground posture with Zealots, Sentries, and Warp Prisms. You have Zealots and a heavy economy.",
+        "why": "The opponent's use of Warp Prisms suggests potential harass. Sentries can provide shields and force fields to defend. Maintaining a strong economy will support a larger army."
+      },
+      {
+        "correction": "Transition to include anti-air units such as Stalkers or Phoenixes. Continue developing your economy and tech.",
+        "lesson_id": "L02",
+        "mistake": "Staying pure ground without anti-air, or over-committing to air without proper tech.",
+        "recheck": "Re-evaluate if the opponent transitions back to ground or if you need to commit to air.",
+        "target_node_id": "N007",
+        "title": "Early-Midgame Air Threat with Void Rays",
+        "when": "Early-midgame, opponent shows air posture with Void Rays. You have a ground army with Zealots and a strong economy.",
+        "why": "Void Rays are strong against ground units. Adding anti-air will help defend against an air attack and maintain map control."
+      },
+      {
+        "correction": "Prioritize adding anti-air units and possibly transition to an air army yourself. Continue developing economy and tech.",
+        "lesson_id": "L03",
+        "mistake": "Neglecting anti-air upgrades or staying too passive if the opponent is massing air.",
+        "recheck": "Re-evaluate if the opponent switches to ground or if you need to commit to a full air transition.",
+        "target_node_id": "N008",
+        "title": "Midgame Air Mass with Void Rays",
+        "when": "Midgame, opponent has an air posture with Void Rays. You have a ground army with Zealots and a strong economy.",
+        "why": "The opponent's air army is a significant threat. Investing in anti-air or transitioning to air will help you counter their composition."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "PvP_O01",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "PvP_O01:N005->PvP_O01:N004",
+      "PvP_O01:N008->PvP_O01:N007",
+      "PvP_O01:N009->PvP_O01:N008"
+    ],
+    "source_digest": "b92e15c381139fd18c654f33d65d4d52c521f9e04b8a67efdbd0310f33acd096",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

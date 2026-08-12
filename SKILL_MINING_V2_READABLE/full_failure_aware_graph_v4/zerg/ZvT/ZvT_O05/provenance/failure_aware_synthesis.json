@@ -1,0 +1,129 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Recheck at next decision cycle: workers >= 60, production structures >= 3, bank < 1000 minerals, army supply >= 15.",
+        "correction": "Queue workers from all hatcheries until saturation (target 60+ workers). Build additional hatcheries if production structures are below 3 and bank is high. If army supply is below 15, prioritize producing zerglings or roaches to defend. Avoid expanding until production is sufficient and army is above 15 supply.",
+        "rule_id": "R01",
+        "title": "Maintain production tempo and worker saturation",
+        "when": "At any time before 6 minutes, if workers below 30 or production structures below 3, or if bank exceeds 1000 minerals and 200 gas while army supply is below 15."
+      },
+      {
+        "check": "Recheck at next decision cycle: army composition includes appropriate counters, tech structures completed, and anti-air defense in place if needed.",
+        "correction": "If ground-heavy, add roaches or hydralisks to your army and start upgrades (e.g., missile attacks, carapace). If air-heavy, build spore crawlers at bases and produce hydralisks or corruptors. Ensure you have the necessary tech structures (e.g., roach warren, hydralisk den, spire) and queue units accordingly.",
+        "rule_id": "R02",
+        "title": "Counter enemy composition with tech and units",
+        "when": "If enemy intelligence reveals a ground-heavy Terran composition (e.g., marines, marauders, tanks) and you have not yet invested in roaches or hydralisks, or if enemy has air units (e.g., banshees, battlecruisers) and you lack anti-air."
+      },
+      {
+        "check": "Recheck at next decision cycle: army supply >= 15, bank < 1000 minerals, and no owned base under threat.",
+        "correction": "Immediately convert bank into army: queue zerglings, roaches, or hydralisks from all hatcheries. If production structures are insufficient, build additional hatcheries. Prioritize defending threatened bases with static defense (spore crawlers, spine crawlers) if needed. Do not expand or tech until army supply is above 15 and bank is reduced.",
+        "rule_id": "R03",
+        "title": "Recover from low army and high bank",
+        "when": "If army supply is below 15 and bank exceeds 2000 minerals and 500 gas, or if predicted advantage is OverwhelmingDisadvantage, or if any owned base is threatened."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "ZvT_O05",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "ddfa68be5a26c870fee2d541dc6f6901e1305d2fc64d4b67f74e5a0303286399",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 2,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 0.7,
+            "bank": 2053.8,
+            "bases": 1.8,
+            "production": 1.8,
+            "supply_providers": 4.4,
+            "workers": 31.0
+          },
+          "300": {
+            "army_supply": 2.2,
+            "bank": 3071.1,
+            "bases": 2.1,
+            "production": 2.1,
+            "supply_providers": 5.9,
+            "workers": 36.4
+          },
+          "360": {
+            "army_supply": 4.4,
+            "bank": 4271.2,
+            "bases": 2.0,
+            "production": 2.0,
+            "supply_providers": 7.5,
+            "workers": 38.3
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.693,
+          "average_bank": 3327.4,
+          "consume_per_min": 614.5
+        },
+        "defeats_with_three_or_more_supply_entries": 10,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 12,
+          "Tie": 4,
+          "Victory": 4
+        }
+      },
+      "opening": {
+        "decision_error_total": 0,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 4.0,
+            "bank": 2205.0,
+            "bases": 2.0,
+            "production": 2.0,
+            "supply_providers": 4.0,
+            "workers": 34.0
+          },
+          "300": {
+            "army_supply": 6.0,
+            "bank": 2135.0,
+            "bases": 2.0,
+            "production": 2.0,
+            "supply_providers": 5.0,
+            "workers": 33.0
+          },
+          "360": {
+            "army_supply": 13.0,
+            "bank": 3081.0,
+            "bases": 2.0,
+            "production": 2.0,
+            "supply_providers": 8.0,
+            "workers": 57.0
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.584,
+          "average_bank": 6173.2,
+          "consume_per_min": 1179.5
+        },
+        "defeats_with_three_or_more_supply_entries": 1,
+        "direct_matches": 4,
+        "outcome_counts_private": {
+          "Defeat": 1,
+          "Tie": 1,
+          "Victory": 2
+        }
+      },
+      "scope_note_private": "opening-specific plus race evidence"
+    }
+  },
+  "schema_version": 1
+}

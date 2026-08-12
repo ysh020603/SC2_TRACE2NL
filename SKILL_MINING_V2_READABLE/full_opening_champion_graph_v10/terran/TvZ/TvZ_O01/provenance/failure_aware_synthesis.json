@@ -1,0 +1,128 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Recheck at next decision cycle.",
+        "correction": "Queue workers to 24+ on two bases, add a Barracks or Factory if production < 2, and spend bank on tech (e.g., Factory add-ons, Starport) or additional production, but do not expand beyond two bases until army supply >= 15 and production is active.",
+        "rule_id": "R01",
+        "title": "Production Tempo with Economy and Tech",
+        "when": "At 4-6 minutes, if workers < 24 or production < 2 or bank > 1500, while preserving expansion/economy/tech identity."
+      },
+      {
+        "check": "Recheck at next decision cycle.",
+        "correction": "Prioritize Hellions or Siege Tanks for Zergling/Queen; add Marauders or Siege Tanks for Hydralisk. Ensure at least 2 production structures on tech labs or add a Factory if needed. Maintain worker saturation and tech upgrades.",
+        "rule_id": "R02",
+        "title": "Counter Zerg Ground Composition",
+        "when": "If enemy composition shows Zergling/Queen with moderate production and light tech, or Zergling/Hydralisk with heavy tech, and your army lacks sufficient anti-ground or anti-light units."
+      },
+      {
+        "check": "Recheck at next decision cycle.",
+        "correction": "Immediately convert bank into army: queue Marines, Marauders, or Siege Tanks from all available production; add production structures if idle or insufficient. Do not expand or tech until army supply >= 15 and production is active. Prioritize defensive units and detection if needed.",
+        "rule_id": "R03",
+        "title": "Recovery from Low Army and High Bank",
+        "when": "If army supply < 15 and bank > 1500, or predicted advantage is OverwhelmingDisadvantage, or owned zones threatened."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "TvZ_O01",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "9b33492d40d4ecb79d513764d5c203fccdeb9e241c3ff8d8e1c90b957664dabb",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 0,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 3.8,
+            "bank": 1234.6,
+            "bases": 1.4,
+            "production": 1.2,
+            "supply_providers": 6.1,
+            "workers": 24.7
+          },
+          "300": {
+            "army_supply": 7.6,
+            "bank": 1865.2,
+            "bases": 1.5,
+            "production": 1.6,
+            "supply_providers": 6.8,
+            "workers": 27.8
+          },
+          "360": {
+            "army_supply": 7.5,
+            "bank": 2289.6,
+            "bases": 1.6,
+            "production": 2.2,
+            "supply_providers": 7.6,
+            "workers": 27.8
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.435,
+          "average_bank": 2389.3,
+          "consume_per_min": 573.2
+        },
+        "defeats_with_three_or_more_supply_entries": 9,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 13,
+          "Tie": 3,
+          "Victory": 4
+        }
+      },
+      "opening": {
+        "decision_error_total": 0,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 4.7,
+            "bank": 1492.0,
+            "bases": 1.3,
+            "production": 1.0,
+            "supply_providers": 4.7,
+            "workers": 22.3
+          },
+          "300": {
+            "army_supply": 5.7,
+            "bank": 1990.3,
+            "bases": 1.3,
+            "production": 1.3,
+            "supply_providers": 6.0,
+            "workers": 24.3
+          },
+          "360": {
+            "army_supply": 4.7,
+            "bank": 2237.7,
+            "bases": 1.3,
+            "production": 1.7,
+            "supply_providers": 5.7,
+            "workers": 16.3
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.442,
+          "average_bank": 1946.4,
+          "consume_per_min": 473.2
+        },
+        "defeats_with_three_or_more_supply_entries": 2,
+        "direct_matches": 4,
+        "outcome_counts_private": {
+          "Defeat": 3,
+          "Victory": 1
+        }
+      },
+      "scope_note_private": "opening-specific plus race evidence"
+    }
+  },
+  "schema_version": 1
+}

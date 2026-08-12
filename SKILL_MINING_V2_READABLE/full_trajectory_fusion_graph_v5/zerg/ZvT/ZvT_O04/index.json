@@ -1,0 +1,138 @@
+{
+  "method": "full_trajectory_fusion_graph_v5",
+  "nodes": {
+    "N001": {
+      "children": [
+        "N002"
+      ],
+      "path": "nodes/N001.md",
+      "phase": "early_game",
+      "policy_summary": "Develop economy and expansion, strengthen ground, continue tech with safety checks.",
+      "summary": "Early game, opponent posture unknown, own ground-oriented with Queens. Maintain economy and expansion, strengthen ground, continue tech, develop with safety checks.",
+      "title": "Early Game Development",
+      "trigger_summary": "Early game, opponent posture unknown, own ground-oriented with Queens.",
+      "type": "default"
+    },
+    "N002": {
+      "children": [
+        "N003"
+      ],
+      "path": "nodes/N002.md",
+      "phase": "early_midgame",
+      "policy_summary": "Strengthen ground, maintain economy, continue tech with safety checks.",
+      "summary": "Early-midgame, opponent ground posture with Marines and Ghosts, own ground with Zerglings and Queens. Strengthen ground army, maintain economy, continue tech, develop with safety checks.",
+      "title": "Early-Midgame Ground Focus",
+      "trigger_summary": "Early-midgame, opponent ground posture with Marines and Ghosts, own ground with Zerglings and Queens.",
+      "type": "positive"
+    },
+    "N003": {
+      "children": [
+        "N008"
+      ],
+      "path": "nodes/N003.md",
+      "phase": "early_midgame",
+      "policy_summary": "Strengthen ground, maintain economy, continue tech with safety checks.",
+      "summary": "Early-midgame, opponent ground with Marines, Reapers, Hellions, own ground with Zerglings and Queens. Increase expansion and production, strengthen ground, continue tech.",
+      "title": "Early-Midgame Expansion",
+      "trigger_summary": "Early-midgame, opponent ground with Marines, Reapers, Hellions, own ground with Zerglings and Queens.",
+      "type": "default"
+    },
+    "N004": {
+      "children": [],
+      "path": "nodes/N004.md",
+      "phase": "early_midgame",
+      "policy_summary": "Strengthen ground, maintain economy, continue tech with safety checks.",
+      "summary": "Early-midgame to midgame, opponent ground with Marines, own ground with Zerglings and Queens. Maintain economy and production, strengthen ground, continue tech.",
+      "title": "Midgame Ground Macro",
+      "trigger_summary": "Early-midgame to midgame, opponent ground with Marines, own ground with Zerglings and Queens.",
+      "type": "default"
+    },
+    "N005": {
+      "children": [],
+      "path": "nodes/N005.md",
+      "phase": "late_midgame",
+      "policy_summary": "Maintain ground, continue economy, increase tech, consider air.",
+      "summary": "Late-midgame, opponent ground with Siege Tanks, Marines, Medivacs, own ground with Zerglings, Mutalisks, Queens. Maintain ground strength, continue economy, increase tech, consider air.",
+      "title": "Late-Midgame Ground and Air",
+      "trigger_summary": "Late-midgame, opponent ground with Siege Tanks, Marines, Medivacs, own ground with Zerglings, Mutalisks, Queens.",
+      "type": "default"
+    },
+    "N006": {
+      "children": [
+        "N005"
+      ],
+      "path": "nodes/N006.md",
+      "phase": "midgame",
+      "policy_summary": "Maintain ground, continue economy, increase tech.",
+      "summary": "Midgame, opponent ground with Siege Tanks, Marines, Medivacs, own ground with Zerglings, Queens. Maintain ground strength, continue economy, increase tech.",
+      "title": "Midgame Ground Defense",
+      "trigger_summary": "Midgame, opponent ground with Siege Tanks, Marines, Medivacs, own ground with Zerglings, Queens.",
+      "type": "default"
+    },
+    "N007": {
+      "children": [
+        "N004"
+      ],
+      "path": "nodes/N007.md",
+      "phase": "early_game",
+      "policy_summary": "Develop economy and expansion, strengthen ground, continue tech with safety checks.",
+      "summary": "Early game, opponent ground with Marines, own ground with Zerglings and Queens. Maintain economy, strengthen ground, continue tech.",
+      "title": "Early Game Ground Focus",
+      "trigger_summary": "Early game, opponent ground with Marines, own ground with Zerglings and Queens.",
+      "type": "default"
+    },
+    "N008": {
+      "children": [],
+      "path": "nodes/N008.md",
+      "phase": "early_midgame",
+      "policy_summary": "Strengthen ground, maintain economy, continue tech with safety checks.",
+      "summary": "Early-midgame, opponent ground with Marines, Reapers, Hellions, own ground with Zerglings, Queens, moderate tech. Continue economy, increase tech, strengthen ground.",
+      "title": "Early-Midgame Tech Transition",
+      "trigger_summary": "Early-midgame, opponent ground with Marines, Reapers, Hellions, own ground with Zerglings, Queens, moderate tech.",
+      "type": "default"
+    },
+    "N009": {
+      "children": [],
+      "path": "nodes/N009.md",
+      "phase": "midgame",
+      "policy_summary": "Maintain ground, continue economy, increase tech.",
+      "summary": "Midgame, opponent ground with Marines, Hellions, Medivacs, own ground with Zerglings, Queens, moderate tech. Maintain ground strength, continue economy, consider air.",
+      "title": "Midgame Ground and Air Mix",
+      "trigger_summary": "Midgame, opponent ground with Marines, Hellions, Medivacs, own ground with Zerglings, Queens, moderate tech.",
+      "type": "default"
+    },
+    "N010": {
+      "children": [],
+      "path": "nodes/N010.md",
+      "phase": "late_midgame",
+      "policy_summary": "Maintain ground, continue economy, increase tech, consider air.",
+      "summary": "Late-midgame, opponent ground with Siege Tanks, Marines, Thors, Ravens, own ground with Zerglings, Roaches, Queens. Maintain ground strength, continue economy, consider tech counters.",
+      "title": "Late-Midgame Heavy Ground",
+      "trigger_summary": "Late-midgame, opponent ground with Siege Tanks, Marines, Thors, Ravens, own ground with Zerglings, Roaches, Queens.",
+      "type": "default"
+    },
+    "N011": {
+      "children": [],
+      "path": "nodes/N011.md",
+      "phase": "midgame",
+      "policy_summary": "Maintain ground, continue economy, increase tech.",
+      "summary": "Midgame, opponent ground with Marines, Ghosts, Hellions, Medivacs, own ground with Zerglings, Mutalisks, Queens, Overseers. Increase air, strengthen air, continue economy, increase upgrades.",
+      "title": "Midgame Air Transition",
+      "trigger_summary": "Midgame, opponent ground with Marines, Ghosts, Hellions, Medivacs, own ground with Zerglings, Mutalisks, Queens, Overseers.",
+      "type": "default"
+    },
+    "N012": {
+      "children": [],
+      "path": "nodes/N012.md",
+      "phase": "late_midgame",
+      "policy_summary": "Maintain ground, continue economy, increase tech, consider air.",
+      "summary": "Late-midgame, opponent ground with Siege Tanks, Marines, Marauders, Medivacs, own ground with Zerglings, Mutalisks, Queens, Overseers. Increase air, strengthen air, continue economy, increase upgrades.",
+      "title": "Late-Midgame Air Focus",
+      "trigger_summary": "Late-midgame, opponent ground with Siege Tanks, Marines, Marauders, Medivacs, own ground with Zerglings, Mutalisks, Queens, Overseers.",
+      "type": "default"
+    }
+  },
+  "opening_name": "ZvT_O04 Economy / Upgrade / Expansion",
+  "root": "SKILL.md",
+  "skill_id": "ZvT_O04"
+}

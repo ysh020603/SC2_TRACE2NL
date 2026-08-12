@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "At next decision cycle, verify army supply is at least 15 and bank is below 600, or production is actively queued.",
+        "correction": "If army supply is below 15 and bank is above 600, queue Zerglings from all Hatcheries with available larvae, prioritizing army over additional workers. If no larvae, inject with Queens. If supply blocked, add one Overlord (only if no supply provider is already queued or completed). Continue expanding only if army supply is at least 15 and production is active.",
+        "rule_id": "R01",
+        "title": "Maintain Zergling production tempo while expanding",
+        "when": "Early game (before 6:00) with Zergling/Queen army, ground-oriented opening, and at least one expansion completed or under construction."
+      },
+      {
+        "check": "At next decision cycle, confirm that required tech structures are completed or under construction, and army composition includes appropriate counters.",
+        "correction": "If enemy has Siege Tanks or Hellions, prioritize teching to Lair and spawning a Roach Warren, then queue Roaches. If enemy has Marines/Reapers, ensure Baneling Nest is started and morph Banelings from Zerglings. Maintain at least 2 bases and keep worker count near saturation (about 3 per mineral line). If bank exceeds 1000, add production structures (e.g., additional Hatcheries) before expanding further.",
+        "rule_id": "R02",
+        "title": "Counter Terran ground composition with tech and units",
+        "when": "Enemy intelligence shows a ground posture with Marines, Reapers, Hellions, or Siege Tanks, and own army is primarily Zergling/Queen."
+      },
+      {
+        "check": "At next decision cycle, verify army supply is at least 15 and bank is below 1000, or production is actively queued.",
+        "correction": "Immediately convert bank into army: queue Zerglings and/or Roaches from all Hatcheries, using all available larvae. If larvae are insufficient, inject with Queens. If supply is blocked, add one Overlord (only if no supply provider is pending). Do not expand or tech until army supply is at least 15 and production is active. If enemy threat is imminent, prioritize defensive units (e.g., Spine Crawlers) only if army is still low after production.",
+        "rule_id": "R03",
+        "title": "Recover from low army and high bank",
+        "when": "Army supply is below 15, bank is above 1000, or predicted advantage is OverwhelmingDisadvantage, and production is idle or insufficient."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "ZvT_O01",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "4bc24b5e9f92075db3e3eab94b025837af6ec1b31b90d7c9c323d19e0f21baaa",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 2,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 0.7,
+            "bank": 2053.8,
+            "bases": 1.8,
+            "production": 1.8,
+            "supply_providers": 4.4,
+            "workers": 31.0
+          },
+          "300": {
+            "army_supply": 2.2,
+            "bank": 3071.1,
+            "bases": 2.1,
+            "production": 2.1,
+            "supply_providers": 5.9,
+            "workers": 36.4
+          },
+          "360": {
+            "army_supply": 4.4,
+            "bank": 4271.2,
+            "bases": 2.0,
+            "production": 2.0,
+            "supply_providers": 7.5,
+            "workers": 38.3
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.693,
+          "average_bank": 3327.4,
+          "consume_per_min": 614.5
+        },
+        "defeats_with_three_or_more_supply_entries": 10,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 12,
+          "Tie": 4,
+          "Victory": 4
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

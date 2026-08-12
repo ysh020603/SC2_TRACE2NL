@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "At next decision cycle, confirm army supply is at least 10, workers are near 22-24, and no supply block is imminent.",
+        "correction": "Prioritize a defensive structure (e.g., Shield Battery) and produce a few Zealots or Stalkers from existing Gateways while continuing worker production. Keep tech buildings (e.g., Twilight Council) progressing. If bank exceeds 300 minerals, add a Gateway or start a Warp Gate upgrade.",
+        "rule_id": "R01",
+        "title": "Maintain tech-economy tempo with early defense",
+        "when": "Before 5 minutes, with heavy economy/tech investment, enemy shows Reaper or Marine, and army supply is below 15."
+      },
+      {
+        "check": "At next decision cycle, verify you have at least one Colossus or Archon, and that upgrades are not idle.",
+        "correction": "Add Colossi or Archons to complement High Templars. Ensure Forge and Twilight upgrades are progressing. If bank is high, add Gateways and produce Zealots/Stalkers to support the tech units.",
+        "rule_id": "R02",
+        "title": "Counter bio with splash and upgrades",
+        "when": "After 6 minutes, enemy composition is primarily bio (Marines, Marauders, Medivacs) with heavy ground posture, and you have at least 2 bases and 3 production structures."
+      },
+      {
+        "check": "At next decision cycle, confirm army supply is above 20 and bank is reduced by at least 50%.",
+        "correction": "Immediately convert bank into army: queue units from all Gateways, add Gateways if production is insufficient, and prioritize combat units over economy. Do not expand. If supply is blocked, build a Pylon. If enemy has air, add Stalkers or Phoenixes.",
+        "rule_id": "R03",
+        "title": "Recover from low army and high bank",
+        "when": "Army supply is below 15, bank exceeds 1000 minerals and 500 gas, or predicted advantage is OverwhelmingDisadvantage."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "PvT_O06",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "b7dc0c96c101ef61398dfb8285e2f8e0bfa8d7da601390e2f6cea8d8299e9268",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 1,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 6.0,
+            "bank": 915.2,
+            "bases": 1.2,
+            "production": 1.5,
+            "supply_providers": 5.8,
+            "workers": 26.0
+          },
+          "300": {
+            "army_supply": 12.5,
+            "bank": 1365.2,
+            "bases": 1.5,
+            "production": 2.5,
+            "supply_providers": 6.8,
+            "workers": 29.5
+          },
+          "360": {
+            "army_supply": 14.5,
+            "bank": 2029.2,
+            "bases": 2.0,
+            "production": 3.0,
+            "supply_providers": 7.5,
+            "workers": 32.0
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.437,
+          "average_bank": 1995.2,
+          "consume_per_min": 816.3
+        },
+        "defeats_with_three_or_more_supply_entries": 3,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 4,
+          "Tie": 1,
+          "Victory": 15
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

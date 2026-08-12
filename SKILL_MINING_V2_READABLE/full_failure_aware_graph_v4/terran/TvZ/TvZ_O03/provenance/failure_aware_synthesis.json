@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Next decision cycle: verify bank is below 600 and production structures are actively producing.",
+        "correction": "Queue units from existing production structures, prioritizing Marines and Marauders. If production structures are insufficient, build a Barracks with a Reactor or a Factory, ensuring prerequisites are met. Convert bank into production capacity before expanding.",
+        "rule_id": "R01",
+        "title": "Production Tempo and Bank Conversion",
+        "when": "At 4-6 minutes, if bank is above 800 minerals and production is below 3 active structures, or if army supply is below 10 while production is idle."
+      },
+      {
+        "check": "Next decision cycle: confirm at least 2 Missile Turrets per base and a mix of anti-air units in the army.",
+        "correction": "Add anti-air by building Missile Turrets at each base and producing Marines or Thors. If tech lab is available, research Stim Pack and Combat Shield to improve Marine effectiveness. Maintain ground army composition while integrating anti-air.",
+        "rule_id": "R02",
+        "title": "Anti-Air Response to Mutalisks",
+        "when": "If enemy intelligence shows Mutalisks or other air units, and your army lacks sufficient anti-air (e.g., fewer than 4 Marines or no Missile Turrets)."
+      },
+      {
+        "check": "Next decision cycle: verify army supply is above 20 and bank is below 500, or threat level has decreased.",
+        "correction": "Immediately queue units from all production structures, prioritizing combat units. If production is insufficient, build additional Barracks or Factories. Do not expand or invest in technology until army supply is above 20 and bank is below 500.",
+        "rule_id": "R03",
+        "title": "Recovery from Low Army and High Bank",
+        "when": "If army supply is below 15 and bank is above 1000 minerals, or if predicted advantage is OverwhelmingDisadvantage."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "TvZ_O03",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "55345815ae8c1220dfd80edadd1472bde8fe4a57a89fb22684cbee4195f8ced2",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 0,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 3.8,
+            "bank": 1234.6,
+            "bases": 1.4,
+            "production": 1.2,
+            "supply_providers": 6.1,
+            "workers": 24.7
+          },
+          "300": {
+            "army_supply": 7.6,
+            "bank": 1865.2,
+            "bases": 1.5,
+            "production": 1.6,
+            "supply_providers": 6.8,
+            "workers": 27.8
+          },
+          "360": {
+            "army_supply": 7.5,
+            "bank": 2289.6,
+            "bases": 1.6,
+            "production": 2.2,
+            "supply_providers": 7.6,
+            "workers": 27.8
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.435,
+          "average_bank": 2389.3,
+          "consume_per_min": 573.2
+        },
+        "defeats_with_three_or_more_supply_entries": 9,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 13,
+          "Tie": 3,
+          "Victory": 4
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

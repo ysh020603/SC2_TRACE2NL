@@ -1,0 +1,91 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "At next decision cycle, verify that army supply increased by at least 5 and bank decreased by at least 500 minerals or 100 gas.",
+        "correction": "Queue Zerglings and Queens from existing hatcheries, prioritizing larvae for army over drones if army supply is below 15. If production is idle and bank is high, add a hatchery at a natural expansion only if army supply is at least 15 and no severe disadvantage is predicted. Keep tech light; do not start a Spire or Infestation Pit unless enemy air is confirmed.",
+        "rule_id": "R01",
+        "title": "Maintain Ground Production Tempo",
+        "when": "Early-midgame with heavy economy and moderate production; Zergling and Queen cues visible; bank above 1500 minerals or 300 gas; army supply below 20."
+      },
+      {
+        "check": "At next decision cycle, confirm that anti-air or anti-ground units are being produced and that each base has at least one Spore Crawler if enemy air was detected.",
+        "correction": "If enemy air is present, build Spore Crawlers at each base and queue Hydralisks or Corruptors once a Hydralisk Den or Spire is completed. If enemy is ground-heavy with Roaches, prioritize Roaches and Zerglings, and add a Roach Warren if not already present. Maintain economy and production; do not over-expand while army supply is below 15.",
+        "rule_id": "R02",
+        "title": "Counter Enemy Air or Ground Composition",
+        "when": "Enemy Intelligence shows Mutalisks or other air units; or enemy ground composition is Roach-heavy with light air; midgame with moderate to heavy production."
+      },
+      {
+        "check": "At next decision cycle, verify that army supply is at least 15 and bank is below 1000 minerals; if not, continue the recovery queue.",
+        "correction": "Immediately queue combat units (Zerglings, Roaches, or Hydralisks) from all hatcheries, prioritizing army over workers. If supply is blocked, build a single Overlord or spawning pool as needed. Do not expand or tech until army supply is at least 15 and bank is below 1000 minerals. If enemy threat is imminent, use all larvae for army and consider spine crawlers at natural.",
+        "rule_id": "R03",
+        "title": "Recover from Low Army and High Bank",
+        "when": "Army supply below 10, bank above 2000 minerals or 400 gas, or predicted advantage is OverwhelmingDisadvantage; production is idle or insufficient."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "ZvZ_O01",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "4bc24b5e9f92075db3e3eab94b025837af6ec1b31b90d7c9c323d19e0f21baaa",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 2,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 0.7,
+            "bank": 2053.8,
+            "bases": 1.8,
+            "production": 1.8,
+            "supply_providers": 4.4,
+            "workers": 31.0
+          },
+          "300": {
+            "army_supply": 2.2,
+            "bank": 3071.1,
+            "bases": 2.1,
+            "production": 2.1,
+            "supply_providers": 5.9,
+            "workers": 36.4
+          },
+          "360": {
+            "army_supply": 4.4,
+            "bank": 4271.2,
+            "bases": 2.0,
+            "production": 2.0,
+            "supply_providers": 7.5,
+            "workers": 38.3
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.693,
+          "average_bank": 3327.4,
+          "consume_per_min": 614.5
+        },
+        "defeats_with_three_or_more_supply_entries": 10,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 12,
+          "Tie": 4,
+          "Victory": 4
+        }
+      },
+      "opening": {
+        "direct_matches": 0
+      },
+      "scope_note_private": "no direct opening matches; generalize only the same bot race evidence"
+    }
+  },
+  "schema_version": 1
+}

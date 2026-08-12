@@ -1,0 +1,100 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid over-committing to a single tech path or neglecting scouting; maintain flexibility.",
+        "decision_direction": "Continue developing your technology and economy while strengthening your ground army. Increase production and tech, maintain defense, and keep expansion options open.",
+        "exit_or_recheck_condition": "Re-evaluate when opponent's composition or pressure becomes clearer, or when you reach a new tech milestone.",
+        "next_state_summary": "Progress to a more developed ground army with Stalkers and heavier production, maintaining tech and economy.",
+        "node_id": "N001",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence is consistent with a ground posture; representative cues may include Marines. Production and economy appear heavy, technology heavy, but exact hidden counts are unknown.",
+        "own_situation": "You have a ground-oriented posture with Zealots, moderate production, and heavy technology investment. Economy is heavy but expansion is uncertain. Defense is light, and pressure is possible.",
+        "strategic_reason": "This early phase favors a macro-oriented approach that builds a strong tech/economy base, enabling flexible responses to opponent's ground-heavy posture.",
+        "title": "Early Game Tech/Economy Foundation",
+        "transition_goal": "Transition smoothly into the early-midgame with a reinforced ground army and continued tech/economy growth.",
+        "trigger_summary": "Early game (~3 min) with own ground-oriented macro posture, moderate production, heavy tech; opponent shows ground posture with heavy production and economy, possible pressure."
+      },
+      {
+        "avoid_direction": "Avoid neglecting detection or anti-air, as opponent may transition to air later.",
+        "decision_direction": "Continue strengthening your ground army and increasing production and tech. Maintain economy growth and keep defense up. Consider adding Sentries or Immortals for utility.",
+        "exit_or_recheck_condition": "Re-evaluate when opponent's tech path or army composition becomes clearer, or when you reach a critical mass.",
+        "next_state_summary": "Progress to a midgame army with Sentries and Immortals, ready for larger engagements.",
+        "node_id": "N002",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows a ground posture with Siege Tanks and Marines, heavy production and economy, and heavy tech. Exact counts are unknown.",
+        "own_situation": "You have a solid ground army with Zealots and Stalkers, heavy production and tech. Economy is heavy, expansion is uncertain, and defense is light. Pressure is possible.",
+        "strategic_reason": "Siege Tanks require careful engagement; a mix of Stalkers for mobility and Zealots for tanking, plus Sentry shields, can handle ground pushes.",
+        "title": "Early-Midgame Ground Reinforcement",
+        "transition_goal": "Build a versatile ground composition that can pressure or defend, while continuing tech and economy.",
+        "trigger_summary": "Early-midgame (~5-6 min) with own ground army including Zealots and Stalkers, heavy production and tech; opponent shows ground posture with Siege Tanks and Marines, heavy economy and production."
+      },
+      {
+        "avoid_direction": "Avoid being too passive; use your army to take favorable engagements and deny expansions.",
+        "decision_direction": "Maintain and strengthen your ground army, continue increasing production and tech. Consider adding Phoenixes for map control and to handle any air transitions.",
+        "exit_or_recheck_condition": "Re-evaluate when opponent's army composition shifts or when you are ready to attack.",
+        "next_state_summary": "Progress to a late-midgame army with Phoenixes, maintaining heavy economy and tech.",
+        "node_id": "N003",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows a ground-heavy composition with Siege Tanks, Marines, Reapers, and Hellions. Production and tech are heavy, and air presence is moderate.",
+        "own_situation": "You have a strong ground army with Zealots, Stalkers, Sentries, and Immortals. Economy and expansion are heavy, production and tech are heavy. Defense is moderate.",
+        "strategic_reason": "Immortals counter Siege Tanks, Sentries provide shields, and Phoenixes offer mobility and scouting. This composition is robust against ground pushes.",
+        "title": "Late-Midgame Ground Army Consolidation",
+        "transition_goal": "Consolidate your army and prepare for a potential late-game transition, either to more air or to a powerful ground push.",
+        "trigger_summary": "Late-midgame (~10 min) with own ground army including Zealots, Stalkers, Sentries, and Immortals; opponent shows ground posture with Siege Tanks, Marines, Reapers, Hellions, heavy production and tech."
+      },
+      {
+        "avoid_direction": "Avoid overextending without vision; use observers or scouting to avoid ambushes.",
+        "decision_direction": "Continue strengthening your ground army, increase production and tech. Use Sentries for force fields and Immortals for tanky units. Maintain economy and expansion.",
+        "exit_or_recheck_condition": "Re-evaluate when opponent's composition changes or when you are ready to take a decisive engagement.",
+        "next_state_summary": "Progress to a late-midgame army with Phoenixes or other tech additions.",
+        "node_id": "N004",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence shows a ground posture with Marines and Marauders, heavy production and tech. Exact counts are unknown.",
+        "own_situation": "You have a versatile ground army with Zealots, Stalkers, Sentries, and Immortals. Economy and expansion are heavy, production and tech are heavy. Defense is moderate.",
+        "strategic_reason": "Marauders are strong against armored, but Immortals and Stalkers can handle them. Sentries provide utility.",
+        "title": "Midgame Ground Army with Immortals",
+        "transition_goal": "Build a strong midgame army that can push or defend, while keeping tech and economy high.",
+        "trigger_summary": "Midgame (~9 min) with own ground army including Zealots, Stalkers, Sentries, and Immortals; opponent shows ground posture with Marines and Marauders, heavy production and tech."
+      },
+      {
+        "avoid_direction": "Avoid committing to a specific tech path without more information.",
+        "decision_direction": "Continue developing your tech and economy while maintaining a flexible ground army. Increase production and tech, and keep scouting to clarify opponent's intentions.",
+        "exit_or_recheck_condition": "Re-evaluate when you gain more scouting information or when opponent's pressure becomes evident.",
+        "next_state_summary": "Progress to a more developed ground army with Stalkers, maintaining tech and economy.",
+        "node_id": "N005",
+        "node_type": "default",
+        "opponent_situation": "Enemy Intelligence is uncertain; representative cues may include Marines. Production appears moderate, economy heavy, tech heavy, but exact hidden counts are unknown.",
+        "own_situation": "You have a ground-oriented posture with Zealots, moderate production, and heavy tech. Economy is moderate, expansion is heavy. Defense is light, pressure possible.",
+        "strategic_reason": "With limited information, a balanced macro approach with heavy tech gives you options to adapt to whatever the opponent does.",
+        "title": "Early Game Tech Focus with Unknown Opponent",
+        "transition_goal": "Transition to a more defined strategy once opponent's posture is clearer.",
+        "trigger_summary": "Early game (~3 min) with own ground-oriented posture, moderate production, heavy tech; opponent posture is unknown but shows Marines, heavy economy, moderate production, heavy tech."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "technology / economy / production opening",
+      "opening_name": "PvT_O08 Technology / Economy / Production",
+      "opening_summary": "A Protoss opening that emphasizes heavy technology and economy while maintaining a moderate production base, aiming for a flexible ground-oriented midgame.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a technology / economy / production posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_positive_only",
+  "method_specific_annotation": true,
+  "opening_id": "PvT_O08",
+  "projection_path": "02_observation_projection/ablation_positive_only/PvT_O08.json"
+}

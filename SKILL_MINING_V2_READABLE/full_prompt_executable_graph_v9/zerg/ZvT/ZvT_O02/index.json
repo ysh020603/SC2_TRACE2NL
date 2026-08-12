@@ -1,0 +1,80 @@
+{
+  "method": "full_prompt_executable_graph_v9",
+  "nodes": {
+    "N001": {
+      "children": [
+        "N002"
+      ],
+      "path": "nodes/N001.md",
+      "summary": "At the start of the game, both sides have limited information. The opponent's posture is unknown, and your own economy and production are still developing. Maintain current development path with safety checks. Focus on economy and expansion while keeping options open.",
+      "title": "Early Game Development",
+      "trigger_summary": "At the start of the game, both sides have limited information. The opponent's posture is unknown, and your own economy and production are still developing.",
+      "type": "default"
+    },
+    "N002": {
+      "children": [],
+      "path": "nodes/N002.md",
+      "summary": "As the game progresses into the early-midgame, the opponent's posture remains unknown, but your own economy and production are still light or uncertain. Maintain current development path with safety checks. Continue focusing on economy and expansion.",
+      "title": "Early-Midgame Development",
+      "trigger_summary": "As the game progresses into the early-midgame, the opponent's posture remains unknown, but your own economy and production are still light or uncertain.",
+      "type": "default"
+    },
+    "N003": {
+      "children": [
+        "N006"
+      ],
+      "path": "nodes/N003.md",
+      "summary": "In the midgame, the opponent's posture is still unknown, and your own economy and production remain light or uncertain. Maintain current development path with safety checks. Continue focusing on economy and expansion.",
+      "title": "Midgame Development",
+      "trigger_summary": "In the midgame, the opponent's posture is still unknown, and your own economy and production remain light or uncertain.",
+      "type": "default"
+    },
+    "N004": {
+      "children": [],
+      "path": "nodes/N004.md",
+      "summary": "In the late-midgame, the opponent's posture is still unknown, and your own economy and production remain light or uncertain. Maintain current development path with safety checks. Continue focusing on economy and expansion.",
+      "title": "Late-Midgame Development",
+      "trigger_summary": "In the late-midgame, the opponent's posture is still unknown, and your own economy and production remain light or uncertain.",
+      "type": "default"
+    },
+    "N005": {
+      "children": [
+        "N003"
+      ],
+      "path": "nodes/N005.md",
+      "summary": "In the early-midgame, the opponent reveals a ground posture with heavy production and economy. Your own posture is still unknown. Maintain current development path with safety checks. Consider strengthening your ground army to respond to the opponent's ground posture.",
+      "title": "Early-Midgame Ground Response",
+      "trigger_summary": "In the early-midgame, the opponent reveals a ground posture with heavy production and economy. Your own posture is still unknown.",
+      "type": "default"
+    },
+    "N006": {
+      "children": [
+        "N003"
+      ],
+      "path": "nodes/N006.md",
+      "summary": "In the midgame, the opponent reveals a ground posture with heavy production and economy. Your own posture is still unknown. Maintain current development path with safety checks. Consider strengthening your ground army to respond to the opponent's ground posture.",
+      "title": "Midgame Ground Response",
+      "trigger_summary": "In the midgame, the opponent reveals a ground posture with heavy production and economy. Your own posture is still unknown.",
+      "type": "default"
+    },
+    "N007": {
+      "children": [],
+      "path": "nodes/N007.md",
+      "summary": "In the early-midgame, the opponent reveals a ground posture with heavy production and economy. Your own posture is ground-oriented with moderate production. Strengthen your ground army, increase economy and expansion, and continue technology development.",
+      "title": "Early-Midgame Ground Macro",
+      "trigger_summary": "In the early-midgame, the opponent reveals a ground posture with heavy production and economy. Your own posture is ground-oriented with moderate production.",
+      "type": "default"
+    },
+    "N008": {
+      "children": [],
+      "path": "nodes/N008.md",
+      "summary": "In the midgame, the opponent reveals a ground posture with heavy production and economy. Your own posture is ground-oriented with heavy economy and expansion. Strengthen your ground army, increase economy and expansion, and continue technology development.",
+      "title": "Midgame Ground Macro",
+      "trigger_summary": "In the midgame, the opponent reveals a ground posture with heavy production and economy. Your own posture is ground-oriented with heavy economy and expansion.",
+      "type": "default"
+    }
+  },
+  "opening_name": "ZvT_O02 Economy / Expansion / Ground",
+  "root": "SKILL.md",
+  "skill_id": "ZvT_O02"
+}

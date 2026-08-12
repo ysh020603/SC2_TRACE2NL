@@ -1,0 +1,454 @@
+{
+  "annotation": {
+    "phase_policies": [
+      {
+        "applies_when": "At the start of the game, both players have limited information. The opponent's posture is unknown, and your own forces are still developing.",
+        "live_check": "Recheck when you have more scouting information, such as seeing the opponent's first units or expansions. Exit this node when you have a clearer picture of the opponent's strategy.",
+        "phase": "early_game",
+        "routing_summary": "Develop economy and scouting, stay flexible, avoid overcommitment.",
+        "target": "Maintain a balanced development path, focusing on economy and scouting. Avoid overcommitting to any single strategy until you have more information.",
+        "title": "Balanced Development with Scouting",
+        "veto": "Do not overcommit to a single strategy without scouting information; avoid neglecting economy or scouting."
+      },
+      {
+        "applies_when": "As the game progresses into the early-mid game, you still have limited information about the opponent, but your own economy and production are starting to take shape.",
+        "live_check": "Recheck when you have more scouting information or when the opponent's actions become clearer. Exit this node when you have a defined strategy.",
+        "phase": "early_midgame",
+        "routing_summary": "Develop economy and production, keep army flexible, scout for information.",
+        "target": "Continue to develop your economy and production while keeping your army composition flexible. Focus on scouting to gain information about the opponent's plans.",
+        "title": "Flexible Development with Scouting",
+        "veto": "Do not neglect scouting or overcommit to a single army composition without information."
+      },
+      {
+        "applies_when": "In the midgame, you have established a solid economic base, but the opponent's strategy is still unclear. You need to consolidate your position and prepare for potential conflicts.",
+        "live_check": "Recheck when you have more information about the opponent's army composition or when they make a move. Exit this node when you have a clear strategic direction.",
+        "phase": "midgame",
+        "routing_summary": "Consolidate economy, increase scouting, build defensive army.",
+        "target": "Maintain your current development path while increasing your scouting efforts. Consider building a defensive army to protect your expansions and prepare for potential attacks.",
+        "title": "Consolidate and Scout",
+        "veto": "Do not neglect scouting or fail to prepare defenses for your expansions."
+      },
+      {
+        "applies_when": "In the late midgame, you have a stable economy, but the opponent's strategy is still unknown. You need to prepare for the late game while maintaining flexibility.",
+        "live_check": "Recheck when you have more scouting information or when the opponent's actions become clearer. Exit this node when you have a defined strategy.",
+        "phase": "late_midgame",
+        "routing_summary": "Develop economy and production, increase army, scout for information.",
+        "target": "Continue to develop your economy and production while increasing your army size. Focus on scouting to gain information about the opponent's plans.",
+        "title": "Prepare for Late Game",
+        "veto": "Do not neglect scouting or fail to increase army size in preparation for late game."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_trajectory_fusion_graph_v5",
+  "opening_id": "ZvZ_O02",
+  "private_inputs": {
+    "agent_visible": false,
+    "experiment_feedback": {
+      "global": {
+        "v3": {
+          "VTD": [
+            23,
+            8,
+            29
+          ],
+          "apu": 0.58,
+          "bank": 2625.63,
+          "consume": 887.43,
+          "decision_errors": 3,
+          "duration": 814.29,
+          "invalid_buckets": {
+            "graph_phase_refresh": 86,
+            "idle_producer_overbuild": 32,
+            "initial_skill_read": 59,
+            "missing_gas_prerequisite": 5,
+            "other": 65,
+            "response_protocol": 20,
+            "supply_queue": 172
+          },
+          "invalid_rounds": 439,
+          "max_queue_mean": 34.37,
+          "max_supply_queue_ge3": 45,
+          "n": 60,
+          "queue_mix_pct": {
+            "bases": 1.2,
+            "production": 2.25,
+            "supply": 9.7,
+            "tech": 1.09,
+            "workers": 20.2
+          },
+          "score": 0.45
+        },
+        "v4": {
+          "VTD": [
+            24,
+            6,
+            30
+          ],
+          "apu": 0.61,
+          "bank": 2310.45,
+          "consume": 765.97,
+          "decision_errors": 10,
+          "duration": 788.15,
+          "invalid_buckets": {
+            "graph_phase_refresh": 99,
+            "idle_producer_overbuild": 26,
+            "initial_skill_read": 60,
+            "missing_gas_prerequisite": 16,
+            "other": 58,
+            "response_protocol": 26,
+            "supply_queue": 195
+          },
+          "invalid_rounds": 480,
+          "max_queue_mean": 29.95,
+          "max_supply_queue_ge3": 30,
+          "n": 60,
+          "queue_mix_pct": {
+            "bases": 0.85,
+            "production": 2.36,
+            "supply": 8.33,
+            "tech": 0.82,
+            "workers": 16.96
+          },
+          "score": 0.45
+        }
+      },
+      "matchup": {
+        "v3": {
+          "VTD": [
+            1,
+            2,
+            1
+          ],
+          "apu": 0.81,
+          "bank": 6326.1,
+          "consume": 780.2,
+          "decision_errors": 2,
+          "duration": 1031.36,
+          "invalid_buckets": {
+            "graph_phase_refresh": 7,
+            "initial_skill_read": 4,
+            "missing_gas_prerequisite": 1,
+            "other": 7,
+            "response_protocol": 3,
+            "supply_queue": 44
+          },
+          "invalid_rounds": 66,
+          "max_queue_mean": 37.0,
+          "max_supply_queue_ge3": 4,
+          "n": 4,
+          "queue_mix_pct": {
+            "bases": 1.43,
+            "production": 0.0,
+            "supply": 12.64,
+            "tech": 2.36,
+            "workers": 27.72
+          },
+          "score": 0.5
+        },
+        "v4": {
+          "VTD": [
+            0,
+            0,
+            4
+          ],
+          "apu": 0.55,
+          "bank": 3088.53,
+          "consume": 566.83,
+          "decision_errors": 3,
+          "duration": 877.01,
+          "invalid_buckets": {
+            "graph_phase_refresh": 14,
+            "initial_skill_read": 4,
+            "missing_gas_prerequisite": 4,
+            "other": 3,
+            "response_protocol": 2,
+            "supply_queue": 20
+          },
+          "invalid_rounds": 47,
+          "max_queue_mean": 28.5,
+          "max_supply_queue_ge3": 3,
+          "n": 4,
+          "queue_mix_pct": {
+            "bases": 0.67,
+            "production": 0.0,
+            "supply": 10.8,
+            "tech": 2.36,
+            "workers": 23.51
+          },
+          "score": 0.0
+        }
+      },
+      "opening": {
+        "v3": {},
+        "v4": {}
+      },
+      "race": {
+        "v3": {
+          "VTD": [
+            4,
+            4,
+            12
+          ],
+          "apu": 0.7,
+          "bank": 4083.2,
+          "consume": 922.22,
+          "decision_errors": 2,
+          "duration": 795.25,
+          "invalid_buckets": {
+            "graph_phase_refresh": 26,
+            "initial_skill_read": 20,
+            "missing_gas_prerequisite": 5,
+            "other": 24,
+            "response_protocol": 12,
+            "supply_queue": 110
+          },
+          "invalid_rounds": 197,
+          "max_queue_mean": 36.0,
+          "max_supply_queue_ge3": 18,
+          "n": 20,
+          "queue_mix_pct": {
+            "bases": 1.83,
+            "production": 0.0,
+            "supply": 12.27,
+            "tech": 1.63,
+            "workers": 30.61
+          },
+          "score": 0.3
+        },
+        "v4": {
+          "VTD": [
+            2,
+            1,
+            17
+          ],
+          "apu": 0.62,
+          "bank": 3248.12,
+          "consume": 660.05,
+          "decision_errors": 4,
+          "duration": 719.06,
+          "invalid_buckets": {
+            "graph_phase_refresh": 35,
+            "initial_skill_read": 20,
+            "missing_gas_prerequisite": 10,
+            "other": 14,
+            "response_protocol": 5,
+            "supply_queue": 69
+          },
+          "invalid_rounds": 153,
+          "max_queue_mean": 29.1,
+          "max_supply_queue_ge3": 13,
+          "n": 20,
+          "queue_mix_pct": {
+            "bases": 1.51,
+            "production": 0.0,
+            "supply": 9.32,
+            "tech": 1.37,
+            "workers": 24.45
+          },
+          "score": 0.125
+        }
+      },
+      "use_boundary": "Prioritize execution risks only; never infer the strategic target from agent outcomes."
+    },
+    "experiment_feedback_digest": "d7f295c62a8d4d5ea63104b43d3c06f1aa9450fde3fd198e2e788432c7f81fd7",
+    "human_evidence_digest": "8e1c358755ac53e18cd14ef53da5cc866ed72db88328d4b35020843a2566611a",
+    "human_phase_evidence": [
+      {
+        "adverse_aggregate_nodes": [],
+        "phase": "early_game",
+        "preferred_aggregate_nodes": [
+          {
+            "annotated_direction": "Maintain a balanced development path, focusing on economy and scouting. Avoid overcommitting to any single strategy until you have more information.",
+            "annotated_recheck": "Recheck when you have more scouting information, such as seeing the opponent's first units or expansions. Exit this node when you have a clearer picture of the opponent's strategy.",
+            "annotated_trigger": "At the start of the game, both players have limited information. The opponent's posture is unknown, and your own forces are still developing.",
+            "frequency": 1.0,
+            "node_id": "N001",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a unknown posture; representative observed or remembered cues may include no reliably grounded combat-unit cue. Production appears light_or_uncertain, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly unknown-oriented, with light_or_uncertain production and light_or_uncertain technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "maintain_current_army_path",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "maintain",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "maintain",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 620
+          },
+          {
+            "annotated_direction": "Strengthen your ground army and increase your defenses. Continue expanding your economy to match the opponent's growth.",
+            "annotated_recheck": "Recheck when you have more information about the opponent's army composition or when they make a move. Exit this node when you have a clear strategic direction.",
+            "annotated_trigger": "You have scouted the opponent and detected a ground-based posture, with cues such as Queens. The opponent appears to be focusing on economy and expansion.",
+            "frequency": 0.6667,
+            "node_id": "N005",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Queen. Production appears moderate, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with moderate production and light_or_uncertain technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "increase",
+              "economy_direction": "increase",
+              "expansion_direction": "continue",
+              "production_direction": "continue",
+              "technology_direction": "continue",
+              "tempo": "stabilize_then_develop",
+              "upgrade_direction": "continue"
+            },
+            "support": 4
+          },
+          {
+            "annotated_direction": "Maintain a balanced approach, developing your economy while also strengthening your ground army. Focus on scouting to gain information about the opponent's plans.",
+            "annotated_recheck": "Recheck when you have more information about the opponent's army composition or when they make a move. Exit this node when you have a clear strategic direction.",
+            "annotated_trigger": "You have scouted the opponent and detected a ground-based posture, but your own economy is moderate. You need to balance army and economy development.",
+            "frequency": 0.4444,
+            "node_id": "N006",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Queen. Production appears moderate, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with moderate production and light_or_uncertain technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "increase",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "maintain",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 4
+          }
+        ]
+      },
+      {
+        "adverse_aggregate_nodes": [],
+        "phase": "early_midgame",
+        "preferred_aggregate_nodes": [
+          {
+            "annotated_direction": "Continue to develop your economy and production while keeping your army composition flexible. Focus on scouting to gain information about the opponent's plans.",
+            "annotated_recheck": "Recheck when you have more scouting information or when the opponent's actions become clearer. Exit this node when you have a defined strategy.",
+            "annotated_trigger": "As the game progresses into the early-mid game, you still have limited information about the opponent, but your own economy and production are starting to take shape.",
+            "frequency": 1.0,
+            "node_id": "N002",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a unknown posture; representative observed or remembered cues may include no reliably grounded combat-unit cue. Production appears light_or_uncertain, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly unknown-oriented, with light_or_uncertain production and light_or_uncertain technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "maintain_current_army_path",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "maintain",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "maintain",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 620
+          },
+          {
+            "annotated_direction": "Continue to strengthen your ground army and maintain your economy. Consider expanding further to secure a long-term advantage.",
+            "annotated_recheck": "Recheck when you have more information about the opponent's army composition or when they make a move. Exit this node when you have a clear strategic direction.",
+            "annotated_trigger": "In the early-mid game, you have scouted the opponent and detected a ground-based posture with Zerglings. The opponent's economy and expansion are heavy, indicating a macro-oriented strategy.",
+            "frequency": 0.4286,
+            "node_id": "N007",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a ground posture; representative observed or remembered cues may include Zergling. Production appears moderate, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly ground-oriented, with moderate production and light_or_uncertain technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "strengthen_ground",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "continue",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "maintain",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 3
+          }
+        ]
+      },
+      {
+        "adverse_aggregate_nodes": [],
+        "phase": "midgame",
+        "preferred_aggregate_nodes": [
+          {
+            "annotated_direction": "Maintain your current development path while increasing your scouting efforts. Consider building a defensive army to protect your expansions and prepare for potential attacks.",
+            "annotated_recheck": "Recheck when you have more information about the opponent's army composition or when they make a move. Exit this node when you have a clear strategic direction.",
+            "annotated_trigger": "In the midgame, you have established a solid economic base, but the opponent's strategy is still unclear. You need to consolidate your position and prepare for potential conflicts.",
+            "frequency": 1.0,
+            "node_id": "N003",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a unknown posture; representative observed or remembered cues may include no reliably grounded combat-unit cue. Production appears light_or_uncertain, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly unknown-oriented, with light_or_uncertain production and light_or_uncertain technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "maintain_current_army_path",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "maintain",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "maintain",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 617
+          }
+        ]
+      },
+      {
+        "adverse_aggregate_nodes": [],
+        "phase": "late_midgame",
+        "preferred_aggregate_nodes": [
+          {
+            "annotated_direction": "Continue to develop your economy and production while increasing your army size. Focus on scouting to gain information about the opponent's plans.",
+            "annotated_recheck": "Recheck when you have more scouting information or when the opponent's actions become clearer. Exit this node when you have a defined strategy.",
+            "annotated_trigger": "In the late midgame, you have a stable economy, but the opponent's strategy is still unknown. You need to prepare for the late game while maintaining flexibility.",
+            "frequency": 1.0,
+            "node_id": "N004",
+            "node_type": "default",
+            "opponent_cues": "Enemy Intelligence is consistent with a unknown posture; representative observed or remembered cues may include no reliably grounded combat-unit cue. Production appears light_or_uncertain, technology investment appears light_or_uncertain, and exact hidden counts remain unknown.",
+            "own_posture": "Your completed or developing posture is broadly unknown-oriented, with light_or_uncertain production and light_or_uncertain technology investment. Check live Completed, Under Construction, Active Queues, resources, supply, and army strength before choosing exact actions.",
+            "policy_signature": {
+              "air_direction": "maintain",
+              "army_direction": "maintain_current_army_path",
+              "confidence": "medium",
+              "defense_direction": "maintain",
+              "economy_direction": "maintain",
+              "expansion_direction": "maintain",
+              "production_direction": "maintain",
+              "technology_direction": "maintain",
+              "tempo": "develop_with_safety_checks",
+              "upgrade_direction": "maintain"
+            },
+            "support": 616
+          }
+        ]
+      }
+    ]
+  },
+  "schema_version": 1
+}

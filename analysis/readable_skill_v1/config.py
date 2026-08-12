@@ -23,6 +23,8 @@ class PipelineConfig:
     input_root: Path | None = None
     output_root: Path | None = None
     skill_root: Path | None = None
+    knowledge_root: Path | None = None
+    failure_diagnostics: Path | None = None
     methods: tuple[str, ...] = METHODS
     openings: tuple[str, ...] = ()
     from_stage: int = 0
@@ -38,6 +40,8 @@ class PipelineConfig:
         self.input_root = Path(self.input_root or self.repo_root / "analysis" / "outputs_skill_v2")
         self.output_root = Path(self.output_root or self.repo_root / "analysis" / "outputs_readable_skill_v1")
         self.skill_root = Path(self.skill_root or self.repo_root / "SKILL_MINING_V2_READABLE")
+        self.knowledge_root = Path(self.knowledge_root or self.repo_root / "data_sc2_260701")
+        self.failure_diagnostics = Path(self.failure_diagnostics).resolve() if self.failure_diagnostics else None
         self.methods = tuple(self.methods)
         self.openings = tuple(self.openings)
         unknown = set(self.methods) - set(METHODS)
@@ -57,6 +61,8 @@ def parse_args(argv: list[str] | None = None) -> PipelineConfig:
     p.add_argument("--input-root", type=Path)
     p.add_argument("--output-root", type=Path)
     p.add_argument("--skill-root", type=Path)
+    p.add_argument("--knowledge-root", type=Path)
+    p.add_argument("--failure-diagnostics", type=Path)
     p.add_argument("--methods", default=",".join(METHODS))
     p.add_argument("--openings", default="", help="comma-separated opening ids")
     p.add_argument("--from-stage", type=int, default=0)
@@ -69,6 +75,8 @@ def parse_args(argv: list[str] | None = None) -> PipelineConfig:
     a = p.parse_args(argv)
     return PipelineConfig(
         repo_root=a.repo_root, input_root=a.input_root, output_root=a.output_root, skill_root=a.skill_root,
+        knowledge_root=a.knowledge_root,
+        failure_diagnostics=a.failure_diagnostics,
         methods=tuple(x for x in a.methods.split(",") if x), openings=tuple(x for x in a.openings.split(",") if x),
         from_stage=a.from_stage, to_stage=a.to_stage, resume=a.resume, skip_llm=a.skip_llm,
         max_nodes=a.max_nodes, llm_workers=a.llm_workers, llm_model_key=a.llm_model_key,

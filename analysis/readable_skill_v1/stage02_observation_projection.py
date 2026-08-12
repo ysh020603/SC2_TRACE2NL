@@ -163,10 +163,15 @@ def build_projection(cfg: PipelineConfig, ir: dict, vocabulary: dict, raw: dict[
         own = projections.get(transition.get("source_state_id")) or {}
         opp = projections.get(transition.get("opponent_state_id")) or {}
         signature = _policy_signature(transition.get("response_cluster_features") or {})
+        trajectory_action_cues = [
+            str(x) for x in ((transition.get("response_cluster_features") or {}).get("representative_names") or [])
+            if x
+        ][:12]
         candidates.append({
             "node_type": badge, "phase": _phase(int((transition.get("phase") or [0])[0])),
             "own_state": own, "opponent_state": opp if policy(method)["opponent"] else {},
             "policy_signature": signature, "support": int(transition.get("support") or 0),
+            "trajectory_action_cues": trajectory_action_cues,
             "frequency": float(transition.get("frequency") or 0), "next_state_id": transition.get("next_state_id"),
             "source_state_id": transition.get("source_state_id"),
             "source_state_ids": [transition.get("source_state_id")],

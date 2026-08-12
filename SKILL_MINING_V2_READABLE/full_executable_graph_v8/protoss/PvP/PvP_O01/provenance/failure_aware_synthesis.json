@@ -1,0 +1,129 @@
+{
+  "annotation": {
+    "rules": [
+      {
+        "check": "Recheck at next decision cycle.",
+        "correction": "Queue a Gateway or Warp Gate if prerequisites are met, or add a tech structure (Cybernetics Core, Twilight Council) if production is sufficient. Prioritize spending bank on production and tech, not on extra bases or upgrades. Keep worker production active until saturation.",
+        "rule_id": "R01",
+        "title": "Maintain tech-economy tempo with continuous production",
+        "when": "At any time before 360s, if bank is above 800 minerals and production structures (completed + pending) are fewer than 3, or if any production structure is idle with bank above 400."
+      },
+      {
+        "check": "Recheck at next decision cycle.",
+        "correction": "If air threat, add Stalkers or Phoenixes from existing Gateways; if ground threat, add Sentries for force fields and detection. Ensure tech structures (Cybernetics Core, Twilight Council) are present to support these units. Continue economy and tech development.",
+        "rule_id": "R02",
+        "title": "Adapt to enemy air or ground composition",
+        "when": "If enemy intelligence shows a significant air presence (e.g., Void Rays, Phoenixes) or a ground-heavy composition with Zealots/Sentries, and your army lacks appropriate counters."
+      },
+      {
+        "check": "Recheck at next decision cycle.",
+        "correction": "Immediately queue units from all available production structures, prioritizing combat units (Zealots, Stalkers). If production is insufficient, add Gateways or Warp Gates. Do not expand or invest in tech until army supply is above 15 and bank is below 500.",
+        "rule_id": "R03",
+        "title": "Recover from low army and high bank",
+        "when": "If army supply is below 15 and bank is above 1000 minerals, or if predicted advantage is OverwhelmingDisadvantage."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "usage": {}
+  },
+  "method": "full_failure_aware_graph_v4",
+  "opening_id": "PvP_O01",
+  "private_failure_evidence": {
+    "agent_visible": false,
+    "digest": "cfd74556272a84aa020369bd138332ce58ff1caf6c4d4f26929011fe5714c463",
+    "summary": {
+      "bot_race": {
+        "decision_error_total": 1,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 6.0,
+            "bank": 915.2,
+            "bases": 1.2,
+            "production": 1.5,
+            "supply_providers": 5.8,
+            "workers": 26.0
+          },
+          "300": {
+            "army_supply": 12.5,
+            "bank": 1365.2,
+            "bases": 1.5,
+            "production": 2.5,
+            "supply_providers": 6.8,
+            "workers": 29.5
+          },
+          "360": {
+            "army_supply": 14.5,
+            "bank": 2029.2,
+            "bases": 2.0,
+            "production": 3.0,
+            "supply_providers": 7.5,
+            "workers": 32.0
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.437,
+          "average_bank": 1995.2,
+          "consume_per_min": 816.3
+        },
+        "defeats_with_three_or_more_supply_entries": 3,
+        "direct_matches": 20,
+        "outcome_counts_private": {
+          "Defeat": 4,
+          "Tie": 1,
+          "Victory": 15
+        }
+      },
+      "opening": {
+        "decision_error_total": 1,
+        "defeat_checkpoints": {
+          "240": {
+            "army_supply": 5.0,
+            "bank": 1121.5,
+            "bases": 1.5,
+            "production": 1.5,
+            "supply_providers": 5.0,
+            "workers": 25.0
+          },
+          "300": {
+            "army_supply": 7.0,
+            "bank": 1575.0,
+            "bases": 2.0,
+            "production": 2.0,
+            "supply_providers": 6.0,
+            "workers": 27.0
+          },
+          "360": {
+            "army_supply": 10.0,
+            "bank": 2595.0,
+            "bases": 2.5,
+            "production": 3.0,
+            "supply_providers": 6.5,
+            "workers": 30.0
+          }
+        },
+        "defeat_macro_average": {
+          "apu": 0.442,
+          "average_bank": 2440.3,
+          "consume_per_min": 765.6
+        },
+        "defeats_with_three_or_more_supply_entries": 2,
+        "direct_matches": 4,
+        "outcome_counts_private": {
+          "Defeat": 2,
+          "Tie": 1,
+          "Victory": 1
+        }
+      },
+      "scope_note_private": "opening-specific plus race evidence"
+    }
+  },
+  "schema_version": 1
+}

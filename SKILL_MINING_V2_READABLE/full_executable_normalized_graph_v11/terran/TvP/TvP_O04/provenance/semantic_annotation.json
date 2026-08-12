@@ -1,0 +1,142 @@
+{
+  "annotation": {
+    "nodes": [
+      {
+        "avoid_direction": "Avoid overcommitting to a specific army composition before you have more information about the opponent's strategy.",
+        "decision_direction": "Continue developing your economy and technology while strengthening your ground army. Maintain your current defensive posture and keep expanding.",
+        "exit_or_recheck_condition": "Re-evaluate when you have more scouting information about the opponent's army composition or if you detect an aggressive push.",
+        "next_state_summary": "Transition to a state with a stronger ground army and more defensive structures, while continuing to expand and tech.",
+        "node_id": "N001",
+        "node_type": "default",
+        "opponent_situation": "The opponent's army composition is unknown, but they have a heavy economy and technology investment. They are expanding and have moderate production. No specific threats are detected.",
+        "own_situation": "You have a heavy economy and production, with a ground army including Marines. Your technology is heavy, and you are expanding. Your defense is light, and you are not under immediate pressure.",
+        "strategic_reason": "This approach builds a strong foundation for the midgame, allowing you to transition into a powerful composition while staying flexible to respond to the opponent's tech choices.",
+        "title": "Early Midgame Ground Development",
+        "transition_goal": "Reach a state where you have a solid ground army and are ready to adapt to the opponent's composition.",
+        "trigger_summary": "At around 240 seconds, you have a ground-oriented army with heavy production and technology, while the opponent is still unknown but likely teching heavily."
+      },
+      {
+        "avoid_direction": "Avoid neglecting your economy while focusing on army composition.",
+        "decision_direction": "Continue strengthening your ground army and increase your technology investment. Consider adding air units to complement your ground forces. Maintain your expansion and production.",
+        "exit_or_recheck_condition": "Re-evaluate if the opponent transitions to a heavy air composition or if you face a timing attack.",
+        "next_state_summary": "Transition to a state with a more diverse army, including air support, and a stronger defensive posture.",
+        "node_id": "N002",
+        "node_type": "default",
+        "opponent_situation": "The opponent has a ground army with Stalkers, and they are expanding and teching heavily. They have heavy production and a possible pressure posture.",
+        "own_situation": "You have a heavy economy and production, with a ground army including Marines and Reapers. Your defense is moderate, and you are expanding. Your technology is heavy.",
+        "strategic_reason": "The opponent is ground-oriented, so a strong ground army is essential. Adding air units can provide flexibility and counter potential air transitions.",
+        "title": "Midgame Ground Army Strengthening",
+        "transition_goal": "Build a balanced army that can handle both ground and potential air threats.",
+        "trigger_summary": "At around 300 seconds, you have a ground army with Marines and Reapers, and the opponent is also ground-oriented with Stalkers. Both have heavy economies and technology."
+      },
+      {
+        "avoid_direction": "Avoid making early army commitments that could slow your economic growth.",
+        "decision_direction": "Focus on developing your economy and technology while maintaining a light defensive posture. Use your Reaper for scouting to gather information about the opponent's strategy.",
+        "exit_or_recheck_condition": "Re-evaluate when you have more scouting information or if the opponent shows signs of an early attack.",
+        "next_state_summary": "Transition to a state with a more defined army composition and stronger production.",
+        "node_id": "N003",
+        "node_type": "default",
+        "opponent_situation": "The opponent's army is unknown, but they have a heavy economy and technology. They are expanding and have moderate production.",
+        "own_situation": "You have a heavy economy and technology, with moderate production. Your army is small, with a Reaper for scouting. You are expanding.",
+        "strategic_reason": "This early game focus on economy and tech sets up a strong midgame, and scouting helps you adapt to the opponent's choices.",
+        "title": "Early Game Tech and Economy Focus",
+        "transition_goal": "Reach a state where you have a solid economic and technological foundation to support a strong army.",
+        "trigger_summary": "At around 180 seconds, both you and the opponent have unknown army compositions, but both are investing heavily in economy and technology."
+      },
+      {
+        "avoid_direction": "Avoid being caught off guard by warp prism harass; keep some units at home.",
+        "decision_direction": "Continue strengthening your ground army and increase your technology and upgrades. Maintain your air presence and consider adding more Medivacs for mobility and healing. Keep expanding.",
+        "exit_or_recheck_condition": "Re-evaluate if the opponent transitions to a heavy air composition or if you face a large push.",
+        "next_state_summary": "Transition to a state with a more upgraded army and possibly more defensive structures.",
+        "node_id": "N004",
+        "node_type": "default",
+        "opponent_situation": "The opponent has a ground army with Stalkers and Warp Prisms, indicating potential warp prism harass. They have heavy production and technology.",
+        "own_situation": "You have a heavy economy and production, with a ground army including Marines and Medivacs. Your defense is moderate, and you have moderate air presence. You are expanding.",
+        "strategic_reason": "The opponent's Warp Prism presence suggests they may attempt harass, so maintaining a mobile army with Medivacs is beneficial. Upgrades will help in engagements.",
+        "title": "Midgame Ground Army with Air Support",
+        "transition_goal": "Build a strong, mobile ground army with good upgrades to take favorable engagements.",
+        "trigger_summary": "At around 420 seconds, you have a ground army with Marines and Medivacs, while the opponent has a ground army with Stalkers and Warp Prisms. Both have heavy economies and technology."
+      },
+      {
+        "avoid_direction": "Avoid clumping your army, as High Templar storms can be devastating.",
+        "decision_direction": "Continue strengthening your ground army and increase your technology and upgrades. Consider adding more Siege Tanks for defensive strength and Marauders for tanking. Maintain your expansion.",
+        "exit_or_recheck_condition": "Re-evaluate if the opponent transitions to a heavy air composition or if you face a large engagement.",
+        "next_state_summary": "Transition to a state with a more upgraded army and possibly more defensive structures.",
+        "node_id": "N005",
+        "node_type": "default",
+        "opponent_situation": "The opponent has a ground army with Zealots, High Templars, Sentries, and Warp Prisms. They have heavy production and technology, and a possible pressure posture.",
+        "own_situation": "You have a heavy economy and production, with a ground army including Siege Tanks, Marines, and Marauders. Your defense is heavy, and you have moderate air presence. You are expanding.",
+        "strategic_reason": "The opponent's composition includes High Templars, so you need to be careful with your positioning and consider EMP or Ghosts. Siege Tanks provide good defensive capabilities.",
+        "title": "Late Midgame Ground Army with Siege Tanks",
+        "transition_goal": "Build a well-rounded army with good upgrades and positioning to counter the opponent's composition.",
+        "trigger_summary": "At around 600 seconds, you have a ground army with Siege Tanks, Marines, and Marauders, while the opponent has a ground army with Zealots, High Templars, Sentries, and Warp Prisms."
+      },
+      {
+        "avoid_direction": "Avoid neglecting your ground army, as the opponent may still have ground forces.",
+        "decision_direction": "Consider adding anti-air units such as Marines, Thors, or Vikings to counter the opponent's air presence. Maintain your ground army and continue expanding.",
+        "exit_or_recheck_condition": "Re-evaluate if the opponent transitions back to a ground composition or if you face a large push.",
+        "next_state_summary": "Transition to a state with a more balanced army, including anti-air units.",
+        "node_id": "N006",
+        "node_type": "default",
+        "opponent_situation": "The opponent has an air army with Phoenixes and Oracles, indicating a possible air harass or transition. They have heavy production and technology.",
+        "own_situation": "You have a heavy economy and production, with a ground army including Siege Tanks, Marines, and Reapers. Your defense is moderate, and you have light air presence. You are expanding.",
+        "strategic_reason": "The opponent's air units can be a threat, so you need to have a response. Adding anti-air units will help defend against harass and potential air attacks.",
+        "title": "Early Midgame Air Transition",
+        "transition_goal": "Build a balanced army that can handle both air and ground threats.",
+        "trigger_summary": "At around 360 seconds, the opponent has an air-oriented army with Phoenixes and Oracles, while you have a ground army with Siege Tanks and Marines."
+      },
+      {
+        "avoid_direction": "Avoid neglecting your ground army, as the opponent may still have ground forces.",
+        "decision_direction": "Increase your air presence and add anti-air units such as Vikings or Thors. Continue strengthening your ground army and maintain your defensive posture.",
+        "exit_or_recheck_condition": "Re-evaluate if the opponent transitions to a ground composition or if you face a large engagement.",
+        "next_state_summary": "Transition to a state with a more balanced army, including strong anti-air units.",
+        "node_id": "N007",
+        "node_type": "default",
+        "opponent_situation": "The opponent has a heavy air army with Phoenixes and Immortals, indicating a strong air composition. They have heavy production and technology.",
+        "own_situation": "You have a heavy economy and production, with a ground army including Marines and Marauders. Your defense is heavy, and you have moderate air presence. You are expanding.",
+        "strategic_reason": "The opponent's air army is a significant threat, so you need to invest in anti-air capabilities. Vikings can provide good air superiority, while Thors can also help.",
+        "title": "Midgame Air Defense",
+        "transition_goal": "Build a strong anti-air force while maintaining a solid ground army.",
+        "trigger_summary": "At around 540 seconds, the opponent has a heavy air presence with Phoenixes and Immortals, while you have a ground army with Marines and Marauders."
+      },
+      {
+        "avoid_direction": "Avoid neglecting your ground army, as the opponent may still have ground forces.",
+        "decision_direction": "Increase your air presence and add anti-air units such as Vikings or Thors. Continue strengthening your ground army and maintain your defensive posture.",
+        "exit_or_recheck_condition": "Re-evaluate if the opponent transitions to a ground composition or if you face a large engagement.",
+        "next_state_summary": "Transition to a state with a more balanced army, including strong anti-air units.",
+        "node_id": "N008",
+        "node_type": "default",
+        "opponent_situation": "The opponent has a heavy air army with Phoenixes and Sentries, indicating a strong air composition. They have heavy production and technology.",
+        "own_situation": "You have a heavy economy and production, with a ground army including Marines, Reapers, Medivacs, and Widow Mines. Your defense is heavy, and you have moderate air presence. You are expanding.",
+        "strategic_reason": "The opponent's air army is a significant threat, so you need to invest in anti-air capabilities. Vikings can provide good air superiority, while Thors can also help.",
+        "title": "Late Midgame Air and Ground Balance",
+        "transition_goal": "Build a strong anti-air force while maintaining a solid ground army.",
+        "trigger_summary": "At around 600 seconds, the opponent has a heavy air presence with Phoenixes and Sentries, while you have a ground army with Marines, Reapers, Medivacs, and Widow Mines."
+      }
+    ],
+    "opening": {
+      "army_character": "ground-leaning",
+      "economy_character": "heavy",
+      "flexibility_note": "This is a strategic template, not a fixed build order.",
+      "opening_family": "expansion / economy / technology opening",
+      "opening_name": "TvP_O04 Expansion / Economy / Technology",
+      "opening_summary": "A Terran opening that prioritizes a heavy economy and technology investment while maintaining a flexible, ground-leaning army posture. The early game focuses on establishing a strong economic base and teching up, with production ramping up as the game progresses. The approach is adaptable, allowing for adjustments based on scouting information about the Protoss opponent's composition and strategy.",
+      "production_character": "moderate",
+      "strategic_goal": "Develop a expansion / economy / technology posture while preserving flexibility for live observation-driven adaptation.",
+      "technology_character": "heavy"
+    }
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none"
+  },
+  "method": "ablation_positive_only",
+  "method_specific_annotation": true,
+  "opening_id": "TvP_O04",
+  "projection_path": "02_observation_projection/ablation_positive_only/TvP_O04.json"
+}

@@ -1,0 +1,118 @@
+{
+  "method": "full_prompt_executable_graph_v9",
+  "nodes": {
+    "N001": {
+      "children": [
+        "N007"
+      ],
+      "path": "nodes/N001.md",
+      "summary": "Early game, own posture unknown-oriented with moderate production and heavy tech investment; opponent appears ground-oriented with light defense and heavy economy. Strengthen ground forces while increasing economy and continuing technology development.",
+      "title": "Early Tech/Economy Foundation",
+      "trigger_summary": "Early game, own posture unknown-oriented with moderate production and heavy tech investment; opponent appears ground-oriented with light defense and heavy economy.",
+      "type": "default"
+    },
+    "N002": {
+      "children": [],
+      "path": "nodes/N002.md",
+      "summary": "Early-midgame, own posture ground-oriented with heavy production and tech; opponent also ground-oriented with heavy production and possible pressure. Continue strengthening ground forces, increase economy and expansions, and maintain technology development.",
+      "title": "Ground Macro Development",
+      "trigger_summary": "Early-midgame, own posture ground-oriented with heavy production and tech; opponent also ground-oriented with heavy production and possible pressure.",
+      "type": "default"
+    },
+    "N003": {
+      "children": [],
+      "path": "nodes/N003.md",
+      "summary": "Midgame, both sides have heavy ground-oriented macro postures with heavy production and tech; own army includes Marines, Marauders, Medivacs. Increase air presence and technology while continuing to strengthen ground forces and economy.",
+      "title": "Midgame Ground Army Consolidation",
+      "trigger_summary": "Midgame, both sides have heavy ground-oriented macro postures with heavy production and tech; own army includes Marines, Marauders, Medivacs.",
+      "type": "default"
+    },
+    "N004": {
+      "children": [],
+      "path": "nodes/N004.md",
+      "summary": "Early game, own posture unknown-oriented with moderate production and heavy tech; opponent has heavy defense and heavy economy. Strengthen ground forces while increasing economy and maintaining production.",
+      "title": "Early Defensive Tech",
+      "trigger_summary": "Early game, own posture unknown-oriented with moderate production and heavy tech; opponent has heavy defense and heavy economy.",
+      "type": "default"
+    },
+    "N005": {
+      "children": [
+        "N003"
+      ],
+      "path": "nodes/N005.md",
+      "summary": "Early-midgame, own posture ground-oriented with moderate production and heavy tech; opponent has heavy production and possible pressure. Maintain current army path and continue developing with safety checks.",
+      "title": "Stabilized Ground Midgame",
+      "trigger_summary": "Early-midgame, own posture ground-oriented with moderate production and heavy tech; opponent has heavy production and possible pressure.",
+      "type": "default"
+    },
+    "N006": {
+      "children": [],
+      "path": "nodes/N006.md",
+      "summary": "Late-midgame, own posture ground-oriented with heavy production and tech, moderate air presence; opponent ground-oriented with heavy defense. Increase air presence and strengthen air forces while continuing to expand and tech up.",
+      "title": "Late-Midgame Air Transition",
+      "trigger_summary": "Late-midgame, own posture ground-oriented with heavy production and tech, moderate air presence; opponent ground-oriented with heavy defense.",
+      "type": "default"
+    },
+    "N007": {
+      "children": [
+        "N002"
+      ],
+      "path": "nodes/N007.md",
+      "summary": "Early-midgame, own posture ground-oriented with moderate production and heavy tech; opponent has heavy production and possible pressure. Strengthen ground forces while increasing economy and maintaining production.",
+      "title": "Early-Midgame Ground Reinforcement",
+      "trigger_summary": "Early-midgame, own posture ground-oriented with moderate production and heavy tech; opponent has heavy production and possible pressure.",
+      "type": "default"
+    },
+    "N008": {
+      "children": [
+        "N002"
+      ],
+      "path": "nodes/N008.md",
+      "summary": "Early game, own posture unknown-oriented with moderate production and heavy tech; opponent has light defense and heavy economy. Strengthen ground forces, increase economy and expansions, and continue technology development.",
+      "title": "Early Expansion and Tech",
+      "trigger_summary": "Early game, own posture unknown-oriented with moderate production and heavy tech; opponent has light defense and heavy economy.",
+      "type": "default"
+    },
+    "N009": {
+      "children": [
+        "N010"
+      ],
+      "path": "nodes/N009.md",
+      "summary": "Midgame, own posture ground-oriented with heavy production and tech; opponent has heavy defense and heavy economy. Strengthen ground forces while increasing economy and production.",
+      "title": "Midgame Ground Stability",
+      "trigger_summary": "Midgame, own posture ground-oriented with heavy production and tech; opponent has heavy defense and heavy economy.",
+      "type": "default"
+    },
+    "N010": {
+      "children": [
+        "N006"
+      ],
+      "path": "nodes/N010.md",
+      "summary": "Midgame, own posture ground-oriented with heavy production and tech; opponent has heavy defense and moderate air presence. Strengthen ground forces while maintaining economy and technology development.",
+      "title": "Midgame Ground Army with Siege Tanks",
+      "trigger_summary": "Midgame, own posture ground-oriented with heavy production and tech; opponent has heavy defense and moderate air presence.",
+      "type": "default"
+    },
+    "N011": {
+      "children": [],
+      "path": "nodes/N011.md",
+      "summary": "Late-midgame, own posture ground-oriented with heavy production and tech; opponent has heavy defense and moderate air presence. Strengthen ground forces, increase defense, economy, and expansions.",
+      "title": "Late-Midgame Ground Defense",
+      "trigger_summary": "Late-midgame, own posture ground-oriented with heavy production and tech; opponent has heavy defense and moderate air presence.",
+      "type": "default"
+    },
+    "N012": {
+      "children": [
+        "N006"
+      ],
+      "path": "nodes/N012.md",
+      "summary": "Midgame, own posture ground-oriented with heavy production and tech; opponent has heavy defense and moderate air presence. Maintain current army path and continue developing with safety checks.",
+      "title": "Midgame Ground Army with Medivacs",
+      "trigger_summary": "Midgame, own posture ground-oriented with heavy production and tech; opponent has heavy defense and moderate air presence.",
+      "type": "default"
+    }
+  },
+  "opening_name": "TvT_O03 Technology / Economy / Upgrade",
+  "root": "SKILL.md",
+  "skill_id": "TvT_O03"
+}

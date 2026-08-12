@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Focus on increasing your economy and expansion while continuing technology development. Strengthen ground forces as a baseline and maintain a defensive posture.",
+        "lesson_id": "L01",
+        "mistake": "Committing to a large army before knowing the enemy's plan, which can leave you vulnerable to tech switches or economic deficits.",
+        "recheck": "Re-evaluate once you have more scouting information about the opponent's army composition.",
+        "target_node_id": "N002",
+        "title": "Avoid premature army investment",
+        "when": "Early game, around 180 seconds, when both players have unknown army postures but heavy technology investment, and your production is moderate while the opponent's is heavy.",
+        "why": "With the opponent's army unknown, building a solid economy and tech base allows flexibility to adapt to whatever the opponent reveals."
+      },
+      {
+        "correction": "Increase defensive capabilities while continuing to strengthen ground forces. Maintain economy and expansion, and consider adding siege tanks to your composition.",
+        "lesson_id": "L02",
+        "mistake": "Being too passive, allowing the opponent to gain an economic advantage, or engaging without proper siege setup.",
+        "recheck": "Re-evaluate if the opponent attempts to break your defensive line or transitions to air.",
+        "target_node_id": "N003",
+        "title": "Avoid passivity and unsieged engagements",
+        "when": "Midgame, around 420-540 seconds, when both players have ground-oriented macro postures with heavy production and technology, and the opponent shows siege tanks and marines.",
+        "why": "With both sides having heavy ground armies, a defensive posture with siege tanks helps hold position while teching and expanding, outlasting the opponent in a macro game."
+      },
+      {
+        "correction": "Continue strengthening ground forces while adding air support or anti-air capabilities to counter medivacs. Maintain defensive posture and economy.",
+        "lesson_id": "L03",
+        "mistake": "Neglecting air defense, leaving you vulnerable to Medivac drops and healing.",
+        "recheck": "Re-evaluate if the opponent commits heavily to air or if defensive positioning needs adjustment.",
+        "target_node_id": "N004",
+        "title": "Avoid neglecting air defense",
+        "when": "Late midgame, around 600 seconds, when both players have ground-oriented macro postures with heavy production and technology, and the opponent has medivacs while your air presence is light.",
+        "why": "The opponent's medivacs provide mobility and healing, so adding air units or anti-air helps deal with drops and sustain in engagements."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "TvT_O07",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "TvT_O07:N002->TvT_O07:N002",
+      "TvT_O07:N003->TvT_O07:N003",
+      "TvT_O07:N004->TvT_O07:N004"
+    ],
+    "source_digest": "4171b0a7fb8ed06e4f0f70508f7128c11b8845288e291cec728dbcc5e8e972a5",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

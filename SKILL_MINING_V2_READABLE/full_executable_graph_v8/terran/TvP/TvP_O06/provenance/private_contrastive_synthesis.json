@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Continue heavy production and technology, strengthen ground forces, and increase economy while maintaining expansion.",
+        "lesson_id": "L01",
+        "mistake": "Focusing solely on economy and technology, neglecting army production, leaving you vulnerable to early timing attacks.",
+        "recheck": "Re-evaluate when opponent's first combat units are scouted or when transitioning to midgame.",
+        "target_node_id": "N001",
+        "title": "Avoid neglecting army production while teching",
+        "when": "Early game, own ground macro with heavy production and tech, opponent posture unknown but heavy economy and tech.",
+        "why": "A heavy tech/economy opening benefits from uninterrupted development; maintaining a strong ground core provides safety against early pressure."
+      },
+      {
+        "correction": "Continue strengthening ground forces, maintain economy and production, and keep tech development on track.",
+        "lesson_id": "L02",
+        "mistake": "Over-extending your army without proper scouting, leaving you vulnerable to warp prism harass.",
+        "recheck": "Re-check if opponent shows signs of air transition or heavy pressure.",
+        "target_node_id": "N002",
+        "title": "Avoid overextending without scouting",
+        "when": "Early-midgame, own ground macro with Siege Tanks and Marines, opponent ground posture with Warp Prism.",
+        "why": "A ground-based composition with Siege Tanks provides strong defensive and offensive capability against a ground-oriented Protoss."
+      },
+      {
+        "correction": "Increase air presence and technology, strengthen air forces, and continue expanding.",
+        "lesson_id": "L03",
+        "mistake": "Neglecting your ground army while focusing on air, leaving you vulnerable to remaining ground forces.",
+        "recheck": "Re-check when opponent's composition is fully known.",
+        "target_node_id": "N010",
+        "title": "Avoid neglecting ground army when transitioning to air",
+        "when": "Late-midgame, own ground macro with Siege Tanks, Marines, Reapers, and Battlecruisers, opponent ground posture with Void Rays.",
+        "why": "Void Rays are strong against ground, so transitioning to air with Battlecruisers provides a counter."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "TvP_O06",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "TvP_O06:N002->TvP_O06:N001",
+      "TvP_O06:N004->TvP_O06:N002",
+      "TvP_O06:N011->TvP_O06:N010"
+    ],
+    "source_digest": "9db4ef5d146082ba6656f79270675ac3757dd43fe631936499cec1bd5d1350dd",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}

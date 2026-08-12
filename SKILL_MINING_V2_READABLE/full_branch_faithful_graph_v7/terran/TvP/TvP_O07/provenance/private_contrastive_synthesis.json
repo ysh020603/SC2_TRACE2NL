@@ -1,0 +1,60 @@
+{
+  "annotation": {
+    "lessons": [
+      {
+        "correction": "Maintain your ground army and continue expanding, but add anti-air units like Marines or Thors to counter potential Void Rays.",
+        "lesson_id": "L01",
+        "mistake": "Sticking to a pure ground composition without anti-air, leaving your army vulnerable to Void Rays.",
+        "recheck": "Recheck if the opponent commits heavily to air or if you need to adjust your composition.",
+        "target_node_id": "N005",
+        "title": "Anti-Air Gap vs Void Rays",
+        "when": "Midgame, around 420 seconds, with a heavy ground army and economy, and enemy scouting shows Zealots and Void Rays.",
+        "why": "Your ground army is strong, but Void Rays threaten it. Adding anti-air ensures you can handle mixed compositions."
+      },
+      {
+        "correction": "Increase your anti-air capabilities by adding Thors, Vikings, or more Marines, while continuing to strengthen your ground army and maintain economy.",
+        "lesson_id": "L02",
+        "mistake": "Continuing to strengthen ground forces without adding anti-air, leaving you unable to fight the enemy's air-heavy army.",
+        "recheck": "Recheck if the opponent transitions to more ground or if you need to adjust your composition.",
+        "target_node_id": "N008",
+        "title": "Insufficient Anti-Air vs Heavy Air",
+        "when": "Midgame, around 480 seconds, with a heavy ground army and economy, and enemy scouting shows Zealots, Stalkers, Phoenixes, and Observers.",
+        "why": "The opponent's air army is strong, but your heavy economy allows a tech switch to support your ground with anti-air."
+      },
+      {
+        "correction": "Maintain your ground army but start preparing anti-air by adding Marines and possibly Thors or Vikings, while continuing to expand and tech.",
+        "lesson_id": "L03",
+        "mistake": "Over-investing in anti-air or abandoning your ground army in response to Oracle harassment.",
+        "recheck": "Recheck when you see more air units (e.g., Phoenix, Void Rays) or if the opponent switches back to ground.",
+        "target_node_id": "N006",
+        "title": "Overreacting to Oracles",
+        "when": "Early-midgame, around 300 seconds, with a heavy ground army and economy, and enemy scouting shows Zealots and Oracles.",
+        "why": "Oracles can harass, but your economy is strong. Adding anti-air defends against air threats without sacrificing your ground core."
+      }
+    ]
+  },
+  "annotation_source": "llm",
+  "llm_metadata": {
+    "attempt": 1,
+    "error": "",
+    "is_reasoning": false,
+    "model": "deepseek-v4-flash",
+    "model_key": "DeepSeek-V4-flash",
+    "reasoning_present": false,
+    "reasoning_source": "none",
+    "usage": {}
+  },
+  "method": "full_contrastive_graph_v3",
+  "opening_id": "TvP_O07",
+  "private_pairing_provenance": {
+    "agent_visible": false,
+    "pair_ids": [
+      "TvP_O07:N005->TvP_O07:N005",
+      "TvP_O07:N008->TvP_O07:N008",
+      "TvP_O04:N007->TvP_O07:N006"
+    ],
+    "source_digest": "1087ffd45fe89a744b6899518a3f675d52cafca92a68347d5919d7c886d1e48c",
+    "source_method": "full_signed_graph"
+  },
+  "schema_version": 1
+}
